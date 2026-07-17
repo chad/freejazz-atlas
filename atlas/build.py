@@ -165,6 +165,15 @@ def build_html(venues: list, musicians: list) -> str:
   .maplegend {{ display:flex; gap:.9rem; flex-wrap:wrap; font-size:.78rem; color:var(--mut); margin:-.3rem 0 .3rem; }}
   .maplegend span {{ display:inline-flex; align-items:center; gap:.35rem; }}
   .dot {{ width:11px; height:11px; border-radius:50%; display:inline-block; }}
+  .artistbar {{ position:relative; margin-top:.9rem; max-width:520px; }}
+  .artistbar input {{ width:100%; padding:.55rem .7rem; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--fg); font-size:.95rem; }}
+  .artistresults {{ position:absolute; z-index:5; left:0; right:0; background:var(--card); border:1px solid var(--line); border-radius:8px; margin-top:4px; max-height:300px; overflow:auto; box-shadow:0 8px 28px #0004; }}
+  .ares {{ padding:.5rem .7rem; cursor:pointer; border-bottom:1px solid var(--line); font-size:.9rem; }}
+  .ares:last-child {{ border-bottom:0; }}
+  .ares:hover {{ background:var(--line); }}
+  .ares small {{ color:var(--mut); }}
+  .artistbanner {{ background:var(--card); border:1px solid var(--accent); border-radius:10px; padding:.7rem .9rem; margin-top:.9rem; font-size:.92rem; }}
+  .artistbanner .x {{ float:right; cursor:pointer; color:var(--accent); font-weight:600; }}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -175,6 +184,11 @@ def build_html(venues: list, musicians: list) -> str:
   <div class="sub">A curated, weighted directory of venues committed to free jazz,
   free improvisation &amp; avant-garde music — and the musicians keeping them alive.</div>
   <div style="margin-top:1rem"><a href="/submit" style="display:inline-block;background:#e05a6d;color:#0a0c12;font-weight:600;text-decoration:none;padding:.5rem 1rem;border-radius:8px">+ Add a venue</a></div>
+  <div class="artistbar">
+    <input type="search" id="artistq" placeholder="🎷  Find where an artist plays…" autocomplete="off">
+    <div id="artistresults" class="artistresults" hidden></div>
+  </div>
+  <div id="artistbanner" class="artistbanner" hidden></div>
 </div></header>
 <div class="wrap">
   <div id="map"></div>
@@ -200,6 +214,9 @@ def build_html(venues: list, musicians: list) -> str:
 <script>
 const DATA = JSON.parse(document.getElementById('data').textContent);
 const V = DATA.venues;
+const M = (DATA.musicians || []);
+const venueById = Object.fromEntries(V.map(v => [v.id, v]));
+let ACTIVE_ARTIST = null;
 const tierLabel = Object.fromEntries(DATA.rubric.tiers.map(t => [t.key, t.label]));
 const regions = [...new Set(V.map(v => (v.location||{{}}).region).filter(Boolean))].sort();
 const tiers = DATA.rubric.tiers.map(t => t.key);
@@ -270,7 +287,8 @@ function render() {{
   const tier = document.getElementById('tier').value;
   const region = document.getElementById('region').value;
   const sort = document.getElementById('sort').value;
-  let rows = V.slice();
+  const base = ACTIVE_ARTIST ? V.filter(v => (ACTIVE_ARTIST.associated_venues || []).includes(v.id)) : V;
+  let rows = base.slice();
   if (sort === 'name') rows.sort((a,b)=> (a.name||'').localeCompare(b.name||''));
   else if (sort === 'city') rows.sort((a,b)=> ((a.location||{{}}).city||'').localeCompare((b.location||{{}}).city||''));
   else rows.sort((a,b)=> b.score - a.score);
@@ -280,7 +298,9 @@ function render() {{
     return (!q || hay.includes(q)) && (!tier || v.tier === tier) && (!region || (loc.region||'') === region);
   }});
   document.getElementById('list').innerHTML = visible.map(card).join('');
-  document.getElementById('count').textContent = visible.length + ' of ' + V.length + ' venues';
+  document.getElementById('count').textContent = ACTIVE_ARTIST
+    ? (visible.length + ' venue' + (visible.length!==1?'s':'') + ' where ' + ACTIVE_ARTIST.name + ' plays')
+    : (visible.length + ' of ' + V.length + ' venues');
   updateMap(visible);
 }}
 document.getElementById('list').addEventListener('click', e => {{
@@ -290,6 +310,55 @@ document.getElementById('list').addEventListener('click', e => {{
   }}
 }});
 ['q','tier','region','sort'].forEach(id => document.getElementById(id).addEventListener('input', render));
+
+// --- fan view: find where an artist plays ---
+function artistRow(a) {{
+  const instr = (a.instruments||[]).join(', ');
+  const hb = a.home_base || {{}};
+  const place = [hb.city, hb.region, (hb.country && hb.country!=='US'?hb.country:'')].filter(Boolean).join(', ');
+  const n = (a.associated_venues||[]).filter(id => venueById[id]).length;
+  return `<div class="ares" data-id="${{esc(a.id)}}"><b>${{esc(a.name)}}</b>`
+    + (instr ? ` <small>· ${{esc(instr)}}</small>` : '')
+    + (place ? ` <small>· ${{esc(place)}}</small>` : '')
+    + ` <small>· ${{n}} venue${{n!==1?'s':''}}</small></div>`;
+}}
+const aq = document.getElementById('artistq');
+const ares = document.getElementById('artistresults');
+aq.addEventListener('input', () => {{
+  const q = aq.value.toLowerCase().trim();
+  if (!q) {{ ares.hidden = true; return; }}
+  const hits = M.filter(a => (a.name+' '+(a.instruments||[]).join(' ')).toLowerCase().includes(q)).slice(0, 12);
+  ares.innerHTML = hits.length ? hits.map(artistRow).join('')
+    : '<div class="ares"><small>no matching artist yet — the roster is still growing</small></div>';
+  ares.hidden = false;
+}});
+ares.addEventListener('click', e => {{
+  const el = e.target.closest('.ares'); if (!el || !el.dataset.id) return;
+  selectArtist(M.find(a => a.id === el.dataset.id));
+}});
+document.addEventListener('click', e => {{ if (!e.target.closest('.artistbar')) ares.hidden = true; }});
+function selectArtist(a) {{
+  if (!a) return;
+  ACTIVE_ARTIST = a; ares.hidden = true; aq.value = a.name;
+  const instr = (a.instruments||[]).join(', ');
+  const hb = a.home_base || {{}};
+  const place = [hb.city, hb.region, (hb.country && hb.country!=='US'?hb.country:'')].filter(Boolean).join(', ');
+  const site = a.website ? ` &middot; <a href="${{esc(a.website)}}" target="_blank" rel="noopener">site</a>` : '';
+  const nv = (a.associated_venues||[]).filter(id => venueById[id]).length;
+  const b = document.getElementById('artistbanner');
+  b.innerHTML = `<span class="x" id="clearartist">clear ✕</span><b>${{esc(a.name)}}</b>`
+    + (instr ? ` — ${{esc(instr)}}` : '') + (place ? ` — ${{esc(place)}}` : '') + site
+    + `<br><small>${{nv ? 'Showing '+nv+' venue'+(nv!==1?'s':'')+' in the Atlas where they play.' : 'No linked venues in the Atlas yet — help us add them.'}}</small>`;
+  b.hidden = false;
+  render();
+}}
+document.getElementById('artistbanner').addEventListener('click', e => {{
+  if (e.target.id === 'clearartist') {{
+    ACTIVE_ARTIST = null; aq.value = '';
+    document.getElementById('artistbanner').hidden = true; render();
+  }}
+}});
+
 initMap();
 render();
 </script>
