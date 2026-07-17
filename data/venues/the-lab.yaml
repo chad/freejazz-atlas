@@ -1,0 +1,59 @@
+id: the-lab
+name: The Lab
+aliases: []
+status: active
+location:
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: Mission District
+  lat: 37.762
+  lon: -122.4211
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.thelab.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Multidisciplinary nonprofit presenting experimental and improvised music among
+      other art forms.
+    sources:
+    - https://www.thelab.org/
+  show_frequency:
+    value: 3
+    sources:
+    - https://www.thelab.org/
+  artist_roster:
+    value: 4
+    sources:
+    - https://www.thelab.org/
+  self_description:
+    value: 4
+    sources:
+    - https://www.thelab.org/
+  operating_model:
+    value: 5
+    evidence: Nonprofit artist-centered space.
+    sources:
+    - https://www.thelab.org/
+  community_reputation:
+    value: 3
+    sources:
+    - https://www.thelab.org/
+  listening_room:
+    value: 3
+    sources:
+    - https://www.thelab.org/
+score: 70
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.thelab.org/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: confirm current experimental-music cadence and 2026 programming.'

@@ -1,0 +1,70 @@
+id: luggage-store-gallery
+name: Luggage Store Gallery
+aliases:
+- LSG Creative Music Series
+status: active
+location:
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: Tenderloin
+  lat: 37.7825
+  lon: -122.4103
+type: gallery
+operating_model: nonprofit
+capacity: null
+website: https://www.luggagestoregallerysf.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Long-standing new-music series curated by Outsound Presents / Rent Romus; historically
+      the Bay Area's longest-running experimental series (since 1991).
+    sources:
+    - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+    - https://outsound.org/programs/
+  show_frequency:
+    value: 3
+    sources:
+    - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+    - https://outsound.org/programs/
+  artist_roster:
+    value: 5
+    evidence: Free improvisation, electronic manipulation, noise, sonic sculpture.
+    sources:
+    - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+    - https://outsound.org/programs/
+  self_description:
+    value: 4
+    sources:
+    - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+    - https://outsound.org/programs/
+  operating_model:
+    value: 5
+    evidence: Gallery + Outsound volunteer collective.
+    sources:
+    - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+    - https://outsound.org/programs/
+  community_reputation:
+    value: 3
+    sources:
+    - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+    - https://outsound.org/programs/
+  listening_room:
+    value: 3
+    sources:
+    - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+    - https://outsound.org/programs/
+score: 79
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
+  - https://outsound.org/programs/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: the weekly LSG New Music Series was retired Dec 2024; a twice-monthly
+  Creative Music Series is reported to continue. Confirm current cadence.'

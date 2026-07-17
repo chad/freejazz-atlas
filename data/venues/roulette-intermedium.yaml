@@ -1,0 +1,60 @@
+id: roulette-intermedium
+name: Roulette Intermedium
+aliases:
+- Roulette
+status: active
+location:
+  city: Brooklyn
+  region: NY
+  country: US
+  neighborhood: Boerum Hill
+  lat: 40.6862
+  lon: -73.9817
+type: dedicated_space
+operating_model: nonprofit
+capacity: 400
+website: https://roulette.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Long-running nonprofit presenter of experimental, improvised, and new music.
+    sources:
+    - https://en.wikipedia.org/wiki/Roulette_Intermedium
+  show_frequency:
+    value: 4
+    sources:
+    - https://en.wikipedia.org/wiki/Roulette_Intermedium
+  artist_roster:
+    value: 5
+    evidence: Extensive experimental/new-music/improviser roster.
+    sources:
+    - https://en.wikipedia.org/wiki/Roulette_Intermedium
+  self_description:
+    value: 4
+    sources:
+    - https://en.wikipedia.org/wiki/Roulette_Intermedium
+  operating_model:
+    value: 5
+    evidence: Nonprofit performing-arts organization.
+    sources:
+    - https://en.wikipedia.org/wiki/Roulette_Intermedium
+  community_reputation:
+    value: 4
+    sources:
+    - https://en.wikipedia.org/wiki/Roulette_Intermedium
+  listening_room:
+    value: 4
+    sources:
+    - https://en.wikipedia.org/wiki/Roulette_Intermedium
+score: 91
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Roulette_Intermedium
+  needs_human_review: false
+notes: Larger flagship experimental-music presenter.

@@ -1,0 +1,63 @@
+id: the-stone
+name: The Stone
+aliases:
+- The Stone at The New School
+status: active
+location:
+  city: New York
+  region: NY
+  country: US
+  neighborhood: Greenwich Village
+  lat: 40.7357
+  lon: -73.9967
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: http://thestonenyc.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Not-for-profit experimental music space founded by John Zorn (2005); weekly
+      artist-curated residencies.
+    sources:
+    - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+  show_frequency:
+    value: 4
+    sources:
+    - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+  artist_roster:
+    value: 5
+    evidence: Deep roster of experimental/avant-garde musicians.
+    sources:
+    - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+  self_description:
+    value: 5
+    evidence: The vast majority of performers are part of the experimental/avant-garde scene.
+    sources:
+    - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+  operating_model:
+    value: 5
+    evidence: Nonprofit; all door revenue goes to performers; no food/drinks sold.
+    sources:
+    - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+  community_reputation:
+    value: 4
+    sources:
+    - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+  listening_room:
+    value: 5
+    evidence: No food, drink, or dancing — pure listening space.
+    sources:
+    - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+score: 94
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/The_Stone_(music_space)
+  needs_human_review: false
+notes: Now at The Glass Box Theatre, The New School (55 W. 13th St).

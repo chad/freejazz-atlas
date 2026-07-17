@@ -1,0 +1,45 @@
+id: kerrytown-concert-house
+name: Kerrytown Concert House
+aliases:
+- Edgefest
+status: active
+location:
+  city: Ann Arbor
+  region: MI
+  country: US
+  lat: 42.284
+  lon: -83.746
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://kerrytownconcerthouse.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit concert house; home of Edgefest, a festival of creative/adventurous
+      jazz and improvised music.
+  show_frequency:
+    value: 3
+  artist_roster:
+    value: 3
+  self_description:
+    value: 3
+  operating_model:
+    value: 5
+    evidence: Nonprofit concert house.
+  community_reputation:
+    value: 3
+  listening_room:
+    value: 4
+    evidence: Seated concert-house listening environment.
+score: 65
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls: []
+  needs_human_review: true
+notes: 'NEEDS REVIEW: confirm Edgefest continuity and season.'

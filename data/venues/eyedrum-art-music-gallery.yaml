@@ -1,0 +1,43 @@
+id: eyedrum-art-music-gallery
+name: Eyedrum Art & Music Gallery
+aliases: []
+status: active
+location:
+  city: Atlanta
+  region: GA
+  country: US
+  lat: 33.749
+  lon: -84.385
+type: gallery
+operating_model: nonprofit
+capacity: null
+website: https://eyedrum.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit art/music gallery with a long history of experimental and improvised
+      music.
+  show_frequency:
+    value: 3
+  artist_roster:
+    value: 3
+  self_description:
+    value: 4
+  operating_model:
+    value: 5
+    evidence: Volunteer-driven nonprofit gallery.
+  community_reputation:
+    value: 3
+  listening_room:
+    value: 3
+score: 66
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls: []
+  needs_human_review: true
+notes: 'NEEDS REVIEW: confirm current venue location and programming.'

@@ -1,0 +1,60 @@
+id: gallery-1412
+name: Gallery 1412
+aliases: []
+status: active
+location:
+  city: Seattle
+  region: WA
+  country: US
+  neighborhood: Central District
+  lat: 47.613
+  lon: -122.314
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://gallery1412dotorg.wordpress.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Small DIY storefront run by a collective of musicians, geared toward improvised
+      and other experimental music.
+    sources:
+    - https://gallery1412dotorg.wordpress.com/
+  show_frequency:
+    value: 4
+    sources:
+    - https://gallery1412dotorg.wordpress.com/
+  artist_roster:
+    value: 5
+    evidence: Improvised and experimental musicians.
+    sources:
+    - https://gallery1412dotorg.wordpress.com/
+  self_description:
+    value: 5
+    sources:
+    - https://gallery1412dotorg.wordpress.com/
+  operating_model:
+    value: 5
+    evidence: Musician collective, DIY.
+    sources:
+    - https://gallery1412dotorg.wordpress.com/
+  community_reputation:
+    value: 3
+    sources:
+    - https://gallery1412dotorg.wordpress.com/
+  listening_room:
+    value: 4
+    sources:
+    - https://gallery1412dotorg.wordpress.com/
+score: 87
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://gallery1412dotorg.wordpress.com/
+  needs_human_review: false
+notes: DIY improvised/experimental storefront.

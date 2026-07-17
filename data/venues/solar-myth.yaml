@@ -1,0 +1,72 @@
+id: solar-myth
+name: Solar Myth
+aliases:
+- Ars Nova Workshop
+status: active
+location:
+  city: Philadelphia
+  region: PA
+  country: US
+  neighborhood: South Broad
+  lat: 39.9339
+  lon: -75.1655
+type: dedicated_space
+operating_model: nonprofit
+capacity: 300
+website: https://www.arsnovaworkshop.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Ars Nova Workshop's full-time home; a listening room named for Sun Ra, programming
+      adventurous jazz and experimental music.
+    sources:
+    - https://www.arsnovaworkshop.org/
+    - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+  show_frequency:
+    value: 4
+    evidence: Frequent Ars Nova-curated concerts through the year.
+    sources:
+    - https://www.arsnovaworkshop.org/
+    - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+  artist_roster:
+    value: 5
+    evidence: Marshall Allen, Immanuel Wilkins, Nduduzo Makhathini and the creative-music
+      circuit.
+    sources:
+    - https://www.arsnovaworkshop.org/
+    - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+  self_description:
+    value: 5
+    sources:
+    - https://www.arsnovaworkshop.org/
+    - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+  operating_model:
+    value: 5
+    evidence: Ars Nova Workshop is a nonprofit presenter of creative/experimental music.
+    sources:
+    - https://www.arsnovaworkshop.org/
+    - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+  community_reputation:
+    value: 4
+    sources:
+    - https://www.arsnovaworkshop.org/
+    - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+  listening_room:
+    value: 5
+    evidence: Vinyl listening bar / dedicated listening room.
+    sources:
+    - https://www.arsnovaworkshop.org/
+    - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+score: 94
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.arsnovaworkshop.org/
+  - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
+  needs_human_review: false
+notes: Reopened 2022 in the former Boot & Saddle; presents Ars Nova Workshop programming.

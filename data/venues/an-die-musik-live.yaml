@@ -1,0 +1,43 @@
+id: an-die-musik-live
+name: An Die Musik Live
+aliases: []
+status: active
+location:
+  city: Baltimore
+  region: MD
+  country: US
+  lat: 39.297
+  lon: -76.615
+type: dedicated_space
+operating_model: commercial
+capacity: null
+website: https://www.andiemusiklive.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Intimate acoustic listening room presenting jazz including creative/adventurous
+      artists.
+  show_frequency:
+    value: 3
+  artist_roster:
+    value: 3
+  self_description:
+    value: 3
+  operating_model:
+    value: 2
+  community_reputation:
+    value: 3
+  listening_room:
+    value: 5
+    evidence: Dedicated seated listening room.
+score: 60
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls: []
+  needs_human_review: true
+notes: 'NEEDS REVIEW: confirm share of free/avant vs. mainstream jazz.'

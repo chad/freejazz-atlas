@@ -1,0 +1,70 @@
+id: elastic-arts
+name: Elastic Arts
+aliases:
+- Elastic Arts Foundation
+status: active
+location:
+  city: Chicago
+  region: IL
+  country: US
+  neighborhood: Avondale
+  lat: 41.9316
+  lon: -87.7118
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://elasticarts.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Home of the Elastic Improvised Music Series, running weekly since April 2002
+      (curated 2002-2023 by Dave Rempis; now Ishmael Ali, Molly Jones, Ben Zucker).
+    sources:
+    - https://elasticarts.org/improvised-music-series
+    - https://elasticarts.org/
+  show_frequency:
+    value: 4
+    evidence: Weekly improvised-music series plus other experimental programming.
+    sources:
+    - https://elasticarts.org/improvised-music-series
+    - https://elasticarts.org/
+  artist_roster:
+    value: 5
+    evidence: Core of Chicago's improvised-music community.
+    sources:
+    - https://elasticarts.org/improvised-music-series
+    - https://elasticarts.org/
+  self_description:
+    value: 5
+    sources:
+    - https://elasticarts.org/improvised-music-series
+    - https://elasticarts.org/
+  operating_model:
+    value: 5
+    evidence: 501(c)(3) not-for-profit for independent artists of all disciplines.
+    sources:
+    - https://elasticarts.org/improvised-music-series
+    - https://elasticarts.org/
+  community_reputation:
+    value: 4
+    sources:
+    - https://elasticarts.org/improvised-music-series
+    - https://elasticarts.org/
+  listening_room:
+    value: 4
+    sources:
+    - https://elasticarts.org/improvised-music-series
+    - https://elasticarts.org/
+score: 93
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://elasticarts.org/improvised-music-series
+  - https://elasticarts.org/
+  needs_human_review: false
+notes: Cornerstone of the Chicago improvised-music scene.

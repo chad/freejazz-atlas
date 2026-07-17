@@ -1,0 +1,44 @@
+id: bird-beckett-books-and-records
+name: Bird & Beckett Books and Records
+aliases: []
+status: active
+location:
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: Glen Park
+  lat: 37.734
+  lon: -122.433
+type: record_store
+operating_model: commercial
+capacity: null
+website: https://www.birdbeckett.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Independent bookstore hosting a long-running weekly jazz and creative-music
+      series.
+  show_frequency:
+    value: 4
+  artist_roster:
+    value: 3
+  self_description:
+    value: 2
+  operating_model:
+    value: 3
+  community_reputation:
+    value: 3
+  listening_room:
+    value: 4
+    evidence: Intimate bookstore listening setting.
+score: 63
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls: []
+  needs_human_review: true
+notes: 'NEEDS REVIEW: leans jazz; confirm share of free/creative programming.'

@@ -1,0 +1,60 @@
+id: museum-of-human-achievement
+name: Museum of Human Achievement
+aliases:
+- MoHA
+status: active
+location:
+  city: Austin
+  region: TX
+  country: US
+  lat: 30.253
+  lon: -97.7
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://glasstire.com/venues/the-museum-of-human-achievement/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Warehouse arts venue hosting heavily experimental music including the No Idea
+      Festival, alongside other disciplines.
+    sources:
+    - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+  show_frequency:
+    value: 3
+    sources:
+    - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+  artist_roster:
+    value: 3
+    evidence: Experimental and improvised music among broader programming.
+    sources:
+    - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+  self_description:
+    value: 4
+    sources:
+    - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+  operating_model:
+    value: 5
+    evidence: Multidisciplinary DIY/artist-run warehouse space.
+    sources:
+    - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+  community_reputation:
+    value: 3
+    sources:
+    - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+  listening_room:
+    value: 3
+    sources:
+    - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+score: 66
+tier: committed
+confidence: 0.72
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
+  needs_human_review: false
+notes: Broad multidisciplinary warehouse; strong experimental strand (No Idea Festival).

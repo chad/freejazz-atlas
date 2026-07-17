@@ -1,0 +1,24 @@
+id: immanuel-wilkins
+name: Immanuel Wilkins
+instruments:
+- alto saxophone
+roles:
+- performer
+- bandleader
+home_base:
+  city: New York
+  region: NY
+  country: US
+active_this_year: true
+associated_venues:
+- solar-myth
+collectives: []
+website: null
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  source_urls:
+  - https://www.arsnovaworkshop.org/
+  needs_human_review: false
+  note: Quartet closing Philly Music Fest at Solar Myth, Oct 2026.

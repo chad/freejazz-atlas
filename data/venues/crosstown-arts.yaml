@@ -1,0 +1,72 @@
+id: crosstown-arts
+name: Crosstown Arts
+aliases: []
+status: active
+location:
+  city: Memphis
+  region: TN
+  country: US
+  neighborhood: Crosstown Concourse
+  lat: 35.1537
+  lon: -89.9925
+type: arts_center
+operating_model: nonprofit
+capacity: 417
+website: https://crosstownarts.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Broad contemporary arts center (visual art, residencies, film, music); books
+      some adventurous music but is not free-jazz-dedicated.
+    sources:
+    - https://crosstownarts.org/
+    - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+  show_frequency:
+    value: 2
+    sources:
+    - https://crosstownarts.org/
+    - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+  artist_roster:
+    value: 2
+    evidence: Wide-ranging lineups (Todd Snider, The Bad Plus, Booker T. Jones, Rebirth Brass
+      Band) — mostly not the free/avant circuit.
+    sources:
+    - https://crosstownarts.org/
+    - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+  self_description:
+    value: 2
+    evidence: Describes itself as a contemporary arts center, not an experimental-music venue.
+    sources:
+    - https://crosstownarts.org/
+    - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+  operating_model:
+    value: 4
+    evidence: Nonprofit arts organization, institutional in scale.
+    sources:
+    - https://crosstownarts.org/
+    - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+  community_reputation:
+    value: 2
+    sources:
+    - https://crosstownarts.org/
+    - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+  listening_room:
+    value: 5
+    evidence: The Green Room is a genuine acoustically-treated listening room without bar
+      distractions.
+    sources:
+    - https://crosstownarts.org/
+    - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+score: 47
+tier: supportive
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://crosstownarts.org/
+  - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
+  needs_human_review: false
+notes: 'ANCHOR: calibrated as MODERATE — on the list, but a broad arts center, not free-jazz-dedicated.'

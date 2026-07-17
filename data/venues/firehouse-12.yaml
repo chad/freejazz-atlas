@@ -1,0 +1,43 @@
+id: firehouse-12
+name: Firehouse 12
+aliases: []
+status: active
+location:
+  city: New Haven
+  region: CT
+  country: US
+  lat: 41.305
+  lon: -72.93
+type: dedicated_space
+operating_model: commercial
+capacity: null
+website: https://firehouse12.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Recording studio + performance space running an adventurous jazz/creative-music
+      concert series.
+  show_frequency:
+    value: 3
+  artist_roster:
+    value: 4
+  self_description:
+    value: 3
+  operating_model:
+    value: 2
+  community_reputation:
+    value: 3
+  listening_room:
+    value: 5
+    evidence: Dedicated listening-room performance space.
+score: 69
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls: []
+  needs_human_review: true
+notes: 'NEEDS REVIEW: confirm current season and cadence.'

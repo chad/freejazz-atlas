@@ -1,0 +1,27 @@
+id: joe-mcphee
+name: Joe McPhee
+instruments:
+- saxophone
+- trumpet
+- pocket trumpet
+roles:
+- performer
+- bandleader
+home_base:
+  city: Poughkeepsie
+  region: NY
+  country: US
+active_this_year: true
+associated_venues:
+- epistrophy-arts
+- nameless-sound
+collectives: []
+website: null
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  source_urls:
+  - https://www.furious.com/perfect/epistrophyarts.html
+  needs_human_review: true
+  note: Free-jazz elder presented by Epistrophy Arts and Nameless Sound.

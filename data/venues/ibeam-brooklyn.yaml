@@ -1,0 +1,73 @@
+id: ibeam-brooklyn
+name: IBeam Brooklyn
+aliases:
+- iBeam
+status: active
+location:
+  city: Brooklyn
+  region: NY
+  country: US
+  neighborhood: Gowanus
+  lat: 40.674
+  lon: -73.9845
+type: dedicated_space
+operating_model: artist_run
+capacity: 50
+website: https://www.ibeambrooklyn.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Member-owned space for innovative music; hosts the Brooklyn Free Spirit Festival
+      (3rd year in 2026); programs free-form and experimental jazz.
+    sources:
+    - https://www.ibeambrooklyn.com/about-1
+    - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+  show_frequency:
+    value: 5
+    evidence: Live music Tuesday-Sunday nights.
+    sources:
+    - https://www.ibeambrooklyn.com/about-1
+    - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+  artist_roster:
+    value: 5
+    evidence: Established and emerging improvisers; visiting artists workshop new works.
+    sources:
+    - https://www.ibeambrooklyn.com/about-1
+    - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+  self_description:
+    value: 5
+    evidence: Mission is to foster a community of innovative and creative musicians; hosts
+      free-form/experimental jazz.
+    sources:
+    - https://www.ibeambrooklyn.com/about-1
+    - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+  operating_model:
+    value: 5
+    evidence: Member owned and operated by professional musicians (artist-run).
+    sources:
+    - https://www.ibeambrooklyn.com/about-1
+    - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+  community_reputation:
+    value: 4
+    sources:
+    - https://www.ibeambrooklyn.com/about-1
+    - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+  listening_room:
+    value: 5
+    evidence: Intimate listening room; music is the point.
+    sources:
+    - https://www.ibeambrooklyn.com/about-1
+    - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+score: 98
+tier: cornerstone
+confidence: 0.9
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.ibeambrooklyn.com/about-1
+  - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
+  needs_human_review: false
+notes: 'ANCHOR: calibrated as a VERY HIGH cornerstone venue.'

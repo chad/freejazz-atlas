@@ -1,0 +1,26 @@
+id: ishmael-ali
+name: Ishmael Ali
+instruments:
+- cello
+- guitar
+- electronics
+roles:
+- performer
+- curator
+home_base:
+  city: Chicago
+  region: IL
+  country: US
+active_this_year: true
+associated_venues:
+- elastic-arts
+collectives: []
+website: null
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  source_urls:
+  - https://elasticarts.org/improvised-music-series
+  needs_human_review: false
+  note: Current co-curator of the Elastic Improvised Music Series.

@@ -1,0 +1,26 @@
+id: david-dove
+name: David Dove
+instruments:
+- trombone
+roles:
+- performer
+- educator
+- director
+home_base:
+  city: Houston
+  region: TX
+  country: US
+active_this_year: true
+associated_venues:
+- nameless-sound
+collectives:
+- Nameless Sound
+website: null
+confidence: 0.72
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  source_urls:
+  - https://en.wikipedia.org/wiki/Nameless_Sound
+  needs_human_review: false
+  note: Founder/director of Nameless Sound.

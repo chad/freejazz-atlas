@@ -1,0 +1,24 @@
+id: nduduzo-makhathini
+name: Nduduzo Makhathini
+instruments:
+- piano
+roles:
+- performer
+- bandleader
+home_base:
+  city: New York
+  region: NY
+  country: US
+active_this_year: true
+associated_venues:
+- solar-myth
+collectives: []
+website: null
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  source_urls:
+  - https://www.arsnovaworkshop.org/
+  needs_human_review: true
+  note: Two nights at Solar Myth, July 2026. South African-born; confirm US/home base.

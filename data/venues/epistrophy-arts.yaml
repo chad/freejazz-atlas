@@ -1,0 +1,69 @@
+id: epistrophy-arts
+name: Epistrophy Arts
+aliases: []
+status: active
+location:
+  city: Austin
+  region: TX
+  country: US
+  lat: 30.2672
+  lon: -97.7431
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://nowplayingaustin.com/organization/epistrophy-arts/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Grass-roots organization presenting adventurous and improvised music in Austin
+      since 1998.
+    sources:
+    - https://www.furious.com/perfect/epistrophyarts.html
+    - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+  show_frequency:
+    value: 2
+    evidence: ~100 shows over two decades — periodic rather than weekly.
+    sources:
+    - https://www.furious.com/perfect/epistrophyarts.html
+    - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+  artist_roster:
+    value: 5
+    evidence: Presented Joe McPhee, Arthur Doyle, Susie Ibarra, Assif Tsahar, Fire!, Konk
+      Pack.
+    sources:
+    - https://www.furious.com/perfect/epistrophyarts.html
+    - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+  self_description:
+    value: 5
+    sources:
+    - https://www.furious.com/perfect/epistrophyarts.html
+    - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+  operating_model:
+    value: 5
+    evidence: Grass-roots, artist/organizer-run (Pedro Moreno).
+    sources:
+    - https://www.furious.com/perfect/epistrophyarts.html
+    - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+  community_reputation:
+    value: 3
+    sources:
+    - https://www.furious.com/perfect/epistrophyarts.html
+    - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+  listening_room:
+    value: 3
+    sources:
+    - https://www.furious.com/perfect/epistrophyarts.html
+    - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+score: 83
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.furious.com/perfect/epistrophyarts.html
+  - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
+  needs_human_review: false
+notes: Presenter; books into Austin rooms such as the Museum of Human Achievement.

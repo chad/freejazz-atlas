@@ -1,0 +1,43 @@
+id: hallwalls-contemporary-arts-center
+name: Hallwalls Contemporary Arts Center
+aliases: []
+status: active
+location:
+  city: Buffalo
+  region: NY
+  country: US
+  lat: 42.894
+  lon: -78.87
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.hallwalls.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Storied nonprofit contemporary arts center with a long history of experimental
+      and improvised music programming.
+  show_frequency:
+    value: 3
+  artist_roster:
+    value: 3
+  self_description:
+    value: 4
+  operating_model:
+    value: 5
+    evidence: Nonprofit multidisciplinary arts center.
+  community_reputation:
+    value: 3
+  listening_room:
+    value: 3
+score: 66
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls: []
+  needs_human_review: true
+notes: 'NEEDS REVIEW: confirm current music programming cadence.'

@@ -1,0 +1,73 @@
+id: chapel-performance-space
+name: Chapel Performance Space
+aliases:
+- Wayward Music Series
+- Good Shepherd Center Chapel
+status: active
+location:
+  city: Seattle
+  region: WA
+  country: US
+  neighborhood: Wallingford
+  lat: 47.6613
+  lon: -122.3327
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://www.waywardmusic.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: 'Home of the Wayward Music Series (curated by Nonsequitur): ~10 concerts a month
+      of adventurous/experimental music, free improvisation, and the outer limits of jazz.'
+    sources:
+    - https://www.waywardmusic.org/
+    - https://www.nseq.org/
+  show_frequency:
+    value: 4
+    evidence: Roughly ten concerts every month.
+    sources:
+    - https://www.waywardmusic.org/
+    - https://www.nseq.org/
+  artist_roster:
+    value: 5
+    evidence: Free improvisation, electroacoustic, post-classical composers.
+    sources:
+    - https://www.waywardmusic.org/
+    - https://www.nseq.org/
+  self_description:
+    value: 5
+    sources:
+    - https://www.waywardmusic.org/
+    - https://www.nseq.org/
+  operating_model:
+    value: 5
+    evidence: Nonsequitur is a 501(c)(3) nonprofit dedicated to adventurous and experimental
+      music.
+    sources:
+    - https://www.waywardmusic.org/
+    - https://www.nseq.org/
+  community_reputation:
+    value: 4
+    sources:
+    - https://www.waywardmusic.org/
+    - https://www.nseq.org/
+  listening_room:
+    value: 5
+    evidence: Seated concert hall in a former chapel; attentive listening.
+    sources:
+    - https://www.waywardmusic.org/
+    - https://www.nseq.org/
+score: 94
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.waywardmusic.org/
+  - https://www.nseq.org/
+  needs_human_review: false
+notes: Wayward Music Series presented by Nonsequitur and partner organizations.

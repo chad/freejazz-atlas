@@ -1,0 +1,61 @@
+id: high-zero-festival
+name: High Zero Festival
+aliases: []
+status: active
+location:
+  city: Baltimore
+  region: MD
+  country: US
+  lat: 39.326
+  lon: -76.6165
+type: festival
+operating_model: nonprofit
+capacity: null
+website: http://www.highzero.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Annual festival (since 1999) of experimental free-improvised music; non-idiomatic
+      improvisation, instrument building, sound art.
+    sources:
+    - https://en.wikipedia.org/wiki/High_Zero
+  show_frequency:
+    value: 2
+    evidence: Annual festival plus related weekly Red Room concerts.
+    sources:
+    - https://en.wikipedia.org/wiki/High_Zero
+  artist_roster:
+    value: 5
+    sources:
+    - https://en.wikipedia.org/wiki/High_Zero
+  self_description:
+    value: 5
+    sources:
+    - https://en.wikipedia.org/wiki/High_Zero
+  operating_model:
+    value: 5
+    evidence: High Zero Foundation nonprofit; volunteer collective.
+    sources:
+    - https://en.wikipedia.org/wiki/High_Zero
+  community_reputation:
+    value: 5
+    evidence: Nationally recognized free-improvisation festival, 25+ years.
+    sources:
+    - https://en.wikipedia.org/wiki/High_Zero
+  listening_room:
+    value: 4
+    sources:
+    - https://en.wikipedia.org/wiki/High_Zero
+score: 87
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/High_Zero
+  needs_human_review: false
+notes: Festival (annual). Frequency is intentionally low as a single event; commitment is
+  very high.

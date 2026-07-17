@@ -1,0 +1,72 @@
+id: berlin
+name: Berlin
+aliases:
+- Berlin MPLS
+status: active
+location:
+  city: Minneapolis
+  region: MN
+  country: US
+  neighborhood: North Loop
+  lat: 44.9857
+  lon: -93.2716
+type: bar_club
+operating_model: commercial
+capacity: 85
+website: https://www.berlinmpls.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Music-and-dining room programming innovative jazz, electronic, and experimental
+      music; catering to more adventurous showcases.
+    sources:
+    - https://www.berlinmpls.com/
+    - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+  show_frequency:
+    value: 4
+    evidence: Open nightly except Tuesdays.
+    sources:
+    - https://www.berlinmpls.com/
+    - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+  artist_roster:
+    value: 3
+    sources:
+    - https://www.berlinmpls.com/
+    - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+  self_description:
+    value: 3
+    evidence: Positions itself for adventurous/experimental and vulnerable, experimental performances.
+    sources:
+    - https://www.berlinmpls.com/
+    - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+  operating_model:
+    value: 2
+    evidence: Commercial live-music bar/restaurant (lowers commitment score despite adventurous
+      booking).
+    sources:
+    - https://www.berlinmpls.com/
+    - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+  community_reputation:
+    value: 3
+    sources:
+    - https://www.berlinmpls.com/
+    - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+  listening_room:
+    value: 5
+    evidence: High-fidelity, candlelit 85-seat intimate listening room.
+    sources:
+    - https://www.berlinmpls.com/
+    - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+score: 64
+tier: supportive
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.berlinmpls.com/
+  - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
+  needs_human_review: false
+notes: Commercial but genuinely adventurous; sibling in spirit to Icehouse.

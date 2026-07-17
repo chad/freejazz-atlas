@@ -1,0 +1,73 @@
+id: dissonant-works
+name: Dissonant Works
+aliases:
+- Dissonant Works Gallery
+status: active
+location:
+  city: St. Louis
+  region: MO
+  country: US
+  neighborhood: South City
+  lat: 38.6009
+  lon: -90.236
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://www.dissonantworks.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Dedicated experimental art and music event space and gallery; programming built
+      around experimental sound.
+    sources:
+    - https://www.dissonantworks.org/about
+    - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+  show_frequency:
+    value: 4
+    evidence: Regular experimental performances, exhibits, and workshops.
+    sources:
+    - https://www.dissonantworks.org/about
+    - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+  artist_roster:
+    value: 5
+    evidence: Books recognized improvisers (e.g. pianist Matthew Shipp, Sept 2025).
+    sources:
+    - https://www.dissonantworks.org/about
+    - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+  self_description:
+    value: 5
+    evidence: Nonprofit for experimental art and music; runs Prismatic Dissonance experimental-sound
+      archive.
+    sources:
+    - https://www.dissonantworks.org/about
+    - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+  operating_model:
+    value: 5
+    evidence: Volunteer-run 501(c)(3) nonprofit.
+    sources:
+    - https://www.dissonantworks.org/about
+    - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+  community_reputation:
+    value: 4
+    sources:
+    - https://www.dissonantworks.org/about
+    - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+  listening_room:
+    value: 5
+    evidence: Gallery/event space presented for attentive listening.
+    sources:
+    - https://www.dissonantworks.org/about
+    - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+score: 94
+tier: cornerstone
+confidence: 0.88
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.dissonantworks.org/about
+  - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
+  needs_human_review: false
+notes: 'ANCHOR: calibrated as a VERY HIGH cornerstone venue.'

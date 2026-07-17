@@ -1,0 +1,69 @@
+id: arthur-s-tavern
+name: Arthur's Tavern
+aliases: []
+status: active
+location:
+  city: New York
+  region: NY
+  country: US
+  neighborhood: West Village
+  lat: 40.7324
+  lon: -74.0027
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://arthurstavern.nyc/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 0
+    sources:
+    - https://arthurstavern.nyc/
+    - https://en.wikipedia.org/wiki/Arthur's_Tavern
+  show_frequency:
+    value: 1
+    evidence: Live music nightly, but trad jazz, blues, and soul — not free/avant.
+    sources:
+    - https://arthurstavern.nyc/
+    - https://en.wikipedia.org/wiki/Arthur's_Tavern
+  artist_roster:
+    value: 1
+    evidence: House bands (e.g. Grove Street Stompers since 1962); traditional players, not
+      the improvised-music circuit.
+    sources:
+    - https://arthurstavern.nyc/
+    - https://en.wikipedia.org/wiki/Arthur's_Tavern
+  self_description:
+    value: 0
+    sources:
+    - https://arthurstavern.nyc/
+    - https://en.wikipedia.org/wiki/Arthur's_Tavern
+  operating_model:
+    value: 1
+    evidence: 88-year-old commercial neighborhood bar / tourist spot; no cover, drink minimum.
+    sources:
+    - https://arthurstavern.nyc/
+    - https://en.wikipedia.org/wiki/Arthur's_Tavern
+  community_reputation:
+    value: 0
+    sources:
+    - https://arthurstavern.nyc/
+    - https://en.wikipedia.org/wiki/Arthur's_Tavern
+  listening_room:
+    value: 0
+    sources:
+    - https://arthurstavern.nyc/
+    - https://en.wikipedia.org/wiki/Arthur's_Tavern
+score: 10
+tier: incidental
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://arthurstavern.nyc/
+  - https://en.wikipedia.org/wiki/Arthur's_Tavern
+  needs_human_review: false
+notes: 'ANCHOR: calibrated as VERY LOW — commercial venue with occasional/traditional jazz,
+  not an avant-garde home.'

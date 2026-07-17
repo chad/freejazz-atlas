@@ -1,0 +1,68 @@
+id: nameless-sound
+name: Nameless Sound
+aliases: []
+status: active
+location:
+  city: Houston
+  region: TX
+  country: US
+  lat: 29.7386
+  lon: -95.3595
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.namelesssound.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Houston's most important presenter of creative music and free improvisation;
+      weekly 'They, Who Sound' experimental series (with Lawndale).
+    sources:
+    - https://www.namelesssound.org/
+    - https://en.wikipedia.org/wiki/Nameless_Sound
+  show_frequency:
+    value: 4
+    evidence: Weekly experimental/improvised series plus concerts.
+    sources:
+    - https://www.namelesssound.org/
+    - https://en.wikipedia.org/wiki/Nameless_Sound
+  artist_roster:
+    value: 5
+    evidence: International contemporary/free-improv artists (e.g. Joe McPhee editions).
+    sources:
+    - https://www.namelesssound.org/
+    - https://en.wikipedia.org/wiki/Nameless_Sound
+  self_description:
+    value: 5
+    sources:
+    - https://www.namelesssound.org/
+    - https://en.wikipedia.org/wiki/Nameless_Sound
+  operating_model:
+    value: 5
+    evidence: Nonprofit founded 2001 by musician David Dove; deep arts-education mission.
+    sources:
+    - https://www.namelesssound.org/
+    - https://en.wikipedia.org/wiki/Nameless_Sound
+  community_reputation:
+    value: 4
+    sources:
+    - https://www.namelesssound.org/
+    - https://en.wikipedia.org/wiki/Nameless_Sound
+  listening_room:
+    value: 4
+    sources:
+    - https://www.namelesssound.org/
+    - https://en.wikipedia.org/wiki/Nameless_Sound
+score: 93
+tier: cornerstone
+confidence: 0.83
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.namelesssound.org/
+  - https://en.wikipedia.org/wiki/Nameless_Sound
+  needs_human_review: false
+notes: Presenter (books into rooms such as MATCH and Lawndale).

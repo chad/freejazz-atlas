@@ -1,0 +1,69 @@
+id: the-red-room
+name: The Red Room
+aliases:
+- Red Room Collective
+status: active
+location:
+  city: Baltimore
+  region: MD
+  country: US
+  lat: 39.326
+  lon: -76.6165
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://www.redroom.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Volunteer-run space hosting ONLY experimental, improvised, and/or non-idiomatic
+      performances; weekly concerts.
+    sources:
+    - https://www.redroom.org/booking/
+    - https://en.wikipedia.org/wiki/High_Zero
+  show_frequency:
+    value: 5
+    evidence: Weekly improvised-music concerts.
+    sources:
+    - https://www.redroom.org/booking/
+    - https://en.wikipedia.org/wiki/High_Zero
+  artist_roster:
+    value: 5
+    sources:
+    - https://www.redroom.org/booking/
+    - https://en.wikipedia.org/wiki/High_Zero
+  self_description:
+    value: 5
+    evidence: Dedicated to mind-expanding experimental culture.
+    sources:
+    - https://www.redroom.org/booking/
+    - https://en.wikipedia.org/wiki/High_Zero
+  operating_model:
+    value: 5
+    evidence: Volunteer collective; space donated by Normals Books & Records.
+    sources:
+    - https://www.redroom.org/booking/
+    - https://en.wikipedia.org/wiki/High_Zero
+  community_reputation:
+    value: 4
+    sources:
+    - https://www.redroom.org/booking/
+    - https://en.wikipedia.org/wiki/High_Zero
+  listening_room:
+    value: 4
+    sources:
+    - https://www.redroom.org/booking/
+    - https://en.wikipedia.org/wiki/High_Zero
+score: 97
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.redroom.org/booking/
+  - https://en.wikipedia.org/wiki/High_Zero
+  needs_human_review: false
+notes: Runs inside Normals Books & Records; sibling to the High Zero festival.

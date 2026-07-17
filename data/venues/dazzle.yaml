@@ -1,0 +1,45 @@
+id: dazzle
+name: Dazzle
+aliases: []
+status: active
+location:
+  city: Denver
+  region: CO
+  country: US
+  lat: 39.742
+  lon: -104.987
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://dazzledenver.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 1
+    evidence: Prominent Denver jazz club; mostly mainstream/straight-ahead with occasional
+      adventurous booking.
+  show_frequency:
+    value: 3
+  artist_roster:
+    value: 2
+  self_description:
+    value: 2
+  operating_model:
+    value: 2
+    evidence: Commercial jazz club/restaurant.
+  community_reputation:
+    value: 2
+  listening_room:
+    value: 4
+    evidence: Seated club listening environment.
+score: 41
+tier: occasional
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls: []
+  needs_human_review: true
+notes: 'NEEDS REVIEW: included for Rocky Mountain coverage; leans mainstream jazz — low free/avant
+  commitment.'
