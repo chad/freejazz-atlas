@@ -168,6 +168,7 @@ def build_html(venues: list, musicians: list) -> str:
   <h1>The Free Jazz Atlas</h1>
   <div class="sub">A curated, weighted directory of venues committed to free jazz,
   free improvisation &amp; avant-garde music — and the musicians keeping them alive.</div>
+  <div style="margin-top:1rem"><a href="/submit" style="display:inline-block;background:#e05a6d;color:#0a0c12;font-weight:600;text-decoration:none;padding:.5rem 1rem;border-radius:8px">+ Add a venue</a></div>
 </div></header>
 <div class="wrap">
   <div class="controls">
