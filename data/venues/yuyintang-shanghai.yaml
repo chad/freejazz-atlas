@@ -1,0 +1,74 @@
+id: yuyintang-shanghai
+name: Yuyintang
+aliases:
+- 育音堂
+- YYT
+- Yuyintang Park
+status: active
+location:
+  address: "Changning District"
+  city: Shanghai
+  region: Shanghai
+  country: CN
+  neighborhood: Changning
+  lat: 31.2205
+  lon: 121.4195
+type: bar_club
+operating_model: commercial
+capacity: 300
+website: https://www.smartshanghai.com/venue/15069/yuyintang_park
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Shanghai's oldest underground live house (est. 2004), rock/punk-focused
+      but a host for experimental and improvised nights (e.g. NoiShanghai).
+    sources:
+    - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
+    - https://archive.org/details/noishanghai_vi
+  show_frequency:
+    value: 2
+    evidence: Gigs most weekends; improvised/experimental events are occasional within
+      a rock-led program.
+    sources:
+    - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
+  artist_roster:
+    value: 2
+    evidence: Mostly indie/rock/punk with some experimental and noise acts.
+    sources:
+    - https://archive.org/details/noishanghai_vi
+  self_description:
+    value: 2
+    evidence: Presents as a grassroots underground live house for Shanghai/Chinese
+      rock, open to experimental acts.
+    sources:
+    - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
+  operating_model:
+    value: 3
+    evidence: Independent commercial live house (now runs multiple rooms).
+    sources:
+    - https://www.smartshanghai.com/venue/15069/yuyintang_park
+  community_reputation:
+    value: 3
+    evidence: A long-standing staple of Shanghai's underground music scene.
+    sources:
+    - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
+  listening_room:
+    value: 2
+    evidence: Loud rock live house rather than an attentive listening room.
+    sources:
+    - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
+score: 44
+tier: occasional
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
+  - https://www.smartshanghai.com/venue/15069/yuyintang_park
+  - https://archive.org/details/noishanghai_vi
+  needs_human_review: true
+notes: Shanghai's oldest underground live house (est. 2004); rock-led but hosts occasional
+  experimental/improv/noise events. Free/avant is secondary to the main program.

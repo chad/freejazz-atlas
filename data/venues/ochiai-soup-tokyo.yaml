@@ -1,0 +1,74 @@
+id: ochiai-soup-tokyo
+name: Soup
+aliases:
+- Ochiai Soup
+- ochiai soup
+status: active
+location:
+  address: "Nakaochiai, Shinjuku-ku (basement below a public bath)"
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Ochiai
+  lat: 35.713
+  lon: 139.687
+type: dedicated_space
+operating_model: artist_run
+capacity: 80
+website: https://ochiaisoup.bandcamp.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Independent venue run by electronic musician Nobuki Nishiyama devoted
+      to experimental music (drone, noise, improv, techno).
+    sources:
+    - https://ra.co/clubs/36596
+    - https://japanvibe.net/soup/
+  show_frequency:
+    value: 4
+    evidence: Frequent experimental gigs; acoustics calibrated for drone/noise/improv.
+    sources:
+    - https://www.timeout.com/tokyo/music/soup
+  artist_roster:
+    value: 4
+    evidence: A who's-who of the Japanese noise and experimental scene, documented
+      via its pandemic-era Bandcamp live releases.
+    sources:
+    - https://japanvibe.net/soup/
+    - https://ochiaisoup.bandcamp.com/
+  self_description:
+    value: 4
+    evidence: Known for hosting mostly experimental acts; identifies as an experimental
+      music venue.
+    sources:
+    - https://www.timeout.com/tokyo/music/soup
+  operating_model:
+    value: 4
+    evidence: Independent, musician-run event space in a basement beneath a sento.
+    sources:
+    - https://japanvibe.net/soup/
+  community_reputation:
+    value: 4
+    evidence: A key node of Tokyo's noise/experimental community.
+    sources:
+    - https://japanvibe.net/soup/
+  listening_room:
+    value: 4
+    evidence: Intimate basement built for immersive, attentive experimental sets.
+    sources:
+    - https://www.timeout.com/tokyo/music/soup
+score: 80
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://ra.co/clubs/36596
+  - https://japanvibe.net/soup/
+  - https://www.timeout.com/tokyo/music/soup
+  needs_human_review: false
+notes: Basement experimental venue in Ochiai run by musician Nobuki Nishiyama; drone,
+  noise and improvised music.

@@ -1,0 +1,73 @@
+id: nanahari-tokyo
+name: Nanahari
+aliases:
+- 七針
+- .ftftftf.
+status: active
+location:
+  address: "Higashi-Nihonbashi, Chuo-ku"
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Higashi-Nihonbashi
+  lat: 35.691
+  lon: 139.7835
+type: dedicated_space
+operating_model: artist_run
+capacity: 40
+website: https://www.tokyoartbeat.com/en/venues/-/94D3FD7A
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Basement space open since 2006, described as one of Tokyo's most avant-garde
+      basements and a regular stop for improv musicians.
+    sources:
+    - https://www.timeout.com/tokyo/music/nanahari
+  show_frequency:
+    value: 3
+    evidence: Regular improvised/experimental performances alongside cross-arts programming.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/102
+  artist_roster:
+    value: 4
+    evidence: A regular stop for local and touring improvisers; documented on numerous
+      live experimental recordings.
+    sources:
+    - https://dinzuartefacts.bandcamp.com/album/nanahari-edit
+    - https://www.timeout.com/tokyo/music/nanahari
+  self_description:
+    value: 4
+    evidence: Presents itself as an interdisciplinary showcase for avant-garde music,
+      art, dance and performance.
+    sources:
+    - https://www.tokyoartbeat.com/en/venues/-/94D3FD7A
+  operating_model:
+    value: 4
+    evidence: Independent artist-run basement space.
+    sources:
+    - https://www.tokyoartbeat.com/en/venues/-/94D3FD7A
+  community_reputation:
+    value: 3
+    evidence: Frequently cited stop on the Tokyo improv circuit.
+    sources:
+    - https://www.timeout.com/tokyo/music/nanahari
+  listening_room:
+    value: 4
+    evidence: Small basement focused on the performance.
+    sources:
+    - https://www.timeout.com/tokyo/music/nanahari
+score: 74
+tier: committed
+confidence: 0.68
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.timeout.com/tokyo/music/nanahari
+  - https://www.tokyoartbeat.com/en/venues/-/94D3FD7A
+  - https://www.tokyogigguide.com/en/gigs/venue/102
+  needs_human_review: false
+notes: Avant-garde basement (est. 2006) near Higashi-Nihonbashi/Bakurocho; regular
+  stop for local and touring improvisers.

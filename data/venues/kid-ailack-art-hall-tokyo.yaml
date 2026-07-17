@@ -1,0 +1,73 @@
+id: kid-ailack-art-hall-tokyo
+name: Kid Ailack Art Hall
+aliases:
+- Kid Ailack Hall
+status: active
+location:
+  address: 2-43-11 Matsubara, Setagaya-ku
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Meidaimae
+  lat: 35.6689
+  lon: 139.65
+type: arts_center
+operating_model: artist_run
+capacity: 100
+website: https://www.kidailack.co.jp/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Long-standing home of experimental/improv series including Taku Sugimoto's Composition
+      Series; its Onkyo Room nodded directly to the onkyokei genre.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
+    - https://grokipedia.com/page/Onkyokei
+  show_frequency:
+    value: 3
+    evidence: Regular recurring concerts, several per month across music, dance and butoh.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
+  artist_roster:
+    value: 4
+    evidence: Platform for experimental improvisers (Tetuzi Akiyama, Taku Sugimoto, historic
+      New Direction Unit recordings) and free-improv/dance crossovers.
+    sources:
+    - https://creativesources.bandcamp.com/album/ailack
+    - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
+  self_description:
+    value: 3
+    evidence: Multi-space art hall for exhibitions, performance and live music with a strong
+      experimental/improv identity.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
+  operating_model:
+    value: 4
+    evidence: Independent artist-run art hall with cafe and multiple performance rooms.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
+  community_reputation:
+    value: 4
+    evidence: Documented incubator of Tokyo's onkyo/experimental scene since the late 1990s.
+    sources:
+    - https://grokipedia.com/page/Onkyokei
+  listening_room:
+    value: 4
+    evidence: Seated hall for attentive listening to quiet improvisation and performance.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
+score: 74
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
+  - https://grokipedia.com/page/Onkyokei
+  - https://creativesources.bandcamp.com/album/ailack
+  needs_human_review: false
+notes: Meidaimae art hall central to the onkyokei/quiet-improvisation scene; hosts Taku Sugimoto's
+  Composition Series.

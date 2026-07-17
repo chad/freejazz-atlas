@@ -1,0 +1,72 @@
+id: revolver-taipei
+name: Revolver
+aliases:
+- Revolver Taipei
+status: active
+location:
+  address: "1-2 Roosevelt Rd Sec 1, Zhongzheng District"
+  city: Taipei
+  region: Taipei
+  country: TW
+  neighborhood: Zhongzheng
+  lat: 25.033
+  lon: 121.5185
+type: bar_club
+operating_model: commercial
+capacity: 120
+website: https://www.revolver.tw/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Two-storey bar/live venue (est. 2010) mainly for punk/metal/alt-rock;
+      experimental noise appears occasionally within a very broad program.
+    sources:
+    - https://www.revolver.tw/en/venue
+    - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
+  show_frequency:
+    value: 2
+    evidence: Live shows nearly nightly, but free/avant/experimental sets are only
+      an occasional part of the calendar.
+    sources:
+    - https://www.kiremico.com/blog/best-indie-music-venues-in-taipei-a-guide-to-the-citys-live-music-scene
+  artist_roster:
+    value: 2
+    evidence: Mostly rock/punk/hip-hop with some experimental and noise acts.
+    sources:
+    - https://ra.co/events/2015230
+  self_description:
+    value: 3
+    evidence: A seven-nights-a-week haven for independent, forward-thinking music
+      "from rock to experimental and everything in between."
+    sources:
+    - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
+  operating_model:
+    value: 3
+    evidence: Independent commercial bar/live venue.
+    sources:
+    - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
+  community_reputation:
+    value: 3
+    evidence: An incubator for Taipei's underground/new-sound scene.
+    sources:
+    - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
+  listening_room:
+    value: 2
+    evidence: Bar-and-stage hybrid rather than a dedicated listening room.
+    sources:
+    - https://www.revolver.tw/en/venue
+score: 46
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.revolver.tw/en/venue
+  - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
+  - https://ra.co/events/2015230
+  needs_human_review: true
+notes: Taipei bar/live venue (est. 2010); primarily punk/rock but a recurring host
+  for experimental and noise nights. Free/avant is occasional, not the core.

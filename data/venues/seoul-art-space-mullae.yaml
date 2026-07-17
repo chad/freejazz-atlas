@@ -1,0 +1,75 @@
+id: seoul-art-space-mullae
+name: Seoul Art Space Mullae
+aliases:
+- Mullae Art Space
+- Mullae Arts Village
+status: active
+location:
+  address: "Mullae-dong, Yeongdeungpo-gu"
+  city: Seoul
+  region: Seoul
+  country: KR
+  neighborhood: Mullae
+  lat: 37.5147
+  lon: 126.8947
+type: arts_center
+operating_model: municipal
+capacity: null
+website: https://www.sfac.or.kr/site/SFAC_ENG/04/10406000000002018110509.jsp
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Municipal creative space (opened 2010) that supports experimental music
+      and sound art among broader arts programming.
+    sources:
+    - https://www.sfac.or.kr/site/SFAC_ENG/04/10406000000002018110509.jsp
+    - https://english.seoul.go.kr/seoul-art-space-mullae-mullae-creative-village/
+  show_frequency:
+    value: 3
+    evidence: Recurring experimental music/sound-art events and residencies, not nightly
+      gigs.
+    sources:
+    - https://english.seoul.go.kr/seoul-art-space-mullae-mullae-creative-village/
+  artist_roster:
+    value: 3
+    evidence: Hosts and has documented international improvisers/experimentalists (e.g.
+      Will Guthrie & Hong Chulki recorded at Mullae in 2016).
+    sources:
+    - https://www.squidco.com/miva/merchant.mvc?Screen=PROD&Store_Code=S&Product_Code=25627
+  self_description:
+    value: 4
+    evidence: Describes itself as a platform for experimental music and sound art,
+      free from genre barriers.
+    sources:
+    - https://www.sfac.or.kr/site/SFAC_ENG/04/10406000000002018110509.jsp
+  operating_model:
+    value: 4
+    evidence: Run by the Seoul Foundation for Arts and Culture (municipal/nonprofit).
+    sources:
+    - https://www.sfac.or.kr/site/SFAC_ENG/04/10406000000002018110509.jsp
+  community_reputation:
+    value: 3
+    evidence: An important hub within Seoul's experimental/improvised music community.
+    sources:
+    - https://english.seoul.go.kr/seoul-art-space-mullae-mullae-creative-village/
+  listening_room:
+    value: 3
+    evidence: Multipurpose theaters and studios rather than a single dedicated listening
+      room.
+    sources:
+    - https://english.seoul.go.kr/seoul-art-space-mullae-mullae-creative-village/
+score: 64
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.sfac.or.kr/site/SFAC_ENG/04/10406000000002018110509.jsp
+  - https://english.seoul.go.kr/seoul-art-space-mullae-mullae-creative-village/
+  - https://www.squidco.com/miva/merchant.mvc?Screen=PROD&Store_Code=S&Product_Code=25627
+  needs_human_review: true
+notes: Municipal creative-arts complex in the Mullae ironworks district supporting
+  experimental music and sound art; broader arts remit than a dedicated improv room.

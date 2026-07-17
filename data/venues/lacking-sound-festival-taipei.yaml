@@ -1,0 +1,74 @@
+id: lacking-sound-festival-taipei
+name: Lacking Sound Fest
+aliases:
+- LSF
+- 失聲祭
+status: active
+location:
+  address: "Taipei Contemporary Culture Lab (C-LAB), 177 Jianguo S Rd Sec 1, Da'an (current base)"
+  city: Taipei
+  region: Taipei
+  country: TW
+  neighborhood: Da'an
+  lat: 25.0263
+  lon: 121.5457
+type: presenter
+operating_model: artist_run
+capacity: null
+website: http://lsf-taiwan.blogspot.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Long-running monthly experimental sound-performance series founded by
+      Taiwanese sound artists to build a platform and community for the medium.
+    sources:
+    - http://lsf-taiwan.blogspot.com/
+    - https://www.somersethouse.org.uk/whats-on/music-hackspace-presents-taiwanese-experimental-music
+  show_frequency:
+    value: 3
+    evidence: Roughly monthly performance events, running continuously for well over
+      a decade.
+    sources:
+    - http://lsf-taiwan.blogspot.com/
+  artist_roster:
+    value: 4
+    evidence: Presents Taiwanese and international experimental/improv sound artists;
+      documents and produces writing on the local scene.
+    sources:
+    - https://www.youtube.com/watch?v=VhRaWqhDV3o
+  self_description:
+    value: 5
+    evidence: One of Taiwan's most prestigious dedicated experimental sound-art platforms.
+    sources:
+    - https://www.somersethouse.org.uk/whats-on/music-hackspace-presents-taiwanese-experimental-music
+  operating_model:
+    value: 4
+    evidence: Artist-founded collective/series (not a commercial venue).
+    sources:
+    - http://lsf-taiwan.blogspot.com/
+  community_reputation:
+    value: 4
+    evidence: Named repeatedly as a cornerstone of Taipei's experimental music community.
+    sources:
+    - https://daily.bandcamp.com/scene-report/tainan-experimental-scene-report
+  listening_room:
+    value: 4
+    evidence: Presented as attentive sound-art concerts, currently based at C-LAB.
+    sources:
+    - https://www.youtube.com/watch?v=VhRaWqhDV3o
+score: 83
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://lsf-taiwan.blogspot.com/
+  - https://www.somersethouse.org.uk/whats-on/music-hackspace-presents-taiwanese-experimental-music
+  - https://www.youtube.com/watch?v=VhRaWqhDV3o
+  needs_human_review: true
+notes: Monthly experimental sound-performance series (a presenter, not a fixed venue);
+  host location has moved over time and is currently associated with C-LAB. Coordinates
+  point to the current host site.

@@ -1,0 +1,74 @@
+id: dotolim-seoul
+name: Dotolim
+aliases:
+- 닻올림
+- dotolim
+status: active
+location:
+  address: Mapo-gu (Sangsu-dong area)
+  city: Seoul
+  region: Seoul
+  country: KR
+  neighborhood: Mapo
+  lat: 37.551
+  lon: 126.922
+type: dedicated_space
+operating_model: artist_run
+capacity: 25
+website: https://www.dotolim.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Founded by sound artist Jin Sangtae in 2008 as the first concert venue for improvised/experimental
+      music in Korea; runs the ongoing Dotolim Concert series (180+ editions).
+    sources:
+    - https://www.dotolim.com/?page_id=1958
+    - https://wfos.net/jinsangtae.html
+  show_frequency:
+    value: 3
+    evidence: Regular improv concert series (roughly monthly) rather than nightly programming.
+    sources:
+    - https://www.dotolim.com/?page_id=1958
+  artist_roster:
+    value: 5
+    evidence: Core Korean improvisers (Jin Sangtae, Hong Chulki) plus international experimental
+      guests (Will Guthrie, Tetuzi Akiyama and others).
+    sources:
+    - https://www.squidco.com/miva/merchant.mvc?Screen=PROD&Store_Code=S&Product_Code=25627
+    - https://wfos.net/jinsangtae.html
+  self_description:
+    value: 5
+    evidence: A small concert and recording space centered on improvised and experimental
+      music, modeled on Otomo Yoshihide's GRID605.
+    sources:
+    - https://www.dotolim.com/?page_id=1958
+  operating_model:
+    value: 5
+    evidence: Artist-run space founded and operated by an improvising musician.
+    sources:
+    - https://www.dotolim.com/?page_id=1958
+  community_reputation:
+    value: 4
+    evidence: Recognized as the pioneering home of Korea's experimental/improvised music scene.
+    sources:
+    - https://rhizome.org/editorial/2010/nov/18/the-sound-of-hard-drives-jin-sangtae/
+  listening_room:
+    value: 5
+    evidence: Tiny dedicated concert space built for close, attentive listening.
+    sources:
+    - https://www.dotolim.com/?page_id=1958
+score: 90
+tier: cornerstone
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.dotolim.com/?page_id=1958
+  - https://wfos.net/jinsangtae.html
+  - https://rhizome.org/editorial/2010/nov/18/the-sound-of-hard-drives-jin-sangtae/
+  needs_human_review: true
+notes: Korea's first dedicated improvised/experimental concert venue (est. 2008, founder Jin
+  Sangtae). Exact current address/coordinates approximate - verify.

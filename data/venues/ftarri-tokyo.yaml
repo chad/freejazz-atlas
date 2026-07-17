@@ -1,0 +1,76 @@
+id: ftarri-tokyo
+name: Ftarri
+aliases:
+- Ftarri Suidobashi
+- Improvised Music From Japan
+status: active
+location:
+  address: Okano Bldg. B1, 1-4-11 Hongo, Bunkyo-ku
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Suidobashi
+  lat: 35.7025
+  lon: 139.753
+type: dedicated_space
+operating_model: artist_run
+capacity: 20
+website: https://www.ftarri.com/suidobashi/index-e.html
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Performance space and shop run since 2012 by the Ftarri experimental-music label
+      (successor to Improvised Music From Japan); the space exists to present improvised,
+      onkyo and experimental sound.
+    sources:
+    - https://www.ftarri.com/suidobashi/index-e.html
+    - https://daily.redbullmusicacademy.com/2014/10/off-site-improvised-music-from-japan/
+  show_frequency:
+    value: 5
+    evidence: Concerts multiple times per week; reservation-only shows most evenings at 8pm.
+    sources:
+    - https://www.ftarri.com/suidobashi/index-e.html
+    - https://www.tokyogigguide.com/en/gigs/venue/682
+  artist_roster:
+    value: 5
+    evidence: Core roster of Japanese and international improvisers (Tetuzi Akiyama, Taku
+      Sugimoto, Kazuo Imai, Satoko Inoue and touring experimentalists).
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/682
+  self_description:
+    value: 5
+    evidence: Specializes in avant-garde and experimental sound; associated with the onkyo
+      (quiet improvisation) scene it helped define.
+    sources:
+    - https://www.ftarri.com/suidobashi/index-e.html
+  operating_model:
+    value: 4
+    evidence: Artist/label-run shop and performance space, cash-only, 20-person limit.
+    sources:
+    - https://www.ftarri.com/suidobashi/index-e.html
+  community_reputation:
+    value: 5
+    evidence: Internationally recognized flagship of Tokyo experimental and improvised music.
+    sources:
+    - https://www.tokyoartbeat.com/en/venues/-/75F14492
+  listening_room:
+    value: 5
+    evidence: Intimate 20-seat reservation-only listening space; no smoking, pure attention
+      on the music.
+    sources:
+    - https://www.ftarri.com/suidobashi/index-e.html
+score: 98
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.ftarri.com/suidobashi/index-e.html
+  - https://daily.redbullmusicacademy.com/2014/10/off-site-improvised-music-from-japan/
+  - https://www.tokyoartbeat.com/en/venues/-/75F14492
+  needs_human_review: false
+notes: Flagship experimental/onkyo space and record shop in Suidobashi; successor to the Improvised
+  Music From Japan project run by Yasuhiro Suzuki.

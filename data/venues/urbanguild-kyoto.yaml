@@ -1,0 +1,72 @@
+id: urbanguild-kyoto
+name: UrBANGUILD
+aliases:
+- Urbanguild
+status: active
+location:
+  address: "New Kyoto Bldg 3F, Kiyamachi-dori, Nakagyo-ku"
+  city: Kyoto
+  region: Kyoto
+  country: JP
+  neighborhood: Pontocho / Kiyamachi
+  lat: 35.005
+  lon: 135.7708
+type: bar_club
+operating_model: artist_run
+capacity: 100
+website: https://urbanguild.net/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Described as Kyoto's leading avant-garde music space; hosts hours-long
+      modern-jazz improvisation marathons with 30-plus performers.
+    sources:
+    - https://www.deepkyoto.com/the-legend-of-urbanguild/
+    - https://www.nationalgeographic.com/travel/article/alternative-kyoto-japan-culture-capital-hotspot-for-live-music
+  show_frequency:
+    value: 4
+    evidence: Frequent events across experimental music, improv, contemporary dance
+      and performance.
+    sources:
+    - https://www.songkick.com/venues/63867-urbanguild
+  artist_roster:
+    value: 4
+    evidence: Improvisers, experimental musicians and interdisciplinary performers.
+    sources:
+    - https://www.deepkyoto.com/the-legend-of-urbanguild/
+  self_description:
+    value: 4
+    evidence: Identifies as an avant-garde live space for experimental and improvised
+      performance.
+    sources:
+    - https://www.deepkyoto.com/the-legend-of-urbanguild/
+  operating_model:
+    value: 4
+    evidence: Independent artist-run venue with bar, kitchen and stage.
+    sources:
+    - https://www.deepkyoto.com/the-legend-of-urbanguild/
+  community_reputation:
+    value: 4
+    evidence: One of Kyoto's most respected underground live music venues.
+    sources:
+    - https://www.nationalgeographic.com/travel/article/alternative-kyoto-japan-culture-capital-hotspot-for-live-music
+  listening_room:
+    value: 3
+    evidence: Intimate room with benches and a bar; attentive but informal.
+    sources:
+    - https://www.deepkyoto.com/the-legend-of-urbanguild/
+score: 79
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.deepkyoto.com/the-legend-of-urbanguild/
+  - https://www.nationalgeographic.com/travel/article/alternative-kyoto-japan-culture-capital-hotspot-for-live-music
+  - https://www.songkick.com/venues/63867-urbanguild
+  needs_human_review: false
+notes: Kyoto's leading avant-garde live space on Kiyamachi; improv marathons, experimental
+  music, dance and performance.

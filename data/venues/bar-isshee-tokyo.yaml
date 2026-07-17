@@ -1,0 +1,73 @@
+id: bar-isshee-tokyo
+name: Bar Isshee
+aliases:
+- Barisshee
+status: active
+location:
+  address: "Sendagi Century 21 B1, 3-36-11 Sendagi, Bunkyo-ku"
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Sendagi
+  lat: 35.727
+  lon: 139.7625
+type: bar_club
+operating_model: artist_run
+capacity: 25
+website: https://www.facebook.com/BarIsshee/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Small bar established 2008 specializing in free jazz and experimental
+      improvised music; regular improv nights are its reason to exist.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/333
+  show_frequency:
+    value: 4
+    evidence: Frequent free-jazz and improv performances with nominal cover charges.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/333
+  artist_roster:
+    value: 5
+    evidence: Hosts leading Japanese and touring free improvisers (Akira Sakata, Kazuhisa
+      Uchihashi, Tatsuya Yoshida and many more).
+    sources:
+    - https://www.squidco.com/miva/merchant.mv?Screen=PROD&Store_Code=S&Product_Code=16793
+    - https://geoffleigh.bandcamp.com/album/live-bar-ishee-tokyo
+  self_description:
+    value: 4
+    evidence: Presents itself as a home for free jazz, abstract, experimental and
+      improvised music.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/333
+  operating_model:
+    value: 4
+    evidence: Owner-run intimate bar (~20-25 capacity) built around the music.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/333
+  community_reputation:
+    value: 4
+    evidence: Named repeatedly in Tokyo experimental/free-jazz scene guides and documented
+      on numerous live recordings.
+    sources:
+    - https://daily.bandcamp.com/scene-report/tokyo-hip-hop-free-jazz-guide
+  listening_room:
+    value: 4
+    evidence: Tiny bar where the performance is the point.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/333
+score: 84
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.tokyogigguide.com/en/gigs/venue/333
+  - https://www.squidco.com/miva/merchant.mv?Screen=PROD&Store_Code=S&Product_Code=16793
+  - https://geoffleigh.bandcamp.com/album/live-bar-ishee-tokyo
+  needs_human_review: false
+notes: Intimate Sendagi/Bunkyo basement bar dedicated to free jazz and improvised
+  music since 2008.

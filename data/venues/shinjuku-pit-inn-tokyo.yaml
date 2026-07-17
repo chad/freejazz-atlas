@@ -1,0 +1,79 @@
+id: shinjuku-pit-inn-tokyo
+name: Shinjuku Pit Inn
+aliases:
+- Pit Inn
+- The Pit Inn
+status: active
+location:
+  address: "B1 Accord Shinjuku Bldg, 2-12-4 Shinjuku"
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Shinjuku
+  lat: 35.6913
+  lon: 139.7075
+type: bar_club
+operating_model: commercial
+capacity: 100
+website: https://pit-inn.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Long-running jazz club (opened 1965) that has been a core incubator
+      for Japanese free jazz; regular but not exclusive avant/free programming within
+      a broad jazz schedule.
+    sources:
+    - https://en.wikipedia.org/wiki/Pit_Inn_(jazz_club)
+  show_frequency:
+    value: 4
+    evidence: Live jazz nightly with matinee and evening sets; a meaningful share
+      of the calendar is free/avant.
+    sources:
+    - https://en.wikipedia.org/wiki/Pit_Inn_(jazz_club)
+    - https://tokyojazzsite.com/directory/listing/pit-inn
+  artist_roster:
+    value: 4
+    evidence: Historic home of Masayuki Takayanagi's New Directions and the debut
+      of the Yosuke Yamashita Trio (1969); continues to book leading Japanese improvisers.
+    sources:
+    - https://en.wikipedia.org/wiki/Pit_Inn_(jazz_club)
+    - https://en.wikipedia.org/wiki/Y%C5%8Dsuke_Yamashita
+  self_description:
+    value: 3
+    evidence: Presents itself as a serious jazz club focused on the music rather than
+      a tourist bar.
+    sources:
+    - https://tokyojazzsite.com/directory/listing/pit-inn
+  operating_model:
+    value: 3
+    evidence: Independent commercial jazz club.
+    sources:
+    - https://en.wikipedia.org/wiki/Pit_Inn_(jazz_club)
+  community_reputation:
+    value: 5
+    evidence: Widely regarded as Japan's most important jazz club and a driving force
+      of the Tokyo free-jazz scene from the late 1960s.
+    sources:
+    - https://en.wikipedia.org/wiki/Pit_Inn_(jazz_club)
+    - https://en.japantravel.com/tokyo/shinjuku-pit-inn/37908
+  listening_room:
+    value: 4
+    evidence: Seated basement club focused on attentive listening.
+    sources:
+    - https://tokyojazzsite.com/directory/listing/pit-inn
+score: 72
+tier: committed
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Pit_Inn_(jazz_club)
+  - https://tokyojazzsite.com/directory/listing/pit-inn
+  - https://en.japantravel.com/tokyo/shinjuku-pit-inn/37908
+  needs_human_review: false
+notes: Original opened 1965, closed to demolition 1992 and reopened in Shinjuku the
+  same year. Cornerstone of Japanese free-jazz history; today books broad jazz with
+  regular avant/free nights.

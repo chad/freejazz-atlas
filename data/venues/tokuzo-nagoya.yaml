@@ -1,0 +1,74 @@
+id: tokuzo-nagoya
+name: Tokuzo
+aliases:
+- 得三
+- Live & Bar Tokuzo
+status: active
+location:
+  address: Imaike, Chikusa-ku
+  city: Nagoya
+  region: Aichi
+  country: JP
+  neighborhood: Imaike
+  lat: 35.1668
+  lon: 136.9375
+type: bar_club
+operating_model: commercial
+capacity: 150
+website: https://www.tokuzo.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: One of Nagoya's leading live venues with a broad program that regularly includes
+      leftfield jazz and improvised music.
+    sources:
+    - https://www.facebook.com/japandragonfly/posts/1073807909419582/
+    - https://injapan.gaijinpot.com/play/travel/2010/08/12/nagoya-live-houses/
+  show_frequency:
+    value: 3
+    evidence: Live music most nights; free/avant jazz is a recurring part of a wide calendar.
+    sources:
+    - https://injapan.gaijinpot.com/play/travel/2010/08/12/nagoya-live-houses/
+  artist_roster:
+    value: 4
+    evidence: Has hosted Akira Sakata, Takeo Moriyama and Satoko Fujii's orchestra (documented
+      live recordings).
+    sources:
+    - https://akirasakata.bandcamp.com/album/tokuzo
+    - https://www.allaboutjazz.com/sanrei-satoko-fujii-bakamo-records-review-by-eyal-hareuveni
+  self_description:
+    value: 2
+    evidence: Presents as a broad live house / bar with great acoustics rather than a dedicated
+      experimental space.
+    sources:
+    - https://www.facebook.com/japandragonfly/posts/1073807909419582/
+  operating_model:
+    value: 3
+    evidence: Independent commercial live house.
+    sources:
+    - https://injapan.gaijinpot.com/play/travel/2010/08/12/nagoya-live-houses/
+  community_reputation:
+    value: 3
+    evidence: Well regarded stop for non-mainstream and leftfield touring acts in Nagoya.
+    sources:
+    - https://www.facebook.com/japandragonfly/posts/1073807909419582/
+  listening_room:
+    value: 4
+    evidence: Seated live venue with a good sound system suited to jazz.
+    sources:
+    - https://www.facebook.com/japandragonfly/posts/1073807909419582/
+score: 63
+tier: supportive
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://akirasakata.bandcamp.com/album/tokuzo
+  - https://injapan.gaijinpot.com/play/travel/2010/08/12/nagoya-live-houses/
+  - https://www.allaboutjazz.com/sanrei-satoko-fujii-bakamo-records-review-by-eyal-hareuveni
+  needs_human_review: false
+notes: Nagoya live house in Imaike; broad program that regularly includes free/avant jazz
+  (Sakata, Moriyama, Satoko Fujii).

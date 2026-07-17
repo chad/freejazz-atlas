@@ -1,0 +1,73 @@
+id: muryoku-muzenji-tokyo
+name: Muryoku Muzenji
+aliases:
+- 無力無善寺
+status: active
+location:
+  address: "Under the Chuo Line tracks, Koenji, Suginami-ku"
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Koenji
+  lat: 35.705
+  lon: 139.649
+type: diy_space
+operating_model: diy_collective
+capacity: 30
+website: https://www.timeout.com/tokyo/music/muryoku-muzenji
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Small live house under the railway tracks known as a specialized venue
+      for experimental and noise music (live venue since 2002).
+    sources:
+    - https://www.timeout.com/tokyo/music/muryoku-muzenji
+  show_frequency:
+    value: 4
+    evidence: Frequent experimental/noise/improv gigs.
+    sources:
+    - https://www.tokyogigguide.com/en/gigs/venue/101
+    - https://www.setlist.fm/venue/muryoku-muzenji-tokyo-japan-63d22e2f.html
+  artist_roster:
+    value: 3
+    evidence: Underground noise and free-improv acts; a stop for Koenji's stranger
+      gigs.
+    sources:
+    - https://www.timeout.com/tokyo/music/best-gig-spots-in-koenji
+  self_description:
+    value: 4
+    evidence: Bills itself as a specialized live house for experimental and noise.
+    sources:
+    - https://www.timeout.com/tokyo/music/muryoku-muzenji
+  operating_model:
+    value: 4
+    evidence: Tiny DIY, living-room-scale venue with near-nonexistent PA.
+    sources:
+    - https://www.timeout.com/tokyo/music/muryoku-muzenji
+  community_reputation:
+    value: 3
+    evidence: A fixture of Koenji's experimental/noise scene, cited in Tokyo venue
+      guides.
+    sources:
+    - https://www.timeout.com/tokyo/music/best-gig-spots-in-koenji
+  listening_room:
+    value: 2
+    evidence: Cramped, casual space with sofas and pillows rather than an attentive
+      seated listening room.
+    sources:
+    - https://www.timeout.com/tokyo/music/muryoku-muzenji
+score: 72
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.timeout.com/tokyo/music/muryoku-muzenji
+  - https://www.tokyogigguide.com/en/gigs/venue/101
+  - https://www.timeout.com/tokyo/music/best-gig-spots-in-koenji
+  needs_human_review: false
+notes: Tiny experimental/noise live house under the Chuo Line tracks in Koenji (live
+  venue since 2002).

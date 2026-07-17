@@ -1,0 +1,74 @@
+id: superdeluxe-tokyo
+name: SuperDeluxe
+aliases:
+- Super Deluxe
+status: closed
+location:
+  address: B1F, 3-1-25 Nishi-Azabu, Minato-ku
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Nishi-Azabu
+  lat: 35.6596
+  lon: 139.7222
+type: dedicated_space
+operating_model: commercial
+capacity: 200
+website: https://www.super-deluxe.com/
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 4
+    evidence: 2002-2019 space for music, art, performance and talks that became a base for
+      Tokyo's experimental underground.
+    sources:
+    - https://www.japantimes.co.jp/culture/2018/11/01/music/superdeluxe-provided-safe-space-experimentation-tokyo-will-miss/
+  show_frequency:
+    value: 4
+    evidence: Frequent experimental music and cross-arts events across its 17-year run.
+    sources:
+    - https://www.timeout.com/tokyo/bars-and-pubs/superdeluxe
+  artist_roster:
+    value: 5
+    evidence: Base for Keiji Haino, Otomo Yoshihide and Seiichi Yamamoto and host to international
+      avant-garde figures including Jim O'Rourke and Alvin Lucier.
+    sources:
+    - https://www.japantimes.co.jp/culture/2018/11/01/music/superdeluxe-provided-safe-space-experimentation-tokyo-will-miss/
+  self_description:
+    value: 4
+    evidence: Conceived as a hybrid live venue, gallery, performance space and lounge for
+      experimentation.
+    sources:
+    - https://www.timeout.com/tokyo/bars-and-pubs/superdeluxe
+  operating_model:
+    value: 3
+    evidence: Independent commercial venue with a strong experimental mission (founded by
+      architects Klein Dytham).
+    sources:
+    - https://www.timeout.com/tokyo/bars-and-pubs/superdeluxe
+  community_reputation:
+    value: 5
+    evidence: Remembered as one of Japan's leading experimental cultural transmitters; its
+      2019 closure was widely mourned in the press.
+    sources:
+    - https://www.japantimes.co.jp/culture/2018/11/01/music/superdeluxe-provided-safe-space-experimentation-tokyo-will-miss/
+  listening_room:
+    value: 3
+    evidence: Flexible hybrid space with a bar; not a pure seated listening room.
+    sources:
+    - https://www.timeout.com/tokyo/bars-and-pubs/superdeluxe
+score: 83
+tier: committed
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.japantimes.co.jp/culture/2018/11/01/music/superdeluxe-provided-safe-space-experimentation-tokyo-will-miss/
+  - https://www.timeout.com/tokyo/bars-and-pubs/superdeluxe
+  - https://en.japantravel.com/tokyo/super-deluxe-in-roppongi/1585
+  needs_human_review: false
+notes: CLOSED 2019 after 17 years (building demolition). Included as a historically important
+  cornerstone of Tokyo's experimental scene; a successor project, SupernaturalDeluxe, opened
+  in Chiba in 2022.

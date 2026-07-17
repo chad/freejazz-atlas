@@ -1,0 +1,71 @@
+id: forestlimit-tokyo
+name: Forestlimit
+aliases: []
+status: active
+location:
+  address: "1F Hatagaya K3 Bldg., 2-8-15 Hatagaya, Shibuya-ku"
+  city: Tokyo
+  region: Tokyo
+  country: JP
+  neighborhood: Hatagaya
+  lat: 35.6779
+  lon: 139.679
+type: diy_space
+operating_model: diy_collective
+capacity: 80
+website: https://www.tokyoartbeat.com/en/venues/-/1A09E0E1
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Cafe/studio (opened 2010) hosting art shows and left-of-centre music;
+      built as a listening bar with large speaker stacks.
+    sources:
+    - https://www.timeout.com/tokyo/music/forestlimit
+    - https://www.tokyoartbeat.com/en/venues/-/1A09E0E1
+  show_frequency:
+    value: 3
+    evidence: Regular experimental and electronic gigs.
+    sources:
+    - https://www.timeout.com/tokyo/music/forestlimit
+  artist_roster:
+    value: 3
+    evidence: Experimental/electronic and ambient artists more than free-jazz improvisers.
+    sources:
+    - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
+  self_description:
+    value: 3
+    evidence: Alternative, experimental-leaning venue and atelier.
+    sources:
+    - https://www.timeout.com/tokyo/music/forestlimit
+  operating_model:
+    value: 4
+    evidence: Independent DIY cafe/studio space.
+    sources:
+    - https://www.tokyoartbeat.com/en/venues/-/1A09E0E1
+  community_reputation:
+    value: 3
+    evidence: Recognized alternative Shibuya-ku venue in Tokyo listening-bar/venue
+      guides.
+    sources:
+    - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
+  listening_room:
+    value: 3
+    evidence: Originally a listening bar with four large speaker stacks; also functions
+      as a party/club space.
+    sources:
+    - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
+score: 62
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.timeout.com/tokyo/music/forestlimit
+  - https://www.tokyoartbeat.com/en/venues/-/1A09E0E1
+  - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
+  needs_human_review: false
+notes: Hatagaya DIY cafe/studio (est. 2010); experimental and ambient/electronic-leaning
+  more than free-jazz, but a genuine adventurous listening space.
