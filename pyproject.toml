@@ -1,0 +1,29 @@
+[project]
+name = "freejazz-atlas"
+version = "0.1.0"
+description = "An ingestion engine and evolving directory of venues committed to free jazz, free improvisation, and avant-garde music, plus the musicians keeping them alive."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "The Free Jazz Atlas contributors" }]
+dependencies = [
+    "PyYAML>=6.0",
+]
+
+# Optional extras. The core directory (validate/score/build/query) runs on the
+# standard library + PyYAML alone. The live crawler needs these.
+[project.optional-dependencies]
+crawl = [
+    "requests>=2.28",
+    "beautifulsoup4>=4.11",
+]
+
+[project.scripts]
+atlas = "atlas.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["atlas"]
