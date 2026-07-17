@@ -1,0 +1,70 @@
+id: cave12-geneva
+name: cave12
+aliases:
+- Cave 12
+status: active
+location:
+  address: "Rue de la Prairie 4"
+  city: Geneva
+  region: Geneva
+  country: CH
+  neighborhood: Jonction
+  lat: 46.2130
+  lon: 6.1350
+type: dedicated_space
+operating_model: nonprofit
+capacity: 100
+website: https://www.cave12.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Concert venue dedicated to experimental, alternative and improvised\
+      \ music, established in 1989."
+    sources:
+    - https://ra.co/clubs/73158
+    - http://nichts.klingt.org/1621
+  show_frequency:
+    value: 4
+    evidence: Regular concert program of experimental and improvised music.
+    sources:
+    - https://www.cave12.org/
+  artist_roster:
+    value: 5
+    evidence: "Has hosted a diverse international roster including Tony Conrad, Fred\
+      \ Frith and Otomo Yoshihide."
+    sources:
+    - https://ra.co/clubs/73158
+  self_description:
+    value: 5
+    evidence: "Describes itself as dedicated to experimental and innovative music."
+    sources:
+    - https://ra.co/clubs/73158
+  operating_model:
+    value: 5
+    evidence: Volunteer/association-run experimental music space.
+    sources:
+    - http://nichts.klingt.org/1621
+  community_reputation:
+    value: 5
+    evidence: Recognized cornerstone of Geneva's and Switzerland's experimental/improv
+      scene.
+    sources:
+    - http://nichts.klingt.org/1621
+  listening_room:
+    value: 4
+    evidence: Intimate underground venue for attentive avant-garde listening.
+    sources:
+    - https://ra.co/clubs/73158
+score: 95
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.cave12.org/
+  - https://ra.co/clubs/73158
+  needs_human_review: false
+notes: "Geneva's dedicated venue for experimental and improvised music since 1989."

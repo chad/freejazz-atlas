@@ -1,0 +1,70 @@
+id: king-georg-cologne
+name: King Georg
+aliases: []
+status: active
+location:
+  address: "Sudermanstr. 2"
+  city: Cologne
+  region: North Rhine-Westphalia
+  country: DE
+  neighborhood: Ebertplatz
+  lat: 50.9490
+  lon: 6.9583
+type: bar_club
+operating_model: nonprofit
+capacity: 80
+website: https://miz.org/en/institutions/king-georg-i36060
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Jazz club and bar with live jazz concerts at least twice weekly, plus
+      DJ sets and cultural events; jazz-focused rather than dedicated to free/improv.
+    sources:
+    - https://miz.org/en/institutions/king-georg-i36060
+    - https://www.jazz-fun.de/jazzclub-king-georg-koeln.html
+  show_frequency:
+    value: 2
+    evidence: Live jazz twice weekly plus young-talent gigs; adventurous/improvised
+      music is part of but not central to the program.
+    sources:
+    - https://miz.org/en/institutions/king-georg-i36060
+  artist_roster:
+    value: 3
+    evidence: International jazz artists curated by pianist Martin Sasse; program leans
+      toward the wider jazz spectrum.
+    sources:
+    - https://magazine.cologne-tourism.com/culture/colognes-king-georg-jazz-club-where-top-international-artists-grace-the-stage/
+  self_description:
+    value: 2
+    evidence: "Motto 'jazz to touch for connoisseurs and the curious'; blends jazz\
+      \ and club culture."
+    sources:
+    - https://miz.org/en/institutions/king-georg-i36060
+  operating_model:
+    value: 4
+    evidence: Run by the nonprofit Cologne Jazz Supporters e.V.
+    sources:
+    - https://miz.org/en/institutions/king-georg-i36060
+  community_reputation:
+    value: 3
+    evidence: Long-standing (since 1968) Ebertplatz jazz institution.
+    sources:
+    - https://www.cologne-tourism.com/arts-culture/sights/detail/king-georg
+  listening_room:
+    value: 4
+    evidence: Small warm concert room with a living-room vibe.
+    sources:
+    - https://magazine.cologne-tourism.com/culture/colognes-king-georg-jazz-club-where-top-international-artists-grace-the-stage/
+score: 57
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://miz.org/en/institutions/king-georg-i36060
+  - https://www.cologne-tourism.com/arts-culture/sights/detail/king-georg
+  needs_human_review: false
+notes: "Nonprofit Cologne jazz club/bar with a mostly mainstream jazz program; adventurous music is secondary."

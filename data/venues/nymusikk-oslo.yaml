@@ -1,0 +1,69 @@
+id: nymusikk-oslo
+name: nyMusikk
+aliases:
+- Ny Musikk
+status: active
+location:
+  city: Oslo
+  region: Oslo
+  country: "NO"
+  lat: 59.9110
+  lon: 10.7460
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://nymusikk.no/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Norway's centre for experimental music and sound art; commissions, produces and
+      presents new music, and runs the Only Connect Festival of Sound.
+    sources:
+    - https://nymusikk.no/en/om-nymusikk-english
+    - https://monoskop.org/NyMusikk
+  show_frequency:
+    value: 3
+    evidence: Arranges concerts, festivals, screenings, installations and lectures across Oslo
+      and eleven regional branches.
+    sources:
+    - https://nymusikk.no/en/om-nymusikk-english
+  artist_roster:
+    value: 4
+    evidence: Presents adventurous/experimental composers, improvisers and sound artists;
+      Norwegian section of ISCM.
+    sources:
+    - https://monoskop.org/NyMusikk
+  self_description:
+    value: 5
+    evidence: Describes itself as Norway's centre for experimental music and sound art.
+    sources:
+    - https://nymusikk.no/en/om-nymusikk-english
+  operating_model:
+    value: 5
+    evidence: Nonprofit member organisation founded 1938 by Pauline Hall.
+    sources:
+    - https://nymusikk.no/en/om-nymusikk-english
+  community_reputation:
+    value: 4
+    evidence: Longstanding pillar of Norwegian new/experimental music; runs Only Connect and Off
+      The Page festivals.
+    sources:
+    - https://monoskop.org/NyMusikk
+  listening_room:
+    value: 3
+    sources:
+    - https://nymusikk.no/en/om-nymusikk-english
+score: 84
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://nymusikk.no/en/om-nymusikk-english
+  - https://monoskop.org/NyMusikk
+  needs_human_review: false
+notes: Presenter/organisation rather than a fixed room; produces experimental music and sound-art
+  events across Oslo (and nationally). Coordinates are Oslo city-centre approximate.

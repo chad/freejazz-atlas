@@ -1,0 +1,75 @@
+id: iklectik-london
+name: IKLECTIK
+aliases:
+- Iklectik Art Lab
+status: active
+location:
+  address: 95A Rye Lane (Peckham Levels)
+  city: London
+  region: England
+  country: GB
+  neighborhood: Peckham
+  lat: 51.4703
+  lon: -0.0699
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://iklectik.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Nonprofit creative organisation hosting experimental, electronic and
+      free-improvisation music; hosted 1,700+ shows and 21 festivals over its first
+      decade.
+    sources:
+    - https://en.wikipedia.org/wiki/IKLECTIK
+    - https://iklectik.org/
+  show_frequency:
+    value: 3
+    evidence: Prolific experimental programming; relocated after 2024 eviction and
+      reopening in a Peckham Levels residency, so 2026 cadence is rebuilding.
+    sources:
+    - https://mixmag.net/read/experimental-music-arts-venue-iklectik-reopen-peckham-london-news/
+    - https://ra.co/news/83613
+  artist_roster:
+    value: 5
+    evidence: Books experimental, electronic and free-improv artists.
+    sources:
+    - https://en.wikipedia.org/wiki/IKLECTIK
+  self_description:
+    value: 5
+    evidence: Experimental contemporary art and music space.
+    sources:
+    - https://iklectik.org/
+  operating_model:
+    value: 5
+    evidence: Not-for-profit creative organisation.
+    sources:
+    - https://en.wikipedia.org/wiki/IKLECTIK
+  community_reputation:
+    value: 4
+    evidence: Widely covered grassroots experimental venue; press rallied around its
+      survival after eviction.
+    sources:
+    - https://www.bigissue.com/culture/music/iklectik-london-grassroots-music-collective-eviction/
+  listening_room:
+    value: 4
+    evidence: Dedicated concert space for attentive listening.
+    sources:
+    - https://iklectik.org/
+score: 89
+tier: cornerstone
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://iklectik.org/
+  - https://en.wikipedia.org/wiki/IKLECTIK
+  - https://mixmag.net/read/experimental-music-arts-venue-iklectik-reopen-peckham-london-news/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: evicted from Old Paradise Yard (Waterloo) in Jan 2024; reopened
+  in a 13-month residency at Peckham Levels from Oct 2025. Confirm current 2026 address
+  and cadence.'

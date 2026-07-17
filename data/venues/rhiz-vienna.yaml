@@ -1,0 +1,71 @@
+id: rhiz-vienna
+name: rhiz
+aliases:
+- Rhiz Bar Modern
+status: active
+location:
+  address: "Lerchenfelder Gürtel Bogen 37-38"
+  city: Vienna
+  region: Vienna
+  country: AT
+  neighborhood: Gürtel
+  lat: 48.2099
+  lon: 16.3387
+type: bar_club
+operating_model: commercial
+capacity: 150
+website: https://rhiz.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Venue and platform for experimental electronic music and projects,\
+      \ in the arches of the former Stadtbahn on Vienna's Gürtel."
+    sources:
+    - https://rhiz.org/
+    - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
+  show_frequency:
+    value: 4
+    evidence: "Concerts several times weekly, ranging from advanced electronic to\
+      \ experimental rock."
+    sources:
+    - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
+  artist_roster:
+    value: 4
+    evidence: "Historic hub of Vienna's electronic/laptop avant-garde (Fennesz, Radian,\
+      \ Pita) with ongoing experimental bookings."
+    sources:
+    - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
+  self_description:
+    value: 4
+    evidence: "Describes itself as an institution of Vienna's music scene and a platform\
+      \ for experiments with electronic music."
+    sources:
+    - https://rhiz.org/
+  operating_model:
+    value: 3
+    evidence: Independently run bar/venue.
+    sources:
+    - https://rhiz.org/
+  community_reputation:
+    value: 4
+    evidence: Long-regarded central hub of Vienna's experimental electronic scene.
+    sources:
+    - https://www.guertelconnection.at/rhiz/
+  listening_room:
+    value: 3
+    evidence: Bar-venue in a railway arch beneath the U6 line.
+    sources:
+    - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
+score: 77
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://rhiz.org/
+  - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
+  needs_human_review: false
+notes: "Gürtel-arch venue for experimental electronic and avant music; more electronic-leaning than free jazz but a genuine avant-garde platform."

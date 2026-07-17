@@ -1,0 +1,71 @@
+id: panda-platforma-berlin
+name: PANDA platforma
+aliases:
+- Panda Theater
+status: active
+location:
+  address: "Knaackstr. 97 (Kulturbrauerei)"
+  city: Berlin
+  region: Berlin
+  country: DE
+  neighborhood: Prenzlauer Berg
+  lat: 52.5393
+  lon: 13.4179
+type: arts_center
+operating_model: nonprofit
+capacity: 120
+website: https://panda-theater.de/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Interdisciplinary cultural venue in the Kulturbrauerei since 2009; a
+      key contact point for the international improvised-music scene alongside theatre,
+      readings and other programming.
+    sources:
+    - https://panda-theater.de/
+    - https://www.kulturbrauerei.de/organizer/panda-theater/
+  show_frequency:
+    value: 3
+    evidence: Regular experimental-music concerts as part of a broad program.
+    sources:
+    - https://panda-theater.de/
+  artist_roster:
+    value: 4
+    evidence: Attracts pioneers and representatives of several generations of the
+      international improvised-music scene.
+    sources:
+    - https://panda-theater.de/
+  self_description:
+    value: 3
+    evidence: International, interdisciplinary and integrative cultural venue; experimental
+      art forms are central to its identity.
+    sources:
+    - https://www.pankow-weissensee-prenzlauerberg.berlin/en/panda-platforma
+  operating_model:
+    value: 4
+    evidence: Run by the nonprofit association PANDA platforma e.V.
+    sources:
+    - https://panda-theater.de/
+  community_reputation:
+    value: 3
+    evidence: Established fixture of alternative art in Berlin.
+    sources:
+    - https://www.pankow-weissensee-prenzlauerberg.berlin/en/panda-platforma
+  listening_room:
+    value: 3
+    evidence: Theatre with stage and bar in the Kulturbrauerei courtyard.
+    sources:
+    - https://www.kulturbrauerei.de/organizer/panda-theater/
+score: 66
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://panda-theater.de/
+  - https://www.kulturbrauerei.de/organizer/panda-theater/
+  needs_human_review: false
+notes: "Interdisciplinary Kulturbrauerei venue and an important contact point for the international improvised-music scene since 2009."

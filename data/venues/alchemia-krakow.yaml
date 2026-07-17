@@ -1,0 +1,71 @@
+id: alchemia-krakow
+name: Alchemia
+aliases: []
+status: active
+location:
+  address: "Estery 5"
+  city: Kraków
+  region: Lesser Poland
+  country: PL
+  neighborhood: Kazimierz
+  lat: 50.0517
+  lon: 19.9440
+type: bar_club
+operating_model: artist_run
+capacity: 100
+website: https://en.alchemia.com.pl/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Beating heart of experimental jazz in Kazimierz since 1999; birthplace and home of
+      the Krakow Jazz Autumn festival focused exclusively on contemporary improvised music.
+    sources:
+    - https://en.alchemia.com.pl/
+    - https://en.kjj-festiwal.pl/o-festiwalu/
+  show_frequency:
+    value: 4
+    evidence: Regular improvised music concerts plus the September-December Krakow Jazz Autumn
+      festival.
+    sources:
+    - https://en.kjj-festiwal.pl/o-festiwalu/
+  artist_roster:
+    value: 5
+    evidence: Welcomes the greatest artists of contemporary improvised music, in cooperation with
+      Not Two Records.
+    sources:
+    - https://www.europejazz.net/festival/krakow-jazz-autumn
+    - https://en.alchemia.com.pl/
+  self_description:
+    value: 4
+    evidence: Presents itself around excellent improvised and experimental music.
+    sources:
+    - https://en.alchemia.com.pl/
+  operating_model:
+    value: 4
+    evidence: Independent club run with the Alchemia Cultural Centre Foundation.
+    sources:
+    - https://en.kjj-festiwal.pl/o-festiwalu/
+  community_reputation:
+    value: 5
+    evidence: Widely cited as the center of Krakow's improvised/experimental jazz scene.
+    sources:
+    - https://krakow.wiki/jazz-music-in-krakow/
+  listening_room:
+    value: 4
+    evidence: Cosy intimate stage for close-up musical encounters.
+    sources:
+    - https://en.kjj-festiwal.pl/o-festiwalu/
+score: 91
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.alchemia.com.pl/
+  - https://en.kjj-festiwal.pl/o-festiwalu/
+  - https://www.europejazz.net/festival/krakow-jazz-autumn
+  needs_human_review: false
+notes: Kazimierz club at the center of Krakow's improvised-music scene; home of Krakow Jazz Autumn.

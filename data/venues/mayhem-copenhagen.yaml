@@ -1,0 +1,68 @@
+id: mayhem-copenhagen
+name: Mayhem
+aliases:
+- Mayhem KBH
+status: active
+location:
+  address: "Ragnhildgade 1"
+  city: Copenhagen
+  region: Capital Region
+  country: DK
+  lat: 55.7086
+  lon: 12.5637
+type: diy_space
+operating_model: diy_collective
+capacity: 150
+website: https://mayhemkbh.dk/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Space for extreme and experimental music known for free jazz and weird electronic
+      music; hosts an annual Jazzfest (July) and Noisefest (December).
+    sources:
+    - https://mayhemkbh.dk/
+    - https://www.thewire.co.uk/audio/tracks/listen_performances-at-the-mayhem-venue
+  show_frequency:
+    value: 4
+    evidence: Two or three shows a week.
+    sources:
+    - https://mayhemkbh.dk/
+  artist_roster:
+    value: 4
+    evidence: Programs free jazz, noise and experimental artists from the underground.
+    sources:
+    - https://www.thewire.co.uk/audio/tracks/listen_performances-at-the-mayhem-venue
+  self_description:
+    value: 5
+    evidence: Self-describes as a space for extreme and experimental music.
+    sources:
+    - https://mayhemkbh.dk/
+  operating_model:
+    value: 5
+    evidence: Run by voluntary powers since 2009; DIY underground venue.
+    sources:
+    - https://mayhemkbh.dk/
+  community_reputation:
+    value: 4
+    evidence: Cited by The Wire and Copenhagen scene guides as a key experimental/underground
+      venue.
+    sources:
+    - https://www.thewire.co.uk/audio/tracks/listen_performances-at-the-mayhem-venue
+  listening_room:
+    value: 3
+    sources:
+    - https://mayhemkbh.dk/
+score: 83
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://mayhemkbh.dk/
+  - https://www.thewire.co.uk/audio/tracks/listen_performances-at-the-mayhem-venue
+  needs_human_review: false
+notes: Volunteer-run extreme/experimental music venue on Copenhagen's outskirts; free jazz plus
+  annual Jazzfest and Noisefest. Address/coords approximate.

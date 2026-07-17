@@ -1,0 +1,71 @@
+id: kraak-gent
+name: KRAAK
+aliases:
+- KRAAK Festival
+status: active
+location:
+  city: Ghent
+  region: East Flanders
+  country: BE
+  lat: 51.0543
+  lon: 3.7174
+type: presenter
+operating_model: diy_collective
+capacity: null
+website: https://kraak.net/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Nomadic concert organisation and record label supporting experimental and DIY
+      music for over two decades; runs the annual KRAAK Festival.
+    sources:
+    - https://kraak.net/
+    - https://dutchculture.nl/en/organisation/kraak-festival-brussels
+  show_frequency:
+    value: 3
+    evidence: Regularly programs concerts and an annual festival, but as a nomadic organisation
+      it has no fixed venue.
+    sources:
+    - https://kraak.net/
+  artist_roster:
+    value: 5
+    evidence: Books an international lineup of experimental musicians across noise, improv,
+      folk and electronic music.
+    sources:
+    - https://beursschouwburg.be/en/events/kraak/
+  self_description:
+    value: 5
+    evidence: One of Belgium's seminal DIY and experimental labels/organisations, touching
+      noise, punk, improv and more.
+    sources:
+    - https://www.forcedexposure.com/Labels/KRAAK.BELGIUM.html
+  operating_model:
+    value: 5
+    evidence: Long-running DIY collective, label and concert organisation.
+    sources:
+    - https://kraak.net/
+  community_reputation:
+    value: 4
+    evidence: An important institution in Belgium's experimental music scene for 20+ years.
+    sources:
+    - https://dutchculture.nl/en/organisation/kraak-festival-brussels
+  listening_room:
+    value: 2
+    evidence: Nomadic; uses varied host venues (e.g. Het Bos, Beursschouwburg) rather than
+      a dedicated listening room.
+    sources:
+    - https://beursschouwburg.be/en/events/kraak/
+score: 82
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://kraak.net/
+  - https://dutchculture.nl/en/organisation/kraak-festival-brussels
+  needs_human_review: true
+notes: 'NEEDS REVIEW: nomadic Belgian DIY organisation/label/festival with no fixed venue;
+  coordinates are Ghent. Confirm current base and festival host venues.'

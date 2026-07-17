@@ -1,0 +1,72 @@
+id: kafe-haerverk-oslo
+name: Kafé Hærverk
+aliases:
+- Kafe Haerverk
+status: active
+location:
+  address: "Hausmanns gate 34"
+  city: Oslo
+  region: Oslo
+  country: "NO"
+  lat: 59.9188
+  lon: 10.7565
+type: bar_club
+operating_model: artist_run
+capacity: 120
+website: https://www.kafe-haerverk.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Bar and concert venue for experimental and independent music; improvised music
+      night every other Tuesday; programming spans noise, free jazz, electronic and ambient.
+    sources:
+    - https://www.kafe-haerverk.com/om
+    - https://monoskop.org/Kaf%C3%A9_H%C3%A6rverk
+  show_frequency:
+    value: 4
+    evidence: Regular concerts, jazz evenings, deep listening sessions and new-music events.
+    sources:
+    - https://www.kafe-haerverk.com/
+  artist_roster:
+    value: 4
+    evidence: Experimental hub hosting free jazz, noise and improvisers; home to the Blow Out
+      improv series.
+    sources:
+    - https://monoskop.org/Kaf%C3%A9_H%C3%A6rverk
+    - https://www.facebook.com/blowoutoslo/
+  self_description:
+    value: 5
+    evidence: Describes itself as a venue for experimental and independent music with improvisation
+      and new music.
+    sources:
+    - https://www.kafe-haerverk.com/om
+  operating_model:
+    value: 4
+    evidence: Independent artist/scene-run space with its own label Hærverk Industrier.
+    sources:
+    - https://www.kafe-haerverk.com/
+  community_reputation:
+    value: 4
+    evidence: Cited as a key Oslo listening bar and experimental hub.
+    sources:
+    - https://www.tracksandtales.co/blogs/cities/oslo-listening-bars-nordic-cool-and-sonic-intensity
+  listening_room:
+    value: 4
+    evidence: Deep listening sessions through a carefully calibrated system.
+    sources:
+    - https://www.tracksandtales.co/blogs/cities/oslo-listening-bars-nordic-cool-and-sonic-intensity
+score: 82
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.kafe-haerverk.com/om
+  - https://monoskop.org/Kaf%C3%A9_H%C3%A6rverk
+  - https://www.facebook.com/blowoutoslo/
+  needs_human_review: false
+notes: Experimental/independent music bar in central Oslo; hosts the Blow Out improv series and a
+  biweekly improvised music night.

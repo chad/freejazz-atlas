@@ -1,0 +1,69 @@
+id: jazztopad-festival-wroclaw
+name: Jazztopad Festival
+aliases: []
+status: active
+location:
+  address: "Narodowe Forum Muzyki, plac Wolności 1"
+  city: Wrocław
+  region: Lower Silesia
+  country: PL
+  lat: 51.1075
+  lon: 17.0310
+type: festival
+operating_model: nonprofit
+capacity: null
+website: https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Over two decades a celebration of improvised music, distinguished by premieres of
+      works commissioned from famous improvisers.
+    sources:
+    - https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival
+    - https://www.europejazz.net/festivals/jazztopad
+  show_frequency:
+    value: 2
+    evidence: Annual November festival at the National Forum of Music, with concerts also in
+      intimate clubs and private apartments.
+    sources:
+    - https://www.europejazz.net/news/22-jazztopad-festival-1423-november-2025
+  artist_roster:
+    value: 4
+    evidence: Hosts major improvisers and jazz musicians; commissions premieres, with albums
+      released on ECM, Blue Note and AUM.
+    sources:
+    - https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival
+  self_description:
+    value: 4
+    evidence: Centers itself on improvised music, creativity and artistic dialogue.
+    sources:
+    - https://wroclawmagazine.com/jazztopad-2025-in-wroclaw/
+  operating_model:
+    value: 4
+    evidence: Organized by the National Forum of Music (Narodowe Forum Muzyki), a public
+      nonprofit institution.
+    sources:
+    - https://www.europejazz.net/festivals/jazztopad
+  community_reputation:
+    value: 5
+    evidence: One of the most recognizable jazz/improvised music festivals in Europe.
+    sources:
+    - https://www.europejazz.net/festivals/jazztopad
+  listening_room:
+    value: 4
+    sources:
+    - https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival
+score: 79
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival
+  - https://www.europejazz.net/festivals/jazztopad
+  needs_human_review: false
+notes: Wrocław's improvised-music festival built on commissioned premieres, hosted by the National
+  Forum of Music.

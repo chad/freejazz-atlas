@@ -1,0 +1,68 @@
+id: mengi-reykjavik
+name: Mengi
+aliases: []
+status: active
+location:
+  address: "Óðinsgata 2"
+  city: Reykjavik
+  region: Capital Region
+  country: IS
+  lat: 64.1447
+  lon: -21.9310
+type: dedicated_space
+operating_model: artist_run
+capacity: 70
+website: https://mengi.net/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Space for creative and experimental music and art; carefully curated year-round
+      program of avant-garde, improvisational and genre-blurring acts since 2013.
+    sources:
+    - https://mengi.net/
+  show_frequency:
+    value: 4
+    evidence: Hosts a diverse program of events all year round; longest running independent
+      music venue in Reykjavik.
+    sources:
+    - https://mengi.net/
+  artist_roster:
+    value: 4
+    evidence: Platform for Iceland's most forward-thinking improvisational and experimental
+      musicians; also runs its own record label.
+    sources:
+    - https://mengi.net/
+  self_description:
+    value: 5
+    evidence: Self-describes as a space for creative and experimental music and art.
+    sources:
+    - https://mengi.net/
+  operating_model:
+    value: 5
+    evidence: Created and managed by artists.
+    sources:
+    - https://mengi.net/
+  community_reputation:
+    value: 4
+    evidence: Widely cited as Reykjavik's home for experimental/improvised music.
+    sources:
+    - https://guidetoiceland.is/music-of-iceland/the-best-live-music-venues-in-iceland
+  listening_room:
+    value: 5
+    evidence: Intimate concert room (49 seated / 70 standing) hidden behind a gallery shop;
+      attentive listening.
+    sources:
+    - https://mengi.net/
+score: 90
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://mengi.net/
+  - https://guidetoiceland.is/music-of-iceland/the-best-live-music-venues-in-iceland
+  needs_human_review: false
+notes: Artist-run experimental venue, gallery and label in downtown Reykjavik.

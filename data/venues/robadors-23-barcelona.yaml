@@ -1,0 +1,69 @@
+id: robadors-23-barcelona
+name: 23 Robadors
+aliases:
+- Robadors 23
+status: active
+location:
+  address: "Carrer d'En Robador 23"
+  city: Barcelona
+  region: Catalonia
+  country: ES
+  neighborhood: El Raval
+  lat: 41.3796
+  lon: 2.1706
+type: bar_club
+operating_model: commercial
+capacity: 60
+website: https://23robadors.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Intimate Raval bar with daily live music; weekly La Jam de Jazz (Wednesdays) that
+      is free for musicians and known for free-leaning jazz jams.
+    sources:
+    - https://23robadors.com/
+    - https://ma.to/event/la-jam-de-jazz-23robadors-1-april-2026
+  show_frequency:
+    value: 3
+    evidence: Live music most days; weekly jazz jam plus flamenco and other genres.
+    sources:
+    - https://23robadors.com/
+  artist_roster:
+    value: 2
+    evidence: Local jam-based jazz scene with some free-jazz players; broad mix with flamenco,
+      funk and rock.
+    sources:
+    - https://www.barcelona-metropolitan.com/locations/23-robadors-barcelona-music-venue/
+  self_description:
+    value: 2
+    evidence: Presents itself as a raw, unpretentious live-music bar rather than a dedicated
+      experimental venue.
+    sources:
+    - https://www.barcelona-metropolitan.com/locations/23-robadors-barcelona-music-venue/
+  operating_model:
+    value: 3
+    evidence: Small independent Raval bar operating since 2004.
+    sources:
+    - https://www.barcelona-metropolitan.com/locations/23-robadors-barcelona-music-venue/
+  community_reputation:
+    value: 3
+    evidence: A Raval institution for authentic live jazz and flamenco jams.
+    sources:
+    - https://barcelonaurbana.com/en/blog/best-live-music-bars-barcelona
+  listening_room:
+    value: 2
+    sources:
+    - https://23robadors.com/
+score: 53
+tier: supportive
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://23robadors.com/
+  - https://www.barcelona-metropolitan.com/locations/23-robadors-barcelona-music-venue/
+  needs_human_review: false
+notes: Tiny Raval bar with a weekly free-leaning jazz jam among a broad live-music program.

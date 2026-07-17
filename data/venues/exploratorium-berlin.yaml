@@ -1,0 +1,71 @@
+id: exploratorium-berlin
+name: exploratorium berlin
+aliases:
+- Exploratorium
+status: active
+location:
+  address: "Zossener Str. 24"
+  city: Berlin
+  region: Berlin
+  country: DE
+  neighborhood: Kreuzberg
+  lat: 52.4933
+  lon: 13.3969
+type: dedicated_space
+operating_model: nonprofit
+capacity: 80
+website: https://exploratorium-berlin.de/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Founded 2004 as a centre for improvised music and creative music education;
+      improvisation is its defining artistic language.
+    sources:
+    - https://exploratorium-berlin.de/en/about-us/
+  show_frequency:
+    value: 3
+    evidence: Organizes a concert roughly every three weeks with musicians from the
+      international improvisation scene, plus frequent open jams and soundwalks.
+    sources:
+    - https://exploratorium-berlin.de/en/about-us/
+    - https://exploratorium-berlin.de/en/calendar/
+  artist_roster:
+    value: 5
+    evidence: Concerts feature the international free-improvisation scene.
+    sources:
+    - https://exploratorium-berlin.de/en/about-us/
+  self_description:
+    value: 5
+    evidence: Central project of the Lilli Friedemann Stiftung; space for free improvisation
+      in music, dance, poetry, theatre and visual arts.
+    sources:
+    - https://exploratorium-berlin.de/en/about-us/
+  operating_model:
+    value: 5
+    evidence: Nonprofit foundation project (Lilli Friedemann Stiftung).
+    sources:
+    - https://exploratorium-berlin.de/en/about-us/
+  community_reputation:
+    value: 4
+    evidence: Long-standing home of Berlin's free-improvisation and improv-education
+      community.
+    sources:
+    - https://de.wikipedia.org/wiki/Exploratorium_Berlin
+  listening_room:
+    value: 4
+    evidence: Dedicated concert room.
+    sources:
+    - https://exploratorium-berlin.de/en/calendar/
+score: 89
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://exploratorium-berlin.de/en/about-us/
+  - https://de.wikipedia.org/wiki/Exploratorium_Berlin
+  needs_human_review: false
+notes: "Kreuzberg centre for improvised music and creative music education; moved to Zossener Str. in 2023."

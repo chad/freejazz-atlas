@@ -1,0 +1,73 @@
+id: glad-cafe-glasgow
+name: The Glad Cafe
+aliases: []
+status: active
+location:
+  address: 1006A Pollokshaws Rd
+  city: Glasgow
+  region: Scotland
+  country: GB
+  neighborhood: Shawlands
+  lat: 55.8285
+  lon: -4.2735
+type: bar_club
+operating_model: nonprofit
+capacity: 130
+website: https://www.thegladcafe.co.uk/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Hosts the recurring Glasgow Experimental Music Series among a broad
+      arts program.
+    sources:
+    - https://www.thegladcafe.co.uk/events/2024-12-06-glasgow-experimental-music-series-the-glad-cafe
+    - https://www.theskinny.co.uk/whats-on/glasgow/restaurants/the-glad-cafe/glasgow-experimental-music-series
+  show_frequency:
+    value: 2
+    evidence: Frequent gigs, but experimental/improvised music is a periodic strand
+      of a wider indie/electronic/traditional program.
+    sources:
+    - https://communalleisure.com/the-glad-cafe/
+  artist_roster:
+    value: 3
+    evidence: Features experimental and improvising acts alongside indie, electronic
+      and traditional musicians.
+    sources:
+    - https://www.thegladcafe.co.uk/
+  self_description:
+    value: 3
+    evidence: Not-for-profit multi-arts venue known for experimental and improvised
+      programming and good acoustics.
+    sources:
+    - https://www.thegladcafe.co.uk/
+  operating_model:
+    value: 4
+    evidence: Not-for-profit venue with an associated foundation (The Glad Foundation
+      SCIO).
+    sources:
+    - https://www.thegladcafe.co.uk/
+  community_reputation:
+    value: 3
+    evidence: Established Southside venue cited by The Skinny for its experimental
+      series.
+    sources:
+    - https://www.theskinny.co.uk/whats-on/glasgow/restaurants/the-glad-cafe/glasgow-experimental-music-series
+  listening_room:
+    value: 3
+    evidence: Well-equipped room noted for its acoustics; also a licensed cafe/bar.
+    sources:
+    - https://www.thegladcafe.co.uk/
+score: 58
+tier: supportive
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.thegladcafe.co.uk/
+  - https://www.theskinny.co.uk/whats-on/glasgow/restaurants/the-glad-cafe/glasgow-experimental-music-series
+  needs_human_review: true
+notes: 'NEEDS REVIEW: confirm 2026 cadence of the Glasgow Experimental Music Series
+  and overall experimental share.'

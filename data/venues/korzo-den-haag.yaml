@@ -1,0 +1,72 @@
+id: korzo-den-haag
+name: Korzo
+aliases:
+- Korzo Theater
+status: active
+location:
+  address: Prinsestraat 42
+  city: The Hague
+  region: Zuid-Holland
+  country: NL
+  lat: 52.08
+  lon: 4.306
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://korzo.nl/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Adventurous theatre and production house hosting the Rewire x Korzo
+      experimental music series (since 2016); previously home to the Konceptions creative-jazz
+      series (548 nights over a decade).
+    sources:
+    - https://www.rewirefestival.nl/news/the-rewire-x-korzo-concert-series-returns-this-autumn
+    - https://konceptionsmusicseries.wordpress.com/
+  show_frequency:
+    value: 2
+    evidence: Experimental/improv music runs as periodic concert series within a program
+      dominated by dance and theatre.
+    sources:
+    - https://korzo.nl/en/
+  artist_roster:
+    value: 3
+    evidence: Rewire x Korzo presents experimental and improvising artists; Konceptions
+      hosted creative jazz and improvised music.
+    sources:
+    - https://konceptionsmusicseries.wordpress.com/
+  self_description:
+    value: 3
+    evidence: Stage for adventurous music, dance, circus and theatre in the heart
+      of The Hague.
+    sources:
+    - https://korzo.nl/en/
+  operating_model:
+    value: 4
+    evidence: Nonprofit theatre and dance production house.
+    sources:
+    - https://denhaag.com/en/korzo-theater
+  community_reputation:
+    value: 3
+    evidence: Known as an adventurous venue and a long-running Rewire festival partner.
+    sources:
+    - https://www.rewirefestival.nl/event/rewire-x-korzo-23
+  listening_room:
+    value: 3
+    evidence: Seated theatre spaces used for concerts.
+    sources:
+    - https://korzo.nl/en/
+score: 58
+tier: supportive
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://korzo.nl/en/
+  - https://www.rewirefestival.nl/news/the-rewire-x-korzo-concert-series-returns-this-autumn
+  needs_human_review: true
+notes: 'NEEDS REVIEW: mainly a dance/theatre house; experimental/improv music comes
+  via the Rewire x Korzo series (and the ended Konceptions series).'

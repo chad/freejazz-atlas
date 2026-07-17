@@ -1,0 +1,73 @@
+id: walcheturm-zurich
+name: Kunstraum Walcheturm
+aliases:
+- Walcheturm
+status: active
+location:
+  address: "Kanonengasse 20"
+  city: Zurich
+  region: Zurich
+  country: CH
+  neighborhood: Kreis 4
+  lat: 47.3762
+  lon: 8.5300
+type: dedicated_space
+operating_model: artist_run
+capacity: 200
+website: https://www.walcheturm.ch/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Zurich's most important venue for contemporary and experimental music,\
+      \ programming free improvisation, noise, new music and sound art; hosts festivals\
+      \ such as Taktlos Zürich and Sonic Matter."
+    sources:
+    - https://www.sonicmatter.ch/en/festival/venues/kunstraum-walcheturm
+    - https://neoblog.mx3.ch/index.php/2023/09/02/deutsch-kunstraum-walcheturm-der-unmoegliche-raum-mitten-in-zuerich/
+  show_frequency:
+    value: 4
+    evidence: "Mainly a concert venue with a dense program between free improvisation,\
+      \ new music, noise and sound art."
+    sources:
+    - https://neoblog.mx3.ch/index.php/2023/09/02/deutsch-kunstraum-walcheturm-der-unmoegliche-raum-mitten-in-zuerich/
+  artist_roster:
+    value: 5
+    evidence: "Musicians and ensembles working between noise, free improvisation, new\
+      \ music and sound art."
+    sources:
+    - https://www.sonicmatter.ch/en/festival/venues/kunstraum-walcheturm
+  self_description:
+    value: 5
+    evidence: "Art space presenting contemporary art, new/experimental music, performance\
+      \ and sound art."
+    sources:
+    - https://www.sonicmatter.ch/en/festival/venues/kunstraum-walcheturm
+  operating_model:
+    value: 5
+    evidence: "Independent artist-run Kunstraum led by Patrick Huber on a minimal budget."
+    sources:
+    - https://neoblog.mx3.ch/index.php/2023/09/02/deutsch-kunstraum-walcheturm-der-unmoegliche-raum-mitten-in-zuerich/
+  community_reputation:
+    value: 5
+    evidence: "Awarded a special music prize by the Swiss Federal Office of Culture;\
+      \ regarded as Zurich's key experimental-music venue."
+    sources:
+    - https://neoblog.mx3.ch/index.php/2023/09/02/deutsch-kunstraum-walcheturm-der-unmoegliche-raum-mitten-in-zuerich/
+  listening_room:
+    value: 4
+    evidence: Dedicated concert/art space in the old Zeughaus courtyard.
+    sources:
+    - https://bachtrack.com/venue/kunstraum-walcheturm
+score: 95
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.sonicmatter.ch/en/festival/venues/kunstraum-walcheturm
+  - https://neoblog.mx3.ch/index.php/2023/09/02/deutsch-kunstraum-walcheturm-der-unmoegliche-raum-mitten-in-zuerich/
+  needs_human_review: false
+notes: "Zurich's central artist-run venue for free improvisation, new music, noise and sound art; hosts Taktlos Zürich."

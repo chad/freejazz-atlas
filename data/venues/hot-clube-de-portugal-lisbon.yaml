@@ -1,0 +1,68 @@
+id: hot-clube-de-portugal-lisbon
+name: Hot Clube de Portugal
+aliases:
+- Hot Club of Portugal
+status: active
+location:
+  address: "Praça da Alegria 48"
+  city: Lisbon
+  region: Lisbon
+  country: PT
+  lat: 38.7186
+  lon: -9.1447
+type: bar_club
+operating_model: nonprofit
+capacity: 80
+website: https://hcp.pt/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Oldest jazz club in Portugal (since 1948); a home for jazz broadly, with occasional
+      adventurous programming, and runs a jazz school.
+    sources:
+    - https://en.wikipedia.org/wiki/Hot_Club_of_Portugal
+    - https://hcp.pt/
+  show_frequency:
+    value: 3
+    evidence: Live jazz Tuesday to Saturday.
+    sources:
+    - https://www.jazznearyou.com/lisbon/venue/hot-clube-de-portugal
+  artist_roster:
+    value: 2
+    evidence: Mainly a broad jazz roster; not primarily a free/improv venue.
+    sources:
+    - https://en.wikipedia.org/wiki/Hot_Club_of_Portugal
+  self_description:
+    value: 2
+    evidence: Motto "disclosure of jazz music"; general jazz identity.
+    sources:
+    - https://en.wikipedia.org/wiki/Hot_Club_of_Portugal
+  operating_model:
+    value: 3
+    evidence: Long-running membership jazz association.
+    sources:
+    - https://en.wikipedia.org/wiki/Hot_Club_of_Portugal
+  community_reputation:
+    value: 4
+    evidence: Listed by DownBeat and The Guardian among the world's/Europe's best jazz clubs.
+    sources:
+    - https://hcp.pt/
+  listening_room:
+    value: 3
+    evidence: Intimate cellar listening club.
+    sources:
+    - https://www.visitlisboa.com/en/places/hot-clube-de-portugal
+score: 50
+tier: supportive
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Hot_Club_of_Portugal
+  - https://hcp.pt/
+  needs_human_review: false
+notes: Historic Lisbon jazz club; mostly straight-ahead jazz with occasional adventurous
+  programming - supportive rather than a free/improv cornerstone.

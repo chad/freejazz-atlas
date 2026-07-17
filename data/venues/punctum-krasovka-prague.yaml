@@ -1,0 +1,71 @@
+id: punctum-krasovka-prague
+name: Punctum - Krásovka
+aliases:
+- Punctum
+status: active
+location:
+  address: "Krásova 27"
+  city: Prague
+  region: Prague
+  country: CZ
+  neighborhood: Žižkov
+  lat: 50.0865
+  lon: 14.4560
+type: diy_space
+operating_model: diy_collective
+capacity: 80
+website: https://punctum.cz/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Community music space running the resident Sonitus concert series and Punctum Tapes
+      label; programs free improvisation, noise and experimental electronics.
+    sources:
+    - https://punctum.cz/
+    - https://agosto-foundation.org/punctum-krasovka
+  show_frequency:
+    value: 3
+    evidence: Regular concerts and events, connecting subcultural music communities.
+    sources:
+    - https://punctum.cz/
+  artist_roster:
+    value: 4
+    evidence: Concerts ranging from free improvisation and noise to psychedelic electronics.
+    sources:
+    - https://agosto-foundation.org/punctum-krasovka
+  self_description:
+    value: 4
+    evidence: Frames itself as a community platform providing space to contemporary/experimental
+      music.
+    sources:
+    - https://agosto-foundation.org/punctum-krasovka
+  operating_model:
+    value: 5
+    evidence: Community-run DIY space founded 2015 by the Altered Shapes collective.
+    sources:
+    - https://daily.bandcamp.com/scene-report/prague-experimental-scene-report
+  community_reputation:
+    value: 3
+    evidence: Cited in Prague experimental/underground scene reports.
+    sources:
+    - https://daily.bandcamp.com/scene-report/prague-experimental-scene-report
+  listening_room:
+    value: 4
+    evidence: Cosy studio (~50-80 capacity) with good acoustics and in-house PA.
+    sources:
+    - https://punctum.cz/
+score: 76
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://punctum.cz/
+  - https://agosto-foundation.org/punctum-krasovka
+  - https://daily.bandcamp.com/scene-report/prague-experimental-scene-report
+  needs_human_review: false
+notes: DIY community venue in Žižkov; free improv, noise and experimental music via the Sonitus
+  series. Address/coords approximate.

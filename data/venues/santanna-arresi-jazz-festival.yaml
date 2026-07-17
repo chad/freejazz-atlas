@@ -1,0 +1,68 @@
+id: santanna-arresi-jazz-festival
+name: Ai Confini tra Sardegna e Jazz
+aliases:
+- Sant'Anna Arresi Jazz
+- Ai Confini
+status: active
+location:
+  city: Sant'Anna Arresi
+  region: Sardinia
+  country: IT
+  lat: 39.0064
+  lon: 8.6423
+type: festival
+operating_model: nonprofit
+capacity: null
+website: https://aiconfinitrasardegnaejazz.it/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Jazz festival strongly focused on free jazz since 1985/86; has hosted Ornette
+      Coleman, Don Cherry, Art Ensemble of Chicago and others on the Arresino stage.
+    sources:
+    - https://it.wikipedia.org/wiki/Ai_confini_tra_Sardegna_e_Jazz
+    - https://www.europejazz.net/festival/ai-confini-tra-sardegna-e-jazz
+  show_frequency:
+    value: 2
+    evidence: Annual festival between late August and early September, plus the itinerant
+      Jazz Around sister program.
+    sources:
+    - https://www.sardegnaturismo.it/it/eventi/ai-confini-tra-sardegna-e-jazz-jazz-around
+  artist_roster:
+    value: 5
+    evidence: Historically centered on free jazz and avant-garde improvisers.
+    sources:
+    - https://burntsugarindex.com/more-about-santanna-arresi-jazz/
+  self_description:
+    value: 5
+    evidence: Frames itself around the boundaries between Sardinian tradition and jazz, with
+      a strong free-jazz identity.
+    sources:
+    - https://it.wikipedia.org/wiki/Ai_confini_tra_Sardegna_e_Jazz
+  operating_model:
+    value: 4
+    evidence: Organized by the nonprofit Associazione Culturale Punta Giara.
+    sources:
+    - https://italiajazz.it/socio/associazione-culturale-punta-giara/
+  community_reputation:
+    value: 5
+    evidence: Among the most important free-jazz festivals in Europe.
+    sources:
+    - https://www.europejazz.net/festival/ai-confini-tra-sardegna-e-jazz
+  listening_room:
+    value: 4
+    sources:
+    - https://it.wikipedia.org/wiki/Ai_confini_tra_Sardegna_e_Jazz
+score: 85
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://it.wikipedia.org/wiki/Ai_confini_tra_Sardegna_e_Jazz
+  - https://www.europejazz.net/festival/ai-confini-tra-sardegna-e-jazz
+  needs_human_review: false
+notes: Historic Sardinian free-jazz festival at Sant'Anna Arresi. Coordinates are the town.

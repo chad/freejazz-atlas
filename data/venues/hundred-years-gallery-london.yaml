@@ -1,0 +1,72 @@
+id: hundred-years-gallery-london
+name: Hundred Years Gallery
+aliases: []
+status: active
+location:
+  address: 13 Pearson St
+  city: London
+  region: England
+  country: GB
+  neighborhood: Haggerston
+  lat: 51.533
+  lon: -0.0772
+type: gallery
+operating_model: nonprofit
+capacity: null
+website: http://hundredyearsgallery.co.uk/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Strong commitment to presenting new composed, improvised and experimental
+      music in an excellent acoustic setting; hosts the BRAK Festival of Improvised
+      Music.
+    sources:
+    - http://hundredyearsgallery.co.uk/about/
+    - https://londonjazznews.com/2020/03/04/brak-festival-of-improvised-music-at-the-hundred-years-gallery/
+  show_frequency:
+    value: 4
+    evidence: Weekly concerts featuring international artists and the UK's most creative
+      musicians.
+    sources:
+    - http://hundredyearsgallery.co.uk/about/
+  artist_roster:
+    value: 4
+    evidence: A home to numerous players in the improvised and new-music world; welcomes
+      musicians from all over the world.
+    sources:
+    - http://hundredyearsgallery.co.uk/about/
+  self_description:
+    value: 5
+    evidence: Bastion of and friend to free music and creative thinking; dedicated
+      to improvised and experimental music and sound works.
+    sources:
+    - http://hundredyearsgallery.co.uk/about/
+  operating_model:
+    value: 5
+    evidence: Not-for-profit Community Interest Company (Hundred Years Arts CIC).
+    sources:
+    - http://hundredyearsgallery.co.uk/about/
+  community_reputation:
+    value: 4
+    evidence: Recognized in the London improv scene; LUME and other DIY promoters
+      run regular nights there.
+    sources:
+    - https://lumemusic.co.uk/
+  listening_room:
+    value: 4
+    evidence: Small gallery with excellent acoustics for attentive listening.
+    sources:
+    - http://hundredyearsgallery.co.uk/about/
+score: 84
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://hundredyearsgallery.co.uk/about/
+  - https://londonjazznews.com/2020/03/04/brak-festival-of-improvised-music-at-the-hundred-years-gallery/
+  needs_human_review: false
+notes: Small Haggerston gallery with a serious weekly improvised/new-music program.

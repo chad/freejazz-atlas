@@ -1,0 +1,73 @@
+id: servant-jazz-quarters-london
+name: Servant Jazz Quarters
+aliases:
+- SJQ
+status: active
+location:
+  address: 10A Bradbury St
+  city: London
+  region: England
+  country: GB
+  neighborhood: Dalston
+  lat: 51.547
+  lon: -0.0745
+type: bar_club
+operating_model: commercial
+capacity: 100
+website: http://servantjazzquarters.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 1
+    evidence: Boutique music venue and cocktail bar; live music through the week but
+      no dedicated free/improv series.
+    sources:
+    - http://servantjazzquarters.com/
+    - https://www.timeout.com/london/music/sjq
+  show_frequency:
+    value: 2
+    evidence: Frequent live music, but jazz/improv is only part of a broad indie/soul/funk/DJ
+      program.
+    sources:
+    - https://thenudge.com/london-bars/servant-jazz-quarters/
+  artist_roster:
+    value: 2
+    evidence: Mostly rising indie and up-and-coming bands; some jazz and improvised
+      acts.
+    sources:
+    - https://thenudge.com/london-bars/servant-jazz-quarters/
+  self_description:
+    value: 1
+    evidence: Presents itself as a boutique live-music venue and cocktail bar, not
+      an experimental space.
+    sources:
+    - http://servantjazzquarters.com/
+  operating_model:
+    value: 3
+    evidence: Independent commercial bar/venue.
+    sources:
+    - http://servantjazzquarters.com/
+  community_reputation:
+    value: 2
+    evidence: Known Dalston small venue; occasionally hosts improvised/experimental
+      gigs.
+    sources:
+    - https://www.timeout.com/london/music/sjq
+  listening_room:
+    value: 3
+    evidence: Intimate basement stage under exposed beams.
+    sources:
+    - https://thenudge.com/london-bars/servant-jazz-quarters/
+score: 36
+tier: occasional
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://servantjazzquarters.com/
+  - https://www.timeout.com/london/music/sjq
+  needs_human_review: true
+notes: 'NEEDS REVIEW: general Dalston live-music/cocktail venue; free-jazz/improv is
+  incidental. Included as an honest occasional-tier entry.'

@@ -1,0 +1,70 @@
+id: petersburg-art-space-berlin
+name: Petersburg Art Space
+aliases:
+- PAS
+- PAS Berlin
+status: active
+location:
+  address: "Kaiserin-Augusta-Allee 101"
+  city: Berlin
+  region: Berlin
+  country: DE
+  neighborhood: Moabit
+  lat: 52.5271
+  lon: 13.3221
+type: dedicated_space
+operating_model: artist_run
+capacity: 80
+website: https://pas-berlin.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Founded 2017; established home for experimental, improvised and free
+      jazz with recurring series such as Klub Demboh and Sonntagsreihe Sacred Realism.
+    sources:
+    - https://pas-berlin.org/
+    - https://field-notes.berlin/en/node/11544
+  show_frequency:
+    value: 4
+    evidence: Regular improvised-music concerts and multiple recurring series.
+    sources:
+    - https://pas-berlin.org/
+  artist_roster:
+    value: 5
+    evidence: Books Berlin and international improvisers and free-jazz players.
+    sources:
+    - https://pas-berlin.org/
+  self_description:
+    value: 5
+    evidence: Describes a focus on improvised music, free jazz and dance.
+    sources:
+    - https://field-notes.berlin/en/node/11544
+  operating_model:
+    value: 4
+    evidence: Artist-run music venue and artist residency in Moabit.
+    sources:
+    - https://www.igbk.de/en/residencies/2811-petersburg-art-space-berlin-3
+  community_reputation:
+    value: 4
+    evidence: Recognized node of Berlin's experimental/improv scene; live recordings
+      released.
+    sources:
+    - https://field-notes.berlin/en/node/11544
+  listening_room:
+    value: 4
+    evidence: Dedicated concert/project space.
+    sources:
+    - https://pas-berlin.org/
+score: 91
+tier: cornerstone
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://pas-berlin.org/
+  - https://field-notes.berlin/en/node/11544
+  needs_human_review: false
+notes: "Moabit artist-run venue/residency focused on improvised music and free jazz, founded 2017."

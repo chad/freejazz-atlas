@@ -1,0 +1,69 @@
+id: inkonst-malmo
+name: Inkonst
+aliases: []
+status: active
+location:
+  address: "Bergsgatan 29"
+  city: Malmö
+  region: Skåne
+  country: SE
+  lat: 55.5932
+  lon: 12.9925
+type: arts_center
+operating_model: nonprofit
+capacity: 350
+website: https://inkonst.com/en
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Independent venue for contemporary culture; music program experiments across
+      experimental, club, kraut, doom, noise and jazz; hosts the Intonal experimental music
+      festival.
+    sources:
+    - https://archive.inkonst.com/en/about-inkonst/
+    - https://inkonst.com/en/event/intonal-festival-2/
+  show_frequency:
+    value: 3
+    evidence: Year-round program of live music, performing arts and club nights plus the annual
+      Intonal festival.
+    sources:
+    - https://archive.inkonst.com/en/about-inkonst/
+  artist_roster:
+    value: 3
+    evidence: Books experimental and leftfield artists including noise and jazz.
+    sources:
+    - https://archive.inkonst.com/en/about-inkonst/
+  self_description:
+    value: 4
+    evidence: Presents culture that moves outside the established, obvious and genre-defined.
+    sources:
+    - https://archive.inkonst.com/en/about-inkonst/
+  operating_model:
+    value: 4
+    evidence: Independent nonprofit venue.
+    sources:
+    - https://archive.inkonst.com/en/about-inkonst/
+  community_reputation:
+    value: 4
+    evidence: Recognized Malmö home for experimental and electronic music; Intonal is an
+      internationally programmed festival since 2015.
+    sources:
+    - https://inkonst.com/en/event/intonal-festival-2/
+  listening_room:
+    value: 3
+    sources:
+    - https://archive.inkonst.com/en/about-inkonst/
+score: 71
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://archive.inkonst.com/en/about-inkonst/
+  - https://inkonst.com/en/event/intonal-festival-2/
+  needs_human_review: false
+notes: Independent Malmö arts venue in a former chocolate factory; experimental music including
+  jazz, and home of the Intonal festival.

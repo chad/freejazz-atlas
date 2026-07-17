@@ -1,0 +1,72 @@
+id: amr-geneva
+name: AMR - Sud des Alpes
+aliases:
+- AMR
+- "Association pour l'encouragement de la musique improvisée"
+- Sud des Alpes
+status: active
+location:
+  address: "Rue des Alpes 10"
+  city: Geneva
+  region: Geneva
+  country: CH
+  neighborhood: Pâquis
+  lat: 46.2094
+  lon: 6.1447
+type: dedicated_space
+operating_model: nonprofit
+capacity: 120
+website: https://www.amr-geneve.ch/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Association founded 1973 to encourage jazz and improvised music; runs\
+      \ its Sud des Alpes center with a club, festivals, concerts and jam sessions."
+    sources:
+    - https://www.amr-geneve.ch/lamr-en-bref
+    - https://fr.wikipedia.org/wiki/AMR_(association)
+  show_frequency:
+    value: 5
+    evidence: "Over 200 public musical evenings annually plus two festivals."
+    sources:
+    - https://www.amr-geneve.ch/lamr-en-bref
+  artist_roster:
+    value: 4
+    evidence: "Jazz and improvised music from local to international; workshops and\
+      \ courses feed the scene."
+    sources:
+    - https://www.amr-geneve.ch/lamr-en-bref
+  self_description:
+    value: 5
+    evidence: "Name and mission: Association pour l'encouragement de la musique improvisée."
+    sources:
+    - https://fr.wikipedia.org/wiki/AMR_(association)
+  operating_model:
+    value: 5
+    evidence: Musician-founded nonprofit association running its own venue.
+    sources:
+    - https://www.amr-geneve.ch/un-peu-dhistoire
+  community_reputation:
+    value: 4
+    evidence: "Described as unique in the Swiss and international landscape for combining\
+      \ club, rehearsal rooms and improvisation classes under one roof."
+    sources:
+    - https://www.schweizerkulturpreise.ch/en/amr-geneve-4
+  listening_room:
+    value: 4
+    evidence: Dedicated jazz/improv club within the Sud des Alpes center.
+    sources:
+    - https://www.amr-geneve.ch/lamr-en-bref
+score: 93
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.amr-geneve.ch/
+  - https://www.amr-geneve.ch/lamr-en-bref
+  needs_human_review: false
+notes: "Geneva's musician-run association for jazz and improvised music since 1973, running the Sud des Alpes club (200+ evenings/year)."

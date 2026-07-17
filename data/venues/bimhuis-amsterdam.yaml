@@ -1,0 +1,73 @@
+id: bimhuis-amsterdam
+name: Bimhuis
+aliases:
+- BIMHUIS
+status: active
+location:
+  address: Piet Heinkade 3
+  city: Amsterdam
+  region: Noord-Holland
+  country: NL
+  lat: 52.3785
+  lon: 4.911
+type: dedicated_space
+operating_model: nonprofit
+capacity: 375
+website: https://www.bimhuis.nl/en
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Concert hall founded in 1973 dedicated to jazz and improvised music; one of
+      the world's leading venues for the music.
+    sources:
+    - https://en.wikipedia.org/wiki/Bimhuis
+    - https://www.bimhuis.nl/en
+  show_frequency:
+    value: 5
+    evidence: Presents over 250-300 concerts a year, plus a free Tuesday-night session in
+      the Bimhuis Cafe where musicians meet and play.
+    sources:
+    - https://en.wikipedia.org/wiki/Bimhuis
+    - https://www.europejazz.net/venues/bimhuis
+  artist_roster:
+    value: 4
+    evidence: Programs Dutch and international jazz and improvised music, from free improv
+      to more mainstream jazz.
+    sources:
+    - https://www.europejazz.net/venues/bimhuis
+  self_description:
+    value: 4
+    evidence: Describes itself as a house of jazz and improvised music.
+    sources:
+    - https://www.bimhuis.nl/en
+  operating_model:
+    value: 4
+    evidence: Long-established nonprofit institution, now sited next to the Muziekgebouw aan
+      't IJ.
+    sources:
+    - https://en.wikipedia.org/wiki/Bimhuis
+  community_reputation:
+    value: 5
+    evidence: Internationally recognized as one of the leading venues for jazz and improvised
+      music.
+    sources:
+    - https://www.europejazz.net/venues/bimhuis
+  listening_room:
+    value: 5
+    evidence: Purpose-built listening hall with excellent sightlines over the IJ.
+    sources:
+    - https://en.wikipedia.org/wiki/Bimhuis
+score: 92
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.bimhuis.nl/en
+  - https://en.wikipedia.org/wiki/Bimhuis
+  needs_human_review: false
+notes: Flagship Dutch home of jazz and improvised music since 1974; programs some straighter
+  jazz alongside deep improv.

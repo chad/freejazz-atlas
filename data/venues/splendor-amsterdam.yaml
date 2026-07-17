@@ -1,0 +1,71 @@
+id: splendor-amsterdam
+name: Splendor
+aliases:
+- Splendor Amsterdam
+status: active
+location:
+  address: Nieuwe Uilenburgerstraat 116
+  city: Amsterdam
+  region: Noord-Holland
+  country: NL
+  lat: 52.369
+  lon: 4.906
+type: dedicated_space
+operating_model: artist_run
+capacity: null
+website: https://splendoramsterdam.com/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: A club for every kind of music founded by ~50 musicians as a musical
+      laboratory where experimentation knows no bounds; improvisation and new music
+      are core strands alongside classical and jazz.
+    sources:
+    - https://splendoramsterdam.com/en/about-splendor
+  show_frequency:
+    value: 4
+    evidence: Building is used by its musician-members 365 days a year, with frequent
+      member concerts.
+    sources:
+    - https://splendoramsterdam.com/en/about-splendor
+  artist_roster:
+    value: 4
+    evidence: 54 musician-members spanning contemporary, improvised, jazz and classical
+      practice perform regularly.
+    sources:
+    - https://splendoramsterdam.com/en/musicians
+  self_description:
+    value: 4
+    evidence: A meeting place, club, workspace and musical laboratory for experimentation.
+    sources:
+    - https://splendoramsterdam.com/en/about-splendor
+  operating_model:
+    value: 5
+    evidence: Musician-owned collective, invested in and run by its members with volunteers
+      and donors.
+    sources:
+    - https://splendoramsterdam.com/en/about-splendor
+  community_reputation:
+    value: 3
+    evidence: Well-regarded Amsterdam musicians' collective in a converted 1920s bathhouse.
+    sources:
+    - https://www.jazznearyou.com/amsterdam/venue/splendor-amsterdam
+  listening_room:
+    value: 4
+    evidence: Grote and Kleine Zaal concert halls converted from the former bathhouse.
+    sources:
+    - https://splendoramsterdam.com/en/about-splendor
+score: 75
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://splendoramsterdam.com/en/about-splendor
+  - https://splendoramsterdam.com/en/musicians
+  needs_human_review: true
+notes: 'NEEDS REVIEW: musician-run collective spanning classical/jazz/improv; confirm
+  share of free/improvised programming.'

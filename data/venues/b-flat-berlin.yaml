@@ -1,0 +1,70 @@
+id: b-flat-berlin
+name: b-flat
+aliases:
+- b-flat Acoustic Music & Jazzclub
+status: active
+location:
+  address: "Dircksenstr. 40"
+  city: Berlin
+  region: Berlin
+  country: DE
+  neighborhood: Mitte
+  lat: 52.5243
+  lon: 13.4041
+type: bar_club
+operating_model: commercial
+capacity: 120
+website: https://b-flat-berlin.de/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Broad acoustic-music and jazz club (jazz, soul, swing, bebop, funk);
+      free and experimental jazz appears but is not the venue's focus.
+    sources:
+    - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
+    - https://b-flat-berlin.de/programm
+  show_frequency:
+    value: 2
+    evidence: Open nightly, but adventurous/free-jazz programming is occasional within
+      a wide-ranging jazz calendar.
+    sources:
+    - https://b-flat-berlin.de/programm
+  artist_roster:
+    value: 2
+    evidence: Mostly mainstream and modern jazz; some free-jazz figures such as Aki
+      Takase and Alexander von Schlippenbach have played.
+    sources:
+    - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
+  self_description:
+    value: 2
+    evidence: Presents itself as an acoustic-music and jazz club spanning many styles.
+    sources:
+    - https://b-flat-berlin.de/
+  operating_model:
+    value: 3
+    evidence: Independent commercial club launched 1995.
+    sources:
+    - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
+  community_reputation:
+    value: 3
+    evidence: Long-established fixture of the Berlin jazz scene.
+    sources:
+    - https://www.visitberlin.de/en/b-flat-acoustic-music-jazz-club
+  listening_room:
+    value: 4
+    evidence: Seated acoustic-music listening club.
+    sources:
+    - https://www.visitberlin.de/en/b-flat-acoustic-music-jazz-club
+score: 46
+tier: supportive
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://b-flat-berlin.de/
+  - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
+  needs_human_review: false
+notes: "Mainstream Berlin jazz club that programs free/experimental jazz occasionally; supportive rather than dedicated."

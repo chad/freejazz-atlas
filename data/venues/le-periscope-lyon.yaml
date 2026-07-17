@@ -1,0 +1,71 @@
+id: le-periscope-lyon
+name: Le Periscope
+aliases:
+- Periscope - Musiques Libres
+status: active
+location:
+  address: 13 rue Delandine
+  city: Lyon
+  region: Auvergne-Rhone-Alpes
+  country: FR
+  neighborhood: 2e arrondissement
+  lat: 45.748
+  lon: 4.821
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://www.periscope-lyon.com/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Opened in 2007 as a venue dedicated to creating and disseminating free
+      music (musiques libres), focused on jazz and improvised music.
+    sources:
+    - https://www.periscope-lyon.com/le-periscope/?lang=en
+    - https://www.visiterlyon.com/sortir/culture-et-loisirs/culture-et-musees/lieux-de-spectacle/le-periscope
+  show_frequency:
+    value: 4
+    evidence: Hosts nearly 150 concerts a year plus cafe programming and residencies.
+    sources:
+    - https://www.periscope-lyon.com/le-periscope/?lang=en
+  artist_roster:
+    value: 4
+    evidence: Programs jazz and improvised music alongside experimental, electronic
+      and other adventurous aesthetics.
+    sources:
+    - https://www.periscope-lyon.com/en/
+  self_description:
+    value: 4
+    evidence: Self-styled home of musiques libres, functioning as concert hall, creation
+      and residency space.
+    sources:
+    - https://www.periscope-lyon.com/le-periscope/?lang=en
+  operating_model:
+    value: 4
+    evidence: Association-run concert hall and resource venue.
+    sources:
+    - https://acteursculturels.grandlyon.com/le-periscope-musique/
+  community_reputation:
+    value: 4
+    evidence: A pillar of Lyon's jazz and improvised-music scene.
+    sources:
+    - https://jazzsra.fr/author/le-periscope/
+  listening_room:
+    value: 3
+    evidence: Ranges from intimate club performances to seated theatre presentations.
+    sources:
+    - https://www.periscope-lyon.com/en/
+score: 79
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.periscope-lyon.com/en/
+  - https://www.visiterlyon.com/sortir/culture-et-loisirs/culture-et-musees/lieux-de-spectacle/le-periscope
+  needs_human_review: false
+notes: Lyon venue explicitly dedicated to free music (musiques libres), with jazz/improv
+  at its core.

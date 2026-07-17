@@ -1,0 +1,75 @@
+id: the-cooler-dublin
+name: The Cooler (Improvised Music Company)
+aliases:
+- The Cooler
+- IMC at The Complex
+status: active
+location:
+  address: Little Green St (The Complex)
+  city: Dublin
+  region: Leinster
+  country: IE
+  neighborhood: Smithfield
+  lat: 53.348
+  lon: -6.274
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://www.improvisedmusic.ie/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: A collaboration between the Improvised Music Company and arts venue The Complex,
+      giving jazz/creative improvising artists a self-managed space to develop collaborative
+      work.
+    sources:
+    - https://www.improvisedmusic.ie/whats-happening/events/smithfield-sessions
+    - https://imro.ie/industry-news/a-new-venue-for-jazz-improvised-music-in-dublin-opening-this-month/
+  show_frequency:
+    value: 3
+    evidence: Hosts the Smithfield Sessions and Create at The Cooler artist-support programme
+      with regular improvised-music events.
+    sources:
+    - https://www.improvisedmusic.ie/whats-happening/events/smithfield-sessions
+  artist_roster:
+    value: 5
+    evidence: Dedicated to jazz and creative improvising artists developing new collaborative
+      work.
+    sources:
+    - https://imro.ie/industry-news/a-new-venue-for-jazz-improvised-music-in-dublin-opening-this-month/
+  self_description:
+    value: 5
+    evidence: A self-managed, community-driven space for jazz/creative improvising artists.
+    sources:
+    - https://imro.ie/industry-news/a-new-venue-for-jazz-improvised-music-in-dublin-opening-this-month/
+  operating_model:
+    value: 4
+    evidence: Run by the nonprofit Improvised Music Company, Ireland's national jazz/improv
+      resource organisation.
+    sources:
+    - https://www.improvisedmusic.ie/
+  community_reputation:
+    value: 3
+    evidence: A landmark new Dublin home for jazz and improvised music, covered by IMRO and
+      the Journal of Music.
+    sources:
+    - https://journalofmusic.com/news/improvised-music-company-launches-rehearsal-space-dublin-city
+  listening_room:
+    value: 4
+    evidence: Dedicated creative-music space within The Complex arts venue.
+    sources:
+    - https://imro.ie/industry-news/a-new-venue-for-jazz-improvised-music-in-dublin-opening-this-month/
+score: 81
+tier: committed
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.improvisedmusic.ie/
+  - https://imro.ie/industry-news/a-new-venue-for-jazz-improvised-music-in-dublin-opening-this-month/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: relatively new IMC space at The Complex in Smithfield; confirm exact
+  address, coordinates and 2026 programming cadence.'

@@ -1,0 +1,76 @@
+id: cube-microplex-bristol
+name: Cube Microplex
+aliases:
+- The Cube
+- Cube Cinema
+status: active
+location:
+  address: Dove Street South
+  city: Bristol
+  region: England
+  country: GB
+  neighborhood: Kingsdown
+  lat: 51.4592
+  lon: -2.5915
+type: arts_center
+operating_model: diy_collective
+capacity: 100
+website: https://cubecinema.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Volunteer/artist-led cinema and events venue that hosts Bristol's most
+      wayward concerts and experimental noise; home to its own improvising ensemble,
+      Orchestra Cube.
+    sources:
+    - https://en.wikipedia.org/wiki/Cube_Microplex
+    - https://cubecinema.com/programme/view/music/
+  show_frequency:
+    value: 3
+    evidence: Averages 350+ events a year across film and performance, including regular
+      experimental and improvised music nights.
+    sources:
+    - https://en.wikipedia.org/wiki/Cube_Microplex
+  artist_roster:
+    value: 3
+    evidence: Programs experimental, noise and improvised performers alongside cult
+      cinema.
+    sources:
+    - https://cubecinema.com/programme/view/music/
+  self_description:
+    value: 4
+    evidence: Describes itself as an experimental venue and research site for novel
+      social experiences; a cornerstone of Bristol's underground since 1998.
+    sources:
+    - https://en.wikipedia.org/wiki/Cube_Microplex
+  operating_model:
+    value: 5
+    evidence: Not-for-profit workers' co-operative, entirely volunteer-staffed with
+      a DIY ethic.
+    sources:
+    - https://en.wikipedia.org/wiki/Cube_Microplex
+  community_reputation:
+    value: 4
+    evidence: Long-standing cornerstone of Bristol's radical/underground cultural
+      scene.
+    sources:
+    - https://theeverydaymagazine.co.uk/arts/the-shape-that-holds-it-all-the-unlikely-history-of-bristols-most-radical-venue-the-cube
+  listening_room:
+    value: 3
+    evidence: 100-seat cinema auditorium doubling as a concert space.
+    sources:
+    - https://en.wikipedia.org/wiki/Cube_Microplex
+score: 68
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://cubecinema.com/
+  - https://en.wikipedia.org/wiki/Cube_Microplex
+  needs_human_review: false
+notes: DIY co-op cinema/venue; experimental and improvised music is one strand of
+  a wider program. Home of Orchestra Cube.

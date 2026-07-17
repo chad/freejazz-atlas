@@ -1,0 +1,69 @@
+id: angelo-mai-rome
+name: Angelo Mai
+aliases:
+- Angelo Mai Altrove Occupato
+status: active
+location:
+  address: Viale delle Terme di Caracalla 55
+  city: Rome
+  region: Lazio
+  country: IT
+  lat: 41.8788
+  lon: 12.493
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://www.angelomai.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Self-managed cultural space for music, theatre and experimentation since 2004;
+      hosts concerts, performances and workshops, with some experimental and jazz programming
+      among a broad electronic/pop offering.
+    sources:
+    - https://www.turismoroma.it/en/places/angelo-mai
+    - https://www.spottedbylocals.com/rome/angelo-mai/
+  show_frequency:
+    value: 3
+    evidence: Frequent and varied events; music leans toward techno, house and pop as well
+      as experimentation.
+    sources:
+    - https://www.spottedbylocals.com/rome/angelo-mai/
+  artist_roster:
+    value: 2
+    evidence: Mixed program; adventurous/experimental acts appear but are not the core focus.
+    sources:
+    - https://zero.eu/en/luoghi/2818-angelo-mai,roma/
+  self_description:
+    value: 3
+    evidence: Describes itself as a place for music, theatre and experimentation, a creative
+      laboratory.
+    sources:
+    - https://www.turismoroma.it/en/places/angelo-mai
+  operating_model:
+    value: 5
+    evidence: Run by an occupied-space collective of musicians, actors and cultural workers.
+    sources:
+    - https://www.spottedbylocals.com/rome/angelo-mai/
+  community_reputation:
+    value: 3
+    sources:
+    - https://www.turismoroma.it/en/places/angelo-mai
+  listening_room:
+    value: 2
+    sources:
+    - https://www.spottedbylocals.com/rome/angelo-mai/
+score: 54
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.turismoroma.it/en/places/angelo-mai
+  - https://www.spottedbylocals.com/rome/angelo-mai/
+  needs_human_review: true
+notes: Occupied DIY cultural collective; experimentation is part of the identity but the music
+  program leans electronic/pop, so free-jazz/improv weight is uncertain. Address/coords approximate.

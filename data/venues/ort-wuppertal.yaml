@@ -1,0 +1,72 @@
+id: ort-wuppertal
+name: Ort
+aliases:
+- Peter Kowald Gesellschaft / ort e.V.
+- ort
+status: active
+location:
+  address: "Luisenstr. 116"
+  city: Wuppertal
+  region: North Rhine-Westphalia
+  country: DE
+  neighborhood: Elberfeld
+  lat: 51.2556
+  lon: 7.1404
+type: dedicated_space
+operating_model: artist_run
+capacity: 60
+website: https://www.kowald-ort.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Venue for jazz and improvised music created by improvisation pioneer
+      Peter Kowald; hosts weekly work sessions and an annual improvisation festival.
+    sources:
+    - https://www.kowald-ort.com/about-kowald-ort/
+    - https://jazzthetik.de/lokaltermin-ort-wuppertal/
+  show_frequency:
+    value: 4
+    evidence: Weekly improvisation work sessions plus concerts and an annual ORT festival.
+    sources:
+    - https://www.kowald-ort.com/about-kowald-ort/
+  artist_roster:
+    value: 5
+    evidence: Meeting place for improvising musicians, dancers and artists from around
+      the world.
+    sources:
+    - https://www.kowald-ort.com/about-kowald-ort/
+  self_description:
+    value: 5
+    evidence: Continues Kowald's Ort as a space for improvised music, dance and visual
+      art.
+    sources:
+    - https://www.kowald-ort.com/
+  operating_model:
+    value: 5
+    evidence: Run by the ~100-member Peter Kowald Gesellschaft / ort e.V. association.
+    sources:
+    - https://www.kowald-ort.com/about-kowald-ort/
+  community_reputation:
+    value: 5
+    evidence: Internationally significant through Peter Kowald's legacy in free improvisation.
+    sources:
+    - https://jazzthetik.de/lokaltermin-ort-wuppertal/
+  listening_room:
+    value: 4
+    evidence: Roughly 100-square-metre space functioning as studio, concert room and
+      living room.
+    sources:
+    - https://www.kowald-ort.com/about-kowald-ort/
+score: 95
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.kowald-ort.com/
+  - https://www.kowald-ort.com/about-kowald-ort/
+  needs_human_review: false
+notes: "Peter Kowald's Wuppertal improvised-music space, continued since 2002 by the ort e.V. association."

@@ -1,0 +1,67 @@
+id: passos-manuel-porto
+name: Passos Manuel
+aliases: []
+status: active
+location:
+  address: "Rua de Passos Manuel 137"
+  city: Porto
+  region: Porto
+  country: PT
+  lat: 41.1472
+  lon: -8.6062
+type: bar_club
+operating_model: commercial
+capacity: 200
+website: https://www.passosmanuel.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Former cinema turned bar/club and performance space; hosts some experimental and
+      jazz programming among a broad concert/club offering.
+    sources:
+    - https://ra.co/clubs/12890
+    - https://www.songkick.com/venues/126585-passos-manuel
+  show_frequency:
+    value: 3
+    evidence: Regular concerts and club nights.
+    sources:
+    - https://www.bandsintown.com/v/10167561-passos-manuel
+  artist_roster:
+    value: 2
+    evidence: Mixed program; experimental and jazz acts appear but are not the core.
+    sources:
+    - https://ra.co/clubs/12890
+  self_description:
+    value: 2
+    evidence: Presents itself as a cultural bar/club and concert space rather than a dedicated
+      experimental venue.
+    sources:
+    - https://www.portugal.com/activities-experiences/5-best-live-music-clubs-in-porto/
+  operating_model:
+    value: 3
+    evidence: Independent commercial venue.
+    sources:
+    - https://ra.co/clubs/12890
+  community_reputation:
+    value: 3
+    evidence: Recognized part of Porto's Rua Passos Manuel cultural hub.
+    sources:
+    - https://www.portugal.com/activities-experiences/5-best-live-music-clubs-in-porto/
+  listening_room:
+    value: 2
+    sources:
+    - https://ra.co/clubs/12890
+score: 48
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://ra.co/clubs/12890
+  - https://www.portugal.com/activities-experiences/5-best-live-music-clubs-in-porto/
+  needs_human_review: true
+notes: Porto former-cinema club with a broad program; experimental/jazz content is occasional, so
+  free-improv weight is uncertain.

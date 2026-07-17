@@ -1,0 +1,69 @@
+id: jazzatelier-ulrichsberg
+name: Jazzatelier Ulrichsberg
+aliases:
+- Ulrichsberger Kaleidophon
+- Kaleidophon
+status: active
+location:
+  address: "Badergasse 2"
+  city: Ulrichsberg
+  region: Upper Austria
+  country: AT
+  lat: 48.6744
+  lon: 13.9227
+type: dedicated_space
+operating_model: nonprofit
+capacity: 150
+website: https://www.jazzatelier.at/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Organizes the annual Ulrichsberger Kaleidophon festival for jazz, improvised\
+      \ and contemporary music (since 1986), plus a year-round concert program."
+    sources:
+    - https://www.jazzatelier.at/kaleidophon/
+    - https://www.festivalfinder.eu/festivals/ulrichsberger-kaleidophon
+  show_frequency:
+    value: 3
+    evidence: "Annual festival plus regular concerts through the season at the Jazzatelier."
+    sources:
+    - https://www.jazzatelier.at/
+  artist_roster:
+    value: 5
+    evidence: "Free-improvised jazz and contemporary music, with bands drawn from\
+      \ Vienna, Berlin and Amsterdam among others."
+    sources:
+    - https://ukjazznews.com/kaleidophon-festival-2024-in-austria/
+  self_description:
+    value: 5
+    evidence: "Association devoted to jazz, improvised and contemporary music."
+    sources:
+    - https://www.jazzatelier.at/
+  operating_model:
+    value: 5
+    evidence: Run by the nonprofit Jazzatelier Ulrichsberg association.
+    sources:
+    - https://kupf.at/mitglieder/jazzatelier/
+  community_reputation:
+    value: 4
+    evidence: Renowned intimate destination for free improvised jazz in Upper Austria.
+    sources:
+    - https://ukjazznews.com/kaleidophon-festival-2024-in-austria/
+  listening_room:
+    value: 4
+    evidence: Intimate room seating roughly 150 for attentive listening.
+    sources:
+    - https://ukjazznews.com/kaleidophon-festival-2024-in-austria/
+score: 89
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.jazzatelier.at/
+  - https://www.jazzatelier.at/kaleidophon/
+  needs_human_review: false
+notes: "Upper Austrian association hosting the Kaleidophon festival for free/improvised and contemporary music since 1986."

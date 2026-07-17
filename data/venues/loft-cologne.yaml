@@ -1,0 +1,72 @@
+id: loft-cologne
+name: LOFT
+aliases:
+- LOFT Köln
+- Loft Koeln
+status: active
+location:
+  address: "Wissmannstr. 30"
+  city: Cologne
+  region: North Rhine-Westphalia
+  country: DE
+  neighborhood: Ehrenfeld
+  lat: 50.9509
+  lon: 6.9250
+type: dedicated_space
+operating_model: artist_run
+capacity: 100
+website: https://www.loftkoeln.de/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Venue for improvised, contemporary and jazz music with national and
+      international appeal, regular concerts since 1989 on the top floor of a former
+      perfume factory.
+    sources:
+    - https://www.loftkoeln.de/en/the-room/
+    - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
+  show_frequency:
+    value: 4
+    evidence: Regular concert program of improvised and contemporary music.
+    sources:
+    - https://www.loftkoeln.de/en/the-room/
+  artist_roster:
+    value: 5
+    evidence: Launchpad for internationally recognized Cologne improvisers (Angelika
+      Niescier, Hayden Chisholm, Nils Wogram and others).
+    sources:
+    - https://www.loftkoeln.de/en/the-room/
+  self_description:
+    value: 5
+    evidence: Describes itself as a place for improvised, contemporary and jazz music.
+    sources:
+    - https://www.loftkoeln.de/en/the-room/
+  operating_model:
+    value: 4
+    evidence: Independent artist-owned/run space in a former factory floor.
+    sources:
+    - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
+  community_reputation:
+    value: 5
+    evidence: German Jazz Award "Club of the Year" (2021) and "Venue of the Year"
+      (2023); NRW Venue Program top prize.
+    sources:
+    - https://www.loftkoeln.de/en/the-room/
+  listening_room:
+    value: 5
+    evidence: Intimate dedicated concert room with a Steinway; attentive listening.
+    sources:
+    - https://www.loftkoeln.de/en/the-room/
+score: 94
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.loftkoeln.de/en/the-room/
+  - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
+  needs_human_review: false
+notes: "Award-winning Ehrenfeld space for improvised and contemporary music since 1989."

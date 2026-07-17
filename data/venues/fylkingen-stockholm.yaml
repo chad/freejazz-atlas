@@ -1,0 +1,74 @@
+id: fylkingen-stockholm
+name: Fylkingen
+aliases:
+- Föreningen Fylkingen
+status: active
+location:
+  address: "Münchenbryggeriet, Torkel Knutssonsgatan 2"
+  city: Stockholm
+  region: Stockholm
+  country: SE
+  neighborhood: Södermalm
+  lat: 59.3183
+  lon: 18.0641
+type: arts_center
+operating_model: artist_run
+capacity: 150
+website: https://www.fylkingen.se/en
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Artist-run member organisation committed to contemporary experimental performing
+      arts since 1933; presents electro-acoustic music, improvisation, sound art, performance.
+    sources:
+    - https://en.wikipedia.org/wiki/Fylkingen
+    - https://www.fylkingen.se/en
+  show_frequency:
+    value: 5
+    evidence: Presents over a hundred events a year at its Münchenbryggeriet stage.
+    sources:
+    - https://www.fylkingen.se/en
+    - https://en.wikipedia.org/wiki/Fylkingen
+  artist_roster:
+    value: 4
+    evidence: Broad field of experimental practice including improvisation music, EAM, sound
+      art; historically a driving force in Swedish new/experimental music.
+    sources:
+    - https://en.wikipedia.org/wiki/Fylkingen
+  self_description:
+    value: 5
+    evidence: Describes itself as a stage and platform providing space for experimental and
+      radical artistic work.
+    sources:
+    - https://www.fylkingen.se/en
+  operating_model:
+    value: 5
+    evidence: Artist-run, member-based organisation.
+    sources:
+    - https://en.wikipedia.org/wiki/Fylkingen
+  community_reputation:
+    value: 5
+    evidence: Internationally recognized institution of Swedish experimental music; founded EMS
+      electronic music studio.
+    sources:
+    - https://en.wikipedia.org/wiki/Fylkingen
+    - https://monoskop.org/Fylkingen
+  listening_room:
+    value: 4
+    sources:
+    - https://www.fylkingen.se/en
+score: 95
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Fylkingen
+  - https://www.fylkingen.se/en
+  - https://monoskop.org/Fylkingen
+  needs_human_review: false
+notes: Flagship Swedish experimental/intermedia venue; artist-run since 1933. Coordinates are for
+  Münchenbryggeriet on Södermalm.

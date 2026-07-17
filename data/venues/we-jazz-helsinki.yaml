@@ -1,0 +1,71 @@
+id: we-jazz-helsinki
+name: We Jazz
+aliases:
+- We Jazz Festival
+- We Jazz Records
+status: active
+location:
+  city: Helsinki
+  region: Uusimaa
+  country: FI
+  neighborhood: Kallio
+  lat: 60.1870
+  lon: 24.9500
+type: presenter
+operating_model: artist_run
+capacity: null
+website: https://wejazzrecords.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Music collective spanning a magazine, an annual jazz festival and a record label;
+      the We Jazz Festival is a fixture of Helsinki's adventurous jazz scene.
+    sources:
+    - https://en.wikipedia.org/wiki/We_Jazz_Records
+    - https://brooklynrail.org/2022/02/music/We-Jazz-Records-and-its-Many-Headed-Helsinki-Hydras/
+  show_frequency:
+    value: 3
+    evidence: Organises club events year-round across intimate Helsinki venues plus the annual
+      festival.
+    sources:
+    - https://brooklynrail.org/2022/02/music/We-Jazz-Records-and-its-Many-Headed-Helsinki-Hydras/
+  artist_roster:
+    value: 4
+    evidence: Presents fresh, free-spirited and daringly improvisational Finnish and international
+      jazz.
+    sources:
+    - https://www.allaboutjazz.com/we-jazz-records-the-finnish-indie-label-changing-the-global-conversation-linda-fredriksson__13374
+  self_description:
+    value: 4
+    evidence: Frames itself around adventurous, experimental and improvisational jazz.
+    sources:
+    - https://downbeat.com/news/detail/helsinkis-we-jazz-label-on-unique-terrain
+  operating_model:
+    value: 4
+    evidence: Independent artist-led collective and label founded by Matti Nives.
+    sources:
+    - https://en.wikipedia.org/wiki/We_Jazz_Records
+  community_reputation:
+    value: 5
+    evidence: Internationally recognized as a leading force in contemporary/adventurous jazz.
+    sources:
+    - https://www.jazztimes.com/reviews/live/we-jazz-festival-helsinki-finland/?v=0b3b97fa6688
+  listening_room:
+    value: 3
+    evidence: Known for matching music to special, usually intimate listening environments.
+    sources:
+    - https://brooklynrail.org/2022/02/music/We-Jazz-Records-and-its-Many-Headed-Helsinki-Hydras/
+score: 82
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/We_Jazz_Records
+  - https://brooklynrail.org/2022/02/music/We-Jazz-Records-and-its-Many-Headed-Helsinki-Hydras/
+  needs_human_review: false
+notes: Collective/festival/label rather than a fixed room; runs the We Jazz Festival and year-round
+  club nights across Helsinki. Coordinates are Kallio (label base) approximate.

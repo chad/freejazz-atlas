@@ -1,0 +1,73 @@
+id: band-on-the-wall-manchester
+name: Band on the Wall
+aliases: []
+status: active
+location:
+  address: 25 Swan St
+  city: Manchester
+  region: England
+  country: GB
+  neighborhood: Northern Quarter
+  lat: 53.4855
+  lon: -2.236
+type: bar_club
+operating_model: nonprofit
+capacity: 500
+website: https://bandonthewall.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Programming leans towards world and experimental music; the Copper Bar
+      second stage is built around its experimental content.
+    sources:
+    - https://en.wikipedia.org/wiki/Band_on_the_Wall
+    - https://bandonthewall.org/
+  show_frequency:
+    value: 3
+    evidence: Frequent live music; adventurous jazz/improv is a regular but not exclusive
+      part of a broad program, plus Manchester Jazz Festival dates.
+    sources:
+    - https://bandonthewall.org/2026/03/manchester-jazz-festival-2026/
+  artist_roster:
+    value: 3
+    evidence: Books adventurous jazz and boundary-pushing artists alongside world,
+      indie and electronic acts.
+    sources:
+    - https://www.timeout.com/manchester/music/band-on-the-wall
+  self_description:
+    value: 4
+    evidence: Regarded as one of the best jazz venues in the UK, with programming
+      leaning world and experimental.
+    sources:
+    - https://en.wikipedia.org/wiki/Band_on_the_Wall
+  operating_model:
+    value: 4
+    evidence: Not-for-profit venue run by the charity Inner City Music.
+    sources:
+    - https://en.wikipedia.org/wiki/Band_on_the_Wall
+  community_reputation:
+    value: 4
+    evidence: Multi-award-winning historic venue with regular acclaim for its jazz
+      support.
+    sources:
+    - https://en.wikipedia.org/wiki/Band_on_the_Wall
+  listening_room:
+    value: 4
+    evidence: Dedicated live-music room; the Copper Bar hosts more intimate experimental
+      sets.
+    sources:
+    - https://bandonthewall.org/
+score: 67
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://bandonthewall.org/
+  - https://en.wikipedia.org/wiki/Band_on_the_Wall
+  needs_human_review: false
+notes: Charity-run Manchester venue; adventurous/experimental jazz is a real strand
+  within a broad world-music program.

@@ -1,0 +1,72 @@
+id: worm-rotterdam
+name: WORM
+aliases: []
+status: active
+location:
+  address: Boomgaardsstraat 71
+  city: Rotterdam
+  region: Zuid-Holland
+  country: NL
+  lat: 51.9165
+  lon: 4.477
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://worm.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Non-profit multimedia cultural centre focused on experimental, avant-garde
+      and underground art, primarily music; grew out of Dodorama, a venue/shop for
+      experimental music.
+    sources:
+    - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
+    - https://worm.org/
+  show_frequency:
+    value: 4
+    evidence: Organises festivals, concerts and movie nights year-round, with regular
+      experimental and improvised music.
+    sources:
+    - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
+  artist_roster:
+    value: 4
+    evidence: Runs artist-in-residence programmes for experimental musicians and books
+      avant/underground artists.
+    sources:
+    - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
+  self_description:
+    value: 5
+    evidence: Rotterdam's ever-growing multi-setting space for all things experimental.
+    sources:
+    - https://worm.org/
+  operating_model:
+    value: 5
+    evidence: Non-profit foundation, part of the Rotterdam culture plan.
+    sources:
+    - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
+  community_reputation:
+    value: 4
+    evidence: Established institution in Dutch experimental music; awarded the Pendrecht
+      Culture Prize.
+    sources:
+    - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
+  listening_room:
+    value: 3
+    evidence: Concert hall built from salvaged materials alongside a bar, studio and
+      cinema.
+    sources:
+    - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
+score: 83
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://worm.org/
+  - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
+  needs_human_review: false
+notes: Long-running Rotterdam centre for experimental/avant-garde music, film and
+  media art.

@@ -1,0 +1,73 @@
+id: glasgow-improvisers-orchestra
+name: Glasgow Improvisers Orchestra
+aliases:
+- GIO
+- GIOfest
+status: active
+location:
+  address: 350 Sauchiehall St (GIOfest at CCA Glasgow)
+  city: Glasgow
+  region: Scotland
+  country: GB
+  lat: 55.866
+  lon: -4.266
+type: presenter
+operating_model: artist_run
+capacity: null
+website: https://www.glasgowimprovisersorchestra.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Artist-run large improvising ensemble that presents the annual GIOfest
+      free-improvisation festival (at CCA Glasgow) plus workshops and monthly sessions.
+    sources:
+    - https://www.glasgowimprovisersorchestra.com/about/
+    - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giofest-xii
+  show_frequency:
+    value: 3
+    evidence: Annual festival plus ongoing projects, sessions and GIObabies workshops
+      through the year.
+    sources:
+    - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giobabies-music-workshop
+  artist_roster:
+    value: 5
+    evidence: Draws on free-improvisation, jazz and experimental musicians; collaborates
+      with figures such as Barry Guy and Douglas R. Ewart.
+    sources:
+    - https://glasgowimprovisersorchestra.bandcamp.com/track/improvisation-gio
+    - https://iceorg.org/events/2024/giofest-douglas-r-ewart
+  self_description:
+    value: 5
+    evidence: Devoted to exploring improvised music, from free improvisation to graphic
+      scores and telematic performance.
+    sources:
+    - https://www.glasgowimprovisersorchestra.com/about/
+  operating_model:
+    value: 5
+    evidence: Musician-led improvising orchestra of around 20 players.
+    sources:
+    - https://www.glasgowimprovisersorchestra.com/about/
+  community_reputation:
+    value: 4
+    evidence: Internationally acclaimed since 2002; GIOfest previewed by The Quietus.
+    sources:
+    - https://thequietus.com/news/preview-glasgow-improvisers-orchestras-giofest/
+  listening_room:
+    value: 3
+    evidence: Concerts presented in seated arts-centre spaces such as CCA Glasgow.
+    sources:
+    - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giofest-xii
+score: 83
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.glasgowimprovisersorchestra.com/about/
+  - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giofest-xii
+  needs_human_review: true
+notes: 'NEEDS REVIEW: an artist-run orchestra/presenter rather than a fixed venue;
+  GIOfest is hosted at CCA Glasgow. Coordinates are the CCA.'

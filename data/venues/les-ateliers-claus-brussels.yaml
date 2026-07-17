@@ -1,0 +1,74 @@
+id: les-ateliers-claus-brussels
+name: Les Ateliers Claus
+aliases: []
+status: closed
+location:
+  address: Rue Crickx 15
+  city: Brussels
+  region: Brussels-Capital
+  country: BE
+  neighborhood: Saint-Gilles
+  lat: 50.829
+  lon: 4.343
+type: dedicated_space
+operating_model: artist_run
+capacity: null
+website: https://www.lesateliersclaus.com/
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 5
+    evidence: A European reference for improvised and creative music; grew from an
+      artistic workshop into a venue centred on alternative/avant-garde music.
+    sources:
+    - https://www.lesateliersclaus.com/program
+    - https://ra.co/news/84296
+  show_frequency:
+    value: 4
+    evidence: Programmed close to 60 concerts a year in its own halls plus a monthly
+      offsite concert, alongside residencies and jam sessions.
+    sources:
+    - https://www.periscope-lyon.com/en/post/meeting-the-ateliers-claus-in-brussels/
+  artist_roster:
+    value: 5
+    evidence: A platform for artists in search of adventure and experimentation across
+      improvised and creative music.
+    sources:
+    - https://www.periscope-lyon.com/en/post/meeting-the-ateliers-claus-in-brussels/
+  self_description:
+    value: 5
+    evidence: Centred on alternative/avant-garde music; open to all artists seeking
+      experimentation.
+    sources:
+    - https://www.periscope-lyon.com/en/post/meeting-the-ateliers-claus-in-brussels/
+  operating_model:
+    value: 5
+    evidence: Artist-run, volunteer-operated space reliant on private funding.
+    sources:
+    - https://ra.co/news/84296
+  community_reputation:
+    value: 4
+    evidence: Recognized across Europe in the field of improvised and creative music
+      during its 20-year run.
+    sources:
+    - https://ra.co/news/84296
+  listening_room:
+    value: 4
+    evidence: Two performance halls (including a box-in-box room) built for concerts
+      and recordings.
+    sources:
+    - https://kahle.be/en/ref/lesAteliersClausBrussels-.html
+score: 93
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.lesateliersclaus.com/program
+  - https://ra.co/news/84296
+  needs_human_review: false
+notes: 'CLOSED: after ~20 years, private funding ended and all activity stopped by
+  April 2026 (final concert 17 April 2026). Included as a recently-closed cornerstone
+  of the Brussels improv scene.'

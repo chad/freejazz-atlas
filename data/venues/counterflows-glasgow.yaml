@@ -1,0 +1,70 @@
+id: counterflows-glasgow
+name: Counterflows Festival
+aliases:
+- Counterflows
+status: active
+location:
+  city: Glasgow
+  region: Scotland
+  country: GB
+  lat: 55.8642
+  lon: -4.2518
+type: festival
+operating_model: nonprofit
+capacity: null
+website: https://counterflows.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Scotland's longest-running festival of experimental and marginal music,
+      dedicated to challenging and thought-provoking work.
+    sources:
+    - https://counterflows.com/about/
+  show_frequency:
+    value: 1
+    evidence: Annual four-day festival across multiple Glasgow venues (Civic House,
+      The Art School, University Chapel).
+    sources:
+    - https://counterflows.com/
+    - https://ra.co/news/84278
+  artist_roster:
+    value: 5
+    evidence: Programs a carefully curated selection of local and international experimental
+      and improvising artists.
+    sources:
+    - https://counterflows.com/about/
+  self_description:
+    value: 5
+    evidence: Celebrates experimental music and supports marginal music practice.
+    sources:
+    - https://counterflows.com/about/
+  operating_model:
+    value: 4
+    evidence: Nonprofit festival with bursary and youth Music Space initiatives.
+    sources:
+    - https://counterflows.com/about/
+  community_reputation:
+    value: 5
+    evidence: Internationally acclaimed; reviewed annually by The Skinny and covered
+      by Resident Advisor.
+    sources:
+    - https://www.theskinny.co.uk/music/live-music/reviews/counterflows-2026-the-report
+  listening_room:
+    value: 3
+    evidence: Uses a mix of seated concert halls and standing/club spaces.
+    sources:
+    - https://ra.co/events/2298867
+score: 80
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://counterflows.com/about/
+  - https://ra.co/news/84278
+  needs_human_review: true
+notes: 'NEEDS REVIEW: annual festival, not a fixed venue; coordinates are Glasgow
+  city-centre. Uses multiple venues each spring.'

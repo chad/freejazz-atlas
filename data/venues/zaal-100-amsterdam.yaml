@@ -1,0 +1,72 @@
+id: zaal-100-amsterdam
+name: Zaal 100
+aliases:
+- Podium voor Ongehoord Geluid
+status: active
+location:
+  address: De Wittenstraat 100
+  city: Amsterdam
+  region: Noord-Holland
+  country: NL
+  neighborhood: Staatsliedenbuurt
+  lat: 52.382
+  lon: 4.873
+type: dedicated_space
+operating_model: diy_collective
+capacity: 80
+website: https://muziekladder.nl/en/locaties/zaal100
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: An Amsterdam institution for free improv and creative music; every Tuesday
+      improvisers gather to play in new and old combinations.
+    sources:
+    - https://www.europejazz.net/club/zaal-100
+    - https://annelaberge.com/zaal-100-improv-in-amsterdam/
+  show_frequency:
+    value: 4
+    evidence: Weekly Tuesday improv/jazz cafe plus other concerts and events.
+    sources:
+    - https://annelaberge.com/zaal-100-improv-in-amsterdam/
+  artist_roster:
+    value: 4
+    evidence: Seasoned free improvisers play intimate two-hour sets; a hub for the
+      Amsterdam improv community.
+    sources:
+    - https://annelaberge.com/zaal-100-improv-in-amsterdam/
+  self_description:
+    value: 4
+    evidence: Styled as a Platform for Unheard Sound (Podium voor Ongehoord Geluid).
+    sources:
+    - https://www.iamsterdam.com/en/whats-on/calendar/theatre-and-stage/stage/zaal-100
+  operating_model:
+    value: 5
+    evidence: Volunteer-run neighbourhood cultural centre with a living-room, DIY
+      ethos.
+    sources:
+    - https://annelaberge.com/zaal-100-improv-in-amsterdam/
+  community_reputation:
+    value: 4
+    evidence: Listed by the Europe Jazz Network and long known as an Amsterdam improv
+      institution.
+    sources:
+    - https://www.europejazz.net/club/zaal-100
+  listening_room:
+    value: 3
+    evidence: Relaxed living-room-style room that encourages conversation between
+      sets.
+    sources:
+    - https://annelaberge.com/zaal-100-improv-in-amsterdam/
+score: 81
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.europejazz.net/club/zaal-100
+  - https://annelaberge.com/zaal-100-improv-in-amsterdam/
+  needs_human_review: false
+notes: Volunteer-run Amsterdam institution with a weekly Tuesday free-improv night.

@@ -1,0 +1,69 @@
+id: le-triton-les-lilas
+name: Le Triton
+aliases: []
+status: active
+location:
+  address: 11 bis rue du Coq Francais
+  city: Les Lilas
+  region: Ile-de-France
+  country: FR
+  lat: 48.879
+  lon: 2.416
+type: dedicated_space
+operating_model: nonprofit
+capacity: 180
+website: https://www.letriton.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Cultural complex dedicated to contemporary music and particularly jazz; a place
+      for creation, distribution and recording since 2000.
+    sources:
+    - https://uk.tourisme93.com/le-triton.html
+    - https://fr.wikipedia.org/wiki/Le_Triton_(salle_de_concert)
+  show_frequency:
+    value: 4
+    evidence: Rich year-round program of jazz and contemporary music concerts.
+    sources:
+    - https://www.parisjazzclub.net/en/11/club/le-triton
+  artist_roster:
+    value: 3
+    evidence: Books established and emerging jazz and creative-music artists, including improvisers,
+      alongside more mainstream jazz.
+    sources:
+    - https://www.citizenjazz.com/Une-saison-au-Triton-Les-Lilas.html
+  self_description:
+    value: 3
+    evidence: Presents itself as a venue for creation and dissemination of amplified/contemporary
+      music, particularly jazz.
+    sources:
+    - https://fr.wikipedia.org/wiki/Le_Triton_(salle_de_concert)
+  operating_model:
+    value: 4
+    evidence: Association-run cultural complex with a live recording studio and members' restaurant.
+    sources:
+    - https://uk.tourisme93.com/le-triton.html
+  community_reputation:
+    value: 4
+    evidence: Established as a major venue for jazz creation in the Paris region.
+    sources:
+    - https://www.citizenjazz.com/Une-saison-au-Triton-Les-Lilas.html
+  listening_room:
+    value: 4
+    evidence: Two seated concert halls (130 and 180) built for attentive listening and recording.
+    sources:
+    - https://uk.tourisme93.com/le-triton.html
+score: 69
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.letriton.com/
+  - https://uk.tourisme93.com/le-triton.html
+  needs_human_review: false
+notes: Jazz-and-contemporary-music creation venue in Les Lilas; books adventurous/improvised
+  work within a broader jazz program.

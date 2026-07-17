@@ -1,0 +1,72 @@
+id: celeste-vienna
+name: Celeste
+aliases: []
+status: active
+location:
+  address: "Hamburgerstraße 18"
+  city: Vienna
+  region: Vienna
+  country: AT
+  neighborhood: Margareten
+  lat: 48.1925
+  lon: 16.3571
+type: bar_club
+operating_model: artist_run
+capacity: 100
+website: http://www.celeste.co.at/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: "Jazzkeller, club, gallery and wine bar hosting a weekly free-jazz/improv\
+      \ session (the Neu New York/Vienna Institute of Improvised Music) within a broad\
+      \ program."
+    sources:
+    - http://www.celeste.co.at/
+    - https://base.uni-ak.ac.at/showroom/KcsfaforEMPhobTD9WwHQq/
+  show_frequency:
+    value: 3
+    evidence: "Weekly Monday improvisers session plus other concerts; free/improv is\
+      \ a recurring strand alongside indie and electronic nights."
+    sources:
+    - https://base.uni-ak.ac.at/showroom/KcsfaforEMPhobTD9WwHQq/
+  artist_roster:
+    value: 3
+    evidence: "Improv session curated by saxophonist Marco Eneidi with a rotating\
+      \ cast of jazz and improv musicians."
+    sources:
+    - https://viennesewaltz.net/2009/04/30/celeste/
+  self_description:
+    value: 3
+    evidence: "Electronic club music, jazz and new improvised music find their home\
+      \ at Celeste."
+    sources:
+    - https://www.ganz-wien.at/lifestyle/essen-trinken/lokale/celeste.html
+  operating_model:
+    value: 4
+    evidence: Independent artist-platform venue running for over 35 years.
+    sources:
+    - https://www.ganz-wien.at/lifestyle/essen-trinken/lokale/celeste.html
+  community_reputation:
+    value: 3
+    evidence: Long-standing part of Vienna's cultural scene and its improvised-music
+      community.
+    sources:
+    - https://www.falter.at/location/6529/celeste
+  listening_room:
+    value: 3
+    evidence: Small room with a stage that doubles as a dancefloor at weekends.
+    sources:
+    - https://www.ganz-wien.at/lifestyle/essen-trinken/lokale/celeste.html
+score: 62
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://www.celeste.co.at/
+  - https://base.uni-ak.ac.at/showroom/KcsfaforEMPhobTD9WwHQq/
+  needs_human_review: false
+notes: "Vienna jazzkeller with a long-running weekly free-improv session; broad multi-genre venue."

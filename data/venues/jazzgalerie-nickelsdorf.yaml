@@ -1,0 +1,71 @@
+id: jazzgalerie-nickelsdorf
+name: Jazzgalerie Nickelsdorf
+aliases:
+- Konfrontationen
+- Nickelsdorfer Konfrontationen
+status: active
+location:
+  address: "Untere Hauptstraße 5"
+  city: Nickelsdorf
+  region: Burgenland
+  country: AT
+  lat: 47.9383
+  lon: 17.0699
+type: dedicated_space
+operating_model: artist_run
+capacity: 300
+website: https://www.konfrontationen.at/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Home of the Konfrontationen festival for free and improvised music,\
+      \ held annually since 1980; the gallery has been a center for avant-garde jazz\
+      \ and improvised music since the late 1970s."
+    sources:
+    - https://www.konfrontationen.at/
+    - https://de.wikipedia.org/wiki/Konfrontationen
+  show_frequency:
+    value: 3
+    evidence: "Annual July festival plus concerts held regularly through the year at\
+      \ the Jazzgalerie."
+    sources:
+    - https://de.wikipedia.org/wiki/Konfrontationen
+  artist_roster:
+    value: 5
+    evidence: International free-jazz and improvised-music artists; a key meeting point
+      for the scene.
+    sources:
+    - https://www.freejazzblog.org/2024/07/almost-too-much-43rd-konfrontationen.html
+  self_description:
+    value: 5
+    evidence: "Explicitly a festival and venue for free and new improvised music."
+    sources:
+    - https://www.konfrontationen.at/
+  operating_model:
+    value: 5
+    evidence: Family/artist-run gallery organized from the start by Hans Falb.
+    sources:
+    - https://de.wikipedia.org/wiki/Konfrontationen
+  community_reputation:
+    value: 5
+    evidence: Internationally renowned pilgrimage site for free/improvised music.
+    sources:
+    - https://ukjazznews.com/konfrontationen-2025-nickelsdorf-austria/
+  listening_room:
+    value: 4
+    evidence: Café extended into a concert hall seating around 300, plus outdoor space.
+    sources:
+    - https://de.wikipedia.org/wiki/Konfrontationen
+score: 91
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.konfrontationen.at/
+  - https://de.wikipedia.org/wiki/Konfrontationen
+  needs_human_review: false
+notes: "Hans Falb's Burgenland gallery, home of the Konfrontationen free/improv festival since 1980."

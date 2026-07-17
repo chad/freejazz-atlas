@@ -1,0 +1,74 @@
+id: vortex-jazz-club-london
+name: Vortex Jazz Club
+aliases:
+- The Vortex
+status: active
+location:
+  address: 11 Gillett Square
+  city: London
+  region: England
+  country: GB
+  neighborhood: Dalston
+  lat: 51.5464
+  lon: -0.0756
+type: bar_club
+operating_model: nonprofit
+capacity: 100
+website: https://www.vortexjazz.co.uk/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Volunteer-led not-for-profit providing a platform for music outside
+      the mainstream including jazz, improvised and experimental music; hosts the
+      long-running Mopomoso improv series.
+    sources:
+    - https://www.vortexjazz.co.uk/about-us/
+    - https://www.vortexjazz.co.uk/series/mopomoso/
+  show_frequency:
+    value: 5
+    evidence: Programs almost 400 performances a year in an intimate 100-capacity
+      space.
+    sources:
+    - https://future.london/organisation/vortex-jazz-club/
+  artist_roster:
+    value: 3
+    evidence: Judicious balance between avant-garde and more accessible sounds; hosts
+      UK and international improvisers alongside straighter jazz.
+    sources:
+    - https://future.london/organisation/vortex-jazz-club/
+  self_description:
+    value: 4
+    evidence: Describes itself as a platform for music outside the mainstream (jazz,
+      improvised and experimental).
+    sources:
+    - https://www.vortexjazz.co.uk/about-us/
+  operating_model:
+    value: 5
+    evidence: Volunteer-led, not-for-profit organization.
+    sources:
+    - https://www.vortexjazz.co.uk/about-us/
+  community_reputation:
+    value: 5
+    evidence: One of the UK's premier jazz venues; named by DownBeat among the top
+      150 jazz venues in the world.
+    sources:
+    - https://future.london/organisation/vortex-jazz-club/
+  listening_room:
+    value: 5
+    evidence: Intimate listening jazz club.
+    sources:
+    - https://www.timeout.com/london/music/vortex
+score: 85
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.vortexjazz.co.uk/about-us/
+  - https://future.london/organisation/vortex-jazz-club/
+  needs_human_review: false
+notes: Home of the Mopomoso monthly improv series; balances avant-garde with more
+  accessible jazz.

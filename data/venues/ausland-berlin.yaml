@@ -1,0 +1,70 @@
+id: ausland-berlin
+name: ausland
+aliases: []
+status: active
+location:
+  address: "Lychener Str. 60"
+  city: Berlin
+  region: Berlin
+  country: DE
+  neighborhood: Prenzlauer Berg
+  lat: 52.5461
+  lon: 13.4183
+type: diy_space
+operating_model: diy_collective
+capacity: 80
+website: https://ausland.berlin/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Independent venue for experimental music, film, performance since 2002
+      in a former-squat basement; Berlin's laboratory for experimental sound.
+    sources:
+    - https://ausland.berlin/
+    - https://ausland-berlin.de/about
+  show_frequency:
+    value: 4
+    evidence: Relentlessly adventurous calendar of improvised jazz, experimental electronics,
+      sound art and avant-garde; frequent concerts.
+    sources:
+    - https://ausland.berlin/
+  artist_roster:
+    value: 5
+    evidence: International improvisers and experimental/sound artists.
+    sources:
+    - https://ausland.berlin/
+  self_description:
+    value: 5
+    evidence: Independent venue for music, film, literature and performance with an
+      uncompromising experimental programme.
+    sources:
+    - https://ausland-berlin.de/about
+  operating_model:
+    value: 5
+    evidence: Run by a collective of volunteers; independent since it opened.
+    sources:
+    - https://ausland-berlin.de/about
+  community_reputation:
+    value: 5
+    evidence: Regarded as a pillar of the Echtzeitmusik community.
+    sources:
+    - https://berlinsessions.org/spaces-for-experimental-music/
+  listening_room:
+    value: 4
+    evidence: Intimate basement performance space.
+    sources:
+    - https://www.berlin-buehnen.de/en/theatres/ausland/
+score: 95
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://ausland.berlin/
+  - https://ausland-berlin.de/about
+  - https://berlinsessions.org/spaces-for-experimental-music/
+  needs_human_review: false
+notes: "Volunteer-run basement laboratory for experimental sound in Prenzlauer Berg since 2002."

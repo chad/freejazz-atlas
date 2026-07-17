@@ -1,0 +1,74 @@
+id: grim-montevideo-marseille
+name: GRIM (Montevideo)
+aliases:
+- Groupe de Recherche et d'Improvisation Musicales
+- GRIM Marseille
+status: active
+location:
+  address: 3 impasse Montevideo
+  city: Marseille
+  region: Provence-Alpes-Cote d'Azur
+  country: FR
+  neighborhood: 6e arrondissement
+  lat: 43.287
+  lon: 5.382
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://grim.gmem.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Nonprofit for improvised and experimental music founded 1978; presents 40-60
+      concerts a year of improvised, experimental and noise music at Montevideo.
+    sources:
+    - https://en.wikipedia.org/wiki/GRIM
+    - https://grim.gmem.org/grim/le_lieu.html
+  show_frequency:
+    value: 4
+    evidence: 40-60 concerts per year of improvised and experimental music.
+    sources:
+    - https://en.wikipedia.org/wiki/GRIM
+  artist_roster:
+    value: 5
+    evidence: Programs improvisers and experimental/noise artists in the musique vivante tradition
+      it coined.
+    sources:
+    - https://en.wikipedia.org/wiki/GRIM
+  self_description:
+    value: 5
+    evidence: Dedicated to improvised and experimental music free from categorization.
+    sources:
+    - https://en.wikipedia.org/wiki/GRIM
+  operating_model:
+    value: 5
+    evidence: Nonprofit association; since 2016 merged into GMEM, Marseille's national centre
+      for musical creation.
+    sources:
+    - https://en.gmem.org/presentation
+  community_reputation:
+    value: 4
+    evidence: A long-standing pillar of France's improvised-music scene, co-founded by Jean-Marc
+      Montera.
+    sources:
+    - https://fr.wikipedia.org/wiki/Groupe_de_recherche_et_d'improvisation_musicales
+  listening_room:
+    value: 3
+    evidence: Presents concerts at Montevideo, a contemporary-creation site with a dedicated
+      music studio.
+    sources:
+    - https://grim.gmem.org/grim/le_lieu.html
+score: 92
+tier: cornerstone
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://grim.gmem.org/
+  - https://en.wikipedia.org/wiki/GRIM
+  needs_human_review: true
+notes: 'NEEDS REVIEW: GRIM (founded 1978) programs improvised/experimental music at Montevideo
+  in Marseille; merged with GMEM since 2016 - confirm current cadence and venue address.'

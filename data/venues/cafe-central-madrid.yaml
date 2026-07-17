@@ -1,0 +1,68 @@
+id: cafe-central-madrid
+name: Café Central
+aliases:
+- Café Central Ateneo
+status: active
+location:
+  address: "Ateneo de Madrid, Calle del Prado 21"
+  city: Madrid
+  region: Community of Madrid
+  country: ES
+  lat: 40.4148
+  lon: -3.6985
+type: bar_club
+operating_model: commercial
+capacity: 140
+website: https://cafecentralmadrid.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Historic Madrid jazz club (since 1982) presenting live jazz nightly; mostly
+      mainstream jazz with occasional adventurous acts.
+    sources:
+    - https://cafecentralmadrid.com/
+    - https://www.esmadrid.com/en/nightlife/cafe-central
+  show_frequency:
+    value: 4
+    evidence: Two concerts a night, effectively every night of the year.
+    sources:
+    - https://cafecentralmadrid.com/
+  artist_roster:
+    value: 2
+    evidence: Broad jazz roster; not primarily a free/improv venue.
+    sources:
+    - https://www.esmadrid.com/en/nightlife/cafe-central
+  self_description:
+    value: 2
+    evidence: Calls itself the temple of jazz in Madrid.
+    sources:
+    - https://cafecentralmadrid.com/
+  operating_model:
+    value: 3
+    evidence: Independent commercial club, recently relocated into the Ateneo de Madrid.
+    sources:
+    - https://www.telemadrid.es/programas/nos-vemos-en-el-bar/Cafe-Central-el-club-historico-de-la-musica-jazz-en-Madrid-2-2619658023--20231129101700.html
+  community_reputation:
+    value: 4
+    evidence: Named by DownBeat and The Guardian among the best jazz clubs in the world/Europe.
+    sources:
+    - https://www.spottedbylocals.com/madrid/cafe-central/
+  listening_room:
+    value: 3
+    evidence: Intimate room where the audience sits metres from the performers.
+    sources:
+    - https://www.esmadrid.com/en/nightlife/cafe-central
+score: 54
+tier: supportive
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://cafecentralmadrid.com/
+  - https://www.esmadrid.com/en/nightlife/cafe-central
+  needs_human_review: false
+notes: Historic Madrid jazz club, relocated to the Ateneo de Madrid in 2026; mostly mainstream
+  jazz - supportive rather than a free/improv venue.

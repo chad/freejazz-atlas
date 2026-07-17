@@ -1,0 +1,70 @@
+id: alice-copenhagen
+name: ALICE
+aliases:
+- ALICE cph
+- Alice Copenhagen
+status: active
+location:
+  address: "Nørre Allé 7"
+  city: Copenhagen
+  region: Capital Region
+  country: DK
+  neighborhood: Nørrebro
+  lat: 55.6905
+  lon: 12.5595
+type: dedicated_space
+operating_model: nonprofit
+capacity: 250
+website: https://alicecph.com/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Regional venue for adventurous music presenting an ambitious program from jazz/improv
+      to global roots, electronic, avant-garde and sound art.
+    sources:
+    - https://alicecph.com/en/about-alice/
+    - https://www.europejazz.net/club/alice-cph
+  show_frequency:
+    value: 4
+    evidence: Frequent concerts year-round; partner venue of the Copenhagen Jazz Festival.
+    sources:
+    - https://alicecph.com/en/about-alice/
+  artist_roster:
+    value: 3
+    evidence: Presents jazz/improv artists within a broad adventurous program.
+    sources:
+    - https://www.europejazz.net/club/alice-cph
+  self_description:
+    value: 4
+    evidence: Describes itself as a venue for adventurous music seeking new horizons and hybrids.
+    sources:
+    - https://alicecph.com/en/about-alice/
+  operating_model:
+    value: 4
+    evidence: Nonprofit regional music venue (a fusion of the former Global and Jazzhouse).
+    sources:
+    - https://alicecph.com/en/about-alice/
+  community_reputation:
+    value: 4
+    evidence: Recognized Copenhagen home for adventurous/improvised music; named for Alice
+      Coltrane.
+    sources:
+    - https://www.europejazz.net/club/alice-cph
+  listening_room:
+    value: 4
+    sources:
+    - https://alicecph.com/en/about-alice/
+score: 76
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://alicecph.com/en/about-alice/
+  - https://www.europejazz.net/club/alice-cph
+  needs_human_review: false
+notes: Nørrebro venue for adventurous music; jazz/improv within a broad program. Address/coords
+  approximate.

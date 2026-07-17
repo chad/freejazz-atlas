@@ -1,0 +1,71 @@
+id: moers-festival
+name: Moers Festival
+aliases:
+- moers festival
+status: active
+location:
+  address: "Kastellplatz"
+  city: Moers
+  region: North Rhine-Westphalia
+  country: DE
+  lat: 51.4516
+  lon: 6.6261
+type: festival
+operating_model: nonprofit
+capacity: null
+website: https://www.moers-festival.de/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "One of Europe's oldest festivals (since 1972) and one of very few focused\
+      \ on free and improvised music."
+    sources:
+    - https://www.moers-festival.de/en/
+    - https://www.freejazzblog.org/2024/06/moers-festival-53rd-edition-may-17-24.html
+  show_frequency:
+    value: 3
+    evidence: "Intensive annual multi-day festival each May across multiple stages,\
+      \ plus curated Moers Sessions."
+    sources:
+    - https://www.moers-festival.de/en/program/
+  artist_roster:
+    value: 5
+    evidence: "Around 200 artists from over 20 nations, centered on contemporary jazz\
+      \ and pure free improvisation."
+    sources:
+    - https://www.moers-festival.de/en/
+  self_description:
+    value: 5
+    evidence: "Program focused on free and improvised music in its most explicit form."
+    sources:
+    - https://www.freejazzblog.org/2024/06/moers-festival-53rd-edition-may-17-24.html
+  operating_model:
+    value: 4
+    evidence: Nonprofit, publicly supported festival organization.
+    sources:
+    - https://www.moers-festival.de/en/
+  community_reputation:
+    value: 5
+    evidence: Internationally renowned cornerstone festival of European free/improvised
+      music.
+    sources:
+    - https://ukjazznews.com/konfrontationen-2025-nickelsdorf-austria/
+  listening_room:
+    value: 4
+    evidence: Concentrated festival listening across dedicated concert stages and
+      a large open-air stage.
+    sources:
+    - https://www.moers-festival.de/en/
+score: 89
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.moers-festival.de/en/
+  - https://www.moers-festival.de/en/program/
+  needs_human_review: false
+notes: "Historic annual Whitsun festival for free and improvised music, running since 1972; 55th edition in 2026."

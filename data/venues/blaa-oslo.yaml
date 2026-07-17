@@ -1,0 +1,71 @@
+id: blaa-oslo
+name: Blå
+aliases:
+- Bla
+status: active
+location:
+  address: "Brenneriveien 9C"
+  city: Oslo
+  region: Oslo
+  country: "NO"
+  neighborhood: Grünerløkka
+  lat: 59.9236
+  lon: 10.7530
+type: bar_club
+operating_model: commercial
+capacity: 350
+website: https://www.blaaoslo.no/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Known for booking progressive/alternative acts and improvised/experimental music;
+      hosts a free Frank Znort Quartet concert every Sunday.
+    sources:
+    - https://en.wikipedia.org/wiki/Bl%C3%A5
+    - https://www.blaaoslo.no/
+  show_frequency:
+    value: 4
+    evidence: Frequent live music across genres; weekly free jazz plus regular adventurous
+      bookings.
+    sources:
+    - https://www.blaaoslo.no/
+  artist_roster:
+    value: 3
+    evidence: Books some of the best jazz acts internationally alongside pop, electronic and
+      hip-hop; adventurous but broad program.
+    sources:
+    - https://en.wikipedia.org/wiki/Bl%C3%A5
+  self_description:
+    value: 3
+    evidence: Cultural meeting place featuring improvised and experimental music performances.
+    sources:
+    - https://en.wikipedia.org/wiki/Bl%C3%A5
+  operating_model:
+    value: 3
+    evidence: Independent commercial jazz/club venue.
+    sources:
+    - https://en.wikipedia.org/wiki/Bl%C3%A5
+  community_reputation:
+    value: 4
+    evidence: Longstanding cornerstone of Oslo's jazz and progressive music scene since 1998.
+    sources:
+    - https://en.wikipedia.org/wiki/Bl%C3%A5
+    - https://liveurope.eu/bla
+  listening_room:
+    value: 3
+    sources:
+    - https://www.blaaoslo.no/
+score: 66
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Bl%C3%A5
+  - https://www.blaaoslo.no/
+  needs_human_review: false
+notes: Grünerløkka jazz/club by the Akerselva; adventurous booking within a broad program, weekly
+  free jazz Sundays.

@@ -1,0 +1,71 @@
+id: stadtgarten-cologne
+name: Stadtgarten
+aliases:
+- Stadtgarten Köln
+status: active
+location:
+  address: "Venloer Str. 40"
+  city: Cologne
+  region: North Rhine-Westphalia
+  country: DE
+  neighborhood: Innenstadt
+  lat: 50.9470
+  lon: 6.9380
+type: arts_center
+operating_model: nonprofit
+capacity: 400
+website: https://www.stadtgarten.de/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Internationally recognized venue for contemporary and improvised music
+      with jazz and contemporary music at the heart of its program; home of the NICA
+      artist-development program.
+    sources:
+    - https://www.stadtgarten.de/en/stadtgarten/wir-ueber-uns
+    - https://www.europejazz.net/members/stadtgarten-koln
+  show_frequency:
+    value: 4
+    evidence: More than 400 events annually across three spaces.
+    sources:
+    - https://www.stadtgarten.de/en/stadtgarten/wir-ueber-uns
+  artist_roster:
+    value: 4
+    evidence: Emphasis on innovative, genre-crossing artists in contemporary jazz
+      and improvised music, though the program is broad.
+    sources:
+    - https://www.stadtgarten.de/en/stadtgarten/wir-ueber-uns
+  self_description:
+    value: 4
+    evidence: Describes itself as a European centre for jazz and contemporary music.
+    sources:
+    - https://www.stadtgarten.de/en/stadtgarten/wir-ueber-uns
+  operating_model:
+    value: 4
+    evidence: Nonprofit cultural organization.
+    sources:
+    - https://www.europejazz.net/members/stadtgarten-koln
+  community_reputation:
+    value: 5
+    evidence: Regularly cited in DownBeat; multiple APPLAUS venue-programming awards
+      and German Jazz Award (2022).
+    sources:
+    - https://www.stadtgarten.de/en/stadtgarten/wir-ueber-uns
+  listening_room:
+    value: 4
+    evidence: Main concert hall plus Club JAKI and an open-air stage.
+    sources:
+    - https://www.stadtgarten.de/en/spielstaetten
+score: 82
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.stadtgarten.de/en/stadtgarten/wir-ueber-uns
+  - https://www.europejazz.net/members/stadtgarten-koln
+  needs_human_review: false
+notes: "Large European centre for jazz and contemporary/improvised music; broad program, 400+ events a year."

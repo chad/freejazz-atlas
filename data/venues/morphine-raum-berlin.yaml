@@ -1,0 +1,69 @@
+id: morphine-raum-berlin
+name: Morphine Raum
+aliases: []
+status: active
+location:
+  address: "Köpenicker Str. 147"
+  city: Berlin
+  region: Berlin
+  country: DE
+  neighborhood: Kreuzberg
+  lat: 52.5024
+  lon: 13.4340
+type: dedicated_space
+operating_model: artist_run
+capacity: 80
+website: https://www.morphinerecords.com/raum
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Since 2020 one of Berlin's most exciting venues for contemporary and
+      experimental music; a studio/stage hybrid run by Morphine Records.
+    sources:
+    - https://www.morphinerecords.com/raum
+    - https://field-notes.berlin/en/magazine/morphine-raum
+  show_frequency:
+    value: 3
+    evidence: Regular concerts and presentations of experimental and improvised music.
+    sources:
+    - https://ra.co/clubs/220340
+  artist_roster:
+    value: 5
+    evidence: Local Echtzeit and experimental musicians alongside international artists;
+      CTM collaborations.
+    sources:
+    - https://field-notes.berlin/en/magazine/morphine-raum
+  self_description:
+    value: 4
+    evidence: Genre-boundary-ignoring project space for sound works and presentations.
+    sources:
+    - https://www.morphinerecords.com/raum
+  operating_model:
+    value: 4
+    evidence: Run by musician/producer and label owner Rabih Beaini (Morphine Records).
+    sources:
+    - https://field-notes.berlin/en/magazine/morphine-raum
+  community_reputation:
+    value: 4
+    evidence: Noted in guides to Berlin's experimental music scene.
+    sources:
+    - https://www.zensounds.de/p/berlin
+  listening_room:
+    value: 4
+    evidence: Open-room studio/stage with high-quality sound; no fixed audience/performer
+      boundary.
+    sources:
+    - https://www.morphinerecords.com/raum
+score: 80
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.morphinerecords.com/raum
+  - https://field-notes.berlin/en/magazine/morphine-raum
+  needs_human_review: false
+notes: "Kreuzberg studio/stage hybrid run by Morphine Records for experimental and improvised music since 2020."

@@ -1,0 +1,72 @@
+id: star-and-shadow-newcastle
+name: Star and Shadow Cinema
+aliases:
+- Star & Shadow
+status: active
+location:
+  address: Warwick St
+  city: Newcastle upon Tyne
+  region: England
+  country: GB
+  neighborhood: Byker
+  lat: 54.979
+  lon: -1.596
+type: diy_space
+operating_model: diy_collective
+capacity: 200
+website: https://www.starandshadow.org.uk/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Volunteer-run DIY arts/music/cinema co-op; hosts experimental music
+      festivals and gigs among a wide program, but no single standing improv series.
+    sources:
+    - https://www.starandshadow.org.uk/about/sas/
+  show_frequency:
+    value: 2
+    evidence: Frequent events, with experimental/improvised music one strand of a
+      varied grassroots calendar.
+    sources:
+    - https://www.starandshadow.org.uk/about/
+  artist_roster:
+    value: 2
+    evidence: Anyone who volunteers can put on a gig; program includes experimental
+      music alongside film, DJ and community events.
+    sources:
+    - https://www.starandshadow.org.uk/about/sas/
+  self_description:
+    value: 3
+    evidence: Dedicated to independent grass-roots culture; hosts weird DJ sets and
+      experimental music festivals.
+    sources:
+    - https://www.starandshadow.org.uk/about/sas/
+  operating_model:
+    value: 5
+    evidence: Entirely volunteer-run co-operative that owns and built its own building;
+      no bosses, consensus decision-making.
+    sources:
+    - https://www.starandshadow.org.uk/about/sas/
+  community_reputation:
+    value: 3
+    evidence: Long-standing North East DIY institution (since 2006) noted by NARC.
+      and local press.
+    sources:
+    - https://narcmagazine.com/my-year-star-shadow-cinema/
+  listening_room:
+    value: 2
+    evidence: 200-capacity music room plus an 80-seat cinema; often standing gigs.
+    sources:
+    - https://www.starandshadow.org.uk/about/
+score: 50
+tier: supportive
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.starandshadow.org.uk/about/sas/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: DIY volunteer co-op with broad programming; experimental/improv
+  music is one strand. Confirm current cadence.'

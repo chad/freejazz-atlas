@@ -1,0 +1,72 @@
+id: galeria-ze-dos-bois-lisbon
+name: Galeria Zé dos Bois
+aliases:
+- ZDB
+status: active
+location:
+  address: Rua da Barroca 59
+  city: Lisbon
+  region: Lisbon
+  country: PT
+  neighborhood: Bairro Alto
+  lat: 38.7118
+  lon: -9.1447
+type: arts_center
+operating_model: nonprofit
+capacity: 200
+website: https://zedosbois.org/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Art centre whose ZDBmüzique program promotes transgressive/exploratory music
+      - improvised music, electroacoustic, free jazz and noise.
+    sources:
+    - https://zedosbois.org/en/music/
+    - https://zedosbois.org/en/
+  show_frequency:
+    value: 4
+    evidence: Hosts more than 150 arts events per year including a strong concert program.
+    sources:
+    - https://zedosbois.org/en/
+  artist_roster:
+    value: 4
+    evidence: Renowned for cutting-edge international acts in experimental music, free jazz
+      and underground electronics.
+    sources:
+    - https://ma.to/venue/galeriazedosbois
+  self_description:
+    value: 4
+    evidence: Instigates research by artists in experimental music, noise, power electronics
+      and free jazz.
+    sources:
+    - https://zedosbois.org/en/music/
+  operating_model:
+    value: 5
+    evidence: Nonprofit organisation created in 1994 by a civic initiative.
+    sources:
+    - https://zedosbois.org/en/
+  community_reputation:
+    value: 5
+    evidence: The Lisbon destination for experimental/underground music, cited by Time Out
+      and the international press.
+    sources:
+    - https://www.timeout.com/lisbon/art/zdb-galeria-ze-dos-bois
+  listening_room:
+    value: 3
+    sources:
+    - https://zedosbois.org/en/visit/
+score: 83
+tier: committed
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://zedosbois.org/en/
+  - https://zedosbois.org/en/music/
+  - https://www.timeout.com/lisbon/art/zdb-galeria-ze-dos-bois
+  needs_human_review: false
+notes: Bairro Alto nonprofit art centre; ZDBmüzique presents experimental music, free jazz
+  and noise.

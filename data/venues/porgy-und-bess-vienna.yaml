@@ -1,0 +1,70 @@
+id: porgy-und-bess-vienna
+name: Porgy & Bess
+aliases:
+- Jazz & Music Club Porgy & Bess
+status: active
+location:
+  address: "Riemergasse 11"
+  city: Vienna
+  region: Vienna
+  country: AT
+  neighborhood: Innere Stadt
+  lat: 48.2070
+  lon: 16.3769
+type: bar_club
+operating_model: nonprofit
+capacity: 350
+website: https://www.porgy.at/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Vienna's most important jazz organizer (since 1993) with a pluralistic\
+      \ program reaching into contemporary, electronic and experimental music, plus\
+      \ the small 'Strenge Kammer' room for experimental concerts."
+    sources:
+    - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
+    - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/porgy-bess-355534
+  show_frequency:
+    value: 4
+    evidence: Near-nightly program speaking to around 70,000 guests a year.
+    sources:
+    - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
+  artist_roster:
+    value: 4
+    evidence: "Books international jazz plus experimental/improvised projects; hosts\
+      \ the Vienna Improvisers Orchestra and adventurous acts such as Fire! Orchestra."
+    sources:
+    - https://www.freejazzblog.org/2016/06/fire-orchestra-porgy-bess-vienna.html
+  self_description:
+    value: 3
+    evidence: "Understands jazz very pluralistically and encourages cross-genre experiment."
+    sources:
+    - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
+  operating_model:
+    value: 3
+    evidence: Association-run nonprofit music club.
+    sources:
+    - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
+  community_reputation:
+    value: 5
+    evidence: Regarded as the central meeting point of Austria's creative jazz scene.
+    sources:
+    - https://www.jazzhalo.be/interviews/a-conversation-with-christoph-huber-at-porgy-bess-vienna-austria/
+  listening_room:
+    value: 4
+    evidence: Seated listening club with a dedicated small experimental room.
+    sources:
+    - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/porgy-bess-355534
+score: 77
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.porgy.at/
+  - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
+  needs_human_review: false
+notes: "Vienna's flagship jazz club; pluralistic program with a strong experimental/improvised strand and dedicated experimental room."

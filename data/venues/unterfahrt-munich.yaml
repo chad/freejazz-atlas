@@ -1,0 +1,73 @@
+id: unterfahrt-munich
+name: Jazzclub Unterfahrt
+aliases:
+- Unterfahrt
+status: active
+location:
+  address: "Einsteinstr. 42"
+  city: Munich
+  region: Bavaria
+  country: DE
+  neighborhood: Haidhausen
+  lat: 48.1330
+  lon: 11.6013
+type: bar_club
+operating_model: nonprofit
+capacity: 180
+website: https://www.unterfahrt.de/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: "Munich's best-known jazz club, founded 1978 originally focused on free\
+      \ jazz; today a broad jazz program with regular jam sessions and some adventurous\
+      \ bookings."
+    sources:
+    - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
+    - https://www.unterfahrt.de/
+  show_frequency:
+    value: 3
+    evidence: "Concerts up to seven nights a week, though free/improvised music is\
+      \ a portion of a wider jazz calendar."
+    sources:
+    - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
+  artist_roster:
+    value: 3
+    evidence: International and regional jazz artists; improvisational and hybrid forms
+      feature alongside mainstream jazz.
+    sources:
+    - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
+  self_description:
+    value: 3
+    evidence: Highlights improvisational forms and jam-session culture within a broad
+      jazz identity.
+    sources:
+    - https://www.unterfahrt.de/
+  operating_model:
+    value: 4
+    evidence: Member-supported nonprofit club (over 1,200 members).
+    sources:
+    - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
+  community_reputation:
+    value: 4
+    evidence: Long-standing, award-winning cornerstone of the Munich jazz scene (Musikpreis
+      der Landeshauptstadt München).
+    sources:
+    - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
+  listening_room:
+    value: 4
+    evidence: Intimate cellar listening club, capacity ~180.
+    sources:
+    - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
+score: 65
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.unterfahrt.de/
+  - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
+  needs_human_review: false
+notes: "Munich's flagship jazz club with free-jazz roots; adventurous programming is a strand within a broad jazz program."

@@ -1,0 +1,69 @@
+id: gare-du-nord-basel
+name: Gare du Nord
+aliases:
+- "Gare du Nord - Bahnhof für Neue Musik"
+status: active
+location:
+  address: "Schwarzwaldallee 200 (Badischer Bahnhof)"
+  city: Basel
+  region: Basel-Stadt
+  country: CH
+  lat: 47.5657
+  lon: 7.6073
+type: dedicated_space
+operating_model: nonprofit
+capacity: 150
+website: https://www.garedunord.ch/en/home
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Switzerland's first experimental-music centre (opened 2002), a curated\
+      \ production and performance venue for the contemporary music scene."
+    sources:
+    - https://www.garedunord.ch/en/about-us/what-is-gare-du-nord
+    - https://www.basel.com/en/attractions/gare-du-nord-082f52918e
+  show_frequency:
+    value: 4
+    evidence: More than 100 events per season.
+    sources:
+    - https://www.garedunord.ch/en/about-us/what-is-gare-du-nord
+  artist_roster:
+    value: 4
+    evidence: "Contemporary chamber, electronic and interdisciplinary music; more\
+      \ new/composed music than free jazz but firmly experimental."
+    sources:
+    - https://www.garedunord.ch/en/about-us/what-is-gare-du-nord
+  self_description:
+    value: 5
+    evidence: "Bahnhof für Neue Musik - dedicated home for new and experimental music."
+    sources:
+    - https://www.garedunord.ch/en/about-us/what-is-gare-du-nord
+  operating_model:
+    value: 4
+    evidence: Nonprofit association running the venue in the Badischer Bahnhof.
+    sources:
+    - https://www.garedunord.ch/en/association
+  community_reputation:
+    value: 4
+    evidence: "Recognized home and showcase for Switzerland's lively contemporary-music\
+      \ scene."
+    sources:
+    - https://www.bs.ch/en/schwerpunkte/portrait/cultural-capital-switzerland/rich-musical-life
+  listening_room:
+    value: 4
+    evidence: Dedicated concert/performance venue in a former station restaurant.
+    sources:
+    - https://www.basel.com/en/attractions/gare-du-nord-082f52918e
+score: 87
+tier: cornerstone
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.garedunord.ch/en/home
+  - https://www.garedunord.ch/en/about-us/what-is-gare-du-nord
+  needs_human_review: false
+notes: "Switzerland's first experimental-music centre, in Basel's Badischer Bahnhof; new/experimental music focus (more composed than free-improv)."

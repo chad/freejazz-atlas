@@ -1,0 +1,72 @@
+id: angelica-festival-bologna
+name: AngelicA - Festival Internazionale di Musica
+aliases:
+- AngelicA
+status: active
+location:
+  address: "Teatro San Leonardo, Via San Vitale 63"
+  city: Bologna
+  region: Emilia-Romagna
+  country: IT
+  lat: 44.4956
+  lon: 11.3542
+type: festival
+operating_model: nonprofit
+capacity: null
+website: https://aaa-angelica.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: International music festival founded 1991, focused on the most radical and
+      experimental expressions of contemporary music; electronics, improvisation, minimalism,
+      avant-garde, drone and contemporary jazz.
+    sources:
+    - https://it.wikipedia.org/wiki/AngelicA_-_festival_internazionale_di_musica
+    - https://www.bolognawelcome.com/en/events/festivals/angelica-festival-internazionale-di-musica-en
+  show_frequency:
+    value: 2
+    evidence: Annual festival held over roughly a month each May-June, plus a year-round research
+      centre.
+    sources:
+    - https://it.wikipedia.org/wiki/AngelicA_-_festival_internazionale_di_musica
+  artist_roster:
+    value: 5
+    evidence: Programs radical experimental and improvising musicians from around the world.
+    sources:
+    - https://www.freejazzblog.org/2025/05/angelica-35-ciaoing-and-getting-ciaoed.html
+  self_description:
+    value: 5
+    evidence: Artistic line free from genres and definitions, focused on experimental/research
+      music.
+    sources:
+    - https://www.bolognadavivere.com/2026/05/angelica-36-a-bologna-torna-il-festival-che-da-36-anni-reinventa-il-suono/
+  operating_model:
+    value: 4
+    evidence: Nonprofit music research centre (Centro di Ricerca Musicale) directed by Massimo
+      Simonini.
+    sources:
+    - https://aaa-angelica.com/
+  community_reputation:
+    value: 5
+    evidence: One of Italy's most important festivals of contemporary and research music,
+      internationally recognized.
+    sources:
+    - https://it.wikipedia.org/wiki/AngelicA_-_festival_internazionale_di_musica
+  listening_room:
+    value: 4
+    evidence: Centered on Teatro San Leonardo, a seated concert space.
+    sources:
+    - https://www.bolognadavivere.com/2026/05/angelica-36-a-bologna-torna-il-festival-che-da-36-anni-reinventa-il-suono/
+score: 85
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://it.wikipedia.org/wiki/AngelicA_-_festival_internazionale_di_musica
+  - https://aaa-angelica.com/
+  needs_human_review: false
+notes: Long-running Bologna experimental/research music festival, based at Teatro San Leonardo.

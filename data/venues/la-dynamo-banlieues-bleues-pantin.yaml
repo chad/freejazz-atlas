@@ -1,0 +1,73 @@
+id: la-dynamo-banlieues-bleues-pantin
+name: La Dynamo de Banlieues Bleues
+aliases:
+- La Dynamo
+status: active
+location:
+  address: 9 rue Gabrielle Josserand
+  city: Pantin
+  region: Ile-de-France
+  country: FR
+  neighborhood: Quatre-Chemins
+  lat: 48.8975
+  lon: 2.392
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://www.banlieuesbleues.org/dynamo/la-dynamo/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Opened in 2006 as the first hall in France built specifically for jazz
+      and improvised music, in a rehabilitated former jute-bag factory.
+    sources:
+    - https://www.banlieuesbleues.org/dynamo/la-dynamo/
+    - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
+  show_frequency:
+    value: 3
+    evidence: Annual concert programming and residencies, plus the four-week Banlieues
+      Bleues festival each spring.
+    sources:
+    - https://www.banlieuesbleues.org/dynamo/qui-sommes-nous/
+  artist_roster:
+    value: 4
+    evidence: Hosts Ile-de-France groups in residency and festival artists spanning
+      jazz and related improvised styles, with a broad, pioneering artistic direction.
+    sources:
+    - https://www.banlieuesbleues.org/dynamo/qui-sommes-nous/
+  self_description:
+    value: 4
+    evidence: A production and dissemination tool for jazz and improvised musical creation.
+    sources:
+    - https://www.banlieuesbleues.org/dynamo/la-dynamo/
+  operating_model:
+    value: 4
+    evidence: Run by the nonprofit Banlieues Bleues association with public support
+      in Seine-Saint-Denis.
+    sources:
+    - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
+  community_reputation:
+    value: 4
+    evidence: A reference tool for jazz creation in the Paris region; member of the
+      Europe Jazz Network.
+    sources:
+    - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
+  listening_room:
+    value: 4
+    evidence: Purpose-built concert hall for jazz and improvised music.
+    sources:
+    - https://www.parisjazzclub.net/en/841/club/la-dynamo-de-banlieues-bleues
+score: 76
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.banlieuesbleues.org/dynamo/la-dynamo/
+  - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
+  needs_human_review: false
+notes: Purpose-built jazz/improv hall in Pantin, home base of the Banlieues Bleues
+  festival.

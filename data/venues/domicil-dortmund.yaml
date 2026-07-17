@@ -1,0 +1,71 @@
+id: domicil-dortmund
+name: domicil
+aliases:
+- "domicil - Forum Jazz & Creative Music"
+status: active
+location:
+  address: "Hansastr. 7-11"
+  city: Dortmund
+  region: North Rhine-Westphalia
+  country: DE
+  neighborhood: City
+  lat: 51.5136
+  lon: 7.4653
+type: arts_center
+operating_model: nonprofit
+capacity: 500
+website: https://domicil-dortmund.de/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Forum for jazz and creative music since 1969; program ranges from mainstream\
+      \ to improvisation and experimental/avant-garde music."
+    sources:
+    - https://domicil-dortmund.de/
+    - https://www.europejazz.net/club/jazzclub-domicil-dortmund
+  show_frequency:
+    value: 4
+    evidence: Frequent concerts across a wide contemporary-jazz and avant-garde program.
+    sources:
+    - https://domicil-dortmund.de/
+  artist_roster:
+    value: 4
+    evidence: International to regional artists, from mainstream to improvisation and
+      experimental music.
+    sources:
+    - https://miz.org/de/institutionen/domicil-i35537
+  self_description:
+    value: 4
+    evidence: "Self-described 'Forum Jazz & Creative Music' spanning contemporary\
+      \ jazz, world music and avant-garde."
+    sources:
+    - https://domicil-dortmund.de/
+  operating_model:
+    value: 4
+    evidence: Nonprofit cultural forum operating since 1969.
+    sources:
+    - https://miz.org/de/institutionen/domicil-i35537
+  community_reputation:
+    value: 5
+    evidence: Selected multiple times by DownBeat among the top jazz clubs in the
+      world.
+    sources:
+    - https://domicil-dortmund.de/
+  listening_room:
+    value: 4
+    evidence: Renovated 1950s cinema with concert halls, restaurant and bar.
+    sources:
+    - https://domicil-dortmund.de/
+score: 82
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://domicil-dortmund.de/
+  - https://www.europejazz.net/club/jazzclub-domicil-dortmund
+  needs_human_review: false
+notes: "Long-running Dortmund forum for jazz and creative music; strong improv/avant strand within a broad program."

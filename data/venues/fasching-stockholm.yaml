@@ -1,0 +1,67 @@
+id: fasching-stockholm
+name: Fasching
+aliases:
+- Fasching Jazzklubb
+status: active
+location:
+  address: "Kungsgatan 63"
+  city: Stockholm
+  region: Stockholm
+  country: SE
+  lat: 59.3346
+  lon: 18.0590
+type: bar_club
+operating_model: nonprofit
+capacity: 350
+website: https://www.fasching.se/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Presents jazz and adventurous music six nights a week since 1977; hub of the
+      Stockholm Jazz Festival.
+    sources:
+    - https://www.fasching.se/en/about-fasching/
+  show_frequency:
+    value: 4
+    evidence: Over 300 concerts and a hundred club nights annually.
+    sources:
+    - https://www.fasching.se/en/about-fasching/
+  artist_roster:
+    value: 3
+    evidence: Broad jazz program including adventurous music alongside mainstream headliners.
+    sources:
+    - https://www.fasching.se/en/about-fasching/
+  self_description:
+    value: 2
+    evidence: Describes its offering as jazz and adventurous music.
+    sources:
+    - https://www.fasching.se/en/about-fasching/
+  operating_model:
+    value: 4
+    evidence: Owned by the jazz musicians themselves through the Association of Swedish Jazz
+      Musicians and by its audience association.
+    sources:
+    - https://www.fasching.se/en/about-fasching/
+  community_reputation:
+    value: 4
+    evidence: One of Europe's oldest and most prestigious jazz clubs; Scandinavia's largest jazz
+      organiser.
+    sources:
+    - https://www.fasching.se/en/about-fasching/
+  listening_room:
+    value: 3
+    sources:
+    - https://www.fasching.se/en/about-fasching/
+score: 65
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.fasching.se/en/about-fasching/
+  needs_human_review: false
+notes: Large musician-owned Stockholm jazz club; adventurous music is part of a broad, partly
+  mainstream program.

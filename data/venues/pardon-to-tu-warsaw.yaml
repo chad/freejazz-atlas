@@ -1,0 +1,69 @@
+id: pardon-to-tu-warsaw
+name: Pardon, To Tu
+aliases: []
+status: active
+location:
+  address: "Aleja Armii Ludowej 14"
+  city: Warsaw
+  region: Masovia
+  country: PL
+  lat: 52.2200
+  lon: 21.0175
+type: bar_club
+operating_model: artist_run
+capacity: 150
+website: https://pardontotu.pl/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Venue focused on avant-garde jazz, experimental and improvised music; described as
+      without equal in Poland for its programme.
+    sources:
+    - https://pardontotu.pl/info/
+    - https://www.jazznearyou.com/warsaw/venue/pardon-to-tu
+  show_frequency:
+    value: 4
+    evidence: More than 900 concerts and events over roughly 13 years; top improvised music
+      artists play regularly and intensively.
+    sources:
+    - https://pardontotu.pl/info/
+  artist_roster:
+    value: 5
+    evidence: Hosts top modern jazz, avant-garde, improvised and folk artists; home to the
+      Warsaw Improvisers Orchestra.
+    sources:
+    - https://pardontotu.pl/info/
+    - https://www.jazzpress.pl/koncerty/warsaw-improvisers-orchestra-pardon-to-tu-lipiec-2024
+  self_description:
+    value: 5
+    evidence: Frames itself around uncompromising avant-garde jazz, experimental and improvised
+      music.
+    sources:
+    - https://pardontotu.pl/info/
+  operating_model:
+    value: 4
+    evidence: Independent artist-led venue combining live music, bar, bookstore and record store.
+    sources:
+    - https://pardontotu.pl/info/
+  community_reputation:
+    value: 5
+    evidence: Reputed as one of the most important improvised music venues in Europe.
+    sources:
+    - https://ilovit.com/listing/pardon-to-tu/
+  listening_room:
+    value: 4
+    sources:
+    - https://pardontotu.pl/info/
+score: 93
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://pardontotu.pl/info/
+  - https://www.jazznearyou.com/warsaw/venue/pardon-to-tu
+  needs_human_review: false
+notes: Warsaw's leading avant-garde jazz and improvised music venue.

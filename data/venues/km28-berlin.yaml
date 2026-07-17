@@ -1,0 +1,74 @@
+id: km28-berlin
+name: KM28
+aliases:
+- Karl-Marx-Str. 28
+status: active
+location:
+  address: "Karl-Marx-Str. 28"
+  city: Berlin
+  region: Berlin
+  country: DE
+  neighborhood: Neukölln
+  lat: 52.4812
+  lon: 13.4303
+type: dedicated_space
+operating_model: artist_run
+capacity: 50
+website: https://www.km28.de/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Volunteer-run venue founded in 2018 dedicated to new and experimental
+      concert music; regarded as Berlin's closest equivalent to Cafe OTO for the experimental
+      scene.
+    sources:
+    - https://www.km28.de/about
+    - https://www.km28.de/
+  show_frequency:
+    value: 4
+    evidence: Regular near-weekly concerts of improvisation, new and experimental
+      music; doors 8pm, entry by donation.
+    sources:
+    - https://www.km28.de/
+    - https://www.urbanite.net/berlin/locations/km28/
+  artist_roster:
+    value: 5
+    evidence: Programs international improvisers and experimental/new-music composers.
+    sources:
+    - https://www.km28.de/
+  self_description:
+    value: 5
+    evidence: Describes itself as a space for new and experimental concert music.
+    sources:
+    - https://www.km28.de/about
+  operating_model:
+    value: 5
+    evidence: Run entirely by volunteers.
+    sources:
+    - https://www.km28.de/about
+  community_reputation:
+    value: 5
+    evidence: Named as a pillar/institution of Berlin's Echtzeitmusik and experimental
+      scene.
+    sources:
+    - https://www.urbanite.net/berlin/locations/km28/
+  listening_room:
+    value: 5
+    evidence: Intimate concert room with grand piano; attentive listening, bar in
+      the back.
+    sources:
+    - https://www.urbanite.net/berlin/locations/km28/
+score: 96
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.km28.de/
+  - https://www.km28.de/about
+  - https://www.urbanite.net/berlin/locations/km28/
+  needs_human_review: false
+notes: "Volunteer-run Neukölln space for new/experimental concert music, founded 2018."

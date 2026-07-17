@@ -1,0 +1,69 @@
+id: sonoscopia-porto
+name: Sonoscopia
+aliases:
+- Sonoscopia Associação
+status: active
+location:
+  address: "Rua de Silva Porto 217"
+  city: Porto
+  region: Porto
+  country: PT
+  lat: 41.1553
+  lon: -8.6350
+type: arts_center
+operating_model: artist_run
+capacity: 80
+website: http://www.sonoscopia.pt/en/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Cultural association dedicated to experimental, improvised and electroacoustic
+      music; over 700 events, creations and educational activities since 2011.
+    sources:
+    - https://sonoscopia.pt/en/sonoscopia/
+    - http://www.sonoscopia.pt/en/
+  show_frequency:
+    value: 4
+    evidence: Regular concerts, creations and educational activities at its own space.
+    sources:
+    - https://sonoscopia.pt/en/sonoscopia/
+  artist_roster:
+    value: 5
+    evidence: Platform for artists in experimental, improvised and electroacoustic music and
+      sound exploration.
+    sources:
+    - https://improvisationinportugal.wordpress.com/2016/08/06/sonoscopia/
+  self_description:
+    value: 5
+    evidence: Self-describes as a platform for experimental, improvised and electroacoustic
+      music.
+    sources:
+    - https://sonoscopia.pt/en/sonoscopia/
+  operating_model:
+    value: 5
+    evidence: Artist-run cultural association.
+    sources:
+    - https://sonoscopia.pt/en/sonoscopia/
+  community_reputation:
+    value: 4
+    evidence: Recognized Porto hub for experimental/improvised music, cited internationally (e.g.
+      Cafe OTO collaborations).
+    sources:
+    - https://www.cafeoto.co.uk/artists/copper-sounds-meets-sonoscopia/
+  listening_room:
+    value: 4
+    sources:
+    - https://sonoscopia.pt/en/sonoscopia/
+score: 93
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://www.sonoscopia.pt/en/
+  - https://sonoscopia.pt/en/sonoscopia/
+  needs_human_review: false
+notes: Artist-run Porto platform for experimental, improvised and electroacoustic music.

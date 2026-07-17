@@ -1,0 +1,73 @@
+id: occii-amsterdam
+name: OCCII
+aliases:
+- Onafhankelijk Cultureel Centrum In It
+status: active
+location:
+  address: Amstelveenseweg 134
+  city: Amsterdam
+  region: Noord-Holland
+  country: NL
+  lat: 52.356
+  lon: 4.864
+type: diy_space
+operating_model: diy_collective
+capacity: 250
+website: https://occii.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Venue for alternative and independent music in a legalised squat; program
+      includes experimental hip-hop and obscure jazz among many underground genres.
+    sources:
+    - https://en.wikipedia.org/wiki/OCCII
+    - https://occii.org/
+  show_frequency:
+    value: 3
+    evidence: Open most nights across the underground music spectrum, of which experimental/improv
+      is one part.
+    sources:
+    - https://occii.org/
+  artist_roster:
+    value: 2
+    evidence: Books DIY touring bands across punk, noise, experimental and obscure
+      jazz rather than a dedicated improv roster.
+    sources:
+    - https://occii.org/diy/
+  self_description:
+    value: 3
+    evidence: Represents DIY methods and volunteer self-organisation; a hub for the
+      global underground music scene.
+    sources:
+    - https://occii.org/diy/
+  operating_model:
+    value: 5
+    evidence: Volunteer-run legalised squat rooted in the squatting movement, active
+      since 1992.
+    sources:
+    - https://en.wikipedia.org/wiki/OCCII
+  community_reputation:
+    value: 3
+    evidence: Legendary Amsterdam DIY venue and a long-standing stop for European
+      underground tours.
+    sources:
+    - https://en.wikipedia.org/wiki/OCCII
+  listening_room:
+    value: 2
+    evidence: Standing-room DIY gig space rather than a seated listening room.
+    sources:
+    - https://occii.org/
+score: 54
+tier: supportive
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://occii.org/
+  - https://en.wikipedia.org/wiki/OCCII
+  needs_human_review: true
+notes: 'NEEDS REVIEW: DIY squat venue with broad underground programming; free/improv
+  jazz is occasional. Confirm improv share.'

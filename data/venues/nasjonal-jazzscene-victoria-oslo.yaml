@@ -1,0 +1,70 @@
+id: nasjonal-jazzscene-victoria-oslo
+name: Nasjonal Jazzscene Victoria
+aliases:
+- Victoria
+- Nasjonal jazzscene
+status: active
+location:
+  address: Karl Johans gate 35
+  city: Oslo
+  region: Oslo
+  country: 'NO'
+  lat: 59.9139
+  lon: 10.7418
+type: dedicated_space
+operating_model: nonprofit
+capacity: 300
+website: https://nasjonaljazzscene.no/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Norway's national jazz stage; program ranges from mainstream to free improvisation.
+    sources:
+    - https://www.europejazz.net/venues/victoria-nasjonal-jazzscene
+  show_frequency:
+    value: 4
+    evidence: Around 180 concerts a year, typically Wednesday to Saturday.
+    sources:
+    - https://www.europejazz.net/venues/victoria-nasjonal-jazzscene
+    - https://www.visitoslo.com/en/product/?tlp=2981393&name=Nasjonal-jazzscene--Victoria
+  artist_roster:
+    value: 3
+    evidence: Reflects the Norwegian and international jazz scene, mainly modern/melodic jazz
+      but extending to free improvisation.
+    sources:
+    - https://www.europejazz.net/venues/victoria-nasjonal-jazzscene
+  self_description:
+    value: 2
+    evidence: Presents itself as the national jazz scene; adventurous programming is part
+      of a broad jazz mission.
+    sources:
+    - https://www.europejazz.net/venues/victoria-nasjonal-jazzscene
+  operating_model:
+    value: 3
+    evidence: Nonprofit foundation operating Norway's national jazz venue.
+    sources:
+    - https://www.europejazz.net/members/nasjonal-jazzscene
+  community_reputation:
+    value: 4
+    evidence: Named one of the finest jazz clubs in Europe.
+    sources:
+    - https://www.europejazz.net/venues/victoria-nasjonal-jazzscene
+  listening_room:
+    value: 4
+    evidence: Former cinema converted into an intimate seated listening venue with excellent
+      sound.
+    sources:
+    - https://www.visitoslo.com/en/product/?tlp=2981393&name=Nasjonal-jazzscene--Victoria
+score: 64
+tier: supportive
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.europejazz.net/venues/victoria-nasjonal-jazzscene
+  - https://www.visitoslo.com/en/product/?tlp=2981393&name=Nasjonal-jazzscene--Victoria
+  needs_human_review: false
+notes: National jazz stage; mostly modern jazz with programming that reaches to free improvisation.

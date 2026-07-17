@@ -1,0 +1,68 @@
+id: brotz-gothenburg
+name: Brötz
+aliases:
+- Brötz Jazzklubb
+status: active
+location:
+  address: "Konstepidemin, Konstepidemins väg 6"
+  city: Gothenburg
+  region: Västra Götaland
+  country: SE
+  lat: 57.6899
+  lon: 11.9487
+type: dedicated_space
+operating_model: nonprofit
+capacity: 80
+website: https://www.brotznow.se/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Club dedicated to jazz and improvised music, focused on free jazz and improvisation;
+      named after Peter Brötzmann.
+    sources:
+    - https://www.brotznow.se/
+    - https://www.jazznearyou.com/gothenburg/venue/brotz
+  show_frequency:
+    value: 3
+    evidence: Regular weekly concerts (Wednesdays) at Konstepidemin.
+    sources:
+    - https://www.jazznearyou.com/gothenburg/venue/brotz
+  artist_roster:
+    value: 4
+    evidence: Programs free jazz and improvising artists; involved in European improvisation
+      projects.
+    sources:
+    - https://www.europejazz.net/news/gothenburg-free-spirit-%E2%80%93-new-festival-free-sounds-and-open-encounters
+  self_description:
+    value: 4
+    evidence: Self-identifies with free jazz and improvisation (the name references the "brötz"
+      overblown-sax style).
+    sources:
+    - https://www.jazznearyou.com/gothenburg/venue/brotz
+  operating_model:
+    value: 4
+    evidence: Long-running nonprofit jazz club run for and by the improvised music scene.
+    sources:
+    - https://www.brotznow.se/
+  community_reputation:
+    value: 3
+    sources:
+    - https://www.freejazzblog.org/2012/09/brotzmann-week-prologue.html
+  listening_room:
+    value: 4
+    evidence: Small dedicated listening club at Konstepidemin arts colony.
+    sources:
+    - https://www.jazznearyou.com/gothenburg/venue/brotz
+score: 74
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.brotznow.se/
+  - https://www.jazznearyou.com/gothenburg/venue/brotz
+  needs_human_review: false
+notes: Gothenburg club dedicated to free jazz and improvised music, named after Peter Brötzmann.
