@@ -51,7 +51,7 @@ def build_json(venues: list, musicians: list) -> dict:
 def build_markdown(venues: list, musicians: list) -> str:
     vs = _sorted_venues(venues)
     lines = []
-    lines.append("# The Free Jazz Atlas — Directory\n")
+    lines.append("# Avant Atlas — Directory\n")
     lines.append(f"_Generated {_dt.date.today().isoformat()} · "
                  f"{len(vs)} venues · {len(musicians)} musicians_\n")
     lines.append("Scores (0-100) measure **commitment** to free jazz / free "
@@ -120,7 +120,7 @@ def build_html(venues: list, musicians: list) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Free Jazz Atlas</title>
+<title>Avant Atlas</title>
 <style>
   :root {{ color-scheme: light dark; --bg:#faf9f7; --fg:#161514; --mut:#6b6660;
            --line:#e4e0d8; --card:#fff; --accent:#b4432b; }}
@@ -171,7 +171,7 @@ def build_html(venues: list, musicians: list) -> str:
 </head>
 <body>
 <header><div class="wrap">
-  <h1>The Free Jazz Atlas</h1>
+  <h1>Avant Atlas</h1>
   <div class="sub">A curated, weighted directory of venues committed to free jazz,
   free improvisation &amp; avant-garde music — and the musicians keeping them alive.</div>
   <div style="margin-top:1rem"><a href="/submit" style="display:inline-block;background:#e05a6d;color:#0a0c12;font-weight:600;text-decoration:none;padding:.5rem 1rem;border-radius:8px">+ Add a venue</a></div>

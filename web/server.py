@@ -1,4 +1,4 @@
-"""The Free Jazz Atlas — web app.
+"""Avant Atlas — web app.
 
 Serves the interactive directory (the self-contained static site the build step
 produces) and adds a real backend: a contribution endpoint so artists and venues
@@ -20,7 +20,7 @@ SUBMISSIONS = ROOT / "data" / "submissions"
 SUBMISSIONS.mkdir(parents=True, exist_ok=True)
 PENDING = SUBMISSIONS / "pending.jsonl"
 
-app = FastAPI(title="The Free Jazz Atlas")
+app = FastAPI(title="Avant Atlas")
 
 
 def load_directory():
@@ -67,7 +67,7 @@ def api_submissions():
 
 PAGE_HEAD = """<!doctype html><html lang=en><head><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>{title} · The Free Jazz Atlas</title>
+<title>{title} · Avant Atlas</title>
 <style>
 :root{{color-scheme:dark}}
 *{{box-sizing:border-box}}

@@ -1,4 +1,4 @@
-# Contributing to the Free Jazz Atlas
+# Contributing to Avant Atlas
 
 This directory is only as good as its curation. Corrections, additions, and
 honest re-scoring are all welcome — from listeners, from artists, and from

@@ -5,7 +5,7 @@ description = "An ingestion engine and evolving directory of venues committed to
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "The Free Jazz Atlas contributors" }]
+authors = [{ name = "Avant Atlas contributors" }]
 dependencies = [
     "PyYAML>=6.0",
 ]

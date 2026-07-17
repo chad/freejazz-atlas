@@ -1,4 +1,4 @@
-"""Command-line interface for the Free Jazz Atlas.
+"""Command-line interface for Avant Atlas.
 
     atlas validate                 check every record against the schema
     atlas score [--write]          recompute scores from signals (optionally save)
@@ -195,7 +195,7 @@ def cmd_recrawl(args) -> int:
 
 
 def main(argv=None) -> int:
-    p = argparse.ArgumentParser(prog="atlas", description="The Free Jazz Atlas toolkit")
+    p = argparse.ArgumentParser(prog="atlas", description="Avant Atlas toolkit")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     sp = sub.add_parser("validate", help="check records against the schema")

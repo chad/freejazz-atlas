@@ -1,4 +1,4 @@
-"""The weighting rubric: the heart of the Free Jazz Atlas.
+"""The weighting rubric: the heart of Avant Atlas.
 
 Every venue is scored 0-100 on how strongly it is *committed* to free jazz,
 free improvisation, and avant-garde/experimental music. A high score means the

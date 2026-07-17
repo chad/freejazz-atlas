@@ -1,6 +1,6 @@
 # The Weighting Rubric
 
-This is the heart of the Free Jazz Atlas. It answers one question for every
+This is the heart of Avant Atlas. It answers one question for every
 venue:
 
 > **How committed is this place to free jazz, free improvisation, and

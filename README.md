@@ -1,4 +1,4 @@
-# The Free Jazz Atlas
+# Avant Atlas
 
 **A curated, weighted, constantly-updating directory of venues that genuinely
 welcome free jazz, free improvisation, and avant-garde music — and the
@@ -6,12 +6,12 @@ musicians keeping them alive.**
 
 Most "jazz venue" lists flatten everything together: the artist-run loft that
 programs free improvisation six nights a week sits next to the tourist bar that
-books a trad quartet on Sundays. The Free Jazz Atlas exists to tell those apart.
+books a trad quartet on Sundays. Avant Atlas exists to tell those apart.
 Every venue gets an **explainable commitment score**, so you can see — and
 argue with — *why* a place is rated the way it is.
 
 > **Project name.** The repository directory is `freejazz-atlas`; the product
-> name is **The Free Jazz Atlas**. "Atlas" because the mission is geographic
+> name is **Avant Atlas**. "Atlas" because the mission is geographic
 > coverage — small scenes everywhere, not just the coasts.
 
 ## The idea in one screen
