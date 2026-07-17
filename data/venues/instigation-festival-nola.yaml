@@ -1,0 +1,72 @@
+id: instigation-festival-nola
+name: Instigation Festival
+aliases: []
+status: active
+location:
+  city: New Orleans
+  region: LA
+  country: US
+  neighborhood: Faubourg Marigny / roaming
+  lat: 29.9648
+  lon: -90.0565
+type: festival
+operating_model: artist_run
+capacity: null
+website: https://www.instigationfestival.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: An entire festival dedicated to improvised music and dance, bringing Chicago
+      and New Orleans creative musicians together for interdisciplinary collaboration.
+    sources:
+    - https://www.instigationfestival.com/about
+    - https://www.offbeat.com/news/instigation-festival/
+  show_frequency:
+    value: 2
+    evidence: An annual (recently biannual) multi-day festival rather than a continuous series.
+    sources:
+    - https://www.offbeat.com/news/2024-instigation-festival/
+  artist_roster:
+    value: 5
+    evidence: Rosters are drawn from the Chicago and New Orleans improvised/creative-music
+      communities.
+    sources:
+    - https://www.instigationfestival.com/about
+  self_description:
+    value: 5
+    evidence: Frames itself around creative spontaneity and improvised collaboration - musicians
+      prioritizing playfulness and discovery.
+    sources:
+    - https://www.instigationfestival.com/about
+  operating_model:
+    value: 5
+    evidence: Artist-run, founded 2016 by guitarist Steve Marquette and movement artist Marie
+      Casimir.
+    sources:
+    - https://www.instigationfestival.com/about
+  community_reputation:
+    value: 4
+    evidence: Covered by OffBeat, Gambit, My New Orleans and PopMatters as a key improvised-music
+      gathering.
+    sources:
+    - https://www.popmatters.com/instigation-festival-14-event-review
+  listening_room:
+    value: 3
+    evidence: Spans clubs, bars, community spaces and larger performance venues; settings
+      vary.
+    sources:
+    - https://www.instigationfestival.com/about
+score: 84
+tier: committed
+confidence: 0.68
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.instigationfestival.com/
+  - https://www.offbeat.com/news/instigation-festival/
+  needs_human_review: false
+notes: Roaming Chicago-New Orleans improvised-music-and-dance festival (coordinates anchored
+  to its Marigny/NOLA base); a dedicated free-improv gathering rather than a fixed venue.

@@ -1,0 +1,71 @@
+id: beacon-sound-portland
+name: Beacon Sound
+aliases: []
+status: active
+location:
+  address: 2730-32 NE Martin Luther King Jr Blvd
+  city: Portland
+  region: OR
+  country: US
+  neighborhood: Northeast Portland
+  lat: 45.539
+  lon: -122.662
+type: record_store
+operating_model: commercial
+capacity: null
+website: http://beaconsound.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Record shop and experimental label that also serves as an event space and "home
+      for all sorts of happenings," hosting experimental/ambient/modern-composition performances.
+    sources:
+    - http://beaconsound.com/about
+    - https://www.vrtxmag.com/articles/exploring-the-experimental-in-portland-music/
+  show_frequency:
+    value: 2
+    evidence: Intermittent in-store performances and events rather than a fixed weekly series.
+    sources:
+    - http://beaconsound.com/about
+  artist_roster:
+    value: 4
+    evidence: Deeply tied to Portland's experimental/modern-composition scene (e.g. Terry
+      Riley reissues); books experimental artists.
+    sources:
+    - https://www.portlandmercury.com/music/2018/07/04/21057247/the-five-best-experimental-record-labels-in-portland
+  self_description:
+    value: 4
+    evidence: Describes itself as a label, shop, community and instigator of unexpected connections
+      in experimental sound.
+    sources:
+    - http://beaconsound.com/about
+  operating_model:
+    value: 3
+    evidence: Independent record shop and label (co-owner-run), not a nonprofit.
+    sources:
+    - http://beaconsound.com/about
+  community_reputation:
+    value: 3
+    evidence: Named among Portland's leading experimental record labels/shops.
+    sources:
+    - https://www.portlandmercury.com/music/2018/07/04/21057247/the-five-best-experimental-record-labels-in-portland
+  listening_room:
+    value: 3
+    evidence: Improved in-store event space; attentive but shop-based.
+    sources:
+    - https://www.vrtxmag.com/businesses/beacon-sound/
+score: 62
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://beaconsound.com/
+  - http://beaconsound.com/about
+  - https://everout.com/portland/locations/beacon-sound/l29924/
+  needs_human_review: false
+notes: Experimental record shop/label (est. 2011) that doubles as an event space. Has relocated
+  more than once; current address per shop bio is NE MLK Jr Blvd. Coordinates approximate.

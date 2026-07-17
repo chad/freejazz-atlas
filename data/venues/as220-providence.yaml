@@ -1,0 +1,70 @@
+id: as220-providence
+name: AS220
+aliases: []
+status: active
+location:
+  address: 115 Empire St
+  city: Providence
+  region: RI
+  country: US
+  lat: 41.8225
+  lon: -71.4128
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://as220.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Uncensored, unjuried nonprofit arts center whose main stage regularly programs
+      jazz, experimental and improvised music among a broad multidisciplinary calendar; hosts
+      the PVD Loop live-looping/improvisation festival.
+    sources:
+    - https://as220.org/
+    - https://en.wikipedia.org/wiki/AS220
+  show_frequency:
+    value: 4
+    evidence: Main stage runs 8-12 events per week; experimental/improvised sets recur within
+      that program.
+    sources:
+    - https://en.wikipedia.org/wiki/AS220
+  artist_roster:
+    value: 3
+    evidence: Books jazz, experimental and improvised performers alongside many other genres.
+    sources:
+    - https://as220.org/
+  self_description:
+    value: 3
+    evidence: Frames itself as an open, uncensored space for artists including experimental
+      and improvised musicians.
+    sources:
+    - https://en.wikipedia.org/wiki/AS220
+  operating_model:
+    value: 5
+    evidence: Nonprofit community arts organization founded 1985.
+    sources:
+    - https://en.wikipedia.org/wiki/AS220
+  community_reputation:
+    value: 4
+    evidence: Longstanding cornerstone of Providence's independent arts scene.
+    sources:
+    - https://artnewengland.com/as220/
+  listening_room:
+    value: 3
+    evidence: Dedicated main-stage performance room, though the calendar is broad.
+    sources:
+    - https://artsnowri.com/venue/as220-concert-hall/
+score: 70
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://as220.org/
+  - https://en.wikipedia.org/wiki/AS220
+  needs_human_review: false
+notes: Broad nonprofit arts center; experimental/improvised music is one strand of a wide
+  multidisciplinary program.

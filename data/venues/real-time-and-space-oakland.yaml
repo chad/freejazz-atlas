@@ -1,0 +1,71 @@
+id: real-time-and-space-oakland
+name: Real Time & Space
+aliases: []
+status: active
+location:
+  address: "125 10th St"
+  city: Oakland
+  region: CA
+  country: US
+  neighborhood: Chinatown
+  lat: 37.8017
+  lon: -122.2666
+type: diy_space
+operating_model: artist_run
+capacity: null
+website: https://www.realtimeandspace.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Artist-run studios with a public-program venue that hosts experimental
+      and interdisciplinary performances; music is one strand among residencies and talks.
+    sources:
+    - https://www.realtimeandspace.org/
+    - https://soex.org/alternative-exposure/grant-recipients-projects/real-time-and-space
+  show_frequency:
+    value: 2
+    evidence: Public programming tied to a residency cycle rather than a frequent concert
+      series.
+    sources:
+    - https://soex.org/alternative-exposure/grant-recipients-projects/real-time-and-space
+  artist_roster:
+    value: 3
+    evidence: Local and international experimental artists in residence, some presenting
+      sound/music work.
+    sources:
+    - https://www.realtimeandspace.org/
+  self_description:
+    value: 3
+    evidence: Artist-run organization providing studio space and a public platform for
+      experimental practice.
+    sources:
+    - https://www.realtimeandspace.org/
+  operating_model:
+    value: 5
+    evidence: Artist-run nonprofit-style collective in a converted print shop.
+    sources:
+    - https://soex.org/alternative-exposure/grant-recipients-projects/real-time-and-space
+  community_reputation:
+    value: 2
+    evidence: Known in the East Bay artist community; listed on Bay Improviser.
+    sources:
+    - https://www.bayimproviser.com/venues.aspx
+  listening_room:
+    value: 3
+    evidence: Flexible public-program space within a studio building.
+    sources:
+    - https://www.realtimeandspace.org/
+score: 53
+tier: supportive
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.realtimeandspace.org/
+  - https://soex.org/alternative-exposure/grant-recipients-projects/real-time-and-space
+  needs_human_review: true
+notes: 'NEEDS REVIEW: primarily an artist-studio/residency space with occasional public
+  experimental-music programming; confirm music-event frequency.'

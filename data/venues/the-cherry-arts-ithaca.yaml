@@ -1,0 +1,73 @@
+id: the-cherry-arts-ithaca
+name: The Cherry Arts
+aliases:
+- The Cherry Artspace
+status: active
+location:
+  address: 102 Cherry St
+  city: Ithaca
+  region: NY
+  country: US
+  neighborhood: West End
+  lat: 42.4363
+  lon: -76.5188
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://thecherry.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Multi-arts hub built for collaboration and experimentation across boundaries;
+      its programming spans music (including new/improvised work) alongside theater, dance
+      and more.
+    sources:
+    - https://thecherry.org/about/
+    - https://www.downtownithaca.com/venue/the-cherry-arts/
+  show_frequency:
+    value: 2
+    evidence: Music is one strand of a broad performance calendar rather than a dedicated
+      recurring improv series.
+    sources:
+    - https://thecherry.org/
+  artist_roster:
+    value: 3
+    evidence: Presents formally innovative, locally and internationally sourced music and
+      performance.
+    sources:
+    - https://thecherry.org/about/
+  self_description:
+    value: 4
+    evidence: Describes itself as creating spaces for experimentation across artistic and
+      cultural boundaries.
+    sources:
+    - https://thecherry.org/about/
+  operating_model:
+    value: 5
+    evidence: Nonprofit, artist-founded multi-arts organization.
+    sources:
+    - https://thecherry.org/about/
+  community_reputation:
+    value: 3
+    evidence: Recognized adventurous performing-arts venue in Ithaca.
+    sources:
+    - https://www.visitithaca.com/listing/the-cherry-arts/3495/
+  listening_room:
+    value: 3
+    evidence: Intimate purpose-built performance space on the Cayuga Inlet.
+    sources:
+    - https://thecherry.org/about/
+score: 57
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://thecherry.org/about/
+  - https://www.downtownithaca.com/venue/the-cherry-arts/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: experimentation-focused multi-arts venue, but confirm how central free/improvised
+  music is versus theater/dance programming.'

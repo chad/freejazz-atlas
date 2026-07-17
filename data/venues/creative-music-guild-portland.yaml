@@ -1,0 +1,71 @@
+id: creative-music-guild-portland
+name: Creative Music Guild
+aliases:
+- CMG
+status: active
+location:
+  city: Portland
+  region: OR
+  country: US
+  lat: 45.5231
+  lon: -122.6765
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://creativemusicguild.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: All-volunteer nonprofit whose entire mission is promoting experimental and improvised
+      music; runs the Outset Series, Confluence visiting-artist series, the Extradition Series
+      and the annual Improvisation Summit of Portland.
+    sources:
+    - https://creativemusicguild.org/
+    - https://creativemusicguild.org/outset-series/
+  show_frequency:
+    value: 4
+    evidence: Outset Series runs roughly twice monthly, plus additional Confluence and Extradition
+      concerts and an annual summit.
+    sources:
+    - https://creativemusicguild.org/outset-series/
+  artist_roster:
+    value: 5
+    evidence: Presents local and touring improvisers and experimental composers.
+    sources:
+    - https://creativemusicguild.org/
+  self_description:
+    value: 5
+    evidence: States its mission is to promote experimental and improvised music.
+    sources:
+    - https://creativemusicguild.org/
+  operating_model:
+    value: 5
+    evidence: All-volunteer 501(c)(3) nonprofit; sliding-scale, non-commercial shows.
+    sources:
+    - https://creativemusicguild.org/
+  community_reputation:
+    value: 5
+    evidence: The central institution of Portland's improvised/experimental music scene, widely
+      covered by Oregon ArtsWatch and Vortex.
+    sources:
+    - https://www.vrtxmag.com/articles/creative-music-guild-expert-improvisation-on-display/
+  listening_room:
+    value: 4
+    evidence: Presents in attentive, non-commercial listening settings dedicated to the music.
+    sources:
+    - https://creativemusicguild.org/outset-series/
+score: 95
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://creativemusicguild.org/
+  - https://creativemusicguild.org/outset-series/
+  - https://www.vrtxmag.com/articles/creative-music-guild-expert-improvisation-on-display/
+  needs_human_review: false
+notes: Portland's cornerstone experimental/improvised-music presenter (no single fixed room;
+  uses Turn! Turn! Turn!, Leaven and others). Coordinates are Portland city-center.

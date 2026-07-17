@@ -1,0 +1,70 @@
+id: real-art-tacoma
+name: Real Art Tacoma
+aliases: []
+status: active
+location:
+  address: 5412 S Tacoma Way
+  city: Tacoma
+  region: WA
+  country: US
+  lat: 47.2072
+  lon: -122.4665
+type: diy_space
+operating_model: nonprofit
+capacity: null
+website: https://www.realarttacoma.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: All-ages, all-inclusive DIY nonprofit space that programs punk, hardcore and
+      experimental bills, including experimental-jazz and improvised acts.
+    sources:
+    - https://www.realarttacoma.com/
+    - https://www.realarttacoma.com/calendar/111822
+  show_frequency:
+    value: 3
+    evidence: Frequent all-ages shows; experimental/improvised acts appear regularly within
+      a mostly punk/underground calendar.
+    sources:
+    - https://www.realarttacoma.com/
+  artist_roster:
+    value: 3
+    evidence: Hosts experimental and improvised acts (e.g. Rat Utopia Experiment, Jazz Scat
+      Impression) alongside punk and underground bands.
+    sources:
+    - https://www.realarttacoma.com/calendar/111822
+  self_description:
+    value: 3
+    evidence: Describes itself as an all-ages, all-inclusive creative space.
+    sources:
+    - https://www.realarttacoma.com/
+  operating_model:
+    value: 5
+    evidence: Licensed 501(c)(3) nonprofit, volunteer/DIY-run.
+    sources:
+    - https://www.realarttacoma.com/
+  community_reputation:
+    value: 3
+    evidence: A well-known anchor of Tacoma's all-ages DIY/underground scene.
+    sources:
+    - https://www.yelp.com/biz/real-art-tacoma-tacoma
+  listening_room:
+    value: 2
+    evidence: All-ages DIY show room rather than a seated listening room.
+    sources:
+    - https://www.realarttacoma.com/
+score: 58
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.realarttacoma.com/
+  - https://www.realarttacoma.com/calendar/111822
+  - https://www.yelp.com/biz/real-art-tacoma-tacoma
+  needs_human_review: false
+notes: Tacoma all-ages nonprofit DIY space; hosts experimental-jazz and improvised acts within
+  a mostly punk/underground calendar.

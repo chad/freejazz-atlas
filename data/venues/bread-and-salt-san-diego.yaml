@@ -1,0 +1,78 @@
+id: bread-and-salt-san-diego
+name: Bread & Salt
+aliases:
+- Fresh Sound
+- Salty Series
+status: active
+location:
+  address: "1955 Julian Ave"
+  city: San Diego
+  region: CA
+  country: US
+  neighborhood: Logan Heights
+  lat: 32.7009
+  lon: -117.1490
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.breadandsaltsandiego.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Experimental arts center that houses the Fresh Sound new-music series (avant-garde
+      jazz, contemporary classical, experimental) and Project [BLANK]'s monthly Salty
+      Series of improvisation, sound art and electroacoustic music.
+    sources:
+    - https://www.breadandsaltsandiego.com/concerts
+    - https://www.projectblanksd.org/salty-series-2026
+  show_frequency:
+    value: 3
+    evidence: Multiple monthly series (Fresh Sound plus third-Friday Salty Series) alongside
+      other concerts.
+    sources:
+    - https://www.projectblanksd.org/salty-series-2026
+  artist_roster:
+    value: 4
+    evidence: Innovative performers of experimental new music, contemporary classical
+      and avant-garde jazz; Salty Series curated by rotating local improvisers.
+    sources:
+    - https://sdnews.com/bread-and-salt/
+    - https://www.projectblanksd.org/salty-series-2026
+  self_description:
+    value: 5
+    evidence: Describes itself as an experimental center for the arts with strong community
+      ties.
+    sources:
+    - https://www.breadandsaltsandiego.com/
+  operating_model:
+    value: 5
+    evidence: Nonprofit experimental arts center; Fresh Sound and Project [BLANK] are
+      nonprofit new-music presenters.
+    sources:
+    - https://sdnews.com/bread-and-salt/
+  community_reputation:
+    value: 3
+    evidence: San Diego's principal home for experimental/new music; Fresh Sound's Bonnie
+      Wright has produced 180+ new-music concerts since 1997.
+    sources:
+    - https://sdnews.com/bread-and-salt/
+  listening_room:
+    value: 3
+    evidence: Large converted bakery/warehouse arts space used for seated concerts.
+    sources:
+    - https://wheninsandiego.com/bread-and-salt/
+score: 78
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.breadandsaltsandiego.com/concerts
+  - https://www.projectblanksd.org/salty-series-2026
+  - https://sdnews.com/bread-and-salt/
+  needs_human_review: false
+notes: San Diego's core experimental-music venue, hosting the Fresh Sound new-music series
+  and Project [BLANK]'s monthly Salty Series of improvisation and sound art.

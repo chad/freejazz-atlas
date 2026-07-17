@@ -1,0 +1,69 @@
+id: catalytic-sound-festival-asheville
+name: Catalytic Sound Festival (Asheville)
+aliases: []
+status: active
+location:
+  address: "various Asheville venues (Black Mountain College Museum + Arts Center, etc.)"
+  city: Asheville
+  region: NC
+  country: US
+  neighborhood: Downtown
+  lat: 35.5954
+  lon: -82.551
+type: festival
+operating_model: artist_run
+capacity: null
+website: https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Asheville edition of the Catalytic Sound Festival, a festival of experimental and
+      improvised music curated by guitarist Tashi Dorji.
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  show_frequency:
+    value: 1
+    evidence: Festival format (multi-day, annual at most); Asheville edition documented for 2022.
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  artist_roster:
+    value: 5
+    evidence: "Draws on the Catalytic Sound co-operative's pool of experimental/improvising\
+      \ musicians plus touring artists, with a focus on BIPOC artists."
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  self_description:
+    value: 5
+    evidence: "Explicitly a showcase for experimental and improvised music \"disrupting the old\
+      \ with new.\""
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  operating_model:
+    value: 5
+    evidence: Catalytic Sound is a musician-owned co-operative formed in 2015; festival supported
+      by local partners (Black Mountain College Museum, Static Age Records, Harvest Records).
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  community_reputation:
+    value: 3
+    evidence: Part of the internationally networked Catalytic Sound co-operative.
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  listening_room:
+    value: 3
+    evidence: Presented across galleries/venues rather than a single listening room.
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+score: 79
+tier: committed
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  needs_human_review: true
+notes: 'Asheville edition of the Catalytic Sound Festival (curated by Tashi Dorji). Only the 2022
+  edition is confirmed via web search; recurrence and current-year status need human review.'

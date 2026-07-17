@@ -1,0 +1,72 @@
+id: snug-harbor-nola
+name: Snug Harbor Jazz Bistro
+aliases:
+- Snug Harbor
+status: active
+location:
+  address: 626 Frenchmen St
+  city: New Orleans
+  region: LA
+  country: US
+  neighborhood: Faubourg Marigny
+  lat: 29.9637
+  lon: -90.0575
+type: bar_club
+operating_model: commercial
+capacity: 86
+website: https://snugjazz.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: New Orleans' premier modern-jazz club and an incubator for the city's forward-leaning
+      players, but not specifically a free/avant series.
+    sources:
+    - https://snugjazz.com/about/
+  show_frequency:
+    value: 2
+    evidence: Live jazz seven nights a week; genuinely adventurous/improv-forward sets are
+      a portion of a mostly modern-jazz calendar.
+    sources:
+    - https://snugjazz.com/
+  artist_roster:
+    value: 3
+    evidence: Books modern-jazz artists (Marsalis family, Charmaine Neville and others) whose
+      sets feature complex improvisation.
+    sources:
+    - https://snugjazz.com/
+  self_description:
+    value: 2
+    evidence: Describes itself as a modern jazz, blues and R&B listening bistro.
+    sources:
+    - https://snugjazz.com/about/
+  operating_model:
+    value: 2
+    evidence: Commercial jazz club and restaurant.
+    sources:
+    - https://snugjazz.com/
+  community_reputation:
+    value: 3
+    evidence: Widely regarded as the city's serious modern-jazz room, positioned against tourist-oriented
+      venues.
+    sources:
+    - https://grokipedia.com/page/snug_harbor_jazz_club
+  listening_room:
+    value: 5
+    evidence: A strict listening room - no photography, filming or loud talking during sets,
+      dedicated music room.
+    sources:
+    - https://www.tripadvisor.com/Attraction_Review-g60864-d107257-Reviews-Snug_Harbor_Jazz_Bistro-New_Orleans_Louisiana.html
+score: 49
+tier: supportive
+confidence: 0.62
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://snugjazz.com/
+  - https://snugjazz.com/about/
+  needs_human_review: false
+notes: Frenchmen St modern-jazz listening room; committed to serious improvised jazz but predominantly
+  straight-modern rather than free/avant, so supportive.

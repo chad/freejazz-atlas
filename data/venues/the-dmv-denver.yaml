@@ -1,0 +1,73 @@
+id: the-dmv-denver
+name: The Denver Music Venue
+aliases:
+- The DMV
+- Denver Music Venue
+status: active
+location:
+  city: Denver
+  region: CO
+  country: US
+  neighborhood: Elyria-Swansea
+  lat: 39.783
+  lon: -104.96
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://linktr.ee/denvermusicvenue
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Queer-run warehouse space opened in 2025 as a home for experimental music; relaunched
+      Denver Noise Fest in October 2025 with harsh noise, drone, sound collage and freak folk.
+    sources:
+    - https://denverite.com/2026/06/11/denvers-diy-scene-noise-music-the-dmv/
+    - https://denverite.com/2026/05/28/denver-diy-noise-fest-2026/
+  show_frequency:
+    value: 4
+    evidence: Regular DIY experimental/noise shows across the calendar since opening.
+    sources:
+    - https://denverite.com/2026/06/11/denvers-diy-scene-noise-music-the-dmv/
+  artist_roster:
+    value: 4
+    evidence: Local and out-of-state experimental/noise artists across many microgenres.
+    sources:
+    - https://denverite.com/2026/05/28/denver-diy-noise-fest-2026/
+  self_description:
+    value: 5
+    evidence: Explicitly a space for experimental music; described as the "spiritual successor"
+      of Rhinoceropolis.
+    sources:
+    - https://denverite.com/2026/06/11/denvers-diy-scene-noise-music-the-dmv/
+  operating_model:
+    value: 5
+    evidence: Queer-run, DIY warehouse (a former grow facility/rave space) run collectively.
+    sources:
+    - https://denverite.com/2026/06/11/denvers-diy-scene-noise-music-the-dmv/
+  community_reputation:
+    value: 3
+    evidence: Positioned in Denver press as the successor to Rhinoceropolis and a new hub
+      for the DIY/experimental scene.
+    sources:
+    - https://denverite.com/2026/05/28/denver-diy-noise-fest-2026/
+  listening_room:
+    value: 2
+    evidence: Warehouse show space rather than a seated listening room.
+    sources:
+    - https://denverite.com/2026/06/11/denvers-diy-scene-noise-music-the-dmv/
+score: 81
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://denverite.com/2026/06/11/denvers-diy-scene-noise-music-the-dmv/
+  - https://denverite.com/2026/05/28/denver-diy-noise-fest-2026/
+  - https://linktr.ee/denvermusicvenue
+  needs_human_review: true
+notes: New (2025) queer-run DIY warehouse for experimental/noise music in Elyria-Swansea;
+  host of the revived Denver Noise Fest. Exact street address not published, so coordinates
+  are neighborhood-level.

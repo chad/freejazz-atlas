@@ -1,0 +1,69 @@
+id: space-gallery-portland
+name: SPACE
+aliases:
+- SPACE Gallery
+- SPACE538
+status: active
+location:
+  address: 538 Congress St
+  city: Portland
+  region: ME
+  country: US
+  lat: 43.6568
+  lon: -70.2634
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://space538.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit contemporary-arts venue with an adventurous program of experimental
+      sound, film and performance among a broad calendar.
+    sources:
+    - https://space538.org/
+    - https://warholfoundation.org/grants/archive/space-gallery/
+  show_frequency:
+    value: 4
+    evidence: Hosts roughly 175 public programs a year including experimental music and sound.
+    sources:
+    - https://space538.org/
+  artist_roster:
+    value: 3
+    evidence: Books boundary-pushing and experimental artists alongside indie and other programming.
+    sources:
+    - https://space538.org/category/event/music-event/
+  self_description:
+    value: 4
+    evidence: Describes an adventurous program of experimental sound, film and performance.
+    sources:
+    - https://space538.org/
+  operating_model:
+    value: 5
+    evidence: Nonprofit contemporary-arts organization with studios and residencies.
+    sources:
+    - https://www.guidestar.org/profile/51-0432635
+  community_reputation:
+    value: 4
+    evidence: Leading contemporary-arts venue in New England / Portland.
+    sources:
+    - https://warholfoundation.org/grants/archive/space-gallery/
+  listening_room:
+    value: 3
+    evidence: Intimate gallery-scale setting for concerts and performance.
+    sources:
+    - https://space538.org/
+score: 72
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://space538.org/
+  - https://warholfoundation.org/grants/archive/space-gallery/
+  needs_human_review: false
+notes: Portland ME nonprofit arts center; experimental sound is one part of a wide adventurous
+  program.

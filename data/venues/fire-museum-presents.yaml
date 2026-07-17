@@ -1,0 +1,76 @@
+id: fire-museum-presents
+name: Fire Museum Presents
+aliases:
+- Fire Museum
+status: active
+location:
+  address: "4014 Walnut St (The Rotunda, frequent host site)"
+  city: Philadelphia
+  region: PA
+  country: US
+  neighborhood: University City
+  lat: 39.9541
+  lon: -75.204
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.instagram.com/fire_museum_presents/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Presenting experimental, improvised, and international traditional music since
+      2001; the organization exists to present adventurous underground music.
+    sources:
+    - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+    - https://www.phillyjazzscene.com/philly-jazz-venues-fire-museum-presents
+  show_frequency:
+    value: 3
+    evidence: Curates concerts regularly across Philadelphia in churches, galleries, storefronts,
+      community centers, and the Rotunda.
+    sources:
+    - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+  artist_roster:
+    value: 4
+    evidence: Books innovative underground artists and improvisers alongside world-folk traditions
+      (e.g. ThingNY, Ominous Cloud Ensemble, Bobby Zankel's Wonderful Sound).
+    sources:
+    - https://www.broadstreetreview.com/articles/fire-museum-presents-hosts-thingny-and-ominous-cloud-ensemble
+    - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+  self_description:
+    value: 4
+    evidence: Describes mission as "all music for everybody" spanning experimental and improvised
+      music; a vital part of Philadelphia's DIY music community.
+    sources:
+    - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+  operating_model:
+    value: 5
+    evidence: Became a nonprofit organization in 2023; DIY, founder/director-run (Steven Tobin).
+    sources:
+    - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+    - https://www.causeiq.com/organizations/fire-museum-presents,923525897/
+  community_reputation:
+    value: 4
+    evidence: Longstanding cornerstone of Philadelphia's DIY and experimental scene (25+ years).
+    sources:
+    - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+  listening_room:
+    value: 3
+    evidence: Presents in varied non-traditional listening spaces rather than a single dedicated room.
+    sources:
+    - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+score: 82
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
+  - https://www.phillyjazzscene.com/philly-jazz-venues-fire-museum-presents
+  - https://www.causeiq.com/organizations/fire-museum-presents,923525897/
+  needs_human_review: false
+notes: 'Nomadic Philadelphia presenter of experimental/improvised/international music since 2001;
+  most often hosts at the Rotunda on Penn''s campus and other non-traditional spaces. Coordinates
+  point to the Rotunda, its most frequent host site.'

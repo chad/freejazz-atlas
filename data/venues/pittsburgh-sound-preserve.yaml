@@ -1,0 +1,73 @@
+id: pittsburgh-sound-preserve
+name: Pittsburgh Sound Preserve
+aliases: []
+status: active
+location:
+  address: "5002 Penn Ave (Bantha Tea Bar, frequent host)"
+  city: Pittsburgh
+  region: PA
+  country: US
+  neighborhood: Garfield / Bloomfield
+  lat: 40.4652
+  lon: -79.9476
+type: presenter
+operating_model: diy_collective
+capacity: null
+website: https://www.pghsoundpreserve.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Runs the Foundation improvised-music series and the biweekly Open Improvisation
+      Lab; exists to find, promote, and celebrate creative music in Pittsburgh.
+    sources:
+    - https://www.pghsoundpreserve.org/about-us
+    - https://www.pghsoundpreserve.org/tough-pill-1
+  show_frequency:
+    value: 3
+    evidence: Open Improvisation Lab runs every other Monday at Bantha Tea Bar, plus the recurring
+      Foundation series and other presented shows.
+    sources:
+    - https://www.pghsoundpreserve.org/oil
+    - https://www.pghsoundpreserve.org/calendar
+  artist_roster:
+    value: 4
+    evidence: Foundation features ad hoc groupings of local improvisers; presents touring free-jazz
+      acts (e.g. Bark Culture from Philadelphia).
+    sources:
+    - https://www.pghsoundpreserve.org/calendar/tcrps-prsnts-an-evening-of-experimental-improvised-music-and-sounds-feat-bark-culture-philly-elsinore-and-boydozer
+  self_description:
+    value: 5
+    evidence: "Self-describes as a community music organization dedicated to creative music and\
+      \ freely improvised sound-making."
+    sources:
+    - https://www.pghsoundpreserve.org/about-us
+  operating_model:
+    value: 5
+    evidence: Volunteer-driven, soon-to-be nonprofit community organization.
+    sources:
+    - https://www.pghsoundpreserve.org/about-us
+  community_reputation:
+    value: 3
+    evidence: Maintains Pittsburgh's improvised-music calendar and zine; a growing hub for the scene.
+    sources:
+    - https://www.pghsoundpreserve.org/calendar
+  listening_room:
+    value: 3
+    evidence: Presents in tea bars, garages, and small spaces rather than a dedicated hall.
+    sources:
+    - https://www.pghsoundpreserve.org/oil
+score: 83
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.pghsoundpreserve.org/about-us
+  - https://www.pghsoundpreserve.org/tough-pill-1
+  - https://www.pghsoundpreserve.org/calendar
+  needs_human_review: false
+notes: 'Nomadic Pittsburgh improvised-music organization; Open Improvisation Lab regularly at
+  Bantha Tea Bar (coordinates), with the Foundation series and touring bookings across the city.'

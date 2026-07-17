@@ -1,0 +1,74 @@
+id: the-old-church-portland
+name: The Old Church Concert Hall
+aliases:
+- TOC
+status: active
+location:
+  address: 1422 SW 11th Ave
+  city: Portland
+  region: OR
+  country: US
+  neighborhood: West End
+  lat: 45.5155
+  lon: -122.6869
+type: arts_center
+operating_model: nonprofit
+capacity: 300
+website: https://www.tocportland.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: A 300-seat nonprofit concert hall presenting alternative, world, indie, classical
+      and jazz; hosts adventurous/new-music programming (including Creative Music Guild and
+      Extradition events) as part of a wide slate.
+    sources:
+    - https://www.tocportland.org/about
+  show_frequency:
+    value: 2
+    evidence: Busy year-round calendar, but experimental/improvised music is an occasional
+      subset.
+    sources:
+    - https://www.tocportland.org/
+  artist_roster:
+    value: 2
+    evidence: Mostly chamber, classical, indie and singer-songwriter; some adventurous and
+      jazz bookings.
+    sources:
+    - https://www.tocportland.org/about
+  self_description:
+    value: 2
+    evidence: Bills itself as "Portland's Sanctuary of Sound," a cornerstone of the city's
+      creative and cultural district.
+    sources:
+    - https://www.tocportland.org/
+  operating_model:
+    value: 5
+    evidence: Nonprofit historic-landmark concert hall (built 1882).
+    sources:
+    - https://www.travelportland.com/meetings/hotel-venue-finder/the-old-church-concert-hall/
+  community_reputation:
+    value: 3
+    evidence: Long-established, acoustically prized listening room central to Portland's arts
+      scene.
+    sources:
+    - https://cmnw.org/venues/the-old-church-concert-hall
+  listening_room:
+    value: 5
+    evidence: Intimate 300-seat seated hall renowned for its acoustics.
+    sources:
+    - https://www.travelportland.com/meetings/hotel-venue-finder/the-old-church-concert-hall/
+score: 51
+tier: supportive
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.tocportland.org/
+  - https://www.tocportland.org/about
+  - https://www.travelportland.com/meetings/hotel-venue-finder/the-old-church-concert-hall/
+  needs_human_review: false
+notes: Historic 1882 nonprofit concert hall; a strong listening room that programs adventurous/new
+  music occasionally within a broad calendar.

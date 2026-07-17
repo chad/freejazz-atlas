@@ -1,0 +1,63 @@
+id: contemporary-arts-center-cincinnati
+name: Contemporary Arts Center
+aliases:
+- CAC Cincinnati
+status: active
+location:
+  address: "44 E 6th St"
+  city: Cincinnati
+  region: OH
+  country: US
+  neighborhood: Downtown
+  lat: 39.1010
+  lon: -84.5115
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.contemporaryartscenter.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 1
+    evidence: "Non-collecting contemporary art museum focused on painting, sculpture, photography, performance and new media; presents performance and occasional experimental music/sound events but has no standing improv series."
+    sources:
+    - https://www.contemporaryartscenter.org/
+    - https://www.e-flux.com/directory/1485/contemporary-arts-center
+  show_frequency:
+    value: 1
+    sources:
+    - https://www.contemporaryartscenter.org/
+  artist_roster:
+    value: 2
+    sources:
+    - https://www.contemporaryartscenter.org/
+  self_description:
+    value: 3
+    evidence: "Describes itself as a contemporary arts center including performance and new media."
+    sources:
+    - https://www.visitcincy.com/things-to-do/arts-culture/museums/contemporary-arts-center/
+  operating_model:
+    value: 4
+    evidence: "Nonprofit non-collecting contemporary arts institution."
+    sources:
+    - https://www.contemporaryartscenter.org/
+  community_reputation:
+    value: 2
+    sources:
+    - https://www.e-flux.com/directory/1485/contemporary-arts-center
+  listening_room:
+    value: 2
+    sources:
+    - https://www.contemporaryartscenter.org/
+score: 37
+tier: occasional
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.contemporaryartscenter.org/
+  - https://www.e-flux.com/directory/1485/contemporary-arts-center
+  needs_human_review: true
+notes: "NEEDS REVIEW: Cincinnati's flagship contemporary art museum presents performance/new media and occasional experimental sound, but improvised music is incidental. Cincinnati's stronger experimental thread runs through the pop-up Talk Low festival (Whited Sepulchre Records) rather than a fixed venue."

@@ -1,0 +1,73 @@
+id: human-resources-la
+name: Human Resources Los Angeles
+aliases:
+- HRLA
+status: active
+location:
+  address: "410 Cottage Home St"
+  city: Los Angeles
+  region: CA
+  country: US
+  neighborhood: Chinatown
+  lat: 34.0664
+  lon: -118.2360
+type: gallery
+operating_model: nonprofit
+capacity: null
+website: https://www.h-r.la/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit exhibition/performance space supporting interdisciplinary, performative
+      and experimental practice; experimental music is a strong, recurring strand of a
+      broader performance-art program.
+    sources:
+    - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
+    - https://www.h-r.la/events/
+  show_frequency:
+    value: 3
+    evidence: Regular events, exhibitions and performances, including experimental-music
+      nights.
+    sources:
+    - https://www.h-r.la/events/
+  artist_roster:
+    value: 3
+    evidence: Experimental musicians alongside performance artists, local and international.
+    sources:
+    - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
+  self_description:
+    value: 5
+    evidence: Dedicated to supporting interdisciplinary, performative and experimental
+      art practices.
+    sources:
+    - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
+  operating_model:
+    value: 5
+    evidence: Nonprofit run by a content-programming committee rather than a single curator;
+      "a resource for artists rather than an institution."
+    sources:
+    - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
+  community_reputation:
+    value: 4
+    evidence: Described by Frieze as a "hot house for music and performance."
+    sources:
+    - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
+  listening_room:
+    value: 3
+    evidence: 4,000-square-foot flexible performance/exhibition space.
+    sources:
+    - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
+score: 70
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
+  - https://www.h-r.la/events/
+  needs_human_review: false
+notes: Chinatown nonprofit for experimental/interdisciplinary art; experimental music and
+  performance are a strong recurring part of the program.

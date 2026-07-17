@@ -1,0 +1,76 @@
+id: center-for-new-music-sf
+name: Center for New Music
+aliases:
+- C4NM
+status: active
+location:
+  address: "55 Taylor St"
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: Tenderloin
+  lat: 37.7827
+  lon: -122.4108
+type: dedicated_space
+operating_model: nonprofit
+capacity: 90
+website: https://centerfornewmusic.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Community center founded to nurture experimental and pioneering music; hosts
+      a wide range of experimental, improvised, electronic and contemporary programming
+      plus multiple curated series.
+    sources:
+    - https://centerfornewmusic.com/
+    - https://www.bayimproviser.com/venue/139/center-for-new-music
+  show_frequency:
+    value: 5
+    evidence: Presents multiple concerts most weeks of the year in its dedicated performance
+      space.
+    sources:
+    - https://centerfornewmusic.com/event/?option=past
+  artist_roster:
+    value: 4
+    evidence: Serves practitioners of creative, non-commercial music; free improvisation,
+      electronic and experimental performers alongside contemporary classical.
+    sources:
+    - https://centerfornewmusic.com/
+  self_description:
+    value: 5
+    evidence: Founded on the principle of nurturing experimental and pioneering music
+      that pushes the boundaries of sonic art.
+    sources:
+    - https://centerfornewmusic.com/
+  operating_model:
+    value: 5
+    evidence: 501(c)(3) nonprofit community center for new-music makers and listeners.
+    sources:
+    - https://centerfornewmusic.com/
+  community_reputation:
+    value: 4
+    evidence: Recognized SF new-music hub covered by SF Classical Voice and listed on Bay
+      Improviser.
+    sources:
+    - https://www.sfcv.org/venues/center-new-music
+    - https://www.bayimproviser.com/venue/139/center-for-new-music
+  listening_room:
+    value: 4
+    evidence: Seated attentive listening space; no bar, donation/affordable events.
+    sources:
+    - https://centerfornewmusic.com/
+score: 88
+tier: cornerstone
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://centerfornewmusic.com/
+  - https://www.bayimproviser.com/venue/139/center-for-new-music
+  - https://www.sfcv.org/venues/center-new-music
+  needs_human_review: false
+notes: Downtown SF nonprofit new-music center; balances curated experimental/improv concerts
+  with rehearsal and community use.

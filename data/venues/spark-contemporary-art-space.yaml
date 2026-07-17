@@ -1,0 +1,69 @@
+id: spark-contemporary-art-space
+name: Spark Contemporary Art Space
+aliases:
+- Spark Art Space
+status: active
+location:
+  address: 1001 E Fayette St
+  city: Syracuse
+  region: NY
+  country: US
+  lat: 43.0489
+  lon: -76.1329
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://www.facebook.com/sparkartspace/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Longstanding Syracuse DIY, community-based art space used as a home base by
+      musicians and artists; hosts experimental and improvised music within a broad calendar.
+    sources:
+    - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
+    - https://www.songkick.com/venues/49377-spark-contemporary-art-space
+  show_frequency:
+    value: 2
+    evidence: Hosts concerts and art events; setlist/concert listings show ongoing music programming.
+    sources:
+    - https://www.setlist.fm/venue/spark-art-space-syracuse-ny-usa-6bd7468a.html
+  artist_roster:
+    value: 3
+    evidence: Home base for a wide range of Syracuse-area musicians including experimental
+      acts.
+    sources:
+    - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
+  self_description:
+    value: 3
+    evidence: Framed as a grassroots DIY contemporary-art space serving artists of all mediums.
+    sources:
+    - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
+  operating_model:
+    value: 5
+    evidence: Grassroots, DIY, artist-run space.
+    sources:
+    - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
+  community_reputation:
+    value: 3
+    evidence: One of Syracuse's longest-standing community art centers (20+ years).
+    sources:
+    - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
+  listening_room:
+    value: 2
+    evidence: Multi-use art space rather than a dedicated listening room.
+    sources:
+    - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
+score: 54
+tier: supportive
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
+  - https://www.songkick.com/venues/49377-spark-contemporary-art-space
+  needs_human_review: true
+notes: 'NEEDS REVIEW: reporting has mentioned possible relocation; confirm current address,
+  activity and share of experimental/improv programming.'

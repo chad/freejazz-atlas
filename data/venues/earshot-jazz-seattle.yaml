@@ -1,0 +1,76 @@
+id: earshot-jazz-seattle
+name: Earshot Jazz
+aliases:
+- Earshot Jazz Society of Seattle
+- Earshot Jazz Festival
+status: active
+location:
+  city: Seattle
+  region: WA
+  country: US
+  neighborhood: Fremont
+  lat: 47.651
+  lon: -122.3501
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.earshot.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Produces the annual Earshot Jazz Festival and co-presents the Seattle Improvised
+      Music Festival, the region's flagship free-improvisation event since 1986.
+    sources:
+    - https://www.earshot.org/
+    - https://www.earshot.org/03-20-the-35th-annual-seattle-improvised-music-festival/
+  show_frequency:
+    value: 3
+    evidence: Presents concerts year-round across Seattle venues plus a multi-week fall festival;
+      improvised/adventurous programming recurs monthly or more.
+    sources:
+    - https://www.earshot.org/
+  artist_roster:
+    value: 3
+    evidence: Broad jazz presenter that regularly books recognized improvisers alongside straight-ahead
+      artists.
+    sources:
+    - https://www.earshot.org/
+  self_description:
+    value: 3
+    evidence: Nonprofit honoring jazz as a living, evolving art form; foregrounds creative
+      and adventurous music but not exclusively free/avant.
+    sources:
+    - https://en.wikipedia.org/wiki/Earshot_Jazz
+  operating_model:
+    value: 5
+    evidence: 501(c)(3) nonprofit founded 1984; presents, publishes a magazine, and runs education
+      programs.
+    sources:
+    - https://en.wikipedia.org/wiki/Earshot_Jazz
+    - https://www.guidestar.org/profile/94-3051610
+  community_reputation:
+    value: 5
+    evidence: Long-standing cornerstone of the Seattle jazz and creative-music community.
+    sources:
+    - https://en.wikipedia.org/wiki/Earshot_Jazz
+  listening_room:
+    value: 3
+    evidence: Presents in concert/theater settings rather than a fixed listening room of its
+      own.
+    sources:
+    - https://www.earshot.org/
+score: 72
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.earshot.org/
+  - https://en.wikipedia.org/wiki/Earshot_Jazz
+  - https://www.earshot.org/03-20-the-35th-annual-seattle-improvised-music-festival/
+  needs_human_review: false
+notes: Presenter (no single fixed room). Coordinates approximate to the Fremont office/neighborhood.
+  Produces the Earshot Jazz Festival and co-presents the Seattle Improvised Music Festival.

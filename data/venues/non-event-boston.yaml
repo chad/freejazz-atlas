@@ -1,0 +1,70 @@
+id: non-event-boston
+name: Non-Event
+aliases:
+- Non-Event Series
+status: active
+location:
+  city: Boston
+  region: MA
+  country: US
+  lat: 42.3601
+  lon: -71.0589
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.nonevent.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Boston concert series devoted to presenting the finest in experimental, abstract,
+      improvised and new music from New England and around the world; founded 2001.
+    sources:
+    - https://www.nonevent.org/about
+    - https://www.wbur.org/news/2026/04/20/non-event-25-years-experimental-music-boston
+  show_frequency:
+    value: 4
+    evidence: Presents a regular season of concerts plus a monthly experimental coffee-house
+      series at Cafe Fixe and the Waterworks series; has staged 100+ concerts.
+    sources:
+    - https://www.nonevent.org/about
+    - https://www.nonevent.org/concerts
+  artist_roster:
+    value: 5
+    evidence: Books innovative experimental and improvising artists from Boston and internationally.
+    sources:
+    - https://www.nonevent.org/about
+  self_description:
+    value: 5
+    evidence: Self-described as devoted to experimental, abstract, improvised and new music
+      that is inherently non-commercial.
+    sources:
+    - https://www.nonevent.org/about
+  operating_model:
+    value: 4
+    evidence: Nonprofit, volunteer-driven presenter without a permanent venue; partners with
+      MIT, MassArt, New England Conservatory, Boston City Hall and others.
+    sources:
+    - https://www.nonevent.org/about
+  community_reputation:
+    value: 5
+    evidence: Marked 25 years of bringing experimental music to Boston, profiled by WBUR.
+    sources:
+    - https://www.wbur.org/news/2026/04/20/non-event-25-years-experimental-music-boston
+  listening_room:
+    value: 4
+    evidence: Presents attentive concert-format listening events (varies by partner venue).
+    sources:
+    - https://www.nonevent.org/concerts
+score: 93
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.nonevent.org/about
+  - https://www.wbur.org/news/2026/04/20/non-event-25-years-experimental-music-boston
+  needs_human_review: false
+notes: Itinerant nonprofit presenter (no fixed venue); coordinates set to Boston city center.

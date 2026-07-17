@@ -1,0 +1,69 @@
+id: ayurprana-listening-room
+name: AyurPrana Listening Room
+aliases: []
+status: active
+location:
+  address: "312 Haywood Rd"
+  city: Asheville
+  region: NC
+  country: US
+  neighborhood: West Asheville
+  lat: 35.5828
+  lon: -82.5776
+type: dedicated_space
+operating_model: commercial
+capacity: null
+website: https://ayurpranalisteningroom.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Dedicated listening room that programs experimental and improvised artists among
+      a broader adventurous-music calendar; has hosted Catalytic Sound Festival Asheville events.
+    sources:
+    - https://ayurpranalisteningroom.com/
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  show_frequency:
+    value: 3
+    evidence: Regular schedule of listening-room concerts.
+    sources:
+    - https://ayurpranalisteningroom.com/
+  artist_roster:
+    value: 3
+    evidence: Books experimental musicians (associated with local improviser Tashi Dorji's
+      curation) alongside singer-songwriter and world music.
+    sources:
+    - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  self_description:
+    value: 3
+    evidence: Presents itself as a dedicated listening room for immersive, attentive music.
+    sources:
+    - https://ayurpranalisteningroom.com/
+  operating_model:
+    value: 3
+    evidence: Independently operated listening room (attached to a wellness/yoga space).
+    sources:
+    - https://ayurpranalisteningroom.com/
+  community_reputation:
+    value: 3
+    evidence: Cited among Asheville's key spaces for experimental and improvised music.
+    sources:
+    - https://www.afar.com/magazine/where-to-see-music-performing-arts-in-asheville-nc
+  listening_room:
+    value: 5
+    evidence: A purpose-built listening room prioritizing attentive, seated listening.
+    sources:
+    - https://ayurpranalisteningroom.com/
+score: 62
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://ayurpranalisteningroom.com/
+  - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
+  needs_human_review: true
+notes: 'West Asheville listening room that hosts experimental/improvised shows (including Catalytic
+  Sound events). Share of improv within its overall calendar not fully verified; needs human review.'

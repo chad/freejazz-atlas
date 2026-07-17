@@ -1,0 +1,70 @@
+id: albany-sonic-arts-collective
+name: Albany Sonic Arts Collective
+aliases:
+- ASAC
+status: active
+location:
+  city: Albany
+  region: NY
+  country: US
+  lat: 42.6612
+  lon: -73.7676
+type: presenter
+operating_model: diy_collective
+capacity: null
+website: https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Grassroots collective dedicated to music that stresses freedom and exploration
+      of new ideas; presents improvised and experimental performances (has hosted events at
+      the Upstate Artists Guild and with the soundBarn).
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+  show_frequency:
+    value: 2
+    evidence: Presents periodic experimental/improvised events around the Albany area.
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+  artist_roster:
+    value: 4
+    evidence: Members and guests include improvisers and experimental artists such as Holland
+      Hopson and Eric Hardiman (Rambutan / Tape Drift Records).
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/eric-hardiman/
+  self_description:
+    value: 5
+    evidence: Self-described as dedicated to music outside traditional boundaries that stresses
+      freedom and exploration.
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+  operating_model:
+    value: 5
+    evidence: Grassroots, artist-run DIY collective.
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+  community_reputation:
+    value: 3
+    evidence: Long-standing anchor of the Capital Region experimental/improv scene.
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+  listening_room:
+    value: 3
+    evidence: Presents attentive experimental performances at host spaces.
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+score: 74
+tier: committed
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+  - https://fieldguide.hollandhopson.com/tag/eric-hardiman/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: mission and roster clearly free-improv, but much online documentation
+  is older (blog archives); confirm current activity level and a working primary URL. Coordinates
+  set to Albany center.'

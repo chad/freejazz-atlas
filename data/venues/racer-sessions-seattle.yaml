@@ -1,0 +1,71 @@
+id: racer-sessions-seattle
+name: Racer Sessions
+aliases:
+- Table & Chairs
+status: active
+location:
+  city: Seattle
+  region: WA
+  country: US
+  lat: 47.6062
+  lon: -122.3321
+type: presenter
+operating_model: artist_run
+capacity: null
+website: http://www.racersessions.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: A recurring (biweekly, 1st and 3rd Sunday) composition-and-improvisation series
+      where a featured artist presents original work followed by a collective free-improvisation
+      jam; founded 2010 at Cafe Racer.
+    sources:
+    - http://www.racersessions.com/
+    - https://www.facebook.com/racersessions/
+  show_frequency:
+    value: 3
+    evidence: Runs roughly twice a month on Sundays.
+    sources:
+    - http://www.racersessions.com/
+  artist_roster:
+    value: 5
+    evidence: Focused on free/collective improvisation; a hub for Seattle's younger improvisers
+      via the Table & Chairs music collective.
+    sources:
+    - https://www.livemusicproject.org/events/49085/racer-sessions-luke-woodle
+  self_description:
+    value: 5
+    evidence: Describes itself as dedicated to exploring composition and improvisation and
+      building a community home for the music.
+    sources:
+    - http://www.racersessions.com/
+  operating_model:
+    value: 5
+    evidence: Artist-run series organized by the Table & Chairs collective/label.
+    sources:
+    - http://www.racersessions.com/
+  community_reputation:
+    value: 4
+    evidence: Long-running incubator repeatedly cited in Seattle improvised-music coverage.
+    sources:
+    - https://www.earshot.org/dec2015-jazz-jams-and-hangs/
+  listening_room:
+    value: 3
+    evidence: Presented in a cafe/bar setting with an attentive-then-participatory format.
+    sources:
+    - http://www.racersessions.com/
+score: 88
+tier: cornerstone
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://www.racersessions.com/
+  - https://www.facebook.com/racersessions/
+  needs_human_review: true
+notes: Long-running artist-run improv series (Table & Chairs). Original home Cafe Racer closed
+  in 2020 and the series has moved between venues; current fixed location needs confirmation,
+  so coordinates are Seattle city-center.

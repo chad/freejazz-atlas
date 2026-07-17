@@ -1,0 +1,72 @@
+id: monty-hall-wfmu
+name: Monty Hall (WFMU)
+aliases:
+- WFMU's Monty Hall
+status: active
+location:
+  address: 43 Montgomery St
+  city: Jersey City
+  region: NJ
+  country: US
+  lat: 40.7178
+  lon: -74.0431
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://wfmu.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Performance space operated by freeform radio station WFMU (opened 2014) that
+      continues the station's freeform tradition, hosting experimental and improvised acts.
+    sources:
+    - https://www.brooklynvegan.com/wfmus-performan/
+    - https://brooklynrail.org/2015/12/music/the-ex-at-monty-hall/
+  show_frequency:
+    value: 3
+    evidence: Regular calendar of concerts ranging from indie to experimental and improvised
+      music.
+    sources:
+    - https://donyc.com/venues/monty-hall-wfmu
+  artist_roster:
+    value: 3
+    evidence: Has hosted experimental/improv artists such as The Ex (with Ken Vandermark),
+      Sir Richard Bishop and Tashi Dorji.
+    sources:
+    - https://brooklynrail.org/2015/12/music/the-ex-at-monty-hall/
+  self_description:
+    value: 3
+    evidence: Presented as continuing WFMU's longstanding freeform, non-commercial ethos.
+    sources:
+    - https://www.brooklynvegan.com/wfmus-performan/
+  operating_model:
+    value: 5
+    evidence: Run by listener-supported, non-commercial WFMU, the longest-running freeform
+      radio station in the US.
+    sources:
+    - https://wfmu.org/
+  community_reputation:
+    value: 3
+    evidence: Recognized Jersey City venue tied to WFMU's freeform reputation.
+    sources:
+    - https://www.timeout.com/newyork/music/wfmu-monty-hall
+  listening_room:
+    value: 3
+    evidence: Intimate seated performance space at the WFMU building.
+    sources:
+    - https://donyc.com/venues/monty-hall-wfmu
+score: 64
+tier: supportive
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.brooklynvegan.com/wfmus-performan/
+  - https://brooklynrail.org/2015/12/music/the-ex-at-monty-hall/
+  - https://wfmu.org/
+  needs_human_review: false
+notes: WFMU's Jersey City performance room; experimental/improv is a meaningful strand of
+  a broader freeform program.

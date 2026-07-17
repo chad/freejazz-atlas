@@ -1,0 +1,71 @@
+id: coaxial-arts-la
+name: Coaxial Arts Foundation
+aliases:
+- Coaxial
+status: active
+location:
+  address: "1815 S Main St"
+  city: Los Angeles
+  region: CA
+  country: US
+  neighborhood: Downtown
+  lat: 34.0316
+  lon: -118.2662
+type: diy_space
+operating_model: artist_run
+capacity: null
+website: https://coaxialarts.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Artist-run nonprofit space dedicated to experimental sound, video and performance
+      art, running live events and residencies since 2015.
+    sources:
+    - https://coaxialarts.org/
+    - https://coaxialarts.org/venue/coaxial-arts/
+  show_frequency:
+    value: 4
+    evidence: Regular live events showcasing underground and experimental artists.
+    sources:
+    - https://coaxialarts.org/
+  artist_roster:
+    value: 4
+    evidence: Underground/experimental sound and performance artists whose work is often
+      not shown in commercial galleries.
+    sources:
+    - https://coaxialarts.org/
+  self_description:
+    value: 5
+    evidence: Explicitly dedicated to experimental video, sound and performance art.
+    sources:
+    - https://coaxialarts.org/
+  operating_model:
+    value: 5
+    evidence: Artist-run nonprofit collective directed by co-founder Eva Aguila.
+    sources:
+    - https://evaaguila.com/Coaxial-Arts
+  community_reputation:
+    value: 3
+    evidence: Recognized DTLA experimental space; covered by Hyperallergic.
+    sources:
+    - https://hyperallergic.com/a-los-angeles-residency-envisions-a-radical-future-for-experimental-art/
+  listening_room:
+    value: 3
+    evidence: Flexible DIY event space for live sound/performance.
+    sources:
+    - https://coaxialarts.org/
+score: 82
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://coaxialarts.org/
+  - https://evaaguila.com/Coaxial-Arts
+  - https://hyperallergic.com/a-los-angeles-residency-envisions-a-radical-future-for-experimental-art/
+  needs_human_review: false
+notes: DTLA artist-run nonprofit dedicated to experimental sound/video/performance; a core
+  node of the LA underground.

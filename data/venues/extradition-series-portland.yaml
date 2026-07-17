@@ -1,0 +1,70 @@
+id: extradition-series-portland
+name: Extradition Series
+aliases: []
+status: active
+location:
+  city: Portland
+  region: OR
+  country: US
+  lat: 45.5231
+  lon: -122.6765
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.extradition-series.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: A curated concert series presenting 20th- and 21st-century experimental music
+      at the intersection of composition and improvisation - notated scores, graphic/text
+      works and structured improvisations.
+    sources:
+    - https://extradition-series.com/about.html
+    - https://creativemusicguild.org/events/extradition/
+  show_frequency:
+    value: 2
+    evidence: Tightly curated quarterly concerts plus occasional recital events.
+    sources:
+    - https://creativemusicguild.org/events/extradition/
+  artist_roster:
+    value: 5
+    evidence: Draws musicians from Oregon's classical, jazz, electronic and improvised communities
+      to realize experimental works.
+    sources:
+    - https://extradition-series.com/about.html
+  self_description:
+    value: 5
+    evidence: Name derives from "Ex[perimental]tradition"; explicitly explores the American
+      experimental tradition and structured improvisation.
+    sources:
+    - https://extradition-series.com/about.html
+  operating_model:
+    value: 5
+    evidence: Curated by Matt Hannafin and presented by the nonprofit Creative Music Guild.
+    sources:
+    - https://creativemusicguild.org/events/extradition/
+  community_reputation:
+    value: 4
+    evidence: Recognized in Oregon ArtsWatch as one of Portland's improvisation institutions.
+    sources:
+    - https://archive.orartswatch.org/outset-and-confluence-series-improvisation-institutions/
+  listening_room:
+    value: 5
+    evidence: Presented in attentive recital/concert settings (e.g. Leaven Community Center).
+    sources:
+    - https://everout.com/portland/events/extradition-series-2020-winter-concert/e98685/
+score: 86
+tier: cornerstone
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.extradition-series.com/
+  - https://extradition-series.com/about.html
+  - https://creativemusicguild.org/events/extradition/
+  needs_human_review: false
+notes: A Creative Music Guild program curated by Matt Hannafin. Quarterly experimental/structured-improvisation
+  concerts. Coordinates are Portland city-center (uses partner venues).

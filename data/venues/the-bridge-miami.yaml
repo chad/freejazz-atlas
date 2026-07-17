@@ -1,0 +1,76 @@
+id: the-bridge-miami
+name: The Bridge Miami
+aliases: []
+status: active
+location:
+  address: "4220 NW 7th Ave"
+  city: Miami
+  region: FL
+  country: US
+  neighborhood: Allapattah
+  lat: 25.8158
+  lon: -80.2115
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.thebridgemiaminpo.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit music/arts incubator and multipurpose venue that presents experimental
+      and avant-garde happenings (e.g. Remnant Miami avant-garde sets).
+    sources:
+    - https://www.thebridgemiaminpo.org/background
+    - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
+  show_frequency:
+    value: 2
+    evidence: Hosts periodic experimental performances and studio sessions rather than a
+      high-frequency series.
+    sources:
+    - https://www.thebridgemiaminpo.org/
+  artist_roster:
+    value: 3
+    evidence: Home to some of Miami's most experimental musicians; presents avant-garde performers
+      and spoken word.
+    sources:
+    - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
+  self_description:
+    value: 4
+    evidence: "Describes itself as a place where Miami's creative community presents experimental\
+      \ and avant-garde happenings."
+    sources:
+    - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
+    - https://www.thebridgemiaminpo.org/background
+  operating_model:
+    value: 5
+    evidence: Nonprofit incubator for music and the arts founded 2013 by Nicole Martinez;
+      affordable home for musicians with an indoor/outdoor venue and studio.
+    sources:
+    - https://www.thebridgemiaminpo.org/background
+    - https://ngobase.org/profile/91972
+  community_reputation:
+    value: 3
+    evidence: Recognized (Knight Arts grant) as a hub for Miami's experimental and avant-garde
+      creators.
+    sources:
+    - https://www.miaminewtimes.com/music/the-bridge-to-host-splashy-fundraiser-wet-to-celebrate-knight-arts-grant-10645679
+  listening_room:
+    value: 2
+    evidence: Multipurpose indoor/outdoor venue rather than a dedicated listening room.
+    sources:
+    - https://www.thebridgemiaminpo.org/
+score: 61
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.thebridgemiaminpo.org/background
+  - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
+  - https://www.miaminewtimes.com/music/the-bridge-to-host-splashy-fundraiser-wet-to-celebrate-knight-arts-grant-10645679
+  needs_human_review: true
+notes: 'Miami nonprofit arts incubator/venue that hosts experimental and avant-garde music
+  happenings. Frequency of dedicated improv programming not fully verified; needs human review.'

@@ -1,0 +1,73 @@
+id: the-bakery-atlanta
+name: The Bakery Atlanta
+aliases:
+- The Bakery
+status: active
+location:
+  address: "825 Warner St SW"
+  city: Atlanta
+  region: GA
+  country: US
+  neighborhood: Adair Park / West End
+  lat: 33.7343
+  lon: -84.4095
+type: diy_space
+operating_model: diy_collective
+capacity: 60
+website: https://thebakeryatlanta.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: DIY arts collective hosting experimental performance, a monthly open jam, and
+      genre-defying music in its Surplus and Seve's spaces.
+    sources:
+    - https://www.thebakeryatlanta.com/facilities-x-resources
+    - https://georgiastatesignal.com/bakery-arrives-keep-diy-music-scene-alive/
+  show_frequency:
+    value: 4
+    evidence: Frequent DIY music shows, experimental performance art, and community events.
+    sources:
+    - https://www.thebakeryatlanta.com/facilities-x-resources
+  artist_roster:
+    value: 3
+    evidence: Books local DIY, experimental, and touring artists across a wide range of forms.
+    sources:
+    - https://www.papermag.com/the-bakery-atlanta-diy
+  self_description:
+    value: 5
+    evidence: "Collective built on a DIY ethos of \"collaboration, experimentation, and play.\""
+    sources:
+    - https://thebakeryatlanta.com/
+    - https://www.atlantamagazine.com/news-culture-articles/the-bakery-an-inclusive-experimental-arts-center-is-but-a-moment-in-time-and-thats-okay/
+  operating_model:
+    value: 5
+    evidence: Artist collective / DIY arts center offering alternative models to local creatives.
+    sources:
+    - https://thebakeryatlanta.com/
+  community_reputation:
+    value: 4
+    evidence: Widely covered as a keeper of Atlanta's DIY culture; a supportive space for the
+      creative-music scene.
+    sources:
+    - https://www.papermag.com/the-bakery-atlanta-diy
+    - https://daily.bandcamp.com/features/atlanta-jazz-feature
+  listening_room:
+    value: 2
+    evidence: Multi-use DIY spaces rather than a dedicated listening room.
+    sources:
+    - https://www.thebakeryatlanta.com/facilities-x-resources
+score: 73
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://thebakeryatlanta.com/
+  - https://www.thebakeryatlanta.com/facilities-x-resources
+  - https://daily.bandcamp.com/features/atlanta-jazz-feature
+  needs_human_review: false
+notes: 'Atlanta DIY arts collective and venue supporting experimental and genre-defying music;
+  cited among the supportive spaces for the city''s creative-music scene.'

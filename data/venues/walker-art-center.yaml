@@ -1,0 +1,72 @@
+id: walker-art-center
+name: Walker Art Center
+aliases: []
+status: active
+location:
+  address: 725 Vineland Pl
+  city: Minneapolis
+  region: MN
+  country: US
+  neighborhood: Lowry Hill
+  lat: 44.9683
+  lon: -93.2887
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://walkerart.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: One of the most active contemporary performing-arts programs in the US; presents
+      new music and interdisciplinary work, plus the long-running experimental 'Out There'
+      series (since 1989).
+    sources:
+    - https://walkerart.org/about/performing-arts
+    - https://www.walkerart.org/press-releases/walker-art-center-announces-2025-26-performing-arts-season/
+  show_frequency:
+    value: 2
+    evidence: Adventurous music is presented within a broad seasonal program rather than a
+      frequent standalone improv series.
+    sources:
+    - https://walkerart.org/visit/stage
+  artist_roster:
+    value: 4
+    evidence: 2025-26 season featured Wadada Leo Smith, Amina Claudine Myers, Douglas R. Ewart
+      and a cross-generational quintet of AACM members.
+    sources:
+    - https://www.walkerart.org/press-releases/walker-art-center-announces-2025-26-performing-arts-season/
+  self_description:
+    value: 4
+    evidence: Performing-arts program presents experimental theater, new music and interdisciplinary
+      art 'that defy categorization.'
+    sources:
+    - https://walkerart.org/about/performing-arts
+  operating_model:
+    value: 4
+    evidence: Major nonprofit contemporary art museum.
+    sources:
+    - https://en.wikipedia.org/wiki/Walker_Art_Center
+  community_reputation:
+    value: 5
+    evidence: Nationally influential contemporary performing-arts presenter.
+    sources:
+    - https://walkerart.org/about/performing-arts
+  listening_room:
+    value: 4
+    evidence: Seated McGuire Theater and other performance spaces.
+    sources:
+    - https://walkerart.org/visit/stage
+score: 69
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://walkerart.org/about/performing-arts
+  - https://www.walkerart.org/press-releases/walker-art-center-announces-2025-26-performing-arts-season/
+  needs_human_review: false
+notes: Major nonprofit presenter; regularly programs AACM/creative-music artists within a
+  wider contemporary performing-arts season.

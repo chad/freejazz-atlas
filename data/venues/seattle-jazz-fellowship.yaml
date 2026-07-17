@@ -1,0 +1,74 @@
+id: seattle-jazz-fellowship
+name: Seattle Jazz Fellowship
+aliases:
+- Jazz Night in Pioneer Square
+status: active
+location:
+  address: 109 S Main St
+  city: Seattle
+  region: WA
+  country: US
+  neighborhood: Pioneer Square
+  lat: 47.6003
+  lon: -122.3336
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://seattlejazzfellowship.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Dedicated jazz room in the historic Globe Building; runs regular Jazz Night
+      programming plus a Monday jam that features free improvisation (e.g. the chord-less
+      quartet Free Fall).
+    sources:
+    - https://seattlejazzfellowship.org/jazz-night
+    - https://www.knkx.org/jazz/2024-01-26/seattle-jazz-fellowship-pioneer-square-pop-up-new-venue-globe-building
+  show_frequency:
+    value: 4
+    evidence: Multiple nights of jazz each week including a weekly Monday jam.
+    sources:
+    - https://seattlejazzfellowship.org/events
+  artist_roster:
+    value: 4
+    evidence: Local jazz talent with a mentorship mission; regular free-improvisation sets.
+    sources:
+    - https://seattlejazzfellowship.org/jazz-night
+  self_description:
+    value: 3
+    evidence: Nonprofit fostering frequent gatherings of local jazz talent and lowering barriers
+      for performers and listeners.
+    sources:
+    - https://seattlejazzfellowship.org/
+  operating_model:
+    value: 5
+    evidence: Nonprofit organization with a mentorship and fair-compensation mission.
+    sources:
+    - https://seattlejazzfellowship.org/
+  community_reputation:
+    value: 4
+    evidence: Widely covered as a significant new home for the Seattle jazz scene.
+    sources:
+    - https://www.knkx.org/jazz/2024-01-26/seattle-jazz-fellowship-pioneer-square-pop-up-new-venue-globe-building
+    - https://pioneersquare.org/businesses/seattle-jazz-fellowship/
+  listening_room:
+    value: 4
+    evidence: Dedicated seated jazz venue in the Globe Building (former Cafe Nordo dinner
+      theater).
+    sources:
+    - https://www.knkx.org/jazz/2024-01-26/seattle-jazz-fellowship-pioneer-square-pop-up-new-venue-globe-building
+score: 80
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://seattlejazzfellowship.org/
+  - https://seattlejazzfellowship.org/jazz-night
+  - https://www.knkx.org/jazz/2024-01-26/seattle-jazz-fellowship-pioneer-square-pop-up-new-venue-globe-building
+  needs_human_review: false
+notes: Nonprofit jazz room in Pioneer Square's Globe Building since early 2024. Leans jazz-forward
+  but hosts regular free-improvisation sets.

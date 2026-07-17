@@ -1,0 +1,77 @@
+id: mills-college-ccm-oakland
+name: Mills College Center for Contemporary Music
+aliases:
+- CCM
+- Mills Music Now
+- Littlefield Concert Hall
+status: active
+location:
+  address: "5000 MacArthur Blvd"
+  city: Oakland
+  region: CA
+  country: US
+  neighborhood: Seminary
+  lat: 37.7806
+  lon: -122.1839
+type: university
+operating_model: university
+capacity: null
+website: https://performingarts.oakland.northeastern.edu/center-for-contemporary-music/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: The Mills Music Now series and the historic Center for Contemporary Music
+      celebrate the campus's experimental-music tradition, spanning electronic, contemporary
+      and improvised work.
+    sources:
+    - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
+    - https://performingarts.oakland.northeastern.edu/center-for-contemporary-music/
+  show_frequency:
+    value: 3
+    evidence: Seasonal concert series with regular Mills Music Now events open to the
+      public.
+    sources:
+    - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
+  artist_roster:
+    value: 4
+    evidence: Faculty, students and visiting artists defining the cutting edge from electronic
+      to improvisation.
+    sources:
+    - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
+  self_description:
+    value: 5
+    evidence: Explicitly celebrates the college's rich tradition of experimental music.
+    sources:
+    - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
+  operating_model:
+    value: 4
+    evidence: University-run center (Mills College, now Mills at Northeastern University
+      Oakland).
+    sources:
+    - https://performingarts.oakland.northeastern.edu/center-for-contemporary-music/
+  community_reputation:
+    value: 4
+    evidence: Hailed as one of the "gems of Bay Area culture"; CCM is a historic node
+      of American experimental and electronic music.
+    sources:
+    - https://cnmat.berkeley.edu/legacy-venues/center-contemporary-music-mills-college
+  listening_room:
+    value: 4
+    evidence: Concerts largely in the Jeannik Mequet Littlefield Concert Hall.
+    sources:
+    - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
+score: 78
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://performingarts.oakland.northeastern.edu/center-for-contemporary-music/
+  - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
+  - https://cnmat.berkeley.edu/legacy-venues/center-contemporary-music-mills-college
+  needs_human_review: true
+notes: 'NEEDS REVIEW: historic Mills CCM now operates under Northeastern University Oakland;
+  confirm current public concert cadence and programming post-transition.'

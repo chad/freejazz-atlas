@@ -1,0 +1,74 @@
+id: zebulon-los-angeles
+name: Zebulon Cafe Concert
+aliases:
+- Zebulon
+status: active
+location:
+  address: "2478 Fletcher Dr"
+  city: Los Angeles
+  region: CA
+  country: US
+  neighborhood: Frogtown
+  lat: 34.1099
+  lon: -118.2596
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://zebulon.la/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Cafe/concert venue that reopened in LA's Frogtown in 2017 continuing the
+      Brooklyn Zebulon's legacy as a hub for jazz, experimental and indie music; experimental
+      programming is part of a broad nightly calendar.
+    sources:
+    - https://en.wikipedia.org/wiki/Zebulon_Cafe_Concert
+    - https://buzzbands.la/2017/10/19/interview-jesse-peterson-zebulons-collectivist-approach-wide-ranging-fare/
+  show_frequency:
+    value: 3
+    evidence: Nightly performances by local and international musicians, a portion of it
+      experimental/avant.
+    sources:
+    - https://zebulon.la/
+  artist_roster:
+    value: 3
+    evidence: Wide-ranging bookings from avant/experimental figures (Kim Gordon, This
+      Heat) to indie and jazz artists.
+    sources:
+    - https://en.wikipedia.org/wiki/Zebulon_Cafe_Concert
+  self_description:
+    value: 3
+    evidence: Continues the Brooklyn Zebulon's identity as a home for jazz, experimental
+      and indie music with a collectivist approach.
+    sources:
+    - https://buzzbands.la/2017/10/19/interview-jesse-peterson-zebulons-collectivist-approach-wide-ranging-fare/
+  operating_model:
+    value: 3
+    evidence: Independent commercial cafe/venue with a collectivist ethos.
+    sources:
+    - https://buzzbands.la/2017/10/19/interview-jesse-peterson-zebulons-collectivist-approach-wide-ranging-fare/
+  community_reputation:
+    value: 3
+    evidence: Beloved successor to the storied Brooklyn Zebulon jazz/experimental hub.
+    sources:
+    - https://www.artnews.com/art-news/news/former-williamsburg-music-venue-zebulon-to-open-new-space-in-los-angeles-7466/
+  listening_room:
+    value: 3
+    evidence: Combined cafe/bar and concert room.
+    sources:
+    - https://zebulon.la/
+score: 55
+tier: supportive
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Zebulon_Cafe_Concert
+  - https://buzzbands.la/2017/10/19/interview-jesse-peterson-zebulons-collectivist-approach-wide-ranging-fare/
+  - https://zebulon.la/
+  needs_human_review: false
+notes: Frogtown cafe/concert venue continuing the Brooklyn Zebulon legacy; books jazz and
+  experimental music among wide-ranging indie programming.

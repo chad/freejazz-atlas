@@ -1,0 +1,67 @@
+id: arts-mission-oak-cliff-dallas
+name: Arts Mission Oak Cliff
+aliases:
+- AMOC
+status: active
+location:
+  address: "410 S Windomere Ave"
+  city: Dallas
+  region: TX
+  country: US
+  neighborhood: North Oak Cliff
+  lat: 32.7475
+  lon: -96.8392
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.artsmissionoc.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: "Nonprofit performing/visual-arts center in a repurposed 1929 church that hosts experimental and improvised performance; a documented venue for the Transitory Sound and Movement Collective."
+    sources:
+    - https://www.artsmissionoc.org/
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  show_frequency:
+    value: 2
+    evidence: "Diverse performance calendar in which experimental/improvised music is periodic."
+    sources:
+    - https://do214.com/venues/arts-mission-oak-cliff
+  artist_roster:
+    value: 3
+    evidence: "Hosts experimental interdisciplinary artists (e.g. the Transitory Sound and Movement Collective) among broader programming."
+    sources:
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  self_description:
+    value: 3
+    evidence: "Describes itself as a creative community and performing/visual-arts center supporting artists' development."
+    sources:
+    - https://www.artsmissionoc.org/mission
+  operating_model:
+    value: 5
+    evidence: "501(c)(3) nonprofit community and coworking arts center."
+    sources:
+    - https://www.artsmissionoc.org/mission
+  community_reputation:
+    value: 2
+    evidence: "Recognized North Oak Cliff arts hub; presence in regional experimental programming."
+    sources:
+    - https://do214.com/venues/arts-mission-oak-cliff
+  listening_room:
+    value: 3
+    evidence: "Church-sanctuary performance space suited to attentive audiences."
+    sources:
+    - https://www.artsmissionoc.org/visit
+score: 53
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.artsmissionoc.org/
+  - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  needs_human_review: true
+notes: "Nonprofit Oak Cliff arts center in a converted church; hosts experimental/improvised interdisciplinary work. Regularity of dedicated improv programming not fully verified."

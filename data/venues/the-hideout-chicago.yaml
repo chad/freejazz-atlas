@@ -1,0 +1,66 @@
+id: the-hideout-chicago
+name: The Hideout
+aliases:
+- Hideout Inn
+- Hideout Chicago
+status: active
+location:
+  address: "1354 W Wabansia Ave"
+  city: Chicago
+  region: IL
+  country: US
+  neighborhood: Elston Industrial Corridor
+  lat: 41.9134
+  lon: -87.6621
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://www.hideoutchicago.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Hosts the Immediate Sound series of experimental/free-jazz on Wednesday nights, associated with Chicago improvisers including Ken Vandermark."
+    sources:
+    - https://www.hideoutchicago.com/tag/immediate-sound-series/
+  show_frequency:
+    value: 3
+    evidence: "Weekly Immediate Sound night within a broader indie/roots music calendar."
+    sources:
+    - https://www.hideoutchicago.com/tag/immediate-sound-series/
+  artist_roster:
+    value: 4
+    evidence: "Immediate Sound features Chicago free-improv players (Ken Vandermark and collaborators)."
+    sources:
+    - https://www.hideoutchicago.com/tag/immediate-sound-series/
+  self_description:
+    value: 3
+    evidence: "Independent iconic Chicago music venue/community space, home to over 25 years of independent music."
+    sources:
+    - https://www.hideoutchicago.com/history
+  operating_model:
+    value: 2
+    evidence: "Independently owned commercial bar/music venue."
+    sources:
+    - https://en.wikipedia.org/wiki/The_Hideout_Inn
+  community_reputation:
+    value: 4
+    evidence: "Iconic independent Chicago venue with deep ties to the local creative-music scene."
+    sources:
+    - https://en.wikipedia.org/wiki/The_Hideout_Inn
+  listening_room:
+    value: 3
+    sources:
+    - https://www.hideoutchicago.com/
+score: 69
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.hideoutchicago.com/tag/immediate-sound-series/
+  - https://en.wikipedia.org/wiki/The_Hideout_Inn
+  needs_human_review: false
+notes: "Independent bar/venue whose weekly Immediate Sound series anchors its free-jazz programming."

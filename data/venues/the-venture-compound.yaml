@@ -1,0 +1,73 @@
+id: the-venture-compound
+name: The Venture Compound
+aliases: []
+status: unconfirmed
+location:
+  address: "2621 Fairfield Ave S"
+  city: St. Petersburg
+  region: FL
+  country: US
+  neighborhood: Warehouse Arts District
+  lat: 27.753
+  lon: -82.6635
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://klimchakmusic.com/?eventDisplay=venue&tribe_venue=venture-compound
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Non-traditional DIY performance space and art gallery in the Warehouse Arts
+      District; hosts experimental/noise shows and open jazz jams.
+    sources:
+    - https://crowsneststpete.com/2012/08/28/the-venture-compound-offers-performance-space-for-local-musical-artists/
+    - https://www.facebook.com/groups/TampaBay.Experimental.Noise/
+  show_frequency:
+    value: 3
+    evidence: Has hosted shows since December 2011, including open jazz jams and touring
+      experimental acts.
+    sources:
+    - https://crowsneststpete.com/2012/08/28/the-venture-compound-offers-performance-space-for-local-musical-artists/
+  artist_roster:
+    value: 3
+    evidence: Programs experimental, noise, and improvising musicians from Florida and beyond.
+    sources:
+    - https://83degreesmedia.com/venture041613/
+  self_description:
+    value: 4
+    evidence: "Edgy, experimental art and music space with \"a zany, almost science-experiment\
+      \ vibe.\""
+    sources:
+    - https://83degreesmedia.com/venture041613/
+  operating_model:
+    value: 5
+    evidence: DIY living/performance/gallery space (home to No Clear Records) in the Warehouse
+      Arts District.
+    sources:
+    - https://www.visitstpeteclearwater.com/profile/venture-compound/140031
+  community_reputation:
+    value: 3
+    evidence: A longtime node of St. Petersburg's experimental/noise scene.
+    sources:
+    - https://83degreesmedia.com/venture041613/
+  listening_room:
+    value: 2
+    evidence: Raw DIY warehouse/gallery space rather than a dedicated listening room.
+    sources:
+    - https://crowsneststpete.com/2012/08/28/the-venture-compound-offers-performance-space-for-local-musical-artists/
+score: 65
+tier: committed
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://crowsneststpete.com/2012/08/28/the-venture-compound-offers-performance-space-for-local-musical-artists/
+  - https://83degreesmedia.com/venture041613/
+  - https://www.visitstpeteclearwater.com/profile/venture-compound/140031
+  needs_human_review: true
+notes: 'St. Petersburg Warehouse Arts District DIY experimental/noise venue (since 2011). One
+  listing flags it as possibly closed, so current operating status is unconfirmed and needs
+  human review.'

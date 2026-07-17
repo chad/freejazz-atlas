@@ -1,0 +1,67 @@
+id: experimental-sound-studio
+name: Experimental Sound Studio
+aliases:
+- ESS
+status: active
+location:
+  address: "5925 N Ravenswood Ave"
+  city: Chicago
+  region: IL
+  country: US
+  neighborhood: Ravenswood
+  lat: 41.9895
+  lon: -87.6742
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://ess.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Home of OPTION, an ongoing weekly Monday-night music salon exploring contemporary improvisation and composition, curated by Chicago musicians; performances are recorded and released as the OPTION AUDIO series."
+    sources:
+    - https://ess.org/option
+    - https://experimentalsoundstudio.bandcamp.com/album/option-audio-003
+  show_frequency:
+    value: 5
+    evidence: "OPTION salon runs weekly on Mondays plus additional experimental programming."
+    sources:
+    - https://ess.org/option
+  artist_roster:
+    value: 5
+    evidence: "Presents local, national and international improvisers and experimental/sound artists."
+    sources:
+    - https://ess.org/option
+  self_description:
+    value: 5
+    evidence: "Founded 1986 as an artist-run organization for exploratory approaches to sound; an international hub for sonic experimentation."
+    sources:
+    - https://ess.org/about/
+  operating_model:
+    value: 5
+    evidence: "Non-profit, artist-run organization focused on sound in all its exploratory forms."
+    sources:
+    - https://ess.org/about/
+  community_reputation:
+    value: 4
+    evidence: "Long-standing pillar of Chicago's experimental and improvised music community."
+    sources:
+    - https://www.aaa.si.edu/collections/surveys/chicago/experimental-sound-studio
+  listening_room:
+    value: 4
+    evidence: "Intimate Studio A salon environment for attentive listening; shows streamed and recorded."
+    sources:
+    - https://ess.org/option
+score: 97
+tier: cornerstone
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://ess.org/option
+  - https://ess.org/about/
+  needs_human_review: false
+notes: "Artist-run nonprofit; the OPTION salon is one of Chicago's core weekly improvised/experimental music series."

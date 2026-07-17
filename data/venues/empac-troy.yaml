@@ -1,0 +1,71 @@
+id: empac-troy
+name: EMPAC (Curtis R. Priem Experimental Media and Performing Arts Center)
+aliases:
+- EMPAC
+status: active
+location:
+  address: 110 8th St
+  city: Troy
+  region: NY
+  country: US
+  lat: 42.7296
+  lon: -73.6824
+type: university
+operating_model: university
+capacity: 1200
+website: https://empac.rpi.edu/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: University-run experimental media/performing-arts center with adventurous programming
+      in music, media, performance and theater, including experimental and improvised sound
+      work.
+    sources:
+    - https://empac.rpi.edu/
+    - https://en.wikipedia.org/wiki/Experimental_Media_and_Performing_Arts_Center
+  show_frequency:
+    value: 2
+    evidence: Curated season of concerts and commissions rather than a weekly improv series.
+    sources:
+    - https://empac.rpi.edu/
+  artist_roster:
+    value: 3
+    evidence: Presents experimental and boundary-pushing artists (e.g. Laurie Anderson) alongside
+      residencies and new-media commissions.
+    sources:
+    - https://empac.rpi.edu/
+  self_description:
+    value: 4
+    evidence: Explicitly framed as an experimental media and performing-arts center pursuing
+      adventurous programming.
+    sources:
+    - https://en.wikipedia.org/wiki/Experimental_Media_and_Performing_Arts_Center
+  operating_model:
+    value: 3
+    evidence: Operated by Rensselaer Polytechnic Institute (university-affiliated).
+    sources:
+    - https://en.wikipedia.org/wiki/Experimental_Media_and_Performing_Arts_Center
+  community_reputation:
+    value: 4
+    evidence: Internationally recognized center for experimental media and performance.
+    sources:
+    - https://empac.rpi.edu/
+  listening_room:
+    value: 4
+    evidence: Multiple purpose-built performance halls and studios for attentive listening.
+    sources:
+    - https://en.wikipedia.org/wiki/Experimental_Media_and_Performing_Arts_Center
+score: 61
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://empac.rpi.edu/
+  - https://en.wikipedia.org/wiki/Experimental_Media_and_Performing_Arts_Center
+  needs_human_review: false
+notes: RPI's experimental-arts center in Troy; improv/experimental music is part of a broad
+  curated new-media program, not a dedicated recurring series.

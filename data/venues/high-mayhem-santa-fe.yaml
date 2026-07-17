@@ -1,0 +1,74 @@
+id: high-mayhem-santa-fe
+name: High Mayhem
+aliases:
+- High Mayhem Emerging Arts
+- High Mayhem Studio
+status: active
+location:
+  address: 2811 Siler Ln
+  city: Santa Fe
+  region: NM
+  country: US
+  lat: 35.6585
+  lon: -106.005
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://highmayhem.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Not-for-profit emerging-arts facility, record label and multimedia collective
+      that curates performances and workshops year-round for experimental artists, emphasizing
+      improvisation and cross-media synthesis.
+    sources:
+    - https://highmayhem.org/about
+    - https://highmayhem.org/events/
+  show_frequency:
+    value: 3
+    evidence: Curates performances and workshops throughout the year for visiting and local
+      experimental musicians.
+    sources:
+    - https://highmayhem.org/events/
+  artist_roster:
+    value: 5
+    evidence: Programs underrepresented "experimental" artists who employ improvisational
+      techniques and the unorthodox.
+    sources:
+    - https://highmayhem.org/about
+  self_description:
+    value: 5
+    evidence: Explicitly challenges pop-culture groupthink and provides a space and voice
+      for experimental, improvisational and cross-media work.
+    sources:
+    - https://highmayhem.org/about
+  operating_model:
+    value: 5
+    evidence: Not-for-profit collective and record label, founded 2001.
+    sources:
+    - https://highmayhem.org/about
+  community_reputation:
+    value: 4
+    evidence: Long-running anchor of Santa Fe's experimental/improvised scene and record label.
+    sources:
+    - https://santafe.com/santa-fes-best-live-musical-venues/
+  listening_room:
+    value: 3
+    evidence: Studio/performance facility (attentive but multi-use, not a formal seated hall).
+    sources:
+    - https://highmayhem.org/about
+score: 83
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://highmayhem.org/
+  - https://highmayhem.org/about
+  - https://highmayhem.org/events/
+  needs_human_review: false
+notes: Santa Fe not-for-profit experimental-arts collective, venue and label (est. 2001).
+  Coordinates approximate to the Siler Ln studio.

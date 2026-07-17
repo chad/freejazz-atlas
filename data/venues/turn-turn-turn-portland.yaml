@@ -1,0 +1,74 @@
+id: turn-turn-turn-portland
+name: Turn! Turn! Turn!
+aliases: []
+status: active
+location:
+  address: 8 NE Killingsworth St
+  city: Portland
+  region: OR
+  country: US
+  neighborhood: Northeast Portland
+  lat: 45.5626
+  lon: -122.6668
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://turnturnturnpdx.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Hosts the Creative Music Guild's twice-monthly Outset Series of experimental
+      and improvised music alongside its broader programming.
+    sources:
+    - https://elevenpdx.com/live/know-your-venue/turn-turn-turn/
+    - https://creativemusicguild.org/outset-series/
+  show_frequency:
+    value: 3
+    evidence: Four to five shows a week overall; experimental/improvised nights recur roughly
+      twice a month via CMG.
+    sources:
+    - https://elevenpdx.com/live/know-your-venue/turn-turn-turn/
+  artist_roster:
+    value: 3
+    evidence: Programming ranges from indie rock to totally improvised music; hosts local
+      and touring improvisers through CMG.
+    sources:
+    - https://elevenpdx.com/live/know-your-venue/turn-turn-turn/
+  self_description:
+    value: 4
+    evidence: Community-oriented venue presenting "the fringes of culture" with a DIY, build-your-own-bill
+      ethos.
+    sources:
+    - https://turnturnturnpdx.com/
+    - https://elevenpdx.com/community/turn-turn-turn-turns-10/
+  operating_model:
+    value: 3
+    evidence: Independent commercial venue/bar and mini record store with a strong DIY community
+      mindset.
+    sources:
+    - https://turnturnturnpdx.com/
+  community_reputation:
+    value: 4
+    evidence: Well-known intimate community venue and a key host for the Creative Music Guild.
+    sources:
+    - https://elevenpdx.com/community/turn-turn-turn-turns-10/
+  listening_room:
+    value: 3
+    evidence: Small all-ages music room and bar.
+    sources:
+    - https://elevenpdx.com/live/know-your-venue/turn-turn-turn/
+score: 64
+tier: supportive
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://turnturnturnpdx.com/
+  - https://elevenpdx.com/live/know-your-venue/turn-turn-turn/
+  - https://creativemusicguild.org/outset-series/
+  needs_human_review: false
+notes: NE Portland community venue/bar and mini record store; regular host of the Creative
+  Music Guild's Outset Series.

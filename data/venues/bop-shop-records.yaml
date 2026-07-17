@@ -1,0 +1,70 @@
+id: bop-shop-records
+name: Bop Shop Records
+aliases: []
+status: active
+location:
+  address: 1460 Monroe Ave
+  city: Rochester
+  region: NY
+  country: US
+  lat: 43.1379
+  lon: -77.571
+type: record_store
+operating_model: commercial
+capacity: null
+website: https://bopshop.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Independent record store where owner Tom Kohn has presented jazz, experimental
+      and improvised concerts for 30+ years, including improvised/Just Intonation projects.
+    sources:
+    - https://bopshop.com/about-us
+    - https://www.roccitymag.com/music/tom-kohn-and-bop-shop-records-celebrate-30-years-of-concerts-8812830/
+  show_frequency:
+    value: 4
+    evidence: Frequently hosts jazz, experimental and improvised concerts; performances also
+      air as "Bop Shop Live" on Jazz90.1.
+    sources:
+    - https://bopshop.com/jazz901
+  artist_roster:
+    value: 4
+    evidence: Presents internationally renowned and emerging improvisers exploring new work.
+    sources:
+    - https://www.jazznearyou.com/rochester/venue/bop-shop-records__21948
+  self_description:
+    value: 3
+    evidence: Frames its concert series around exciting new and experimental work, filling
+      a gap in the community.
+    sources:
+    - https://bopshop.com/about-us
+  operating_model:
+    value: 2
+    evidence: Privately owned independent record store presenting concerts.
+    sources:
+    - https://bopshop.com/
+  community_reputation:
+    value: 4
+    evidence: Rochester institution recognized for 30 years of creative-music concerts.
+    sources:
+    - https://www.roccitymag.com/music/tom-kohn-and-bop-shop-records-celebrate-30-years-of-concerts-8812830/
+  listening_room:
+    value: 4
+    evidence: Intimate in-store listening setting.
+    sources:
+    - https://www.jazznearyou.com/rochester/venue/bop-shop-records__21948
+score: 74
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://bopshop.com/about-us
+  - https://www.roccitymag.com/music/tom-kohn-and-bop-shop-records-celebrate-30-years-of-concerts-8812830/
+  - https://bopshop.com/jazz901
+  needs_human_review: false
+notes: Rochester record store with a decades-long jazz/experimental/improvised concert series;
+  coordinates approximate to Monroe Ave.

@@ -1,0 +1,64 @@
+id: empty-bottle-chicago
+name: Empty Bottle
+aliases: []
+status: active
+location:
+  address: "1035 N Western Ave"
+  city: Chicago
+  region: IL
+  country: US
+  neighborhood: Ukrainian Village
+  lat: 41.9003
+  lon: -87.6870
+type: bar_club
+operating_model: commercial
+capacity: 400
+website: https://emptybottle.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: "Home of the landmark Empty Bottle Jazz & Improvised Music Series (curated by John Corbett and Ken Vandermark, 1996-2005), which helped make Chicago a center for experimental jazz; that weekly series has ended, though the venue still presents occasional improvised/experimental shows."
+    sources:
+    - https://corbettvsdempsey.com/records/the-bottle-tapes/
+    - https://www.jazztimes.com/features/profiles/anything-but-empty-at-the-empty-bottle/
+  show_frequency:
+    value: 2
+    evidence: "Primarily an indie/rock room today; improvised/experimental bookings are occasional."
+    sources:
+    - https://www.wbez.org/music/2025/10/31/empty-bottle-33-1-3-birthday-chicago-live-music
+  artist_roster:
+    value: 2
+    evidence: "Historically presented ~100 international improvisers; current roster is mostly indie/rock with intermittent creative-music dates."
+    sources:
+    - https://corbettvsdempsey.com/records/the-bottle-tapes/
+  self_description:
+    value: 2
+    sources:
+    - https://www.wbez.org/music/2025/10/31/empty-bottle-33-1-3-birthday-chicago-live-music
+  operating_model:
+    value: 3
+    evidence: "Long-running independent commercial music venue."
+    sources:
+    - https://www.wbez.org/music/2025/10/31/empty-bottle-33-1-3-birthday-chicago-live-music
+  community_reputation:
+    value: 4
+    evidence: "Its 1996-2005 jazz series is internationally celebrated as a landmark in creative music."
+    sources:
+    - https://corbettvsdempsey.com/records/the-bottle-tapes/
+  listening_room:
+    value: 2
+    sources:
+    - https://www.wbez.org/music/2025/10/31/empty-bottle-33-1-3-birthday-chicago-live-music
+score: 45
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://corbettvsdempsey.com/records/the-bottle-tapes/
+  - https://www.wbez.org/music/2025/10/31/empty-bottle-33-1-3-birthday-chicago-live-music
+  needs_human_review: true
+notes: "NEEDS REVIEW: historically central to Chicago improv via its 1996-2005 jazz series; today mostly indie/rock. Confirm current cadence of any improvised bookings."

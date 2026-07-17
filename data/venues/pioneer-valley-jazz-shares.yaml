@@ -1,0 +1,72 @@
+id: pioneer-valley-jazz-shares
+name: Pioneer Valley Jazz Shares
+aliases:
+- Jazz Shares
+status: active
+location:
+  city: Amherst
+  region: MA
+  country: US
+  neighborhood: Pioneer Valley
+  lat: 42.3732
+  lon: -72.5199
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.jazzshares.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Shareholder-based nonprofit whose entire reason to exist is bringing world-class
+      improvisers and creative music to western Massachusetts.
+    sources:
+    - https://www.jazzshares.org/about
+    - https://www.jazzshares.org/
+  show_frequency:
+    value: 3
+    evidence: Produces between 10 and 20 concerts each season in venues across Franklin, Hampshire
+      and Hampden counties.
+    sources:
+    - https://www.jazzshares.org/about
+  artist_roster:
+    value: 5
+    evidence: Books world-class improvisers; past shows include Joe Morris, Sam Newsome and
+      other creative-music artists.
+    sources:
+    - https://sheatheater.org/d/14887/Pioneer-Valley-Jazz-Shares-Presents-MorrisNewsomeMela
+  self_description:
+    value: 5
+    evidence: Describes its mission as bringing extraordinary creative music and world-class
+      improvisers to the region via a CSA-style share model.
+    sources:
+    - https://www.jazzshares.org/about
+  operating_model:
+    value: 5
+    evidence: All-volunteer, shareholder-funded nonprofit (founded 2012).
+    sources:
+    - https://www.jazzshares.org/about
+  community_reputation:
+    value: 4
+    evidence: Long-running cornerstone of the western-Massachusetts creative-music community.
+    sources:
+    - https://www.artshubwma.org/profile/pioneer-valley-jazz-shares
+  listening_room:
+    value: 4
+    evidence: Presents seated, attentive concerts at partner venues.
+    sources:
+    - https://www.jazzshares.org/
+score: 89
+tier: cornerstone
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.jazzshares.org/about
+  - https://www.jazzshares.org/
+  - https://www.artshubwma.org/profile/pioneer-valley-jazz-shares
+  needs_human_review: false
+notes: Itinerant CSA-model presenter of creative/improvised music across the Pioneer Valley;
+  coordinates set near Amherst.

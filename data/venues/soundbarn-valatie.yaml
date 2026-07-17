@@ -1,0 +1,72 @@
+id: soundbarn-valatie
+name: The soundBarn
+aliases:
+- soundBarn
+status: active
+location:
+  city: Valatie
+  region: NY
+  country: US
+  neighborhood: Columbia County
+  lat: 42.4157
+  lon: -73.6737
+type: diy_space
+operating_model: artist_run
+capacity: null
+website: http://soundbarn.blogspot.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Artist-run space in a former orchard cooler that presents long-form improvisations,
+      often featuring members of the Albany Sonic Arts Collective.
+    sources:
+    - http://soundbarn.blogspot.com/
+    - https://www.thomaslailstudio.com/soundbarn
+  show_frequency:
+    value: 2
+    evidence: Hosts periodic experimental/improvised sound events rather than a weekly series.
+    sources:
+    - http://soundbarn.blogspot.com/
+  artist_roster:
+    value: 4
+    evidence: Programs experimental improvisers; run by Thomas Lail and Patrick Weklar and
+      tied to the Albany Sonic Arts Collective.
+    sources:
+    - https://www.thomaslailstudio.com/soundbarn
+  self_description:
+    value: 5
+    evidence: Presents itself as a space for long-form improvisation and experimental sound.
+    sources:
+    - https://www.thomaslailstudio.com/soundbarn
+  operating_model:
+    value: 5
+    evidence: Artist-run rural DIY listening space.
+    sources:
+    - https://www.thomaslailstudio.com/soundbarn
+  community_reputation:
+    value: 2
+    evidence: Niche but recognized within the Capital Region / Hudson Valley experimental
+      scene.
+    sources:
+    - https://fieldguide.hollandhopson.com/tag/albany-sonic-arts-collective/
+  listening_room:
+    value: 4
+    evidence: Intimate rural room built for lingering and attentive listening with mountain
+      views.
+    sources:
+    - https://www.thomaslailstudio.com/soundbarn
+score: 68
+tier: committed
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://soundbarn.blogspot.com/
+  - https://www.thomaslailstudio.com/soundbarn
+  needs_human_review: true
+notes: 'NEEDS REVIEW: real artist-run improv listening space near Valatie/Kinderhook, but
+  much documentation is older; confirm current activity and a precise location. Coordinates
+  approximate to Valatie.'

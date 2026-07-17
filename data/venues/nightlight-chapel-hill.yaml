@@ -1,0 +1,73 @@
+id: nightlight-chapel-hill
+name: Nightlight
+aliases:
+- The Nightlight
+- Nightlight Bar & Club
+status: closed
+location:
+  address: 405 1/2 W Rosemary St
+  city: Chapel Hill
+  region: NC
+  country: US
+  neighborhood: Downtown
+  lat: 35.9138
+  lon: -79.062
+type: diy_space
+operating_model: commercial
+capacity: null
+website: http://www.nightlightclub.com/
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Contemporary experimental performance space hosting national/international touring
+      experimental and noise artists; founded 2003 for electronic/experimental/danceable music.
+    sources:
+    - https://www.yelp.com/biz/nightlight-bar-and-club-chapel-hill
+    - https://www.dailytarheel.com/article/2024/05/lifestyle-nightlight-closing-legacy
+  show_frequency:
+    value: 3
+    evidence: When open, a cornerstone of the local DIY scene hosting frequent experimental
+      sets.
+    sources:
+    - https://www.yelp.com/biz/nightlight-bar-and-club-chapel-hill
+  artist_roster:
+    value: 4
+    evidence: Regularly booked experimental noise and improv acts alongside indie shows.
+    sources:
+    - https://indyweek.com/music/still-leaving-nightlight-ya/
+  self_description:
+    value: 5
+    evidence: Described itself as a contemporary experimental performance space.
+    sources:
+    - https://www.yelp.com/biz/nightlight-bar-and-club-chapel-hill
+  operating_model:
+    value: 4
+    evidence: Independent DIY-run club (former Skylight Exchange sandwich shop/record store
+      by day).
+    sources:
+    - https://www.dailytarheel.com/article/2024/05/lifestyle-nightlight-closing-legacy
+  community_reputation:
+    value: 4
+    evidence: Long-recognized cornerstone of the Triangle DIY/experimental music community.
+    sources:
+    - https://www.dailytarheel.com/article/2024/05/lifestyle-nightlight-closing-legacy
+  listening_room:
+    value: 3
+    evidence: Small club/bar hybrid.
+    sources:
+    - https://www.indieonthemove.com/venues/the-nightlight-chapel-hill-north-carolina
+score: 77
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.dailytarheel.com/article/2024/05/lifestyle-nightlight-closing-legacy
+  - https://www.yelp.com/biz/nightlight-bar-and-club-chapel-hill
+  needs_human_review: true
+notes: CLOSED since 2022; owners were still negotiating with the landlord as of 2024, and
+  a portion of its events moved to All Day Records in Carrboro. Scored on its historical profile.
+  Needs human review for reopening/current status.

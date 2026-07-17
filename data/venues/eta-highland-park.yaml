@@ -1,0 +1,77 @@
+id: eta-highland-park
+name: ETA
+aliases:
+- ETA Highland Park
+status: closed
+location:
+  address: "5630 N Figueroa St"
+  city: Los Angeles
+  region: CA
+  country: US
+  neighborhood: Highland Park
+  lat: 34.1105
+  lon: -118.1935
+type: bar_club
+operating_model: commercial
+capacity: null
+website: null
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 4
+    evidence: A neighborhood bar that hosted Jeff Parker's long-running Monday residency
+      (from 2018), which became an essential meeting place for LA's experimental jazz/improv
+      community until the venue closed Dec 2023.
+    sources:
+    - https://insheepsclothinghifi.com/sml/
+    - https://www.coloradoboulevard.net/goodbye-eta-you-were-a-real-slice/
+  show_frequency:
+    value: 4
+    evidence: Weekly Monday improvised-music residency plus additional creative-music
+      nights.
+    sources:
+    - https://insheepsclothinghifi.com/sml/
+  artist_roster:
+    value: 5
+    evidence: Home base for the Jeff Parker ETA IVtet (Anna Butterss, Josh Johnson, Jay
+      Bellerose) and a wider community of LA experimental improvisers.
+    sources:
+    - https://intlanthem.bandcamp.com/album/the-way-out-of-easy
+    - https://www.h-music.fr/post/jeff-parker-eta-ivtet
+  self_description:
+    value: 2
+    evidence: A small, casual neighborhood bar rather than a self-described experimental
+      venue.
+    sources:
+    - https://www.coloradoboulevard.net/goodbye-eta-you-were-a-real-slice/
+  operating_model:
+    value: 2
+    evidence: Commercial bar.
+    sources:
+    - https://www.coloradoboulevard.net/goodbye-eta-you-were-a-real-slice/
+  community_reputation:
+    value: 4
+    evidence: Renowned as the crucible of a celebrated LA improvised-music scene; the
+      ETA IVtet's live recordings are widely acclaimed.
+    sources:
+    - https://intlanthem.bandcamp.com/album/the-way-out-of-easy
+  listening_room:
+    value: 3
+    evidence: Long narrow bar where the music happened close-up.
+    sources:
+    - https://insheepsclothinghifi.com/sml/
+score: 74
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://insheepsclothinghifi.com/sml/
+  - https://www.coloradoboulevard.net/goodbye-eta-you-were-a-real-slice/
+  - https://intlanthem.bandcamp.com/album/the-way-out-of-easy
+  needs_human_review: false
+notes: CLOSED Dec 2023. Highland Park bar whose Jeff Parker Monday residency anchored a
+  major LA experimental-improv community; score reflects its active-era programming. Legacy
+  entry.

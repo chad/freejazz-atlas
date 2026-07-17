@@ -1,0 +1,65 @@
+id: the-luminary-st-louis
+name: The Luminary
+aliases: []
+status: active
+location:
+  address: "2701 Cherokee St"
+  city: St. Louis
+  region: MO
+  country: US
+  neighborhood: Cherokee Street
+  lat: 38.5918
+  lon: -90.2384
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://theluminaryarts.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: "Nonprofit forum for artistic research and presentation that doubles as a crucial St. Louis concert venue, presenting experimental music/sound programming alongside visual art."
+    sources:
+    - https://theluminaryarts.com/public-programs
+    - https://www.stlmag.com/culture/visual-arts/wholly-bright:-the-rebirth-of-the-luminary/
+  show_frequency:
+    value: 2
+    evidence: "Music/sound events recur within a broad interdisciplinary calendar."
+    sources:
+    - https://theluminaryarts.com/public-programs
+  artist_roster:
+    value: 3
+    evidence: "Presents experimental and adventurous touring and local acts."
+    sources:
+    - https://www.stlmag.com/culture/music/drummers-only-showcase-returns-to-the-luminary-for-a-show-unlike-any-other-in-town/
+  self_description:
+    value: 4
+    evidence: "Not-for-profit 'forum for artistic research, production and presentation' (founded 2007)."
+    sources:
+    - https://www.stlmag.com/culture/visual-arts/wholly-bright:-the-rebirth-of-the-luminary/
+  operating_model:
+    value: 5
+    evidence: "501(c)(3) nonprofit arts organization."
+    sources:
+    - https://www.stlmag.com/culture/visual-arts/wholly-bright:-the-rebirth-of-the-luminary/
+  community_reputation:
+    value: 3
+    evidence: "Regarded as one of St. Louis's most important visual-arts spaces and a key concert venue."
+    sources:
+    - https://www.stlmag.com/culture/visual-arts/wholly-bright:-the-rebirth-of-the-luminary/
+  listening_room:
+    value: 3
+    sources:
+    - https://theluminaryarts.com/public-programs
+score: 62
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://theluminaryarts.com/public-programs
+  - https://www.stlmag.com/culture/visual-arts/wholly-bright:-the-rebirth-of-the-luminary/
+  needs_human_review: false
+notes: "St. Louis nonprofit arts space presenting experimental music/sound as part of a broad interdisciplinary program (distinct from Dissonant Works)."

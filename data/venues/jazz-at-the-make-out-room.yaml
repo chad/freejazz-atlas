@@ -1,0 +1,72 @@
+id: jazz-at-the-make-out-room
+name: Make-Out Room
+aliases:
+- Jazz at the Make-Out Room
+- Monday Make-Out
+status: active
+location:
+  address: "3225 22nd St"
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: Mission District
+  lat: 37.7554
+  lon: -122.4198
+type: bar_club
+operating_model: commercial
+capacity: null
+website: http://www.makeoutroom.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Hosts the long-running weekly "Jazz at the Make-Out Room" (formerly Monday
+      Make-Out), billed as an evening of cutting-edge jazz, free improvisation and creative
+      music.
+    sources:
+    - https://www.bayimproviser.com/venue/140/make-out-room
+    - https://www.facebook.com/mondaymakeout/
+  show_frequency:
+    value: 4
+    evidence: Weekly free creative-jazz/improv night (Tuesdays, free admission).
+    sources:
+    - https://sf.funcheap.com/free-jazz-night-evangelista-boisen-trio-makeout-room/
+  artist_roster:
+    value: 4
+    evidence: Books Bay Area free-improv and cutting-edge jazz artists.
+    sources:
+    - https://www.bayimproviser.com/venue/140/make-out-room
+  self_description:
+    value: 2
+    evidence: A Mission bar/dance club; the improv series (not the venue) describes itself
+      as cutting-edge jazz and free improvisation.
+    sources:
+    - https://www.facebook.com/mondaymakeout/
+  operating_model:
+    value: 2
+    evidence: Commercial neighborhood bar.
+    sources:
+    - http://www.makeoutroom.com/
+  community_reputation:
+    value: 3
+    evidence: Established home of a respected weekly Bay Area improv series.
+    sources:
+    - https://www.bayimproviser.com/venue/140/make-out-room
+  listening_room:
+    value: 2
+    evidence: Bar setting rather than dedicated listening room.
+    sources:
+    - https://www.yelp.com/biz/make-out-room-san-francisco
+score: 68
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.bayimproviser.com/venue/140/make-out-room
+  - https://www.facebook.com/mondaymakeout/
+  needs_human_review: false
+notes: Commercial Mission bar hosting a strong weekly free-jazz/improv series; the series
+  carries the improv weight, not the room itself.

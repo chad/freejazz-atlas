@@ -1,0 +1,69 @@
+id: sugar-maple-milwaukee
+name: The Sugar Maple
+aliases: []
+status: active
+location:
+  address: 441 E Lincoln Ave
+  city: Milwaukee
+  region: WI
+  country: US
+  neighborhood: Bay View
+  lat: 42.9974
+  lon: -87.9016
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://mysugarmaple.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Bay View craft-beer bar that serves as a home venue for IMprovised SOund - Milwaukee
+      (IMSO), which presents improvised/experimental concerts there.
+    sources:
+    - https://improvisedsound.org/
+    - https://mysugarmaple.com/
+  show_frequency:
+    value: 2
+    evidence: IMSO shows are periodic rather than weekly.
+    sources:
+    - https://improvisedsound.org/
+  artist_roster:
+    value: 4
+    evidence: IMSO dates have featured improvisers such as Jason Stein, Damon Smith and Adam
+      Shead.
+    sources:
+    - https://improvisedsound.org/
+  self_description:
+    value: 2
+    evidence: Primarily presents as a craft-beer bar / community hub.
+    sources:
+    - https://mysugarmaple.com/
+  operating_model:
+    value: 2
+    evidence: Commercial craft-beer bar hosting an outside improv-music series.
+    sources:
+    - https://mysugarmaple.com/
+  community_reputation:
+    value: 3
+    evidence: Recognized Bay View venue used by Milwaukee's improvised-music community via
+      IMSO.
+    sources:
+    - https://improvisedsound.org/
+  listening_room:
+    value: 3
+    sources:
+    - https://improvisedsound.org/
+score: 56
+tier: supportive
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://improvisedsound.org/
+  - https://mysugarmaple.com/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: craft-beer bar that hosts the IMSO improvised-music series; confirm
+  current cadence of IMSO dates at this location.'

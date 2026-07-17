@@ -1,0 +1,71 @@
+id: clements-place-newark
+name: Clement's Place
+aliases: []
+status: active
+location:
+  address: 15 Washington St
+  city: Newark
+  region: NJ
+  country: US
+  lat: 40.7395
+  lon: -74.1725
+type: presenter
+operating_model: university
+capacity: null
+website: https://www.newark.rutgers.edu/event/jazz-jam-sessions-clements-place-presented-institute-jazz-studies-and-njpac-0
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Jazz venue on the Rutgers-Newark campus presenting a monthly jazz series and
+      jam sessions via the Institute of Jazz Studies and NJPAC, where musicians jam and improvise
+      with a professional band.
+    sources:
+    - https://www.njpac.org/event/jazz-jams-at-clements-place-nov/
+    - https://www.newark.rutgers.edu/event/jazz-jam-sessions-clements-place-presented-institute-jazz-studies-and-njpac-0
+  show_frequency:
+    value: 3
+    evidence: Regular monthly jazz jam sessions plus additional jazz performances.
+    sources:
+    - https://gregoryburrusproductions.com/2024/01/03/clements-place-schedule-fall-23-24/
+  artist_roster:
+    value: 2
+    evidence: Features established and emerging jazz musicians; program leans mainstream/straight-ahead
+      jazz rather than free improvisation.
+    sources:
+    - https://www.jazznearyou.com/newark/venue/clements-place
+  self_description:
+    value: 2
+    evidence: Presents itself as an intimate jazz club with jam sessions honoring historian
+      Clement Price; improvisation is welcomed at the jams.
+    sources:
+    - https://www.njsymphony.org/venues/detail/clements-place-at-rutgers-university-newark
+  operating_model:
+    value: 3
+    evidence: University-affiliated venue run with the Rutgers Institute of Jazz Studies and
+      NJPAC.
+    sources:
+    - https://www.njsymphony.org/venues/detail/clements-place-at-rutgers-university-newark
+  community_reputation:
+    value: 3
+    evidence: Recognized Newark jazz venue tied to the Institute of Jazz Studies.
+    sources:
+    - https://www.newarkhappening.com/listing/clements-place/999/
+  listening_room:
+    value: 3
+    evidence: Intimate jazz-club listening setting with a full bar.
+    sources:
+    - https://www.njsymphony.org/venues/detail/clements-place-at-rutgers-university-newark
+score: 49
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.njpac.org/event/jazz-jams-at-clements-place-nov/
+  - https://www.newark.rutgers.edu/event/jazz-jam-sessions-clements-place-presented-institute-jazz-studies-and-njpac-0
+  needs_human_review: true
+notes: 'NEEDS REVIEW: real, active jazz venue but leans straight-ahead jazz/jam sessions;
+  confirm how much genuine free/creative improv it programs.'

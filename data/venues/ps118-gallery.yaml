@@ -1,0 +1,68 @@
+id: ps118-gallery
+name: PS118 Gallery
+aliases: []
+status: active
+location:
+  address: "118 W Parrish St"
+  city: Durham
+  region: NC
+  country: US
+  neighborhood: Downtown
+  lat: 35.9958
+  lon: -78.9008
+type: gallery
+operating_model: artist_run
+capacity: null
+website: https://www.mallarmemusic.org/venue/ps118-gallery/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Small downtown gallery used as an intimate venue for new/chamber and improvised
+      music (e.g. Mallarme Music's Dynamic Duos mini-festival).
+    sources:
+    - https://www.mallarmemusic.org/venue/ps118-gallery/
+    - https://cvnc.org/article.cfm?articleId=10426
+  show_frequency:
+    value: 2
+    evidence: Hosts occasional concerts as one of several small Durham venues used by presenters.
+    sources:
+    - https://cvnc.org/article.cfm?articleId=10426
+  artist_roster:
+    value: 3
+    evidence: Programs new-music and improvising performers via partner presenters.
+    sources:
+    - https://www.mallarmemusic.org/venue/ps118-gallery/
+  self_description:
+    value: 2
+    evidence: Presents itself as an art gallery that also hosts intimate performances.
+    sources:
+    - https://www.mallarmemusic.org/venue/ps118-gallery/
+  operating_model:
+    value: 4
+    evidence: Independent artist/gallery space.
+    sources:
+    - https://www.mallarmemusic.org/venue/ps118-gallery/
+  community_reputation:
+    value: 2
+    evidence: Known locally as an intimate Durham performance venue.
+    sources:
+    - https://cvnc.org/article.cfm?articleId=10426
+  listening_room:
+    value: 4
+    evidence: Small gallery setting suited to attentive listening.
+    sources:
+    - https://www.mallarmemusic.org/venue/ps118-gallery/
+score: 50
+tier: supportive
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.mallarmemusic.org/venue/ps118-gallery/
+  - https://cvnc.org/article.cfm?articleId=10426
+  needs_human_review: true
+notes: 'Downtown Durham gallery used as an intimate concert venue by new-music/improv presenters.
+  Frequency and current improv-specific programming not fully verified; needs human review.'

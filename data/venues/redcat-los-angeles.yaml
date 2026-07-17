@@ -1,0 +1,73 @@
+id: redcat-los-angeles
+name: REDCAT
+aliases:
+- Roy and Edna Disney/CalArts Theater
+status: active
+location:
+  address: "631 W 2nd St"
+  city: Los Angeles
+  region: CA
+  country: US
+  neighborhood: Downtown
+  lat: 34.0554
+  lon: -118.2497
+type: arts_center
+operating_model: university
+capacity: 200
+website: https://www.redcat.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: CalArts' downtown center for contemporary arts; presents new and experimental
+      music within a broad program of dance, theater, performance and film.
+    sources:
+    - https://www.redcat.org/about
+    - https://en.wikipedia.org/wiki/REDCAT
+  show_frequency:
+    value: 2
+    evidence: Frequent programming overall, but experimental/new music is a subset of
+      the multidisciplinary calendar.
+    sources:
+    - https://www.redcat.org/events
+  artist_roster:
+    value: 3
+    evidence: Innovative work from LA and around the world, including experimental composers
+      and sound artists.
+    sources:
+    - https://www.redcat.org/about
+  self_description:
+    value: 5
+    evidence: Supports experimentation, innovation and discovery across art, music and
+      performance since 2003.
+    sources:
+    - https://www.redcat.org/about
+  operating_model:
+    value: 4
+    evidence: Operated by CalArts inside the Walt Disney Concert Hall complex.
+    sources:
+    - https://calarts.edu/redcat
+  community_reputation:
+    value: 4
+    evidence: Called "the gold standard of the avant garde in L.A."
+    sources:
+    - https://en.wikipedia.org/wiki/REDCAT
+  listening_room:
+    value: 4
+    evidence: 200-seat theater with attentive presentation.
+    sources:
+    - https://www.redcat.org/about
+score: 65
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.redcat.org/about
+  - https://en.wikipedia.org/wiki/REDCAT
+  - https://calarts.edu/redcat
+  needs_human_review: false
+notes: CalArts' downtown avant-garde arts center; presents experimental/new music as part
+  of a broad multidisciplinary program.

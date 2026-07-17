@@ -1,0 +1,72 @@
+id: the-fruit-durham
+name: The Fruit
+aliases:
+- Durham Fruit and Produce Company
+status: active
+location:
+  address: "305 S Dillard St"
+  city: Durham
+  region: NC
+  country: US
+  neighborhood: Downtown / East Durham
+  lat: 35.9922
+  lon: -78.8955
+type: arts_center
+operating_model: artist_run
+capacity: null
+website: https://www.durhamfruit.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: An arts warehouse and hub for experimental artists; music is one strand within
+      dance, theater, film and visual art.
+    sources:
+    - https://www.durhamfruit.com/about.html
+    - https://arts.duke.edu/places/the-fruit/
+  show_frequency:
+    value: 2
+    evidence: Hosts live and electronic music and interdisciplinary events, but not a dedicated
+      improv series.
+    sources:
+    - https://www.durhamfruit.com/
+  artist_roster:
+    value: 2
+    evidence: Supports alternative/local/emerging artists across genres; experimental and jazz
+      appear among many event types.
+    sources:
+    - https://www.discoverdurham.com/blog/music-lovers-guide-to-durham/
+  self_description:
+    value: 3
+    evidence: "Describes itself as an arts warehouse and hub for experimental artists supporting\
+      \ experimentation."
+    sources:
+    - https://www.durhamfruit.com/about.html
+  operating_model:
+    value: 3
+    evidence: Artist-run 22,000 sq ft warehouse with residencies, galleries, and a black-box theater.
+    sources:
+    - https://www.durhamfruit.com/about.html
+  community_reputation:
+    value: 3
+    evidence: Award-winning Durham arts space, voted the city's "Best Kept Secret."
+    sources:
+    - https://www.discoverdurham.com/blog/music-lovers-guide-to-durham/
+  listening_room:
+    value: 2
+    evidence: Multi-use warehouse with a full bar; not a dedicated listening room.
+    sources:
+    - https://www.durhamfruit.com/space-1
+score: 46
+tier: supportive
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.durhamfruit.com/about.html
+  - https://arts.duke.edu/places/the-fruit/
+  needs_human_review: false
+notes: 'Broad artist-run arts warehouse in Durham that supports experimental artists across
+  disciplines; improvised music is present but secondary to the wider program.'

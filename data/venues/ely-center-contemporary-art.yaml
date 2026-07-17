@@ -1,0 +1,71 @@
+id: ely-center-contemporary-art
+name: Ely Center of Contemporary Art
+aliases:
+- ECOCA
+status: active
+location:
+  address: 51 Trumbull St
+  city: New Haven
+  region: CT
+  country: US
+  lat: 41.3117
+  lon: -72.9251
+type: gallery
+operating_model: nonprofit
+capacity: null
+website: https://elycenter.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Contemporary-art center hosting "Weird Music Night," a recurring evening of
+      experimental sound and performance with avant-garde and noise artists; now also the
+      home of the New Haven Improvisers Collective.
+    sources:
+    - https://elycenter.org/weird-music-night
+    - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
+  show_frequency:
+    value: 3
+    evidence: Recurring experimental music/performance nights within the gallery's events
+      calendar.
+    sources:
+    - https://elycenter.org/events-workshops-calendar
+  artist_roster:
+    value: 4
+    evidence: Programs avant-garde musicians, experimental noise acts and improvisers.
+    sources:
+    - https://elycenter.org/weird-music-night
+  self_description:
+    value: 3
+    evidence: Frames the series around boundary-pushing sound and experimentation.
+    sources:
+    - https://elycenter.org/weird-music-night
+  operating_model:
+    value: 5
+    evidence: Nonprofit contemporary-art center.
+    sources:
+    - https://visitnewhaven.com/places/ely-center-of-contemporary-art/
+  community_reputation:
+    value: 3
+    evidence: Covered by the New Haven Independent; a current home for the city's improvised-music
+      community.
+    sources:
+    - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
+  listening_room:
+    value: 3
+    evidence: Gallery/mansion setting used for attentive sound performances.
+    sources:
+    - https://elycenter.org/weird-music-night
+score: 68
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://elycenter.org/weird-music-night
+  - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
+  needs_human_review: false
+notes: New Haven contemporary-art gallery hosting Weird Music Night and the New Haven Improvisers
+  Collective; coordinates approximate to Trumbull St.

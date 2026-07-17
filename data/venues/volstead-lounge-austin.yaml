@@ -1,0 +1,68 @@
+id: volstead-lounge-austin
+name: The Volstead Lounge
+aliases:
+- Volstead
+- Me Mer Mo Monday
+status: active
+location:
+  address: "1500 E 6th St"
+  city: Austin
+  region: TX
+  country: US
+  neighborhood: East Austin
+  lat: 30.2637
+  lon: -97.7246
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://do512.com/events/weekly/mon/me-mer-mo-monday
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Home of the weekly Me Mer Mo Monday series (established 2016), dedicated to experimental and not-easily-categorized music."
+    sources:
+    - https://do512.com/events/weekly/mon/me-mer-mo-monday
+    - https://kutx.org/austin-music-minute/me-mer-mo/
+  show_frequency:
+    value: 4
+    evidence: "Me Mer Mo Monday runs weekly (6pm-midnight every Monday)."
+    sources:
+    - https://do512.com/events/weekly/mon/me-mer-mo-monday
+  artist_roster:
+    value: 4
+    evidence: "Spotlights experimental and uncategorizable local and touring artists."
+    sources:
+    - https://do512.com/events/weekly/mon/me-mer-mo-monday
+  self_description:
+    value: 2
+    evidence: "A cocktail lounge; the experimental identity comes from the resident Me Mer Mo series rather than the venue itself."
+    sources:
+    - https://www.yelp.com/biz/volstead-lounge-austin
+  operating_model:
+    value: 3
+    evidence: "Commercial East 6th Street bar hosting an artist-curated experimental series."
+    sources:
+    - https://www.yelp.com/biz/volstead-lounge-austin
+  community_reputation:
+    value: 3
+    evidence: "Me Mer Mo Monday covered by KUTX and Austin press as a home for the city's experimental fringe."
+    sources:
+    - https://kutx.org/austin-music-minute/me-mer-mo/
+  listening_room:
+    value: 2
+    evidence: "Bar/lounge environment rather than a dedicated listening room."
+    sources:
+    - https://www.yelp.com/biz/volstead-lounge-austin
+score: 70
+tier: committed
+confidence: 0.68
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://do512.com/events/weekly/mon/me-mer-mo-monday
+  - https://kutx.org/austin-music-minute/me-mer-mo/
+  needs_human_review: false
+notes: "East Austin bar whose weekly Me Mer Mo Monday is one of the city's steadiest experimental-music series."

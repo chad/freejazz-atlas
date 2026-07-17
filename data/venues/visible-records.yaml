@@ -1,0 +1,73 @@
+id: visible-records
+name: Visible Records
+aliases: []
+status: active
+location:
+  address: "1740 Broadway St"
+  city: Charlottesville
+  region: VA
+  country: US
+  neighborhood: Woolen Mills
+  lat: 38.0199
+  lon: -78.47
+type: gallery
+operating_model: artist_run
+capacity: null
+website: https://www.visible-records.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: For several years has been home to improvisational and experimental music across
+      genres; hosts recurring improv/experimental nights.
+    sources:
+    - https://www.visible-records.com/
+    - https://allevents.in/charlottesville/a-night-of-improvisational-percussion/200028369894651
+  show_frequency:
+    value: 3
+    evidence: Regular independent music events alongside gallery programming.
+    sources:
+    - https://www.jazznearyou.com/charlottesville/venues/visible-records
+  artist_roster:
+    value: 4
+    evidence: Presents improvisers and experimental musicians (e.g. improvisational percussion
+      nights; Charlottesville Jazz Society presentations).
+    sources:
+    - https://allevents.in/charlottesville/a-night-of-improvisational-percussion/200028369894651
+    - https://www.visible-records.com/commonspaceevents/charlottesville-jazz-society-presents
+  self_description:
+    value: 4
+    evidence: Artist-run gallery/studio space that describes itself as a home for improvisational
+      and experimental music.
+    sources:
+    - https://www.visible-records.com/
+    - https://arts.virginia.edu/node/1068
+  operating_model:
+    value: 5
+    evidence: Affordable artist-run gallery and studio space opened 2021 in a former data warehouse.
+    sources:
+    - https://arts.virginia.edu/node/1068
+  community_reputation:
+    value: 3
+    evidence: Recognized as Charlottesville's key alternative/experimental arts space.
+    sources:
+    - https://arts.virginia.edu/node/1068
+  listening_room:
+    value: 4
+    evidence: Gallery setting used for attentive performance.
+    sources:
+    - https://www.visible-records.com/
+score: 76
+tier: committed
+confidence: 0.72
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.visible-records.com/
+  - https://arts.virginia.edu/node/1068
+  - https://allevents.in/charlottesville/a-night-of-improvisational-percussion/200028369894651
+  needs_human_review: false
+notes: 'Artist-run gallery/studio in Charlottesville that has become a regular home for improvised
+  and experimental music.'

@@ -1,0 +1,70 @@
+id: seattle-improvised-music-festival
+name: Seattle Improvised Music Festival
+aliases:
+- SIMF
+status: active
+location:
+  city: Seattle
+  region: WA
+  country: US
+  lat: 47.6062
+  lon: -122.3321
+type: festival
+operating_model: nonprofit
+capacity: null
+website: https://seattleimprovfest.wordpress.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: A festival wholly dedicated to total free improvisation, running annually since
+      1986; typically pairs visiting improvisers with local musicians.
+    sources:
+    - https://seattleimprovfest.wordpress.com/
+    - https://www.earshot.org/03-20-the-35th-annual-seattle-improvised-music-festival/
+  show_frequency:
+    value: 2
+    evidence: Concentrated annual festival (a handful of nights) rather than year-round programming.
+    sources:
+    - https://seattleimprovfest.wordpress.com/
+  artist_roster:
+    value: 5
+    evidence: Exclusively free-improvisation artists exploring the full sound range of their
+      instruments, plus silence and noise.
+    sources:
+    - https://www.earshot.org/here-by-ear-the-34th-annual-seattle-improvised-music-festival/
+  self_description:
+    value: 5
+    evidence: Describes itself as celebrating total free improvisation.
+    sources:
+    - https://seattleimprovfest.wordpress.com/
+  operating_model:
+    value: 5
+    evidence: Nonprofit-run; presented in partnership with Nonsequitur and Earshot Jazz.
+    sources:
+    - https://www.nseq.org/concerts/33rd-seattle-improvised-music-festival/
+  community_reputation:
+    value: 4
+    evidence: One of Seattle's longest-running and most distinctive musical experiments.
+    sources:
+    - https://www.earshot.org/03-20-the-35th-annual-seattle-improvised-music-festival/
+  listening_room:
+    value: 4
+    evidence: Presented in attentive concert/listening settings (e.g., Chapel Performance
+      Space).
+    sources:
+    - https://www.nseq.org/concerts/33rd-seattle-improvised-music-festival/
+score: 85
+tier: cornerstone
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://seattleimprovfest.wordpress.com/
+  - https://www.earshot.org/03-20-the-35th-annual-seattle-improvised-music-festival/
+  - https://www.nseq.org/concerts/33rd-seattle-improvised-music-festival/
+  needs_human_review: false
+notes: Annual free-improvisation festival, founded 1986 by Paul Hoskin. Coordinates are Seattle
+  city-center; the festival moves between partner venues.

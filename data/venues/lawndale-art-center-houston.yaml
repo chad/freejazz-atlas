@@ -1,0 +1,74 @@
+id: lawndale-art-center-houston
+name: Lawndale Art Center
+aliases:
+- Lawndale
+status: active
+location:
+  address: 4912 Main St
+  city: Houston
+  region: TX
+  country: US
+  neighborhood: Museum District
+  lat: 29.7288
+  lon: -95.384
+type: gallery
+operating_model: nonprofit
+capacity: null
+website: https://lawndaleartcenter.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Official home of Nameless Sound's weekly They, Who Sound series - an evening
+      of experimental sound-making, improvised music and noise, every Monday.
+    sources:
+    - https://lawndaleartcenter.org/event/they-who-sound-46/
+    - https://www.namelesssound.org/concerts/they-who-sound
+  show_frequency:
+    value: 5
+    evidence: They, Who Sound runs every Monday at 7:30pm with two different sets each week.
+    sources:
+    - https://www.namelesssound.org/concerts/they-who-sound
+  artist_roster:
+    value: 5
+    evidence: Two weekly sets showcasing international and regional creative-music improvisers,
+      emphasizing Houston's local scene.
+    sources:
+    - https://www.namelesssound.org/concerts/they-who-sound
+  self_description:
+    value: 4
+    evidence: Presents the series as experimental sound-making, improvised music, noise and
+      the sounding of art.
+    sources:
+    - https://lawndaleartcenter.org/event/they-who-sound-46/
+  operating_model:
+    value: 5
+    evidence: Nonprofit contemporary visual-art center partnering with the nonprofit presenter
+      Nameless Sound.
+    sources:
+    - https://lawndaleartcenter.org/
+  community_reputation:
+    value: 4
+    evidence: Cited across Houston experimental-music coverage as the standing home of They,
+      Who Sound.
+    sources:
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  listening_room:
+    value: 4
+    evidence: Free, attentive gallery listening setting.
+    sources:
+    - https://www.namelesssound.org/concerts/they-who-sound
+score: 95
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://lawndaleartcenter.org/event/they-who-sound-46/
+  - https://www.namelesssound.org/concerts/they-who-sound
+  - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  needs_human_review: false
+notes: Museum District art center that hosts Nameless Sound's weekly They, Who Sound - Houston's
+  most regular improvised/experimental music night.

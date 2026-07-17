@@ -1,0 +1,73 @@
+id: adobe-books-backroom-gallery
+name: Adobe Books Backroom Gallery
+aliases:
+- Adobe Books
+status: active
+location:
+  address: "3130 24th St"
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: Mission District
+  lat: 37.7525
+  lon: -122.4165
+type: record_store
+operating_model: artist_run
+capacity: null
+website: http://www.adobebooks.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Hosts a monthly free-improv music night (Improv Nite) on the last Thursday
+      of the month in its backroom gallery.
+    sources:
+    - http://www.adobebooks.com/events/2024/4/25/improv-nite-
+    - http://www.adobebooks.com/about-adobe-books
+  show_frequency:
+    value: 2
+    evidence: Monthly improv night plus other music/literary events; music is one strand
+      of programming.
+    sources:
+    - http://www.adobebooks.com/events
+  artist_roster:
+    value: 3
+    evidence: Local improvisers and experimental artists; a longtime alternative-arts
+      backroom.
+    sources:
+    - http://www.adobebooks.com/about-adobe-books
+  self_description:
+    value: 4
+    evidence: Describes the Backroom Gallery as an experimental arts space where artists
+      experiment freely.
+    sources:
+    - http://www.adobebooks.com/about-adobe-books
+  operating_model:
+    value: 4
+    evidence: Independent artist-oriented bookshop/gallery; obtained a Limited Entertainment
+      License to host music and literary events.
+    sources:
+    - http://www.adobebooks.com/about-adobe-books
+  community_reputation:
+    value: 3
+    evidence: Longstanding Mission cultural fixture; listed on Bay Improviser and Artforum.
+    sources:
+    - https://www.artforum.com/venue/adobe-books-backroom-gallery/
+  listening_room:
+    value: 2
+    evidence: Small backroom gallery; informal listening.
+    sources:
+    - http://www.adobebooks.com/about-adobe-books
+score: 59
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://www.adobebooks.com/about-adobe-books
+  - http://www.adobebooks.com/events/2024/4/25/improv-nite-
+  needs_human_review: false
+notes: Mission bookstore whose Backroom Gallery runs a monthly free-improv night; experimental
+  music is secondary to books/visual art.

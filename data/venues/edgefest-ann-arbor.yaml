@@ -1,0 +1,67 @@
+id: edgefest-ann-arbor
+name: Edgefest
+aliases:
+- Edgefest Ann Arbor
+status: active
+location:
+  address: "415 N Fourth Ave"
+  city: Ann Arbor
+  region: MI
+  country: US
+  neighborhood: Kerrytown
+  lat: 42.2836
+  lon: -83.7486
+type: festival
+operating_model: nonprofit
+capacity: 100
+website: https://kerrytownconcerthouse.com/event/edgefest-29/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: "Annual four-day avant-garde and free-jazz festival presented by the Kerrytown Concert House; one of North America's premier festivals for avant-garde and improvisational music."
+    sources:
+    - https://kerrytownconcerthouse.com/event/edgefest-29/
+    - https://www.metrotimes.com/music/edgefest-to-celebrate-25-years-of-avant-garde-jazz-at-ann-arbors-kerrytown-concert-house-28371309
+  show_frequency:
+    value: 2
+    evidence: "Concentrated annual four-day festival (29th edition in 2025) rather than year-round programming."
+    sources:
+    - https://kerrytownconcerthouse.com/event/edgefest-29/
+  artist_roster:
+    value: 5
+    evidence: "Programs groundbreaking improvised and composed music by local and international avant-garde artists."
+    sources:
+    - https://annarborobserver.com/guide/edgefest/
+  self_description:
+    value: 5
+    evidence: "Bills itself as an avant-garde and free-jazz / creative-music festival."
+    sources:
+    - https://kerrytownconcerthouse.com/event/edgefest-29/
+  operating_model:
+    value: 4
+    evidence: "Produced by the nonprofit Kerrytown Concert House."
+    sources:
+    - https://annarborobserver.com/guide/edgefest/
+  community_reputation:
+    value: 5
+    evidence: "Named by DownBeat among the world's top 50 jazz/avant festivals."
+    sources:
+    - https://www.metrotimes.com/music/edgefest-to-celebrate-25-years-of-avant-garde-jazz-at-ann-arbors-kerrytown-concert-house-28371309
+  listening_room:
+    value: 5
+    evidence: "Held in the intimate 100-seat Kerrytown Concert House."
+    sources:
+    - https://kerrytownconcerthouse.com/
+score: 86
+tier: cornerstone
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://kerrytownconcerthouse.com/event/edgefest-29/
+  - https://www.metrotimes.com/music/edgefest-to-celebrate-25-years-of-avant-garde-jazz-at-ann-arbors-kerrytown-concert-house-28371309
+  needs_human_review: false
+notes: "Annual avant-garde/free-jazz festival hosted at the Kerrytown Concert House; distinct festival entity from the year-round venue."

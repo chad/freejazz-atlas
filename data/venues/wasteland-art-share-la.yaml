@@ -1,0 +1,75 @@
+id: wasteland-art-share-la
+name: wasteLAnd
+aliases:
+- Wasteland Music
+status: active
+location:
+  address: "801 E 4th Pl"
+  city: Los Angeles
+  region: CA
+  country: US
+  neighborhood: Arts District
+  lat: 34.0430
+  lon: -118.2340
+type: presenter
+operating_model: artist_run
+capacity: null
+website: https://www.wastelandmusic.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: A Los Angeles concert series dedicated to avant-garde and experimental music,
+      emphasizing recent and under-performed compositions; presented primarily at Art
+      Share LA in the Arts District.
+    sources:
+    - https://www.wastelandmusic.org/about
+    - https://www.laphil.com/musicdb/artists/7108/wasteland
+  show_frequency:
+    value: 3
+    evidence: Runs a season of concerts (multiple programs per year), roughly monthly
+      during the season.
+    sources:
+    - https://www.sequenza21.com/2018/10/wasteland-opens-season-six-in-los-angeles/
+  artist_roster:
+    value: 4
+    evidence: Focuses on local performers and living composers of avant-garde/experimental
+      music.
+    sources:
+    - https://www.wastelandmusic.org/about
+  self_description:
+    value: 5
+    evidence: Explicitly a series featuring avant-garde and experimental music.
+    sources:
+    - https://www.wastelandmusic.org/about
+  operating_model:
+    value: 4
+    evidence: Artist/performer-run concert series committed to expanding LA's contemporary-music
+      offerings.
+    sources:
+    - https://www.wastelandmusic.org/about
+  community_reputation:
+    value: 3
+    evidence: Recognized LA new-music series covered by Sequenza21 and listed by the LA
+      Phil.
+    sources:
+    - https://www.laphil.com/musicdb/artists/7108/wasteland
+  listening_room:
+    value: 4
+    evidence: Presented in a relaxed, attentive concert setting at Art Share LA.
+    sources:
+    - https://www.sequenza21.com/2016/06/wasteland-at-art-share-la/
+score: 82
+tier: committed
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.wastelandmusic.org/about
+  - https://www.laphil.com/musicdb/artists/7108/wasteland
+  - https://www.sequenza21.com/2016/06/wasteland-at-art-share-la/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: artist-run avant-garde/experimental concert series presented at Art
+  Share LA; confirm current season is active and its home venue in 2026.'

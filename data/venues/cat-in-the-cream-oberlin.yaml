@@ -1,0 +1,66 @@
+id: cat-in-the-cream-oberlin
+name: Cat in the Cream
+aliases:
+- Cat in the Cream Coffeehouse
+status: active
+location:
+  address: "180 W College St"
+  city: Oberlin
+  region: OH
+  country: US
+  neighborhood: Oberlin College
+  lat: 41.2932
+  lon: -82.2210
+type: university
+operating_model: university
+capacity: null
+website: https://www.oberlin.edu/timara
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: "Oberlin College coffeehouse that hosts the weekly Jazz Forum for student ensembles and serves as a performance space for TIMARA (electronic/experimental) and the Oberlin Improv Fest."
+    sources:
+    - https://calendar.oberlin.edu/event/oberlin_improv_fest_jazz_forum
+    - https://timara.oberlin.edu/recap-oberlin-improv-fest-2023-1657/
+  show_frequency:
+    value: 3
+    evidence: "Weekly Jazz Forum during term plus recitals and festival events."
+    sources:
+    - https://www.oberlin.edu/blogs/three-recitals-three-venues
+  artist_roster:
+    value: 3
+    evidence: "Student and faculty improvisers/experimentalists from the Jazz Studies and TIMARA programs, plus visiting artists."
+    sources:
+    - https://timara.oberlin.edu/recap-oberlin-improv-fest-2023-1657/
+  self_description:
+    value: 2
+    evidence: "A student-run coffeehouse used for jazz, burlesque, poetry and multimedia performance."
+    sources:
+    - https://www.oberlin.edu/blogs/three-recitals-three-venues
+  operating_model:
+    value: 4
+    evidence: "Student-run venue within Oberlin College and Conservatory."
+    sources:
+    - https://oberlinreview.org/34515/arts/yuka-honda-performs-at-cat-in-the-cream/
+  community_reputation:
+    value: 2
+    sources:
+    - https://www.oberlin.edu/blogs/three-recitals-three-venues
+  listening_room:
+    value: 4
+    evidence: "Seated coffeehouse room with a stage and built-in sound system for recitals."
+    sources:
+    - https://www.oberlin.edu/blogs/three-recitals-three-venues
+score: 59
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://calendar.oberlin.edu/event/oberlin_improv_fest_jazz_forum
+  - https://timara.oberlin.edu/recap-oberlin-improv-fest-2023-1657/
+  needs_human_review: true
+notes: "NEEDS REVIEW: Oberlin coffeehouse tied to the Jazz Forum, TIMARA and Oberlin Improv Fest; academic-calendar-driven, largely student programming. Coordinates approximate to the College Street campus block."

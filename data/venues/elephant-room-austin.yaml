@@ -1,0 +1,66 @@
+id: elephant-room-austin
+name: Elephant Room
+aliases: []
+status: active
+location:
+  address: "315 Congress Ave"
+  city: Austin
+  region: TX
+  country: US
+  neighborhood: Downtown
+  lat: 30.2669
+  lon: -97.7424
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://elephantroom.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 1
+    evidence: "Nightly jazz club, but programming is largely swing and straight-ahead/traditional jazz rather than free or avant material."
+    sources:
+    - https://elephantroom.com/
+    - https://thedailytexan.com/2023/11/15/austins-jazz-map/
+  show_frequency:
+    value: 2
+    evidence: "Live jazz seven nights a week; adventurous/original sets occur but are a minority of the calendar."
+    sources:
+    - https://elephantroom.com/calendar
+  artist_roster:
+    value: 2
+    evidence: "Mostly local straight-ahead jazz combos, with occasional more exploratory ensembles."
+    sources:
+    - https://elephantroom.com/calendar
+  self_description:
+    value: 1
+    evidence: "Presents itself as a classic basement jazz club, not an experimental space."
+    sources:
+    - https://elephantroom.com/
+  operating_model:
+    value: 2
+    evidence: "Long-running commercial jazz club (opened 1991)."
+    sources:
+    - https://www.austintexas.org/listings/elephant-room/2833/
+  community_reputation:
+    value: 2
+    evidence: "Recognized jazz institution in Austin, though as a mainstream jazz room."
+    sources:
+    - https://thedailytexan.com/2023/11/15/austins-jazz-map/
+  listening_room:
+    value: 4
+    evidence: "Intimate low-ceilinged basement with a genuine listening atmosphere."
+    sources:
+    - https://www.austintexas.org/listings/elephant-room/2833/
+score: 35
+tier: occasional
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://elephantroom.com/
+  - https://thedailytexan.com/2023/11/15/austins-jazz-map/
+  needs_human_review: false
+notes: "Downtown basement jazz club; strong listening room but predominantly straight-ahead jazz, so an occasional home for adventurous playing at best."

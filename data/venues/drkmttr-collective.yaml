@@ -1,0 +1,72 @@
+id: drkmttr-collective
+name: DRKMTTR Collective
+aliases:
+- Drkmttr
+status: active
+location:
+  address: "1111 Dickerson Pike"
+  city: Nashville
+  region: TN
+  country: US
+  neighborhood: East Nashville
+  lat: 36.1878
+  lon: -86.7715
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://www.drkmttrcollective.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: All-ages DIY venue especially welcoming to experimental, electronic, noise, and
+      genre-defying projects, though it books across many genres including punk.
+    sources:
+    - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
+    - https://www.drkmttrcollective.com/
+  show_frequency:
+    value: 4
+    evidence: Frequent shows as an active all-ages venue and organizing space.
+    sources:
+    - https://do615.com/venues/drkmttr
+  artist_roster:
+    value: 2
+    evidence: Roster spans punk, electronic, noise, and experimental; experimental/improv is
+      one strand among many.
+    sources:
+    - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
+  self_description:
+    value: 4
+    evidence: "Prioritizes inclusivity, experimentation, and accessibility; welcoming to\
+      \ genre-defying projects."
+    sources:
+    - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
+  operating_model:
+    value: 5
+    evidence: Volunteer-run arts collective and all-ages venue, going ~10 years.
+    sources:
+    - https://www.drkmttrcollective.com/
+    - https://www.yelp.com/biz/drkmttr-nashville
+  community_reputation:
+    value: 3
+    evidence: A recognized hub of Nashville's DIY and experimental/electronic scene.
+    sources:
+    - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
+  listening_room:
+    value: 2
+    evidence: DIY all-ages club rather than a dedicated listening room.
+    sources:
+    - https://do615.com/venues/drkmttr
+score: 60
+tier: supportive
+confidence: 0.68
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.drkmttrcollective.com/
+  - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
+  needs_human_review: false
+notes: 'Volunteer-run all-ages DIY venue in East Nashville; experimental/noise/electronic is
+  a core welcome but the booking is broad (also punk, indie).'

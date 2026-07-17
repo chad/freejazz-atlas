@@ -1,0 +1,72 @@
+id: leaven-community-portland
+name: Leaven Community Center
+aliases: []
+status: active
+location:
+  address: 5431 NE 20th Ave
+  city: Portland
+  region: OR
+  country: US
+  neighborhood: Northeast Portland
+  lat: 45.5628
+  lon: -122.644
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.leaven.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Community center that hosts the Creative Music Guild's Extradition Series and
+      other experimental/improvised concerts in an attentive, non-commercial setting.
+    sources:
+    - https://everout.com/portland/events/extradition-series-2020-winter-concert/e98685/
+    - https://creativemusicguild.org/extradition-series-2017-spring-concert/
+  show_frequency:
+    value: 2
+    evidence: Hosts experimental-music concerts periodically (e.g. quarterly Extradition events)
+      rather than a weekly series.
+    sources:
+    - https://dopdx.com/venues/leaven-community-center
+  artist_roster:
+    value: 4
+    evidence: When presenting music, features improvisers and experimental composers via CMG
+      programming.
+    sources:
+    - https://creativemusicguild.org/extradition-series-2017-spring-concert/
+  self_description:
+    value: 3
+    evidence: A community center embraced by Portland's experimental-music community as a
+      concert space.
+    sources:
+    - https://www.vrtxmag.com/businesses/leaven-community/
+  operating_model:
+    value: 5
+    evidence: Nonprofit community organization/space.
+    sources:
+    - https://www.leaven.org/
+  community_reputation:
+    value: 3
+    evidence: A recurring host venue for Portland's experimental/improvised concerts.
+    sources:
+    - https://corb.in/venues/leaven/
+  listening_room:
+    value: 4
+    evidence: Used as an attentive, seated concert space with a fully listening audience.
+    sources:
+    - https://creativemusicguild.org/extradition-series-2017-spring-concert/
+score: 65
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.leaven.org/
+  - https://www.vrtxmag.com/businesses/leaven-community/
+  - https://everout.com/portland/events/extradition-series-2020-winter-concert/e98685/
+  needs_human_review: false
+notes: NE Portland nonprofit community center that serves as a recurring host venue for Creative
+  Music Guild / Extradition experimental-music concerts.

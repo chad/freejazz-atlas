@@ -1,0 +1,68 @@
+id: fulton-street-collective
+name: Fulton Street Collective
+aliases:
+- FSC
+- Jazz Record Art Collective
+status: active
+location:
+  address: "1821 W Hubbard St"
+  city: Chicago
+  region: IL
+  country: US
+  neighborhood: West Town
+  lat: 41.8897
+  lon: -87.6720
+type: dedicated_space
+operating_model: artist_run
+capacity: null
+website: https://fultonstreetcollective.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Artist-collective loft with a regular live-jazz series (curated by Chris Anderson) and home of the Jazz Record Art Collective listening/performance series."
+    sources:
+    - https://fultonstreetcollective.com/live-jazz/
+    - https://www.jazzrecordartcollective.com/about.html
+  show_frequency:
+    value: 4
+    evidence: "Weekly live-jazz programming plus the Jazz Record Art Collective series."
+    sources:
+    - https://www.timeout.com/chicago/music/fulton-street-collective-jazz-series
+  artist_roster:
+    value: 4
+    evidence: "Books Chicago jazz and improvising musicians in a donation-based loft setting."
+    sources:
+    - https://www.chicagojazz.com/post/fulton-street-collective-live-jazz
+  self_description:
+    value: 3
+    evidence: "Artist collective dedicated to the development of artists and the artistic community via shared studios and performance space."
+    sources:
+    - https://www.theatermania.com/venue/fulton-street-collective/
+  operating_model:
+    value: 4
+    evidence: "Artist-run collective; suggested-donation tickets go directly to artists."
+    sources:
+    - https://fultonstreetcollective.com/live-jazz/
+  community_reputation:
+    value: 3
+    evidence: "Regarded as one of the top spots in Chicago to hear live jazz in an intimate loft."
+    sources:
+    - https://www.timeout.com/chicago/music/fulton-street-collective-jazz-series
+  listening_room:
+    value: 4
+    evidence: "Loft gallery/performance room with attentive seated audiences."
+    sources:
+    - https://www.chicagojazz.com/post/fulton-street-collective-live-jazz
+score: 76
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://fultonstreetcollective.com/live-jazz/
+  - https://www.jazzrecordartcollective.com/about.html
+  needs_human_review: false
+notes: "West Town artist loft; programming spans creative and mainstream jazz. Also the base of the Jazz Record Art Collective."

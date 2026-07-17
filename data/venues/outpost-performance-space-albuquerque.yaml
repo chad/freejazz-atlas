@@ -1,0 +1,75 @@
+id: outpost-performance-space-albuquerque
+name: Outpost Performance Space
+aliases:
+- The Outpost
+- Outpost Productions
+status: active
+location:
+  address: 210 Yale Blvd SE
+  city: Albuquerque
+  region: NM
+  country: US
+  lat: 35.0731
+  lon: -106.6197
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://outpostspace.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Nonprofit performing-arts center presenting an eclectic mix from jazz to experimental;
+      runs long-standing series (Music Under the Stars, Summer Thursday Jazz Nights) and the
+      New Mexico Jazz Festival, with a strong creative/improvised strand.
+    sources:
+    - https://outpostspace.org/
+    - https://outpostspace.org/about-us/outpost-story/
+  show_frequency:
+    value: 4
+    evidence: Presents over 100 shows a year - jazz, experimental, folk, international, spoken
+      word and more.
+    sources:
+    - https://outpostspace.org/about-us/outpost-story/
+  artist_roster:
+    value: 3
+    evidence: Books recognized jazz and experimental/improvising artists within a broad program.
+    sources:
+    - https://outpostspace.org/
+  self_description:
+    value: 4
+    evidence: Founded to offer an intimate home for a uniquely eclectic mix ranging from jazz
+      to experimental to international and roots.
+    sources:
+    - https://outpostspace.org/about-us/outpost-story/
+  operating_model:
+    value: 5
+    evidence: 501(c)(3) nonprofit (Outpost Productions), founded 1988; member-supported and
+      community-based. Merged with the New Mexico Jazz Workshop in 2026.
+    sources:
+    - https://outpostspace.org/about-us/outpost-story/
+  community_reputation:
+    value: 5
+    evidence: The recognized cornerstone for creative jazz and improvised music in New Mexico
+      for over three decades.
+    sources:
+    - https://www.newmexico.org/listing/outpost/258/
+  listening_room:
+    value: 5
+    evidence: Intimate, alcohol- and smoke-free, seated listening space.
+    sources:
+    - https://outpostspace.org/about-us/outpost-story/
+score: 81
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://outpostspace.org/
+  - https://outpostspace.org/about-us/outpost-story/
+  - https://www.newmexico.org/listing/outpost/258/
+  needs_human_review: false
+notes: Albuquerque's cornerstone nonprofit listening room; 100+ shows/year spanning jazz to
+  experimental, with a dedicated alcohol-free attentive-listening ethos.

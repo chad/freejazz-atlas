@@ -1,0 +1,72 @@
+id: apohadion-theater
+name: The Apohadion Theater
+aliases: []
+status: active
+location:
+  address: 107 Hanover St
+  city: Portland
+  region: ME
+  country: US
+  neighborhood: Arts District
+  lat: 43.6642
+  lon: -70.2568
+type: diy_space
+operating_model: artist_run
+capacity: null
+website: https://apohadiontheater.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: DIY grassroots performance space run out of a shared studio of 25+ artists;
+      curates an "Experimental Creators" series and regularly hosts experimental music.
+    sources:
+    - https://apohadiontheater.org/
+    - https://expcinema.org/site/en/venues/apohadion-theater
+  show_frequency:
+    value: 3
+    evidence: Ongoing calendar of experimental music, film and performance events.
+    sources:
+    - https://apohadiontheater.org/Upcoming-Events
+  artist_roster:
+    value: 4
+    evidence: Programs experimental bands and musicians and creators working in experimental
+      ways.
+    sources:
+    - https://expcinema.org/site/en/venues/apohadion-theater
+  self_description:
+    value: 5
+    evidence: Describes itself as a non-traditional grassroots space for experimental music,
+      film and performance.
+    sources:
+    - https://expcinema.org/site/en/venues/apohadion-theater
+  operating_model:
+    value: 5
+    evidence: DIY, artist-run space operated by a shared studio collective.
+    sources:
+    - https://apohadiontheater.org/
+  community_reputation:
+    value: 3
+    evidence: Recognized Portland hub for experimental and underground performance; supported
+      by SPACE's Kindling Fund.
+    sources:
+    - https://space538.org/artist/kindling-fund/the-apohadion-theater/
+  listening_room:
+    value: 4
+    evidence: Intimate DIY theater setting.
+    sources:
+    - https://apohadiontheater.org/
+score: 79
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://apohadiontheater.org/
+  - https://expcinema.org/site/en/venues/apohadion-theater
+  - https://space538.org/artist/kindling-fund/the-apohadion-theater/
+  needs_human_review: false
+notes: Portland ME DIY artist-run space with experimental programming; coordinates approximate
+  to Hanover St.

@@ -1,0 +1,70 @@
+id: avant-vespers-provo
+name: Avant Vespers
+aliases: []
+status: active
+location:
+  city: Provo
+  region: UT
+  country: US
+  neighborhood: St. Mary's Episcopal Church
+  lat: 40.236
+  lon: -111.662
+type: presenter
+operating_model: diy_collective
+capacity: null
+website: https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: A monthly DIY series of experimental performances - outsider jazz, experimental
+      classical, spoken-word poetry - curated by composer Christian Asplund, begun June 2018
+      at St. Mary's Episcopal Church.
+    sources:
+    - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  show_frequency:
+    value: 3
+    evidence: Monthly series.
+    sources:
+    - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  artist_roster:
+    value: 4
+    evidence: Outsider jazz and experimental-classical performers pushing boundaries; programmed
+      by a composer.
+    sources:
+    - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  self_description:
+    value: 5
+    evidence: Explicitly about pushing boundaries and shaking up the staid atmosphere of classical
+      music in an inclusive, populist space.
+    sources:
+    - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  operating_model:
+    value: 4
+    evidence: DIY, self-produced by Asplund in a church space (not commercial).
+    sources:
+    - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  community_reputation:
+    value: 2
+    evidence: Covered by Salt Lake City Weekly as the area's outlet for avant-garde/experimental
+      performance.
+    sources:
+    - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  listening_room:
+    value: 4
+    evidence: Attentive, seated church-vespers concert format.
+    sources:
+    - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+score: 80
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  needs_human_review: true
+notes: Monthly experimental/outsider-jazz series (est. 2018) in the Salt Lake/Provo area,
+  curated by composer Christian Asplund at St. Mary's Episcopal Church. Verified via a single
+  City Weekly feature; current-season status should be reconfirmed.

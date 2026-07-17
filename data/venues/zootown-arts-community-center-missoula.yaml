@@ -1,0 +1,72 @@
+id: zootown-arts-community-center-missoula
+name: Zootown Arts Community Center
+aliases:
+- ZACC
+status: active
+location:
+  address: 216 W Main St
+  city: Missoula
+  region: MT
+  country: US
+  lat: 46.872
+  lon: -113.996
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.zootownarts.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit community arts center whose Show Room hosts concerts nearly every
+      night, including experimental and improvised acts and the annual Jazzoula series.
+    sources:
+    - https://showroom.zootownarts.org/event-genres/concerts/page/3/
+    - https://showroom.zootownarts.org/events/category/series/jazzoula-2024/zootown-arts-community-center/missoula-montana/
+  show_frequency:
+    value: 3
+    evidence: Something new nearly every night; experimental/improvised music is a recurring
+      subset.
+    sources:
+    - https://destinationmissoula.org/partner/zootown-arts-community-center
+  artist_roster:
+    value: 3
+    evidence: Hosts experimental/improv acts (e.g. BigSkyLight's improvised acoustic environments;
+      experimental trio Panic Boner) among broad programming.
+    sources:
+    - https://showroom.zootownarts.org/event/big-sky-light-w-bill-mize-ft-beth-youngblood-beth-bramhall/zootown-arts-community-center/missoula-montana/
+  self_description:
+    value: 3
+    evidence: A multi-use nonprofit dedicated to supporting local and regional artists, performers
+      and musicians of all kinds.
+    sources:
+    - https://destinationmissoula.org/partner/zootown-arts-community-center
+  operating_model:
+    value: 5
+    evidence: Nonprofit community arts center.
+    sources:
+    - https://www.zootownarts.org/
+  community_reputation:
+    value: 3
+    evidence: A central hub of Missoula's arts and live-music scene.
+    sources:
+    - https://missoula.com/music/missoulas-music-venues/article_c9172b96-3a5d-11e7-bb56-4f7dc884a0bf.html
+  listening_room:
+    value: 3
+    evidence: The ZACC Show Room is a dedicated concert/performance space.
+    sources:
+    - https://www.zootownarts.org/shows-events/shows-events.html
+score: 64
+tier: supportive
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.zootownarts.org/
+  - https://showroom.zootownarts.org/event-genres/concerts/page/3/
+  - https://destinationmissoula.org/partner/zootown-arts-community-center
+  needs_human_review: false
+notes: Missoula's nonprofit community arts center; its Show Room hosts experimental/improvised
+  acts and the Jazzoula series within broad nightly programming.

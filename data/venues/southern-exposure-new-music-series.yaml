@@ -1,0 +1,71 @@
+id: southern-exposure-new-music-series
+name: Southern Exposure New Music Series
+aliases: []
+status: active
+location:
+  address: "University of South Carolina School of Music, 813 Assembly St"
+  city: Columbia
+  region: SC
+  country: US
+  neighborhood: University of South Carolina
+  lat: 33.995
+  lon: -81.03
+type: university
+operating_model: university
+capacity: null
+website: https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: A named, ongoing new-music concert series at USC's School of Music dedicated to
+      contemporary and experimental composition and performance.
+    sources:
+    - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
+    - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
+  show_frequency:
+    value: 3
+    evidence: Runs a seasonal series of concerts through the academic year.
+    sources:
+    - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
+  artist_roster:
+    value: 2
+    evidence: Chiefly contemporary-classical/new-music composers and ensembles; improvisers appear
+      but improvisation is secondary to notated new music.
+    sources:
+    - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
+  self_description:
+    value: 4
+    evidence: Presents itself as a series for new and experimental music.
+    sources:
+    - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
+  operating_model:
+    value: 4
+    evidence: University-run series (USC School of Music).
+    sources:
+    - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
+  community_reputation:
+    value: 3
+    evidence: A long-running anchor of Columbia's new/experimental music activity, sometimes
+      partnering with Conundrum and the Columbia Museum of Art.
+    sources:
+    - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
+    - https://www.postandcourier.com/free-times/music/columbia-sc-avant-garde-jazz-scene/article_0fd551ed-c1e0-492a-a350-93ae1cbb9d6b.html
+  listening_room:
+    value: 4
+    evidence: Presented in concert-hall settings for attentive listening.
+    sources:
+    - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
+score: 66
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
+  - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
+  needs_human_review: false
+notes: 'University new-music series in Columbia SC. Strong on contemporary/experimental composition;
+  free improvisation is present but not the primary focus (which caps the roster signal).'

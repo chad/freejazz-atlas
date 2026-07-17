@@ -1,0 +1,68 @@
+id: notsuoh-houston
+name: notsuoH
+aliases:
+- Notsuoh
+- The Dome at Notsuoh
+status: active
+location:
+  address: "314 Main St"
+  city: Houston
+  region: TX
+  country: US
+  neighborhood: Downtown
+  lat: 29.7607
+  lon: -95.3630
+type: bar_club
+operating_model: artist_run
+capacity: null
+website: https://www.notsuoh.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: "Long-running artist-run venue and social sculpture that is a regular canvas for experimental live music and performance; The Dome hosts immersive sound and video work."
+    sources:
+    - https://www.notsuoh.com/
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  show_frequency:
+    value: 3
+    evidence: "Frequent open, eclectic music and performance nights; described as open to just about anything."
+    sources:
+    - https://www.notsuoh.com/events
+  artist_roster:
+    value: 3
+    evidence: "Programs experimental, improvised and outsider performers among a very diverse calendar."
+    sources:
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  self_description:
+    value: 4
+    evidence: "Invites work that is passionate, heartfelt and experimental; frames itself as an art project."
+    sources:
+    - https://www.notsuoh.com/
+  operating_model:
+    value: 4
+    evidence: "Artist-run bar/social-sculpture operated by artist Jim Pirtle since 1996."
+    sources:
+    - https://downtownhouston.org/go/notsuoh
+  community_reputation:
+    value: 3
+    evidence: "Cited in Houston experimental-music surveys as a space open to fringe work."
+    sources:
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  listening_room:
+    value: 2
+    evidence: "Eccentric multi-level bar; The Dome offers a more immersive setting but the venue is not a formal listening room."
+    sources:
+    - https://www.thedomeatnotsuoh.com/
+score: 63
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.notsuoh.com/
+  - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  needs_human_review: false
+notes: "Downtown artist-run bar/'social sculpture'; a longtime open door for Houston experimental music and performance."

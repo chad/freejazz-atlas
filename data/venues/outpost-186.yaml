@@ -1,0 +1,72 @@
+id: outpost-186
+name: Outpost 186
+aliases: []
+status: active
+location:
+  address: 186 1/2 Hampshire St
+  city: Cambridge
+  region: MA
+  country: US
+  neighborhood: Inman Square
+  lat: 42.373
+  lon: -71.099
+type: dedicated_space
+operating_model: artist_run
+capacity: 25
+website: https://calendar.artsboston.org/venue/outpost-186/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Intimate arts/media/performance space run by Rob Chalfen hosting several ongoing
+      series of experimental and improvised music; improv is the room's core purpose.
+    sources:
+    - https://www.allaboutjazz.com/news/outpost-186-leans-in-to-a-piano-laden-summer-for-inman-square-cambridge/
+    - https://www.massrealty.com/articles/cambridge-ma-real-estate-outpost-186-rob-chalfen
+  show_frequency:
+    value: 4
+    evidence: Hosts ongoing experimental/improvised music and performance events Wednesday
+      through Sunday (several nights per week).
+    sources:
+    - https://www.yelp.com/biz/outpost-186-cambridge
+  artist_roster:
+    value: 5
+    evidence: Programs experimental/improvised chamber-type music and modern jazz improvisers.
+    sources:
+    - https://www.massrealty.com/articles/cambridge-ma-real-estate-outpost-186-rob-chalfen
+  self_description:
+    value: 5
+    evidence: Describes itself as a space for experimental and improvised music performances,
+      multimedia events, poetry and film.
+    sources:
+    - https://www.theatreinboston.com/theatre/outpost-186/135/
+  operating_model:
+    value: 5
+    evidence: Small artist-run DIY performance space in Inman Square.
+    sources:
+    - https://www.massrealty.com/articles/cambridge-ma-real-estate-outpost-186-rob-chalfen
+  community_reputation:
+    value: 4
+    evidence: Long-running fixture of the Boston/Cambridge creative-music scene, covered by
+      All About Jazz and ArtsBoston.
+    sources:
+    - https://www.allaboutjazz.com/news/outpost-186-leans-in-to-a-piano-laden-summer-for-inman-square-cambridge/
+  listening_room:
+    value: 5
+    evidence: 25-seat intimate listening room where the music is the focus.
+    sources:
+    - https://www.yelp.com/biz/outpost-186-cambridge
+score: 94
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.allaboutjazz.com/news/outpost-186-leans-in-to-a-piano-laden-summer-for-inman-square-cambridge/
+  - https://www.massrealty.com/articles/cambridge-ma-real-estate-outpost-186-rob-chalfen
+  - https://www.yelp.com/biz/outpost-186-cambridge
+  needs_human_review: false
+notes: Long-running artist-run improv room in Inman Square, Cambridge; coordinates approximate
+  to the Hampshire St address.

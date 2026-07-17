@@ -1,0 +1,74 @@
+id: real-art-ways
+name: Real Art Ways
+aliases:
+- RAW
+status: active
+location:
+  address: 56 Arbor St
+  city: Hartford
+  region: CT
+  country: US
+  neighborhood: Parkville
+  lat: 41.7663
+  lon: -72.7078
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.realartways.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Hosts Instantiations (formerly Improvisations Now), a monthly improvised-music
+      series programmed by guitarist Joe Morris featuring the global free-improv scene.
+    sources:
+    - https://www.realartways.org/events/category/eventtype-event/improvisations-now-eventtype-event/past/
+    - https://ctexaminer.com/events/instantiations-improvisational-jazz-series-at-real-art-ways-in-hartford/2025-12-14/
+  show_frequency:
+    value: 3
+    evidence: Improvised-music series runs monthly within a broader contemporary-art and cinema
+      program.
+    sources:
+    - https://hartfordjazzsociety.com/event/instantiations-monthly-music-series-at-real-art-ways-3/
+  artist_roster:
+    value: 5
+    evidence: Series has featured Mary Halvorson, William Parker, Tyshawn Sorey, Joe McPhee,
+      Rob Brown, Fay Victor, Ikue Mori and other leading improvisers.
+    sources:
+    - https://patch.com/connecticut/hartford/improvisations-now-real-art-ways-0
+  self_description:
+    value: 3
+    evidence: Contemporary art space; the music strand is explicitly framed around completely
+      improvised music.
+    sources:
+    - https://patch.com/connecticut/hartford/improvisations-now-real-art-ways-0
+  operating_model:
+    value: 4
+    evidence: Nonprofit contemporary-art organization founded 1975.
+    sources:
+    - https://en.wikipedia.org/wiki/Real_Art_Ways
+  community_reputation:
+    value: 4
+    evidence: Well-established Hartford institution; the improv series is a recognized home
+      for creative music in Connecticut.
+    sources:
+    - https://ctexaminer.com/events/instantiations-improvisational-jazz-series-at-real-art-ways-in-hartford/2025-12-14/
+  listening_room:
+    value: 4
+    evidence: Seated gallery/performance setting for attentive listening.
+    sources:
+    - https://hartfordjazzsociety.com/event/instantiations-monthly-music-series-at-real-art-ways-3/
+score: 78
+tier: committed
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.realartways.org/
+  - https://ctexaminer.com/events/instantiations-improvisational-jazz-series-at-real-art-ways-in-hartford/2025-12-14/
+  - https://patch.com/connecticut/hartford/improvisations-now-real-art-ways-0
+  needs_human_review: false
+notes: Instantiations monthly improv series curated by Joe Morris inside a broader contemporary-art
+  center.

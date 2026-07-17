@@ -1,0 +1,72 @@
+id: new-haven-improvisers-collective
+name: New Haven Improvisers Collective
+aliases:
+- NHIC
+status: active
+location:
+  city: New Haven
+  region: CT
+  country: US
+  lat: 41.3083
+  lon: -72.9279
+type: presenter
+operating_model: diy_collective
+capacity: null
+website: https://www.nhic-music.org/nhic-about.html
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Collective wholly dedicated to improvised music, running regular workshops and
+      performances; reason to exist is free/improvised music.
+    sources:
+    - https://www.nhic-music.org/nhic-about.html
+    - https://nhic-music.org/mission-statement/
+  show_frequency:
+    value: 3
+    evidence: Regular workshops plus periodic performances; presented an "Evening of New Music"
+      and other 2025 events at the Ely Center after moving from Never Ending Books.
+    sources:
+    - https://nhicpresents.bandcamp.com/album/evening-of-new-music-2025-02-13
+    - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
+  artist_roster:
+    value: 4
+    evidence: Brings together jazz, rock, classical and electronic players for improvised
+      performance.
+    sources:
+    - https://www.nhic-music.org/nhic-about.html
+  self_description:
+    value: 5
+    evidence: Self-described organization to support and participate in improvised music.
+    sources:
+    - https://nhic-music.org/mission-statement/
+  operating_model:
+    value: 5
+    evidence: Volunteer, member-run improvisers' collective (20+ years).
+    sources:
+    - https://www.newhavenindependent.org/article/nhic_cafe_nine
+  community_reputation:
+    value: 3
+    evidence: Long-running pillar of New Haven's improvised-music scene, covered by the New
+      Haven Independent.
+    sources:
+    - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
+  listening_room:
+    value: 3
+    evidence: Presents attentive performances at host venues (currently the Ely Center).
+    sources:
+    - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
+score: 83
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.nhic-music.org/nhic-about.html
+  - https://nhic-music.org/mission-statement/
+  - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
+  needs_human_review: false
+notes: Member-run improvisers' collective (presenter/workshop series); no fixed venue, currently
+  hosted at the Ely Center. Coordinates set to New Haven center.

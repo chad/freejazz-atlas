@@ -1,0 +1,72 @@
+id: jack-london-revue-portland
+name: Jack London Revue
+aliases: []
+status: active
+location:
+  address: "529 SW 4th Ave"
+  city: Portland
+  region: OR
+  country: US
+  neighborhood: Downtown
+  lat: 45.5202
+  lon: -122.6749
+type: bar_club
+operating_model: commercial
+capacity: 220
+website: https://www.jacklondonrevue.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 1
+    evidence: A basement jazz club programming jazz, blues, soul and funk; adventurous/improvised
+      bookings appear occasionally within a mostly mainstream slate.
+    sources:
+    - https://en.wikipedia.org/wiki/Jack_London_Revue
+  show_frequency:
+    value: 2
+    evidence: Frequent live music, but free/avant-leaning nights are occasional.
+    sources:
+    - https://www.jacklondonrevue.com/
+  artist_roster:
+    value: 2
+    evidence: Mix of local and touring jazz/soul/funk acts; some improvisers, not
+      an avant focus.
+    sources:
+    - https://dev.jazzoregon.org/venue/jack-london-revue/
+  self_description:
+    value: 1
+    evidence: Presents itself as a classic jazz club with a Portland edge, not specifically
+      experimental.
+    sources:
+    - https://en.wikipedia.org/wiki/Jack_London_Revue
+  operating_model:
+    value: 2
+    evidence: Commercial club (beneath the Rialto Poolroom), opened 2017 after Jimmy
+      Mak's closed.
+    sources:
+    - https://en.wikipedia.org/wiki/Jack_London_Revue
+  community_reputation:
+    value: 3
+    evidence: A well-known downtown jazz room, successor to the city's Jimmy Mak's
+      legacy.
+    sources:
+    - https://en.wikipedia.org/wiki/Jack_London_Revue
+  listening_room:
+    value: 3
+    evidence: Intimate 220-seat basement club with tight seating; music-focused but
+      a bar/club atmosphere.
+    sources:
+    - https://en.wikipedia.org/wiki/Jack_London_Revue
+score: 35
+tier: occasional
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.jacklondonrevue.com/
+  - https://en.wikipedia.org/wiki/Jack_London_Revue
+  needs_human_review: false
+notes: Downtown Portland jazz club; mostly straight-ahead/jazz-soul-funk with occasional
+  adventurous bookings. Included as an honest occasional-tier venue.

@@ -1,0 +1,68 @@
+id: match-houston
+name: MATCH - Midtown Arts & Theater Center Houston
+aliases:
+- MATCH Houston
+- Midtown Arts and Theater Center Houston
+status: active
+location:
+  address: "3400 Main St"
+  city: Houston
+  region: TX
+  country: US
+  neighborhood: Midtown
+  lat: 29.7392
+  lon: -95.3782
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://matchouston.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: "Multi-stage nonprofit arts center that hosts new-music and experimental programming (including Nameless Sound and contemporary ensembles) among a broad performing-arts calendar."
+    sources:
+    - https://matchouston.org/
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  show_frequency:
+    value: 2
+    evidence: "Experimental/new-music events occur periodically within a heavily theater- and dance-weighted schedule."
+    sources:
+    - https://matchouston.org/calendar
+  artist_roster:
+    value: 3
+    evidence: "Resident and visiting groups include contemporary/new-music ensembles alongside adventurous programming."
+    sources:
+    - https://matchouston.org/calendar
+  self_description:
+    value: 2
+    evidence: "Presents itself as a hub for Houston's performing and visual arts broadly, not specifically experimental music."
+    sources:
+    - https://matchouston.org/
+  operating_model:
+    value: 4
+    evidence: "Nonprofit, purpose-built multidisciplinary arts center opened 2015."
+    sources:
+    - https://matchouston.org/
+  community_reputation:
+    value: 3
+    evidence: "Established Midtown arts hub used by the city's new-music and experimental presenters."
+    sources:
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  listening_room:
+    value: 4
+    evidence: "Proper theaters/black-box stages built for attentive audiences."
+    sources:
+    - https://matchouston.org/
+score: 52
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://matchouston.org/
+  - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  needs_human_review: true
+notes: "Nonprofit multidisciplinary arts center; hosts new-music/experimental events as part of a wide program. Frequency of specifically improv/free programming not fully verified."

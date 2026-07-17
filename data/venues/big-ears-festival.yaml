@@ -1,0 +1,74 @@
+id: big-ears-festival
+name: Big Ears Festival
+aliases: []
+status: active
+location:
+  address: multiple downtown venues (Tennessee Theatre, Bijou, The Mill & Mine, etc.)
+  city: Knoxville
+  region: TN
+  country: US
+  neighborhood: Downtown
+  lat: 35.964
+  lon: -83.919
+type: festival
+operating_model: commercial
+capacity: null
+website: https://bigearsfestival.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Multi-day festival of experimental, avant-garde, and boundary-pushing music;
+      a defining event whose reason to exist is adventurous programming.
+    sources:
+    - https://bigearsfestival.org/
+    - https://en.wikipedia.org/wiki/Big_Ears_Festival
+  show_frequency:
+    value: 2
+    evidence: Annual festival (each spring) but massive in scale (250+ events across 20+ venues).
+    sources:
+    - https://bigearsfestival.org/
+    - https://www.travelandtourworld.com/news/article/knoxville-transformed-into-a-creative-haven-for-music-art-and-culture-dont-miss-big-ears-festival-2026/
+  artist_roster:
+    value: 5
+    evidence: '"A jazz festival gone rogue" featuring world-renowned avant-garde, jazz, and
+      experimental artists.'
+    sources:
+    - https://en.wikipedia.org/wiki/Big_Ears_Festival
+  self_description:
+    value: 5
+    evidence: Presents music "liberated from the confines of category," spanning experimental
+      and avant-garde music, poetry, film, and art.
+    sources:
+    - https://bigearsfestival.org/
+  operating_model:
+    value: 3
+    evidence: Produced by AC Entertainment (founder Ashley Capps); a professionally produced
+      festival rather than an artist-run/nonprofit collective.
+    sources:
+    - https://en.wikipedia.org/wiki/Big_Ears_Festival
+  community_reputation:
+    value: 5
+    evidence: Widely described as America's most diverse and exploratory music festival; a
+      national reference point for experimental music.
+    sources:
+    - https://liveforlivemusic.com/news/big-ears-unleashes-creative-collisions-controlled-chaos-knoxville-tn/
+    - https://en.wikipedia.org/wiki/Big_Ears_Festival
+  listening_room:
+    value: 4
+    evidence: Programmed in theaters and halls built for attentive listening.
+    sources:
+    - https://bigearsfestival.org/
+score: 83
+tier: committed
+confidence: 0.85
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://bigearsfestival.org/
+  - https://en.wikipedia.org/wiki/Big_Ears_Festival
+  needs_human_review: false
+notes: Knoxville's internationally renowned experimental/avant-garde festival (founded 2009).
+  Annual, which caps the frequency signal, but a cornerstone by reputation and roster.

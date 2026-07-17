@@ -1,0 +1,71 @@
+id: flywheel-arts-collective
+name: Flywheel Arts Collective
+aliases:
+- Flywheel
+status: active
+location:
+  address: 43 Main St
+  city: Easthampton
+  region: MA
+  country: US
+  lat: 42.2667
+  lon: -72.669
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://flywheelarts.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Consensus-run, all-volunteer DIY nonprofit performance space; among its all-ages
+      programming it regularly hosts experimental and improvised music.
+    sources:
+    - https://en.wikipedia.org/wiki/Flywheel_Arts_Collective
+    - https://flywheelarts.org/
+  show_frequency:
+    value: 3
+    evidence: Ongoing calendar of concerts, film, theater and community events; experimental
+      music recurs within a broad program.
+    sources:
+    - https://flywheelarts.org/
+  artist_roster:
+    value: 3
+    evidence: Books a wide range of underground and experimental artists reflecting the Pioneer
+      Valley experimental scene.
+    sources:
+    - https://www.florilegio.org/guyub/andrea-pensado-experimental-music-in-massachusetts-and-around-a-subjective-outlook/
+  self_description:
+    value: 3
+    evidence: Describes itself as a DIY, artist-driven collective producing shows that reflect
+      artists' visions rather than industry values.
+    sources:
+    - https://en.wikipedia.org/wiki/Flywheel_Arts_Collective
+  operating_model:
+    value: 5
+    evidence: Collectively run, consensus-governed, volunteer DIY nonprofit (founded 1998/99).
+    sources:
+    - https://en.wikipedia.org/wiki/Flywheel_Arts_Collective
+  community_reputation:
+    value: 3
+    evidence: Long-running fixture of western-Massachusetts DIY culture.
+    sources:
+    - https://www.easthamptoncityarts.com/venue/flywheel-arts-collective/
+  listening_room:
+    value: 3
+    evidence: All-ages performance room in Easthampton's historic Old Town Hall.
+    sources:
+    - https://flywheelarts.org/
+score: 64
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://en.wikipedia.org/wiki/Flywheel_Arts_Collective
+  - https://flywheelarts.org/
+  needs_human_review: false
+notes: DIY consensus-run collective; experimental/improv is part of a broad all-genre all-ages
+  program.

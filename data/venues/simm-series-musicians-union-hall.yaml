@@ -1,0 +1,75 @@
+id: simm-series-musicians-union-hall
+name: SIMM Series at the Musicians Union Hall
+aliases:
+- Static Illusion Methodical Madness
+- SIMM Series
+status: active
+location:
+  address: "116 9th St"
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: SoMa
+  lat: 37.7768
+  lon: -122.4145
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://outsound.org/programs/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Static Illusion Methodical Madness (SIMM) Series is a dedicated experimental-improvisation
+      and new-music series curated by Outsound Presents since 2001 at the Musicians Union
+      Hall.
+    sources:
+    - https://www.bayimproviser.com/venue/28/simm-series-@-the-musicians-union-hall
+    - https://www.sfcv.org/organizations/outsound-presents-simm-series
+  show_frequency:
+    value: 3
+    evidence: Runs on alternate Sundays (roughly twice monthly), 7:30-10pm.
+    sources:
+    - https://www.bayimproviser.com/venue/28/simm-series-@-the-musicians-union-hall
+  artist_roster:
+    value: 5
+    evidence: Cross-section of sound artists from experimental improvisation and composition
+      genres.
+    sources:
+    - https://www.sfcv.org/organizations/outsound-presents-simm-series
+  self_description:
+    value: 5
+    evidence: Presented by Outsound Presents, a collective devoted to experimental composition,
+      improvisational performance, noise, musique concrete and the unnamable.
+    sources:
+    - https://outsound.org/about/index.html
+  operating_model:
+    value: 5
+    evidence: 501(c)(3) nonprofit volunteer collective; artist-run grass-roots DIY effort.
+    sources:
+    - https://outsound.org/about/index.html
+  community_reputation:
+    value: 4
+    evidence: A pillar of the SF Bay Area experimental scene, running since 2001 under
+      Outsound.
+    sources:
+    - https://www.sfcv.org/organizations/outsound-presents-simm-series
+  listening_room:
+    value: 4
+    evidence: Seated union-hall concert setting; all ages, sliding-scale.
+    sources:
+    - https://www.bayimproviser.com/venue/28/simm-series-@-the-musicians-union-hall
+score: 89
+tier: cornerstone
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.bayimproviser.com/venue/28/simm-series-@-the-musicians-union-hall
+  - https://www.sfcv.org/organizations/outsound-presents-simm-series
+  - https://outsound.org/about/index.html
+  needs_human_review: false
+notes: Outsound-run SIMM Series at the SF Musicians Union Hall; one of the anchors of the
+  Bay Area experimental/improv scene.

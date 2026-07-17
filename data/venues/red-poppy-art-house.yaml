@@ -1,0 +1,72 @@
+id: red-poppy-art-house
+name: Red Poppy Art House
+aliases: []
+status: active
+location:
+  address: "2698 Folsom St"
+  city: San Francisco
+  region: CA
+  country: US
+  neighborhood: Mission District
+  lat: 37.7534
+  lon: -122.4144
+type: dedicated_space
+operating_model: nonprofit
+capacity: 50
+website: https://www.redpoppyarthouse.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Intimate arts house presenting a vigorous multidisciplinary program including
+      jazz, improvised, world and experimental music (experimentation is central to its
+      mission, alongside many other forms).
+    sources:
+    - https://www.redpoppyarthouse.org/
+    - https://missionlocal.org/venue/red-poppy-art-house/
+  show_frequency:
+    value: 4
+    evidence: Over 150 performances, exhibitions and residencies per year in a small
+      Mission storefront.
+    sources:
+    - https://www.redpoppyarthouse.org/
+  artist_roster:
+    value: 3
+    evidence: Mix of contemporary/experimental and traditional forms; regularly books
+      improvising and creative musicians.
+    sources:
+    - https://www.jazznearyou.com/sanfrancisco/venue/the-red-poppy-art-house
+  self_description:
+    value: 4
+    evidence: Describes itself as a micro-center for artistic development, experimentation
+      and presentation.
+    sources:
+    - https://www.redpoppyarthouse.org/
+  operating_model:
+    value: 5
+    evidence: Nonprofit community art house in a residential Mission storefront.
+    sources:
+    - https://www.redpoppyarthouse.org/
+  community_reputation:
+    value: 3
+    evidence: Well-known intimate Mission arts venue.
+    sources:
+    - https://missionlocal.org/venue/red-poppy-art-house/
+  listening_room:
+    value: 4
+    evidence: 650-square-foot intimate seated listening space.
+    sources:
+    - https://www.redpoppyarthouse.org/
+score: 71
+tier: committed
+confidence: 0.55
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.redpoppyarthouse.org/
+  - https://missionlocal.org/venue/red-poppy-art-house/
+  needs_human_review: true
+notes: 'NEEDS REVIEW: intimate Mission arts house with broad multidisciplinary program;
+  confirm current cadence of improvised/experimental music specifically.'

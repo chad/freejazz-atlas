@@ -1,0 +1,72 @@
+id: understudy-denver
+name: Understudy
+aliases: []
+status: active
+location:
+  address: 890 C 14th St
+  city: Denver
+  region: CO
+  country: US
+  neighborhood: Downtown
+  lat: 39.7448
+  lon: -104.9958
+type: gallery
+operating_model: municipal
+capacity: null
+website: https://do303.com/venues/understudy
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: An experimental arts-and-culture space in the Colorado Convention Center with
+      rotating exhibitions and collaborations that include musicians, performance artists
+      and collectives; music is one strand among many.
+    sources:
+    - https://www.westword.com/best-of-denver/2021/arts-and-entertainment/best-experimental-art-space-11960067/
+    - https://www.westword.com/arts/denver-theatre-district-launches-understudy-an-experimental-art-space-9560867
+  show_frequency:
+    value: 2
+    evidence: Regularly rotating programming, but experimental-music events are intermittent.
+    sources:
+    - https://do303.com/venues/understudy
+  artist_roster:
+    value: 3
+    evidence: Showcases collaborations across the city's cultural scene, including experimental
+      musicians.
+    sources:
+    - https://www.westword.com/best-of-denver/2021/arts-and-entertainment/best-experimental-art-space-11960067/
+  self_description:
+    value: 4
+    evidence: Bills itself as a first-of-its-kind experimental art space / arts incubator.
+    sources:
+    - https://www.westword.com/arts/denver-theatre-district-launches-understudy-an-experimental-art-space-9560867
+  operating_model:
+    value: 3
+    evidence: Curated and funded by the Denver Theatre District in a civic convention-center
+      space.
+    sources:
+    - https://www.westword.com/arts/denver-theatre-district-launches-understudy-an-experimental-art-space-9560867
+  community_reputation:
+    value: 3
+    evidence: Named "Best Experimental Art Space" by Westword.
+    sources:
+    - https://www.westword.com/best-of-denver/2021/arts-and-entertainment/best-experimental-art-space-11960067/
+  listening_room:
+    value: 3
+    evidence: Small (700 sq ft) gallery/incubator space; attentive but multi-use.
+    sources:
+    - https://www.westword.com/arts/denver-theatre-district-launches-understudy-an-experimental-art-space-9560867
+score: 53
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.westword.com/best-of-denver/2021/arts-and-entertainment/best-experimental-art-space-11960067/
+  - https://www.westword.com/arts/denver-theatre-district-launches-understudy-an-experimental-art-space-9560867
+  - https://do303.com/venues/understudy
+  needs_human_review: true
+notes: Experimental art space in the Colorado Convention Center. Music is one part of a multidisciplinary
+  program; frequency/current music focus needs confirmation.

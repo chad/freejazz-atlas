@@ -1,0 +1,76 @@
+id: fmrl-nashville
+name: FMRL
+aliases:
+- Ephemeral
+- FMRL Arts
+status: active
+location:
+  address: "presents at venues across Middle Tennessee"
+  city: Nashville
+  region: TN
+  country: US
+  neighborhood: citywide
+  lat: 36.1627
+  lon: -86.7816
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://fmrlarts.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Arts nonprofit whose mission is to foster the sonic arts by organizing experimental
+      and avant-garde music events in Middle Tennessee; co-presents the NoiseMatter fest of
+      avant-garde, improvised and noise music.
+    sources:
+    - https://fmrlarts.org/
+    - https://weownthistown.net/news/noisematter-a-counterculture-of-sound/
+  show_frequency:
+    value: 3
+    evidence: Organizes a steady stream of experimental music events around Nashville.
+    sources:
+    - https://fmrlarts.org/
+  artist_roster:
+    value: 4
+    evidence: Books experimental, avant-garde, and improvising musicians from Nashville and the
+      broader Southeast.
+    sources:
+    - https://weownthistown.net/news/noisematter-a-counterculture-of-sound/
+    - https://www.nashvillescene.com/music/features/fmrl-offers-an-array-of-genre-bending-experiential-and-experimental-music/article_ffd295a8-e0ad-5792-b5d6-d7d5d4174117.html
+  self_description:
+    value: 5
+    evidence: "Independent arts collective/nonprofit dedicated to experimental and avant-garde\
+      \ music."
+    sources:
+    - https://fmrlarts.org/
+  operating_model:
+    value: 5
+    evidence: Arts nonprofit directed by longtime Nashville promoter/musician Chris Davis.
+    sources:
+    - https://www.nashvillescene.com/music/features/fmrl-offers-an-array-of-genre-bending-experiential-and-experimental-music/article_ffd295a8-e0ad-5792-b5d6-d7d5d4174117.html
+  community_reputation:
+    value: 4
+    evidence: Named "Best Avant-Garde Music Series" by the Nashville Scene; a two-decade fixture
+      of the city's underground.
+    sources:
+    - https://www.nashvillescene.com/bon/2018/arts-music-and-culture/writers-choice/best-avant-garde-music-series/article_ff8f9a29-5f1d-5a10-88f4-02484a520833.html
+  listening_room:
+    value: 3
+    evidence: Presents in varied spaces rather than a single dedicated room.
+    sources:
+    - https://fmrlarts.org/
+score: 84
+tier: committed
+confidence: 0.72
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://fmrlarts.org/
+  - https://weownthistown.net/news/noisematter-a-counterculture-of-sound/
+  - https://www.nashvillescene.com/bon/2018/arts-music-and-culture/writers-choice/best-avant-garde-music-series/article_ff8f9a29-5f1d-5a10-88f4-02484a520833.html
+  needs_human_review: false
+notes: 'Nashville experimental/avant-garde music nonprofit and presenter (directed by Chris Davis);
+  nomadic across Middle Tennessee venues. Co-presents the NoiseMatter festival.'

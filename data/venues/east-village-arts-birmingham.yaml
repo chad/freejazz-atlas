@@ -1,0 +1,77 @@
+id: east-village-arts-birmingham
+name: East Village Arts
+aliases:
+- EVA
+- East Village Arts of Birmingham
+status: active
+location:
+  address: "East Lake Theater Building, East Lake"
+  city: Birmingham
+  region: AL
+  country: US
+  neighborhood: East Lake
+  lat: 33.5701
+  lon: -86.7215
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.evabham.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Avant-garde arts space that hosts jazz and pays homage to Sun Ra; runs the annual
+      Sun Ra Festival honoring Birmingham's jazz legacy.
+    sources:
+    - https://www.evabham.org/about
+    - https://www.birmingham365.org/event/sun-ra-returns-home/
+  show_frequency:
+    value: 3
+    evidence: Performance space with a stage and church pews hosting recurring concerts, dance,
+      and poetry.
+    sources:
+    - https://www.evabham.org/about
+    - https://www.evabham.org/events
+  artist_roster:
+    value: 3
+    evidence: Sun Ra Festival features current Arkestra members; broader roster mixes jazz and
+      local/traveling artists.
+    sources:
+    - https://www.birmingham365.org/event/sun-ra-returns-home/
+  self_description:
+    value: 4
+    evidence: "Part of the space is an avant-garde \"haven for jazz culture\" honoring Sun Ra\
+      \ and the Arkestra."
+    sources:
+    - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
+    - https://www.evabham.org/about
+  operating_model:
+    value: 5
+    evidence: Membership-based nonprofit co-operative of artists, musicians, and patrons; owns
+      the historic East Lake Theater Building.
+    sources:
+    - https://www.evabham.org/about
+  community_reputation:
+    value: 3
+    evidence: Recognized among Birmingham's notable jazz/arts venues and home of the Sun Ra Festival.
+    sources:
+    - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
+  listening_room:
+    value: 3
+    evidence: Seated performance space (church pews) suited to attentive listening.
+    sources:
+    - https://www.evabham.org/about
+score: 66
+tier: committed
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.evabham.org/about
+  - https://www.birmingham365.org/event/sun-ra-returns-home/
+  - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
+  needs_human_review: false
+notes: 'Birmingham nonprofit arts co-op in the historic East Lake Theater; hosts the annual Sun
+  Ra Festival (Sun Ra was born in Birmingham) and an avant-garde jazz program.'

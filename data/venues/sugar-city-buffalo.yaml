@@ -1,0 +1,68 @@
+id: sugar-city-buffalo
+name: Sugar City
+aliases:
+- Sugar City Arts Collaborative
+status: active
+location:
+  address: 1239 Niagara St
+  city: Buffalo
+  region: NY
+  country: US
+  lat: 42.9231
+  lon: -78.8994
+type: diy_space
+operating_model: diy_collective
+capacity: 170
+website: https://www.facebook.com/BuffaloSugarCity/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Buffalo's volunteer-run, all-ages DIY performance space and gallery; among its
+      programming it hosts experimental and improvised music alongside many genres.
+    sources:
+    - https://buffalonews.com/entertainment/arts-and-theatre/article_a2352299-329b-5ea0-a9f0-b3d4b37e1062.html
+    - https://www.buffalorising.com/2019/05/behold-the-future-of-sugar-city/
+  show_frequency:
+    value: 3
+    evidence: Frequent all-ages, drug/alcohol-free shows and art events.
+    sources:
+    - https://buffalovibe.com/local-guide/concert-venues/sugar-city-1
+  artist_roster:
+    value: 3
+    evidence: Programs underground, experimental and noise acts within a broad DIY calendar.
+    sources:
+    - https://dodiy.org/usa/ny/
+  self_description:
+    value: 3
+    evidence: Self-described DIY, volunteer-run all-ages performance venue and art gallery.
+    sources:
+    - https://www.buffalorising.com/2019/05/behold-the-future-of-sugar-city/
+  operating_model:
+    value: 5
+    evidence: Volunteer-run DIY arts collaborative.
+    sources:
+    - https://www.buffalorising.com/2019/05/behold-the-future-of-sugar-city/
+  community_reputation:
+    value: 3
+    evidence: Recognized Buffalo DIY institution; received a Rauschenberg Foundation grant.
+    sources:
+    - https://buffalonews.com/entertainment/arts-and-theatre/article_a2352299-329b-5ea0-a9f0-b3d4b37e1062.html
+  listening_room:
+    value: 2
+    evidence: All-ages performance/gallery space rather than a dedicated listening room.
+    sources:
+    - https://buffalovibe.com/local-guide/concert-venues/sugar-city-1
+score: 58
+tier: supportive
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.buffalorising.com/2019/05/behold-the-future-of-sugar-city/
+  - https://buffalonews.com/entertainment/arts-and-theatre/article_a2352299-329b-5ea0-a9f0-b3d4b37e1062.html
+  needs_human_review: true
+notes: 'NEEDS REVIEW: DIY all-genre space; confirm current share of free/experimental/improv
+  programming and current activity.'

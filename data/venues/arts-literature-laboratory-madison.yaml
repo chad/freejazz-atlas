@@ -1,0 +1,67 @@
+id: arts-literature-laboratory-madison
+name: Arts + Literature Laboratory
+aliases:
+- ALL
+status: active
+location:
+  address: "111 S Livingston St #100"
+  city: Madison
+  region: WI
+  country: US
+  neighborhood: Capitol East District
+  lat: 43.0838
+  lon: -89.3722
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://artlitlab.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Home of Auricle, a new-music concert series focusing on experimental music and sound art (curated by Phil and Cricket Redman) connecting Madison audiences with local, national and international innovators."
+    sources:
+    - https://artlitlab.org/programs/music-performing-arts/auricle
+    - https://tonemadison.com/articles/cosmic-guitars-and-experimental-percussion-bring-music-back-to-arts-literature-laboratory/
+  show_frequency:
+    value: 3
+    evidence: "Recurring music series within 200+ annual events; mix of free and ticketed concerts."
+    sources:
+    - https://artlitlab.org/calendar
+  artist_roster:
+    value: 4
+    evidence: "Auricle has hosted improvisers/experimentalists including Nicole Mitchell (The Others), Jaap Blonk, Elder Ones, Jakob Heinemann Quartet and Russ Johnson."
+    sources:
+    - https://artlitlab.org/programs/music-performing-arts/auricle
+    - https://artlitlab.org/events/elder-ones
+  self_description:
+    value: 4
+    evidence: "Community contemporary arts center and 'space for experimentation in many genres.'"
+    sources:
+    - https://isthmus.com/arts/curation-destination-Arts-Lit-Laboratory/
+  operating_model:
+    value: 5
+    evidence: "Community-based nonprofit contemporary arts center."
+    sources:
+    - https://artlitlab.org/
+  community_reputation:
+    value: 3
+    sources:
+    - https://isthmus.com/arts/curation-destination-Arts-Lit-Laboratory/
+  listening_room:
+    value: 4
+    evidence: "Dedicated performance space within the 10,500 sq ft center."
+    sources:
+    - https://artlitlab.org/about-all/planning-your-visit
+score: 76
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://artlitlab.org/programs/music-performing-arts/auricle
+  - https://tonemadison.com/articles/cosmic-guitars-and-experimental-percussion-bring-music-back-to-arts-literature-laboratory/
+  needs_human_review: false
+notes: "Madison nonprofit arts center; its Auricle series is the city's main outlet for experimental/improvised new music."

@@ -1,0 +1,70 @@
+id: sala-diaz-san-antonio
+name: Sala Diaz
+aliases: []
+status: active
+location:
+  city: San Antonio
+  region: TX
+  country: US
+  neighborhood: King William / Cultural Arts District
+  lat: 29.4092
+  lon: -98.4848
+type: gallery
+operating_model: artist_run
+capacity: null
+website: http://www.saladiazart.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 2
+    evidence: Artist-centric experimental nonprofit art venue (founded 1995) that hosts performance,
+      sound and experimental events alongside its exhibitions and residency program.
+    sources:
+    - http://www.saladiazart.org/about
+    - https://medium.com/the-operating-system/welcome-to-sala-diaz-an-artist-centric-experimental-venue-in-san-antonio-62377965b972
+  show_frequency:
+    value: 1
+    evidence: Music/sound events are occasional within a primarily visual-art and residency
+      program.
+    sources:
+    - https://glasstire.com/venues/sala-diaz/
+  artist_roster:
+    value: 3
+    evidence: Programs experimental artists across disciplines, including sound and performance.
+    sources:
+    - https://medium.com/the-operating-system/welcome-to-sala-diaz-an-artist-centric-experimental-venue-in-san-antonio-62377965b972
+  self_description:
+    value: 4
+    evidence: Self-describes as an experimental nonprofit venue promoting an artist-centric
+      model.
+    sources:
+    - http://www.saladiazart.org/about
+  operating_model:
+    value: 5
+    evidence: Artist-run 501(c)(3) nonprofit contemporary-art space.
+    sources:
+    - http://www.saladiazart.org/about
+  community_reputation:
+    value: 2
+    evidence: Long-standing pillar of San Antonio's experimental/contemporary-art community.
+    sources:
+    - https://glasstire.com/venues/sala-diaz/
+  listening_room:
+    value: 2
+    evidence: Intimate gallery/house setting rather than a dedicated music listening room.
+    sources:
+    - http://www.saladiazart.org/about
+score: 51
+tier: supportive
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://www.saladiazart.org/
+  - https://medium.com/the-operating-system/welcome-to-sala-diaz-an-artist-centric-experimental-venue-in-san-antonio-62377965b972
+  needs_human_review: true
+notes: Artist-run experimental art nonprofit in San Antonio's King William area (coordinates
+  approximate); hosts sound/performance work but is primarily a visual-art space. Music frequency
+  not fully verified.

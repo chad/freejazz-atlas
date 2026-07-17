@@ -1,0 +1,70 @@
+id: the-other-side-of-life-louisville
+name: The Other Side of Life
+aliases: []
+status: active
+location:
+  address: "presents at Louisville venues (e.g. B-Side, 1076 E Washington St)"
+  city: Louisville
+  region: KY
+  country: US
+  neighborhood: citywide
+  lat: 38.2568
+  lon: -85.736
+type: presenter
+operating_model: diy_collective
+capacity: null
+website: https://the-other-side-of-life.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Independent promoter dedicated to contemporary experimental music, free jazz,
+      collective improvisation, and avant-rock in Louisville.
+    sources:
+    - https://the-other-side-of-life.com/
+    - https://the-other-side-of-life.com/about/
+  show_frequency:
+    value: 2
+    evidence: Ran 2008-2015, relaunched in 2025; presenting a rebuilding schedule of concerts.
+    sources:
+    - https://the-other-side-of-life.com/about/
+  artist_roster:
+    value: 4
+    evidence: Programs artists active in collective improvisation, free jazz, and experimental
+      music.
+    sources:
+    - https://the-other-side-of-life.com/
+  self_description:
+    value: 5
+    evidence: "Self-describes as \"independent experimental music and esoterica in Louisville.\""
+    sources:
+    - https://the-other-side-of-life.com/
+  operating_model:
+    value: 3
+    evidence: Sole-proprietor DIY promoter presenting at partner venues rather than a fixed space.
+    sources:
+    - https://the-other-side-of-life.com/about/
+  community_reputation:
+    value: 2
+    evidence: A named home for experimental/free-jazz presenting in Louisville, recently revived.
+    sources:
+    - https://the-other-side-of-life.com/about/
+  listening_room:
+    value: 3
+    evidence: Presents in various rooms (e.g. B-Side) suited to focused listening.
+    sources:
+    - https://events.ticketleap.com/tickets/the-other-side-of-life/spectre-folk-and-pipe-fitter-at-b-side-monday-april-20th
+score: 68
+tier: committed
+confidence: 0.5
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://the-other-side-of-life.com/
+  - https://the-other-side-of-life.com/about/
+  needs_human_review: true
+notes: 'Louisville DIY promoter of experimental music and free jazz; active 2008-2015 and relaunched
+  in 2025. Nomadic (presents at B-Side and other venues). Current cadence not fully verified;
+  needs human review.'

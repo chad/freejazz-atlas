@@ -1,0 +1,71 @@
+id: avant-garden-houston
+name: Avant Garden
+aliases:
+- AvantGarden
+status: active
+location:
+  address: 411 Westheimer Rd
+  city: Houston
+  region: TX
+  country: US
+  neighborhood: Montrose
+  lat: 29.7437
+  lon: -95.3918
+type: bar_club
+operating_model: commercial
+capacity: null
+website: https://www.avantgardenhouston.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Hosted Nameless Sound's They, Who Sound for nine years and remains a regular
+      partner for experimental events; also runs a weekly Monday jazz jam.
+    sources:
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+    - https://www.avantgardenhouston.com/live-music/
+  show_frequency:
+    value: 3
+    evidence: Live music most nights across three performance areas, with experimental/jazz
+      nights recurring in the mix.
+    sources:
+    - https://www.avantgardenhouston.com/live-music/
+  artist_roster:
+    value: 3
+    evidence: Books experimental music and jazz by acclaimed musicians alongside other genres.
+    sources:
+    - https://houstoncaller.com/publications/houston-midtown/what-is-avantgarden
+  self_description:
+    value: 3
+    evidence: Describes itself as an artist collective and social/arts space where experimental
+      music and jazz share the calendar.
+    sources:
+    - https://houstoncaller.com/publications/houston-midtown/what-is-avantgarden
+  operating_model:
+    value: 3
+    evidence: Independently owned Montrose bar/collective in a converted three-story house.
+    sources:
+    - https://houstoncaller.com/publications/houston-midtown/what-is-avantgarden
+  community_reputation:
+    value: 3
+    evidence: Named a generous longtime partner of Houston's experimental scene.
+    sources:
+    - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  listening_room:
+    value: 2
+    evidence: Bar and social-patio environment rather than a formal listening room.
+    sources:
+    - https://houstoncaller.com/publications/houston-midtown/what-is-avantgarden
+score: 59
+tier: supportive
+confidence: 0.65
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.avantgardenhouston.com/
+  - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
+  needs_human_review: false
+notes: Montrose bar/collective; longtime They, Who Sound host and continuing supporter of
+  Houston experimental programming.

@@ -1,0 +1,73 @@
+id: temescal-art-center
+name: Temescal Art Center
+aliases:
+- TAC
+status: active
+location:
+  address: "511 48th St"
+  city: Oakland
+  region: CA
+  country: US
+  neighborhood: Temescal
+  lat: 37.8353
+  lon: -122.2617
+type: diy_space
+operating_model: diy_collective
+capacity: null
+website: https://www.temescalartcenter.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Hosts the monthly free-improvisation workshop-series "Doors That Only Open
+      in Silence" and the TACmusic concert series of improvisation, experimental music
+      and sound art.
+    sources:
+    - https://www.temescalartcenter.org/tacmusic.html
+    - https://www.bayimproviser.com/venue/56/temescal-arts-center
+  show_frequency:
+    value: 3
+    evidence: Monthly improv series plus additional TACmusic concerts and workshops.
+    sources:
+    - https://www.temescalartcenter.org/events.html
+  artist_roster:
+    value: 4
+    evidence: Improvised, experimental and interdisciplinary musicians and sound artists.
+    sources:
+    - https://www.temescalartcenter.org/tacmusic.html
+  self_description:
+    value: 5
+    evidence: A venue for experimental, community and healing arts; hosts research and
+      residencies for improvised, experimental and interdisciplinary music.
+    sources:
+    - https://www.temescalartcenter.org/
+  operating_model:
+    value: 5
+    evidence: DIY community arts space operating since 1997.
+    sources:
+    - https://openspace.sfmoma.org/2018/02/featured-organization-temescal-art-center/
+  community_reputation:
+    value: 3
+    evidence: Longstanding East Bay experimental-arts fixture; featured by SFMOMA Open
+      Space and Bay Improviser.
+    sources:
+    - https://openspace.sfmoma.org/2018/02/featured-organization-temescal-art-center/
+  listening_room:
+    value: 3
+    evidence: Flexible community-arts room used for concerts and participatory sessions.
+    sources:
+    - https://www.temescalartcenter.org/
+score: 78
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.temescalartcenter.org/tacmusic.html
+  - https://www.bayimproviser.com/venue/56/temescal-arts-center
+  - https://openspace.sfmoma.org/2018/02/featured-organization-temescal-art-center/
+  needs_human_review: false
+notes: Oakland DIY arts center with a dedicated monthly free-improv series and the TACmusic
+  experimental program.

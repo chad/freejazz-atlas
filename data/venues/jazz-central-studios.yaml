@@ -1,0 +1,66 @@
+id: jazz-central-studios
+name: Jazz Central Studios
+aliases: []
+status: active
+location:
+  address: "407 Central Ave SE"
+  city: Minneapolis
+  region: MN
+  country: US
+  neighborhood: Old St. Anthony
+  lat: 44.9878
+  lon: -93.2568
+type: dedicated_space
+operating_model: nonprofit
+capacity: 50
+website: https://www.jazzcentralstudios.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Nonprofit performance/education space dedicated to jazz and improvised music, with near-nightly concerts, jam sessions and masterclasses."
+    sources:
+    - https://www.jazzcentralstudios.org/
+    - https://www.oldtownmpls.com/business-directory-blog/jazzcentralstudios
+  show_frequency:
+    value: 4
+    evidence: "Frequent (multiple nights per week) live-jazz and improvised programming."
+    sources:
+    - https://www.jazzcentralstudios.org/
+  artist_roster:
+    value: 3
+    evidence: "Books the Twin Cities jazz community; roster spans mainstream and improvised jazz."
+    sources:
+    - https://www.jazzpolice.com/archives/9574
+  self_description:
+    value: 3
+    evidence: "'A multifaceted creative space dedicated to jazz and improvised music.'"
+    sources:
+    - https://www.jazzcentralstudios.org/
+  operating_model:
+    value: 5
+    evidence: "Tax-exempt nonprofit strengthening the Twin Cities jazz community."
+    sources:
+    - https://www.jazzcentralstudios.org/
+  community_reputation:
+    value: 3
+    evidence: "Well-established hub in Twin Cities jazz-venue guides."
+    sources:
+    - https://www.jazzpolice.com/archives/9574
+  listening_room:
+    value: 4
+    evidence: "Intimate 1,800 sq ft room seating up to 50 for attentive listening."
+    sources:
+    - https://www.jazzcentralstudios.org/
+score: 74
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.jazzcentralstudios.org/
+  - https://www.oldtownmpls.com/business-directory-blog/jazzcentralstudios
+  needs_human_review: false
+notes: "Nonprofit Minneapolis jazz room; dedicated to jazz and improvised music though much of the calendar is straight-ahead."

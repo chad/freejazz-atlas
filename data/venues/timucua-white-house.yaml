@@ -1,0 +1,79 @@
+id: timucua-white-house
+name: Timucua (the white house)
+aliases:
+- Timucua Arts Foundation
+- the white house
+status: active
+location:
+  address: "2000 S Summerlin Ave"
+  city: Orlando
+  region: FL
+  country: US
+  neighborhood: SODO
+  lat: 28.5245
+  lon: -81.3695
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://timucua.com/venue/timucua/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit house concert hall presenting jazz and adventurous music, including
+      experimental jazz sets (e.g. the Tuesday Again experimental-jazz trio) and a jazz jam.
+    sources:
+    - https://timucua.com/venue/timucua/
+    - https://artsinorlando.com/event/moj-tuesday-again/
+  show_frequency:
+    value: 3
+    evidence: Hosts frequent concerts where "the music comes first," including recurring jazz
+      programming.
+    sources:
+    - https://www.visitorlando.com/blog/post/timucua-arts-foundation-orlando/
+  artist_roster:
+    value: 2
+    evidence: Mostly jazz, chamber, and world music, with experimental jazz appearing as one
+      strand; not primarily a free-improv roster.
+    sources:
+    - https://artsinorlando.com/event/moj-tuesday-again/
+    - https://citysurfingorlando.com/2025/05/upcoming-events-at-timucua-arts-foundation-benoits-audiofiles-world-music-jazz-series-and-more/
+  self_description:
+    value: 2
+    evidence: Presents itself as an intimate arts foundation and concert hall (a "community
+      living room"), not specifically an experimental venue.
+    sources:
+    - https://timucua.com/venue/timucua/
+  operating_model:
+    value: 5
+    evidence: Timucua Arts Foundation nonprofit, founded by Benoit Glazer; concerts hosted in
+      a custom 3-story home.
+    sources:
+    - https://newsroom.ocfl.net/2025/05/timucua-arts-foundation-celebrates-25-years-of-bringing-art-to-life/
+  community_reputation:
+    value: 3
+    evidence: A 25-year Orlando institution for intimate live music.
+    sources:
+    - https://newsroom.ocfl.net/2025/05/timucua-arts-foundation-celebrates-25-years-of-bringing-art-to-life/
+  listening_room:
+    value: 5
+    evidence: Purpose-built concert hall with an advanced acoustic control system for attentive
+      listening.
+    sources:
+    - https://timucua.com/venue/timucua/
+    - https://www.visitorlando.com/blog/post/timucua-arts-foundation-orlando/
+score: 60
+tier: supportive
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://timucua.com/venue/timucua/
+  - https://artsinorlando.com/event/moj-tuesday-again/
+  - https://newsroom.ocfl.net/2025/05/timucua-arts-foundation-celebrates-25-years-of-bringing-art-to-life/
+  needs_human_review: false
+notes: 'Orlando nonprofit house-concert listening room (Timucua Arts Foundation). Strong dedicated
+  listening space and jazz program; experimental/free improv is present but secondary to jazz,
+  chamber, and world music.'

@@ -1,0 +1,71 @@
+id: machines-with-magnets
+name: Machines with Magnets
+aliases:
+- MWM
+status: active
+location:
+  address: 400 Main St
+  city: Pawtucket
+  region: RI
+  country: US
+  lat: 41.8761
+  lon: -71.3831
+type: dedicated_space
+operating_model: artist_run
+capacity: null
+website: https://www.machineswithmagnets.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Recording studio and venue established 2007 that hosts experimental music performances,
+      sound/art installations and performance art.
+    sources:
+    - https://machineswithmagnets.com/performance
+    - https://www.visitrhodeisland.com/listing/machines-with-magnets/3095/
+  show_frequency:
+    value: 3
+    evidence: Regular experimental-music performances alongside studio operations.
+    sources:
+    - https://machineswithmagnets.com/performance
+  artist_roster:
+    value: 4
+    evidence: Associated with experimental artists such as Lightning Bolt, Battles and The
+      Body; programs adventurous sound work.
+    sources:
+    - https://www.machineswithmagnets.com/
+  self_description:
+    value: 5
+    evidence: Describes itself as an experimental music venue, recording studio, art gallery
+      and event space.
+    sources:
+    - https://www.indieonthemove.com/venues/machines-with-magnets-pawtucket-rhode-island
+  operating_model:
+    value: 4
+    evidence: Independent artist-run studio/venue.
+    sources:
+    - https://www.machineswithmagnets.com/
+  community_reputation:
+    value: 4
+    evidence: Well-known Providence-area destination for experimental and noise music.
+    sources:
+    - https://tourblackstone.com/machines-with-magnets/
+  listening_room:
+    value: 3
+    evidence: Intimate performance space with a bar.
+    sources:
+    - https://machineswithmagnets.com/performance
+score: 77
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://machineswithmagnets.com/performance
+  - https://www.machineswithmagnets.com/
+  - https://www.visitrhodeisland.com/listing/machines-with-magnets/3095/
+  needs_human_review: false
+notes: Pawtucket experimental-music venue and studio; coordinates approximate to 400 Main
+  St.

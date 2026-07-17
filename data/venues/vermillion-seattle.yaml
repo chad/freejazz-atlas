@@ -1,0 +1,72 @@
+id: vermillion-seattle
+name: Vermillion Art Gallery and Bar
+aliases:
+- Vermillion
+status: active
+location:
+  address: 1508 11th Ave
+  city: Seattle
+  region: WA
+  country: US
+  neighborhood: Capitol Hill
+  lat: 47.6141
+  lon: -122.3172
+type: gallery
+operating_model: commercial
+capacity: null
+website: https://www.vermillionseattle.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Hybrid art gallery/bar that has mainly hosted the city's avant-garde and improvised-music
+      community; long-time home of the Seattle Jazz Fellowship's weekly series before it moved
+      to Pioneer Square.
+    sources:
+    - https://www.vermillionseattle.com/about
+    - https://seattlejazzscene.com/2021/10/seattle-jazz-fellowship-one-small-step-at-vermillion-one-giant-step-for-the-seattle-jazz-scene/
+  show_frequency:
+    value: 3
+    evidence: Continues to host live jazz and improvised groups a few times a month.
+    sources:
+    - https://independentvenueweek.com/us/venues-us/vermillion/
+  artist_roster:
+    value: 4
+    evidence: Programming drawn largely from Seattle's improvised and avant-garde music community.
+    sources:
+    - https://seattlejazzscene.com/2021/10/seattle-jazz-fellowship-one-small-step-at-vermillion-one-giant-step-for-the-seattle-jazz-scene/
+  self_description:
+    value: 3
+    evidence: Describes itself as an art gallery, performance space and bar and a neighborhood
+      cultural hub.
+    sources:
+    - https://www.vermillionseattle.com/about
+  operating_model:
+    value: 3
+    evidence: Independent commercial gallery/bar with a strong arts mission.
+    sources:
+    - https://www.vermillionseattle.com/about
+  community_reputation:
+    value: 3
+    evidence: Recognized cultural hub in Capitol Hill's Pike/Pine arts corridor.
+    sources:
+    - https://p2bars.com/bars-near-me/vermillion/
+  listening_room:
+    value: 3
+    evidence: Gallery/bar setting; music shares the room with a bar.
+    sources:
+    - https://www.vermillionseattle.com/about
+score: 64
+tier: supportive
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.vermillionseattle.com/
+  - https://seattlejazzscene.com/2021/10/seattle-jazz-fellowship-one-small-step-at-vermillion-one-giant-step-for-the-seattle-jazz-scene/
+  - https://independentvenueweek.com/us/venues-us/vermillion/
+  needs_human_review: false
+notes: Capitol Hill gallery/bar, established 2008. Formerly the weekly home of the Seattle
+  Jazz Fellowship; still hosts improvised/avant music a few times a month.

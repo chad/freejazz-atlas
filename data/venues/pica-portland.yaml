@@ -1,0 +1,77 @@
+id: pica-portland
+name: Portland Institute for Contemporary Art
+aliases:
+- PICA
+- Time-Based Art Festival
+- TBA
+status: active
+location:
+  address: 15 NE Hancock St
+  city: Portland
+  region: OR
+  country: US
+  neighborhood: Northeast Portland
+  lat: 45.5346
+  lon: -122.6614
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://www.pica.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Contemporary-arts institution whose annual Time-Based Art (TBA) Festival programs
+      experimental and boundary-defying music (experimental opera, drone/soundscape, live
+      film scores) alongside performance and visual art.
+    sources:
+    - https://www.pica.org/events
+    - https://en.wikipedia.org/wiki/Portland_Institute_for_Contemporary_Art
+  show_frequency:
+    value: 2
+    evidence: A concentrated 10-day September festival plus scattered year-round events; experimental
+      music is one strand of a multidisciplinary program.
+    sources:
+    - https://www.travelportland.com/events/tba/
+  artist_roster:
+    value: 4
+    evidence: Presents local, national and international experimental artists across disciplines
+      including music.
+    sources:
+    - https://en.wikipedia.org/wiki/Portland_Institute_for_Contemporary_Art
+  self_description:
+    value: 4
+    evidence: Dedicated to contemporary and experimental art; TBA is built around work that
+      defies categorization.
+    sources:
+    - https://www.pica.org/tba/passes
+  operating_model:
+    value: 5
+    evidence: Nonprofit contemporary-art organization, founded 1995.
+    sources:
+    - https://en.wikipedia.org/wiki/Portland_Institute_for_Contemporary_Art
+  community_reputation:
+    value: 4
+    evidence: TBA hailed by the New York Times as among the country's best contemporary summer/fall
+      festivals.
+    sources:
+    - https://en.wikipedia.org/wiki/Portland_Institute_for_Contemporary_Art
+  listening_room:
+    value: 3
+    evidence: Uses varied performance/gallery settings rather than a dedicated listening room.
+    sources:
+    - https://www.pica.org/events
+score: 73
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.pica.org/
+  - https://en.wikipedia.org/wiki/Portland_Institute_for_Contemporary_Art
+  - https://www.travelportland.com/events/tba/
+  needs_human_review: false
+notes: Nonprofit contemporary-arts org; its TBA Festival is a significant platform for experimental
+  music within a multidisciplinary program.

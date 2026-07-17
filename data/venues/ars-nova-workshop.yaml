@@ -1,0 +1,78 @@
+id: ars-nova-workshop
+name: Ars Nova Workshop
+aliases:
+- ANW
+status: active
+location:
+  address: 1131 S Broad St (Solar Myth home base)
+  city: Philadelphia
+  region: PA
+  country: US
+  neighborhood: South Philadelphia
+  lat: 39.9315
+  lon: -75.1668
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.arsnovaworkshop.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 5
+    evidence: Nonprofit dedicated to presenting jazz, experimental, and new-classical music;
+      acclaimed Composer Portrait series. Reason to exist is adventurous programming.
+    sources:
+    - https://www.arsnovaworkshop.org/about/
+    - https://downbeat.com/news/detail/ars-nova-workshop-25-years-of-community-building
+  show_frequency:
+    value: 4
+    evidence: Has programmed 1,000+ unique events since 2000; presents frequently at Solar
+      Myth and partner institutions.
+    sources:
+    - https://www.arsnovaworkshop.org/about/
+  artist_roster:
+    value: 5
+    evidence: Has presented Cecil Taylor, Pauline Oliveros, Anthony Braxton, Henry Threadgill,
+      Roscoe Mitchell, The Art Ensemble of Chicago, John Zorn, Tyshawn Sorey.
+    sources:
+    - https://www.arsnovaworkshop.org/about/
+    - https://www.npr.org/templates/story/story.php?storyId=194551564
+  self_description:
+    value: 5
+    evidence: Philadelphia's premier presenter of improvisational music; cultivates connection
+      through deep listening and improvisation.
+    sources:
+    - https://www.arsnovaworkshop.org/about/
+  operating_model:
+    value: 5
+    evidence: 501(c)(3) nonprofit music-presenting organization founded by Mark Christman.
+    sources:
+    - https://www.arsnovaworkshop.org/about/
+    - https://www.pewcenterarts.org/organization/ars-nova-workshop
+  community_reputation:
+    value: 5
+    evidence: Winner of ASCAP Award for Adventurous Programming; internationally recognized
+      presenter.
+    sources:
+    - https://downbeat.com/news/detail/ars-nova-workshop-25-years-of-community-building
+    - https://www.pewcenterarts.org/organization/ars-nova-workshop
+  listening_room:
+    value: 4
+    evidence: Programs attentive-listening concerts at Solar Myth and cultural institutions.
+    sources:
+    - https://www.arsnovaworkshop.org/about/
+score: 95
+tier: cornerstone
+confidence: 0.8
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.arsnovaworkshop.org/about/
+  - https://downbeat.com/news/detail/ars-nova-workshop-25-years-of-community-building
+  - https://www.npr.org/templates/story/story.php?storyId=194551564
+  needs_human_review: false
+notes: Distinct presenting organization behind Solar Myth (already in atlas as the venue).
+  ANW also presents citywide with the Philadelphia Museum of Art, Barnes Foundation, and other
+  partners. Overlaps geographically with solar-myth but is a separate entity (the curator/presenter).

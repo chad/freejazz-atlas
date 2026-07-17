@@ -1,0 +1,68 @@
+id: church-of-the-friendly-ghost-austin
+name: Church of the Friendly Ghost
+aliases:
+- COTFG
+- NMASS
+status: active
+location:
+  city: Austin
+  region: TX
+  country: US
+  neighborhood: East Austin
+  lat: 30.2606
+  lon: -97.7180
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.cotfg.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: "Volunteer-run collective presenting adventurous, improvised, experimental, noise and jazz concerts since 2003; organizes the annual New Media Art and Sound Summit (NMASS)."
+    sources:
+    - https://nowplayingaustin.com/organization/church-of-the-friendly-ghost/
+    - https://newmusicusa.org/nmbx/austin-summer-festivals-business-as-unusual/
+  show_frequency:
+    value: 3
+    evidence: "Has presented hundreds of concerts, workshops and film screenings; regular but not weekly events plus the NMASS festival."
+    sources:
+    - https://nowplayingaustin.com/organization/church-of-the-friendly-ghost/
+  artist_roster:
+    value: 4
+    evidence: "Programs cutting-edge improvisers and experimental/noise artists."
+    sources:
+    - https://www.austinchronicle.com/daily/music/2015-06-09/new-media-sound-and-art-summit-weirds-out/
+  self_description:
+    value: 5
+    evidence: "Self-describes as supporting creative, adventurous, improvised, experimental, noise, jazz and related cutting-edge music and performance."
+    sources:
+    - https://nowplayingaustin.com/organization/church-of-the-friendly-ghost/
+  operating_model:
+    value: 5
+    evidence: "Volunteer-run 501(c)(3) nonprofit arts organization founded 2003."
+    sources:
+    - https://www.gudsy.org/nonprofits/church-of-the-friendly-ghost-austin-tx
+  community_reputation:
+    value: 4
+    evidence: "Long-standing pillar of Austin's experimental scene; NMASS covered by CultureMap, Austin Chronicle and New Music USA."
+    sources:
+    - https://austin.culturemap.com/news/arts/06-11-13-church-of-the-friendly-ghost-celebrates-its-tenth-birthday-with-an-interactive-music-festival
+  listening_room:
+    value: 3
+    evidence: "Presents in various rooms; attentive concert settings for the featured series."
+    sources:
+    - https://nowplayingaustin.com/organization/church-of-the-friendly-ghost/
+score: 79
+tier: committed
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.cotfg.org/
+  - https://nowplayingaustin.com/organization/church-of-the-friendly-ghost/
+  - https://newmusicusa.org/nmbx/austin-summer-festivals-business-as-unusual/
+  needs_human_review: false
+notes: "Roaming volunteer-run presenter (coordinates approximate to its original East Austin base); organizer of the New Media Art and Sound Summit."

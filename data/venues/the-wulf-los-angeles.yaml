@@ -1,0 +1,70 @@
+id: the-wulf-los-angeles
+name: the wulf.
+aliases: []
+status: closed
+location:
+  address: "1026 S Santa Fe Ave #203"
+  city: Los Angeles
+  region: CA
+  country: US
+  neighborhood: Arts District
+  lat: 34.0345
+  lon: -118.2320
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://www.thewulf.org/
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 5
+    evidence: 501(c)(3) nonprofit art space dedicated to experimental music and arts in
+      LA's Arts District; its reason to exist was presenting experimental/improvised music.
+    sources:
+    - https://www.thewulf.org/
+    - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
+  show_frequency:
+    value: 4
+    evidence: Frequent experimental and improvised concerts during its run (roughly 2008-2016).
+    sources:
+    - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
+  artist_roster:
+    value: 5
+    evidence: Home to LA and touring experimental/improv composers and performers.
+    sources:
+    - https://experimentalmusicyearbook.com/filter/the-wulf.
+  self_description:
+    value: 5
+    evidence: Dedicated to experimental arts.
+    sources:
+    - https://www.thewulf.org/
+  operating_model:
+    value: 5
+    evidence: Volunteer-run nonprofit art space.
+    sources:
+    - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
+  community_reputation:
+    value: 4
+    evidence: Legendary LA underground/experimental space; documented by PBS SoCal Artbound
+      and the Experimental Music Yearbook.
+    sources:
+    - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
+  listening_room:
+    value: 4
+    evidence: Intimate seated experimental-music room.
+    sources:
+    - https://www.sequenza21.com/2016/01/experimental-electronic-music-at-the-wulf/
+score: 93
+tier: cornerstone
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.thewulf.org/
+  - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
+  - https://experimentalmusicyearbook.com/filter/the-wulf.
+  needs_human_review: false
+notes: CLOSED (~2016, lost its physical space). Legendary volunteer-run LA experimental-music
+  space; score reflects its programming while active. Legacy entry.

@@ -1,0 +1,72 @@
+id: arcadenow-fort-smith
+name: ArcadeNow
+aliases: []
+status: unconfirmed
+location:
+  address: 70 S 7th St
+  city: Fort Smith
+  region: AR
+  country: US
+  neighborhood: Bakery District
+  lat: 35.3853
+  lon: -94.4267
+type: festival
+operating_model: nonprofit
+capacity: null
+website: http://www.amoscochran.com/arcade-now
+active_this_year: false
+signals:
+  dedicated_series:
+    value: 3
+    evidence: A series created to champion and make space for the more experimental side of
+      music, film, dance and visual art across Arkansas; curated by composer Amos Cochran.
+    sources:
+    - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
+    - http://www.amoscochran.com/arcade-now
+  show_frequency:
+    value: 1
+    evidence: Volume 1 was staged in 2022 (Nov 11-12) at the Bakery District; the organizers
+      were subsequently evaluating what comes next.
+    sources:
+    - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
+  artist_roster:
+    value: 4
+    evidence: Programmed post-classical, ambient, electronic, solo-instrument, modular-synth
+      and cross-genre work (e.g. a rapper paired with string quartet).
+    sources:
+    - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
+  self_description:
+    value: 5
+    evidence: Explicitly frames itself around championing experimental music, film, dance
+      and visual art.
+    sources:
+    - http://www.amoscochran.com/arcade-now
+  operating_model:
+    value: 4
+    evidence: Grant-funded curatorial project (Artists 360 / Mid-America Arts Alliance) led
+      by a Kennedy Center-recognized composer.
+    sources:
+    - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
+  community_reputation:
+    value: 3
+    evidence: Covered by Arkansas Times as a notable experimental-music series in the region.
+    sources:
+    - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
+  listening_room:
+    value: 3
+    evidence: Presented in the Bakery District arts venue as a seated/attentive event.
+    sources:
+    - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
+score: 63
+tier: supportive
+confidence: 0.45
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - http://www.amoscochran.com/arcade-now
+  - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
+  needs_human_review: true
+notes: Amos Cochran-curated experimental series (Fort Smith Bakery District); only Volume
+  1 (2022) is documented and future editions were unconfirmed - status/activity needs verification.

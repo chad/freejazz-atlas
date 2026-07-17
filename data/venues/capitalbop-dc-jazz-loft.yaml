@@ -1,0 +1,76 @@
+id: capitalbop-dc-jazz-loft
+name: CapitalBop / DC Jazz Loft
+aliases:
+- CapitalBop
+- DC Jazz Loft
+status: active
+location:
+  address: "presents at Rhizome and DIY spaces around DC"
+  city: Washington
+  region: DC
+  country: US
+  neighborhood: Takoma / citywide
+  lat: 38.977
+  lon: -77.0173
+type: presenter
+operating_model: nonprofit
+capacity: null
+website: https://www.capitalbop.com/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 4
+    evidence: Runs the DC Jazz Loft, a loft-tradition series for creative music; part of a mission
+      to present jazz as Black American / creative music.
+    sources:
+    - https://www.capitalbop.com/about/
+    - https://www.capitalbop.com/dc-jazz-loft-relaunch-rhizome/
+  show_frequency:
+    value: 3
+    evidence: DC Jazz Loft runs as a recurring (historically monthly) series in lofts, galleries,
+      and basements.
+    sources:
+    - https://www.capitalbop.com/d-c-jazz-loft-series/
+  artist_roster:
+    value: 4
+    evidence: "Programs \"fire music\" and creative improvisers (e.g. saxophonists Aaron Martin\
+      \ and Lionel Lyles; Brian Falkowski and Dan Kurfirst)."
+    sources:
+    - https://www.capitalbop.com/aaron-martin-lionel-lyles-dc-jazz-loft/
+    - https://www.capitalbop.com/brian-falkowski-dan-kurfirst-dc-jazz-loft/
+  self_description:
+    value: 4
+    evidence: "Dedicated to promoting, presenting and preserving jazz (aka Black American Music\
+      \ or creative music) in DC."
+    sources:
+    - https://www.capitalbop.com/about/
+  operating_model:
+    value: 5
+    evidence: 501(c)(3) nonprofit founded 2010; Jazz Loft is donation-based with 100% to artists.
+    sources:
+    - https://www.capitalbop.com/about/
+    - https://www.cfp-dc.org/nonprofits/1753/CapitalBop/
+  community_reputation:
+    value: 4
+    evidence: Central to DC's jazz coverage and creative-music presenting since 2010.
+    sources:
+    - https://www.capitalbop.com/about/
+  listening_room:
+    value: 4
+    evidence: Loft-style intimate listening events modeled on the bebop-era jazz lofts.
+    sources:
+    - https://www.capitalbop.com/announcing-capitalbops-first-d-c-jazz-loft/
+score: 78
+tier: committed
+confidence: 0.75
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.capitalbop.com/about/
+  - https://www.capitalbop.com/dc-jazz-loft-relaunch-rhizome/
+  - https://www.capitalbop.com/d-c-jazz-loft-series/
+  needs_human_review: false
+notes: 'DC nonprofit presenter and jazz-journalism org; the DC Jazz Loft series (revived at Rhizome)
+  favors creative/avant jazz. Nomadic historically (Red Door, Union Arts, Hole in the Sky).'

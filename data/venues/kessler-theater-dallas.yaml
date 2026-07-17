@@ -1,0 +1,67 @@
+id: kessler-theater-dallas
+name: The Kessler Theater
+aliases:
+- The Kessler
+status: active
+location:
+  address: "1230 W Davis St"
+  city: Dallas
+  region: TX
+  country: US
+  neighborhood: Oak Cliff
+  lat: 32.7458
+  lon: -96.8342
+type: bar_club
+operating_model: commercial
+capacity: 577
+website: https://thekessler.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 1
+    evidence: "A restored 1942 theater booking a wide range of touring and local acts; adventurous/creative music appears occasionally but there is no dedicated free/improv series."
+    sources:
+    - https://thekessler.org/
+    - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
+  show_frequency:
+    value: 2
+    evidence: "Frequent concerts across many genres, of which improv/avant programming is a small share."
+    sources:
+    - https://thekessler.org/calendar/
+  artist_roster:
+    value: 2
+    evidence: "Books music stars and up-and-coming locals broadly; a minority of bookings are creative/experimental."
+    sources:
+    - https://thekessler.org/press/
+  self_description:
+    value: 2
+    evidence: "Positions itself as an intimate listening-focused concert destination, not an experimental space."
+    sources:
+    - https://thekessler.org/
+  operating_model:
+    value: 2
+    evidence: "Commercially owned/operated concert theater."
+    sources:
+    - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
+  community_reputation:
+    value: 3
+    evidence: "Widely called the best listening room in Dallas-Fort Worth since the demise of Caravan of Dreams."
+    sources:
+    - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
+  listening_room:
+    value: 5
+    evidence: "Designed as an intimate, acoustically strong seated listening room."
+    sources:
+    - https://thekessler.org/
+score: 40
+tier: occasional
+confidence: 0.58
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://thekessler.org/
+  - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
+  needs_human_review: false
+notes: "Oak Cliff's premier listening room; a broad-genre concert theater that hosts adventurous music occasionally rather than as a mission."

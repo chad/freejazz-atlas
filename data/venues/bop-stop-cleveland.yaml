@@ -1,0 +1,71 @@
+id: bop-stop-cleveland
+name: BOP STOP
+aliases:
+- Bop Stop at The Music Settlement
+status: active
+location:
+  address: 2920 Detroit Ave
+  city: Cleveland
+  region: OH
+  country: US
+  neighborhood: Ohio City
+  lat: 41.4864
+  lon: -81.7137
+type: dedicated_space
+operating_model: nonprofit
+capacity: null
+website: https://www.themusicsettlement.org/bop-stop
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Nonprofit listening room presenting jazz and creative music; described as the
+      epicenter for creative music and jazz in Northeast Ohio, though much of the calendar
+      is mainstream jazz.
+    sources:
+    - https://www.themusicsettlement.org/bop-stop
+  show_frequency:
+    value: 4
+    evidence: Hosts over 300 concerts annually.
+    sources:
+    - https://www.themusicsettlement.org/bop-stop
+  artist_roster:
+    value: 3
+    evidence: Books national touring jazz artists and regional creative musicians; roster
+      leans mainstream-to-modern jazz with some adventurous programming.
+    sources:
+    - https://www.thisiscleveland.com/locations/bop-stop-@-the-music-settlement
+  self_description:
+    value: 3
+    evidence: Cleveland's premier listening room and 'epicenter for creative music and jazz.'
+    sources:
+    - https://www.themusicsettlement.org/bop-stop
+  operating_model:
+    value: 5
+    evidence: Operated by the nonprofit Music Settlement (venue donated in 2013).
+    sources:
+    - https://www.themusicsettlement.org/bop-stop
+  community_reputation:
+    value: 4
+    evidence: Listed in DownBeat's International Venue Guide (2023-2026); won All About Jazz's
+      Top Jazz Club in the US (2019).
+    sources:
+    - https://www.themusicsettlement.org/bop-stop
+  listening_room:
+    value: 5
+    evidence: Acoustically tuned, tiered-seating listening room with no bad seat.
+    sources:
+    - https://www.themusicsettlement.org/bop-stop
+score: 72
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://www.themusicsettlement.org/bop-stop
+  - https://www.thisiscleveland.com/locations/bop-stop-@-the-music-settlement
+  needs_human_review: false
+notes: Nonprofit Cleveland listening room; strong jazz program with a meaningful creative-music
+  share (score reflects mainstream-leaning calendar).

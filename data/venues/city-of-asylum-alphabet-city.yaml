@@ -1,0 +1,74 @@
+id: city-of-asylum-alphabet-city
+name: City of Asylum @ Alphabet City
+aliases:
+- Alphabet City
+- City of Asylum
+status: active
+location:
+  address: 40 W North Ave
+  city: Pittsburgh
+  region: PA
+  country: US
+  neighborhood: North Side
+  lat: 40.4536
+  lon: -80.009
+type: arts_center
+operating_model: nonprofit
+capacity: null
+website: https://cityofasylum.org/venue/alphabet-city/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: Home of Jazz Poetry (poets reading while jazz musicians improvise one-and-done
+      accompaniment) and a recurring Thursday Night Jazz series.
+    sources:
+    - https://cityofasylum.org/venue/alphabet-city/
+    - https://www.wzum.org/wzum-in-the-community/2025/5/jazz-poetry-month-at-city-of-asylum-alphabet-city-north-side-p5hbd
+  show_frequency:
+    value: 3
+    evidence: Regular small-scale music and performance programming; Jazz Poetry runs all
+      of May, plus recurring Thursday jazz nights.
+    sources:
+    - https://cucinaalfabeto.com/events/city-of-asylum-thursday-night-jazz-3
+    - https://www.jazznearyou.com/pittsburgh/venue/alphabet-city
+  artist_roster:
+    value: 3
+    evidence: Jazz Poetry has paired improvisers such as Oliver Lake and Marta Sanchez with
+      writers-in-residence; roster mixes creative-jazz and mainstream jazz.
+    sources:
+    - https://www.wzum.org/wzum-in-the-community/2025/5/jazz-poetry-month-at-city-of-asylum-alphabet-city-north-side-p5hbd
+  self_description:
+    value: 2
+    evidence: Describes itself as a hub for readers/writers and small-scale music and artistic
+      experimentation, not specifically a free-improv venue.
+    sources:
+    - https://www.jazznearyou.com/pittsburgh/venue/alphabet-city
+  operating_model:
+    value: 5
+    evidence: Program of City of Asylum, a nonprofit sheltering exiled writers.
+    sources:
+    - https://cityofasylum.org/venue/alphabet-city/
+  community_reputation:
+    value: 3
+    evidence: Jazz Poetry is one of Pittsburgh's signature arts events since 2005.
+    sources:
+    - https://www.wzum.org/wzum-in-the-community/2025/5/jazz-poetry-month-at-city-of-asylum-alphabet-city-north-side-p5hbd
+  listening_room:
+    value: 4
+    evidence: Intimate seated performance space for attentive listening.
+    sources:
+    - https://cityofasylum.org/venue/alphabet-city/
+score: 63
+tier: supportive
+confidence: 0.7
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://cityofasylum.org/venue/alphabet-city/
+  - https://www.wzum.org/wzum-in-the-community/2025/5/jazz-poetry-month-at-city-of-asylum-alphabet-city-north-side-p5hbd
+  needs_human_review: false
+notes: Nonprofit literary + jazz venue on Pittsburgh's North Side; improvised music appears
+  mainly through Jazz Poetry and Thursday jazz, within a broader literary program.

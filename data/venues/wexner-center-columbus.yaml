@@ -1,0 +1,68 @@
+id: wexner-center-columbus
+name: Wexner Center for the Arts
+aliases:
+- The Wex
+status: active
+location:
+  address: "1871 N High St"
+  city: Columbus
+  region: OH
+  country: US
+  neighborhood: Ohio State University
+  lat: 39.9990
+  lon: -83.0086
+type: arts_center
+operating_model: university
+capacity: null
+website: https://wexarts.org/
+active_this_year: true
+signals:
+  dedicated_series:
+    value: 3
+    evidence: "Contemporary arts center whose performing-arts program includes the Wex[EP] series highlighting the experimental side of the region's musicians, plus presented jazz/new-music by artists such as AACM members."
+    sources:
+    - https://wexarts.org/performing-arts/wexep-sonic-arts-ensemble
+    - https://wexarts.org/explore/performing-arts
+  show_frequency:
+    value: 2
+    evidence: "Experimental music is part of a broad multidisciplinary season rather than a frequent standalone series."
+    sources:
+    - https://wexarts.org/explore/performing-arts
+  artist_roster:
+    value: 4
+    evidence: "Presents experimental, jazz, world and electronic artists across dance, theater and music."
+    sources:
+    - https://wexarts.org/explore/performing-arts
+    - https://wexarts.org/press-release/wexner-center-arts-announces-2025-26-performing-arts-season
+  self_description:
+    value: 4
+    evidence: "Presents contemporary and experimental performing arts that 'defy categorization.'"
+    sources:
+    - https://wexarts.org/explore/performing-arts
+  operating_model:
+    value: 4
+    evidence: "University-based nonprofit contemporary arts center at Ohio State."
+    sources:
+    - https://en.wikipedia.org/wiki/Wexner_Center_for_the_Arts
+  community_reputation:
+    value: 4
+    evidence: "Internationally known contemporary arts center."
+    sources:
+    - https://en.wikipedia.org/wiki/Wexner_Center_for_the_Arts
+  listening_room:
+    value: 4
+    evidence: "Cabaret-style black box and Mershon Auditorium for seated performances."
+    sources:
+    - https://wexarts.org/explore/performing-arts
+score: 67
+tier: committed
+confidence: 0.6
+provenance:
+  added_by: seed:web-research-2026-07
+  added_on: '2026-07-17'
+  last_confirmed: 2026-07
+  source_urls:
+  - https://wexarts.org/performing-arts/wexep-sonic-arts-ensemble
+  - https://wexarts.org/explore/performing-arts
+  needs_human_review: false
+notes: "Major university contemporary arts center; experimental/improvised music is a recurring but partial slice of its wider program."
