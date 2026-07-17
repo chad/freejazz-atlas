@@ -161,7 +161,13 @@ def build_html(venues: list, musicians: list) -> str:
   .toggle {{ cursor:pointer; user-select:none; font-size:.8rem; color:var(--accent); }}
   footer {{ color:var(--mut); font-size:.82rem; padding:2rem 1.25rem; text-align:center; }}
   a {{ color:var(--accent); }}
+  #map {{ height:62vh; min-height:380px; border:1px solid var(--line); border-radius:12px; margin:1rem 0; z-index:0; }}
+  .maplegend {{ display:flex; gap:.9rem; flex-wrap:wrap; font-size:.78rem; color:var(--mut); margin:-.3rem 0 .3rem; }}
+  .maplegend span {{ display:inline-flex; align-items:center; gap:.35rem; }}
+  .dot {{ width:11px; height:11px; border-radius:50%; display:inline-block; }}
 </style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
 <header><div class="wrap">
@@ -171,6 +177,8 @@ def build_html(venues: list, musicians: list) -> str:
   <div style="margin-top:1rem"><a href="/submit" style="display:inline-block;background:#e05a6d;color:#0a0c12;font-weight:600;text-decoration:none;padding:.5rem 1rem;border-radius:8px">+ Add a venue</a></div>
 </div></header>
 <div class="wrap">
+  <div id="map"></div>
+  <div class="maplegend" id="legend"></div>
   <div class="controls">
     <input type="search" id="q" placeholder="Search venue, city, state…">
     <select id="tier"><option value="">All tiers</option></select>
@@ -229,6 +237,34 @@ function card(v) {{
   </div>`;
 }}
 
+const TIER_COLORS = {{cornerstone:'#e0654a', committed:'#e39a3b', supportive:'#d9b74a', occasional:'#8f9a8c', incidental:'#8a857d'}};
+let MAP, MARKERS;
+function initMap() {{
+  MAP = L.map('map', {{ worldCopyJump:true, scrollWheelZoom:false }}).setView([30, 5], 2);
+  L.tileLayer('https://{{s}}.basemaps.cartocdn.com/rastertiles/voyager/{{z}}/{{x}}/{{y}}{{r}}.png',
+    {{ attribution:'&copy; OpenStreetMap contributors &copy; CARTO', maxZoom:19 }}).addTo(MAP);
+  MARKERS = L.layerGroup().addTo(MAP);
+  const leg = document.getElementById('legend');
+  leg.innerHTML = tiers.map(t => `<span><i class="dot" style="background:${{TIER_COLORS[t]||'#8a857d'}}"></i>${{esc(tierLabel[t]||t)}}</span>`).join('');
+  setTimeout(() => MAP.invalidateSize(), 250);
+}}
+function updateMap(list) {{
+  if (!MAP) return;
+  MARKERS.clearLayers();
+  const pts = [];
+  list.forEach(v => {{
+    const loc = v.location || {{}};
+    if (loc.lat == null || loc.lon == null) return;
+    const color = TIER_COLORS[v.tier] || '#8a857d';
+    const m = L.circleMarker([loc.lat, loc.lon], {{ radius: 4 + (v.score||0)/11, color:'#00000055', weight:.6, fillColor:color, fillOpacity:.82 }});
+    const web = v.website ? `<a href="${{esc(v.website)}}" target="_blank" rel="noopener">${{esc(v.name)}}</a>` : esc(v.name);
+    const place = esc(loc.city||'') + (loc.region ? ', '+esc(loc.region) : '') + ((loc.country && loc.country!=='US') ? ', '+esc(loc.country) : '');
+    m.bindPopup(`<b>${{web}}</b><br>${{place}}<br><b>${{v.score}}</b> &middot; ${{esc(tierLabel[v.tier]||v.tier)}}`);
+    m.addTo(MARKERS);
+    pts.push([loc.lat, loc.lon]);
+  }});
+  if (pts.length) {{ try {{ MAP.fitBounds(pts, {{ padding:[30,30], maxZoom:6 }}); }} catch(e) {{}} }}
+}}
 function render() {{
   const q = document.getElementById('q').value.toLowerCase().trim();
   const tier = document.getElementById('tier').value;
@@ -238,19 +274,14 @@ function render() {{
   if (sort === 'name') rows.sort((a,b)=> (a.name||'').localeCompare(b.name||''));
   else if (sort === 'city') rows.sort((a,b)=> ((a.location||{{}}).city||'').localeCompare((b.location||{{}}).city||''));
   else rows.sort((a,b)=> b.score - a.score);
-  const html = rows.map(card).join('');
-  const list = document.getElementById('list');
-  list.innerHTML = html;
-  let shown = 0;
-  list.querySelectorAll('.venue').forEach(el => {{
-    const okQ = !q || el.dataset.hay.includes(q);
-    const okT = !tier || el.dataset.tier === tier;
-    const okR = !region || el.dataset.region === region;
-    const show = okQ && okT && okR;
-    el.style.display = show ? '' : 'none';
-    if (show) shown++;
+  const visible = rows.filter(v => {{
+    const loc = v.location || {{}};
+    const hay = (v.name+' '+(loc.city||'')+' '+(loc.region||'')+' '+(v.type||'')).toLowerCase();
+    return (!q || hay.includes(q)) && (!tier || v.tier === tier) && (!region || (loc.region||'') === region);
   }});
-  document.getElementById('count').textContent = shown + ' of ' + V.length + ' venues';
+  document.getElementById('list').innerHTML = visible.map(card).join('');
+  document.getElementById('count').textContent = visible.length + ' of ' + V.length + ' venues';
+  updateMap(visible);
 }}
 document.getElementById('list').addEventListener('click', e => {{
   if (e.target.classList.contains('toggle')) {{
@@ -259,6 +290,7 @@ document.getElementById('list').addEventListener('click', e => {{
   }}
 }});
 ['q','tier','region','sort'].forEach(id => document.getElementById(id).addEventListener('input', render));
+initMap();
 render();
 </script>
 </body>
