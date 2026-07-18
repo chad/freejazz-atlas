@@ -11,6 +11,9 @@ home_base:
 active_this_year: true
 associated_venues:
 - dissonant-works
+- the-stone
+- roulette-intermedium
+- ibeam-brooklyn
 collectives: []
 website: null
 confidence: 0.8
