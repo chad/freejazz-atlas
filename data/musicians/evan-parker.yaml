@@ -1,0 +1,27 @@
+id: evan-parker
+name: Evan Parker
+instruments:
+- soprano saxophone
+- tenor saxophone
+roles:
+- performer
+- bandleader
+home_base:
+  city: London
+  region: England
+  country: GB
+active_this_year: true
+associated_venues:
+- cafe-oto-london
+- mopomoso-london
+- vortex-jazz-club-london
+collectives: []
+website: null
+confidence: 0.6
+provenance:
+  added_by: assistant:scene-knowledge-2026-07-18
+  added_on: '2026-07-18'
+  source_urls: []
+  needs_human_review: true
+  note: Added from established scene knowledge during a spend-limit outage; verify
+    venue links, home base, and website via the web.

@@ -1,0 +1,27 @@
+id: ingebrigt-haker-flaten
+name: Ingebrigt Håker Flaten
+instruments:
+- double bass
+roles:
+- performer
+- bandleader
+home_base:
+  city: Austin
+  region: TX
+  country: US
+active_this_year: true
+associated_venues:
+- epistrophy-arts
+- church-of-the-friendly-ghost-austin
+- blaa-oslo
+collectives:
+- The Young Mothers
+website: null
+confidence: 0.6
+provenance:
+  added_by: assistant:scene-knowledge-2026-07-18
+  added_on: '2026-07-18'
+  source_urls: []
+  needs_human_review: true
+  note: Added from established scene knowledge during a spend-limit outage; verify
+    venue links, home base, and website via the web.

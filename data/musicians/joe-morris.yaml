@@ -1,0 +1,26 @@
+id: joe-morris
+name: Joe Morris
+instruments:
+- guitar
+- double bass
+roles:
+- performer
+- educator
+home_base:
+  city: New Haven
+  region: CT
+  country: US
+active_this_year: true
+associated_venues:
+- firehouse-12
+- outpost-186
+collectives: []
+website: null
+confidence: 0.6
+provenance:
+  added_by: assistant:scene-knowledge-2026-07-18
+  added_on: '2026-07-18'
+  source_urls: []
+  needs_human_review: true
+  note: Added from established scene knowledge during a spend-limit outage; verify
+    venue links, home base, and website via the web.

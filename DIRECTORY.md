@@ -1,6 +1,6 @@
 # Avant Atlas — Directory
 
-_Generated 2026-07-17 · 263 venues · 13 musicians_
+_Generated 2026-07-18 · 263 venues · 44 musicians_
 
 Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-garde music. See [docs/RUBRIC.md](docs/RUBRIC.md).
 
@@ -791,16 +791,47 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 
 ## Musicians (active this year)
 
+- **Akira Sakata** — alto saxophone, clarinet — Tokyo — active
+- **Alexander von Schlippenbach** — piano — Berlin — active
+- **Axel Dörner** — trumpet — Berlin — active
 - **Ben Zucker** — trumpet, percussion, composition — Chicago — active
 - **Dave Rempis** — alto saxophone, tenor saxophone, baritone saxophone — Chicago — active
 - **David Dove** — trombone — Houston — active
+- **Eddie Prévost** — drums, percussion — London — active
+- **Evan Parker** — soprano saxophone, tenor saxophone — London — active
+- **Fred Frith** — guitar — Oakland — active
 - **Immanuel Wilkins** — alto saxophone — New York — active
+- **Ingebrigt Håker Flaten** — double bass — Austin — active
+- **Ingrid Laubrock** — saxophone — Brooklyn — active
 - **Ishmael Ali** — cello, guitar, electronics — Chicago — active
+- **Ivo Perelman** — tenor saxophone — New York — active
 - **Joe McPhee** — saxophone, trumpet, pocket trumpet — Poughkeepsie — active
+- **Joe Morris** — guitar, double bass — New Haven — active
 - **Joel Peterson** — bass, guitar — Detroit — active
+- **John Butcher** — saxophone — London — active
+- **Josh Berman** — cornet — Chicago — active
+- **Joëlle Léandre** — double bass — Paris — active
+- **Ken Vandermark** — reeds, clarinet, saxophone — Chicago — active
+- **Larry Ochs** — saxophone — Oakland — active
+- **Luke Stewart** — double bass — Washington — active
 - **Marshall Allen** — alto saxophone, EVI — Philadelphia — active
+- **Mary Halvorson** — guitar — Brooklyn — active
+- **Mats Gustafsson** — saxophone — Nickelsdorf — active
 - **Matthew Shipp** — piano — New York — active
+- **Mike Reed** — drums — Chicago — active
 - **Molly Jones** — saxophone, flute — Chicago — active
+- **Nate Wooley** — trumpet — Brooklyn — active
 - **Nduduzo Makhathini** — piano — New York — active
+- **Nicole Mitchell** — flute — Chicago — active
+- **Otomo Yoshihide** — guitar, turntables — Tokyo — active
+- **Paal Nilssen-Love** — drums, percussion — Oslo — active
 - **Rent Romus** — saxophone — Oakland — active
+- **Rob Mazurek** — cornet, electronics — Chicago — active
+- **Steve Beresford** — piano, electronics — London — active
 - **Susie Ibarra** — drums, percussion — New York — active
+- **Tetuzi Akiyama** — guitar — Tokyo — active
+- **Tom Rainey** — drums — Brooklyn — active
+- **Tomeka Reid** — cello — Chicago — active
+- **Toshimaru Nakamura** — no-input mixing board — Tokyo — active
+- **Vinny Golia** — reeds, woodwinds — Los Angeles — active
+- **William Parker** — double bass — New York — active

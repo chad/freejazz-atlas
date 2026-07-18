@@ -1,0 +1,31 @@
+id: ken-vandermark
+name: Ken Vandermark
+instruments:
+- reeds
+- clarinet
+- saxophone
+roles:
+- performer
+- bandleader
+- curator
+home_base:
+  city: Chicago
+  region: IL
+  country: US
+active_this_year: true
+associated_venues:
+- the-hungry-brain
+- elastic-arts
+- constellation-chicago
+- corbett-vs-dempsey
+collectives:
+- Catalytic Sound
+website: null
+confidence: 0.6
+provenance:
+  added_by: assistant:scene-knowledge-2026-07-18
+  added_on: '2026-07-18'
+  source_urls: []
+  needs_human_review: true
+  note: Added from established scene knowledge during a spend-limit outage; verify
+    venue links, home base, and website via the web.
