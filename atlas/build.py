@@ -174,6 +174,15 @@ def build_html(venues: list, musicians: list) -> str:
   .ares small {{ color:var(--mut); }}
   .artistbanner {{ background:var(--card); border:1px solid var(--accent); border-radius:10px; padding:.7rem .9rem; margin-top:.9rem; font-size:.92rem; }}
   .artistbanner .x {{ float:right; cursor:pointer; color:var(--accent); font-weight:600; }}
+  .leaflet-popup-content {{ margin:.7rem .9rem !important; font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:#1a1a1a; width:290px !important; }}
+  .leaflet-popup-content a {{ color:#b4432b; }}
+  .poph {{ font-size:1.04rem; line-height:1.3; }}
+  .popscore {{ color:#b4432b; font-weight:700; float:right; margin-left:.6rem; font-size:1.05rem; }}
+  .popmeta {{ color:#666; font-size:.8rem; margin:.2rem 0 .45rem; }}
+  .popev {{ border-top:1px solid #0001; padding-top:.4rem; max-height:190px; overflow:auto; }}
+  .pev {{ margin:.3rem 0; font-size:.82rem; color:#333; }}
+  .pevl {{ color:#b4432b; font-weight:600; }}
+  .pact {{ color:#2e7d32; font-weight:600; }}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -276,7 +285,16 @@ function updateMap(list) {{
     const m = L.circleMarker([loc.lat, loc.lon], {{ radius: 4 + (v.score||0)/11, color:'#00000055', weight:.6, fillColor:color, fillOpacity:.82 }});
     const web = v.website ? `<a href="${{esc(v.website)}}" target="_blank" rel="noopener">${{esc(v.name)}}</a>` : esc(v.name);
     const place = esc(loc.city||'') + (loc.region ? ', '+esc(loc.region) : '') + ((loc.country && loc.country!=='US') ? ', '+esc(loc.country) : '');
-    m.bindPopup(`<b>${{web}}</b><br>${{place}}<br><b>${{v.score}}</b> &middot; ${{esc(tierLabel[v.tier]||v.tier)}}`);
+    const byKey = Object.fromEntries((v.score_breakdown||[]).map(s => [s.key, s]));
+    const evLines = ['dedicated_series','artist_roster','show_frequency','self_description']
+      .map(k => byKey[k]).filter(s => s && s.evidence).slice(0,3)
+      .map(s => `<div class="pev"><span class="pevl">${{esc(s.label)}}:</span> ${{esc(s.evidence)}}</div>`).join('');
+    const active = v.active_this_year ? ' &middot; <span class="pact">active this year</span>' : '';
+    const html = `<div class="poph"><span class="popscore">${{v.score}}</span><b>${{web}}</b></div>`
+      + `<div class="popmeta">${{place}} &middot; ${{esc(tierLabel[v.tier]||v.tier)}}${{active}}</div>`
+      + (evLines ? `<div class="popev">${{evLines}}</div>` : '<div class="popev"><i>Evidence still being gathered — help us verify.</i></div>');
+    m.bindPopup(html, {{ maxWidth: 320 }});
+    m.bindTooltip(`${{esc(v.name)}} · ${{v.score}} ${{esc(tierLabel[v.tier]||v.tier)}}`);
     m.addTo(MARKERS);
     pts.push([loc.lat, loc.lon]);
   }});
