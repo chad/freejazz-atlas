@@ -85,7 +85,11 @@ active_this_year: true       # still performing this year?
 associated_venues: [dissonant-works]   # venue ids
 collectives: []              # bands / groups the artist is part of
 labels: [Mahakala Music]     # record labels that have released their work
-website: null
+website: https://stevehirshdrums.com/   # the artist's own site
+socials:                     # their own outbound links, by platform
+  bandcamp: https://stevehirsh.bandcamp.com
+  instagram: https://www.instagram.com/stevehirshdrums/
+dates_url: https://stevehirshdrums.com/ # the page where they publish gigs
 confidence: 0.8
 provenance:
   added_by: "seed:web-research-2026-07"
@@ -144,3 +148,62 @@ and `active_this_year`, and (2) the crawler's re-crawl pass (`atlas recrawl`),
 which re-fetches each `source_url`, compares a content hash, and flags records
 whose pages changed or 404'd — surfacing likely-closed venues without a human
 re-reading every page.
+
+
+## Event
+
+Gigs live in `data/events/<artist-id>.yaml`, one file per artist, because a tour
+is written, reviewed and corrected as a unit.
+
+```yaml
+artist_id: steve-hirsh
+artist_name: Steve Hirsh
+source_url: https://stevehirshdrums.com/
+scraped_on: 2026-08-17
+method: text                 # jsonld | ics | text
+events:
+  - id: 9f2c1a55b0de         # stable hash of artist+date+venue+city
+    date: '2026-10-15'
+    raw: "Oct 15: Elastic Arts, Chicago"    # the source line, verbatim
+    venue_name: Elastic Arts
+    city: Chicago
+    region: ''
+    lineup: ''
+    method: text
+    year_inferred: true      # the source gave no year; this is our inference
+    venue_id: elastic-arts   # set ONLY on strong match evidence
+    match_score: 1.0
+    match_note: name similarity 1.00; city matches (Chicago)
+```
+
+### Why events exist, and what they are not allowed to do
+
+Two rubric signals carry 40 of the 100 points — `show_frequency` and
+`artist_roster` — and both were pure human estimate until there was a record of
+an actual gig. Artist dates pages are the way in: one scrape yields evidence
+about a venue (something happened there) *and* an artist-to-venue edge.
+
+Three refusals keep this honest:
+
+- **No invented years.** A line reading "Oct 15" does not say which October.
+  The year is inferred from context and stamped `year_inferred: true`, never
+  presented as if the source said it.
+- **No guessed venue links.** `venue_id` is filled only above a match
+  threshold, and `match_note` always records the reasoning — including for the
+  misses, so a wrong threshold is debuggable. A familiar name in the wrong city
+  is treated as a different room, because it usually is.
+- **No automatic re-scoring.** `atlas.events.observed_frequency()` reports what
+  we have observed and ships a caveat with the number: the Atlas watches a
+  handful of artists, so a low count means our coverage is thin, not that a
+  venue is quiet. Reading it the other way round would let a sparse crawl demote
+  real rooms.
+
+Unmatched venue names are a feature, not a failure: a room in a touring
+musician's itinerary that the Atlas has never heard of is the best lead it gets
+on a scene it is missing. The first scrape turned up nine, including five in the
+Philippines — a country the corpus did not cover at all.
+
+```bash
+atlas artistlinks --probe --write   # find sites, socials, dates pages
+atlas events --write                # scrape dates -> gigs + venue links
+```

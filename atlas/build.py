@@ -29,7 +29,7 @@ def _sorted_venues(venues: list) -> list:
     return enriched
 
 
-def build_json(venues: list, musicians: list) -> dict:
+def build_json(venues: list, musicians: list, events: list | None = None) -> dict:
     doc = {
         "generated_at": _dt.datetime.now().isoformat(timespec="seconds"),
         "rubric": {
@@ -44,8 +44,10 @@ def build_json(venues: list, musicians: list) -> dict:
         },
         "venue_count": len(venues),
         "musician_count": len(musicians),
+        "event_count": len(events or []),
         "venues": [],
         "musicians": [],
+        "events": list(events or []),
     }
     for v in _sorted_venues(venues):
         clean = {k: val for k, val in v.items() if not k.startswith("_")}
@@ -403,9 +405,10 @@ def build_all(outdir: Path | None = None, *, base_url: str | None = None,
     base = (base_url or os.environ.get("ATLAS_BASE_URL")
             or site_mod.DEFAULT_BASE_URL)
 
-    doc = build_json(venues, musicians)
+    events = storage.load_events()
+    doc = build_json(venues, musicians, events)
     result = site_mod.build_site(outdir, venues, musicians, base=base,
-                                directory_json=doc)
+                                directory_json=doc, events=events)
     (storage.ROOT / "DIRECTORY.md").write_text(build_markdown(venues, musicians),
                                                encoding="utf-8")
     if single_page:

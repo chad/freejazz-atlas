@@ -33,3 +33,8 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  dates_url_note: link labelled "the wordless music orchestra 1 upcoming event"
+  bandcamp_probe: page is titled "Colin Stetson" (match 1.00)
+socials:
+  bandcamp: https://bandcamp.com/?from=menubar_logo_logged_out
+dates_url: null

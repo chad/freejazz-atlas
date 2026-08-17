@@ -2,6 +2,7 @@ id: public-space-one-iowa-city
 name: Public Space One
 aliases:
 - PS1
+- PS One
 status: active
 location:
   address: 229 N Gilbert St
@@ -76,5 +77,11 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4ee62f6c73dc5033
   crawl_http_status: 200
+  alias_sources:
+  - 'on': '2026-08-17'
+    aliases:
+    - PS One
+    - PS1
+    why: abbreviation used in artist tour listings (stevehirshdrums.com)
 notes: Iowa City artist-led nonprofit; experimental/improvised music via its own events and
   co-presentations with Feed Me Weird Things and Witching Hour.

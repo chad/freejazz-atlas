@@ -10,7 +10,7 @@ home_base:
   country: null
 active_this_year: null
 associated_venues: []
-website: null
+website: https://fayvictor.com
 confidence: 0.6
 collectives: []
 labels:
@@ -32,3 +32,10 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  dates_url_note: link labelled "gigs"
+  bandcamp_probe: page is titled "Fay Victor" (match 1.00)
+socials:
+  bandcamp: https://taoforms.bandcamp.com?from=btl
+  instagram: https://www.instagram.com/freesongsinger
+  facebook: https://www.facebook.com/FreeSongSinger
+dates_url: https://www.fayvictor.com/shows/

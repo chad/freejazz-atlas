@@ -21,5 +21,10 @@ provenance:
   added_on: '2026-07-18'
   source_urls: []
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  dates_url_note: link labelled "view upcoming concerts"
+  bandcamp_probe: page is titled "Fred Frith" (match 1.00)
+socials:
+  bandcamp: https://morphius.bandcamp.com?from=btl
+dates_url: null

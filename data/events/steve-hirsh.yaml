@@ -1,0 +1,244 @@
+artist_id: steve-hirsh
+artist_name: Steve Hirsh
+source_url: https://stevehirshdrums.com/
+scraped_on: '2026-08-17'
+method: text
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events:
+- date: '2026-08-14'
+  raw: 'Aug. 14: Front Yard (1346 Van Buren, St Paul): Nathan Hanson, Pink Marlena, Jeremy
+    Ylvisaker, Erik Fratzke, Steve Hirsh'
+  venue_name: Front Yard
+  city: St Paul
+  region: ''
+  country: ''
+  lineup: Nathan Hanson, Pink Marlena, Jeremy Ylvisaker, Erik Fratzke, Steve Hirsh
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.365
+  match_note: 'no confident match (best: Resonant Head, name similarity 0.61; city differs
+    (St Paul vs Oklahoma City))'
+  id: d678032fdd83
+- date: '2026-09-04'
+  raw: 'Sept 4: The Backdoor, Quezon City'
+  venue_name: The Backdoor
+  city: Quezon City
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: The Bakery Atlanta, name similarity 0.57; city differs
+    (Quezon City vs Atlanta))'
+  id: 0323d411d485
+- date: '2026-09-05'
+  raw: 'Sept 5: Tago, Quezon City'
+  venue_name: Tago
+  city: Quezon City
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: Cafe OTO, name similarity 0.57; city differs (Quezon
+    City vs London))'
+  id: 1797c050af1f
+- date: '2026-09-06'
+  raw: 'Sept 6: Cattery, Makati'
+  venue_name: Cattery
+  city: Makati
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.369
+  match_note: 'no confident match (best: The Bakery Atlanta, name similarity 0.62; city differs
+    (Makati vs Atlanta))'
+  id: 86a9642cb191
+- date: '2026-09-08'
+  raw: 'Sept 8: Sari Sari, Makati'
+  venue_name: Sari Sari
+  city: Makati
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.36
+  match_note: 'no confident match (best: Star and Shadow Cinema, name similarity 0.60; city
+    differs (Makati vs Newcastle upon Tyne))'
+  id: 27a87c30aad7
+- date: '2026-09-09'
+  raw: 'Sept 9: The Backdoor, Quezon City'
+  venue_name: The Backdoor
+  city: Quezon City
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: The Bakery Atlanta, name similarity 0.57; city differs
+    (Quezon City vs Atlanta))'
+  id: 27a625fae92b
+- date: '2026-09-11'
+  raw: 'Sept 11: MOW''s, Quezon City'
+  venue_name: MOW's
+  city: Quezon City
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.3
+  match_note: 'no confident match (best: Machines with Magnets, name similarity 0.50; city
+    differs (Quezon City vs Pawtucket))'
+  id: 8b6bcd2b68d8
+- date: '2026-09-25'
+  raw: 'Sept 25: Headwaters School of Music and Art, Bemidji, MN'
+  venue_name: Headwaters School of Music and Art
+  city: Bemidji
+  region: MN
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.317
+  match_note: 'no confident match (best: Berlin, name similarity 0.27; region matches (MN))'
+  id: a77118c2c441
+- date: '2026-10-14'
+  raw: 'Oct 14: Eau Claire, WI'
+  venue_name: ''
+  city: Eau Claire
+  region: WI
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.0
+  match_note: no venue named in the listing
+  id: 333b8d1bb42a
+- date: '2026-10-15'
+  raw: 'Oct 15: Elastic Arts, Chicago'
+  venue_name: Elastic Arts
+  city: Chicago
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: elastic-arts
+  match_score: 1.0
+  match_note: name similarity 1.00; city matches (Chicago)
+  id: 63545e8788f7
+- date: '2026-10-16'
+  raw: 'Oct 16: Dumb Records, Springfield, IL'
+  venue_name: Dumb Records
+  city: Springfield
+  region: IL
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.414
+  match_note: 'no confident match (best: The Hideout, name similarity 0.36; region matches
+    (IL))'
+  id: 0d63cd4439f1
+- date: '2026-10-17'
+  raw: 'Oct 17: Dissonant Works, St Louis'
+  venue_name: Dissonant Works
+  city: St Louis
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: dissonant-works
+  match_score: 1.0
+  match_note: name similarity 1.00; city matches (St. Louis)
+  id: 888eebd25397
+- date: '2026-10-18'
+  raw: 'Oct 18: B-Side, Memphis'
+  venue_name: B-Side
+  city: Memphis
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.3
+  match_note: 'no confident match (best: The Bird''s Eye Jazz Club, name similarity 0.50;
+    city differs (Memphis vs Basel))'
+  id: 76765025b347
+- date: '2026-10-19'
+  raw: 'Oct 19: Kansas City, MO'
+  venue_name: ''
+  city: Kansas City
+  region: MO
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.0
+  match_note: no venue named in the listing
+  id: 0674fafea57a
+- date: '2026-10-20'
+  raw: 'Oct 20: PS One, Iowa City'
+  venue_name: PS One
+  city: Iowa City
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://stevehirshdrums.com/
+  artist_id: steve-hirsh
+  method: text
+  year_inferred: true
+  venue_id: public-space-one-iowa-city
+  match_score: 1.0
+  match_note: name similarity 1.00; city matches (Iowa City)
+  id: 13047352c59b

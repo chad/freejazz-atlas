@@ -4,13 +4,17 @@ instruments:
 - drums
 roles:
 - performer
+- bandleader
 home_base:
   city: null
-  region: null
-  country: null
+  region: MN
+  country: US
 active_this_year: null
-associated_venues: []
-website: null
+associated_venues:
+- dissonant-works
+- elastic-arts
+- public-space-one-iowa-city
+website: https://stevehirshdrums.com/
 confidence: 0.6
 collectives:
 - Original Mind
@@ -22,6 +26,7 @@ provenance:
   added_by: label-catalog:mahakala-music
   added_on: '2026-08-17'
   source_urls:
+  - https://stevehirshdrums.com/
   - https://mahakalamusic.com
   - https://mahakalamusic.bandcamp.com/album/alien-skin
   - https://mahakalamusic.bandcamp.com/album/ebb-flow
@@ -49,3 +54,25 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  dates_url_note: the front page carries a 'Coming Up' list of dated gigs
+  field_sources:
+  - 'on': '2026-08-17'
+    fields:
+    - website
+    - socials
+    - dates_url
+    - home_base.region
+    why: found via the artist's Bandcamp profile; home base ("Based in Minnesota") stated
+      on his own site
+  venue_link_sources:
+  - 'on': '2026-08-17'
+    venues:
+    - dissonant-works
+    - elastic-arts
+    - public-space-one-iowa-city
+    why: listed as a performance on https://stevehirshdrums.com/
+socials:
+  bandcamp: https://stevehirsh.bandcamp.com
+  facebook: https://www.facebook.com/steve.hirsh.7
+  instagram: https://www.instagram.com/stevehirshdrums/
+dates_url: https://stevehirshdrums.com/

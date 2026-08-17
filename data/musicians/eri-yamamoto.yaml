@@ -12,7 +12,7 @@ home_base:
   country: null
 active_this_year: null
 associated_venues: []
-website: null
+website: https://www.eriyamamoto.com
 confidence: 0.6
 collectives:
 - Eri Yamamoto Quadraphonic
@@ -44,3 +44,9 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  dates_url_note: link labelled "summer 2026 japan 日本 tour!"
+socials:
+  bandcamp: https://aumfidelity.bandcamp.com?from=btl
+  facebook: https://www.facebook.com/eriyamamotojazz
+  instagram: https://www.instagram.com/eriyamamotojazz
+dates_url: https://www.eriyamamoto.com/schedule

@@ -10,7 +10,7 @@ home_base:
   country: null
 active_this_year: null
 associated_venues: []
-website: null
+website: http://www.ayumiishito.com
 confidence: 0.6
 collectives: []
 labels:
@@ -32,3 +32,10 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  dates_url_note: link labelled "shows"
+  bandcamp_probe: page is titled "Ayumi Ishito" (match 1.00)
+socials:
+  bandcamp: https://bandcamp.com/?from=menubar_logo_logged_out
+  facebook: https://www.facebook.com/ayumiishito
+  youtube: https://www.youtube.com/channel/UC-49JIfEgkKao7XGrdZ8w3A
+dates_url: http://www.ayumiishito.com/shows

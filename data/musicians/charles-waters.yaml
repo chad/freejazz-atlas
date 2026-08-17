@@ -12,7 +12,7 @@ home_base:
   country: null
 active_this_year: null
 associated_venues: []
-website: null
+website: https://concertimento.blogspot.com
 confidence: 0.6
 collectives:
 - Matt Lavelle and the 12 Houses
@@ -35,3 +35,6 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  bandcamp_probe: page is titled "Charles Waters" (match 1.00)
+socials:
+  bandcamp: https://bandcamp.com/?from=menubar_logo_logged_out

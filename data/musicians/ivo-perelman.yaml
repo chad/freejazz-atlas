@@ -17,7 +17,7 @@ associated_venues:
 collectives:
 - (D)IVO Saxophone Quartet
 - Ivo Perelman Quartet
-website: null
+website: http://www.ivoperelman.com
 confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
@@ -52,3 +52,5 @@ provenance:
   review_note: Label credits added by catalogue import; existing curation left untouched.
 labels:
 - Mahakala Music
+socials:
+  bandcamp: https://bandcamp.com/?from=menubar_logo_logged_out

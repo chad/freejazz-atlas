@@ -53,6 +53,8 @@ atlas show ibeam-brooklyn   # explainable score breakdown
 atlas build                 # generate the 655-page static site + DIRECTORY.md
 atlas linkcheck             # is every cited website still reachable?
 atlas verify                # ranked queue: what a human should check next
+atlas artistlinks --probe   # find artists' sites, socials and dates pages
+atlas events                # scrape those dates -> gigs + artist↔venue edges
 open site/index.html
 ```
 
@@ -157,12 +159,15 @@ atlas/            the toolkit
   storage.py      YAML load/save
   crawl.py        fetch a source -> scored candidate; content-hash re-crawl
   linkcheck.py    is the cited evidence still reachable?
+  links.py        find an artist's site, socials and dates page
+  events.py       read gigs off a page; match them to rooms in the corpus
   site.py         the multi-page static site generator
   build.py        orchestration: site + directory.json + DIRECTORY.md
   cli.py          the `atlas` command
 web/server.py     HTTP service: serves the site, submissions, JSON API
 data/venues/      one YAML file per venue  (canonical, human-editable)
 data/musicians/   one YAML file per musician
+data/events/      one YAML file per artist: their gigs, and what they matched
 docs/RUBRIC.md    the weighting rubric, with worked anchor examples
 docs/DATA_MODEL.md the schema
 scripts/seed.py   how the seed corpus was generated (calibration record)
@@ -186,6 +191,9 @@ tests/            rubric calibration, validation, link health, site integrity
 - A label-catalogue importer (`scripts/import_label_catalog.py`) that grows the
   artist corpus from a label's own discography without inventing anything.
 - Link health, content-hash change detection, and a ranked verification queue.
+- **An events layer**: artist link discovery, gig scraping from artists' own
+  dates pages, and venue matching that records its reasoning — including for the
+  misses.
 - 76 tests covering rubric calibration, validation, link classification, site
   integrity (including HTML escaping of community-supplied text) and the
   credit-parsing rules of the label importer.
@@ -196,10 +204,11 @@ tests/            rubric calibration, validation, link health, site integrity
   says `seed:web-research-2026-07`; 77 are flagged `needs_human_review` and 10
   have no source URLs at all. `atlas verify` exists precisely because this is
   the project's weakest property. Venue pages say so where it applies.
-- **No event data yet, so 40 of the 100 points are estimates.**
-  `show_frequency` (20) and `artist_roster` (20) are human judgements because
-  the Atlas does not yet ingest calendars. This is the biggest open gap; see
-  below.
+- **40 of the 100 points are still estimates.** `show_frequency` (20) and
+  `artist_roster` (20) remain human judgements. The events layer now exists and
+  measures both, but it watches one artist so far — so the measurement is
+  reported with a caveat and is not allowed to overwrite the estimate. Coverage
+  is the work.
 - **The corpus skews high** — 61 cornerstones, only 9 venues below 45 — because
   the seed pass went looking for good venues. A rubric whose corpus has no
   negative space is not being tested very hard.
@@ -214,14 +223,15 @@ Corrections are welcome and expected.
 
 ## What's next, in leverage order
 
-1. **Events.** Gigs are the verbs; venues are only the nouns. Platform adapters
-   (WordPress `tribe/events`, Squarespace JSON, Bandcamp, Eventbrite, Dice)
-   cover roughly 40–50% of the corpus with structured data; an LLM pass over
-   calendar HTML covers much of the tail. A probe of 60 venue sites found
-   JSON-LD `Event` on only 4% but a known CMS on 62%, so adapters — not
-   schema.org — are the way in. Once shows are ingested, `show_frequency` and
-   `artist_roster` become *measurements*, and a room that stops programming
-   drifts down on its own.
+1. **Events — started from the artist side.** Scraping venue calendars is the
+   obvious way in and the worse one: a probe of 60 venue sites in this corpus
+   found machine-readable events on 4%. Artist pages are the better door, because
+   a working improviser keeps a tour list, that list names *other people's*
+   rooms, and every line is simultaneously evidence about a venue and an
+   artist↔venue edge. `atlas events` reads schema.org JSON-LD, iCalendar, or
+   plain "Oct 15: Elastic Arts, Chicago" text lines. Next: more artists with
+   dates pages, then venue-side CMS adapters (WordPress `tribe/events`,
+   Squarespace JSON, Bandcamp, Eventbrite, Dice) for the rooms nobody tours.
 2. **Artist graph — started, keep going.** The first label roster (Mahakala
    Music, 89 releases) took the corpus from 44 to 185 musicians with sourced
    instruments, groups and discographies. The importer is label-agnostic, so

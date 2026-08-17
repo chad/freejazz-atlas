@@ -23,5 +23,10 @@ provenance:
   added_on: '2026-07-18'
   source_urls: []
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  dates_url_note: link labelled "view upcoming concerts"
+  bandcamp_probe: page is titled "Evan Parker" (match 1.00)
+socials:
+  bandcamp: https://bandcamp.com/?from=menubar_logo_logged_out
+dates_url: null

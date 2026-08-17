@@ -341,6 +341,51 @@ def page(*, base: str, path: str, title: str, description: str, body: str,
 
 
 # --- fragments --------------------------------------------------------------
+def _fmt_date(iso: str) -> str:
+    try:
+        d = _dt.date.fromisoformat(iso)
+    except (ValueError, TypeError):
+        return iso or ""
+    return d.strftime("%a %-d %b %Y") if hasattr(d, "strftime") else iso
+
+
+def upcoming(events: list, *, today: _dt.date | None = None, limit: int = 12) -> list:
+    today = today or _dt.date.today()
+    out = [e for e in events if (e.get("date") or "") >= today.isoformat()]
+    out.sort(key=lambda e: e.get("date") or "")
+    return out[:limit]
+
+
+def gig_rows(events: list, *, show: str) -> str:
+    """Render gigs. `show` is "venue" (on an artist page) or "artist"."""
+    rows = []
+    for ev in events:
+        when = _fmt_date(ev.get("date"))
+        if ev.get("year_inferred"):
+            when += ' <span class="muted" title="the source gave no year; ' \
+                    'inferred from context">?</span>'
+        if show == "venue":
+            vid = ev.get("venue_id")
+            place = ", ".join(x for x in (ev.get("city"), ev.get("region")) if x)
+            if vid:
+                who = f'<a href="/venues/{e(vid)}/">{e(ev.get("venue_name"))}</a>'
+            elif ev.get("venue_name"):
+                who = e(ev["venue_name"])
+            else:
+                # Some tour lists give only a city — a date is held but the room
+                # is not yet announced. Say that instead of repeating the city.
+                who = '<span class="muted">venue not announced</span>'
+            second = e(place)
+        else:
+            aid = ev.get("artist_id")
+            who = (f'<a href="/artists/{e(aid)}/">{e(ev.get("artist_name") or aid)}</a>'
+                   if aid else e(ev.get("lineup") or "—"))
+            second = e((ev.get("lineup") or "")[:70])
+        rows.append(f"<tr><td>{when}</td><td>{who}</td>"
+                    f'<td class="muted" style="font-size:.82rem">{second}</td></tr>')
+    return "".join(rows)
+
+
 def venue_card(v: dict, *, show_place: bool = True) -> str:
     loc = v.get("location") or {}
     href = f"/venues/{e(v['id'])}/"
@@ -469,7 +514,8 @@ def crumbs(items: list) -> str:
 
 
 # --- page builders ----------------------------------------------------------
-def build_venue_page(v: dict, *, base: str, musicians: list, siblings: list) -> str:
+def build_venue_page(v: dict, *, base: str, musicians: list, siblings: list,
+                     events: list | None = None) -> str:
     loc = v.get("location") or {}
     prov = v.get("provenance") or {}
     tier = rubric.tier_for_score(v.get("score", 0))
@@ -546,6 +592,20 @@ def build_venue_page(v: dict, *, base: str, musicians: list, siblings: list) -> 
             f'<a href="/artists/{e(m["id"])}/">{e(m["name"])}</a>' for m in plays_here
         ) + "</div>")
 
+    # Ingested gigs. This is the first evidence on a venue page that is a
+    # *record of something happening* rather than a description of the room.
+    gigs = [ev for ev in (events or []) if ev.get("venue_id") == v["id"]]
+    soon = upcoming(gigs)
+    gightml = ""
+    if soon:
+        gightml = (f"<h2>Coming up</h2>"
+                   f'<p class="sub" style="font-size:.86rem">Gigs the Atlas has read from '
+                   f'performing artists\u2019 own dates pages. This is not the venue\u2019s '
+                   f'full calendar \u2014 only what we have ingested so far.</p>'
+                   f'<table class="t"><thead><tr><th>Date</th><th>Artist</th>'
+                   f'<th>Billed as</th></tr></thead>'
+                   f"<tbody>{gig_rows(soon, show='artist')}</tbody></table>")
+
     nearbyhtml = ""
     if nearby:
         nearbyhtml = (f"<h2>More in {e(place)}</h2>"
@@ -594,6 +654,7 @@ def build_venue_page(v: dict, *, base: str, musicians: list, siblings: list) -> 
       <h3>Why this score</h3>
       {signal_bars(v)}
     </div>
+    {gightml}
     {artisthtml}
     {nearbyhtml}
   </section>
@@ -808,7 +869,8 @@ def build_tiers_index(venues: list, *, base: str) -> str:
                 jsonld=[breadcrumbs_jsonld([("/", "Avant Atlas"), ("/tiers/", "Tiers")], base)])
 
 
-def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
+def build_artist_page(m: dict, venues_by_id: dict, *, base: str,
+                      events: list | None = None) -> str:
     linked = [venues_by_id[i] for i in (m.get("associated_venues") or []) if i in venues_by_id]
     linked.sort(key=lambda v: -v.get("score", 0))
     hb = m.get("home_base") or {}
@@ -851,6 +913,15 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
         facts.append(("Groups", e(", ".join(m["collectives"]))))
     if m.get("labels"):
         facts.append(("Labels", e(", ".join(m["labels"]))))
+    socials = m.get("socials") or {}
+    if socials:
+        facts.append(("Elsewhere", " · ".join(
+            f'<a href="{e(u)}" rel="noopener nofollow" target="_blank">{e(k)}</a>'
+            for k, u in sorted(socials.items()))))
+    if m.get("dates_url"):
+        facts.append(("Dates page",
+                      f'<a href="{e(m["dates_url"])}" rel="noopener nofollow" '
+                      f'target="_blank">published by the artist</a>'))
     facts.append(("Active this year",
                   "yes" if m.get("active_this_year") else
                   '<span class="muted">unconfirmed</span>'))
@@ -863,6 +934,26 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
                 '<p class="muted">No venues linked yet. If you have seen this artist play, '
                 '<a href="/submit">tell us where</a> — the artist-to-room map is the part of the '
                 'Atlas most in need of help.</p>')
+
+    # The artist's own dates, read from their own page. Rooms we recognise are
+    # linked; rooms we do not are shown anyway, because an unknown room in a
+    # tour list is the best lead the Atlas gets on a scene it has never seen.
+    mine = [ev for ev in (events or []) if ev.get("artist_id") == m["id"]]
+    soon = upcoming(mine)
+    datehtml = ""
+    if soon:
+        src = m.get("dates_url") or ""
+        unknown = sum(1 for ev in soon if not ev.get("venue_id"))
+        datehtml = (
+            f"<h2>Coming up</h2>"
+            f'<p class="sub" style="font-size:.86rem">Read from '
+            f'<a href="{e(src)}" rel="noopener nofollow" target="_blank">their own dates '
+            f'page</a>. Dates marked <span class="muted">?</span> gave no year in the '
+            f'source and were inferred.'
+            + (f' {unknown} of these rooms are not in the Atlas yet.' if unknown else "")
+            + "</p>"
+            f'<table class="t"><thead><tr><th>Date</th><th>Venue</th><th>Where</th>'
+            f"</tr></thead><tbody>{gig_rows(soon, show='venue')}</tbody></table>")
 
     # Recorded evidence. An artist page with no venue links still has something
     # real to show if we know what they have released and with whom — and it is
@@ -899,6 +990,7 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
 {warn}
 <div class="grid2">
   <section>
+    {datehtml}
     <h2>Where {e(m.get('name', ''))} plays</h2>
     {listhtml}
   </section>
@@ -1226,7 +1318,7 @@ def build_sitemap(paths: list, *, base: str, lastmod: str) -> str:
 
 # --- orchestration ----------------------------------------------------------
 def build_site(outdir: Path, venues: list, musicians: list, *, base: str,
-               directory_json: dict) -> dict:
+               directory_json: dict, events: list | None = None) -> dict:
     """Write the whole site. Returns a summary dict."""
     base = base.rstrip("/")
     today = _dt.date.today().isoformat()
@@ -1241,6 +1333,11 @@ def build_site(outdir: Path, venues: list, musicians: list, *, base: str,
                     key=lambda v: (-v.get("score", 0), v.get("name", "")))
     venues_by_id = {v["id"]: v for v in venues}
     musicians = sorted(musicians, key=lambda m: m.get("name") or "")
+    events = list(events or [])
+    # Gigs carry an artist id; pages want the name too.
+    names = {m["id"]: m.get("name") for m in musicians}
+    for ev in events:
+        ev.setdefault("artist_name", names.get(ev.get("artist_id")))
 
     sitemap_paths = [("/", "1.0"), ("/countries/", "0.8"), ("/artists/", "0.7"),
                      ("/tiers/", "0.6"), ("/rubric/", "0.7"), ("/submit", "0.5")]
@@ -1259,7 +1356,8 @@ def build_site(outdir: Path, venues: list, musicians: list, *, base: str,
     for v in venues:
         siblings = by_city.get(city_slug(v.get("location") or {}), [])
         write(f"/venues/{v['id']}/index.html",
-              build_venue_page(v, base=base, musicians=musicians, siblings=siblings))
+              build_venue_page(v, base=base, musicians=musicians, siblings=siblings,
+                               events=events))
         sitemap_paths.append((f"/venues/{v['id']}/", "0.9" if v.get("score", 0) >= 65 else "0.7"))
 
     # City pages
@@ -1286,7 +1384,7 @@ def build_site(outdir: Path, venues: list, musicians: list, *, base: str,
     # one we only know from a discography, and the sitemap should say so.
     for m in musicians:
         write(f"/artists/{m['id']}/index.html",
-              build_artist_page(m, venues_by_id, base=base))
+              build_artist_page(m, venues_by_id, base=base, events=events))
         linked = any(i in venues_by_id for i in (m.get("associated_venues") or []))
         sitemap_paths.append((f"/artists/{m['id']}/", "0.6" if linked else "0.4"))
 

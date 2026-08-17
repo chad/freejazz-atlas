@@ -15,12 +15,17 @@ associated_venues:
 - shinjuku-pit-inn-tokyo
 - ftarri-tokyo
 collectives: []
-website: null
+website: http://akira-sakata.com
 confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
   added_on: '2026-07-18'
   source_urls: []
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  dates_url_note: link labelled "schedule"
+  bandcamp_probe: page is titled "Akira Sakata" (match 1.00)
+socials:
+  bandcamp: https://trostrecords.bandcamp.com?from=btl
+dates_url: http://akira-sakata.com/schedule/?param=thismonth

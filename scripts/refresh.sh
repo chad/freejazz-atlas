@@ -7,9 +7,11 @@
 #
 #   1. re-check every cited website          -> is the evidence still reachable?
 #   2. re-crawl every source page            -> did the page change since we read it?
-#   3. rebuild the site                      -> publish whatever changed
-#   4. commit the data changes               -> the corpus keeps its own history
-#   5. optionally redeploy                   -> the public site matches the data
+#   3. find artists' sites and dates pages   -> give inert records an address
+#   4. scrape those dates pages              -> gigs, and artist-to-room edges
+#   5. rebuild the site                      -> publish whatever changed
+#   6. commit the data changes               -> the corpus keeps its own history
+#   7. optionally redeploy                   -> the public site matches the data
 #
 # It never edits a score. A changed page or a dead link raises
 # needs_human_review, which surfaces the venue in `atlas verify` and prints a
@@ -46,6 +48,17 @@ log "link health"
 log "re-crawl sources (change detection)"
 "$PY" -m atlas.cli recrawl --write --workers 16
 
+# Artist link discovery guesses a few addresses per artist, so it is the rudest
+# thing this script does. Low concurrency, and a rate-limit response aborts the
+# step rather than recording "no links found" for everyone (which it once did).
+log "artist links (websites, socials, dates pages)"
+"$PY" -m atlas.cli artistlinks --probe --write --workers 3 || \
+  echo "artistlinks stopped early (likely rate-limited) — continuing"
+
+log "scrape artist dates pages -> events + venue links"
+"$PY" -m atlas.cli events --write --workers 4 || \
+  echo "no artists with a dates_url yet — continuing"
+
 log "validate"
 "$PY" -m atlas.cli validate
 
@@ -56,6 +69,11 @@ log "verification queue (top of the list is where a human should look next)"
 "$PY" -m atlas.cli verify --limit 10
 
 if [ -n "$(git status --porcelain data DIRECTORY.md)" ]; then CHANGED=1; fi
+
+if [ "$CHANGED" = 1 ]; then
+  log "what moved"
+  git status --porcelain data | awk '{print "  " $0}' | head -20
+fi
 
 if [ "$CHANGED" = 0 ]; then
   log "nothing changed"

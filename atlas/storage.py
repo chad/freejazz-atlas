@@ -69,3 +69,32 @@ def save_venue(record: dict, path: str | None = None) -> str:
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(dump_record(record))
     return path
+
+
+# --- events -----------------------------------------------------------------
+# Events live one file per artist rather than one per gig: a tour is written,
+# reviewed and corrected as a unit, and a few hundred tiny files per year would
+# make the repository tedious to browse for no gain.
+EVENTS_DIR = DATA / "events"
+
+
+def load_event_files() -> list:
+    return _load_dir(EVENTS_DIR)
+
+
+def load_events() -> list:
+    """All ingested gigs, flattened, each carrying its artist_id."""
+    out = []
+    for doc in load_event_files():
+        for ev in (doc.get("events") or []):
+            ev.setdefault("artist_id", doc.get("artist_id"))
+            out.append(ev)
+    return out
+
+
+def save_events(artist_id: str, doc: dict) -> str:
+    path = EVENTS_DIR / f"{artist_id}.yaml"
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(dump_record(doc))
+    return str(path)
