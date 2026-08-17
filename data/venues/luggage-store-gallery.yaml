@@ -13,7 +13,7 @@ location:
 type: gallery
 operating_model: nonprofit
 capacity: null
-website: https://www.luggagestoregallerysf.org/
+website: https://luggagestoregallery.org/
 active_this_year: true
 signals:
   dedicated_series:
@@ -66,5 +66,18 @@ provenance:
   - https://www.bayimproviser.com/venue/7/luggage-store-creative-music-series
   - https://outsound.org/programs/
   needs_human_review: true
+  url_corrections:
+  - 'on': '2026-08-17'
+    from: https://www.luggagestoregallerysf.org/
+    to: https://luggagestoregallery.org/
+    why: old domain luggagestoregallerysf.org no longer resolves; current site verified live
+    by: maintainer:linkcheck-sweep
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e3b0c44298fc1c14
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: the weekly LSG New Music Series was retired Dec 2024; a twice-monthly
   Creative Music Series is reported to continue. Confirm current cadence.'

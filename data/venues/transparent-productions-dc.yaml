@@ -3,7 +3,7 @@ name: Transparent Productions
 aliases: []
 status: active
 location:
-  address: "6950 Maple St NW (Rhizome, current home)"
+  address: 6950 Maple St NW (Rhizome, current home)
   city: Washington
   region: DC
   country: US
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Volunteer cooperative organizing concerts of free jazz / avant-garde jazz / creative
-      improvised music in DC since 1997; now in its 25th-plus season.
+    evidence: Volunteer cooperative organizing concerts of free jazz / avant-garde jazz /
+      creative improvised music in DC since 1997; now in its 25th-plus season.
     sources:
     - https://www.capitalbop.com/bobby-hill-transparent-productions/
     - https://www.transparentproductionsdc.org/
@@ -37,19 +37,20 @@ signals:
     - http://www.openskyjazz.com/2008/04/a-home-for-creative-music-in-dc/
   self_description:
     value: 5
-    evidence: "Explicitly presents \"free jazz,\" \"avant garde jazz,\" and \"creative improvised\
-      \ music.\""
+    evidence: Explicitly presents "free jazz," "avant garde jazz," and "creative improvised
+      music."
     sources:
     - https://www.transparentproductionsdc.org/
   operating_model:
     value: 5
-    evidence: Informal volunteer cooperative; 100% of admissions go to the artists, no revenue kept.
+    evidence: Informal volunteer cooperative; 100% of admissions go to the artists, no revenue
+      kept.
     sources:
     - https://www.washingtonpost.com/archive/lifestyle/2005/09/16/transparent-productions-unconventional-ways/33e5bb3d-4f4f-4fea-8b58-49abb4164685/
   community_reputation:
     value: 4
-    evidence: Multi-decade DC institution for creative music (formerly at Bohemian Caverns, now
-      Rhizome).
+    evidence: Multi-decade DC institution for creative music (formerly at Bohemian Caverns,
+      now Rhizome).
     sources:
     - https://www.openskyjazz.com/2020/01/the-indomitable-bobby-hill/
   listening_room:
@@ -69,5 +70,12 @@ provenance:
   - https://www.transparentproductionsdc.org/
   - https://www.washingtonpost.com/archive/lifestyle/2005/09/16/transparent-productions-unconventional-ways/33e5bb3d-4f4f-4fea-8b58-49abb4164685/
   needs_human_review: false
-notes: 'Long-running DC free-jazz presenting cooperative (since 1997). Currently hosts at Rhizome
-  DC (already in atlas as a venue); Transparent is the distinct presenter/curator.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 3ca9c32c8a1d9002
+  crawl_http_status: 200
+notes: Long-running DC free-jazz presenting cooperative (since 1997). Currently hosts at Rhizome
+  DC (already in atlas as a venue); Transparent is the distinct presenter/curator.

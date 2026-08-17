@@ -4,13 +4,13 @@ aliases:
 - CvsD
 status: active
 location:
-  address: "2156 W Fulton St"
+  address: 2156 W Fulton St
   city: Chicago
   region: IL
   country: US
   neighborhood: East Garfield Park
   lat: 41.8866
-  lon: -87.6810
+  lon: -87.681
 type: gallery
 operating_model: commercial
 capacity: null
@@ -19,34 +19,38 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "Art gallery with an associated record label, book imprint and archive specializing in improvised and experimental music; presents occasional concerts and events tied to that legacy."
+    evidence: Art gallery with an associated record label, book imprint and archive specializing
+      in improvised and experimental music; presents occasional concerts and events tied to
+      that legacy.
     sources:
     - https://corbettvsdempsey.com/about-us/
     - https://corbettvsdempsey.com/events/
   show_frequency:
     value: 2
-    evidence: "Concerts/events are occasional alongside the exhibition program."
+    evidence: Concerts/events are occasional alongside the exhibition program.
     sources:
     - https://corbettvsdempsey.com/events/
   artist_roster:
     value: 4
-    evidence: "Represents Peter Brotzmann and the estate of Sun Ra; co-founder John Corbett is a noted champion of free jazz and improvisation (co-curated the Empty Bottle Jazz Series)."
+    evidence: Represents Peter Brotzmann and the estate of Sun Ra; co-founder John Corbett
+      is a noted champion of free jazz and improvisation (co-curated the Empty Bottle Jazz
+      Series).
     sources:
     - https://corbettvsdempsey.com/about-us/
     - https://en.wikipedia.org/wiki/John_Corbett_(writer)
   self_description:
     value: 4
-    evidence: "States that creative music has always been a feature of the gallery's activities."
+    evidence: States that creative music has always been a feature of the gallery's activities.
     sources:
     - https://corbettvsdempsey.com/about-us/
   operating_model:
     value: 3
-    evidence: "Commercial art gallery (opened 2004) with a strong creative-music mission."
+    evidence: Commercial art gallery (opened 2004) with a strong creative-music mission.
     sources:
     - https://corbettvsdempsey.com/about-us/
   community_reputation:
     value: 4
-    evidence: "Internationally recognized node of Chicago's improvised-music history and archive."
+    evidence: Internationally recognized node of Chicago's improvised-music history and archive.
     sources:
     - https://en.wikipedia.org/wiki/John_Corbett_(writer)
   listening_room:
@@ -64,4 +68,12 @@ provenance:
   - https://corbettvsdempsey.com/about-us/
   - https://corbettvsdempsey.com/events/
   needs_human_review: true
-notes: "NEEDS REVIEW: gallery/label deeply tied to free jazz, but confirm current cadence of live concerts vs. exhibitions/releases."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: df6ae3cbe06dd9c0
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: gallery/label deeply tied to free jazz, but confirm current cadence
+  of live concerts vs. exhibitions/releases.'

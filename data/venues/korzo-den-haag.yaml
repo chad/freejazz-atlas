@@ -18,28 +18,27 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Adventurous theatre and production house hosting the Rewire x Korzo
-      experimental music series (since 2016); previously home to the Konceptions creative-jazz
-      series (548 nights over a decade).
+    evidence: Adventurous theatre and production house hosting the Rewire x Korzo experimental
+      music series (since 2016); previously home to the Konceptions creative-jazz series (548
+      nights over a decade).
     sources:
     - https://www.rewirefestival.nl/news/the-rewire-x-korzo-concert-series-returns-this-autumn
     - https://konceptionsmusicseries.wordpress.com/
   show_frequency:
     value: 2
-    evidence: Experimental/improv music runs as periodic concert series within a program
-      dominated by dance and theatre.
+    evidence: Experimental/improv music runs as periodic concert series within a program dominated
+      by dance and theatre.
     sources:
     - https://korzo.nl/en/
   artist_roster:
     value: 3
-    evidence: Rewire x Korzo presents experimental and improvising artists; Konceptions
-      hosted creative jazz and improvised music.
+    evidence: Rewire x Korzo presents experimental and improvising artists; Konceptions hosted
+      creative jazz and improvised music.
     sources:
     - https://konceptionsmusicseries.wordpress.com/
   self_description:
     value: 3
-    evidence: Stage for adventurous music, dance, circus and theatre in the heart
-      of The Hague.
+    evidence: Stage for adventurous music, dance, circus and theatre in the heart of The Hague.
     sources:
     - https://korzo.nl/en/
   operating_model:
@@ -68,5 +67,12 @@ provenance:
   - https://korzo.nl/en/
   - https://www.rewirefestival.nl/news/the-rewire-x-korzo-concert-series-returns-this-autumn
   needs_human_review: true
-notes: 'NEEDS REVIEW: mainly a dance/theatre house; experimental/improv music comes
-  via the Rewire x Korzo series (and the ended Konceptions series).'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: d81cb5ffdfe1d1a1
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: mainly a dance/theatre house; experimental/improv music comes via the
+  Rewire x Korzo series (and the ended Konceptions series).'

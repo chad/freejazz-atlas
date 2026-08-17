@@ -3,11 +3,11 @@ name: Pardon, To Tu
 aliases: []
 status: active
 location:
-  address: "Aleja Armii Ludowej 14"
+  address: Aleja Armii Ludowej 14
   city: Warsaw
   region: Masovia
   country: PL
-  lat: 52.2200
+  lat: 52.22
   lon: 21.0175
 type: bar_club
 operating_model: artist_run
@@ -17,8 +17,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Venue focused on avant-garde jazz, experimental and improvised music; described as
-      without equal in Poland for its programme.
+    evidence: Venue focused on avant-garde jazz, experimental and improvised music; described
+      as without equal in Poland for its programme.
     sources:
     - https://pardontotu.pl/info/
     - https://www.jazznearyou.com/warsaw/venue/pardon-to-tu
@@ -43,7 +43,8 @@ signals:
     - https://pardontotu.pl/info/
   operating_model:
     value: 4
-    evidence: Independent artist-led venue combining live music, bar, bookstore and record store.
+    evidence: Independent artist-led venue combining live music, bar, bookstore and record
+      store.
     sources:
     - https://pardontotu.pl/info/
   community_reputation:
@@ -66,4 +67,11 @@ provenance:
   - https://pardontotu.pl/info/
   - https://www.jazznearyou.com/warsaw/venue/pardon-to-tu
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 09132ea42b46784e
+  crawl_http_status: 200
 notes: Warsaw's leading avant-garde jazz and improvised music venue.

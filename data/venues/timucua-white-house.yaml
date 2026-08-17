@@ -5,7 +5,7 @@ aliases:
 - the white house
 status: active
 location:
-  address: "2000 S Summerlin Ave"
+  address: 2000 S Summerlin Ave
   city: Orlando
   region: FL
   country: US
@@ -46,8 +46,8 @@ signals:
     - https://timucua.com/venue/timucua/
   operating_model:
     value: 5
-    evidence: Timucua Arts Foundation nonprofit, founded by Benoit Glazer; concerts hosted in
-      a custom 3-story home.
+    evidence: Timucua Arts Foundation nonprofit, founded by Benoit Glazer; concerts hosted
+      in a custom 3-story home.
     sources:
     - https://newsroom.ocfl.net/2025/05/timucua-arts-foundation-celebrates-25-years-of-bringing-art-to-life/
   community_reputation:
@@ -74,6 +74,13 @@ provenance:
   - https://artsinorlando.com/event/moj-tuesday-again/
   - https://newsroom.ocfl.net/2025/05/timucua-arts-foundation-celebrates-25-years-of-bringing-art-to-life/
   needs_human_review: false
-notes: 'Orlando nonprofit house-concert listening room (Timucua Arts Foundation). Strong dedicated
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 1f5812b1a73be552
+  crawl_http_status: 200
+notes: Orlando nonprofit house-concert listening room (Timucua Arts Foundation). Strong dedicated
   listening space and jazz program; experimental/free improv is present but secondary to jazz,
-  chamber, and world music.'
+  chamber, and world music.

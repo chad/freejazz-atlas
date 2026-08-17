@@ -69,4 +69,11 @@ provenance:
   - https://www.berlinmpls.com/
   - https://www.thecurrent.org/feature/2024/07/26/berlin-is-a-minneapolis-music-venue-that-creates-unmatched-intimacy
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: f92a40f9245bf1d1
+  crawl_http_status: 200
 notes: Commercial but genuinely adventurous; sibling in spirit to Icehouse.

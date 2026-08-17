@@ -3,7 +3,7 @@ name: Sound Exchange
 aliases: []
 status: active
 location:
-  address: "101 N Milby St"
+  address: 101 N Milby St
   city: Houston
   region: TX
   country: US
@@ -18,38 +18,42 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "Hosts An Exchange of Noiz, a bimonthly series of live ambient, noise, electronic and weird music curated by Spike the Percussionist."
+    evidence: Hosts An Exchange of Noiz, a bimonthly series of live ambient, noise, electronic
+      and weird music curated by Spike the Percussionist.
     sources:
     - https://365thingsinhouston.com/calendar/an-exchange-of-noiz-at-sound-exchange/
     - https://eastendhouston.com/sound-exchange-plants-its-flag-at-new-east-end-location-with-free-in-store-performances-and-events/
   show_frequency:
     value: 2
-    evidence: "An Exchange of Noiz runs the third Thursday every other month, plus other free in-store performances."
+    evidence: An Exchange of Noiz runs the third Thursday every other month, plus other free
+      in-store performances.
     sources:
     - https://365thingsinhouston.com/calendar/an-exchange-of-noiz-at-sound-exchange/
   artist_roster:
     value: 4
-    evidence: "Format features around six local/regional noise, ambient and experimental artists per event with short sets."
+    evidence: Format features around six local/regional noise, ambient and experimental artists
+      per event with short sets.
     sources:
     - https://365thingsinhouston.com/calendar/an-exchange-of-noiz-at-sound-exchange/
   self_description:
     value: 3
-    evidence: "Independent record store devoting a standing series to noise and weird music."
+    evidence: Independent record store devoting a standing series to noise and weird music.
     sources:
     - https://eastendhouston.com/sound-exchange-plants-its-flag-at-new-east-end-location-with-free-in-store-performances-and-events/
   operating_model:
     value: 3
-    evidence: "Commercial independent record store with a DIY-leaning event program."
+    evidence: Commercial independent record store with a DIY-leaning event program.
     sources:
     - https://eastendhouston.com/sound-exchange-plants-its-flag-at-new-east-end-location-with-free-in-store-performances-and-events/
   community_reputation:
     value: 3
-    evidence: "Named in Houston experimental-music coverage as an anchor for the noise/experimental scene."
+    evidence: Named in Houston experimental-music coverage as an anchor for the noise/experimental
+      scene.
     sources:
     - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   listening_room:
     value: 2
-    evidence: "In-store performance space rather than a seated listening room."
+    evidence: In-store performance space rather than a seated listening room.
     sources:
     - https://eastendhouston.com/sound-exchange-plants-its-flag-at-new-east-end-location-with-free-in-store-performances-and-events/
 score: 59
@@ -63,4 +67,12 @@ provenance:
   - https://eastendhouston.com/sound-exchange-plants-its-flag-at-new-east-end-location-with-free-in-store-performances-and-events/
   - https://365thingsinhouston.com/calendar/an-exchange-of-noiz-at-sound-exchange/
   needs_human_review: false
-notes: "East End record store whose An Exchange of Noiz series is a standing home for Houston noise and experimental performers."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8a68000b49fce90c
+  crawl_http_status: 200
+notes: East End record store whose An Exchange of Noiz series is a standing home for Houston
+  noise and experimental performers.

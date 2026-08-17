@@ -4,7 +4,7 @@ aliases:
 - Comfort Station Logan Square
 status: active
 location:
-  address: "2579 N Milwaukee Ave"
+  address: 2579 N Milwaukee Ave
   city: Chicago
   region: IL
   country: US
@@ -19,28 +19,31 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: "Hosts the recurring Comfort Music series of experimental and improvised performances (co-founded/programmed by Jordan Martins), alongside film and visual-art programming."
+    evidence: Hosts the recurring Comfort Music series of experimental and improvised performances
+      (co-founded/programmed by Jordan Martins), alongside film and visual-art programming.
     sources:
     - https://comfortstationlogansquare.org/calendar/2026/6/8/comfortmusic
     - https://www.jordanmartins.com/curatorialprogramming
   show_frequency:
     value: 3
-    evidence: "Regular music nights within a broad weekly arts calendar."
+    evidence: Regular music nights within a broad weekly arts calendar.
     sources:
     - https://comfortstationlogansquare.org/calendar
   artist_roster:
     value: 4
-    evidence: "Comfort Music books experimental/improv acts such as the Chicago Sound Bath and duos like PXM."
+    evidence: Comfort Music books experimental/improv acts such as the Chicago Sound Bath
+      and duos like PXM.
     sources:
     - https://comfortstationlogansquare.org/calendar/comfortmusicoct2424
   self_description:
     value: 4
-    evidence: "Grass-roots multidisciplinary art space acting as gallery, music venue, cinema and micro-cultural center; porous and hyper-collaborative."
+    evidence: Grass-roots multidisciplinary art space acting as gallery, music venue, cinema
+      and micro-cultural center; porous and hyper-collaborative.
     sources:
     - https://sixtyinchesfromcenter.org/the-logan-square-comfort-station-in-the-art-of-a-community/
   operating_model:
     value: 5
-    evidence: "Nonprofit (founded 2016) in a historic city comfort-station building."
+    evidence: Nonprofit (founded 2016) in a historic city comfort-station building.
     sources:
     - https://www.preservationchicago.org/chicago-tribune-comfort-station-is-the-small-tudor-building-in-logan-square-with-a-century-of-chicago-history-first-as-a-restroom-now-an-arts-space-and-outdoor-theater/
   community_reputation:
@@ -49,7 +52,7 @@ signals:
     - https://sixtyinchesfromcenter.org/the-logan-square-comfort-station-in-the-art-of-a-community/
   listening_room:
     value: 4
-    evidence: "Small 800-square-foot room used for attentive performance."
+    evidence: Small 800-square-foot room used for attentive performance.
     sources:
     - https://sixtyinchesfromcenter.org/the-logan-square-comfort-station-in-the-art-of-a-community/
 score: 76
@@ -63,4 +66,12 @@ provenance:
   - https://comfortstationlogansquare.org/calendar/2026/6/8/comfortmusic
   - https://www.jordanmartins.com/curatorialprogramming
   needs_human_review: false
-notes: "Nonprofit Logan Square arts space; the Comfort Music series is a dependable outlet for Chicago experimental/improv performers."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e2dd99746e286ca2
+  crawl_http_status: 200
+notes: Nonprofit Logan Square arts space; the Comfort Music series is a dependable outlet
+  for Chicago experimental/improv performers.

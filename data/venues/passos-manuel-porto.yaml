@@ -3,7 +3,7 @@ name: Passos Manuel
 aliases: []
 status: active
 location:
-  address: "Rua de Passos Manuel 137"
+  address: Rua de Passos Manuel 137
   city: Porto
   region: Porto
   country: PT
@@ -17,8 +17,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Former cinema turned bar/club and performance space; hosts some experimental and
-      jazz programming among a broad concert/club offering.
+    evidence: Former cinema turned bar/club and performance space; hosts some experimental
+      and jazz programming among a broad concert/club offering.
     sources:
     - https://ra.co/clubs/12890
     - https://www.songkick.com/venues/126585-passos-manuel
@@ -63,5 +63,13 @@ provenance:
   - https://ra.co/clubs/12890
   - https://www.portugal.com/activities-experiences/5-best-live-music-clubs-in-porto/
   needs_human_review: true
-notes: Porto former-cinema club with a broad program; experimental/jazz content is occasional, so
-  free-improv weight is uncertain.
+  link_check:
+    checked: '2026-08-17'
+    status: unreachable
+    detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
+  last_crawled: '2026-08-17'
+  last_crawl_error: 'HTTPSConnectionPool(host=''www.passosmanuel.com'', port=443): Max retries
+    exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''www.passosmanuel.com'',
+    port=443): Failed to resolve '''
+notes: Porto former-cinema club with a broad program; experimental/jazz content is occasional,
+  so free-improv weight is uncertain.

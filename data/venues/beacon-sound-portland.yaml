@@ -67,5 +67,12 @@ provenance:
   - http://beaconsound.com/about
   - https://everout.com/portland/locations/beacon-sound/l29924/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 567b5b46e4c10d9e
+  crawl_http_status: 200
 notes: Experimental record shop/label (est. 2011) that doubles as an event space. Has relocated
   more than once; current address per shop bio is NE MLK Jr Blvd. Coordinates approximate.

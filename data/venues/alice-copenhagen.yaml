@@ -5,7 +5,7 @@ aliases:
 - Alice Copenhagen
 status: active
 location:
-  address: "Nørre Allé 7"
+  address: Nørre Allé 7
   city: Copenhagen
   region: Capital Region
   country: DK
@@ -66,5 +66,12 @@ provenance:
   - https://alicecph.com/en/about-alice/
   - https://www.europejazz.net/club/alice-cph
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 752b975af0a200af
+  crawl_http_status: 200
 notes: Nørrebro venue for adventurous music; jazz/improv within a broad program. Address/coords
   approximate.

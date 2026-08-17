@@ -4,7 +4,7 @@ aliases:
 - TAC
 status: active
 location:
-  address: "511 48th St"
+  address: 511 48th St
   city: Oakland
   region: CA
   country: US
@@ -19,9 +19,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Hosts the monthly free-improvisation workshop-series "Doors That Only Open
-      in Silence" and the TACmusic concert series of improvisation, experimental music
-      and sound art.
+    evidence: Hosts the monthly free-improvisation workshop-series "Doors That Only Open in
+      Silence" and the TACmusic concert series of improvisation, experimental music and sound
+      art.
     sources:
     - https://www.temescalartcenter.org/tacmusic.html
     - https://www.bayimproviser.com/venue/56/temescal-arts-center
@@ -37,8 +37,8 @@ signals:
     - https://www.temescalartcenter.org/tacmusic.html
   self_description:
     value: 5
-    evidence: A venue for experimental, community and healing arts; hosts research and
-      residencies for improvised, experimental and interdisciplinary music.
+    evidence: A venue for experimental, community and healing arts; hosts research and residencies
+      for improvised, experimental and interdisciplinary music.
     sources:
     - https://www.temescalartcenter.org/
   operating_model:
@@ -48,8 +48,8 @@ signals:
     - https://openspace.sfmoma.org/2018/02/featured-organization-temescal-art-center/
   community_reputation:
     value: 3
-    evidence: Longstanding East Bay experimental-arts fixture; featured by SFMOMA Open
-      Space and Bay Improviser.
+    evidence: Longstanding East Bay experimental-arts fixture; featured by SFMOMA Open Space
+      and Bay Improviser.
     sources:
     - https://openspace.sfmoma.org/2018/02/featured-organization-temescal-art-center/
   listening_room:
@@ -69,5 +69,12 @@ provenance:
   - https://www.bayimproviser.com/venue/56/temescal-arts-center
   - https://openspace.sfmoma.org/2018/02/featured-organization-temescal-art-center/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 2e4724f3a5bf701b
+  crawl_http_status: 200
 notes: Oakland DIY arts center with a dedicated monthly free-improv series and the TACmusic
   experimental program.

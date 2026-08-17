@@ -18,39 +18,36 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Hosts the recurring Glasgow Experimental Music Series among a broad
-      arts program.
+    evidence: Hosts the recurring Glasgow Experimental Music Series among a broad arts program.
     sources:
     - https://www.thegladcafe.co.uk/events/2024-12-06-glasgow-experimental-music-series-the-glad-cafe
     - https://www.theskinny.co.uk/whats-on/glasgow/restaurants/the-glad-cafe/glasgow-experimental-music-series
   show_frequency:
     value: 2
-    evidence: Frequent gigs, but experimental/improvised music is a periodic strand
-      of a wider indie/electronic/traditional program.
+    evidence: Frequent gigs, but experimental/improvised music is a periodic strand of a wider
+      indie/electronic/traditional program.
     sources:
     - https://communalleisure.com/the-glad-cafe/
   artist_roster:
     value: 3
-    evidence: Features experimental and improvising acts alongside indie, electronic
-      and traditional musicians.
+    evidence: Features experimental and improvising acts alongside indie, electronic and traditional
+      musicians.
     sources:
     - https://www.thegladcafe.co.uk/
   self_description:
     value: 3
-    evidence: Not-for-profit multi-arts venue known for experimental and improvised
-      programming and good acoustics.
+    evidence: Not-for-profit multi-arts venue known for experimental and improvised programming
+      and good acoustics.
     sources:
     - https://www.thegladcafe.co.uk/
   operating_model:
     value: 4
-    evidence: Not-for-profit venue with an associated foundation (The Glad Foundation
-      SCIO).
+    evidence: Not-for-profit venue with an associated foundation (The Glad Foundation SCIO).
     sources:
     - https://www.thegladcafe.co.uk/
   community_reputation:
     value: 3
-    evidence: Established Southside venue cited by The Skinny for its experimental
-      series.
+    evidence: Established Southside venue cited by The Skinny for its experimental series.
     sources:
     - https://www.theskinny.co.uk/whats-on/glasgow/restaurants/the-glad-cafe/glasgow-experimental-music-series
   listening_room:
@@ -69,5 +66,12 @@ provenance:
   - https://www.thegladcafe.co.uk/
   - https://www.theskinny.co.uk/whats-on/glasgow/restaurants/the-glad-cafe/glasgow-experimental-music-series
   needs_human_review: true
-notes: 'NEEDS REVIEW: confirm 2026 cadence of the Glasgow Experimental Music Series
-  and overall experimental share.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 939ee097e91fc307
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: confirm 2026 cadence of the Glasgow Experimental Music Series and overall
+  experimental share.'

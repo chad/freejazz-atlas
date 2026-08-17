@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: An Amsterdam institution for free improv and creative music; every Tuesday
-      improvisers gather to play in new and old combinations.
+    evidence: An Amsterdam institution for free improv and creative music; every Tuesday improvisers
+      gather to play in new and old combinations.
     sources:
     - https://www.europejazz.net/club/zaal-100
     - https://annelaberge.com/zaal-100-improv-in-amsterdam/
@@ -31,8 +31,8 @@ signals:
     - https://annelaberge.com/zaal-100-improv-in-amsterdam/
   artist_roster:
     value: 4
-    evidence: Seasoned free improvisers play intimate two-hour sets; a hub for the
-      Amsterdam improv community.
+    evidence: Seasoned free improvisers play intimate two-hour sets; a hub for the Amsterdam
+      improv community.
     sources:
     - https://annelaberge.com/zaal-100-improv-in-amsterdam/
   self_description:
@@ -42,20 +42,17 @@ signals:
     - https://www.iamsterdam.com/en/whats-on/calendar/theatre-and-stage/stage/zaal-100
   operating_model:
     value: 5
-    evidence: Volunteer-run neighbourhood cultural centre with a living-room, DIY
-      ethos.
+    evidence: Volunteer-run neighbourhood cultural centre with a living-room, DIY ethos.
     sources:
     - https://annelaberge.com/zaal-100-improv-in-amsterdam/
   community_reputation:
     value: 4
-    evidence: Listed by the Europe Jazz Network and long known as an Amsterdam improv
-      institution.
+    evidence: Listed by the Europe Jazz Network and long known as an Amsterdam improv institution.
     sources:
     - https://www.europejazz.net/club/zaal-100
   listening_room:
     value: 3
-    evidence: Relaxed living-room-style room that encourages conversation between
-      sets.
+    evidence: Relaxed living-room-style room that encourages conversation between sets.
     sources:
     - https://annelaberge.com/zaal-100-improv-in-amsterdam/
 score: 81
@@ -69,4 +66,11 @@ provenance:
   - https://www.europejazz.net/club/zaal-100
   - https://annelaberge.com/zaal-100-improv-in-amsterdam/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 67f4188c2ec1164c
+  crawl_http_status: 200
 notes: Volunteer-run Amsterdam institution with a weekly Tuesday free-improv night.

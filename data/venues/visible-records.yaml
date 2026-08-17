@@ -3,7 +3,7 @@ name: Visible Records
 aliases: []
 status: active
 location:
-  address: "1740 Broadway St"
+  address: 1740 Broadway St
   city: Charlottesville
   region: VA
   country: US
@@ -44,7 +44,8 @@ signals:
     - https://arts.virginia.edu/node/1068
   operating_model:
     value: 5
-    evidence: Affordable artist-run gallery and studio space opened 2021 in a former data warehouse.
+    evidence: Affordable artist-run gallery and studio space opened 2021 in a former data
+      warehouse.
     sources:
     - https://arts.virginia.edu/node/1068
   community_reputation:
@@ -69,5 +70,12 @@ provenance:
   - https://arts.virginia.edu/node/1068
   - https://allevents.in/charlottesville/a-night-of-improvisational-percussion/200028369894651
   needs_human_review: false
-notes: 'Artist-run gallery/studio in Charlottesville that has become a regular home for improvised
-  and experimental music.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: bb7fc260a35b732b
+  crawl_http_status: 200
+notes: Artist-run gallery/studio in Charlottesville that has become a regular home for improvised
+  and experimental music.

@@ -40,4 +40,12 @@ provenance:
   last_confirmed: 2026-07
   source_urls: []
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://www.eyedrum.org/
+  last_crawled: '2026-08-17'
+  last_content_hash: 83d3387031fdb3b9
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: confirm current venue location and programming.'

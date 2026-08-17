@@ -40,4 +40,11 @@ provenance:
   last_confirmed: 2026-07
   source_urls: []
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ae6c71b8b12e0ac3
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: not re-verified this session; confirm current programming and address.'

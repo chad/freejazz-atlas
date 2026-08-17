@@ -3,7 +3,7 @@ name: Red Poppy Art House
 aliases: []
 status: active
 location:
-  address: "2698 Folsom St"
+  address: 2698 Folsom St
   city: San Francisco
   region: CA
   country: US
@@ -19,21 +19,21 @@ signals:
   dedicated_series:
     value: 3
     evidence: Intimate arts house presenting a vigorous multidisciplinary program including
-      jazz, improvised, world and experimental music (experimentation is central to its
-      mission, alongside many other forms).
+      jazz, improvised, world and experimental music (experimentation is central to its mission,
+      alongside many other forms).
     sources:
     - https://www.redpoppyarthouse.org/
     - https://missionlocal.org/venue/red-poppy-art-house/
   show_frequency:
     value: 4
-    evidence: Over 150 performances, exhibitions and residencies per year in a small
-      Mission storefront.
+    evidence: Over 150 performances, exhibitions and residencies per year in a small Mission
+      storefront.
     sources:
     - https://www.redpoppyarthouse.org/
   artist_roster:
     value: 3
-    evidence: Mix of contemporary/experimental and traditional forms; regularly books
-      improvising and creative musicians.
+    evidence: Mix of contemporary/experimental and traditional forms; regularly books improvising
+      and creative musicians.
     sources:
     - https://www.jazznearyou.com/sanfrancisco/venue/the-red-poppy-art-house
   self_description:
@@ -68,5 +68,13 @@ provenance:
   - https://www.redpoppyarthouse.org/
   - https://missionlocal.org/venue/red-poppy-art-house/
   needs_human_review: true
-notes: 'NEEDS REVIEW: intimate Mission arts house with broad multidisciplinary program;
-  confirm current cadence of improvised/experimental music specifically.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://redpoppyarthouse.org/
+  last_crawled: '2026-08-17'
+  last_content_hash: 64967a609d5d3ccd
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: intimate Mission arts house with broad multidisciplinary program; confirm
+  current cadence of improvised/experimental music specifically.'

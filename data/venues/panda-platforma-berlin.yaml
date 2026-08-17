@@ -4,7 +4,7 @@ aliases:
 - Panda Theater
 status: active
 location:
-  address: "Knaackstr. 97 (Kulturbrauerei)"
+  address: Knaackstr. 97 (Kulturbrauerei)
   city: Berlin
   region: Berlin
   country: DE
@@ -19,9 +19,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Interdisciplinary cultural venue in the Kulturbrauerei since 2009; a
-      key contact point for the international improvised-music scene alongside theatre,
-      readings and other programming.
+    evidence: Interdisciplinary cultural venue in the Kulturbrauerei since 2009; a key contact
+      point for the international improvised-music scene alongside theatre, readings and other
+      programming.
     sources:
     - https://panda-theater.de/
     - https://www.kulturbrauerei.de/organizer/panda-theater/
@@ -32,8 +32,8 @@ signals:
     - https://panda-theater.de/
   artist_roster:
     value: 4
-    evidence: Attracts pioneers and representatives of several generations of the
-      international improvised-music scene.
+    evidence: Attracts pioneers and representatives of several generations of the international
+      improvised-music scene.
     sources:
     - https://panda-theater.de/
   self_description:
@@ -68,4 +68,12 @@ provenance:
   - https://panda-theater.de/
   - https://www.kulturbrauerei.de/organizer/panda-theater/
   needs_human_review: false
-notes: "Interdisciplinary Kulturbrauerei venue and an important contact point for the international improvised-music scene since 2009."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 40ed84a00e11a5d5
+  crawl_http_status: 403
+notes: Interdisciplinary Kulturbrauerei venue and an important contact point for the international
+  improvised-music scene since 2009.

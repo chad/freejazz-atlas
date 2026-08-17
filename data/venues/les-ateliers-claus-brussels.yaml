@@ -18,27 +18,26 @@ active_this_year: false
 signals:
   dedicated_series:
     value: 5
-    evidence: A European reference for improvised and creative music; grew from an
-      artistic workshop into a venue centred on alternative/avant-garde music.
+    evidence: A European reference for improvised and creative music; grew from an artistic
+      workshop into a venue centred on alternative/avant-garde music.
     sources:
     - https://www.lesateliersclaus.com/program
     - https://ra.co/news/84296
   show_frequency:
     value: 4
-    evidence: Programmed close to 60 concerts a year in its own halls plus a monthly
-      offsite concert, alongside residencies and jam sessions.
+    evidence: Programmed close to 60 concerts a year in its own halls plus a monthly offsite
+      concert, alongside residencies and jam sessions.
     sources:
     - https://www.periscope-lyon.com/en/post/meeting-the-ateliers-claus-in-brussels/
   artist_roster:
     value: 5
-    evidence: A platform for artists in search of adventure and experimentation across
-      improvised and creative music.
+    evidence: A platform for artists in search of adventure and experimentation across improvised
+      and creative music.
     sources:
     - https://www.periscope-lyon.com/en/post/meeting-the-ateliers-claus-in-brussels/
   self_description:
     value: 5
-    evidence: Centred on alternative/avant-garde music; open to all artists seeking
-      experimentation.
+    evidence: Centred on alternative/avant-garde music; open to all artists seeking experimentation.
     sources:
     - https://www.periscope-lyon.com/en/post/meeting-the-ateliers-claus-in-brussels/
   operating_model:
@@ -48,14 +47,13 @@ signals:
     - https://ra.co/news/84296
   community_reputation:
     value: 4
-    evidence: Recognized across Europe in the field of improvised and creative music
-      during its 20-year run.
+    evidence: Recognized across Europe in the field of improvised and creative music during
+      its 20-year run.
     sources:
     - https://ra.co/news/84296
   listening_room:
     value: 4
-    evidence: Two performance halls (including a box-in-box room) built for concerts
-      and recordings.
+    evidence: Two performance halls (including a box-in-box room) built for concerts and recordings.
     sources:
     - https://kahle.be/en/ref/lesAteliersClausBrussels-.html
 score: 93
@@ -69,6 +67,14 @@ provenance:
   - https://www.lesateliersclaus.com/program
   - https://ra.co/news/84296
   needs_human_review: false
-notes: 'CLOSED: after ~20 years, private funding ended and all activity stopped by
-  April 2026 (final concert 17 April 2026). Included as a recently-closed cornerstone
-  of the Brussels improv scene.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://www.lesateliersclaus.com/program
+  last_crawled: '2026-08-17'
+  last_content_hash: 98c8e5ab671051ac
+  crawl_http_status: 200
+notes: 'CLOSED: after ~20 years, private funding ended and all activity stopped by April 2026
+  (final concert 17 April 2026). Included as a recently-closed cornerstone of the Brussels
+  improv scene.'

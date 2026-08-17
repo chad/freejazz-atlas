@@ -70,5 +70,12 @@ provenance:
   - https://wfos.net/jinsangtae.html
   - https://rhizome.org/editorial/2010/nov/18/the-sound-of-hard-drives-jin-sangtae/
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4838b7cd0eecffba
+  crawl_http_status: 200
 notes: Korea's first dedicated improvised/experimental concert venue (est. 2008, founder Jin
   Sangtae). Exact current address/coordinates approximate - verify.

@@ -73,5 +73,12 @@ provenance:
   - https://en.wikipedia.org/wiki/Portland_Institute_for_Contemporary_Art
   - https://www.travelportland.com/events/tba/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: b703660300db35c3
+  crawl_http_status: 200
 notes: Nonprofit contemporary-arts org; its TBA Festival is a significant platform for experimental
   music within a multidisciplinary program.

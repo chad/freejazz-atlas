@@ -4,13 +4,13 @@ aliases:
 - Wasteland Music
 status: active
 location:
-  address: "801 E 4th Pl"
+  address: 801 E 4th Pl
   city: Los Angeles
   region: CA
   country: US
   neighborhood: Arts District
-  lat: 34.0430
-  lon: -118.2340
+  lat: 34.043
+  lon: -118.234
 type: presenter
 operating_model: artist_run
 capacity: null
@@ -20,15 +20,15 @@ signals:
   dedicated_series:
     value: 5
     evidence: A Los Angeles concert series dedicated to avant-garde and experimental music,
-      emphasizing recent and under-performed compositions; presented primarily at Art
-      Share LA in the Arts District.
+      emphasizing recent and under-performed compositions; presented primarily at Art Share
+      LA in the Arts District.
     sources:
     - https://www.wastelandmusic.org/about
     - https://www.laphil.com/musicdb/artists/7108/wasteland
   show_frequency:
     value: 3
-    evidence: Runs a season of concerts (multiple programs per year), roughly monthly
-      during the season.
+    evidence: Runs a season of concerts (multiple programs per year), roughly monthly during
+      the season.
     sources:
     - https://www.sequenza21.com/2018/10/wasteland-opens-season-six-in-los-angeles/
   artist_roster:
@@ -50,8 +50,7 @@ signals:
     - https://www.wastelandmusic.org/about
   community_reputation:
     value: 3
-    evidence: Recognized LA new-music series covered by Sequenza21 and listed by the LA
-      Phil.
+    evidence: Recognized LA new-music series covered by Sequenza21 and listed by the LA Phil.
     sources:
     - https://www.laphil.com/musicdb/artists/7108/wasteland
   listening_room:
@@ -71,5 +70,12 @@ provenance:
   - https://www.laphil.com/musicdb/artists/7108/wasteland
   - https://www.sequenza21.com/2016/06/wasteland-at-art-share-la/
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 008d597938e005df
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: artist-run avant-garde/experimental concert series presented at Art
   Share LA; confirm current season is active and its home venue in 2026.'

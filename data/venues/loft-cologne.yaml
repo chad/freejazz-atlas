@@ -5,13 +5,13 @@ aliases:
 - Loft Koeln
 status: active
 location:
-  address: "Wissmannstr. 30"
+  address: Wissmannstr. 30
   city: Cologne
   region: North Rhine-Westphalia
   country: DE
   neighborhood: Ehrenfeld
   lat: 50.9509
-  lon: 6.9250
+  lon: 6.925
 type: dedicated_space
 operating_model: artist_run
 capacity: 100
@@ -20,9 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Venue for improvised, contemporary and jazz music with national and
-      international appeal, regular concerts since 1989 on the top floor of a former
-      perfume factory.
+    evidence: Venue for improvised, contemporary and jazz music with national and international
+      appeal, regular concerts since 1989 on the top floor of a former perfume factory.
     sources:
     - https://www.loftkoeln.de/en/the-room/
     - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
@@ -33,8 +32,8 @@ signals:
     - https://www.loftkoeln.de/en/the-room/
   artist_roster:
     value: 5
-    evidence: Launchpad for internationally recognized Cologne improvisers (Angelika
-      Niescier, Hayden Chisholm, Nils Wogram and others).
+    evidence: Launchpad for internationally recognized Cologne improvisers (Angelika Niescier,
+      Hayden Chisholm, Nils Wogram and others).
     sources:
     - https://www.loftkoeln.de/en/the-room/
   self_description:
@@ -49,8 +48,8 @@ signals:
     - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
   community_reputation:
     value: 5
-    evidence: German Jazz Award "Club of the Year" (2021) and "Venue of the Year"
-      (2023); NRW Venue Program top prize.
+    evidence: German Jazz Award "Club of the Year" (2021) and "Venue of the Year" (2023);
+      NRW Venue Program top prize.
     sources:
     - https://www.loftkoeln.de/en/the-room/
   listening_room:
@@ -69,4 +68,11 @@ provenance:
   - https://www.loftkoeln.de/en/the-room/
   - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
   needs_human_review: false
-notes: "Award-winning Ehrenfeld space for improvised and contemporary music since 1989."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4e0663a3920369bd
+  crawl_http_status: 200
+notes: Award-winning Ehrenfeld space for improvised and contemporary music since 1989.

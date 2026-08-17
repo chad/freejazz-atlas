@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Open since 1991 and thought of as a laboratory dedicated to experimental
-      music, improvisation and noise; over 3,000 concerts presented.
+    evidence: Open since 1991 and thought of as a laboratory dedicated to experimental music,
+      improvisation and noise; over 3,000 concerts presented.
     sources:
     - https://uk.tourisme93.com/instants-chavires-montreuil.html
     - https://instantschavires.bandcamp.com/
@@ -31,8 +31,8 @@ signals:
     - https://uk.tourisme93.com/instants-chavires-montreuil.html
   artist_roster:
     value: 5
-    evidence: Presents confirmed and emerging artists from the French and international
-      experimental/improv underground.
+    evidence: Presents confirmed and emerging artists from the French and international experimental/improv
+      underground.
     sources:
     - https://uk.tourisme93.com/instants-chavires-montreuil.html
   self_description:
@@ -42,14 +42,13 @@ signals:
     - https://uk.tourisme93.com/instants-chavires-montreuil.html
   operating_model:
     value: 4
-    evidence: Association-run, publicly supported venue with residencies and an annex
-      gallery for sound/visual arts.
+    evidence: Association-run, publicly supported venue with residencies and an annex gallery
+      for sound/visual arts.
     sources:
     - https://parisjetaime.com/eng/culture/instants-chavires-p4521
   community_reputation:
     value: 5
-    evidence: A reference point of the European experimental/improv scene for over
-      30 years.
+    evidence: A reference point of the European experimental/improv scene for over 30 years.
     sources:
     - https://database.shareimpro.eu/en/venue-festival/instants-chavires
   listening_room:
@@ -68,5 +67,12 @@ provenance:
   - https://www.instantschavires.com/
   - https://uk.tourisme93.com/instants-chavires-montreuil.html
   needs_human_review: false
-notes: Flagship French laboratory for experimental and improvised music, in Montreuil
-  just east of Paris.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: fe41164e13ee79e3
+  crawl_http_status: 200
+notes: Flagship French laboratory for experimental and improvised music, in Montreuil just
+  east of Paris.

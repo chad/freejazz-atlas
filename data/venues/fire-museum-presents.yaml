@@ -4,7 +4,7 @@ aliases:
 - Fire Museum
 status: active
 location:
-  address: "4014 Walnut St (The Rotunda, frequent host site)"
+  address: 4014 Walnut St (The Rotunda, frequent host site)
   city: Philadelphia
   region: PA
   country: US
@@ -56,7 +56,8 @@ signals:
     - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
   listening_room:
     value: 3
-    evidence: Presents in varied non-traditional listening spaces rather than a single dedicated room.
+    evidence: Presents in varied non-traditional listening spaces rather than a single dedicated
+      room.
     sources:
     - https://whyy.org/articles/fire-museum-presents-philadelphia-music/
 score: 82
@@ -71,6 +72,13 @@ provenance:
   - https://www.phillyjazzscene.com/philly-jazz-venues-fire-museum-presents
   - https://www.causeiq.com/organizations/fire-museum-presents,923525897/
   needs_human_review: false
-notes: 'Nomadic Philadelphia presenter of experimental/improvised/international music since 2001;
-  most often hosts at the Rotunda on Penn''s campus and other non-traditional spaces. Coordinates
-  point to the Rotunda, its most frequent host site.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 391a7884a55923cf
+  crawl_http_status: 200
+notes: Nomadic Philadelphia presenter of experimental/improvised/international music since
+  2001; most often hosts at the Rotunda on Penn's campus and other non-traditional spaces.
+  Coordinates point to the Rotunda, its most frequent host site.

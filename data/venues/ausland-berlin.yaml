@@ -3,7 +3,7 @@ name: ausland
 aliases: []
 status: active
 location:
-  address: "Lychener Str. 60"
+  address: Lychener Str. 60
   city: Berlin
   region: Berlin
   country: DE
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Independent venue for experimental music, film, performance since 2002
-      in a former-squat basement; Berlin's laboratory for experimental sound.
+    evidence: Independent venue for experimental music, film, performance since 2002 in a
+      former-squat basement; Berlin's laboratory for experimental sound.
     sources:
     - https://ausland.berlin/
     - https://ausland-berlin.de/about
@@ -36,8 +36,8 @@ signals:
     - https://ausland.berlin/
   self_description:
     value: 5
-    evidence: Independent venue for music, film, literature and performance with an
-      uncompromising experimental programme.
+    evidence: Independent venue for music, film, literature and performance with an uncompromising
+      experimental programme.
     sources:
     - https://ausland-berlin.de/about
   operating_model:
@@ -67,4 +67,11 @@ provenance:
   - https://ausland-berlin.de/about
   - https://berlinsessions.org/spaces-for-experimental-music/
   needs_human_review: false
-notes: "Volunteer-run basement laboratory for experimental sound in Prenzlauer Berg since 2002."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: fbf7b236eed6859c
+  crawl_http_status: 200
+notes: Volunteer-run basement laboratory for experimental sound in Prenzlauer Berg since 2002.

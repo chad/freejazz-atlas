@@ -5,7 +5,7 @@ aliases:
 - SoundSpace
 status: active
 location:
-  address: "200 E Martin Luther King Jr Blvd"
+  address: 200 E Martin Luther King Jr Blvd
   city: Austin
   region: TX
   country: US
@@ -19,37 +19,39 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "Hosts the SoundSpace series of site-specific experimental performances in its galleries (curated by Steve Parker) and has co-hosted the improv-focused No Idea Festival."
+    evidence: Hosts the SoundSpace series of site-specific experimental performances in its
+      galleries (curated by Steve Parker) and has co-hosted the improv-focused No Idea Festival.
     sources:
     - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
   show_frequency:
     value: 2
-    evidence: "SoundSpace events run on selected Sundays a few times per year rather than continuously."
+    evidence: SoundSpace events run on selected Sundays a few times per year rather than continuously.
     sources:
     - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
   artist_roster:
     value: 3
-    evidence: "Programs experimental and improvising musicians across simultaneous gallery performances."
+    evidence: Programs experimental and improvising musicians across simultaneous gallery
+      performances.
     sources:
     - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
   self_description:
     value: 2
-    evidence: "An art museum; experimental music is one curated strand of its programming."
+    evidence: An art museum; experimental music is one curated strand of its programming.
     sources:
     - https://blantonmuseum.org/
   operating_model:
     value: 4
-    evidence: "Art museum of the University of Texas at Austin."
+    evidence: Art museum of the University of Texas at Austin.
     sources:
     - https://blantonmuseum.org/
   community_reputation:
     value: 3
-    evidence: "SoundSpace named in surveys of Austin's experimental scene; draws large audiences."
+    evidence: SoundSpace named in surveys of Austin's experimental scene; draws large audiences.
     sources:
     - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
   listening_room:
     value: 3
-    evidence: "Gallery performances with attentive, roving audiences."
+    evidence: Gallery performances with attentive, roving audiences.
     sources:
     - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
 score: 56
@@ -63,4 +65,12 @@ provenance:
   - https://blantonmuseum.org/
   - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
   needs_human_review: false
-notes: "University art museum whose SoundSpace series brings experimental/improvised music into the galleries; also a No Idea Festival host."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 7e6b346b09bdb216
+  crawl_http_status: 200
+notes: University art museum whose SoundSpace series brings experimental/improvised music
+  into the galleries; also a No Idea Festival host.

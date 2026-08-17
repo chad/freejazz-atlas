@@ -3,13 +3,13 @@ name: the wulf.
 aliases: []
 status: closed
 location:
-  address: "1026 S Santa Fe Ave #203"
+  address: '1026 S Santa Fe Ave #203'
   city: Los Angeles
   region: CA
   country: US
   neighborhood: Arts District
   lat: 34.0345
-  lon: -118.2320
+  lon: -118.232
 type: dedicated_space
 operating_model: nonprofit
 capacity: null
@@ -18,8 +18,8 @@ active_this_year: false
 signals:
   dedicated_series:
     value: 5
-    evidence: 501(c)(3) nonprofit art space dedicated to experimental music and arts in
-      LA's Arts District; its reason to exist was presenting experimental/improvised music.
+    evidence: 501(c)(3) nonprofit art space dedicated to experimental music and arts in LA's
+      Arts District; its reason to exist was presenting experimental/improvised music.
     sources:
     - https://www.thewulf.org/
     - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
@@ -66,5 +66,12 @@ provenance:
   - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
   - https://experimentalmusicyearbook.com/filter/the-wulf.
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e3b0c44298fc1c14
+  crawl_http_status: 200
 notes: CLOSED (~2016, lost its physical space). Legendary volunteer-run LA experimental-music
   space; score reflects its programming while active. Legacy entry.

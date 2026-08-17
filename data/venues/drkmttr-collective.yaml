@@ -4,7 +4,7 @@ aliases:
 - Drkmttr
 status: active
 location:
-  address: "1111 Dickerson Pike"
+  address: 1111 Dickerson Pike
   city: Nashville
   region: TN
   country: US
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: All-ages DIY venue especially welcoming to experimental, electronic, noise, and
-      genre-defying projects, though it books across many genres including punk.
+    evidence: All-ages DIY venue especially welcoming to experimental, electronic, noise,
+      and genre-defying projects, though it books across many genres including punk.
     sources:
     - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
     - https://www.drkmttrcollective.com/
@@ -31,14 +31,14 @@ signals:
     - https://do615.com/venues/drkmttr
   artist_roster:
     value: 2
-    evidence: Roster spans punk, electronic, noise, and experimental; experimental/improv is
-      one strand among many.
+    evidence: Roster spans punk, electronic, noise, and experimental; experimental/improv
+      is one strand among many.
     sources:
     - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
   self_description:
     value: 4
-    evidence: "Prioritizes inclusivity, experimentation, and accessibility; welcoming to\
-      \ genre-defying projects."
+    evidence: Prioritizes inclusivity, experimentation, and accessibility; welcoming to genre-defying
+      projects.
     sources:
     - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
   operating_model:
@@ -68,5 +68,12 @@ provenance:
   - https://www.drkmttrcollective.com/
   - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
   needs_human_review: false
-notes: 'Volunteer-run all-ages DIY venue in East Nashville; experimental/noise/electronic is
-  a core welcome but the booking is broad (also punk, indie).'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 560cc3fcc6246259
+  crawl_http_status: 200
+notes: Volunteer-run all-ages DIY venue in East Nashville; experimental/noise/electronic is
+  a core welcome but the booking is broad (also punk, indie).

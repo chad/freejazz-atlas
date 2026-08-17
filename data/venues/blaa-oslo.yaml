@@ -4,13 +4,13 @@ aliases:
 - Bla
 status: active
 location:
-  address: "Brenneriveien 9C"
+  address: Brenneriveien 9C
   city: Oslo
   region: Oslo
-  country: "NO"
+  country: 'NO'
   neighborhood: Grünerløkka
   lat: 59.9236
-  lon: 10.7530
+  lon: 10.753
 type: bar_club
 operating_model: commercial
 capacity: 350
@@ -67,5 +67,12 @@ provenance:
   - https://en.wikipedia.org/wiki/Bl%C3%A5
   - https://www.blaaoslo.no/
   needs_human_review: false
-notes: Grünerløkka jazz/club by the Akerselva; adventurous booking within a broad program, weekly
-  free jazz Sundays.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 660caa74d7d8de84
+  crawl_http_status: 200
+notes: Grünerløkka jazz/club by the Akerselva; adventurous booking within a broad program,
+  weekly free jazz Sundays.

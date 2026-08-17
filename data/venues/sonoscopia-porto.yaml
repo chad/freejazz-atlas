@@ -4,12 +4,12 @@ aliases:
 - Sonoscopia Associação
 status: active
 location:
-  address: "Rua de Silva Porto 217"
+  address: Rua de Silva Porto 217
   city: Porto
   region: Porto
   country: PT
   lat: 41.1553
-  lon: -8.6350
+  lon: -8.635
 type: arts_center
 operating_model: artist_run
 capacity: 80
@@ -47,8 +47,8 @@ signals:
     - https://sonoscopia.pt/en/sonoscopia/
   community_reputation:
     value: 4
-    evidence: Recognized Porto hub for experimental/improvised music, cited internationally (e.g.
-      Cafe OTO collaborations).
+    evidence: Recognized Porto hub for experimental/improvised music, cited internationally
+      (e.g. Cafe OTO collaborations).
     sources:
     - https://www.cafeoto.co.uk/artists/copper-sounds-meets-sonoscopia/
   listening_room:
@@ -66,4 +66,12 @@ provenance:
   - http://www.sonoscopia.pt/en/
   - https://sonoscopia.pt/en/sonoscopia/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://sonoscopia.pt/en/
+  last_crawled: '2026-08-17'
+  last_content_hash: 7ea23e66404ab06a
+  crawl_http_status: 200
 notes: Artist-run Porto platform for experimental, improvised and electroacoustic music.

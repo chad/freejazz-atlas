@@ -3,13 +3,13 @@ name: High Desert Soundings
 aliases: []
 status: active
 location:
-  address: "83131 Amboy Rd (The Palms Restaurant)"
+  address: 83131 Amboy Rd (The Palms Restaurant)
   city: Twentynine Palms
   region: CA
   country: US
   neighborhood: Wonder Valley
-  lat: 34.1580
-  lon: -115.9330
+  lat: 34.158
+  lon: -115.933
 type: festival
 operating_model: artist_run
 capacity: null
@@ -18,29 +18,28 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: A two-day outdoor festival focused on experimental, improvisational and
-      immersive performance, held at The Palms in Wonder Valley near Joshua Tree.
+    evidence: A two-day outdoor festival focused on experimental, improvisational and immersive
+      performance, held at The Palms in Wonder Valley near Joshua Tree.
     sources:
     - https://highdesertsoundings.com/about-hds
     - https://en.wikipedia.org/wiki/High_Desert_Soundings
   show_frequency:
     value: 1
-    evidence: Annual festival (e.g., Oct 10-11, 2025) rather than a recurring in-year
-      series.
+    evidence: Annual festival (e.g., Oct 10-11, 2025) rather than a recurring in-year series.
     sources:
     - https://highdesertsoundings.com/menu
   artist_roster:
     value: 5
-    evidence: Programs sound artists across new/contemporary concert music, free jazz
-      and improvisation, noise, drone and outsider pop (e.g., Vinny Golia Quintet, Ulrich
-      Krieger & Jason Kahn).
+    evidence: Programs sound artists across new/contemporary concert music, free jazz and
+      improvisation, noise, drone and outsider pop (e.g., Vinny Golia Quintet, Ulrich Krieger
+      & Jason Kahn).
     sources:
     - https://z1077fm.com/wonder-valley-experimental-music-festival-returns-to-the-palms-this-saturday/
     - https://en.wikipedia.org/wiki/High_Desert_Soundings
   self_description:
     value: 5
-    evidence: Dedicated to presenting performances across the spectrum of experimental
-      sound practices.
+    evidence: Dedicated to presenting performances across the spectrum of experimental sound
+      practices.
     sources:
     - https://highdesertsoundings.com/about-hds
   operating_model:
@@ -57,8 +56,8 @@ signals:
     - https://www.hidesertstar.com/deserttrail/wonder-valley-to-host-experimental-music-festival/article_0d0441ae-5e24-11ee-809a-279ee464db02.html
   listening_room:
     value: 2
-    evidence: Outdoor festival staging at a desert restaurant rather than a dedicated
-      listening room.
+    evidence: Outdoor festival staging at a desert restaurant rather than a dedicated listening
+      room.
     sources:
     - https://highdesertsoundings.com/about-hds
 score: 76
@@ -73,5 +72,12 @@ provenance:
   - https://en.wikipedia.org/wiki/High_Desert_Soundings
   - https://z1077fm.com/wonder-valley-experimental-music-festival-returns-to-the-palms-this-saturday/
   needs_human_review: false
-notes: Annual experimental/free-jazz/improv festival at The Palms in Wonder Valley (high
-  desert near Joshua Tree). Coordinates are the Wonder Valley festival site.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 1dea3fd3f743e7ed
+  crawl_http_status: 200
+notes: Annual experimental/free-jazz/improv festival at The Palms in Wonder Valley (high desert
+  near Joshua Tree). Coordinates are the Wonder Valley festival site.

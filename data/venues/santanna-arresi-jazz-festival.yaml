@@ -64,5 +64,13 @@ provenance:
   source_urls:
   - https://it.wikipedia.org/wiki/Ai_confini_tra_Sardegna_e_Jazz
   - https://www.europejazz.net/festival/ai-confini-tra-sardegna-e-jazz
-  needs_human_review: false
+  needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: unreachable
+    detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
+  last_crawled: '2026-08-17'
+  last_crawl_error: 'HTTPSConnectionPool(host=''aiconfinitrasardegnaejazz.it'', port=443):
+    Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''aiconfinitrasardegnaejazz.it'',
+    port=443): Fai'
 notes: Historic Sardinian free-jazz festival at Sant'Anna Arresi. Coordinates are the town.

@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Venue for alternative and independent music in a legalised squat; program
-      includes experimental hip-hop and obscure jazz among many underground genres.
+    evidence: Venue for alternative and independent music in a legalised squat; program includes
+      experimental hip-hop and obscure jazz among many underground genres.
     sources:
     - https://en.wikipedia.org/wiki/OCCII
     - https://occii.org/
@@ -31,26 +31,26 @@ signals:
     - https://occii.org/
   artist_roster:
     value: 2
-    evidence: Books DIY touring bands across punk, noise, experimental and obscure
-      jazz rather than a dedicated improv roster.
+    evidence: Books DIY touring bands across punk, noise, experimental and obscure jazz rather
+      than a dedicated improv roster.
     sources:
     - https://occii.org/diy/
   self_description:
     value: 3
-    evidence: Represents DIY methods and volunteer self-organisation; a hub for the
-      global underground music scene.
+    evidence: Represents DIY methods and volunteer self-organisation; a hub for the global
+      underground music scene.
     sources:
     - https://occii.org/diy/
   operating_model:
     value: 5
-    evidence: Volunteer-run legalised squat rooted in the squatting movement, active
-      since 1992.
+    evidence: Volunteer-run legalised squat rooted in the squatting movement, active since
+      1992.
     sources:
     - https://en.wikipedia.org/wiki/OCCII
   community_reputation:
     value: 3
-    evidence: Legendary Amsterdam DIY venue and a long-standing stop for European
-      underground tours.
+    evidence: Legendary Amsterdam DIY venue and a long-standing stop for European underground
+      tours.
     sources:
     - https://en.wikipedia.org/wiki/OCCII
   listening_room:
@@ -69,5 +69,12 @@ provenance:
   - https://occii.org/
   - https://en.wikipedia.org/wiki/OCCII
   needs_human_review: true
-notes: 'NEEDS REVIEW: DIY squat venue with broad underground programming; free/improv
-  jazz is occasional. Confirm improv share.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ea3fb1dc2527dcfd
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: DIY squat venue with broad underground programming; free/improv jazz
+  is occasional. Confirm improv share.'

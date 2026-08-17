@@ -5,7 +5,7 @@ aliases:
 - PAS Berlin
 status: active
 location:
-  address: "Kaiserin-Augusta-Allee 101"
+  address: Kaiserin-Augusta-Allee 101
   city: Berlin
   region: Berlin
   country: DE
@@ -20,8 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Founded 2017; established home for experimental, improvised and free
-      jazz with recurring series such as Klub Demboh and Sonntagsreihe Sacred Realism.
+    evidence: Founded 2017; established home for experimental, improvised and free jazz with
+      recurring series such as Klub Demboh and Sonntagsreihe Sacred Realism.
     sources:
     - https://pas-berlin.org/
     - https://field-notes.berlin/en/node/11544
@@ -47,8 +47,7 @@ signals:
     - https://www.igbk.de/en/residencies/2811-petersburg-art-space-berlin-3
   community_reputation:
     value: 4
-    evidence: Recognized node of Berlin's experimental/improv scene; live recordings
-      released.
+    evidence: Recognized node of Berlin's experimental/improv scene; live recordings released.
     sources:
     - https://field-notes.berlin/en/node/11544
   listening_room:
@@ -67,4 +66,12 @@ provenance:
   - https://pas-berlin.org/
   - https://field-notes.berlin/en/node/11544
   needs_human_review: false
-notes: "Moabit artist-run venue/residency focused on improvised music and free jazz, founded 2017."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 6800534f353ecaf7
+  crawl_http_status: 200
+notes: Moabit artist-run venue/residency focused on improvised music and free jazz, founded
+  2017.

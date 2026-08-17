@@ -5,7 +5,7 @@ aliases:
 - Nickelsdorfer Konfrontationen
 status: active
 location:
-  address: "Untere Hauptstraße 5"
+  address: Untere Hauptstraße 5
   city: Nickelsdorf
   region: Burgenland
   country: AT
@@ -19,27 +19,26 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: "Home of the Konfrontationen festival for free and improvised music,\
-      \ held annually since 1980; the gallery has been a center for avant-garde jazz\
-      \ and improvised music since the late 1970s."
+    evidence: Home of the Konfrontationen festival for free and improvised music, held annually
+      since 1980; the gallery has been a center for avant-garde jazz and improvised music
+      since the late 1970s.
     sources:
     - https://www.konfrontationen.at/
     - https://de.wikipedia.org/wiki/Konfrontationen
   show_frequency:
     value: 3
-    evidence: "Annual July festival plus concerts held regularly through the year at\
-      \ the Jazzgalerie."
+    evidence: Annual July festival plus concerts held regularly through the year at the Jazzgalerie.
     sources:
     - https://de.wikipedia.org/wiki/Konfrontationen
   artist_roster:
     value: 5
-    evidence: International free-jazz and improvised-music artists; a key meeting point
-      for the scene.
+    evidence: International free-jazz and improvised-music artists; a key meeting point for
+      the scene.
     sources:
     - https://www.freejazzblog.org/2024/07/almost-too-much-43rd-konfrontationen.html
   self_description:
     value: 5
-    evidence: "Explicitly a festival and venue for free and new improvised music."
+    evidence: Explicitly a festival and venue for free and new improvised music.
     sources:
     - https://www.konfrontationen.at/
   operating_model:
@@ -68,4 +67,12 @@ provenance:
   - https://www.konfrontationen.at/
   - https://de.wikipedia.org/wiki/Konfrontationen
   needs_human_review: false
-notes: "Hans Falb's Burgenland gallery, home of the Konfrontationen free/improv festival since 1980."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: f46b1a5976db57fe
+  crawl_http_status: 200
+notes: Hans Falb's Burgenland gallery, home of the Konfrontationen free/improv festival since
+  1980.

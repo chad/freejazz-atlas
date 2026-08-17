@@ -4,7 +4,7 @@ aliases:
 - Hot Club of Portugal
 status: active
 location:
-  address: "Praça da Alegria 48"
+  address: Praça da Alegria 48
   city: Lisbon
   region: Lisbon
   country: PT
@@ -64,5 +64,12 @@ provenance:
   - https://en.wikipedia.org/wiki/Hot_Club_of_Portugal
   - https://hcp.pt/
   needs_human_review: false
-notes: Historic Lisbon jazz club; mostly straight-ahead jazz with occasional adventurous
-  programming - supportive rather than a free/improv cornerstone.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e47e2eef0c2453ac
+  crawl_http_status: 200
+notes: Historic Lisbon jazz club; mostly straight-ahead jazz with occasional adventurous programming
+  - supportive rather than a free/improv cornerstone.

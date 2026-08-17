@@ -3,7 +3,7 @@ name: LOCH
 aliases: []
 status: active
 location:
-  address: "Plateniusstr. 35"
+  address: Plateniusstr. 35
   city: Wuppertal
   region: North Rhine-Westphalia
   country: DE
@@ -19,8 +19,8 @@ signals:
   dedicated_series:
     value: 3
     evidence: Interdisciplinary sociocultural centre with an experimental cross-disciplinary
-      program that includes free improvisation and experimental music alongside jazz
-      and DJ sets.
+      program that includes free improvisation and experimental music alongside jazz and DJ
+      sets.
     sources:
     - https://loch-wuppertal.de/
     - https://loch-wuppertal.de/programm?filter=Musik
@@ -31,14 +31,13 @@ signals:
     - https://loch-wuppertal.de/programm?filter=Musik
   artist_roster:
     value: 3
-    evidence: Books improvised and experimental musicians as part of a broader cultural
-      program.
+    evidence: Books improvised and experimental musicians as part of a broader cultural program.
     sources:
     - https://avanzert.com/venue/loch-wuppertal/
   self_description:
     value: 3
-    evidence: Stands for interdisciplinary and experimental approaches; hub for the
-      Wuppertal cultural scene.
+    evidence: Stands for interdisciplinary and experimental approaches; hub for the Wuppertal
+      cultural scene.
     sources:
     - https://loch-wuppertal.de/
   operating_model:
@@ -67,4 +66,12 @@ provenance:
   - https://loch-wuppertal.de/
   - https://avanzert.com/venue/loch-wuppertal/
   needs_human_review: true
-notes: "Interdisciplinary Wuppertal sociocultural space; free-improv/experimental music is part of a broad program. Share of improvised programming not fully verified."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ed4dcd9377489a76
+  crawl_http_status: 200
+notes: Interdisciplinary Wuppertal sociocultural space; free-improv/experimental music is
+  part of a broad program. Share of improvised programming not fully verified.

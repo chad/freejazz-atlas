@@ -65,4 +65,11 @@ provenance:
   - https://www.namelesssound.org/
   - https://en.wikipedia.org/wiki/Nameless_Sound
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ab74fed68e109dcc
+  crawl_http_status: 200
 notes: Presenter (books into rooms such as MATCH and Lawndale).

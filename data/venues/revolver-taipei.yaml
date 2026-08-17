@@ -4,7 +4,7 @@ aliases:
 - Revolver Taipei
 status: active
 location:
-  address: "1-2 Roosevelt Rd Sec 1, Zhongzheng District"
+  address: 1-2 Roosevelt Rd Sec 1, Zhongzheng District
   city: Taipei
   region: Taipei
   country: TW
@@ -19,15 +19,15 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Two-storey bar/live venue (est. 2010) mainly for punk/metal/alt-rock;
-      experimental noise appears occasionally within a very broad program.
+    evidence: Two-storey bar/live venue (est. 2010) mainly for punk/metal/alt-rock; experimental
+      noise appears occasionally within a very broad program.
     sources:
     - https://www.revolver.tw/en/venue
     - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
   show_frequency:
     value: 2
-    evidence: Live shows nearly nightly, but free/avant/experimental sets are only
-      an occasional part of the calendar.
+    evidence: Live shows nearly nightly, but free/avant/experimental sets are only an occasional
+      part of the calendar.
     sources:
     - https://www.kiremico.com/blog/best-indie-music-venues-in-taipei-a-guide-to-the-citys-live-music-scene
   artist_roster:
@@ -37,8 +37,8 @@ signals:
     - https://ra.co/events/2015230
   self_description:
     value: 3
-    evidence: A seven-nights-a-week haven for independent, forward-thinking music
-      "from rock to experimental and everything in between."
+    evidence: A seven-nights-a-week haven for independent, forward-thinking music "from rock
+      to experimental and everything in between."
     sources:
     - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
   operating_model:
@@ -68,5 +68,12 @@ provenance:
   - https://taiwanbeats.taicca.tw/en/news/taiwanmusicscene-venue
   - https://ra.co/events/2015230
   needs_human_review: true
-notes: Taipei bar/live venue (est. 2010); primarily punk/rock but a recurring host
-  for experimental and noise nights. Free/avant is occasional, not the core.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 20c920fede44409b
+  crawl_http_status: 200
+notes: Taipei bar/live venue (est. 2010); primarily punk/rock but a recurring host for experimental
+  and noise nights. Free/avant is occasional, not the core.

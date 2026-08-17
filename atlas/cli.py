@@ -8,6 +8,8 @@
     atlas stats                    corpus size + geographic spread
     atlas crawl <url> [opts]       fetch a source -> candidate venue record
     atlas recrawl [--id X]         re-fetch sources, detect changed/closed
+    atlas linkcheck [--write]      is every cited URL still reachable?
+    atlas verify [--limit N]       ranked queue: what to verify next, and why
 """
 
 from __future__ import annotations
@@ -77,11 +79,136 @@ def cmd_score(args) -> int:
 
 
 def cmd_build(args) -> int:
-    result = build_mod.build_all()
-    print(f"Built directory: {result['venues']} venues, {result['musicians']} musicians")
-    print(f"  {result['outdir']}/index.html")
-    print(f"  {result['outdir']}/directory.json")
-    print(f"  DIRECTORY.md")
+    result = build_mod.build_all(base_url=args.base_url, single_page=args.single_page)
+    print(f"Built {result['pages']} pages for {result['base']}")
+    print(f"  {result['venues']} venue pages")
+    print(f"  {result['cities']} city pages, {result['regions']} US state pages, "
+          f"{result['countries']} country pages")
+    print(f"  {result['musicians']} artist pages")
+    print(f"  {result['outdir']}/index.html · directory.json · sitemap.xml · robots.txt")
+    if result.get("single_page"):
+        print(f"  {result['single_page']} (offline all-in-one)")
+    print("  DIRECTORY.md")
+    return 0
+
+
+def cmd_linkcheck(args) -> int:
+    """Check every cited website. This is the cheapest honesty mechanism we have."""
+    from . import linkcheck
+
+    venues = storage.load_venues()
+    targets = [v for v in venues if not args.id or v.get("id") == args.id]
+    urls = [v.get("website") for v in targets if v.get("website")]
+    print(f"Checking {len(urls)} websites with {args.workers} workers...\n")
+    results = linkcheck.check_many(urls, workers=args.workers, timeout=args.timeout)
+
+    color = {linkcheck.OK: "32", linkcheck.BLOCKED: "90", linkcheck.ERROR: "33",
+             linkcheck.DEAD: "31", linkcheck.UNREACHABLE: "31",
+             linkcheck.SKIPPED: "90"}
+    tally, changed = {}, 0
+    for v in targets:
+        url = v.get("website")
+        res = results.get(url) or linkcheck.LinkResult(url="", status=linkcheck.SKIPPED)
+        tally[res.status] = tally.get(res.status, 0) + 1
+        if res.status != linkcheck.OK or args.all:
+            label = _c(f"{res.status.upper():12s}", color.get(res.status, "0"))
+            print(f"{label} {v.get('id', ''):38.38s} "
+                  f"{res.detail or res.final_url or url}")
+        if args.write:
+            linkcheck.record_on_venue(v, res)
+            storage.save_venue(v)
+            changed += 1
+
+    print("\n" + "  ".join(f"{k}={n}" for k, n in sorted(tally.items(), key=lambda x: -x[1])))
+    attention = tally.get(linkcheck.DEAD, 0) + tally.get(linkcheck.UNREACHABLE, 0) \
+        + tally.get(linkcheck.ERROR, 0)
+    print(f"{attention} venue(s) need attention.")
+    if args.write:
+        print(f"Recorded link health on {changed} record(s).")
+    else:
+        print("(dry run — pass --write to record link health in provenance)")
+    return 0
+
+
+def cmd_verify(args) -> int:
+    """Rank the corpus by where human attention would change the most.
+
+    Verification effort is the scarcest resource in a curated directory, so
+    spend it where a wrong number does the most damage: high-scoring venues we
+    are least sure about, with the least evidence, checked the longest ago.
+    """
+    import datetime as dt
+
+    venues = [enrich_venue(v) for v in storage.load_venues()]
+    today = dt.date.today()
+
+    def staleness_days(v) -> int:
+        prov = v.get("provenance") or {}
+        best = None
+        for key in ("last_confirmed", "added_on"):
+            raw = prov.get(key)
+            if not raw:
+                continue
+            s = str(raw)
+            for fmt in ("%Y-%m-%d", "%Y-%m", "%Y"):
+                try:
+                    d = dt.datetime.strptime(s, fmt).date()
+                    best = d if best is None or d > best else best
+                    break
+                except ValueError:
+                    continue
+        return (today - best).days if best else 3650
+
+    rows = []
+    for v in venues:
+        prov = v.get("provenance") or {}
+        conf = v.get("confidence")
+        conf = 0.5 if not isinstance(conf, (int, float)) else float(conf)
+        sigs = v.get("signals") or {}
+        missing_ev = sum(1 for s in sigs.values()
+                         if isinstance(s, dict) and not s.get("evidence"))
+        n_sources = len(prov.get("source_urls") or [])
+        link = (prov.get("link_check") or {}).get("status")
+
+        # Impact: a wrong cornerstone misleads far more people than a wrong
+        # occasional room, and uncertainty is what verification actually buys.
+        impact = (v.get("score", 0) / 100) ** 1.5
+        doubt = (1 - conf)
+        thin = min(1.0, (missing_ev * 0.15) + (0.4 if n_sources == 0 else 0.0)
+                   + (0.2 if n_sources == 1 else 0.0))
+        stale = min(1.0, staleness_days(v) / 365)
+        broken = 0.6 if link in ("dead", "unreachable") else (0.2 if link == "error" else 0.0)
+        flagged = 0.25 if prov.get("needs_human_review") else 0.0
+
+        priority = impact * (doubt + thin + flagged + broken) + 0.25 * stale * impact
+        reasons = []
+        if conf <= 0.55:
+            reasons.append(f"low confidence {conf:g}")
+        if n_sources == 0:
+            reasons.append("NO sources")
+        elif n_sources == 1:
+            reasons.append("single source")
+        if missing_ev:
+            reasons.append(f"{missing_ev} signal(s) lack evidence")
+        if link in ("dead", "unreachable", "error"):
+            reasons.append(f"website {link}")
+        if prov.get("needs_human_review"):
+            reasons.append("flagged for review")
+        if staleness_days(v) > 300:
+            reasons.append(f"unconfirmed {staleness_days(v)}d")
+        rows.append((priority, v, reasons))
+
+    rows.sort(key=lambda r: -r[0])
+    shown = rows[: args.limit]
+    print(f"Verification queue — top {len(shown)} of {len(rows)} venues, "
+          f"ranked by (score impact × uncertainty).\n")
+    for pri, v, reasons in shown:
+        loc = v.get("location") or {}
+        print(f"{_c(f'{pri:5.2f}', '36')} {_c(str(v.get('score')).rjust(3), '1')} "
+              f"{v.get('name', ''):34.34s} {loc.get('city', ''):16.16s} "
+              f"{(loc.get('region') or loc.get('country') or ''):6.6s}")
+        if reasons:
+            print(f"        {_c('; '.join(reasons), '90')}")
     return 0
 
 
@@ -174,19 +301,35 @@ def cmd_crawl(args) -> int:
 
 
 def cmd_recrawl(args) -> int:
+    import concurrent.futures
+
     from . import crawl
     venues = storage.load_venues()
     targets = [v for v in venues if not args.id or v.get("id") == args.id]
     if not targets:
         print(f"No venue matched id={args.id}")
         return 1
-    for v in targets:
-        res = crawl.recrawl(v)
-        mark = {"unchanged": "90", "changed": "33", "new": "36", "gone": "31"}.get(res.outcome, "0")
-        label = _c(f"{res.outcome.upper():9s}", mark)
-        print(f"{label} {v.get('id','')}  {res.notes}")
-        if args.write and res.outcome in ("changed", "gone", "new"):
-            storage.save_venue(v)
+
+    # Re-crawling 250+ sites one at a time takes long enough that nobody does
+    # it, which defeats the purpose. Fetches are I/O bound and independent.
+    def one(v):
+        try:
+            return v, crawl.recrawl(v)
+        except Exception as exc:  # never let one bad host kill the sweep
+            return v, crawl.RecrawlResult(url=v.get("website") or "", outcome="gone",
+                                          notes=f"{type(exc).__name__}: {str(exc)[:120]}")
+
+    tally = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as ex:
+        for v, res in ex.map(one, targets):
+            tally[res.outcome] = tally.get(res.outcome, 0) + 1
+            mark = {"unchanged": "90", "changed": "33", "new": "36",
+                    "gone": "31"}.get(res.outcome, "0")
+            if res.outcome != "unchanged" or args.all:
+                print(f"{_c(f'{res.outcome.upper():9s}', mark)} {v.get('id',''):40.40s} {res.notes}")
+            if args.write and res.outcome in ("changed", "gone", "new"):
+                storage.save_venue(v)
+    print("\n" + "  ".join(f"{k}={n}" for k, n in sorted(tally.items(), key=lambda x: -x[1])))
     if args.write:
         print("\nProvenance updated on disk.")
     else:
@@ -206,8 +349,24 @@ def main(argv=None) -> int:
     sp.add_argument("--write", action="store_true", help="save recomputed scores")
     sp.set_defaults(func=cmd_score)
 
-    sp = sub.add_parser("build", help="generate site/ and DIRECTORY.md")
+    sp = sub.add_parser("build", help="generate the static site + DIRECTORY.md")
+    sp.add_argument("--base-url", help="public origin for canonical URLs/sitemap "
+                                      "(default: $ATLAS_BASE_URL)")
+    sp.add_argument("--single-page", action="store_true",
+                    help="also emit the offline all-in-one.html artifact")
     sp.set_defaults(func=cmd_build)
+
+    sp = sub.add_parser("linkcheck", help="check that every cited website still resolves")
+    sp.add_argument("--id", help="only this venue id")
+    sp.add_argument("--write", action="store_true", help="record results in provenance")
+    sp.add_argument("--all", action="store_true", help="list healthy links too")
+    sp.add_argument("--workers", type=int, default=16)
+    sp.add_argument("--timeout", type=int, default=15)
+    sp.set_defaults(func=cmd_linkcheck)
+
+    sp = sub.add_parser("verify", help="ranked queue of what to verify next")
+    sp.add_argument("--limit", type=int, default=25)
+    sp.set_defaults(func=cmd_verify)
 
     sp = sub.add_parser("list", help="browse the directory in the terminal")
     sp.add_argument("--state", help="filter by state/region code, e.g. IL")
@@ -232,6 +391,8 @@ def main(argv=None) -> int:
     sp = sub.add_parser("recrawl", help="re-fetch sources, detect changed/closed")
     sp.add_argument("--id", help="only this venue id")
     sp.add_argument("--write", action="store_true", help="persist provenance updates")
+    sp.add_argument("--all", action="store_true", help="list unchanged sources too")
+    sp.add_argument("--workers", type=int, default=12)
     sp.set_defaults(func=cmd_recrawl)
 
     args = p.parse_args(argv)

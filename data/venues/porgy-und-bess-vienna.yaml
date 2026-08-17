@@ -4,12 +4,12 @@ aliases:
 - Jazz & Music Club Porgy & Bess
 status: active
 location:
-  address: "Riemergasse 11"
+  address: Riemergasse 11
   city: Vienna
   region: Vienna
   country: AT
   neighborhood: Innere Stadt
-  lat: 48.2070
+  lat: 48.207
   lon: 16.3769
 type: bar_club
 operating_model: nonprofit
@@ -19,9 +19,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: "Vienna's most important jazz organizer (since 1993) with a pluralistic\
-      \ program reaching into contemporary, electronic and experimental music, plus\
-      \ the small 'Strenge Kammer' room for experimental concerts."
+    evidence: Vienna's most important jazz organizer (since 1993) with a pluralistic program
+      reaching into contemporary, electronic and experimental music, plus the small 'Strenge
+      Kammer' room for experimental concerts.
     sources:
     - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
     - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/porgy-bess-355534
@@ -32,13 +32,13 @@ signals:
     - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
   artist_roster:
     value: 4
-    evidence: "Books international jazz plus experimental/improvised projects; hosts\
-      \ the Vienna Improvisers Orchestra and adventurous acts such as Fire! Orchestra."
+    evidence: Books international jazz plus experimental/improvised projects; hosts the Vienna
+      Improvisers Orchestra and adventurous acts such as Fire! Orchestra.
     sources:
     - https://www.freejazzblog.org/2016/06/fire-orchestra-porgy-bess-vienna.html
   self_description:
     value: 3
-    evidence: "Understands jazz very pluralistically and encourages cross-genre experiment."
+    evidence: Understands jazz very pluralistically and encourages cross-genre experiment.
     sources:
     - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
   operating_model:
@@ -67,4 +67,12 @@ provenance:
   - https://www.porgy.at/
   - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
   needs_human_review: false
-notes: "Vienna's flagship jazz club; pluralistic program with a strong experimental/improvised strand and dedicated experimental room."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 528992a05658df93
+  crawl_http_status: 200
+notes: Vienna's flagship jazz club; pluralistic program with a strong experimental/improvised
+  strand and dedicated experimental room.

@@ -4,10 +4,10 @@ aliases:
 - Dokkhuset
 status: active
 location:
-  address: "Dokkparken 4"
+  address: Dokkparken 4
   city: Trondheim
   region: Trøndelag
-  country: "NO"
+  country: 'NO'
   lat: 63.4358
   lon: 10.4127
 type: dedicated_space
@@ -50,7 +50,8 @@ signals:
     - https://www.europejazz.net/club/dokkhuset-scene
   listening_room:
     value: 4
-    evidence: Purpose-built concert hall (220 seated) designed for acoustic and amplified music.
+    evidence: Purpose-built concert hall (220 seated) designed for acoustic and amplified
+      music.
     sources:
     - https://www.europejazz.net/club/dokkhuset-scene
 score: 61
@@ -64,5 +65,13 @@ provenance:
   - https://www.europejazz.net/club/dokkhuset-scene
   - https://www.jazzfest.no/en/arena/dokkhuset
   needs_human_review: false
-notes: Harborside concert venue in Trondheim; jazz and new music as part of a broad program, a
-  Jazzfest hub.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://dokkhuset.no/
+  last_crawled: '2026-08-17'
+  last_content_hash: 74b8f6f1d121f317
+  crawl_http_status: 200
+notes: Harborside concert venue in Trondheim; jazz and new music as part of a broad program,
+  a Jazzfest hub.

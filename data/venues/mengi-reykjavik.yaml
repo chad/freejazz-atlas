@@ -3,12 +3,12 @@ name: Mengi
 aliases: []
 status: active
 location:
-  address: "Óðinsgata 2"
+  address: Óðinsgata 2
   city: Reykjavik
   region: Capital Region
   country: IS
   lat: 64.1447
-  lon: -21.9310
+  lon: -21.931
 type: dedicated_space
 operating_model: artist_run
 capacity: 70
@@ -65,4 +65,11 @@ provenance:
   - https://mengi.net/
   - https://guidetoiceland.is/music-of-iceland/the-best-live-music-venues-in-iceland
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 5f608412503d90c9
+  crawl_http_status: 200
 notes: Artist-run experimental venue, gallery and label in downtown Reykjavik.

@@ -67,6 +67,13 @@ provenance:
   - http://soundbarn.blogspot.com/
   - https://www.thomaslailstudio.com/soundbarn
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: a711180c30f16a1e
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: real artist-run improv listening space near Valatie/Kinderhook, but
   much documentation is older; confirm current activity and a precise location. Coordinates
   approximate to Valatie.'

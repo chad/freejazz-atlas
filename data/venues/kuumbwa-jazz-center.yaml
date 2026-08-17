@@ -3,7 +3,7 @@ name: Kuumbwa Jazz Center
 aliases: []
 status: active
 location:
-  address: "320 Cedar St"
+  address: 320 Cedar St
   city: Santa Cruz
   region: CA
   country: US
@@ -66,5 +66,12 @@ provenance:
   - https://www.kuumbwajazz.org/
   - https://downtownsantacruz.com/go/kuumbwa-jazz-center
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ba7f071f5d95ce0e
+  crawl_http_status: 200
 notes: Respected nonprofit Santa Cruz jazz room; mostly mainstream/national jazz with occasional
   adventurous booking, so supportive rather than a dedicated improv home.

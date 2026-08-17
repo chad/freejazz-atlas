@@ -17,22 +17,22 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Non-profit multimedia cultural centre focused on experimental, avant-garde
-      and underground art, primarily music; grew out of Dodorama, a venue/shop for
-      experimental music.
+    evidence: Non-profit multimedia cultural centre focused on experimental, avant-garde and
+      underground art, primarily music; grew out of Dodorama, a venue/shop for experimental
+      music.
     sources:
     - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
     - https://worm.org/
   show_frequency:
     value: 4
-    evidence: Organises festivals, concerts and movie nights year-round, with regular
-      experimental and improvised music.
+    evidence: Organises festivals, concerts and movie nights year-round, with regular experimental
+      and improvised music.
     sources:
     - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
   artist_roster:
     value: 4
-    evidence: Runs artist-in-residence programmes for experimental musicians and books
-      avant/underground artists.
+    evidence: Runs artist-in-residence programmes for experimental musicians and books avant/underground
+      artists.
     sources:
     - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
   self_description:
@@ -47,14 +47,13 @@ signals:
     - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
   community_reputation:
     value: 4
-    evidence: Established institution in Dutch experimental music; awarded the Pendrecht
-      Culture Prize.
+    evidence: Established institution in Dutch experimental music; awarded the Pendrecht Culture
+      Prize.
     sources:
     - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
   listening_room:
     value: 3
-    evidence: Concert hall built from salvaged materials alongside a bar, studio and
-      cinema.
+    evidence: Concert hall built from salvaged materials alongside a bar, studio and cinema.
     sources:
     - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
 score: 83
@@ -68,5 +67,11 @@ provenance:
   - https://worm.org/
   - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
   needs_human_review: false
-notes: Long-running Rotterdam centre for experimental/avant-garde music, film and
-  media art.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 081bd8ac15c24fc0
+  crawl_http_status: 200
+notes: Long-running Rotterdam centre for experimental/avant-garde music, film and media art.

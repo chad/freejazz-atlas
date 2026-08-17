@@ -3,13 +3,13 @@ name: Morphine Raum
 aliases: []
 status: active
 location:
-  address: "Köpenicker Str. 147"
+  address: Köpenicker Str. 147
   city: Berlin
   region: Berlin
   country: DE
   neighborhood: Kreuzberg
   lat: 52.5024
-  lon: 13.4340
+  lon: 13.434
 type: dedicated_space
 operating_model: artist_run
 capacity: 80
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Since 2020 one of Berlin's most exciting venues for contemporary and
-      experimental music; a studio/stage hybrid run by Morphine Records.
+    evidence: Since 2020 one of Berlin's most exciting venues for contemporary and experimental
+      music; a studio/stage hybrid run by Morphine Records.
     sources:
     - https://www.morphinerecords.com/raum
     - https://field-notes.berlin/en/magazine/morphine-raum
@@ -30,8 +30,8 @@ signals:
     - https://ra.co/clubs/220340
   artist_roster:
     value: 5
-    evidence: Local Echtzeit and experimental musicians alongside international artists;
-      CTM collaborations.
+    evidence: Local Echtzeit and experimental musicians alongside international artists; CTM
+      collaborations.
     sources:
     - https://field-notes.berlin/en/magazine/morphine-raum
   self_description:
@@ -66,4 +66,12 @@ provenance:
   - https://www.morphinerecords.com/raum
   - https://field-notes.berlin/en/magazine/morphine-raum
   needs_human_review: false
-notes: "Kreuzberg studio/stage hybrid run by Morphine Records for experimental and improvised music since 2020."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 5b062495f85d6762
+  crawl_http_status: 200
+notes: Kreuzberg studio/stage hybrid run by Morphine Records for experimental and improvised
+  music since 2020.

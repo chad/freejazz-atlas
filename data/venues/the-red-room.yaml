@@ -66,4 +66,11 @@ provenance:
   - https://www.redroom.org/booking/
   - https://en.wikipedia.org/wiki/High_Zero
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 84623de04da0dbe0
+  crawl_http_status: 200
 notes: Runs inside Normals Books & Records; sibling to the High Zero festival.

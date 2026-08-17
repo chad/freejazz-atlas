@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Opened in 2007 as a venue dedicated to creating and disseminating free
-      music (musiques libres), focused on jazz and improvised music.
+    evidence: Opened in 2007 as a venue dedicated to creating and disseminating free music
+      (musiques libres), focused on jazz and improvised music.
     sources:
     - https://www.periscope-lyon.com/le-periscope/?lang=en
     - https://www.visiterlyon.com/sortir/culture-et-loisirs/culture-et-musees/lieux-de-spectacle/le-periscope
@@ -31,14 +31,14 @@ signals:
     - https://www.periscope-lyon.com/le-periscope/?lang=en
   artist_roster:
     value: 4
-    evidence: Programs jazz and improvised music alongside experimental, electronic
-      and other adventurous aesthetics.
+    evidence: Programs jazz and improvised music alongside experimental, electronic and other
+      adventurous aesthetics.
     sources:
     - https://www.periscope-lyon.com/en/
   self_description:
     value: 4
-    evidence: Self-styled home of musiques libres, functioning as concert hall, creation
-      and residency space.
+    evidence: Self-styled home of musiques libres, functioning as concert hall, creation and
+      residency space.
     sources:
     - https://www.periscope-lyon.com/le-periscope/?lang=en
   operating_model:
@@ -67,5 +67,12 @@ provenance:
   - https://www.periscope-lyon.com/en/
   - https://www.visiterlyon.com/sortir/culture-et-loisirs/culture-et-musees/lieux-de-spectacle/le-periscope
   needs_human_review: false
-notes: Lyon venue explicitly dedicated to free music (musiques libres), with jazz/improv
-  at its core.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 39a5e26323309dee
+  crawl_http_status: 200
+notes: Lyon venue explicitly dedicated to free music (musiques libres), with jazz/improv at
+  its core.

@@ -20,40 +20,37 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Volunteer/artist-led cinema and events venue that hosts Bristol's most
-      wayward concerts and experimental noise; home to its own improvising ensemble,
-      Orchestra Cube.
+    evidence: Volunteer/artist-led cinema and events venue that hosts Bristol's most wayward
+      concerts and experimental noise; home to its own improvising ensemble, Orchestra Cube.
     sources:
     - https://en.wikipedia.org/wiki/Cube_Microplex
     - https://cubecinema.com/programme/view/music/
   show_frequency:
     value: 3
-    evidence: Averages 350+ events a year across film and performance, including regular
-      experimental and improvised music nights.
+    evidence: Averages 350+ events a year across film and performance, including regular experimental
+      and improvised music nights.
     sources:
     - https://en.wikipedia.org/wiki/Cube_Microplex
   artist_roster:
     value: 3
-    evidence: Programs experimental, noise and improvised performers alongside cult
-      cinema.
+    evidence: Programs experimental, noise and improvised performers alongside cult cinema.
     sources:
     - https://cubecinema.com/programme/view/music/
   self_description:
     value: 4
-    evidence: Describes itself as an experimental venue and research site for novel
-      social experiences; a cornerstone of Bristol's underground since 1998.
+    evidence: Describes itself as an experimental venue and research site for novel social
+      experiences; a cornerstone of Bristol's underground since 1998.
     sources:
     - https://en.wikipedia.org/wiki/Cube_Microplex
   operating_model:
     value: 5
-    evidence: Not-for-profit workers' co-operative, entirely volunteer-staffed with
-      a DIY ethic.
+    evidence: Not-for-profit workers' co-operative, entirely volunteer-staffed with a DIY
+      ethic.
     sources:
     - https://en.wikipedia.org/wiki/Cube_Microplex
   community_reputation:
     value: 4
-    evidence: Long-standing cornerstone of Bristol's radical/underground cultural
-      scene.
+    evidence: Long-standing cornerstone of Bristol's radical/underground cultural scene.
     sources:
     - https://theeverydaymagazine.co.uk/arts/the-shape-that-holds-it-all-the-unlikely-history-of-bristols-most-radical-venue-the-cube
   listening_room:
@@ -72,5 +69,12 @@ provenance:
   - https://cubecinema.com/
   - https://en.wikipedia.org/wiki/Cube_Microplex
   needs_human_review: false
-notes: DIY co-op cinema/venue; experimental and improvised music is one strand of
-  a wider program. Home of Orchestra Cube.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e6b52a90b73b7556
+  crawl_http_status: 200
+notes: DIY co-op cinema/venue; experimental and improvised music is one strand of a wider
+  program. Home of Orchestra Cube.

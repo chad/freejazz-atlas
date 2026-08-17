@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 1
-    evidence: Boutique music venue and cocktail bar; live music through the week but
-      no dedicated free/improv series.
+    evidence: Boutique music venue and cocktail bar; live music through the week but no dedicated
+      free/improv series.
     sources:
     - http://servantjazzquarters.com/
     - https://www.timeout.com/london/music/sjq
@@ -32,14 +32,13 @@ signals:
     - https://thenudge.com/london-bars/servant-jazz-quarters/
   artist_roster:
     value: 2
-    evidence: Mostly rising indie and up-and-coming bands; some jazz and improvised
-      acts.
+    evidence: Mostly rising indie and up-and-coming bands; some jazz and improvised acts.
     sources:
     - https://thenudge.com/london-bars/servant-jazz-quarters/
   self_description:
     value: 1
-    evidence: Presents itself as a boutique live-music venue and cocktail bar, not
-      an experimental space.
+    evidence: Presents itself as a boutique live-music venue and cocktail bar, not an experimental
+      space.
     sources:
     - http://servantjazzquarters.com/
   operating_model:
@@ -49,8 +48,7 @@ signals:
     - http://servantjazzquarters.com/
   community_reputation:
     value: 2
-    evidence: Known Dalston small venue; occasionally hosts improvised/experimental
-      gigs.
+    evidence: Known Dalston small venue; occasionally hosts improvised/experimental gigs.
     sources:
     - https://www.timeout.com/london/music/sjq
   listening_room:
@@ -69,5 +67,13 @@ provenance:
   - http://servantjazzquarters.com/
   - https://www.timeout.com/london/music/sjq
   needs_human_review: true
-notes: 'NEEDS REVIEW: general Dalston live-music/cocktail venue; free-jazz/improv is
-  incidental. Included as an honest occasional-tier entry.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://www.sjqdalston.com/
+  last_crawled: '2026-08-17'
+  last_content_hash: 267c1fde1670f14c
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: general Dalston live-music/cocktail venue; free-jazz/improv is incidental.
+  Included as an honest occasional-tier entry.'

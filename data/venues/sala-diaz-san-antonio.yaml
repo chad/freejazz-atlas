@@ -65,6 +65,13 @@ provenance:
   - http://www.saladiazart.org/
   - https://medium.com/the-operating-system/welcome-to-sala-diaz-an-artist-centric-experimental-venue-in-san-antonio-62377965b972
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e685d21af90bea2e
+  crawl_http_status: 200
 notes: Artist-run experimental art nonprofit in San Antonio's King William area (coordinates
   approximate); hosts sound/performance work but is primarily a visual-art space. Music frequency
   not fully verified.

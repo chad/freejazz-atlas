@@ -60,4 +60,11 @@ provenance:
   source_urls:
   - https://en.wikipedia.org/wiki/The_Stone_(music_space)
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8ee5f72f896cb261
+  crawl_http_status: 200
 notes: Now at The Glass Box Theatre, The New School (55 W. 13th St).

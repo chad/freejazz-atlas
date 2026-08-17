@@ -66,5 +66,12 @@ provenance:
   - https://as220.org/
   - https://en.wikipedia.org/wiki/AS220
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: efc7367a275ae244
+  crawl_http_status: 200
 notes: Broad nonprofit arts center; experimental/improvised music is one strand of a wide
   multidisciplinary program.

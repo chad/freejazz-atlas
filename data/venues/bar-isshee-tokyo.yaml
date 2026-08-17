@@ -4,7 +4,7 @@ aliases:
 - Barisshee
 status: active
 location:
-  address: "Sendagi Century 21 B1, 3-36-11 Sendagi, Bunkyo-ku"
+  address: Sendagi Century 21 B1, 3-36-11 Sendagi, Bunkyo-ku
   city: Tokyo
   region: Tokyo
   country: JP
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Small bar established 2008 specializing in free jazz and experimental
-      improvised music; regular improv nights are its reason to exist.
+    evidence: Small bar established 2008 specializing in free jazz and experimental improvised
+      music; regular improv nights are its reason to exist.
     sources:
     - https://www.tokyogigguide.com/en/gigs/venue/333
   show_frequency:
@@ -37,8 +37,8 @@ signals:
     - https://geoffleigh.bandcamp.com/album/live-bar-ishee-tokyo
   self_description:
     value: 4
-    evidence: Presents itself as a home for free jazz, abstract, experimental and
-      improvised music.
+    evidence: Presents itself as a home for free jazz, abstract, experimental and improvised
+      music.
     sources:
     - https://www.tokyogigguide.com/en/gigs/venue/333
   operating_model:
@@ -69,5 +69,13 @@ provenance:
   - https://www.squidco.com/miva/merchant.mv?Screen=PROD&Store_Code=S&Product_Code=16793
   - https://geoffleigh.bandcamp.com/album/live-bar-ishee-tokyo
   needs_human_review: false
-notes: Intimate Sendagi/Bunkyo basement bar dedicated to free jazz and improvised
-  music since 2008.
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 400
+    detail: HTTP 400
+  last_crawled: '2026-08-17'
+  last_content_hash: da411674ab5aaf91
+  crawl_http_status: 200
+notes: Intimate Sendagi/Bunkyo basement bar dedicated to free jazz and improvised music since
+  2008.

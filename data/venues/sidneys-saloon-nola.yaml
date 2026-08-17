@@ -3,13 +3,13 @@ name: Sidney's Saloon
 aliases: []
 status: active
 location:
-  address: "1200 St Bernard Ave"
+  address: 1200 St Bernard Ave
   city: New Orleans
   region: LA
   country: US
   neighborhood: Treme / 7th Ward
   lat: 29.9709
-  lon: -90.0640
+  lon: -90.064
 type: bar_club
 operating_model: commercial
 capacity: null
@@ -18,38 +18,42 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: "Neighborhood bar near the French Quarter that hosts adventurous local music nights, including improvised and experimental sets, but not a single named series I could verify."
+    evidence: Neighborhood bar near the French Quarter that hosts adventurous local music
+      nights, including improvised and experimental sets, but not a single named series I
+      could verify.
     sources:
     - https://www.frenchquarter.com/nola/sidneys-saloon/16413/
     - https://www.reverbnation.com/venue/1374677
   show_frequency:
     value: 2
-    evidence: "Regular live-music and performance nights; frequency of specifically improvised programming unclear."
+    evidence: Regular live-music and performance nights; frequency of specifically improvised
+      programming unclear.
     sources:
     - https://www.gigtown.com/venues/sidneys-saloon-new-orleans
   artist_roster:
     value: 3
-    evidence: "Draws from the Treme/7th Ward creative-music community; venue for grassroots local players."
+    evidence: Draws from the Treme/7th Ward creative-music community; venue for grassroots
+      local players.
     sources:
     - https://www.neworleans.com/listing/sidneys-saloon/33754/
   self_description:
     value: 2
-    evidence: "Presents itself as a low-key neighborhood live-music bar."
+    evidence: Presents itself as a low-key neighborhood live-music bar.
     sources:
     - https://www.frenchquarter.com/nola/sidneys-saloon/16413/
   operating_model:
     value: 3
-    evidence: "Independent neighborhood bar."
+    evidence: Independent neighborhood bar.
     sources:
     - https://www.neworleans.com/listing/sidneys-saloon/33754/
   community_reputation:
     value: 2
-    evidence: "Known locally as an off-the-beaten-path spot for grassroots music."
+    evidence: Known locally as an off-the-beaten-path spot for grassroots music.
     sources:
     - https://www.tripadvisor.com/Attraction_Review-g60864-d10209125-Reviews-Sidney_s_Saloon-New_Orleans_Louisiana.html
   listening_room:
     value: 2
-    evidence: "Casual bar setting."
+    evidence: Casual bar setting.
     sources:
     - https://www.frenchquarter.com/nola/sidneys-saloon/16413/
 score: 46
@@ -63,4 +67,13 @@ provenance:
   - https://www.frenchquarter.com/nola/sidneys-saloon/16413/
   - https://www.neworleans.com/listing/sidneys-saloon/33754/
   needs_human_review: true
-notes: "Treme/7th Ward neighborhood bar in the New Orleans grassroots-music orbit. Extent of dedicated improvised/experimental programming not fully verified."
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 400
+    detail: HTTP 400
+  last_crawled: '2026-08-17'
+  last_content_hash: 17079538556bae15
+  crawl_http_status: 200
+notes: Treme/7th Ward neighborhood bar in the New Orleans grassroots-music orbit. Extent of
+  dedicated improvised/experimental programming not fully verified.

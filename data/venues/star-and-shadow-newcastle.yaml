@@ -19,38 +19,38 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Volunteer-run DIY arts/music/cinema co-op; hosts experimental music
-      festivals and gigs among a wide program, but no single standing improv series.
+    evidence: Volunteer-run DIY arts/music/cinema co-op; hosts experimental music festivals
+      and gigs among a wide program, but no single standing improv series.
     sources:
     - https://www.starandshadow.org.uk/about/sas/
   show_frequency:
     value: 2
-    evidence: Frequent events, with experimental/improvised music one strand of a
-      varied grassroots calendar.
+    evidence: Frequent events, with experimental/improvised music one strand of a varied grassroots
+      calendar.
     sources:
     - https://www.starandshadow.org.uk/about/
   artist_roster:
     value: 2
-    evidence: Anyone who volunteers can put on a gig; program includes experimental
-      music alongside film, DJ and community events.
+    evidence: Anyone who volunteers can put on a gig; program includes experimental music
+      alongside film, DJ and community events.
     sources:
     - https://www.starandshadow.org.uk/about/sas/
   self_description:
     value: 3
-    evidence: Dedicated to independent grass-roots culture; hosts weird DJ sets and
-      experimental music festivals.
+    evidence: Dedicated to independent grass-roots culture; hosts weird DJ sets and experimental
+      music festivals.
     sources:
     - https://www.starandshadow.org.uk/about/sas/
   operating_model:
     value: 5
-    evidence: Entirely volunteer-run co-operative that owns and built its own building;
-      no bosses, consensus decision-making.
+    evidence: Entirely volunteer-run co-operative that owns and built its own building; no
+      bosses, consensus decision-making.
     sources:
     - https://www.starandshadow.org.uk/about/sas/
   community_reputation:
     value: 3
-    evidence: Long-standing North East DIY institution (since 2006) noted by NARC.
-      and local press.
+    evidence: Long-standing North East DIY institution (since 2006) noted by NARC. and local
+      press.
     sources:
     - https://narcmagazine.com/my-year-star-shadow-cinema/
   listening_room:
@@ -68,5 +68,12 @@ provenance:
   source_urls:
   - https://www.starandshadow.org.uk/about/sas/
   needs_human_review: true
-notes: 'NEEDS REVIEW: DIY volunteer co-op with broad programming; experimental/improv
-  music is one strand. Confirm current cadence.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 75550b7aa16cd78e
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: DIY volunteer co-op with broad programming; experimental/improv music
+  is one strand. Confirm current cadence.'

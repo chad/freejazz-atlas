@@ -68,6 +68,13 @@ provenance:
   - https://denverite.com/2026/05/28/denver-diy-noise-fest-2026/
   - https://linktr.ee/denvermusicvenue
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4b9057f3f3898374
+  crawl_http_status: 200
 notes: New (2025) queer-run DIY warehouse for experimental/noise music in Elyria-Swansea;
   host of the revived Denver Noise Fest. Exact street address not published, so coordinates
   are neighborhood-level.

@@ -4,7 +4,7 @@ aliases:
 - Urbanguild
 status: active
 location:
-  address: "New Kyoto Bldg 3F, Kiyamachi-dori, Nakagyo-ku"
+  address: New Kyoto Bldg 3F, Kiyamachi-dori, Nakagyo-ku
   city: Kyoto
   region: Kyoto
   country: JP
@@ -19,15 +19,14 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Described as Kyoto's leading avant-garde music space; hosts hours-long
-      modern-jazz improvisation marathons with 30-plus performers.
+    evidence: Described as Kyoto's leading avant-garde music space; hosts hours-long modern-jazz
+      improvisation marathons with 30-plus performers.
     sources:
     - https://www.deepkyoto.com/the-legend-of-urbanguild/
     - https://www.nationalgeographic.com/travel/article/alternative-kyoto-japan-culture-capital-hotspot-for-live-music
   show_frequency:
     value: 4
-    evidence: Frequent events across experimental music, improv, contemporary dance
-      and performance.
+    evidence: Frequent events across experimental music, improv, contemporary dance and performance.
     sources:
     - https://www.songkick.com/venues/63867-urbanguild
   artist_roster:
@@ -37,8 +36,7 @@ signals:
     - https://www.deepkyoto.com/the-legend-of-urbanguild/
   self_description:
     value: 4
-    evidence: Identifies as an avant-garde live space for experimental and improvised
-      performance.
+    evidence: Identifies as an avant-garde live space for experimental and improvised performance.
     sources:
     - https://www.deepkyoto.com/the-legend-of-urbanguild/
   operating_model:
@@ -68,5 +66,12 @@ provenance:
   - https://www.nationalgeographic.com/travel/article/alternative-kyoto-japan-culture-capital-hotspot-for-live-music
   - https://www.songkick.com/venues/63867-urbanguild
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: f0265c6c32cb33cf
+  crawl_http_status: 200
 notes: Kyoto's leading avant-garde live space on Kiyamachi; improv marathons, experimental
   music, dance and performance.

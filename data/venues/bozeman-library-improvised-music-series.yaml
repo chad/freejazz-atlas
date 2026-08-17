@@ -4,12 +4,12 @@ aliases:
 - Improvised Music Concert Series
 status: active
 location:
-  address: "626 E Main St"
+  address: 626 E Main St
   city: Bozeman
   region: MT
   country: US
   lat: 45.6796
-  lon: -111.0250
+  lon: -111.025
 type: presenter
 operating_model: municipal
 capacity: null
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: A named Improvised Music Concert Series presenting free Saturday-afternoon
-      concerts of improvised music on the second floor of the Bozeman Public Library.
+    evidence: A named Improvised Music Concert Series presenting free Saturday-afternoon concerts
+      of improvised music on the second floor of the Bozeman Public Library.
     sources:
     - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   show_frequency:
@@ -29,14 +29,14 @@ signals:
     - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   artist_roster:
     value: 4
-    evidence: Regional improvisers plus visiting artists (e.g. Philadelphia vibraphonist
-      Silas Stewart), directed by Bozeman guitarist/bassist Craig Hall.
+    evidence: Regional improvisers plus visiting artists (e.g. Philadelphia vibraphonist Silas
+      Stewart), directed by Bozeman guitarist/bassist Craig Hall.
     sources:
     - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   self_description:
     value: 5
-    evidence: Presents "revolving and conjoined snippets" of improvised thick-harmony
-      jazz, folk and manipulated electronics for the modern rural improviser.
+    evidence: Presents "revolving and conjoined snippets" of improvised thick-harmony jazz,
+      folk and manipulated electronics for the modern rural improviser.
     sources:
     - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   operating_model:
@@ -46,8 +46,8 @@ signals:
     - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   community_reputation:
     value: 2
-    evidence: Locally covered improvised-music series; niche but a rare dedicated outlet
-      in the region.
+    evidence: Locally covered improvised-music series; niche but a rare dedicated outlet in
+      the region.
     sources:
     - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   listening_room:
@@ -65,6 +65,14 @@ provenance:
   source_urls:
   - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   needs_human_review: true
-notes: A dedicated free improvised-music series at the Bozeman Public Library, directed
-  by Craig Hall. Verified via a single Explore Big Sky article; current-season status
-  should be reconfirmed.
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 403
+    detail: HTTP 403
+  last_crawled: '2026-08-17'
+  last_content_hash: 1c873cfe3be41445
+  crawl_http_status: 200
+notes: A dedicated free improvised-music series at the Bozeman Public Library, directed by
+  Craig Hall. Verified via a single Explore Big Sky article; current-season status should
+  be reconfirmed.

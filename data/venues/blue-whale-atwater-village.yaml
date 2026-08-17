@@ -4,13 +4,13 @@ aliases:
 - bluewhale
 status: active
 location:
-  address: "3229 Casitas Ave"
+  address: 3229 Casitas Ave
   city: Los Angeles
   region: CA
   country: US
   neighborhood: Atwater Village
-  lat: 34.1180
-  lon: -118.2660
+  lat: 34.118
+  lon: -118.266
 type: bar_club
 operating_model: commercial
 capacity: null
@@ -19,9 +19,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Long a beloved hub of LA's jazz and improvised-music scene (2009-2020 in
-      Little Tokyo); reopened in Atwater Village in November 2024 with dedicated listening
-      rooms for jazz.
+    evidence: Long a beloved hub of LA's jazz and improvised-music scene (2009-2020 in Little
+      Tokyo); reopened in Atwater Village in November 2024 with dedicated listening rooms
+      for jazz.
     sources:
     - https://www.theeastsiderla.com/neighborhoods/atwater_village/the-blue-whale-jazz-club-plans-to-resurface-in-atwater-village/article_cd9d5d1c-e720-11ee-9e04-bf2d15772f47.html
     - https://en.wikipedia.org/wiki/Blue_Whale_Jazz_Club
@@ -32,14 +32,14 @@ signals:
     - https://www.bluewhalemusic.com/
   artist_roster:
     value: 4
-    evidence: Historically featured creative and improvised jazz and helped expand the
-      reach of improvised music to younger audiences.
+    evidence: Historically featured creative and improvised jazz and helped expand the reach
+      of improvised music to younger audiences.
     sources:
     - https://www.wbgo.org/music/2020-12-31/the-blue-whale-beloved-hub-of-the-jazz-scene-in-los-angeles-announces-permanent-closure
   self_description:
     value: 3
-    evidence: Presents dedicated listening rooms for jazz and Western classical music
-      in an all-ages environment.
+    evidence: Presents dedicated listening rooms for jazz and Western classical music in an
+      all-ages environment.
     sources:
     - https://www.theeastsiderla.com/neighborhoods/atwater_village/the-blue-whale-jazz-club-plans-to-resurface-in-atwater-village/article_cd9d5d1c-e720-11ee-9e04-bf2d15772f47.html
   operating_model:
@@ -49,8 +49,8 @@ signals:
     - https://en.wikipedia.org/wiki/Blue_Whale_Jazz_Club
   community_reputation:
     value: 4
-    evidence: Described as a beloved hub of the LA jazz scene whose closure "punched a
-      hole in the jazz infrastructure of Los Angeles."
+    evidence: Described as a beloved hub of the LA jazz scene whose closure "punched a hole
+      in the jazz infrastructure of Los Angeles."
     sources:
     - https://www.wbgo.org/music/2020-12-31/the-blue-whale-beloved-hub-of-the-jazz-scene-in-los-angeles-announces-permanent-closure
   listening_room:
@@ -70,6 +70,13 @@ provenance:
   - https://en.wikipedia.org/wiki/Blue_Whale_Jazz_Club
   - https://www.wbgo.org/music/2020-12-31/the-blue-whale-beloved-hub-of-the-jazz-scene-in-los-angeles-announces-permanent-closure
   needs_human_review: true
-notes: 'NEEDS REVIEW: historic LA jazz/improv hub, closed 2020 in Little Tokyo, reopened
-  in Atwater Village Nov 2024; confirm current cadence and how much creative/improvised
-  jazz the new room books.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 38a7d50618348146
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: historic LA jazz/improv hub, closed 2020 in Little Tokyo, reopened in
+  Atwater Village Nov 2024; confirm current cadence and how much creative/improvised jazz
+  the new room books.'

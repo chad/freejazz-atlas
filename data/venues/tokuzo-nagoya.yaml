@@ -70,5 +70,12 @@ provenance:
   - https://injapan.gaijinpot.com/play/travel/2010/08/12/nagoya-live-houses/
   - https://www.allaboutjazz.com/sanrei-satoko-fujii-bakamo-records-review-by-eyal-hareuveni
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ca79de09b0f4f9b1
+  crawl_http_status: 200
 notes: Nagoya live house in Imaike; broad program that regularly includes free/avant jazz
   (Sakata, Moriyama, Satoko Fujii).

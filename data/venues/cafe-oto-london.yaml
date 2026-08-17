@@ -20,9 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Opened 2008 as a platform for experimental and improvised music; hosts
-      concerts most nights, its calendar reading like a who's who of the avant-garde
-      (from AMM onward).
+    evidence: Opened 2008 as a platform for experimental and improvised music; hosts concerts
+      most nights, its calendar reading like a who's who of the avant-garde (from AMM onward).
     sources:
     - https://en.wikipedia.org/wiki/Cafe_Oto
     - https://www.cafeoto.co.uk/
@@ -33,27 +32,25 @@ signals:
     - https://en.wikipedia.org/wiki/Cafe_Oto
   artist_roster:
     value: 5
-    evidence: Programs international free-improv, free-jazz, noise and experimental
-      artists.
+    evidence: Programs international free-improv, free-jazz, noise and experimental artists.
     sources:
     - https://en.wikipedia.org/wiki/Cafe_Oto
   self_description:
     value: 5
-    evidence: Devoted to creative new music that falls outside the mainstream; warehouse
-      space with no stage, chairs in a horseshoe around performers.
+    evidence: Devoted to creative new music that falls outside the mainstream; warehouse space
+      with no stage, chairs in a horseshoe around performers.
     sources:
     - https://en.wikipedia.org/wiki/Cafe_Oto
     - https://www.timeout.com/london/things-to-do/cafe-oto
   operating_model:
     value: 3
-    evidence: Independent commercial venue with a strong experimental mission (not
-      artist-run/nonprofit).
+    evidence: Independent commercial venue with a strong experimental mission (not artist-run/nonprofit).
     sources:
     - https://en.wikipedia.org/wiki/Cafe_Oto
   community_reputation:
     value: 5
-    evidence: Internationally recognized cornerstone of experimental music; called
-      the coolest venue in London by Vogue Italia (2012).
+    evidence: Internationally recognized cornerstone of experimental music; called the coolest
+      venue in London by Vogue Italia (2012).
     sources:
     - https://en.wikipedia.org/wiki/Cafe_Oto
     - https://www.timeout.com/london/music/you-always-know-youll-get-something-interesting-an-oral-history-of-cafe-oto
@@ -73,5 +70,11 @@ provenance:
   - https://www.cafeoto.co.uk/
   - https://en.wikipedia.org/wiki/Cafe_Oto
   needs_human_review: false
-notes: 'Flagship UK experimental/improv venue in Dalston. ANCHOR: calibrated as a
-  high cornerstone.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ceac1250ad485f4e
+  crawl_http_status: 200
+notes: 'Flagship UK experimental/improv venue in Dalston. ANCHOR: calibrated as a high cornerstone.'

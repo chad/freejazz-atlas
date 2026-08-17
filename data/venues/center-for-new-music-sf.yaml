@@ -4,7 +4,7 @@ aliases:
 - C4NM
 status: active
 location:
-  address: "55 Taylor St"
+  address: 55 Taylor St
   city: San Francisco
   region: CA
   country: US
@@ -20,8 +20,8 @@ signals:
   dedicated_series:
     value: 4
     evidence: Community center founded to nurture experimental and pioneering music; hosts
-      a wide range of experimental, improvised, electronic and contemporary programming
-      plus multiple curated series.
+      a wide range of experimental, improvised, electronic and contemporary programming plus
+      multiple curated series.
     sources:
     - https://centerfornewmusic.com/
     - https://www.bayimproviser.com/venue/139/center-for-new-music
@@ -39,8 +39,8 @@ signals:
     - https://centerfornewmusic.com/
   self_description:
     value: 5
-    evidence: Founded on the principle of nurturing experimental and pioneering music
-      that pushes the boundaries of sonic art.
+    evidence: Founded on the principle of nurturing experimental and pioneering music that
+      pushes the boundaries of sonic art.
     sources:
     - https://centerfornewmusic.com/
   operating_model:
@@ -72,5 +72,12 @@ provenance:
   - https://www.bayimproviser.com/venue/139/center-for-new-music
   - https://www.sfcv.org/venues/center-new-music
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 9d1b9c52efd1697c
+  crawl_http_status: 200
 notes: Downtown SF nonprofit new-music center; balances curated experimental/improv concerts
   with rehearsal and community use.

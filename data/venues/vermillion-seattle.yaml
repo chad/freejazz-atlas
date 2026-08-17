@@ -68,5 +68,12 @@ provenance:
   - https://seattlejazzscene.com/2021/10/seattle-jazz-fellowship-one-small-step-at-vermillion-one-giant-step-for-the-seattle-jazz-scene/
   - https://independentvenueweek.com/us/venues-us/vermillion/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 72410b8e9030d391
+  crawl_http_status: 200
 notes: Capitol Hill gallery/bar, established 2008. Formerly the weekly home of the Seattle
   Jazz Fellowship; still hosts improvised/avant music a few times a month.

@@ -17,14 +17,14 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Scotland's longest-running festival of experimental and marginal music,
-      dedicated to challenging and thought-provoking work.
+    evidence: Scotland's longest-running festival of experimental and marginal music, dedicated
+      to challenging and thought-provoking work.
     sources:
     - https://counterflows.com/about/
   show_frequency:
     value: 1
-    evidence: Annual four-day festival across multiple Glasgow venues (Civic House,
-      The Art School, University Chapel).
+    evidence: Annual four-day festival across multiple Glasgow venues (Civic House, The Art
+      School, University Chapel).
     sources:
     - https://counterflows.com/
     - https://ra.co/news/84278
@@ -46,8 +46,8 @@ signals:
     - https://counterflows.com/about/
   community_reputation:
     value: 5
-    evidence: Internationally acclaimed; reviewed annually by The Skinny and covered
-      by Resident Advisor.
+    evidence: Internationally acclaimed; reviewed annually by The Skinny and covered by Resident
+      Advisor.
     sources:
     - https://www.theskinny.co.uk/music/live-music/reviews/counterflows-2026-the-report
   listening_room:
@@ -66,5 +66,13 @@ provenance:
   - https://counterflows.com/about/
   - https://ra.co/news/84278
   needs_human_review: true
-notes: 'NEEDS REVIEW: annual festival, not a fixed venue; coordinates are Glasgow
-  city-centre. Uses multiple venues each spring.'
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 403
+    detail: HTTP 403
+  last_crawled: '2026-08-17'
+  last_content_hash: 34dfef0084d975d4
+  crawl_http_status: 403
+notes: 'NEEDS REVIEW: annual festival, not a fixed venue; coordinates are Glasgow city-centre.
+  Uses multiple venues each spring.'

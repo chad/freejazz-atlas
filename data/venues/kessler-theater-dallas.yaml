@@ -4,7 +4,7 @@ aliases:
 - The Kessler
 status: active
 location:
-  address: "1230 W Davis St"
+  address: 1230 W Davis St
   city: Dallas
   region: TX
   country: US
@@ -19,38 +19,43 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 1
-    evidence: "A restored 1942 theater booking a wide range of touring and local acts; adventurous/creative music appears occasionally but there is no dedicated free/improv series."
+    evidence: A restored 1942 theater booking a wide range of touring and local acts; adventurous/creative
+      music appears occasionally but there is no dedicated free/improv series.
     sources:
     - https://thekessler.org/
     - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
   show_frequency:
     value: 2
-    evidence: "Frequent concerts across many genres, of which improv/avant programming is a small share."
+    evidence: Frequent concerts across many genres, of which improv/avant programming is a
+      small share.
     sources:
     - https://thekessler.org/calendar/
   artist_roster:
     value: 2
-    evidence: "Books music stars and up-and-coming locals broadly; a minority of bookings are creative/experimental."
+    evidence: Books music stars and up-and-coming locals broadly; a minority of bookings are
+      creative/experimental.
     sources:
     - https://thekessler.org/press/
   self_description:
     value: 2
-    evidence: "Positions itself as an intimate listening-focused concert destination, not an experimental space."
+    evidence: Positions itself as an intimate listening-focused concert destination, not an
+      experimental space.
     sources:
     - https://thekessler.org/
   operating_model:
     value: 2
-    evidence: "Commercially owned/operated concert theater."
+    evidence: Commercially owned/operated concert theater.
     sources:
     - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
   community_reputation:
     value: 3
-    evidence: "Widely called the best listening room in Dallas-Fort Worth since the demise of Caravan of Dreams."
+    evidence: Widely called the best listening room in Dallas-Fort Worth since the demise
+      of Caravan of Dreams.
     sources:
     - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
   listening_room:
     value: 5
-    evidence: "Designed as an intimate, acoustically strong seated listening room."
+    evidence: Designed as an intimate, acoustically strong seated listening room.
     sources:
     - https://thekessler.org/
 score: 40
@@ -64,4 +69,12 @@ provenance:
   - https://thekessler.org/
   - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
   needs_human_review: false
-notes: "Oak Cliff's premier listening room; a broad-genre concert theater that hosts adventurous music occasionally rather than as a mission."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 40ed84a00e11a5d5
+  crawl_http_status: 403
+notes: Oak Cliff's premier listening room; a broad-genre concert theater that hosts adventurous
+  music occasionally rather than as a mission.

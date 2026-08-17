@@ -3,7 +3,7 @@ name: Southern Exposure New Music Series
 aliases: []
 status: active
 location:
-  address: "University of South Carolina School of Music, 813 Assembly St"
+  address: University of South Carolina School of Music, 813 Assembly St
   city: Columbia
   region: SC
   country: US
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: A named, ongoing new-music concert series at USC's School of Music dedicated to
-      contemporary and experimental composition and performance.
+    evidence: A named, ongoing new-music concert series at USC's School of Music dedicated
+      to contemporary and experimental composition and performance.
     sources:
     - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
     - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
@@ -30,8 +30,8 @@ signals:
     - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
   artist_roster:
     value: 2
-    evidence: Chiefly contemporary-classical/new-music composers and ensembles; improvisers appear
-      but improvisation is secondary to notated new music.
+    evidence: Chiefly contemporary-classical/new-music composers and ensembles; improvisers
+      appear but improvisation is secondary to notated new music.
     sources:
     - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
   self_description:
@@ -67,5 +67,12 @@ provenance:
   - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
   - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
   needs_human_review: false
-notes: 'University new-music series in Columbia SC. Strong on contemporary/experimental composition;
-  free improvisation is present but not the primary focus (which caps the roster signal).'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: b31664d676e3b904
+  crawl_http_status: 200
+notes: University new-music series in Columbia SC. Strong on contemporary/experimental composition;
+  free improvisation is present but not the primary focus (which caps the roster signal).

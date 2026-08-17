@@ -67,5 +67,12 @@ provenance:
   - https://www.sevendaysvt.com/music/eye-on-the-scene/eye-on-the-scene-experimental-music-at-burlingtons/
   - https://www.causeiq.com/organizations/community-of-sound-corporation,834026332/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: f9af9276aa7823e1
+  crawl_http_status: 200
 notes: Burlington nonprofit incubator centered on free improvisation and sound art; coordinates
   approximate to 1 Main St.

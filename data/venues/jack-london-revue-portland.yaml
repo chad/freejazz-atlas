@@ -3,7 +3,7 @@ name: Jack London Revue
 aliases: []
 status: active
 location:
-  address: "529 SW 4th Ave"
+  address: 529 SW 4th Ave
   city: Portland
   region: OR
   country: US
@@ -29,8 +29,8 @@ signals:
     - https://www.jacklondonrevue.com/
   artist_roster:
     value: 2
-    evidence: Mix of local and touring jazz/soul/funk acts; some improvisers, not
-      an avant focus.
+    evidence: Mix of local and touring jazz/soul/funk acts; some improvisers, not an avant
+      focus.
     sources:
     - https://dev.jazzoregon.org/venue/jack-london-revue/
   self_description:
@@ -41,20 +41,19 @@ signals:
     - https://en.wikipedia.org/wiki/Jack_London_Revue
   operating_model:
     value: 2
-    evidence: Commercial club (beneath the Rialto Poolroom), opened 2017 after Jimmy
-      Mak's closed.
+    evidence: Commercial club (beneath the Rialto Poolroom), opened 2017 after Jimmy Mak's
+      closed.
     sources:
     - https://en.wikipedia.org/wiki/Jack_London_Revue
   community_reputation:
     value: 3
-    evidence: A well-known downtown jazz room, successor to the city's Jimmy Mak's
-      legacy.
+    evidence: A well-known downtown jazz room, successor to the city's Jimmy Mak's legacy.
     sources:
     - https://en.wikipedia.org/wiki/Jack_London_Revue
   listening_room:
     value: 3
-    evidence: Intimate 220-seat basement club with tight seating; music-focused but
-      a bar/club atmosphere.
+    evidence: Intimate 220-seat basement club with tight seating; music-focused but a bar/club
+      atmosphere.
     sources:
     - https://en.wikipedia.org/wiki/Jack_London_Revue
 score: 35
@@ -68,5 +67,12 @@ provenance:
   - https://www.jacklondonrevue.com/
   - https://en.wikipedia.org/wiki/Jack_London_Revue
   needs_human_review: false
-notes: Downtown Portland jazz club; mostly straight-ahead/jazz-soul-funk with occasional
-  adventurous bookings. Included as an honest occasional-tier venue.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: c9a7121198745934
+  crawl_http_status: 200
+notes: Downtown Portland jazz club; mostly straight-ahead/jazz-soul-funk with occasional adventurous
+  bookings. Included as an honest occasional-tier venue.

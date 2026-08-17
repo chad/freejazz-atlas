@@ -2,11 +2,11 @@ id: amr-geneva
 name: AMR - Sud des Alpes
 aliases:
 - AMR
-- "Association pour l'encouragement de la musique improvisée"
+- Association pour l'encouragement de la musique improvisée
 - Sud des Alpes
 status: active
 location:
-  address: "Rue des Alpes 10"
+  address: Rue des Alpes 10
   city: Geneva
   region: Geneva
   country: CH
@@ -21,25 +21,25 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: "Association founded 1973 to encourage jazz and improvised music; runs\
-      \ its Sud des Alpes center with a club, festivals, concerts and jam sessions."
+    evidence: Association founded 1973 to encourage jazz and improvised music; runs its Sud
+      des Alpes center with a club, festivals, concerts and jam sessions.
     sources:
     - https://www.amr-geneve.ch/lamr-en-bref
     - https://fr.wikipedia.org/wiki/AMR_(association)
   show_frequency:
     value: 5
-    evidence: "Over 200 public musical evenings annually plus two festivals."
+    evidence: Over 200 public musical evenings annually plus two festivals.
     sources:
     - https://www.amr-geneve.ch/lamr-en-bref
   artist_roster:
     value: 4
-    evidence: "Jazz and improvised music from local to international; workshops and\
-      \ courses feed the scene."
+    evidence: Jazz and improvised music from local to international; workshops and courses
+      feed the scene.
     sources:
     - https://www.amr-geneve.ch/lamr-en-bref
   self_description:
     value: 5
-    evidence: "Name and mission: Association pour l'encouragement de la musique improvisée."
+    evidence: 'Name and mission: Association pour l''encouragement de la musique improvisée.'
     sources:
     - https://fr.wikipedia.org/wiki/AMR_(association)
   operating_model:
@@ -49,8 +49,8 @@ signals:
     - https://www.amr-geneve.ch/un-peu-dhistoire
   community_reputation:
     value: 4
-    evidence: "Described as unique in the Swiss and international landscape for combining\
-      \ club, rehearsal rooms and improvisation classes under one roof."
+    evidence: Described as unique in the Swiss and international landscape for combining club,
+      rehearsal rooms and improvisation classes under one roof.
     sources:
     - https://www.schweizerkulturpreise.ch/en/amr-geneve-4
   listening_room:
@@ -69,4 +69,12 @@ provenance:
   - https://www.amr-geneve.ch/
   - https://www.amr-geneve.ch/lamr-en-bref
   needs_human_review: false
-notes: "Geneva's musician-run association for jazz and improvised music since 1973, running the Sud des Alpes club (200+ evenings/year)."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 5d0678749837f6f2
+  crawl_http_status: 200
+notes: Geneva's musician-run association for jazz and improvised music since 1973, running
+  the Sud des Alpes club (200+ evenings/year).

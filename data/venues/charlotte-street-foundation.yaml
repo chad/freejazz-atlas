@@ -3,7 +3,7 @@ name: Charlotte Street Foundation
 aliases: []
 status: active
 location:
-  address: "3333 Wyoming St"
+  address: 3333 Wyoming St
   city: Kansas City
   region: MO
   country: US
@@ -18,33 +18,36 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: "Hosts EMAS Presents, an experimental and improvised music series (curated by Seth Andrew Davis and Evan Verploegh) extending the Extemporaneous Music & Arts Society to grow Kansas City's improvised-music community."
+    evidence: Hosts EMAS Presents, an experimental and improvised music series (curated by
+      Seth Andrew Davis and Evan Verploegh) extending the Extemporaneous Music & Arts Society
+      to grow Kansas City's improvised-music community.
     sources:
     - https://charlottestreet.org/emas-presents/
     - https://www.kcur.org/arts-life/2024-04-12/in-kansas-city-musicians-are-building-an-experimental-scene-that-is-underground-by-design
   show_frequency:
     value: 3
-    evidence: "Recurring EMAS Presents dates (e.g., monthly events) on the campus calendar."
+    evidence: Recurring EMAS Presents dates (e.g., monthly events) on the campus calendar.
     sources:
     - https://charlottestreet.org/event/emas-presents-october-2026/
   artist_roster:
     value: 4
-    evidence: "EMAS presents local, national and international improvised-music practitioners."
+    evidence: EMAS presents local, national and international improvised-music practitioners.
     sources:
     - https://charlottestreet.org/emas-presents/
   self_description:
     value: 4
-    evidence: "Artist-support foundation whose EMAS series is explicitly experimental/improvised."
+    evidence: Artist-support foundation whose EMAS series is explicitly experimental/improvised.
     sources:
     - https://charlottestreet.org/emas-presents/
   operating_model:
     value: 5
-    evidence: "Nonprofit arts foundation (est. 1997) with studios and performance venues."
+    evidence: Nonprofit arts foundation (est. 1997) with studios and performance venues.
     sources:
     - https://charlottestreet.org/
   community_reputation:
     value: 3
-    evidence: "Cited by KCUR as key infrastructure for Kansas City's otherwise underground experimental scene."
+    evidence: Cited by KCUR as key infrastructure for Kansas City's otherwise underground
+      experimental scene.
     sources:
     - https://www.kcur.org/arts-life/2024-04-12/in-kansas-city-musicians-are-building-an-experimental-scene-that-is-underground-by-design
   listening_room:
@@ -62,4 +65,12 @@ provenance:
   - https://charlottestreet.org/emas-presents/
   - https://www.kcur.org/arts-life/2024-04-12/in-kansas-city-musicians-are-building-an-experimental-scene-that-is-underground-by-design
   needs_human_review: false
-notes: "Kansas City nonprofit; its EMAS Presents series is the anchor for the city's improvised/experimental music community."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 0c8e109050fcab99
+  crawl_http_status: 200
+notes: Kansas City nonprofit; its EMAS Presents series is the anchor for the city's improvised/experimental
+  music community.

@@ -4,7 +4,7 @@ aliases:
 - Roy and Edna Disney/CalArts Theater
 status: active
 location:
-  address: "631 W 2nd St"
+  address: 631 W 2nd St
   city: Los Angeles
   region: CA
   country: US
@@ -26,8 +26,8 @@ signals:
     - https://en.wikipedia.org/wiki/REDCAT
   show_frequency:
     value: 2
-    evidence: Frequent programming overall, but experimental/new music is a subset of
-      the multidisciplinary calendar.
+    evidence: Frequent programming overall, but experimental/new music is a subset of the
+      multidisciplinary calendar.
     sources:
     - https://www.redcat.org/events
   artist_roster:
@@ -38,8 +38,8 @@ signals:
     - https://www.redcat.org/about
   self_description:
     value: 5
-    evidence: Supports experimentation, innovation and discovery across art, music and
-      performance since 2003.
+    evidence: Supports experimentation, innovation and discovery across art, music and performance
+      since 2003.
     sources:
     - https://www.redcat.org/about
   operating_model:
@@ -69,5 +69,12 @@ provenance:
   - https://en.wikipedia.org/wiki/REDCAT
   - https://calarts.edu/redcat
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: d098afab03043f37
+  crawl_http_status: 200
 notes: CalArts' downtown avant-garde arts center; presents experimental/new music as part
   of a broad multidisciplinary program.

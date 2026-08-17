@@ -3,7 +3,7 @@ name: Rothko Chapel
 aliases: []
 status: active
 location:
-  address: "3900 Yupon St"
+  address: 3900 Yupon St
   city: Houston
   region: TX
   country: US
@@ -18,38 +18,42 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "Hosts Nameless Sound's site-specific Sound Observations events and its own Music for Rothko programming pairing cutting-edge musicians with the chapel's environment."
+    evidence: Hosts Nameless Sound's site-specific Sound Observations events and its own Music
+      for Rothko programming pairing cutting-edge musicians with the chapel's environment.
     sources:
     - https://www.namelesssound.org/programs/concerts
     - https://rothkochapel.org/experience/events/event/music-for-rothko/
   show_frequency:
     value: 2
-    evidence: "Music events are occasional and curated rather than a continuous series."
+    evidence: Music events are occasional and curated rather than a continuous series.
     sources:
     - https://www.rothkochapel.org/experience/events/
   artist_roster:
     value: 4
-    evidence: "Programs cutting-edge and avant-garde performers (e.g. Feldman/Satie/Cage programs, Nameless Sound improvisers)."
+    evidence: Programs cutting-edge and avant-garde performers (e.g. Feldman/Satie/Cage programs,
+      Nameless Sound improvisers).
     sources:
     - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   self_description:
     value: 2
-    evidence: "A sacred meditative art space; new/experimental music is one curated dimension of its events."
+    evidence: A sacred meditative art space; new/experimental music is one curated dimension
+      of its events.
     sources:
     - https://rothkochapel.org/
   operating_model:
     value: 4
-    evidence: "Nonprofit chapel and art institution."
+    evidence: Nonprofit chapel and art institution.
     sources:
     - https://rothkochapel.org/
   community_reputation:
     value: 4
-    evidence: "Internationally renowned art environment repeatedly cited in Houston experimental-music surveys."
+    evidence: Internationally renowned art environment repeatedly cited in Houston experimental-music
+      surveys.
     sources:
     - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   listening_room:
     value: 5
-    evidence: "Contemplative, silent sanctuary - an exceptional attentive-listening environment."
+    evidence: Contemplative, silent sanctuary - an exceptional attentive-listening environment.
     sources:
     - https://rothkochapel.org/
 score: 63
@@ -63,4 +67,12 @@ provenance:
   - https://rothkochapel.org/
   - https://www.namelesssound.org/programs/concerts
   needs_human_review: false
-notes: "Montrose meditative art chapel; a recurring site for Nameless Sound's site-specific experimental/improvised programming."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8fc5c089698ead41
+  crawl_http_status: 200
+notes: Montrose meditative art chapel; a recurring site for Nameless Sound's site-specific
+  experimental/improvised programming.

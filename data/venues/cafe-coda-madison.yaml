@@ -3,7 +3,7 @@ name: Cafe CODA
 aliases: []
 status: active
 location:
-  address: "1224 Williamson St"
+  address: 1224 Williamson St
   city: Madison
   region: WI
   country: US
@@ -18,38 +18,42 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "Intimate jazz club owned/operated by AACM-affiliated multi-instrumentalist Hanah Jon Taylor (artistic director of Kuumba Renaissance); programs jazz and improvisation and runs a free 'Cool School' improv workshop for youth."
+    evidence: Intimate jazz club owned/operated by AACM-affiliated multi-instrumentalist Hanah
+      Jon Taylor (artistic director of Kuumba Renaissance); programs jazz and improvisation
+      and runs a free 'Cool School' improv workshop for youth.
     sources:
     - https://www.cafecoda.club/about
     - https://madison365.com/hanah-john-taylor-brings-jazz-back-downtown-new-cafe-coda/
   show_frequency:
     value: 4
-    evidence: "Frequent live-jazz programming; hosts a multi-day CodaFest anniversary festival."
+    evidence: Frequent live-jazz programming; hosts a multi-day CodaFest anniversary festival.
     sources:
     - https://isthmus.com/arts/music/madison-cafe-coda-celebrates-five-years-codafest/
   artist_roster:
     value: 3
-    evidence: "Books jazz and creative-music artists; owner's practice is rooted in five decades of improvisation."
+    evidence: Books jazz and creative-music artists; owner's practice is rooted in five decades
+      of improvisation.
     sources:
     - https://www.channel3000.com/madison-magazine/arts-and-culture/hanah-jon-taylor-is-a-champion-for-madison-jazz/article_9747522e-e7de-5c0a-a477-b448135b6e2a.html
   self_description:
     value: 3
-    evidence: "Madison's premier jazz venue, designed to be intimate enough to 'feel the steam coming off the horns.'"
+    evidence: Madison's premier jazz venue, designed to be intimate enough to 'feel the steam
+      coming off the horns.'
     sources:
     - https://www.cafecoda.club/about
   operating_model:
     value: 3
-    evidence: "Owner-operated commercial club with a strong artistic mission."
+    evidence: Owner-operated commercial club with a strong artistic mission.
     sources:
     - https://www.cafecoda.club/about
   community_reputation:
     value: 3
-    evidence: "Credited with bringing jazz back to downtown Madison."
+    evidence: Credited with bringing jazz back to downtown Madison.
     sources:
     - https://madison365.com/hanah-john-taylor-brings-jazz-back-downtown-new-cafe-coda/
   listening_room:
     value: 4
-    evidence: "99-capacity intimate listening club."
+    evidence: 99-capacity intimate listening club.
     sources:
     - https://www.cafecoda.club/about
 score: 65
@@ -63,4 +67,12 @@ provenance:
   - https://www.cafecoda.club/about
   - https://madison365.com/hanah-john-taylor-brings-jazz-back-downtown-new-cafe-coda/
   needs_human_review: false
-notes: "Owner Hanah Jon Taylor's AACM roots give the club a creative-music lean; programming spans straight-ahead and improvised jazz."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 33f5d2b6955db2ed
+  crawl_http_status: 200
+notes: Owner Hanah Jon Taylor's AACM roots give the club a creative-music lean; programming
+  spans straight-ahead and improvised jazz.

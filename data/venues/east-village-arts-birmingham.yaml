@@ -5,7 +5,7 @@ aliases:
 - East Village Arts of Birmingham
 status: active
 location:
-  address: "East Lake Theater Building, East Lake"
+  address: East Lake Theater Building, East Lake
   city: Birmingham
   region: AL
   country: US
@@ -34,26 +34,27 @@ signals:
     - https://www.evabham.org/events
   artist_roster:
     value: 3
-    evidence: Sun Ra Festival features current Arkestra members; broader roster mixes jazz and
-      local/traveling artists.
+    evidence: Sun Ra Festival features current Arkestra members; broader roster mixes jazz
+      and local/traveling artists.
     sources:
     - https://www.birmingham365.org/event/sun-ra-returns-home/
   self_description:
     value: 4
-    evidence: "Part of the space is an avant-garde \"haven for jazz culture\" honoring Sun Ra\
-      \ and the Arkestra."
+    evidence: Part of the space is an avant-garde "haven for jazz culture" honoring Sun Ra
+      and the Arkestra.
     sources:
     - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
     - https://www.evabham.org/about
   operating_model:
     value: 5
-    evidence: Membership-based nonprofit co-operative of artists, musicians, and patrons; owns
-      the historic East Lake Theater Building.
+    evidence: Membership-based nonprofit co-operative of artists, musicians, and patrons;
+      owns the historic East Lake Theater Building.
     sources:
     - https://www.evabham.org/about
   community_reputation:
     value: 3
-    evidence: Recognized among Birmingham's notable jazz/arts venues and home of the Sun Ra Festival.
+    evidence: Recognized among Birmingham's notable jazz/arts venues and home of the Sun Ra
+      Festival.
     sources:
     - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
   listening_room:
@@ -73,5 +74,12 @@ provenance:
   - https://www.birmingham365.org/event/sun-ra-returns-home/
   - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
   needs_human_review: false
-notes: 'Birmingham nonprofit arts co-op in the historic East Lake Theater; hosts the annual Sun
-  Ra Festival (Sun Ra was born in Birmingham) and an avant-garde jazz program.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ca1b120e7bd3dcc1
+  crawl_http_status: 200
+notes: Birmingham nonprofit arts co-op in the historic East Lake Theater; hosts the annual
+  Sun Ra Festival (Sun Ra was born in Birmingham) and an avant-garde jazz program.

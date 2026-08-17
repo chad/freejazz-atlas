@@ -3,7 +3,7 @@ name: Real Time & Space
 aliases: []
 status: active
 location:
-  address: "125 10th St"
+  address: 125 10th St
   city: Oakland
   region: CA
   country: US
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Artist-run studios with a public-program venue that hosts experimental
-      and interdisciplinary performances; music is one strand among residencies and talks.
+    evidence: Artist-run studios with a public-program venue that hosts experimental and interdisciplinary
+      performances; music is one strand among residencies and talks.
     sources:
     - https://www.realtimeandspace.org/
     - https://soex.org/alternative-exposure/grant-recipients-projects/real-time-and-space
@@ -31,14 +31,14 @@ signals:
     - https://soex.org/alternative-exposure/grant-recipients-projects/real-time-and-space
   artist_roster:
     value: 3
-    evidence: Local and international experimental artists in residence, some presenting
-      sound/music work.
+    evidence: Local and international experimental artists in residence, some presenting sound/music
+      work.
     sources:
     - https://www.realtimeandspace.org/
   self_description:
     value: 3
-    evidence: Artist-run organization providing studio space and a public platform for
-      experimental practice.
+    evidence: Artist-run organization providing studio space and a public platform for experimental
+      practice.
     sources:
     - https://www.realtimeandspace.org/
   operating_model:
@@ -67,5 +67,12 @@ provenance:
   - https://www.realtimeandspace.org/
   - https://soex.org/alternative-exposure/grant-recipients-projects/real-time-and-space
   needs_human_review: true
-notes: 'NEEDS REVIEW: primarily an artist-studio/residency space with occasional public
-  experimental-music programming; confirm music-event frequency.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 2189ecbdd4441eac
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: primarily an artist-studio/residency space with occasional public experimental-music
+  programming; confirm music-event frequency.'

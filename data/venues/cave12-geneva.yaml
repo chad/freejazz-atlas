@@ -4,13 +4,13 @@ aliases:
 - Cave 12
 status: active
 location:
-  address: "Rue de la Prairie 4"
+  address: Rue de la Prairie 4
   city: Geneva
   region: Geneva
   country: CH
   neighborhood: Jonction
-  lat: 46.2130
-  lon: 6.1350
+  lat: 46.213
+  lon: 6.135
 type: dedicated_space
 operating_model: nonprofit
 capacity: 100
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: "Concert venue dedicated to experimental, alternative and improvised\
-      \ music, established in 1989."
+    evidence: Concert venue dedicated to experimental, alternative and improvised music, established
+      in 1989.
     sources:
     - https://ra.co/clubs/73158
     - http://nichts.klingt.org/1621
@@ -31,13 +31,13 @@ signals:
     - https://www.cave12.org/
   artist_roster:
     value: 5
-    evidence: "Has hosted a diverse international roster including Tony Conrad, Fred\
-      \ Frith and Otomo Yoshihide."
+    evidence: Has hosted a diverse international roster including Tony Conrad, Fred Frith
+      and Otomo Yoshihide.
     sources:
     - https://ra.co/clubs/73158
   self_description:
     value: 5
-    evidence: "Describes itself as dedicated to experimental and innovative music."
+    evidence: Describes itself as dedicated to experimental and innovative music.
     sources:
     - https://ra.co/clubs/73158
   operating_model:
@@ -47,8 +47,7 @@ signals:
     - http://nichts.klingt.org/1621
   community_reputation:
     value: 5
-    evidence: Recognized cornerstone of Geneva's and Switzerland's experimental/improv
-      scene.
+    evidence: Recognized cornerstone of Geneva's and Switzerland's experimental/improv scene.
     sources:
     - http://nichts.klingt.org/1621
   listening_room:
@@ -67,4 +66,11 @@ provenance:
   - https://www.cave12.org/
   - https://ra.co/clubs/73158
   needs_human_review: false
-notes: "Geneva's dedicated venue for experimental and improvised music since 1989."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ec22f4a34a9bd9d1
+  crawl_http_status: 200
+notes: Geneva's dedicated venue for experimental and improvised music since 1989.

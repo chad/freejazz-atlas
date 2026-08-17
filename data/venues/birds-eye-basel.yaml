@@ -4,7 +4,7 @@ aliases:
 - Bird's Eye
 status: active
 location:
-  address: "Kohlenberg 20"
+  address: Kohlenberg 20
   city: Basel
   region: Basel-Stadt
   country: CH
@@ -18,34 +18,34 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "One of Europe's best-known jazz clubs, presenting the full breadth of\
-      \ jazz; free improvisation and immersive/experimental projects feature but the\
-      \ program is broadly jazz."
+    evidence: One of Europe's best-known jazz clubs, presenting the full breadth of jazz;
+      free improvisation and immersive/experimental projects feature but the program is broadly
+      jazz.
     sources:
     - https://www.birdseye.ch/
     - https://www.europejazz.net/venues/birds-eye-jazz-club
   show_frequency:
     value: 3
-    evidence: "Live jazz five evenings a week, of which adventurous/free-improv sets\
-      \ are a recurring portion."
+    evidence: Live jazz five evenings a week, of which adventurous/free-improv sets are a
+      recurring portion.
     sources:
     - https://www.birdseye.ch/
   artist_roster:
     value: 3
-    evidence: "Established and young jazz musicians from around the world; some free-improv\
-      \ and experimental acts."
+    evidence: Established and young jazz musicians from around the world; some free-improv
+      and experimental acts.
     sources:
     - https://www.europejazz.net/venues/birds-eye-jazz-club
   self_description:
     value: 2
-    evidence: "Presents itself as an authentic contemporary jazz club spanning the\
-      \ current breadth of jazz."
+    evidence: Presents itself as an authentic contemporary jazz club spanning the current
+      breadth of jazz.
     sources:
     - https://www.birdseye.ch/
   operating_model:
     value: 3
-    evidence: "Non-commercial club running on a foundation/association model with an\
-      \ artistic mission."
+    evidence: Non-commercial club running on a foundation/association model with an artistic
+      mission.
     sources:
     - https://www.europejazz.net/venues/birds-eye-jazz-club
   community_reputation:
@@ -69,4 +69,12 @@ provenance:
   - https://www.birdseye.ch/
   - https://www.europejazz.net/venues/birds-eye-jazz-club
   needs_human_review: false
-notes: "Acclaimed Basel jazz club with excellent acoustics; free/experimental music is a recurring but secondary strand."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: b98abf27a657be7b
+  crawl_http_status: 200
+notes: Acclaimed Basel jazz club with excellent acoustics; free/experimental music is a recurring
+  but secondary strand.

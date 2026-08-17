@@ -19,21 +19,21 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Opened in 2006 as the first hall in France built specifically for jazz
-      and improvised music, in a rehabilitated former jute-bag factory.
+    evidence: Opened in 2006 as the first hall in France built specifically for jazz and improvised
+      music, in a rehabilitated former jute-bag factory.
     sources:
     - https://www.banlieuesbleues.org/dynamo/la-dynamo/
     - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
   show_frequency:
     value: 3
-    evidence: Annual concert programming and residencies, plus the four-week Banlieues
-      Bleues festival each spring.
+    evidence: Annual concert programming and residencies, plus the four-week Banlieues Bleues
+      festival each spring.
     sources:
     - https://www.banlieuesbleues.org/dynamo/qui-sommes-nous/
   artist_roster:
     value: 4
-    evidence: Hosts Ile-de-France groups in residency and festival artists spanning
-      jazz and related improvised styles, with a broad, pioneering artistic direction.
+    evidence: Hosts Ile-de-France groups in residency and festival artists spanning jazz and
+      related improvised styles, with a broad, pioneering artistic direction.
     sources:
     - https://www.banlieuesbleues.org/dynamo/qui-sommes-nous/
   self_description:
@@ -43,14 +43,13 @@ signals:
     - https://www.banlieuesbleues.org/dynamo/la-dynamo/
   operating_model:
     value: 4
-    evidence: Run by the nonprofit Banlieues Bleues association with public support
-      in Seine-Saint-Denis.
+    evidence: Run by the nonprofit Banlieues Bleues association with public support in Seine-Saint-Denis.
     sources:
     - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
   community_reputation:
     value: 4
-    evidence: A reference tool for jazz creation in the Paris region; member of the
-      Europe Jazz Network.
+    evidence: A reference tool for jazz creation in the Paris region; member of the Europe
+      Jazz Network.
     sources:
     - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
   listening_room:
@@ -69,5 +68,11 @@ provenance:
   - https://www.banlieuesbleues.org/dynamo/la-dynamo/
   - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
   needs_human_review: false
-notes: Purpose-built jazz/improv hall in Pantin, home base of the Banlieues Bleues
-  festival.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 605cb897f914767b
+  crawl_http_status: 200
+notes: Purpose-built jazz/improv hall in Pantin, home base of the Banlieues Bleues festival.

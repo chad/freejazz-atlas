@@ -4,7 +4,7 @@ aliases:
 - Föreningen Fylkingen
 status: active
 location:
-  address: "Münchenbryggeriet, Torkel Knutssonsgatan 2"
+  address: Münchenbryggeriet, Torkel Knutssonsgatan 2
   city: Stockholm
   region: Stockholm
   country: SE
@@ -49,8 +49,8 @@ signals:
     - https://en.wikipedia.org/wiki/Fylkingen
   community_reputation:
     value: 5
-    evidence: Internationally recognized institution of Swedish experimental music; founded EMS
-      electronic music studio.
+    evidence: Internationally recognized institution of Swedish experimental music; founded
+      EMS electronic music studio.
     sources:
     - https://en.wikipedia.org/wiki/Fylkingen
     - https://monoskop.org/Fylkingen
@@ -70,5 +70,12 @@ provenance:
   - https://www.fylkingen.se/en
   - https://monoskop.org/Fylkingen
   needs_human_review: false
-notes: Flagship Swedish experimental/intermedia venue; artist-run since 1933. Coordinates are for
-  Münchenbryggeriet on Södermalm.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 1ed3c443027187b6
+  crawl_http_status: 200
+notes: Flagship Swedish experimental/intermedia venue; artist-run since 1933. Coordinates
+  are for Münchenbryggeriet on Södermalm.

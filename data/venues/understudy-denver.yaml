@@ -68,5 +68,12 @@ provenance:
   - https://www.westword.com/arts/denver-theatre-district-launches-understudy-an-experimental-art-space-9560867
   - https://do303.com/venues/understudy
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e3b0c44298fc1c14
+  crawl_http_status: 403
 notes: Experimental art space in the Colorado Convention Center. Music is one part of a multidisciplinary
   program; frequency/current music focus needs confirmation.

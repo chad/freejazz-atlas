@@ -5,13 +5,13 @@ aliases:
 - Zeitgeist NOLA
 status: active
 location:
-  address: "6621 St Claude Ave"
+  address: 6621 St Claude Ave
   city: Arabi
   region: LA
   country: US
   neighborhood: Arabi (Greater New Orleans)
-  lat: 29.9560
-  lon: -89.9960
+  lat: 29.956
+  lon: -89.996
 type: arts_center
 operating_model: nonprofit
 capacity: null
@@ -20,38 +20,43 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: "Long-running multi-disciplinary arts center (founded 1986) that blends independent film with live music, including experimental and improvised performances, though not as a single named series."
+    evidence: Long-running multi-disciplinary arts center (founded 1986) that blends independent
+      film with live music, including experimental and improvised performances, though not
+      as a single named series.
     sources:
     - https://www.zeitgeistnola.org/
     - https://www.vianolavie.org/2019/07/18/zeitgeist-means-the-spirit-of-the-times-as-reflected-in-art/
   show_frequency:
     value: 2
-    evidence: "Rotating schedule of live music amid film and other programming; music nights are periodic."
+    evidence: Rotating schedule of live music amid film and other programming; music nights
+      are periodic.
     sources:
     - https://www.zeitgeistnola.org/calendar.html
   artist_roster:
     value: 3
-    evidence: "Champions local and touring artists including experimental musicians."
+    evidence: Champions local and touring artists including experimental musicians.
     sources:
     - https://www.neworleans.com/listing/zeitgeist-multi-disciplinary-arts-center/32297/
   self_description:
     value: 3
-    evidence: "Self-describes as a multi-disciplinary arts center blending film, live music, comedy and spoken word."
+    evidence: Self-describes as a multi-disciplinary arts center blending film, live music,
+      comedy and spoken word.
     sources:
     - https://www.zeitgeistnola.org/
   operating_model:
     value: 5
-    evidence: "Long-running independent nonprofit arts center run by Rene Broussard, now in the Arabi Cultural Arts District."
+    evidence: Long-running independent nonprofit arts center run by Rene Broussard, now in
+      the Arabi Cultural Arts District.
     sources:
     - https://www.theadvocate.com/gambit/new_orleans/news/zeitgeist-theatre-lounge-moves-to-arabi-with-opening-week-festivities/article_a803c848-3b9a-11e9-af1d-f7f644afcdcf.html
   community_reputation:
     value: 3
-    evidence: "Decades-old fixture of the New Orleans alternative-arts landscape."
+    evidence: Decades-old fixture of the New Orleans alternative-arts landscape.
     sources:
     - https://www.vianolavie.org/2019/07/18/zeitgeist-means-the-spirit-of-the-times-as-reflected-in-art/
   listening_room:
     value: 3
-    evidence: "Intimate theater/lounge room built for attentive audiences."
+    evidence: Intimate theater/lounge room built for attentive audiences.
     sources:
     - https://www.zeitgeistnola.org/
 score: 55
@@ -65,4 +70,13 @@ provenance:
   - https://www.zeitgeistnola.org/
   - https://www.theadvocate.com/gambit/new_orleans/news/zeitgeist-theatre-lounge-moves-to-arabi-with-opening-week-festivities/article_a803c848-3b9a-11e9-af1d-f7f644afcdcf.html
   needs_human_review: true
-notes: "Veteran New Orleans-area nonprofit arts center (now in Arabi). Primarily an art-house cinema; the share and regularity of experimental/improvised music programming was not fully verified."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ef0437bd3e997b14
+  crawl_http_status: 200
+notes: Veteran New Orleans-area nonprofit arts center (now in Arabi). Primarily an art-house
+  cinema; the share and regularity of experimental/improvised music programming was not fully
+  verified.

@@ -65,5 +65,12 @@ provenance:
   - https://space538.org/
   - https://warholfoundation.org/grants/archive/space-gallery/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4928f9e12b0120da
+  crawl_http_status: 200
 notes: Portland ME nonprofit arts center; experimental sound is one part of a wide adventurous
   program.

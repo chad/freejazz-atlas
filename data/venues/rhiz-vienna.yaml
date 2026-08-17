@@ -4,7 +4,7 @@ aliases:
 - Rhiz Bar Modern
 status: active
 location:
-  address: "Lerchenfelder Gürtel Bogen 37-38"
+  address: Lerchenfelder Gürtel Bogen 37-38
   city: Vienna
   region: Vienna
   country: AT
@@ -19,27 +19,27 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: "Venue and platform for experimental electronic music and projects,\
-      \ in the arches of the former Stadtbahn on Vienna's Gürtel."
+    evidence: Venue and platform for experimental electronic music and projects, in the arches
+      of the former Stadtbahn on Vienna's Gürtel.
     sources:
     - https://rhiz.org/
     - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
   show_frequency:
     value: 4
-    evidence: "Concerts several times weekly, ranging from advanced electronic to\
-      \ experimental rock."
+    evidence: Concerts several times weekly, ranging from advanced electronic to experimental
+      rock.
     sources:
     - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
   artist_roster:
     value: 4
-    evidence: "Historic hub of Vienna's electronic/laptop avant-garde (Fennesz, Radian,\
-      \ Pita) with ongoing experimental bookings."
+    evidence: Historic hub of Vienna's electronic/laptop avant-garde (Fennesz, Radian, Pita)
+      with ongoing experimental bookings.
     sources:
     - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
   self_description:
     value: 4
-    evidence: "Describes itself as an institution of Vienna's music scene and a platform\
-      \ for experiments with electronic music."
+    evidence: Describes itself as an institution of Vienna's music scene and a platform for
+      experiments with electronic music.
     sources:
     - https://rhiz.org/
   operating_model:
@@ -68,4 +68,13 @@ provenance:
   - https://rhiz.org/
   - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
   needs_human_review: false
-notes: "Gürtel-arch venue for experimental electronic and avant music; more electronic-leaning than free jazz but a genuine avant-garde platform."
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 403
+    detail: HTTP 403
+  last_crawled: '2026-08-17'
+  last_content_hash: 301dc171e5fa8c5f
+  crawl_http_status: 403
+notes: Gürtel-arch venue for experimental electronic and avant music; more electronic-leaning
+  than free jazz but a genuine avant-garde platform.

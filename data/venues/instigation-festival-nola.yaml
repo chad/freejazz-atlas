@@ -68,5 +68,12 @@ provenance:
   - https://www.instigationfestival.com/
   - https://www.offbeat.com/news/instigation-festival/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 90e7cab1b14a11b2
+  crawl_http_status: 200
 notes: Roaming Chicago-New Orleans improvised-music-and-dance festival (coordinates anchored
   to its Marigny/NOLA base); a dedicated free-improv gathering rather than a fixed venue.

@@ -5,7 +5,7 @@ aliases:
 - SIMM Series
 status: active
 location:
-  address: "116 9th St"
+  address: 116 9th St
   city: San Francisco
   region: CA
   country: US
@@ -50,8 +50,7 @@ signals:
     - https://outsound.org/about/index.html
   community_reputation:
     value: 4
-    evidence: A pillar of the SF Bay Area experimental scene, running since 2001 under
-      Outsound.
+    evidence: A pillar of the SF Bay Area experimental scene, running since 2001 under Outsound.
     sources:
     - https://www.sfcv.org/organizations/outsound-presents-simm-series
   listening_room:
@@ -71,5 +70,12 @@ provenance:
   - https://www.sfcv.org/organizations/outsound-presents-simm-series
   - https://outsound.org/about/index.html
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ddaabd0565d8e419
+  crawl_http_status: 200
 notes: Outsound-run SIMM Series at the SF Musicians Union Hall; one of the anchors of the
   Bay Area experimental/improv scene.

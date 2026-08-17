@@ -68,5 +68,13 @@ provenance:
   - https://www.massrealty.com/articles/cambridge-ma-real-estate-outpost-186-rob-chalfen
   - https://www.yelp.com/biz/outpost-186-cambridge
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://bostix.org/
+  last_crawled: '2026-08-17'
+  last_content_hash: 40ed84a00e11a5d5
+  crawl_http_status: 403
 notes: Long-running artist-run improv room in Inman Square, Cambridge; coordinates approximate
   to the Hampshire St address.

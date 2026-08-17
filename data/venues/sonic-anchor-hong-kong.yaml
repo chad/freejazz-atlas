@@ -5,7 +5,7 @@ aliases:
 - CMHK
 status: active
 location:
-  address: "McAulay Studio, Hong Kong Arts Centre, 2 Harbour Rd, Wan Chai"
+  address: McAulay Studio, Hong Kong Arts Centre, 2 Harbour Rd, Wan Chai
   city: Hong Kong
   region: Hong Kong
   country: HK
@@ -20,22 +20,21 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Recurring concert series launched in 2012 by Contemporary Musiking Hong
-      Kong (founded by Samson Young), dedicated to sound art and experimental/improvised
-      music.
+    evidence: Recurring concert series launched in 2012 by Contemporary Musiking Hong Kong
+      (founded by Samson Young), dedicated to sound art and experimental/improvised music.
     sources:
     - https://cmhk.org/sonic-anchor/
   show_frequency:
     value: 2
-    evidence: A curated series (48 concerts presented by 2025) - several events per
-      year rather than weekly programming.
+    evidence: A curated series (48 concerts presented by 2025) - several events per year rather
+      than weekly programming.
     sources:
     - https://cmhk.org/sonic-anchor/
   artist_roster:
     value: 4
     evidence: Presents improvising and experimental sound artists, local and international
-      (inaugural concert featured Stephan Moore and Scott Smallwood improvising with
-      electric fans).
+      (inaugural concert featured Stephan Moore and Scott Smallwood improvising with electric
+      fans).
     sources:
     - https://cmhk.org/sonic-anchor/
   self_description:
@@ -50,14 +49,13 @@ signals:
     - https://cmhk.org/sonic-anchor/
   community_reputation:
     value: 4
-    evidence: A recognized anchor of Hong Kong's experimental/sound-art scene, cited
-      in scholarship on the city's sonic arts.
+    evidence: A recognized anchor of Hong Kong's experimental/sound-art scene, cited in scholarship
+      on the city's sonic arts.
     sources:
     - https://www.cambridge.org/core/journals/organised-sound/article/abs/charting-the-scenes-of-sonic-arts-in-hong-kong/D8B3FC2416F29AAB9F165DB85912896F
   listening_room:
     value: 4
-    evidence: Presented as seated concerts in a studio theatre at the Hong Kong Arts
-      Centre.
+    evidence: Presented as seated concerts in a studio theatre at the Hong Kong Arts Centre.
     sources:
     - https://cmhk.org/sonic-anchor/
 score: 79
@@ -71,6 +69,12 @@ provenance:
   - https://cmhk.org/sonic-anchor/
   - https://www.cambridge.org/core/journals/organised-sound/article/abs/charting-the-scenes-of-sonic-arts-in-hong-kong/D8B3FC2416F29AAB9F165DB85912896F
   needs_human_review: true
-notes: A concert series/presenter (not a fixed independent venue) based at the Hong
-  Kong Arts Centre; the leading platform for experimental/sound-art music in Hong
-  Kong since 2012.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: cccba9bd2d68a5b3
+  crawl_http_status: 200
+notes: A concert series/presenter (not a fixed independent venue) based at the Hong Kong Arts
+  Centre; the leading platform for experimental/sound-art music in Hong Kong since 2012.

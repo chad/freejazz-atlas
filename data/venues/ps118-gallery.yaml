@@ -3,7 +3,7 @@ name: PS118 Gallery
 aliases: []
 status: active
 location:
-  address: "118 W Parrish St"
+  address: 118 W Parrish St
   city: Durham
   region: NC
   country: US
@@ -64,5 +64,12 @@ provenance:
   - https://www.mallarmemusic.org/venue/ps118-gallery/
   - https://cvnc.org/article.cfm?articleId=10426
   needs_human_review: true
-notes: 'Downtown Durham gallery used as an intimate concert venue by new-music/improv presenters.
-  Frequency and current improv-specific programming not fully verified; needs human review.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: cafd2ba147f138e7
+  crawl_http_status: 200
+notes: Downtown Durham gallery used as an intimate concert venue by new-music/improv presenters.
+  Frequency and current improv-specific programming not fully verified; needs human review.

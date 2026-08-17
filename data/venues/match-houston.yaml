@@ -5,7 +5,7 @@ aliases:
 - Midtown Arts and Theater Center Houston
 status: active
 location:
-  address: "3400 Main St"
+  address: 3400 Main St
   city: Houston
   region: TX
   country: US
@@ -20,38 +20,43 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: "Multi-stage nonprofit arts center that hosts new-music and experimental programming (including Nameless Sound and contemporary ensembles) among a broad performing-arts calendar."
+    evidence: Multi-stage nonprofit arts center that hosts new-music and experimental programming
+      (including Nameless Sound and contemporary ensembles) among a broad performing-arts
+      calendar.
     sources:
     - https://matchouston.org/
     - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   show_frequency:
     value: 2
-    evidence: "Experimental/new-music events occur periodically within a heavily theater- and dance-weighted schedule."
+    evidence: Experimental/new-music events occur periodically within a heavily theater- and
+      dance-weighted schedule.
     sources:
     - https://matchouston.org/calendar
   artist_roster:
     value: 3
-    evidence: "Resident and visiting groups include contemporary/new-music ensembles alongside adventurous programming."
+    evidence: Resident and visiting groups include contemporary/new-music ensembles alongside
+      adventurous programming.
     sources:
     - https://matchouston.org/calendar
   self_description:
     value: 2
-    evidence: "Presents itself as a hub for Houston's performing and visual arts broadly, not specifically experimental music."
+    evidence: Presents itself as a hub for Houston's performing and visual arts broadly, not
+      specifically experimental music.
     sources:
     - https://matchouston.org/
   operating_model:
     value: 4
-    evidence: "Nonprofit, purpose-built multidisciplinary arts center opened 2015."
+    evidence: Nonprofit, purpose-built multidisciplinary arts center opened 2015.
     sources:
     - https://matchouston.org/
   community_reputation:
     value: 3
-    evidence: "Established Midtown arts hub used by the city's new-music and experimental presenters."
+    evidence: Established Midtown arts hub used by the city's new-music and experimental presenters.
     sources:
     - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   listening_room:
     value: 4
-    evidence: "Proper theaters/black-box stages built for attentive audiences."
+    evidence: Proper theaters/black-box stages built for attentive audiences.
     sources:
     - https://matchouston.org/
 score: 52
@@ -65,4 +70,12 @@ provenance:
   - https://matchouston.org/
   - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   needs_human_review: true
-notes: "Nonprofit multidisciplinary arts center; hosts new-music/experimental events as part of a wide program. Frequency of specifically improv/free programming not fully verified."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4f1965f3e5934dd1
+  crawl_http_status: 200
+notes: Nonprofit multidisciplinary arts center; hosts new-music/experimental events as part
+  of a wide program. Frequency of specifically improv/free programming not fully verified.

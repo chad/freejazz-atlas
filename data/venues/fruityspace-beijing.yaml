@@ -4,7 +4,7 @@ aliases:
 - FruitySpace
 status: active
 location:
-  address: "Meishuguan Dongjie, Dongcheng (near National Art Museum of China)"
+  address: Meishuguan Dongjie, Dongcheng (near National Art Museum of China)
   city: Beijing
   region: Beijing
   country: CN
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Basement venue founded 2016 by experimental musician Zhai Ruixin as
-      the home base of Beijing's underground/experimental music scene.
+    evidence: Basement venue founded 2016 by experimental musician Zhai Ruixin as the home
+      base of Beijing's underground/experimental music scene.
     sources:
     - https://radii.co/article/beijing-underground-experimental-music-scene-fruityspace
     - https://link.springer.com/chapter/10.1007/978-981-15-5913-6_15
@@ -32,14 +32,14 @@ signals:
     - http://pangbianr.com/2016_8_28_fruityspace/
   artist_roster:
     value: 4
-    evidence: Chinese and international experimental/improv artists (e.g. Li Jianhong)
-      and touring noise musicians.
+    evidence: Chinese and international experimental/improv artists (e.g. Li Jianhong) and
+      touring noise musicians.
     sources:
     - http://pangbianr.com/2016_8_28_fruityspace/
   self_description:
     value: 5
-    evidence: Explicitly underground and DIY in mission; presents envelope-pushing
-      experimental music.
+    evidence: Explicitly underground and DIY in mission; presents envelope-pushing experimental
+      music.
     sources:
     - https://radii.co/article/beijing-underground-experimental-music-scene-fruityspace
   operating_model:
@@ -49,14 +49,12 @@ signals:
     - https://link.springer.com/chapter/10.1007/978-981-15-5913-6_15
   community_reputation:
     value: 4
-    evidence: Widely described as the center of Beijing's avant-garde/experimental
-      music community.
+    evidence: Widely described as the center of Beijing's avant-garde/experimental music community.
     sources:
     - https://radii.co/article/beijing-underground-experimental-music-scene-fruityspace
   listening_room:
     value: 3
-    evidence: Narrow windowless basement with school desks and chairs facing a small
-      stage.
+    evidence: Narrow windowless basement with school desks and chairs facing a small stage.
     sources:
     - https://radii.co/article/beijing-underground-experimental-music-scene-fruityspace
 score: 83
@@ -71,5 +69,13 @@ provenance:
   - https://link.springer.com/chapter/10.1007/978-981-15-5913-6_15
   - http://pangbianr.com/2016_8_28_fruityspace/
   needs_human_review: false
-notes: DIY experimental basement in central Beijing's hutongs (est. 2016), founded
-  by Zhai Ruixin; home base of the city's underground scene.
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 403
+    detail: HTTP 403
+  last_crawled: '2026-08-17'
+  last_content_hash: cdde006ba45fd00a
+  crawl_http_status: 403
+notes: DIY experimental basement in central Beijing's hutongs (est. 2016), founded by Zhai
+  Ruixin; home base of the city's underground scene.

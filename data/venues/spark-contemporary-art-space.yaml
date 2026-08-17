@@ -65,5 +65,13 @@ provenance:
   - https://cityseeker.com/syracuse-ny/795979-spark-contemporary-art-space
   - https://www.songkick.com/venues/49377-spark-contemporary-art-space
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 400
+    detail: HTTP 400
+  last_crawled: '2026-08-17'
+  last_content_hash: d41f5b4977ee05c6
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: reporting has mentioned possible relocation; confirm current address,
   activity and share of experimental/improv programming.'

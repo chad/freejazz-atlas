@@ -3,7 +3,7 @@ name: Sowieso
 aliases: []
 status: active
 location:
-  address: "Weisestr. 24"
+  address: Weisestr. 24
   city: Berlin
   region: Berlin
   country: DE
@@ -18,15 +18,15 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Since 2008 one of the key venues for Berlin's free jazz, improvised
-      and experimental music scenes; a bar made for experimental music and sonic explorations.
+    evidence: Since 2008 one of the key venues for Berlin's free jazz, improvised and experimental
+      music scenes; a bar made for experimental music and sonic explorations.
     sources:
     - https://www.sowiesoberlin.com/About
     - https://field-notes.berlin/en/resources/scene/sowieso
   show_frequency:
     value: 4
-    evidence: Hosts frequent concerts; doors 20:00, entry by donation; thousands of
-      concerts of adventurous free jazz and improvised music over the years.
+    evidence: Hosts frequent concerts; doors 20:00, entry by donation; thousands of concerts
+      of adventurous free jazz and improvised music over the years.
     sources:
     - https://www.sowiesoberlin.com/Concerts
   artist_roster:
@@ -36,14 +36,13 @@ signals:
     - https://www.sowiesoberlin.com/About
   self_description:
     value: 5
-    evidence: Describes itself as a meeting place made for experimental music and
-      sonic explorations.
+    evidence: Describes itself as a meeting place made for experimental music and sonic explorations.
     sources:
     - https://www.sowiesoberlin.com/About
   operating_model:
     value: 5
-    evidence: Since 2021 run by WieMusik e.V., a small collective of musicians who
-      volunteer to preserve the venue.
+    evidence: Since 2021 run by WieMusik e.V., a small collective of musicians who volunteer
+      to preserve the venue.
     sources:
     - https://www.sowiesoberlin.com/About
   community_reputation:
@@ -68,4 +67,12 @@ provenance:
   - https://www.sowiesoberlin.com/About
   - https://field-notes.berlin/en/resources/scene/sowieso
   needs_human_review: false
-notes: "Neukölln free-jazz/improv institution since 2008, now run by musician collective WieMusik e.V."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 1554df3ef5d146bd
+  crawl_http_status: 200
+notes: Neukölln free-jazz/improv institution since 2008, now run by musician collective WieMusik
+  e.V.

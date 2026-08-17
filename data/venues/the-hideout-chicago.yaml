@@ -5,7 +5,7 @@ aliases:
 - Hideout Chicago
 status: active
 location:
-  address: "1354 W Wabansia Ave"
+  address: 1354 W Wabansia Ave
   city: Chicago
   region: IL
   country: US
@@ -20,32 +20,35 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: "Hosts the Immediate Sound series of experimental/free-jazz on Wednesday nights, associated with Chicago improvisers including Ken Vandermark."
+    evidence: Hosts the Immediate Sound series of experimental/free-jazz on Wednesday nights,
+      associated with Chicago improvisers including Ken Vandermark.
     sources:
     - https://www.hideoutchicago.com/tag/immediate-sound-series/
   show_frequency:
     value: 3
-    evidence: "Weekly Immediate Sound night within a broader indie/roots music calendar."
+    evidence: Weekly Immediate Sound night within a broader indie/roots music calendar.
     sources:
     - https://www.hideoutchicago.com/tag/immediate-sound-series/
   artist_roster:
     value: 4
-    evidence: "Immediate Sound features Chicago free-improv players (Ken Vandermark and collaborators)."
+    evidence: Immediate Sound features Chicago free-improv players (Ken Vandermark and collaborators).
     sources:
     - https://www.hideoutchicago.com/tag/immediate-sound-series/
   self_description:
     value: 3
-    evidence: "Independent iconic Chicago music venue/community space, home to over 25 years of independent music."
+    evidence: Independent iconic Chicago music venue/community space, home to over 25 years
+      of independent music.
     sources:
     - https://www.hideoutchicago.com/history
   operating_model:
     value: 2
-    evidence: "Independently owned commercial bar/music venue."
+    evidence: Independently owned commercial bar/music venue.
     sources:
     - https://en.wikipedia.org/wiki/The_Hideout_Inn
   community_reputation:
     value: 4
-    evidence: "Iconic independent Chicago venue with deep ties to the local creative-music scene."
+    evidence: Iconic independent Chicago venue with deep ties to the local creative-music
+      scene.
     sources:
     - https://en.wikipedia.org/wiki/The_Hideout_Inn
   listening_room:
@@ -63,4 +66,11 @@ provenance:
   - https://www.hideoutchicago.com/tag/immediate-sound-series/
   - https://en.wikipedia.org/wiki/The_Hideout_Inn
   needs_human_review: false
-notes: "Independent bar/venue whose weekly Immediate Sound series anchors its free-jazz programming."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4508f8e530112034
+  crawl_http_status: 200
+notes: Independent bar/venue whose weekly Immediate Sound series anchors its free-jazz programming.

@@ -3,7 +3,7 @@ name: Indexical
 aliases: []
 status: active
 location:
-  address: "1050 River St #119"
+  address: '1050 River St #119'
   city: Santa Cruz
   region: CA
   country: US
@@ -18,9 +18,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: 501(c)(3) formed to create a permanent home for experimental music and
-      art in Santa Cruz; its brick-and-mortar space at the Tannery Arts Center exists
-      to present this music.
+    evidence: 501(c)(3) formed to create a permanent home for experimental music and art in
+      Santa Cruz; its brick-and-mortar space at the Tannery Arts Center exists to present
+      this music.
     sources:
     - https://www.indexical.org/about
     - https://lookout.co/experimental-music-and-avant-garde-art-finds-a-home-at-indexical/story
@@ -32,8 +32,8 @@ signals:
     - https://www.indexical.org/about
   artist_roster:
     value: 5
-    evidence: Artists from across the country and around the world perform experimental
-      and improvised work.
+    evidence: Artists from across the country and around the world perform experimental and
+      improvised work.
     sources:
     - https://www.indexical.org/about
   self_description:
@@ -48,8 +48,8 @@ signals:
     - https://arts.ca.gov/grantee/indexical-2/
   community_reputation:
     value: 4
-    evidence: Covered as the home of Santa Cruz experimental/avant-garde music (Lookout,
-      Good Times); listed on Bay Improviser.
+    evidence: Covered as the home of Santa Cruz experimental/avant-garde music (Lookout, Good
+      Times); listed on Bay Improviser.
     sources:
     - https://lookout.co/experimental-music-and-avant-garde-art-finds-a-home-at-indexical/story
     - https://www.bayimproviser.com/venue/225/indexical
@@ -70,5 +70,12 @@ provenance:
   - https://lookout.co/experimental-music-and-avant-garde-art-finds-a-home-at-indexical/story
   - https://arts.ca.gov/grantee/indexical-2/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e1e802276a191e1c
+  crawl_http_status: 200
 notes: Santa Cruz nonprofit purpose-built as a home for experimental and improvised music;
   ~60 events a year at the Tannery Arts Center.

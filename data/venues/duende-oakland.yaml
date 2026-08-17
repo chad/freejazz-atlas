@@ -3,7 +3,7 @@ name: Duende
 aliases: []
 status: closed
 location:
-  address: "468 19th St"
+  address: 468 19th St
   city: Oakland
   region: CA
   country: US
@@ -18,8 +18,8 @@ active_this_year: false
 signals:
   dedicated_series:
     value: 3
-    evidence: Basque-inspired restaurant and music venue that provided a regular forum
-      for creative and improvised music until it closed at the end of June 2024.
+    evidence: Basque-inspired restaurant and music venue that provided a regular forum for
+      creative and improvised music until it closed at the end of June 2024.
     sources:
     - https://oaklandside.org/2022/01/27/new-concert-series-brings-cutting-edge-jazz-to-west-oakland/
     - https://themonthly.com/upfront1312/
@@ -30,8 +30,8 @@ signals:
     - https://themonthly.com/upfront1312/
   artist_roster:
     value: 4
-    evidence: Regular perch for Bay Area improvisers (Scott Amendola, Todd Sickafoose,
-      Ben Goldberg) and touring artists including Nels Cline and the ICP Orchestra.
+    evidence: Regular perch for Bay Area improvisers (Scott Amendola, Todd Sickafoose, Ben
+      Goldberg) and touring artists including Nels Cline and the ICP Orchestra.
     sources:
     - https://themonthly.com/upfront1312/
     - https://wedgeradio.wordpress.com/2013/04/15/icp-orchestra-in-oakland/
@@ -47,8 +47,8 @@ signals:
     - https://themonthly.com/upfront1312/
   community_reputation:
     value: 3
-    evidence: Regarded as an essential forum for creative improvisers during its decade
-      in Uptown.
+    evidence: Regarded as an essential forum for creative improvisers during its decade in
+      Uptown.
     sources:
     - https://themonthly.com/upfront1312/
   listening_room:
@@ -68,5 +68,11 @@ provenance:
   - https://oaklandside.org/2022/01/27/new-concert-series-brings-cutting-edge-jazz-to-west-oakland/
   - https://www.bayimproviser.com/venue/143/duende
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: skipped
+  last_crawled: '2026-08-17'
+  last_content_hash: 353e1b2f916f291c
+  crawl_http_status: 200
 notes: CLOSED June 2024. Uptown Oakland restaurant that hosted a notable creative/improvised-music
   series and touring improvisers for over a decade.

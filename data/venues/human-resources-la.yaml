@@ -4,13 +4,13 @@ aliases:
 - HRLA
 status: active
 location:
-  address: "410 Cottage Home St"
+  address: 410 Cottage Home St
   city: Los Angeles
   region: CA
   country: US
   neighborhood: Chinatown
   lat: 34.0664
-  lon: -118.2360
+  lon: -118.236
 type: gallery
 operating_model: nonprofit
 capacity: null
@@ -20,15 +20,14 @@ signals:
   dedicated_series:
     value: 3
     evidence: Nonprofit exhibition/performance space supporting interdisciplinary, performative
-      and experimental practice; experimental music is a strong, recurring strand of a
-      broader performance-art program.
+      and experimental practice; experimental music is a strong, recurring strand of a broader
+      performance-art program.
     sources:
     - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
     - https://www.h-r.la/events/
   show_frequency:
     value: 3
-    evidence: Regular events, exhibitions and performances, including experimental-music
-      nights.
+    evidence: Regular events, exhibitions and performances, including experimental-music nights.
     sources:
     - https://www.h-r.la/events/
   artist_roster:
@@ -38,8 +37,8 @@ signals:
     - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
   self_description:
     value: 5
-    evidence: Dedicated to supporting interdisciplinary, performative and experimental
-      art practices.
+    evidence: Dedicated to supporting interdisciplinary, performative and experimental art
+      practices.
     sources:
     - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
   operating_model:
@@ -69,5 +68,12 @@ provenance:
   - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
   - https://www.h-r.la/events/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 2407baed2c1b9b71
+  crawl_http_status: 200
 notes: Chinatown nonprofit for experimental/interdisciplinary art; experimental music and
   performance are a strong recurring part of the program.

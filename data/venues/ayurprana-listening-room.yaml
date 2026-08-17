@@ -3,7 +3,7 @@ name: AyurPrana Listening Room
 aliases: []
 status: active
 location:
-  address: "312 Haywood Rd"
+  address: 312 Haywood Rd
   city: Asheville
   region: NC
   country: US
@@ -19,7 +19,8 @@ signals:
   dedicated_series:
     value: 3
     evidence: Dedicated listening room that programs experimental and improvised artists among
-      a broader adventurous-music calendar; has hosted Catalytic Sound Festival Asheville events.
+      a broader adventurous-music calendar; has hosted Catalytic Sound Festival Asheville
+      events.
     sources:
     - https://ayurpranalisteningroom.com/
     - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
@@ -65,5 +66,13 @@ provenance:
   - https://ayurpranalisteningroom.com/
   - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
   needs_human_review: true
-notes: 'West Asheville listening room that hosts experimental/improvised shows (including Catalytic
-  Sound events). Share of improv within its overall calendar not fully verified; needs human review.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: d11a86ad7b101fde
+  crawl_http_status: 200
+notes: West Asheville listening room that hosts experimental/improvised shows (including Catalytic
+  Sound events). Share of improv within its overall calendar not fully verified; needs human
+  review.

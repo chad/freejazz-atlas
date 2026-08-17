@@ -1,15 +1,23 @@
-"""Generate the browsable directory: directory.json, DIRECTORY.md, and a
-self-contained static index.html. No web framework, no build step, no server
-required — open the HTML file or read the Markdown."""
+"""Generate the browsable directory: directory.json, DIRECTORY.md, and a real
+multi-page static site (see atlas/site.py). No web framework, no build step
+beyond `atlas build`, no server required.
+
+The single-file `index.html` this module used to emit is still available via
+`build_html()` and `atlas build --single-page`, because a self-contained,
+offline-readable artifact is genuinely useful (archive it, email it, open it on
+a plane). It is no longer the website: one URL for 263 venues meant nobody
+searching for "free jazz in Lisbon" could ever find us.
+"""
 
 from __future__ import annotations
 
 import datetime as _dt
 import html
 import json
+import os
 from pathlib import Path
 
-from . import rubric, storage
+from . import rubric, site as site_mod, storage
 from .model import enrich_venue
 
 SITE = storage.ROOT / "site"
@@ -385,18 +393,23 @@ render();
 """
 
 
-def build_all(outdir: Path | None = None) -> dict:
+def build_all(outdir: Path | None = None, *, base_url: str | None = None,
+              single_page: bool = False) -> dict:
+    """Build everything: the multi-page site, directory.json, and DIRECTORY.md."""
     outdir = outdir or SITE
     outdir.mkdir(parents=True, exist_ok=True)
     venues = storage.load_venues()
     musicians = storage.load_musicians()
+    base = (base_url or os.environ.get("ATLAS_BASE_URL")
+            or site_mod.DEFAULT_BASE_URL)
 
     doc = build_json(venues, musicians)
-    (outdir / "directory.json").write_text(json.dumps(doc, indent=2), encoding="utf-8")
-    (outdir / "index.html").write_text(build_html(venues, musicians), encoding="utf-8")
-    (storage.ROOT / "DIRECTORY.md").write_text(build_markdown(venues, musicians), encoding="utf-8")
-    return {
-        "venues": len(venues),
-        "musicians": len(musicians),
-        "outdir": str(outdir),
-    }
+    result = site_mod.build_site(outdir, venues, musicians, base=base,
+                                directory_json=doc)
+    (storage.ROOT / "DIRECTORY.md").write_text(build_markdown(venues, musicians),
+                                               encoding="utf-8")
+    if single_page:
+        (outdir / "all-in-one.html").write_text(build_html(venues, musicians),
+                                                encoding="utf-8")
+        result["single_page"] = str(outdir / "all-in-one.html")
+    return result

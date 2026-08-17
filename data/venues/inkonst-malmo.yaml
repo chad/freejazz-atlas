@@ -3,7 +3,7 @@ name: Inkonst
 aliases: []
 status: active
 location:
-  address: "Bergsgatan 29"
+  address: Bergsgatan 29
   city: Malmö
   region: Skåne
   country: SE
@@ -46,8 +46,8 @@ signals:
     - https://archive.inkonst.com/en/about-inkonst/
   community_reputation:
     value: 4
-    evidence: Recognized Malmö home for experimental and electronic music; Intonal is an
-      internationally programmed festival since 2015.
+    evidence: Recognized Malmö home for experimental and electronic music; Intonal is an internationally
+      programmed festival since 2015.
     sources:
     - https://inkonst.com/en/event/intonal-festival-2/
   listening_room:
@@ -65,5 +65,13 @@ provenance:
   - https://archive.inkonst.com/en/about-inkonst/
   - https://inkonst.com/en/event/intonal-festival-2/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 429
+    detail: HTTP 429
+  last_crawled: '2026-08-17'
+  last_content_hash: 579075ee3ae93aea
+  crawl_http_status: 429
 notes: Independent Malmö arts venue in a former chocolate factory; experimental music including
   jazz, and home of the Intonal festival.

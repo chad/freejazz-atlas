@@ -5,7 +5,8 @@ aliases:
 - Electroacoustic Music In Transition
 status: active
 location:
-  address: "620 31st St N (org base); presents at the Palladium, Dali Museum, St. Petersburg College"
+  address: 620 31st St N (org base); presents at the Palladium, Dali Museum, St. Petersburg
+    College
   city: St. Petersburg
   region: FL
   country: US
@@ -20,8 +21,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Nonprofit series dedicated to presenting adventurous music - new classical, modern
-      jazz, improvisation, electronics, and interdisciplinary sound art - for 22+ years.
+    evidence: Nonprofit series dedicated to presenting adventurous music - new classical,
+      modern jazz, improvisation, electronics, and interdisciplinary sound art - for 22+ years.
     sources:
     - https://emitseries.org/about-us
     - https://davidmanson.net/emit
@@ -33,20 +34,20 @@ signals:
     - https://emitseries.org/events-upcoming-past
   artist_roster:
     value: 4
-    evidence: Programs free jazz, improvisation, and new-music artists (e.g. Dutch vocal
-      improviser Jaap Blonk with local improvisers).
+    evidence: Programs free jazz, improvisation, and new-music artists (e.g. Dutch vocal improviser
+      Jaap Blonk with local improvisers).
     sources:
     - https://davidmanson.net/emit
     - https://emitseries.org/past-events
   self_description:
     value: 5
-    evidence: "\"The EMIT series is dedicated to the presentation of adventurous music.\""
+    evidence: '"The EMIT series is dedicated to the presentation of adventurous music."'
     sources:
     - https://emitseries.org/about-us
   operating_model:
     value: 5
-    evidence: Registered 501(c)(3) nonprofit directed by trombonist/composer David Manson; pays
-      musicians (does not ask them to play for free).
+    evidence: Registered 501(c)(3) nonprofit directed by trombonist/composer David Manson;
+      pays musicians (does not ask them to play for free).
     sources:
     - https://emitseries.org/about-us
   community_reputation:
@@ -72,5 +73,12 @@ provenance:
   - https://davidmanson.net/emit
   - https://emitseries.org/events-upcoming-past
   needs_human_review: false
-notes: 'St. Petersburg nonprofit presenter (director David Manson) of adventurous music including
-  improvisation and free jazz; nomadic across Tampa Bay venues.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 2651e55b88a70c61
+  crawl_http_status: 200
+notes: St. Petersburg nonprofit presenter (director David Manson) of adventurous music including
+  improvisation and free jazz; nomadic across Tampa Bay venues.

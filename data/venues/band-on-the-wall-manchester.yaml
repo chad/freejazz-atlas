@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Programming leans towards world and experimental music; the Copper Bar
-      second stage is built around its experimental content.
+    evidence: Programming leans towards world and experimental music; the Copper Bar second
+      stage is built around its experimental content.
     sources:
     - https://en.wikipedia.org/wiki/Band_on_the_Wall
     - https://bandonthewall.org/
@@ -31,14 +31,14 @@ signals:
     - https://bandonthewall.org/2026/03/manchester-jazz-festival-2026/
   artist_roster:
     value: 3
-    evidence: Books adventurous jazz and boundary-pushing artists alongside world,
-      indie and electronic acts.
+    evidence: Books adventurous jazz and boundary-pushing artists alongside world, indie and
+      electronic acts.
     sources:
     - https://www.timeout.com/manchester/music/band-on-the-wall
   self_description:
     value: 4
-    evidence: Regarded as one of the best jazz venues in the UK, with programming
-      leaning world and experimental.
+    evidence: Regarded as one of the best jazz venues in the UK, with programming leaning
+      world and experimental.
     sources:
     - https://en.wikipedia.org/wiki/Band_on_the_Wall
   operating_model:
@@ -48,14 +48,12 @@ signals:
     - https://en.wikipedia.org/wiki/Band_on_the_Wall
   community_reputation:
     value: 4
-    evidence: Multi-award-winning historic venue with regular acclaim for its jazz
-      support.
+    evidence: Multi-award-winning historic venue with regular acclaim for its jazz support.
     sources:
     - https://en.wikipedia.org/wiki/Band_on_the_Wall
   listening_room:
     value: 4
-    evidence: Dedicated live-music room; the Copper Bar hosts more intimate experimental
-      sets.
+    evidence: Dedicated live-music room; the Copper Bar hosts more intimate experimental sets.
     sources:
     - https://bandonthewall.org/
 score: 67
@@ -69,5 +67,12 @@ provenance:
   - https://bandonthewall.org/
   - https://en.wikipedia.org/wiki/Band_on_the_Wall
   needs_human_review: false
-notes: Charity-run Manchester venue; adventurous/experimental jazz is a real strand
-  within a broad world-music program.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: a37a194fe0da0ba2
+  crawl_http_status: 200
+notes: Charity-run Manchester venue; adventurous/experimental jazz is a real strand within
+  a broad world-music program.

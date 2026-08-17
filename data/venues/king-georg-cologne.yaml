@@ -3,12 +3,12 @@ name: King Georg
 aliases: []
 status: active
 location:
-  address: "Sudermanstr. 2"
+  address: Sudermanstr. 2
   city: Cologne
   region: North Rhine-Westphalia
   country: DE
   neighborhood: Ebertplatz
-  lat: 50.9490
+  lat: 50.949
   lon: 6.9583
 type: bar_club
 operating_model: nonprofit
@@ -18,27 +18,27 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Jazz club and bar with live jazz concerts at least twice weekly, plus
-      DJ sets and cultural events; jazz-focused rather than dedicated to free/improv.
+    evidence: Jazz club and bar with live jazz concerts at least twice weekly, plus DJ sets
+      and cultural events; jazz-focused rather than dedicated to free/improv.
     sources:
     - https://miz.org/en/institutions/king-georg-i36060
     - https://www.jazz-fun.de/jazzclub-king-georg-koeln.html
   show_frequency:
     value: 2
-    evidence: Live jazz twice weekly plus young-talent gigs; adventurous/improvised
-      music is part of but not central to the program.
+    evidence: Live jazz twice weekly plus young-talent gigs; adventurous/improvised music
+      is part of but not central to the program.
     sources:
     - https://miz.org/en/institutions/king-georg-i36060
   artist_roster:
     value: 3
-    evidence: International jazz artists curated by pianist Martin Sasse; program leans
-      toward the wider jazz spectrum.
+    evidence: International jazz artists curated by pianist Martin Sasse; program leans toward
+      the wider jazz spectrum.
     sources:
     - https://magazine.cologne-tourism.com/culture/colognes-king-georg-jazz-club-where-top-international-artists-grace-the-stage/
   self_description:
     value: 2
-    evidence: "Motto 'jazz to touch for connoisseurs and the curious'; blends jazz\
-      \ and club culture."
+    evidence: Motto 'jazz to touch for connoisseurs and the curious'; blends jazz and club
+      culture.
     sources:
     - https://miz.org/en/institutions/king-georg-i36060
   operating_model:
@@ -67,4 +67,12 @@ provenance:
   - https://miz.org/en/institutions/king-georg-i36060
   - https://www.cologne-tourism.com/arts-culture/sights/detail/king-georg
   needs_human_review: false
-notes: "Nonprofit Cologne jazz club/bar with a mostly mainstream jazz program; adventurous music is secondary."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 7398d746da434275
+  crawl_http_status: 200
+notes: Nonprofit Cologne jazz club/bar with a mostly mainstream jazz program; adventurous
+  music is secondary.

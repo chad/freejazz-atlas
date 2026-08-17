@@ -4,7 +4,7 @@ aliases:
 - Adobe Books
 status: active
 location:
-  address: "3130 24th St"
+  address: 3130 24th St
   city: San Francisco
   region: CA
   country: US
@@ -19,27 +19,26 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Hosts a monthly free-improv music night (Improv Nite) on the last Thursday
-      of the month in its backroom gallery.
+    evidence: Hosts a monthly free-improv music night (Improv Nite) on the last Thursday of
+      the month in its backroom gallery.
     sources:
     - http://www.adobebooks.com/events/2024/4/25/improv-nite-
     - http://www.adobebooks.com/about-adobe-books
   show_frequency:
     value: 2
-    evidence: Monthly improv night plus other music/literary events; music is one strand
-      of programming.
+    evidence: Monthly improv night plus other music/literary events; music is one strand of
+      programming.
     sources:
     - http://www.adobebooks.com/events
   artist_roster:
     value: 3
-    evidence: Local improvisers and experimental artists; a longtime alternative-arts
-      backroom.
+    evidence: Local improvisers and experimental artists; a longtime alternative-arts backroom.
     sources:
     - http://www.adobebooks.com/about-adobe-books
   self_description:
     value: 4
-    evidence: Describes the Backroom Gallery as an experimental arts space where artists
-      experiment freely.
+    evidence: Describes the Backroom Gallery as an experimental arts space where artists experiment
+      freely.
     sources:
     - http://www.adobebooks.com/about-adobe-books
   operating_model:
@@ -69,5 +68,12 @@ provenance:
   - http://www.adobebooks.com/about-adobe-books
   - http://www.adobebooks.com/events/2024/4/25/improv-nite-
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ed217bb170bf8f9d
+  crawl_http_status: 200
 notes: Mission bookstore whose Backroom Gallery runs a monthly free-improv night; experimental
   music is secondary to books/visual art.

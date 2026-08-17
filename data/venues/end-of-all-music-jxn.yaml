@@ -4,7 +4,7 @@ aliases:
 - End of All Music Jackson
 status: active
 location:
-  address: "3011 N State St"
+  address: 3011 N State St
   city: Jackson
   region: MS
   country: US
@@ -19,38 +19,41 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 1
-    evidence: "Independent record store (sister to the Oxford original) that regularly hosts live in-store performances, though not a dedicated experimental/improv series."
+    evidence: Independent record store (sister to the Oxford original) that regularly hosts
+      live in-store performances, though not a dedicated experimental/improv series.
     sources:
     - https://www.theendofallmusicjxn.com/
     - https://www.visitjackson.com/directory/the-end-of-all-music-jxn/
   show_frequency:
     value: 2
-    evidence: "Hosts recurring in-store performances by local and touring artists."
+    evidence: Hosts recurring in-store performances by local and touring artists.
     sources:
     - https://www.visitjackson.com/directory/the-end-of-all-music-jxn/
   artist_roster:
     value: 2
-    evidence: "In-stores feature local talent and touring artists across genres; deep jazz and reissue stock, but experimental billing is incidental."
+    evidence: In-stores feature local talent and touring artists across genres; deep jazz
+      and reissue stock, but experimental billing is incidental.
     sources:
     - https://www.theendofallmusicjxn.com/
   self_description:
     value: 2
-    evidence: "Presents itself as an independent vinyl shop and community hub, not specifically an experimental venue."
+    evidence: Presents itself as an independent vinyl shop and community hub, not specifically
+      an experimental venue.
     sources:
     - https://www.visitmississippi.org/things-to-do/music/the-end-of-all-music-jxn/
   operating_model:
     value: 3
-    evidence: "Independent commercial record store."
+    evidence: Independent commercial record store.
     sources:
     - https://theendofallmusic.com/locations/
   community_reputation:
     value: 2
-    evidence: "Well-regarded Fondren record store and a hub for Jackson's music community."
+    evidence: Well-regarded Fondren record store and a hub for Jackson's music community.
     sources:
     - https://www.visitjackson.com/directory/the-end-of-all-music-jxn/
   listening_room:
     value: 2
-    evidence: "In-store performance area rather than a seated listening room."
+    evidence: In-store performance area rather than a seated listening room.
     sources:
     - https://www.theendofallmusicjxn.com/
 score: 37
@@ -64,4 +67,13 @@ provenance:
   - https://www.theendofallmusicjxn.com/
   - https://www.visitjackson.com/directory/the-end-of-all-music-jxn/
   needs_human_review: true
-notes: "Fondren-district independent record store with recurring in-store performances; included as Mississippi's most plausible improv-adjacent host, but experimental programming is incidental and unverified."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 56d829c1ad0dc16d
+  crawl_http_status: 200
+notes: Fondren-district independent record store with recurring in-store performances; included
+  as Mississippi's most plausible improv-adjacent host, but experimental programming is incidental
+  and unverified.

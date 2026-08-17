@@ -4,7 +4,7 @@ aliases:
 - Café Central Ateneo
 status: active
 location:
-  address: "Ateneo de Madrid, Calle del Prado 21"
+  address: Ateneo de Madrid, Calle del Prado 21
   city: Madrid
   region: Community of Madrid
   country: ES
@@ -64,5 +64,12 @@ provenance:
   - https://cafecentralmadrid.com/
   - https://www.esmadrid.com/en/nightlife/cafe-central
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: b86ad99ae57410b2
+  crawl_http_status: 200
 notes: Historic Madrid jazz club, relocated to the Ateneo de Madrid in 2026; mostly mainstream
   jazz - supportive rather than a free/improv venue.

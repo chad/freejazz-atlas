@@ -64,7 +64,7 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 | 87 | Cornerstone | [Gare du Nord](https://www.garedunord.ch/en/home) | Basel | Basel-Stadt | dedicated_space | 0.8 |
 | 87 | Cornerstone | [High Zero Festival](http://www.highzero.org/) | Baltimore | MD | festival | 0.8 |
 | 86 | Cornerstone | [Edgefest](https://kerrytownconcerthouse.com/event/edgefest-29/) | Ann Arbor | MI | festival | 0.8 |
-| 86 | Cornerstone | [Extradition Series](https://www.extradition-series.com/) | Portland | OR | presenter | 0.7 |
+| 86 | Cornerstone | [Extradition Series](https://creativemusicguild.org/extradition/) | Portland | OR | presenter | 0.7 |
 | 85 | Cornerstone | [Ai Confini tra Sardegna e Jazz](https://aiconfinitrasardegnaejazz.it/) | Sant'Anna Arresi | Sardinia | festival | 0.8 |
 | 85 | Cornerstone | [AngelicA - Festival Internazionale di Musica](https://aaa-angelica.com/) | Bologna | Emilia-Romagna | festival | 0.8 |
 | 85 | Cornerstone | [Seattle Improvised Music Festival](https://seattleimprovfest.wordpress.com/) | Seattle | WA | festival | 0.8 |
@@ -93,7 +93,7 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 | 82 | Committed | [KRAAK](https://kraak.net/) | Ghent | East Flanders | presenter | 0.5 |
 | 82 | Committed | [Kafé Hærverk](https://www.kafe-haerverk.com/) | Oslo | Oslo | bar_club | 0.8 |
 | 82 | Committed | [Stadtgarten](https://www.stadtgarten.de/en/) | Cologne | North Rhine-Westphalia | arts_center | 0.8 |
-| 82 | Committed | [We Jazz](https://wejazzrecords.com/) | Helsinki | Uusimaa | presenter | 0.7 |
+| 82 | Committed | [We Jazz](https://wejazz.fi/) | Helsinki | Uusimaa | presenter | 0.7 |
 | 82 | Committed | [domicil](https://domicil-dortmund.de/) | Dortmund | North Rhine-Westphalia | arts_center | 0.8 |
 | 82 | Committed | [wasteLAnd](https://www.wastelandmusic.org/) | Los Angeles | CA | presenter | 0.6 |
 | 81 | Committed | [Namba Bears](https://namba-bears.main.jp/) | Osaka | Osaka | diy_space | 0.8 |
@@ -101,7 +101,7 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 | 81 | Committed | [The Cooler (Improvised Music Company)](https://www.improvisedmusic.ie/) | Dublin | Leinster | dedicated_space | 0.6 |
 | 81 | Committed | [The Denver Music Venue](https://linktr.ee/denvermusicvenue) | Denver | CO | diy_space | 0.5 |
 | 81 | Committed | [Zaal 100](https://muziekladder.nl/en/locaties/zaal100) | Amsterdam | Noord-Holland | dedicated_space | 0.7 |
-| 80 | Committed | [Avant Vespers](https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817) | Provo | UT | presenter | 0.5 |
+| 80 | Committed | [Avant Vespers](https://www.cityweekly.net/music/avant-garde-for-all-12567817/) | Provo | UT | presenter | 0.5 |
 | 80 | Committed | [Counterflows Festival](https://counterflows.com/) | Glasgow | Scotland | festival | 0.6 |
 | 80 | Committed | [EMIT Series](https://emitseries.org/) | St. Petersburg | FL | presenter | 0.8 |
 | 80 | Committed | [Morphine Raum](https://www.morphinerecords.com/raum) | Berlin | Berlin | dedicated_space | 0.7 |
@@ -111,7 +111,7 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 | 79 | Committed | [Church of the Friendly Ghost](https://www.cotfg.org/) | Austin | TX | presenter | 0.7 |
 | 79 | Committed | [Jazztopad Festival](https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival) | Wrocław | Lower Silesia | festival | 0.8 |
 | 79 | Committed | [Le Periscope](https://www.periscope-lyon.com/en/) | Lyon | Auvergne-Rhone-Alpes | dedicated_space | 0.8 |
-| 79 | Committed | [Luggage Store Gallery](https://www.luggagestoregallerysf.org/) | San Francisco | CA | gallery | 0.6 |
+| 79 | Committed | [Luggage Store Gallery](https://luggagestoregallery.org/) | San Francisco | CA | gallery | 0.6 |
 | 79 | Committed | [Sonic Anchor](https://cmhk.org/sonic-anchor/) | Hong Kong | Hong Kong | presenter | 0.6 |
 | 79 | Committed | [The Apohadion Theater](https://apohadiontheater.org/) | Portland | ME | diy_space | 0.7 |
 | 79 | Committed | [UrBANGUILD](https://urbanguild.net/) | Kyoto | Kyoto | bar_club | 0.8 |
@@ -143,14 +143,14 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 | 74 | Committed | [Jazz Central Studios](https://www.jazzcentralstudios.org/) | Minneapolis | MN | dedicated_space | 0.6 |
 | 74 | Committed | [Kid Ailack Art Hall](https://www.kidailack.co.jp/) | Tokyo | Tokyo | arts_center | 0.7 |
 | 74 | Committed | [Nanahari](https://www.tokyoartbeat.com/en/venues/-/94D3FD7A) | Tokyo | Tokyo | dedicated_space | 0.7 |
-| 73 | Committed | Lilypad | Cambridge | MA | diy_space | 0.5 |
+| 73 | Committed | [Lilypad](https://www.lilypadinman.com/) | Cambridge | MA | diy_space | 0.5 |
 | 73 | Committed | [Portland Institute for Contemporary Art](https://www.pica.org/) | Portland | OR | arts_center | 0.7 |
 | 73 | Committed | [The Bakery Atlanta](https://thebakeryatlanta.com/) | Atlanta | GA | diy_space | 0.7 |
 | 72 | Committed | [BOP STOP](https://www.themusicsettlement.org/bop-stop) | Cleveland | OH | dedicated_space | 0.6 |
 | 72 | Committed | [Earshot Jazz](https://www.earshot.org/) | Seattle | WA | presenter | 0.7 |
 | 72 | Committed | [Muryoku Muzenji](https://www.timeout.com/tokyo/music/muryoku-muzenji) | Tokyo | Tokyo | diy_space | 0.7 |
 | 72 | Committed | [SPACE](https://space538.org/) | Portland | ME | arts_center | 0.7 |
-| 72 | Committed | [Shinjuku Pit Inn](https://pit-inn.com/) | Tokyo | Tokyo | bar_club | 0.8 |
+| 72 | Committed | [Shinjuku Pit Inn](http://pit-inn.com/) | Tokyo | Tokyo | bar_club | 0.8 |
 | 71 | Committed | [Inkonst](https://inkonst.com/en) | Malmö | Skåne | arts_center | 0.8 |
 | 71 | Committed | [Red Poppy Art House](https://www.redpoppyarthouse.org/) | San Francisco | CA | dedicated_space | 0.6 |
 | 71 | Committed | [The Government Center](https://www.thegovernmentcenter.com/) | Pittsburgh | PA | record_store | 0.7 |
@@ -161,15 +161,15 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 | 69 | Committed | [Firehouse 12](https://firehouse12.com/) | New Haven | CT | dedicated_space | 0.5 |
 | 69 | Committed | [Le Triton](https://www.letriton.com/) | Les Lilas | Ile-de-France | dedicated_space | 0.7 |
 | 69 | Committed | [The Hideout](https://www.hideoutchicago.com/) | Chicago | IL | bar_club | 0.6 |
-| 69 | Committed | The Hungry Brain | Chicago | IL | bar_club | 0.5 |
-| 69 | Committed | [Walker Art Center](https://walkerart.org/) | Minneapolis | MN | arts_center | 0.7 |
+| 69 | Committed | [The Hungry Brain](https://hungrybrainchicago.com/) | Chicago | IL | bar_club | 0.5 |
+| 69 | Committed | [Walker Art Center](https://www.walkerart.org/) | Minneapolis | MN | arts_center | 0.7 |
 | 68 | Committed | [Cube Microplex](https://cubecinema.com/) | Bristol | England | arts_center | 0.7 |
 | 68 | Committed | [Ely Center of Contemporary Art](https://elycenter.org/) | New Haven | CT | gallery | 0.7 |
 | 68 | Committed | [Make-Out Room](http://www.makeoutroom.com/) | San Francisco | CA | bar_club | 0.6 |
 | 68 | Committed | [The Other Side of Life](https://the-other-side-of-life.com/) | Louisville | KY | presenter | 0.5 |
 | 68 | Committed | [The soundBarn](http://soundbarn.blogspot.com/) | Valatie | NY | diy_space | 0.5 |
 | 67 | Committed | [Band on the Wall](https://bandonthewall.org/) | Manchester | England | bar_club | 0.7 |
-| 67 | Committed | [Canterbury House](https://www.canterburyhouse.org/concerts) | Ann Arbor | MI | presenter | 0.6 |
+| 67 | Committed | [Canterbury House](https://www.canterburyhouse.org/) | Ann Arbor | MI | presenter | 0.6 |
 | 67 | Committed | [Music Box Village](https://musicboxvillage.com/) | New Orleans | LA | dedicated_space | 0.7 |
 | 67 | Committed | [Wexner Center for the Arts](https://wexarts.org/) | Columbus | OH | arts_center | 0.6 |
 | 66 | Committed | [Blue Whale](https://www.bluewhalemusic.com/) | Los Angeles | CA | bar_club | 0.6 |

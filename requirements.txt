@@ -1,0 +1,9 @@
+# Everything the deployed web service needs.
+# The core toolkit (validate/score/build/query) needs only PyYAML; the rest is
+# the HTTP layer and the crawler used by the refresh jobs.
+PyYAML>=6.0
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+requests>=2.28
+beautifulsoup4>=4.11

@@ -4,7 +4,7 @@ aliases:
 - Durham Fruit and Produce Company
 status: active
 location:
-  address: "305 S Dillard St"
+  address: 305 S Dillard St
   city: Durham
   region: NC
   country: US
@@ -32,19 +32,20 @@ signals:
     - https://www.durhamfruit.com/
   artist_roster:
     value: 2
-    evidence: Supports alternative/local/emerging artists across genres; experimental and jazz
-      appear among many event types.
+    evidence: Supports alternative/local/emerging artists across genres; experimental and
+      jazz appear among many event types.
     sources:
     - https://www.discoverdurham.com/blog/music-lovers-guide-to-durham/
   self_description:
     value: 3
-    evidence: "Describes itself as an arts warehouse and hub for experimental artists supporting\
-      \ experimentation."
+    evidence: Describes itself as an arts warehouse and hub for experimental artists supporting
+      experimentation.
     sources:
     - https://www.durhamfruit.com/about.html
   operating_model:
     value: 3
-    evidence: Artist-run 22,000 sq ft warehouse with residencies, galleries, and a black-box theater.
+    evidence: Artist-run 22,000 sq ft warehouse with residencies, galleries, and a black-box
+      theater.
     sources:
     - https://www.durhamfruit.com/about.html
   community_reputation:
@@ -68,5 +69,12 @@ provenance:
   - https://www.durhamfruit.com/about.html
   - https://arts.duke.edu/places/the-fruit/
   needs_human_review: false
-notes: 'Broad artist-run arts warehouse in Durham that supports experimental artists across
-  disciplines; improvised music is present but secondary to the wider program.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: b6705cec866cab43
+  crawl_http_status: 200
+notes: Broad artist-run arts warehouse in Durham that supports experimental artists across
+  disciplines; improvised music is present but secondary to the wider program.

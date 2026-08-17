@@ -3,7 +3,7 @@ name: Pittsburgh Sound Preserve
 aliases: []
 status: active
 location:
-  address: "5002 Penn Ave (Bantha Tea Bar, frequent host)"
+  address: 5002 Penn Ave (Bantha Tea Bar, frequent host)
   city: Pittsburgh
   region: PA
   country: US
@@ -32,14 +32,14 @@ signals:
     - https://www.pghsoundpreserve.org/calendar
   artist_roster:
     value: 4
-    evidence: Foundation features ad hoc groupings of local improvisers; presents touring free-jazz
-      acts (e.g. Bark Culture from Philadelphia).
+    evidence: Foundation features ad hoc groupings of local improvisers; presents touring
+      free-jazz acts (e.g. Bark Culture from Philadelphia).
     sources:
     - https://www.pghsoundpreserve.org/calendar/tcrps-prsnts-an-evening-of-experimental-improvised-music-and-sounds-feat-bark-culture-philly-elsinore-and-boydozer
   self_description:
     value: 5
-    evidence: "Self-describes as a community music organization dedicated to creative music and\
-      \ freely improvised sound-making."
+    evidence: Self-describes as a community music organization dedicated to creative music
+      and freely improvised sound-making.
     sources:
     - https://www.pghsoundpreserve.org/about-us
   operating_model:
@@ -49,7 +49,8 @@ signals:
     - https://www.pghsoundpreserve.org/about-us
   community_reputation:
     value: 3
-    evidence: Maintains Pittsburgh's improvised-music calendar and zine; a growing hub for the scene.
+    evidence: Maintains Pittsburgh's improvised-music calendar and zine; a growing hub for
+      the scene.
     sources:
     - https://www.pghsoundpreserve.org/calendar
   listening_room:
@@ -69,5 +70,13 @@ provenance:
   - https://www.pghsoundpreserve.org/tough-pill-1
   - https://www.pghsoundpreserve.org/calendar
   needs_human_review: false
-notes: 'Nomadic Pittsburgh improvised-music organization; Open Improvisation Lab regularly at
-  Bantha Tea Bar (coordinates), with the Foundation series and touring bookings across the city.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: d3fe012d74834b50
+  crawl_http_status: 200
+notes: Nomadic Pittsburgh improvised-music organization; Open Improvisation Lab regularly
+  at Bantha Tea Bar (coordinates), with the Foundation series and touring bookings across
+  the city.

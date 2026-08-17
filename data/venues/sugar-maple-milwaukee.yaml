@@ -65,5 +65,12 @@ provenance:
   - https://improvisedsound.org/
   - https://mysugarmaple.com/
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 40ed84a00e11a5d5
+  crawl_http_status: 403
 notes: 'NEEDS REVIEW: craft-beer bar that hosts the IMSO improvised-music series; confirm
   current cadence of IMSO dates at this location.'

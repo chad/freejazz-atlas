@@ -4,7 +4,7 @@ aliases:
 - Government Center Records
 status: active
 location:
-  address: "715 East St"
+  address: 715 East St
   city: Pittsburgh
   region: PA
   country: US
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Hosts recurring experimental/improvised series including Tough Pill (creative music
-      and performance) and Experimental Guitar Night.
+    evidence: Hosts recurring experimental/improvised series including Tough Pill (creative
+      music and performance) and Experimental Guitar Night.
     sources:
     - https://www.thegovernmentcenter.com/events
     - https://arcane.city/events/8132
@@ -48,8 +48,8 @@ signals:
     - https://www.thegovernmentcenter.com/
   community_reputation:
     value: 3
-    evidence: Recognized node of Pittsburgh's improvised-music scene (listed by Pittsburgh Sound
-      Preserve and Arcane City improvised-music calendars).
+    evidence: Recognized node of Pittsburgh's improvised-music scene (listed by Pittsburgh
+      Sound Preserve and Arcane City improvised-music calendars).
     sources:
     - https://arcane.city/events/tag/improvised-music
   listening_room:
@@ -69,5 +69,12 @@ provenance:
   - https://arcane.city/events/3511
   - https://arcane.city/events/8132
   needs_human_review: false
-notes: 'North Side record store and DIY venue that anchors recurring experimental/improvised
-  series (Tough Pill, Experimental Guitar Night).'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e1857c63a68d1cb1
+  crawl_http_status: 200
+notes: North Side record store and DIY venue that anchors recurring experimental/improvised
+  series (Tough Pill, Experimental Guitar Night).

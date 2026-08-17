@@ -4,7 +4,7 @@ aliases:
 - Robadors 23
 status: active
 location:
-  address: "Carrer d'En Robador 23"
+  address: Carrer d'En Robador 23
   city: Barcelona
   region: Catalonia
   country: ES
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Intimate Raval bar with daily live music; weekly La Jam de Jazz (Wednesdays) that
-      is free for musicians and known for free-leaning jazz jams.
+    evidence: Intimate Raval bar with daily live music; weekly La Jam de Jazz (Wednesdays)
+      that is free for musicians and known for free-leaning jazz jams.
     sources:
     - https://23robadors.com/
     - https://ma.to/event/la-jam-de-jazz-23robadors-1-april-2026
@@ -66,4 +66,11 @@ provenance:
   - https://23robadors.com/
   - https://www.barcelona-metropolitan.com/locations/23-robadors-barcelona-music-venue/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 1a6addf4cf39b19d
+  crawl_http_status: 200
 notes: Tiny Raval bar with a weekly free-leaning jazz jam among a broad live-music program.

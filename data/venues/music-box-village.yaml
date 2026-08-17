@@ -67,4 +67,11 @@ provenance:
   - https://musicboxvillage.com/our-story
   - https://splice.com/sounds/packs/splice-soundscapes/music-box-village/story
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 2f515c1d3ec649bf
+  crawl_http_status: 200
 notes: Unique experimental sound-sculpture venue; programming is periodic/curated.

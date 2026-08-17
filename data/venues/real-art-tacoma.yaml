@@ -66,5 +66,12 @@ provenance:
   - https://www.realarttacoma.com/calendar/111822
   - https://www.yelp.com/biz/real-art-tacoma-tacoma
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: f222228abf78edcc
+  crawl_http_status: 200
 notes: Tacoma all-ages nonprofit DIY space; hosts experimental-jazz and improvised acts within
   a mostly punk/underground calendar.

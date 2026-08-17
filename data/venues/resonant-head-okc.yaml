@@ -3,7 +3,7 @@ name: Resonant Head
 aliases: []
 status: active
 location:
-  address: "400 SW 25th St"
+  address: 400 SW 25th St
   city: Oklahoma City
   region: OK
   country: US
@@ -18,38 +18,43 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: "Independent, arts-forward room known for left-of-center lineups mixing indie, punk, experimental and electronic acts; experimental music is a recurring but not exclusive strand."
+    evidence: Independent, arts-forward room known for left-of-center lineups mixing indie,
+      punk, experimental and electronic acts; experimental music is a recurring but not exclusive
+      strand.
     sources:
     - https://www.resonanthead.com/
     - https://www.visitokc.com/listing/resonant-head/5822/
   show_frequency:
     value: 3
-    evidence: "Active concert calendar with frequent shows; a share of the programming is experimental/electronic."
+    evidence: Active concert calendar with frequent shows; a share of the programming is experimental/electronic.
     sources:
     - https://www.resonanthead.com/shows
   artist_roster:
     value: 3
-    evidence: "Mixes rising local artists with touring acts across indie, punk, experimental and electronic music."
+    evidence: Mixes rising local artists with touring acts across indie, punk, experimental
+      and electronic music.
     sources:
     - https://www.visitokc.com/listing/resonant-head/5822/
   self_description:
     value: 3
-    evidence: "Describes itself as a no-frills, arts-forward space that prioritizes sound and community."
+    evidence: Describes itself as a no-frills, arts-forward space that prioritizes sound and
+      community.
     sources:
     - https://www.resonanthead.com/
   operating_model:
     value: 3
-    evidence: "Independently operated commercial music venue with full bar and kitchen."
+    evidence: Independently operated commercial music venue with full bar and kitchen.
     sources:
     - https://community.okgazette.com/oklahoma/resonant-head/Location?oid=10810331
   community_reputation:
     value: 3
-    evidence: "Recognized OKC destination for creative, left-of-center programming."
+    evidence: Recognized OKC destination for creative, left-of-center programming.
     sources:
     - https://community.okgazette.com/oklahoma/resonant-head/Location?oid=10810331
   listening_room:
     value: 3
-    evidence: "Intimate room that puts audiences a few steps from the stage and prioritizes sound."
+    evidence: Intimate room that puts audiences a few steps from the stage and prioritizes
+      sound.
     sources:
     - https://www.resonanthead.com/
 score: 55
@@ -63,4 +68,12 @@ provenance:
   - https://www.resonanthead.com/
   - https://www.visitokc.com/listing/resonant-head/5822/
   needs_human_review: true
-notes: "Independent Capitol Hill venue known for left-of-center booking; experimental music is one part of a broad calendar. Share of true free/improv programming not fully verified."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 884c1abe01d2365c
+  crawl_http_status: 200
+notes: Independent Capitol Hill venue known for left-of-center booking; experimental music
+  is one part of a broad calendar. Share of true free/improv programming not fully verified.

@@ -4,13 +4,13 @@ aliases:
 - Punctum
 status: active
 location:
-  address: "Krásova 27"
+  address: Krásova 27
   city: Prague
   region: Prague
   country: CZ
   neighborhood: Žižkov
   lat: 50.0865
-  lon: 14.4560
+  lon: 14.456
 type: diy_space
 operating_model: diy_collective
 capacity: 80
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Community music space running the resident Sonitus concert series and Punctum Tapes
-      label; programs free improvisation, noise and experimental electronics.
+    evidence: Community music space running the resident Sonitus concert series and Punctum
+      Tapes label; programs free improvisation, noise and experimental electronics.
     sources:
     - https://punctum.cz/
     - https://agosto-foundation.org/punctum-krasovka
@@ -67,5 +67,12 @@ provenance:
   - https://agosto-foundation.org/punctum-krasovka
   - https://daily.bandcamp.com/scene-report/prague-experimental-scene-report
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: c76c4cb59f4d8e4b
+  crawl_http_status: 200
 notes: DIY community venue in Žižkov; free improv, noise and experimental music via the Sonitus
   series. Address/coords approximate.

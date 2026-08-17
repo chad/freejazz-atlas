@@ -3,7 +3,7 @@ name: Forestlimit
 aliases: []
 status: active
 location:
-  address: "1F Hatagaya K3 Bldg., 2-8-15 Hatagaya, Shibuya-ku"
+  address: 1F Hatagaya K3 Bldg., 2-8-15 Hatagaya, Shibuya-ku
   city: Tokyo
   region: Tokyo
   country: JP
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: Cafe/studio (opened 2010) hosting art shows and left-of-centre music;
-      built as a listening bar with large speaker stacks.
+    evidence: Cafe/studio (opened 2010) hosting art shows and left-of-centre music; built
+      as a listening bar with large speaker stacks.
     sources:
     - https://www.timeout.com/tokyo/music/forestlimit
     - https://www.tokyoartbeat.com/en/venues/-/1A09E0E1
@@ -45,14 +45,13 @@ signals:
     - https://www.tokyoartbeat.com/en/venues/-/1A09E0E1
   community_reputation:
     value: 3
-    evidence: Recognized alternative Shibuya-ku venue in Tokyo listening-bar/venue
-      guides.
+    evidence: Recognized alternative Shibuya-ku venue in Tokyo listening-bar/venue guides.
     sources:
     - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
   listening_room:
     value: 3
-    evidence: Originally a listening bar with four large speaker stacks; also functions
-      as a party/club space.
+    evidence: Originally a listening bar with four large speaker stacks; also functions as
+      a party/club space.
     sources:
     - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
 score: 62
@@ -67,5 +66,12 @@ provenance:
   - https://www.tokyoartbeat.com/en/venues/-/1A09E0E1
   - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
   needs_human_review: false
-notes: Hatagaya DIY cafe/studio (est. 2010); experimental and ambient/electronic-leaning
-  more than free-jazz, but a genuine adventurous listening space.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 95cbdbd479f8b7aa
+  crawl_http_status: 200
+notes: Hatagaya DIY cafe/studio (est. 2010); experimental and ambient/electronic-leaning more
+  than free-jazz, but a genuine adventurous listening space.

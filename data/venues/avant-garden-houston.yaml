@@ -67,5 +67,12 @@ provenance:
   - https://www.avantgardenhouston.com/
   - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_crawl_error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection
+    without response'))
 notes: Montrose bar/collective; longtime They, Who Sound host and continuing supporter of
   Houston experimental programming.

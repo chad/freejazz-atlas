@@ -5,7 +5,7 @@ aliases:
 - ライブハウス・ベアーズ
 status: active
 location:
-  address: "3-9-2 Nanba-naka, Naniwa-ku"
+  address: 3-9-2 Nanba-naka, Naniwa-ku
   city: Osaka
   region: Osaka
   country: JP
@@ -20,8 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Live house open since 1986 championing nonconformist Osaka sounds; a
-      go-to for the free-form and improvised, band-driven Kansai underground.
+    evidence: Live house open since 1986 championing nonconformist Osaka sounds; a go-to for
+      the free-form and improvised, band-driven Kansai underground.
     sources:
     - https://www.timeout.com/osaka/music/namba-bears
     - https://www.osaka.com/culture/osakas-best-live-music-venues-underground-scene-guide/
@@ -32,33 +32,31 @@ signals:
     - https://www.timeout.com/osaka/music/namba-bears
   artist_roster:
     value: 4
-    evidence: Experimental, noise, free-form and improvised acts; founded by Seiichi
-      Yamamoto (Boredoms).
+    evidence: Experimental, noise, free-form and improvised acts; founded by Seiichi Yamamoto
+      (Boredoms).
     sources:
     - https://www.timeout.com/osaka/music/namba-bears
     - https://www.thewire.co.uk/audio/tracks/global-ear-osaka
   self_description:
     value: 4
-    evidence: No-frills experimental live house with an open-ended, community-curated
-      program.
+    evidence: No-frills experimental live house with an open-ended, community-curated program.
     sources:
     - https://www.fredperry.com/us/subculture/articles/namba-bears-osaka
   operating_model:
     value: 5
-    evidence: Artist-run/DIY; BYOB, no bar, staff are active tastemakers releasing
-      their own compilations.
+    evidence: Artist-run/DIY; BYOB, no bar, staff are active tastemakers releasing their own
+      compilations.
     sources:
     - https://www.timeout.com/osaka/music/namba-bears
   community_reputation:
     value: 4
-    evidence: Nearly four decades as a cornerstone of Osaka's underground/experimental
-      scene.
+    evidence: Nearly four decades as a cornerstone of Osaka's underground/experimental scene.
     sources:
     - https://www.fredperry.com/us/subculture/articles/namba-bears-osaka
   listening_room:
     value: 3
-    evidence: Loud, stripped-back room (earplugs recommended) rather than a quiet
-      seated listening space.
+    evidence: Loud, stripped-back room (earplugs recommended) rather than a quiet seated listening
+      space.
     sources:
     - https://www.timeout.com/osaka/music/namba-bears
 score: 81
@@ -73,5 +71,12 @@ provenance:
   - https://www.fredperry.com/us/subculture/articles/namba-bears-osaka
   - https://www.osaka.com/culture/osakas-best-live-music-venues-underground-scene-guide/
   needs_human_review: false
-notes: DIY experimental/noise/free-form live house in Namba (est. 1986), founded by
-  Seiichi Yamamoto of Boredoms.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e7a481190043876a
+  crawl_http_status: 200
+notes: DIY experimental/noise/free-form live house in Namba (est. 1986), founded by Seiichi
+  Yamamoto of Boredoms.

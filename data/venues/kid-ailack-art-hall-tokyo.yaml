@@ -68,6 +68,14 @@ provenance:
   - https://www.tokyogigguide.com/en/gigs/venue/428-kid-ailack-art-hall
   - https://grokipedia.com/page/Onkyokei
   - https://creativesources.bandcamp.com/album/ailack
-  needs_human_review: false
+  needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: unreachable
+    detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
+  last_crawled: '2026-08-17'
+  last_crawl_error: 'HTTPSConnectionPool(host=''www.kidailack.co.jp'', port=443): Max retries
+    exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''www.kidailack.co.jp'',
+    port=443): Failed to resolve ''ww'
 notes: Meidaimae art hall central to the onkyokei/quiet-improvisation scene; hosts Taku Sugimoto's
   Composition Series.

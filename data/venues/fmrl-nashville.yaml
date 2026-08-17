@@ -5,7 +5,7 @@ aliases:
 - FMRL Arts
 status: active
 location:
-  address: "presents at venues across Middle Tennessee"
+  address: presents at venues across Middle Tennessee
   city: Nashville
   region: TN
   country: US
@@ -33,15 +33,15 @@ signals:
     - https://fmrlarts.org/
   artist_roster:
     value: 4
-    evidence: Books experimental, avant-garde, and improvising musicians from Nashville and the
-      broader Southeast.
+    evidence: Books experimental, avant-garde, and improvising musicians from Nashville and
+      the broader Southeast.
     sources:
     - https://weownthistown.net/news/noisematter-a-counterculture-of-sound/
     - https://www.nashvillescene.com/music/features/fmrl-offers-an-array-of-genre-bending-experiential-and-experimental-music/article_ffd295a8-e0ad-5792-b5d6-d7d5d4174117.html
   self_description:
     value: 5
-    evidence: "Independent arts collective/nonprofit dedicated to experimental and avant-garde\
-      \ music."
+    evidence: Independent arts collective/nonprofit dedicated to experimental and avant-garde
+      music.
     sources:
     - https://fmrlarts.org/
   operating_model:
@@ -72,5 +72,12 @@ provenance:
   - https://weownthistown.net/news/noisematter-a-counterculture-of-sound/
   - https://www.nashvillescene.com/bon/2018/arts-music-and-culture/writers-choice/best-avant-garde-music-series/article_ff8f9a29-5f1d-5a10-88f4-02484a520833.html
   needs_human_review: false
-notes: 'Nashville experimental/avant-garde music nonprofit and presenter (directed by Chris Davis);
-  nomadic across Middle Tennessee venues. Co-presents the NoiseMatter festival.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: af95bdb3de833ae8
+  crawl_http_status: 200
+notes: Nashville experimental/avant-garde music nonprofit and presenter (directed by Chris
+  Davis); nomadic across Middle Tennessee venues. Co-presents the NoiseMatter festival.

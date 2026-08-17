@@ -5,7 +5,7 @@ aliases:
 - Monday Make-Out
 status: active
 location:
-  address: "3225 22nd St"
+  address: 3225 22nd St
   city: San Francisco
   region: CA
   country: US
@@ -20,9 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Hosts the long-running weekly "Jazz at the Make-Out Room" (formerly Monday
-      Make-Out), billed as an evening of cutting-edge jazz, free improvisation and creative
-      music.
+    evidence: Hosts the long-running weekly "Jazz at the Make-Out Room" (formerly Monday Make-Out),
+      billed as an evening of cutting-edge jazz, free improvisation and creative music.
     sources:
     - https://www.bayimproviser.com/venue/140/make-out-room
     - https://www.facebook.com/mondaymakeout/
@@ -68,5 +67,12 @@ provenance:
   - https://www.bayimproviser.com/venue/140/make-out-room
   - https://www.facebook.com/mondaymakeout/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: dfdbc74630911a4d
+  crawl_http_status: 200
 notes: Commercial Mission bar hosting a strong weekly free-jazz/improv series; the series
   carries the improv weight, not the room itself.

@@ -9,12 +9,12 @@ location:
   region: Uusimaa
   country: FI
   neighborhood: Kallio
-  lat: 60.1870
-  lon: 24.9500
+  lat: 60.187
+  lon: 24.95
 type: presenter
 operating_model: artist_run
 capacity: null
-website: https://wejazzrecords.com/
+website: https://wejazz.fi/
 active_this_year: true
 signals:
   dedicated_series:
@@ -67,5 +67,18 @@ provenance:
   - https://en.wikipedia.org/wiki/We_Jazz_Records
   - https://brooklynrail.org/2022/02/music/We-Jazz-Records-and-its-Many-Headed-Helsinki-Hydras/
   needs_human_review: false
+  url_corrections:
+  - 'on': '2026-08-17'
+    from: https://wejazzrecords.com/
+    to: https://wejazz.fi/
+    why: wejazzrecords.com no longer resolves; wejazz.fi verified live
+    by: maintainer:linkcheck-sweep
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: ae3a4ef34d89577b
+  crawl_http_status: 200
 notes: Collective/festival/label rather than a fixed room; runs the We Jazz Festival and year-round
   club nights across Helsinki. Coordinates are Kallio (label base) approximate.

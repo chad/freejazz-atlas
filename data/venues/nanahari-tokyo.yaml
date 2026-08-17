@@ -5,7 +5,7 @@ aliases:
 - .ftftftf.
 status: active
 location:
-  address: "Higashi-Nihonbashi, Chuo-ku"
+  address: Higashi-Nihonbashi, Chuo-ku
   city: Tokyo
   region: Tokyo
   country: JP
@@ -31,15 +31,15 @@ signals:
     - https://www.tokyogigguide.com/en/gigs/venue/102
   artist_roster:
     value: 4
-    evidence: A regular stop for local and touring improvisers; documented on numerous
-      live experimental recordings.
+    evidence: A regular stop for local and touring improvisers; documented on numerous live
+      experimental recordings.
     sources:
     - https://dinzuartefacts.bandcamp.com/album/nanahari-edit
     - https://www.timeout.com/tokyo/music/nanahari
   self_description:
     value: 4
-    evidence: Presents itself as an interdisciplinary showcase for avant-garde music,
-      art, dance and performance.
+    evidence: Presents itself as an interdisciplinary showcase for avant-garde music, art,
+      dance and performance.
     sources:
     - https://www.tokyoartbeat.com/en/venues/-/94D3FD7A
   operating_model:
@@ -69,5 +69,12 @@ provenance:
   - https://www.tokyoartbeat.com/en/venues/-/94D3FD7A
   - https://www.tokyogigguide.com/en/gigs/venue/102
   needs_human_review: false
-notes: Avant-garde basement (est. 2006) near Higashi-Nihonbashi/Bakurocho; regular
-  stop for local and touring improvisers.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 131bb9c93eb10305
+  crawl_http_status: 200
+notes: Avant-garde basement (est. 2006) near Higashi-Nihonbashi/Bakurocho; regular stop for
+  local and touring improvisers.

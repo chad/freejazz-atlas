@@ -4,12 +4,12 @@ aliases:
 - Fasching Jazzklubb
 status: active
 location:
-  address: "Kungsgatan 63"
+  address: Kungsgatan 63
   city: Stockholm
   region: Stockholm
   country: SE
   lat: 59.3346
-  lon: 18.0590
+  lon: 18.059
 type: bar_club
 operating_model: nonprofit
 capacity: 350
@@ -45,8 +45,8 @@ signals:
     - https://www.fasching.se/en/about-fasching/
   community_reputation:
     value: 4
-    evidence: One of Europe's oldest and most prestigious jazz clubs; Scandinavia's largest jazz
-      organiser.
+    evidence: One of Europe's oldest and most prestigious jazz clubs; Scandinavia's largest
+      jazz organiser.
     sources:
     - https://www.fasching.se/en/about-fasching/
   listening_room:
@@ -63,5 +63,12 @@ provenance:
   source_urls:
   - https://www.fasching.se/en/about-fasching/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 3a144a415091d2de
+  crawl_http_status: 200
 notes: Large musician-owned Stockholm jazz club; adventurous music is part of a broad, partly
   mainstream program.

@@ -4,7 +4,7 @@ aliases:
 - Karl-Marx-Str. 28
 status: active
 location:
-  address: "Karl-Marx-Str. 28"
+  address: Karl-Marx-Str. 28
   city: Berlin
   region: Berlin
   country: DE
@@ -19,16 +19,15 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Volunteer-run venue founded in 2018 dedicated to new and experimental
-      concert music; regarded as Berlin's closest equivalent to Cafe OTO for the experimental
-      scene.
+    evidence: Volunteer-run venue founded in 2018 dedicated to new and experimental concert
+      music; regarded as Berlin's closest equivalent to Cafe OTO for the experimental scene.
     sources:
     - https://www.km28.de/about
     - https://www.km28.de/
   show_frequency:
     value: 4
-    evidence: Regular near-weekly concerts of improvisation, new and experimental
-      music; doors 8pm, entry by donation.
+    evidence: Regular near-weekly concerts of improvisation, new and experimental music; doors
+      8pm, entry by donation.
     sources:
     - https://www.km28.de/
     - https://www.urbanite.net/berlin/locations/km28/
@@ -49,14 +48,12 @@ signals:
     - https://www.km28.de/about
   community_reputation:
     value: 5
-    evidence: Named as a pillar/institution of Berlin's Echtzeitmusik and experimental
-      scene.
+    evidence: Named as a pillar/institution of Berlin's Echtzeitmusik and experimental scene.
     sources:
     - https://www.urbanite.net/berlin/locations/km28/
   listening_room:
     value: 5
-    evidence: Intimate concert room with grand piano; attentive listening, bar in
-      the back.
+    evidence: Intimate concert room with grand piano; attentive listening, bar in the back.
     sources:
     - https://www.urbanite.net/berlin/locations/km28/
 score: 96
@@ -71,4 +68,11 @@ provenance:
   - https://www.km28.de/about
   - https://www.urbanite.net/berlin/locations/km28/
   needs_human_review: false
-notes: "Volunteer-run Neukölln space for new/experimental concert music, founded 2018."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 6c219de21119a61b
+  crawl_http_status: 200
+notes: Volunteer-run Neukölln space for new/experimental concert music, founded 2018.

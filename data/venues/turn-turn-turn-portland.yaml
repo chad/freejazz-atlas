@@ -70,5 +70,12 @@ provenance:
   - https://elevenpdx.com/live/know-your-venue/turn-turn-turn/
   - https://creativemusicguild.org/outset-series/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8fe2f9f38c8972c4
+  crawl_http_status: 200
 notes: NE Portland community venue/bar and mini record store; regular host of the Creative
   Music Guild's Outset Series.

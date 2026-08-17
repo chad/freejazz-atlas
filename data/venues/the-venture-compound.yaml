@@ -3,7 +3,7 @@ name: The Venture Compound
 aliases: []
 status: unconfirmed
 location:
-  address: "2621 Fairfield Ave S"
+  address: 2621 Fairfield Ave S
   city: St. Petersburg
   region: FL
   country: US
@@ -25,8 +25,8 @@ signals:
     - https://www.facebook.com/groups/TampaBay.Experimental.Noise/
   show_frequency:
     value: 3
-    evidence: Has hosted shows since December 2011, including open jazz jams and touring
-      experimental acts.
+    evidence: Has hosted shows since December 2011, including open jazz jams and touring experimental
+      acts.
     sources:
     - https://crowsneststpete.com/2012/08/28/the-venture-compound-offers-performance-space-for-local-musical-artists/
   artist_roster:
@@ -36,8 +36,8 @@ signals:
     - https://83degreesmedia.com/venture041613/
   self_description:
     value: 4
-    evidence: "Edgy, experimental art and music space with \"a zany, almost science-experiment\
-      \ vibe.\""
+    evidence: Edgy, experimental art and music space with "a zany, almost science-experiment
+      vibe."
     sources:
     - https://83degreesmedia.com/venture041613/
   operating_model:
@@ -68,6 +68,13 @@ provenance:
   - https://83degreesmedia.com/venture041613/
   - https://www.visitstpeteclearwater.com/profile/venture-compound/140031
   needs_human_review: true
-notes: 'St. Petersburg Warehouse Arts District DIY experimental/noise venue (since 2011). One
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: dcffd61d699b9004
+  crawl_http_status: 200
+notes: St. Petersburg Warehouse Arts District DIY experimental/noise venue (since 2011). One
   listing flags it as possibly closed, so current operating status is unconfirmed and needs
-  human review.'
+  human review.

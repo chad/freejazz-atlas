@@ -5,7 +5,8 @@ aliases:
 - 失聲祭
 status: active
 location:
-  address: "Taipei Contemporary Culture Lab (C-LAB), 177 Jianguo S Rd Sec 1, Da'an (current base)"
+  address: Taipei Contemporary Culture Lab (C-LAB), 177 Jianguo S Rd Sec 1, Da'an (current
+    base)
   city: Taipei
   region: Taipei
   country: TW
@@ -20,21 +21,20 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Long-running monthly experimental sound-performance series founded by
-      Taiwanese sound artists to build a platform and community for the medium.
+    evidence: Long-running monthly experimental sound-performance series founded by Taiwanese
+      sound artists to build a platform and community for the medium.
     sources:
     - http://lsf-taiwan.blogspot.com/
     - https://www.somersethouse.org.uk/whats-on/music-hackspace-presents-taiwanese-experimental-music
   show_frequency:
     value: 3
-    evidence: Roughly monthly performance events, running continuously for well over
-      a decade.
+    evidence: Roughly monthly performance events, running continuously for well over a decade.
     sources:
     - http://lsf-taiwan.blogspot.com/
   artist_roster:
     value: 4
-    evidence: Presents Taiwanese and international experimental/improv sound artists;
-      documents and produces writing on the local scene.
+    evidence: Presents Taiwanese and international experimental/improv sound artists; documents
+      and produces writing on the local scene.
     sources:
     - https://www.youtube.com/watch?v=VhRaWqhDV3o
   self_description:
@@ -69,6 +69,13 @@ provenance:
   - https://www.somersethouse.org.uk/whats-on/music-hackspace-presents-taiwanese-experimental-music
   - https://www.youtube.com/watch?v=VhRaWqhDV3o
   needs_human_review: true
-notes: Monthly experimental sound-performance series (a presenter, not a fixed venue);
-  host location has moved over time and is currently associated with C-LAB. Coordinates
-  point to the current host site.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 37c625d34dc71672
+  crawl_http_status: 200
+notes: Monthly experimental sound-performance series (a presenter, not a fixed venue); host
+  location has moved over time and is currently associated with C-LAB. Coordinates point to
+  the current host site.

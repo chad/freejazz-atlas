@@ -66,6 +66,13 @@ provenance:
   - http://www.racersessions.com/
   - https://www.facebook.com/racersessions/
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 23896345a0ebce36
+  crawl_http_status: 200
 notes: Long-running artist-run improv series (Table & Chairs). Original home Cafe Racer closed
   in 2020 and the series has moved between venues; current fixed location needs confirmation,
   so coordinates are Seattle city-center.

@@ -56,4 +56,11 @@ provenance:
   source_urls:
   - https://www.thelab.org/
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: fe5e2d692ced2689
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: confirm current experimental-music cadence and 2026 programming.'

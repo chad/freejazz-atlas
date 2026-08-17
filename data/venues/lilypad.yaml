@@ -12,7 +12,7 @@ location:
 type: diy_space
 operating_model: commercial
 capacity: null
-website: null
+website: https://www.lilypadinman.com/
 active_this_year: true
 signals:
   dedicated_series:
@@ -41,4 +41,17 @@ provenance:
   last_confirmed: 2026-07
   source_urls: []
   needs_human_review: true
+  url_corrections:
+  - 'on': '2026-08-17'
+    from: null
+    to: https://www.lilypadinman.com/
+    why: record had no website; official site verified live
+    by: maintainer:linkcheck-sweep
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8870340a6d44e200
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: not re-verified this session.'

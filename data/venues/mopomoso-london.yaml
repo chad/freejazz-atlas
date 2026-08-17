@@ -65,5 +65,12 @@ provenance:
   - https://mopomoso.com/about/
   - https://www.vortexjazz.co.uk/series/mopomoso/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8987b1616b894c2e
+  crawl_http_status: 200
 notes: A presenter/series (not a standalone venue) hosted monthly at the Vortex Jazz Club
   in Dalston.

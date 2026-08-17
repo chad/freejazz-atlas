@@ -11,7 +11,7 @@ location:
 type: presenter
 operating_model: nonprofit
 capacity: null
-website: https://www.extradition-series.com/
+website: https://creativemusicguild.org/extradition/
 active_this_year: true
 signals:
   dedicated_series:
@@ -62,9 +62,22 @@ provenance:
   added_on: '2026-07-17'
   last_confirmed: 2026-07
   source_urls:
-  - https://www.extradition-series.com/
+  - https://creativemusicguild.org/extradition/
   - https://extradition-series.com/about.html
   - https://creativemusicguild.org/events/extradition/
   needs_human_review: false
+  url_corrections:
+  - 'on': '2026-08-17'
+    from: https://www.extradition-series.com/
+    to: https://creativemusicguild.org/extradition/
+    why: extradition-series.com lapsed; the series now lives on the Creative Music Guild site
+    by: maintainer:linkcheck-sweep
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 46ff35f2438bfe83
+  crawl_http_status: 200
 notes: A Creative Music Guild program curated by Matt Hannafin. Quarterly experimental/structured-improvisation
   concerts. Coordinates are Portland city-center (uses partner venues).

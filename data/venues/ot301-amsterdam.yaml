@@ -17,32 +17,31 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Self-managed legalised squat and artist collective offering a stage
-      for experimental music, film, dance and theatre; music is one of several strands.
+    evidence: Self-managed legalised squat and artist collective offering a stage for experimental
+      music, film, dance and theatre; music is one of several strands.
     sources:
     - https://en.wikipedia.org/wiki/OT301
   show_frequency:
     value: 3
-    evidence: Regular concerts and club nights across experimental and underground
-      genres.
+    evidence: Regular concerts and club nights across experimental and underground genres.
     sources:
     - https://radar.squat.net/en/amsterdam/ot301-studio
   artist_roster:
     value: 2
-    evidence: Books experimental and underground artists among a broad program; not
-      a dedicated improv roster.
+    evidence: Books experimental and underground artists among a broad program; not a dedicated
+      improv roster.
     sources:
     - https://en.wikipedia.org/wiki/OT301
   self_description:
     value: 3
-    evidence: Platform for artists to live and work together with public programming
-      for experimental music.
+    evidence: Platform for artists to live and work together with public programming for experimental
+      music.
     sources:
     - https://en.wikipedia.org/wiki/OT301
   operating_model:
     value: 5
-    evidence: Artist-run, self-managed social centre owned by the user association
-      EHBK; awarded the Amsterdam Prize for the Arts in 2007.
+    evidence: Artist-run, self-managed social centre owned by the user association EHBK; awarded
+      the Amsterdam Prize for the Arts in 2007.
     sources:
     - https://en.wikipedia.org/wiki/OT301
   community_reputation:
@@ -65,5 +64,12 @@ provenance:
   source_urls:
   - https://en.wikipedia.org/wiki/OT301
   needs_human_review: true
-notes: 'NEEDS REVIEW: artist-run former-squat with broad experimental programming;
-  free/improv jazz share uncertain.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 64049e9c025a943d
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: artist-run former-squat with broad experimental programming; free/improv
+  jazz share uncertain.'

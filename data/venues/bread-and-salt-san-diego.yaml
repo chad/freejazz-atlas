@@ -5,13 +5,13 @@ aliases:
 - Salty Series
 status: active
 location:
-  address: "1955 Julian Ave"
+  address: 1955 Julian Ave
   city: San Diego
   region: CA
   country: US
   neighborhood: Logan Heights
   lat: 32.7009
-  lon: -117.1490
+  lon: -117.149
 type: arts_center
 operating_model: nonprofit
 capacity: null
@@ -21,8 +21,8 @@ signals:
   dedicated_series:
     value: 4
     evidence: Experimental arts center that houses the Fresh Sound new-music series (avant-garde
-      jazz, contemporary classical, experimental) and Project [BLANK]'s monthly Salty
-      Series of improvisation, sound art and electroacoustic music.
+      jazz, contemporary classical, experimental) and Project [BLANK]'s monthly Salty Series
+      of improvisation, sound art and electroacoustic music.
     sources:
     - https://www.breadandsaltsandiego.com/concerts
     - https://www.projectblanksd.org/salty-series-2026
@@ -34,8 +34,8 @@ signals:
     - https://www.projectblanksd.org/salty-series-2026
   artist_roster:
     value: 4
-    evidence: Innovative performers of experimental new music, contemporary classical
-      and avant-garde jazz; Salty Series curated by rotating local improvisers.
+    evidence: Innovative performers of experimental new music, contemporary classical and
+      avant-garde jazz; Salty Series curated by rotating local improvisers.
     sources:
     - https://sdnews.com/bread-and-salt/
     - https://www.projectblanksd.org/salty-series-2026
@@ -47,8 +47,8 @@ signals:
     - https://www.breadandsaltsandiego.com/
   operating_model:
     value: 5
-    evidence: Nonprofit experimental arts center; Fresh Sound and Project [BLANK] are
-      nonprofit new-music presenters.
+    evidence: Nonprofit experimental arts center; Fresh Sound and Project [BLANK] are nonprofit
+      new-music presenters.
     sources:
     - https://sdnews.com/bread-and-salt/
   community_reputation:
@@ -74,5 +74,12 @@ provenance:
   - https://www.projectblanksd.org/salty-series-2026
   - https://sdnews.com/bread-and-salt/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 248cef36a779f4ae
+  crawl_http_status: 200
 notes: San Diego's core experimental-music venue, hosting the Fresh Sound new-music series
   and Project [BLANK]'s monthly Salty Series of improvisation and sound art.

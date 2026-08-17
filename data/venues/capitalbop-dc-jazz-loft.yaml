@@ -5,7 +5,7 @@ aliases:
 - DC Jazz Loft
 status: active
 location:
-  address: "presents at Rhizome and DIY spaces around DC"
+  address: presents at Rhizome and DIY spaces around DC
   city: Washington
   region: DC
   country: US
@@ -20,8 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Runs the DC Jazz Loft, a loft-tradition series for creative music; part of a mission
-      to present jazz as Black American / creative music.
+    evidence: Runs the DC Jazz Loft, a loft-tradition series for creative music; part of a
+      mission to present jazz as Black American / creative music.
     sources:
     - https://www.capitalbop.com/about/
     - https://www.capitalbop.com/dc-jazz-loft-relaunch-rhizome/
@@ -33,15 +33,15 @@ signals:
     - https://www.capitalbop.com/d-c-jazz-loft-series/
   artist_roster:
     value: 4
-    evidence: "Programs \"fire music\" and creative improvisers (e.g. saxophonists Aaron Martin\
-      \ and Lionel Lyles; Brian Falkowski and Dan Kurfirst)."
+    evidence: Programs "fire music" and creative improvisers (e.g. saxophonists Aaron Martin
+      and Lionel Lyles; Brian Falkowski and Dan Kurfirst).
     sources:
     - https://www.capitalbop.com/aaron-martin-lionel-lyles-dc-jazz-loft/
     - https://www.capitalbop.com/brian-falkowski-dan-kurfirst-dc-jazz-loft/
   self_description:
     value: 4
-    evidence: "Dedicated to promoting, presenting and preserving jazz (aka Black American Music\
-      \ or creative music) in DC."
+    evidence: Dedicated to promoting, presenting and preserving jazz (aka Black American Music
+      or creative music) in DC.
     sources:
     - https://www.capitalbop.com/about/
   operating_model:
@@ -72,5 +72,13 @@ provenance:
   - https://www.capitalbop.com/dc-jazz-loft-relaunch-rhizome/
   - https://www.capitalbop.com/d-c-jazz-loft-series/
   needs_human_review: false
-notes: 'DC nonprofit presenter and jazz-journalism org; the DC Jazz Loft series (revived at Rhizome)
-  favors creative/avant jazz. Nomadic historically (Red Door, Union Arts, Hole in the Sky).'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: b175d4d21dac9c2a
+  crawl_http_status: 200
+notes: DC nonprofit presenter and jazz-journalism org; the DC Jazz Loft series (revived at
+  Rhizome) favors creative/avant jazz. Nomadic historically (Red Door, Union Arts, Hole in
+  the Sky).

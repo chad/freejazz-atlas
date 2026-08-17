@@ -5,7 +5,7 @@ aliases:
 - Kühlspot e.V.
 status: active
 location:
-  address: "Lehderstr. 74"
+  address: Lehderstr. 74
   city: Berlin
   region: Berlin
   country: DE
@@ -20,8 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Nonprofit presenting improvised music, free jazz, new music, performance
-      and dance; hosts the Kühlspot Open Session for improvisers.
+    evidence: Nonprofit presenting improvised music, free jazz, new music, performance and
+      dance; hosts the Kühlspot Open Session for improvisers.
     sources:
     - https://www.europejazz.net/club/k%C3%BChlspot-social-club
     - https://field-notes.berlin/en/resources/scene/kuehlspot-social-club-0
@@ -37,8 +37,7 @@ signals:
     - https://www.europejazz.net/club/k%C3%BChlspot-social-club
   self_description:
     value: 4
-    evidence: Presents improvised music, free jazz, neue Musik, performance art and
-      dance.
+    evidence: Presents improvised music, free jazz, neue Musik, performance art and dance.
     sources:
     - https://miz.org/de/institutionen/kuehlspot-social-club-i38754
   operating_model:
@@ -67,4 +66,12 @@ provenance:
   - https://miz.org/de/institutionen/kuehlspot-social-club-i38754
   - https://www.europejazz.net/club/k%C3%BChlspot-social-club
   needs_human_review: false
-notes: "Weißensee nonprofit presenting ~200 improvised-music/free-jazz concerts a year, opened 2013."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4104f19bb35e211a
+  crawl_http_status: 200
+notes: Weißensee nonprofit presenting ~200 improvised-music/free-jazz concerts a year, opened
+  2013.

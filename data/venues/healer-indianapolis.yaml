@@ -4,7 +4,7 @@ aliases:
 - Healer DIY
 status: active
 location:
-  address: "3631 E Raymond St"
+  address: 3631 E Raymond St
   city: Indianapolis
   region: IN
   country: US
@@ -19,28 +19,32 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: "Immersive DIY art-and-music venue (a converted office building) presenting experimental and adventurous music across genres; no single named improv series, but a hub for the city's experimental/DIY acts."
+    evidence: Immersive DIY art-and-music venue (a converted office building) presenting experimental
+      and adventurous music across genres; no single named improv series, but a hub for the
+      city's experimental/DIY acts.
     sources:
     - https://www.atlasobscura.com/places/healer-2
     - https://do317.com/venues/healer
   show_frequency:
     value: 3
-    evidence: "All-ages venue with shows most nights of the week, indoors and outdoors."
+    evidence: All-ages venue with shows most nights of the week, indoors and outdoors.
     sources:
     - https://www.indieonthemove.com/venues/healer-indianapolis-indiana
   artist_roster:
     value: 3
-    evidence: "Programs experimental, noise and adventurous underground acts alongside other genres."
+    evidence: Programs experimental, noise and adventurous underground acts alongside other
+      genres.
     sources:
     - https://indytoday.6amcity.com/city-guide/live/live-music-venues-indianapolis-in
   self_description:
     value: 3
-    evidence: "Describes itself as an immersive DIY art and music venue and 'incubator for creating and engaging with art of all kinds.'"
+    evidence: Describes itself as an immersive DIY art and music venue and 'incubator for
+      creating and engaging with art of all kinds.'
     sources:
     - https://www.atlasobscura.com/places/healer-2
   operating_model:
     value: 4
-    evidence: "DIY, artist-run all-ages venue."
+    evidence: DIY, artist-run all-ages venue.
     sources:
     - https://www.instagram.com/healerdiy/
   community_reputation:
@@ -62,4 +66,13 @@ provenance:
   - https://www.atlasobscura.com/places/healer-2
   - https://do317.com/venues/healer
   needs_human_review: true
-notes: "NEEDS REVIEW: DIY Indianapolis art/music venue that hosts experimental and adventurous music; confirm how much of the calendar is improv/experimental vs. broader indie/DIY."
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 400
+    detail: HTTP 400
+  last_crawled: '2026-08-17'
+  last_content_hash: dac38bcd4ec73989
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: DIY Indianapolis art/music venue that hosts experimental and adventurous
+  music; confirm how much of the calendar is improv/experimental vs. broader indie/DIY.'

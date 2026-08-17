@@ -5,7 +5,7 @@ aliases:
 - ochiai soup
 status: active
 location:
-  address: "Nakaochiai, Shinjuku-ku (basement below a public bath)"
+  address: Nakaochiai, Shinjuku-ku (basement below a public bath)
   city: Tokyo
   region: Tokyo
   country: JP
@@ -20,8 +20,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Independent venue run by electronic musician Nobuki Nishiyama devoted
-      to experimental music (drone, noise, improv, techno).
+    evidence: Independent venue run by electronic musician Nobuki Nishiyama devoted to experimental
+      music (drone, noise, improv, techno).
     sources:
     - https://ra.co/clubs/36596
     - https://japanvibe.net/soup/
@@ -32,15 +32,15 @@ signals:
     - https://www.timeout.com/tokyo/music/soup
   artist_roster:
     value: 4
-    evidence: A who's-who of the Japanese noise and experimental scene, documented
-      via its pandemic-era Bandcamp live releases.
+    evidence: A who's-who of the Japanese noise and experimental scene, documented via its
+      pandemic-era Bandcamp live releases.
     sources:
     - https://japanvibe.net/soup/
     - https://ochiaisoup.bandcamp.com/
   self_description:
     value: 4
-    evidence: Known for hosting mostly experimental acts; identifies as an experimental
-      music venue.
+    evidence: Known for hosting mostly experimental acts; identifies as an experimental music
+      venue.
     sources:
     - https://www.timeout.com/tokyo/music/soup
   operating_model:
@@ -70,5 +70,12 @@ provenance:
   - https://japanvibe.net/soup/
   - https://www.timeout.com/tokyo/music/soup
   needs_human_review: false
-notes: Basement experimental venue in Ochiai run by musician Nobuki Nishiyama; drone,
-  noise and improvised music.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4c732258f77c9b3d
+  crawl_http_status: 200
+notes: Basement experimental venue in Ochiai run by musician Nobuki Nishiyama; drone, noise
+  and improvised music.

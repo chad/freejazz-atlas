@@ -4,7 +4,7 @@ aliases:
 - b-flat Acoustic Music & Jazzclub
 status: active
 location:
-  address: "Dircksenstr. 40"
+  address: Dircksenstr. 40
   city: Berlin
   region: Berlin
   country: DE
@@ -19,21 +19,21 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Broad acoustic-music and jazz club (jazz, soul, swing, bebop, funk);
-      free and experimental jazz appears but is not the venue's focus.
+    evidence: Broad acoustic-music and jazz club (jazz, soul, swing, bebop, funk); free and
+      experimental jazz appears but is not the venue's focus.
     sources:
     - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
     - https://b-flat-berlin.de/programm
   show_frequency:
     value: 2
-    evidence: Open nightly, but adventurous/free-jazz programming is occasional within
-      a wide-ranging jazz calendar.
+    evidence: Open nightly, but adventurous/free-jazz programming is occasional within a wide-ranging
+      jazz calendar.
     sources:
     - https://b-flat-berlin.de/programm
   artist_roster:
     value: 2
-    evidence: Mostly mainstream and modern jazz; some free-jazz figures such as Aki
-      Takase and Alexander von Schlippenbach have played.
+    evidence: Mostly mainstream and modern jazz; some free-jazz figures such as Aki Takase
+      and Alexander von Schlippenbach have played.
     sources:
     - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
   self_description:
@@ -67,4 +67,12 @@ provenance:
   - https://b-flat-berlin.de/
   - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
   needs_human_review: false
-notes: "Mainstream Berlin jazz club that programs free/experimental jazz occasionally; supportive rather than dedicated."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 767d79fa4fa0cd6b
+  crawl_http_status: 200
+notes: Mainstream Berlin jazz club that programs free/experimental jazz occasionally; supportive
+  rather than dedicated.

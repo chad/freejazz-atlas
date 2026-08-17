@@ -4,7 +4,7 @@ aliases:
 - AngelicA
 status: active
 location:
-  address: "Teatro San Leonardo, Via San Vitale 63"
+  address: Teatro San Leonardo, Via San Vitale 63
   city: Bologna
   region: Emilia-Romagna
   country: IT
@@ -18,9 +18,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: International music festival founded 1991, focused on the most radical and
-      experimental expressions of contemporary music; electronics, improvisation, minimalism,
-      avant-garde, drone and contemporary jazz.
+    evidence: International music festival founded 1991, focused on the most radical and experimental
+      expressions of contemporary music; electronics, improvisation, minimalism, avant-garde,
+      drone and contemporary jazz.
     sources:
     - https://it.wikipedia.org/wiki/AngelicA_-_festival_internazionale_di_musica
     - https://www.bolognawelcome.com/en/events/festivals/angelica-festival-internazionale-di-musica-en
@@ -69,4 +69,12 @@ provenance:
   - https://it.wikipedia.org/wiki/AngelicA_-_festival_internazionale_di_musica
   - https://aaa-angelica.com/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://aaa-angelica.com/aaa/
+  last_crawled: '2026-08-17'
+  last_content_hash: 3211d91fece7e584
+  crawl_http_status: 200
 notes: Long-running Bologna experimental/research music festival, based at Teatro San Leonardo.

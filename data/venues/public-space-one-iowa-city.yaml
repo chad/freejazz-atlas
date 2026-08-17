@@ -4,7 +4,7 @@ aliases:
 - PS1
 status: active
 location:
-  address: "229 N Gilbert St"
+  address: 229 N Gilbert St
   city: Iowa City
   region: IA
   country: US
@@ -19,33 +19,39 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "Artist-led nonprofit contemporary art center that co-presents experimental/improvised music, including with Feed Me Weird Things and the Witching Hour festival (e.g., Nakatani Gong Orchestra)."
+    evidence: Artist-led nonprofit contemporary art center that co-presents experimental/improvised
+      music, including with Feed Me Weird Things and the Witching Hour festival (e.g., Nakatani
+      Gong Orchestra).
     sources:
     - https://www.publicspaceone.com/events
     - https://downtowniowacity.com/event/witching-hour-presents-nakatani-gong-orchestra/
   show_frequency:
     value: 2
-    evidence: "Experimental music appears periodically within a broad visual/literary/media-arts program."
+    evidence: Experimental music appears periodically within a broad visual/literary/media-arts
+      program.
     sources:
     - https://www.publicspaceone.com/events
   artist_roster:
     value: 3
-    evidence: "Co-presents avant-garde/experimental touring artists (e.g., Nakatani Gong Orchestra, Eve Maret via Witching Hour)."
+    evidence: Co-presents avant-garde/experimental touring artists (e.g., Nakatani Gong Orchestra,
+      Eve Maret via Witching Hour).
     sources:
     - https://downtowniowacity.com/event/witching-hour-presents-nakatani-gong-orchestra/
   self_description:
     value: 4
-    evidence: "Artist-led, community-driven nonprofit contemporary art center providing an independent space for making and presenting art."
+    evidence: Artist-led, community-driven nonprofit contemporary art center providing an
+      independent space for making and presenting art.
     sources:
     - https://www.publicspaceone.com/visit
   operating_model:
     value: 5
-    evidence: "Artist-led nonprofit (founded 2002) across three historic houses; includes the Center for Afrofuturist Studies and a Media Arts Co-op."
+    evidence: Artist-led nonprofit (founded 2002) across three historic houses; includes the
+      Center for Afrofuturist Studies and a Media Arts Co-op.
     sources:
     - https://www.publicspaceone.com/visit
   community_reputation:
     value: 3
-    evidence: "Long-standing anchor of Iowa City's independent/experimental arts scene."
+    evidence: Long-standing anchor of Iowa City's independent/experimental arts scene.
     sources:
     - https://downtowniowacity.com/listings/public-space-one/
   listening_room:
@@ -63,4 +69,12 @@ provenance:
   - https://www.publicspaceone.com/events
   - https://www.publicspaceone.com/visit
   needs_human_review: false
-notes: "Iowa City artist-led nonprofit; experimental/improvised music via its own events and co-presentations with Feed Me Weird Things and Witching Hour."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4ee62f6c73dc5033
+  crawl_http_status: 200
+notes: Iowa City artist-led nonprofit; experimental/improvised music via its own events and
+  co-presentations with Feed Me Weird Things and Witching Hour.

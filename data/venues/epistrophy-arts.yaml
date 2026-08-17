@@ -66,4 +66,11 @@ provenance:
   - https://www.furious.com/perfect/epistrophyarts.html
   - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 40ed84a00e11a5d5
+  crawl_http_status: 403
 notes: Presenter; books into Austin rooms such as the Museum of Human Achievement.

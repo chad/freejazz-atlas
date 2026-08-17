@@ -3,7 +3,7 @@ name: The Bridge Miami
 aliases: []
 status: active
 location:
-  address: "4220 NW 7th Ave"
+  address: 4220 NW 7th Ave
   city: Miami
   region: FL
   country: US
@@ -25,8 +25,8 @@ signals:
     - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
   show_frequency:
     value: 2
-    evidence: Hosts periodic experimental performances and studio sessions rather than a
-      high-frequency series.
+    evidence: Hosts periodic experimental performances and studio sessions rather than a high-frequency
+      series.
     sources:
     - https://www.thebridgemiaminpo.org/
   artist_roster:
@@ -37,8 +37,8 @@ signals:
     - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
   self_description:
     value: 4
-    evidence: "Describes itself as a place where Miami's creative community presents experimental\
-      \ and avant-garde happenings."
+    evidence: Describes itself as a place where Miami's creative community presents experimental
+      and avant-garde happenings.
     sources:
     - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
     - https://www.thebridgemiaminpo.org/background
@@ -72,5 +72,12 @@ provenance:
   - https://www.artburstmiami.com/blog/remnant-miami-avant-garde-trio-of-miamis-edgiest-creators
   - https://www.miaminewtimes.com/music/the-bridge-to-host-splashy-fundraiser-wet-to-celebrate-knight-arts-grant-10645679
   needs_human_review: true
-notes: 'Miami nonprofit arts incubator/venue that hosts experimental and avant-garde music
-  happenings. Frequency of dedicated improv programming not fully verified; needs human review.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: d7f0f056a9fe00c3
+  crawl_http_status: 200
+notes: Miami nonprofit arts incubator/venue that hosts experimental and avant-garde music
+  happenings. Frequency of dedicated improv programming not fully verified; needs human review.

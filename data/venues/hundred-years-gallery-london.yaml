@@ -18,28 +18,26 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Strong commitment to presenting new composed, improvised and experimental
-      music in an excellent acoustic setting; hosts the BRAK Festival of Improvised
-      Music.
+    evidence: Strong commitment to presenting new composed, improvised and experimental music
+      in an excellent acoustic setting; hosts the BRAK Festival of Improvised Music.
     sources:
     - http://hundredyearsgallery.co.uk/about/
     - https://londonjazznews.com/2020/03/04/brak-festival-of-improvised-music-at-the-hundred-years-gallery/
   show_frequency:
     value: 4
-    evidence: Weekly concerts featuring international artists and the UK's most creative
-      musicians.
+    evidence: Weekly concerts featuring international artists and the UK's most creative musicians.
     sources:
     - http://hundredyearsgallery.co.uk/about/
   artist_roster:
     value: 4
-    evidence: A home to numerous players in the improvised and new-music world; welcomes
-      musicians from all over the world.
+    evidence: A home to numerous players in the improvised and new-music world; welcomes musicians
+      from all over the world.
     sources:
     - http://hundredyearsgallery.co.uk/about/
   self_description:
     value: 5
-    evidence: Bastion of and friend to free music and creative thinking; dedicated
-      to improvised and experimental music and sound works.
+    evidence: Bastion of and friend to free music and creative thinking; dedicated to improvised
+      and experimental music and sound works.
     sources:
     - http://hundredyearsgallery.co.uk/about/
   operating_model:
@@ -49,8 +47,8 @@ signals:
     - http://hundredyearsgallery.co.uk/about/
   community_reputation:
     value: 4
-    evidence: Recognized in the London improv scene; LUME and other DIY promoters
-      run regular nights there.
+    evidence: Recognized in the London improv scene; LUME and other DIY promoters run regular
+      nights there.
     sources:
     - https://lumemusic.co.uk/
   listening_room:
@@ -69,4 +67,11 @@ provenance:
   - http://hundredyearsgallery.co.uk/about/
   - https://londonjazznews.com/2020/03/04/brak-festival-of-improvised-music-at-the-hundred-years-gallery/
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 07831c0b9843a65f
+  crawl_http_status: 200
 notes: Small Haggerston gallery with a serious weekly improvised/new-music program.

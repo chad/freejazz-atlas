@@ -36,6 +36,8 @@ argue with — *why* a place is rated the way it is.
   provenance. Artists send small PRs; venues can self-list. See
   [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+**Live at [atlas.run.garden](https://atlas.run.garden).**
+
 ## Quick start
 
 ```bash
@@ -46,13 +48,66 @@ atlas stats                 # corpus size + geographic spread
 atlas list --min 85         # every Cornerstone venue
 atlas list --state IL       # browse by state
 atlas show ibeam-brooklyn   # explainable score breakdown
-atlas build                 # regenerate site/ + DIRECTORY.md
-open site/index.html        # browsable, searchable, self-contained page
+atlas build                 # generate the 514-page static site + DIRECTORY.md
+atlas linkcheck             # is every cited website still reachable?
+atlas verify                # ranked queue: what a human should check next
+open site/index.html
 ```
 
-Browse without any tooling: read [`DIRECTORY.md`](DIRECTORY.md) (generated) or
-open `site/index.html` (a single self-contained page with search, tier/state
-filters, and an expandable "why this score" breakdown per venue).
+Run the web service (adds the submission form + JSON APIs on top of the site):
+
+```bash
+pip install -r requirements.txt
+uvicorn web.server:app --port 8000
+```
+
+Browse without any tooling: read [`DIRECTORY.md`](DIRECTORY.md) (generated), or
+`atlas build --single-page` for a self-contained offline `all-in-one.html`.
+
+## The site is the product surface
+
+`atlas build` emits a real multi-page site — **not** one giant page — because
+geographic coverage is the mission and a single URL is invisible to anyone
+searching for "free jazz in Lisbon":
+
+```
+/                     map + browse (20 KB; the corpus is fetched, not inlined)
+/venues/<id>/         one page per venue: score, seven signals, evidence, sources
+/cities/<slug>/       every venue in a city          (134 pages)
+/regions/<state>/     every venue in a US state       (38 pages)
+/countries/<cc>/      every venue in a country        (24 pages)
+/artists/<id>/        where an artist plays           (44 pages)
+/tiers/<key>/         the rubric's tiers as lists
+/rubric/              how scoring works, incl. what it can't do yet
+/directory.json       the whole corpus in one fetch
+/sitemap.xml          every page, with priorities
+```
+
+Every page carries a canonical URL, meta description, Open Graph tags and
+schema.org JSON-LD (`MusicVenue` with geo + the commitment score as a
+`PropertyValue`; `Person` for artists; `BreadcrumbList` and `ItemList` for
+navigation). Tests assert that every venue has a page, every sitemap URL
+resolves to a file, all JSON-LD parses, and the front page never grows back
+into a 1 MB blob.
+
+## Keeping it honest over time
+
+A venue directory rots — domains lapse, lofts become parking garages. Three
+mechanisms fight that, and none of them may silently change a score:
+
+| Command | What it does |
+|---|---|
+| `atlas linkcheck --write` | Fetches every cited website concurrently and records `ok` / `blocked` / `dead` / `unreachable` in provenance. Deliberately distinguishes **dead** from **blocked**: a 403 from Cloudflare, a 400 from Facebook, or a TLS version mismatch tells us about bot defences, not about the venue. Only 404/410 and DNS failure raise `needs_human_review`. |
+| `atlas recrawl --write` | Re-fetches each source page and compares a content hash — `unchanged` / `changed` / `gone`. A changed page flags the record for re-reading rather than re-scoring it. |
+| `atlas verify` | Ranks the whole corpus by `score impact × uncertainty` (confidence, missing evidence, source count, staleness, link health) so scarce human attention lands where a wrong number does the most damage. |
+
+[`scripts/refresh.sh`](scripts/refresh.sh) chains all of it and commits the
+result, so the corpus keeps its own history. It is meant to run unattended.
+
+The first sweep found and fixed real rot: **18 of 259 cited websites were
+broken**; nine were repaired to verified current URLs (recorded in
+`provenance.url_corrections`), and the rest are flagged in public on the venue
+page itself rather than quietly left to look fine.
 
 ## The ingestion engine
 
@@ -94,45 +149,82 @@ lists/wikis. (See *Status* for what's implemented vs. designed.)
 ## Repository layout
 
 ```
-atlas/            the toolkit (model, rubric, storage, crawler, build, CLI)
+atlas/            the toolkit
+  rubric.py       the weights — single source of truth
+  model.py        schema + validation
+  storage.py      YAML load/save
+  crawl.py        fetch a source -> scored candidate; content-hash re-crawl
+  linkcheck.py    is the cited evidence still reachable?
+  site.py         the multi-page static site generator
+  build.py        orchestration: site + directory.json + DIRECTORY.md
+  cli.py          the `atlas` command
+web/server.py     HTTP service: serves the site, submissions, JSON API
 data/venues/      one YAML file per venue  (canonical, human-editable)
 data/musicians/   one YAML file per musician
 docs/RUBRIC.md    the weighting rubric, with worked anchor examples
 docs/DATA_MODEL.md the schema
 scripts/seed.py   how the seed corpus was generated (calibration record)
-site/             generated browsable directory (gitignored)
-tests/            rubric calibration + validation tests
+scripts/refresh.sh unattended freshness sweep (link health, re-crawl, rebuild)
+deploy/           launchd + systemd units
+.miren/app.toml   deployment config
+site/             generated site (gitignored — rebuild with `atlas build`)
+tests/            rubric calibration, validation, link health, site integrity
 ```
 
 ## Status: what's real vs. stubbed
 
 **Real and working now:**
-- The rubric, calibrated to the four anchors and enforced by tests.
+- The rubric, calibrated to four anchors and enforced by tests.
 - Data model + validation (`atlas validate`), scoring (`atlas score`).
-- A seed corpus of **32 venues across 17 states + DC** and **13 active
-  musicians**, with per-signal evidence, source URLs, and honest confidence.
-- Browsable/queryable outputs: CLI (`list`/`show`/`stats`), `DIRECTORY.md`,
-  `directory.json`, and a self-contained static `site/index.html`.
-- A live crawler (`atlas crawl`) that fetches a real URL and produces a scored,
-  evidence-bearing candidate; and a re-crawl/update mechanism (`atlas recrawl`)
-  with content-hash change detection.
+- A corpus of **263 venues in 134 cities across 24 countries** and **44
+  musicians**, with per-signal evidence, source URLs and honest confidence.
+- A 514-page static site with full crawler metadata, plus `DIRECTORY.md`,
+  `directory.json` and a JSON API.
+- Link health, content-hash change detection, and a ranked verification queue.
+- 32 tests covering rubric calibration, validation, link classification, and
+  site integrity (including HTML escaping of community-supplied text).
 
-**Partial / stubbed (designed, not fully built):**
-- Crawler signal extraction is **keyword-heuristic**, deliberately conservative
-  and capped. It is triage, not judgement; it does not yet parse structured
-  event calendars, identify artists against a roster database, or read Bandcamp
-  / social APIs. The re-crawl scheduler is manual (run it on cron); there is no
-  hosted service yet.
-- Geocoding is by hand (lat/lon in the YAML); no automatic geocoder wired up.
-- Musician "still active this year" is human-maintained; no automatic tour-date
-  ingestion yet.
-- `needs_human_review` entries (~10 venues, several musicians) are known real
-  places included for geographic breadth but **not re-verified this session** —
-  confidence ~0.5 by design.
+**Known limitations — stated plainly:**
+
+- **The corpus is LLM-seeded, not human-verified.** Every record's provenance
+  says `seed:web-research-2026-07`; 77 are flagged `needs_human_review` and 10
+  have no source URLs at all. `atlas verify` exists precisely because this is
+  the project's weakest property. Venue pages say so where it applies.
+- **No event data yet, so 40 of the 100 points are estimates.**
+  `show_frequency` (20) and `artist_roster` (20) are human judgements because
+  the Atlas does not yet ingest calendars. This is the biggest open gap; see
+  below.
+- **The corpus skews high** — 61 cornerstones, only 9 venues below 45 — because
+  the seed pass went looking for good venues. A rubric whose corpus has no
+  negative space is not being tested very hard.
+- Crawler signal extraction is **keyword-heuristic** and capped below
+  "cornerstone" by design: triage, not judgement.
+- Geocoding is by hand. Musician activity is human-maintained. There are no
+  contact/booking fields yet.
 
 **Honesty note.** Curation quality is the entire point. We would rather show a
 low confidence and a note about missing evidence than a confident wrong number.
 Corrections are welcome and expected.
+
+## What's next, in leverage order
+
+1. **Events.** Gigs are the verbs; venues are only the nouns. Platform adapters
+   (WordPress `tribe/events`, Squarespace JSON, Bandcamp, Eventbrite, Dice)
+   cover roughly 40–50% of the corpus with structured data; an LLM pass over
+   calendar HTML covers much of the tail. A probe of 60 venue sites found
+   JSON-LD `Event` on only 4% but a known CMS on 62%, so adapters — not
+   schema.org — are the way in. Once shows are ingested, `show_frequency` and
+   `artist_roster` become *measurements*, and a room that stops programming
+   drifts down on its own.
+2. **Artist graph, 44 → thousands.** Label rosters and festival lineups
+   (MusicBrainz, Bandcamp, Clean Feed, Intakt, Astral Spirits, Catalytic Sound,
+   Trost…) give the roster signal something to match against, and artist↔venue
+   edges then fall out of event data for free.
+3. **Contact + booking fields.** `contact`, `booker`, `pay_model`, PA/piano,
+   accessibility, capacity (only 99/263 have it). This is what makes touring
+   musicians want to maintain the data.
+4. **Verification passes** down the `atlas verify` queue, starting with the 10
+   zero-source records.
 
 ## License
 

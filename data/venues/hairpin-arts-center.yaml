@@ -3,7 +3,7 @@ name: Hairpin Arts Center
 aliases: []
 status: active
 location:
-  address: "2810 N Milwaukee Ave"
+  address: 2810 N Milwaukee Ave
   city: Chicago
   region: IL
   country: US
@@ -18,7 +18,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: "Community art center offering traditional and experimental programming across performing arts (music, theater, spoken word, dance); experimental music appears within a broad calendar rather than a named improv series."
+    evidence: Community art center offering traditional and experimental programming across
+      performing arts (music, theater, spoken word, dance); experimental music appears within
+      a broad calendar rather than a named improv series.
     sources:
     - https://www.hairpinartscenter.org/
     - https://en.wikipedia.org/wiki/Hairpin_Arts_Center
@@ -28,17 +30,17 @@ signals:
     - https://do312.com/venues/hairpin-arts-center
   artist_roster:
     value: 3
-    evidence: "Connects local, national and international artists and arts groups to the community."
+    evidence: Connects local, national and international artists and arts groups to the community.
     sources:
     - https://www.hairpinartscenter.org/
   self_description:
     value: 3
-    evidence: "Describes offering 'a variety of traditional and experimental programming.'"
+    evidence: Describes offering 'a variety of traditional and experimental programming.'
     sources:
     - https://www.choosechicago.com/listing/hairpin-arts-center/
   operating_model:
     value: 5
-    evidence: "Nonprofit community art center in the historic Morris B. Sachs building."
+    evidence: Nonprofit community art center in the historic Morris B. Sachs building.
     sources:
     - https://en.wikipedia.org/wiki/Hairpin_Arts_Center
   community_reputation:
@@ -60,4 +62,12 @@ provenance:
   - https://www.hairpinartscenter.org/
   - https://en.wikipedia.org/wiki/Hairpin_Arts_Center
   needs_human_review: true
-notes: "NEEDS REVIEW: nonprofit Avondale arts center that hosts experimental performances; confirm frequency/share of improv-specific programming."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: f67eb83f27cea48e
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: nonprofit Avondale arts center that hosts experimental performances;
+  confirm frequency/share of improv-specific programming.'

@@ -1,0 +1,31 @@
+name = "avant-atlas"
+
+# The static site is generated from data/*.yaml at build time, inside the
+# container. That keeps generated HTML out of git while guaranteeing the
+# deployed site matches the deployed data exactly.
+[build]
+onbuild = ["python -m atlas.cli build"]
+
+[[env]]
+key = "ATLAS_BASE_URL"
+value = "https://atlas.run.garden"
+description = "Public origin, used for canonical URLs, Open Graph and the sitemap."
+
+[[env]]
+key = "ATLAS_GITHUB_REPO"
+value = "chadwhitacre/freejazz-atlas"
+description = "Repo that venue submissions are filed against as issues."
+
+[[env]]
+key = "ATLAS_GITHUB_TOKEN"
+required = false
+sensitive = true
+description = "Fine-grained token with issues:write. Without it, submissions only reach the local queue file, which does not survive a redeploy."
+
+[services.web]
+command = "uvicorn web.server:app --host 0.0.0.0 --port ${PORT}"
+port = 8000
+
+[services.web.concurrency]
+mode = "auto"
+requests_per_instance = 40

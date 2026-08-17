@@ -57,4 +57,12 @@ provenance:
   source_urls:
   - https://calendar.austinchronicle.com/location/the-museum-of-human-achievement-11832610
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 403
+    detail: HTTP 403
+  last_crawled: '2026-08-17'
+  last_content_hash: 301dc171e5fa8c5f
+  crawl_http_status: 403
 notes: Broad multidisciplinary warehouse; strong experimental strand (No Idea Festival).

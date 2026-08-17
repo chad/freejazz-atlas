@@ -68,6 +68,13 @@ provenance:
   - https://www.dailytarheel.com/article/2024/05/lifestyle-nightlight-closing-legacy
   - https://www.yelp.com/biz/nightlight-bar-and-club-chapel-hill
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 7055821fe27df561
+  crawl_http_status: 200
 notes: CLOSED since 2022; owners were still negotiating with the landlord as of 2024, and
   a portion of its events moved to All Day Records in Carrboro. Scored on its historical profile.
   Needs human review for reopening/current status.

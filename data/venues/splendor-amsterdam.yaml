@@ -18,21 +18,21 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: A club for every kind of music founded by ~50 musicians as a musical
-      laboratory where experimentation knows no bounds; improvisation and new music
-      are core strands alongside classical and jazz.
+    evidence: A club for every kind of music founded by ~50 musicians as a musical laboratory
+      where experimentation knows no bounds; improvisation and new music are core strands
+      alongside classical and jazz.
     sources:
     - https://splendoramsterdam.com/en/about-splendor
   show_frequency:
     value: 4
-    evidence: Building is used by its musician-members 365 days a year, with frequent
-      member concerts.
+    evidence: Building is used by its musician-members 365 days a year, with frequent member
+      concerts.
     sources:
     - https://splendoramsterdam.com/en/about-splendor
   artist_roster:
     value: 4
-    evidence: 54 musician-members spanning contemporary, improvised, jazz and classical
-      practice perform regularly.
+    evidence: 54 musician-members spanning contemporary, improvised, jazz and classical practice
+      perform regularly.
     sources:
     - https://splendoramsterdam.com/en/musicians
   self_description:
@@ -67,5 +67,12 @@ provenance:
   - https://splendoramsterdam.com/en/about-splendor
   - https://splendoramsterdam.com/en/musicians
   needs_human_review: true
-notes: 'NEEDS REVIEW: musician-run collective spanning classical/jazz/improv; confirm
-  share of free/improvised programming.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 3a4835dfcc522064
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: musician-run collective spanning classical/jazz/improv; confirm share
+  of free/improvised programming.'

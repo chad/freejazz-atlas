@@ -12,7 +12,7 @@ location:
 type: presenter
 operating_model: diy_collective
 capacity: null
-website: https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+website: https://www.cityweekly.net/music/avant-garde-for-all-12567817/
 active_this_year: true
 signals:
   dedicated_series:
@@ -63,8 +63,21 @@ provenance:
   added_on: '2026-07-17'
   last_confirmed: 2026-07
   source_urls:
-  - https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+  - https://www.cityweekly.net/music/avant-garde-for-all-12567817/
   needs_human_review: true
+  url_corrections:
+  - 'on': '2026-08-17'
+    from: https://www.cityweekly.net/utah/avant-garde-for-all/Content?oid=12567817
+    to: https://www.cityweekly.net/music/avant-garde-for-all-12567817/
+    why: source article moved; followed the publisher's 308 redirect to the canonical URL
+    by: maintainer:linkcheck-sweep
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: a1f6a6395945ffa0
+  crawl_http_status: 403
 notes: Monthly experimental/outsider-jazz series (est. 2018) in the Salt Lake/Provo area,
   curated by composer Christian Asplund at St. Mary's Episcopal Church. Verified via a single
   City Weekly feature; current-season status should be reconfirmed.

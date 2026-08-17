@@ -4,7 +4,7 @@ aliases:
 - The Bakery
 status: active
 location:
-  address: "825 Warner St SW"
+  address: 825 Warner St SW
   city: Atlanta
   region: GA
   country: US
@@ -36,7 +36,7 @@ signals:
     - https://www.papermag.com/the-bakery-atlanta-diy
   self_description:
     value: 5
-    evidence: "Collective built on a DIY ethos of \"collaboration, experimentation, and play.\""
+    evidence: Collective built on a DIY ethos of "collaboration, experimentation, and play."
     sources:
     - https://thebakeryatlanta.com/
     - https://www.atlantamagazine.com/news-culture-articles/the-bakery-an-inclusive-experimental-arts-center-is-but-a-moment-in-time-and-thats-okay/
@@ -47,8 +47,8 @@ signals:
     - https://thebakeryatlanta.com/
   community_reputation:
     value: 4
-    evidence: Widely covered as a keeper of Atlanta's DIY culture; a supportive space for the
-      creative-music scene.
+    evidence: Widely covered as a keeper of Atlanta's DIY culture; a supportive space for
+      the creative-music scene.
     sources:
     - https://www.papermag.com/the-bakery-atlanta-diy
     - https://daily.bandcamp.com/features/atlanta-jazz-feature
@@ -69,5 +69,13 @@ provenance:
   - https://www.thebakeryatlanta.com/facilities-x-resources
   - https://daily.bandcamp.com/features/atlanta-jazz-feature
   needs_human_review: false
-notes: 'Atlanta DIY arts collective and venue supporting experimental and genre-defying music;
-  cited among the supportive spaces for the city''s creative-music scene.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://www.thebakeryatlanta.com/
+  last_crawled: '2026-08-17'
+  last_content_hash: 28403708bfd817b1
+  crawl_http_status: 200
+notes: Atlanta DIY arts collective and venue supporting experimental and genre-defying music;
+  cited among the supportive spaces for the city's creative-music scene.

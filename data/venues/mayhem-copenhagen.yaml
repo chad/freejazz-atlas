@@ -4,7 +4,7 @@ aliases:
 - Mayhem KBH
 status: active
 location:
-  address: "Ragnhildgade 1"
+  address: Ragnhildgade 1
   city: Copenhagen
   region: Capital Region
   country: DK
@@ -64,5 +64,12 @@ provenance:
   - https://mayhemkbh.dk/
   - https://www.thewire.co.uk/audio/tracks/listen_performances-at-the-mayhem-venue
   needs_human_review: false
-notes: Volunteer-run extreme/experimental music venue on Copenhagen's outskirts; free jazz plus
-  annual Jazzfest and Noisefest. Address/coords approximate.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: f9281fd2fb3af305
+  crawl_http_status: 200
+notes: Volunteer-run extreme/experimental music venue on Copenhagen's outskirts; free jazz
+  plus annual Jazzfest and Noisefest. Address/coords approximate.

@@ -64,5 +64,13 @@ provenance:
   - https://www.buffalorising.com/2019/05/behold-the-future-of-sugar-city/
   - https://buffalonews.com/entertainment/arts-and-theatre/article_a2352299-329b-5ea0-a9f0-b3d4b37e1062.html
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: blocked
+    http: 400
+    detail: HTTP 400
+  last_crawled: '2026-08-17'
+  last_content_hash: ccb688438bf946df
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: DIY all-genre space; confirm current share of free/experimental/improv
   programming and current activity.'

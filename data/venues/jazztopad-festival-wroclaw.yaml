@@ -3,12 +3,12 @@ name: Jazztopad Festival
 aliases: []
 status: active
 location:
-  address: "Narodowe Forum Muzyki, plac Wolności 1"
+  address: Narodowe Forum Muzyki, plac Wolności 1
   city: Wrocław
   region: Lower Silesia
   country: PL
   lat: 51.1075
-  lon: 17.0310
+  lon: 17.031
 type: festival
 operating_model: nonprofit
 capacity: null
@@ -17,15 +17,15 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Over two decades a celebration of improvised music, distinguished by premieres of
-      works commissioned from famous improvisers.
+    evidence: Over two decades a celebration of improvised music, distinguished by premieres
+      of works commissioned from famous improvisers.
     sources:
     - https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival
     - https://www.europejazz.net/festivals/jazztopad
   show_frequency:
     value: 2
-    evidence: Annual November festival at the National Forum of Music, with concerts also in
-      intimate clubs and private apartments.
+    evidence: Annual November festival at the National Forum of Music, with concerts also
+      in intimate clubs and private apartments.
     sources:
     - https://www.europejazz.net/news/22-jazztopad-festival-1423-november-2025
   artist_roster:
@@ -41,8 +41,8 @@ signals:
     - https://wroclawmagazine.com/jazztopad-2025-in-wroclaw/
   operating_model:
     value: 4
-    evidence: Organized by the National Forum of Music (Narodowe Forum Muzyki), a public
-      nonprofit institution.
+    evidence: Organized by the National Forum of Music (Narodowe Forum Muzyki), a public nonprofit
+      institution.
     sources:
     - https://www.europejazz.net/festivals/jazztopad
   community_reputation:
@@ -65,5 +65,12 @@ provenance:
   - https://www.nfm.wroclaw.pl/en/festivals/jazztopad-festival
   - https://www.europejazz.net/festivals/jazztopad
   needs_human_review: false
-notes: Wrocław's improvised-music festival built on commissioned premieres, hosted by the National
-  Forum of Music.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: a66342a4cdb57bdc
+  crawl_http_status: 200
+notes: Wrocław's improvised-music festival built on commissioned premieres, hosted by the
+  National Forum of Music.

@@ -4,10 +4,10 @@ aliases:
 - Kafe Haerverk
 status: active
 location:
-  address: "Hausmanns gate 34"
+  address: Hausmanns gate 34
   city: Oslo
   region: Oslo
-  country: "NO"
+  country: 'NO'
   lat: 59.9188
   lon: 10.7565
 type: bar_club
@@ -30,8 +30,8 @@ signals:
     - https://www.kafe-haerverk.com/
   artist_roster:
     value: 4
-    evidence: Experimental hub hosting free jazz, noise and improvisers; home to the Blow Out
-      improv series.
+    evidence: Experimental hub hosting free jazz, noise and improvisers; home to the Blow
+      Out improv series.
     sources:
     - https://monoskop.org/Kaf%C3%A9_H%C3%A6rverk
     - https://www.facebook.com/blowoutoslo/
@@ -68,5 +68,12 @@ provenance:
   - https://monoskop.org/Kaf%C3%A9_H%C3%A6rverk
   - https://www.facebook.com/blowoutoslo/
   needs_human_review: false
-notes: Experimental/independent music bar in central Oslo; hosts the Blow Out improv series and a
-  biweekly improvised music night.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: e4b5446d2b169da1
+  crawl_http_status: 200
+notes: Experimental/independent music bar in central Oslo; hosts the Blow Out improv series
+  and a biweekly improvised music night.

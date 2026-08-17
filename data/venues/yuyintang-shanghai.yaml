@@ -6,7 +6,7 @@ aliases:
 - Yuyintang Park
 status: active
 location:
-  address: "Changning District"
+  address: Changning District
   city: Shanghai
   region: Shanghai
   country: CN
@@ -21,15 +21,15 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Shanghai's oldest underground live house (est. 2004), rock/punk-focused
-      but a host for experimental and improvised nights (e.g. NoiShanghai).
+    evidence: Shanghai's oldest underground live house (est. 2004), rock/punk-focused but
+      a host for experimental and improvised nights (e.g. NoiShanghai).
     sources:
     - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
     - https://archive.org/details/noishanghai_vi
   show_frequency:
     value: 2
-    evidence: Gigs most weekends; improvised/experimental events are occasional within
-      a rock-led program.
+    evidence: Gigs most weekends; improvised/experimental events are occasional within a rock-led
+      program.
     sources:
     - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
   artist_roster:
@@ -39,8 +39,8 @@ signals:
     - https://archive.org/details/noishanghai_vi
   self_description:
     value: 2
-    evidence: Presents as a grassroots underground live house for Shanghai/Chinese
-      rock, open to experimental acts.
+    evidence: Presents as a grassroots underground live house for Shanghai/Chinese rock, open
+      to experimental acts.
     sources:
     - https://www.smartshanghai.com/venue/2002/Yuyintang_shanghai
   operating_model:
@@ -70,5 +70,12 @@ provenance:
   - https://www.smartshanghai.com/venue/15069/yuyintang_park
   - https://archive.org/details/noishanghai_vi
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 1fcc41af1f4fa2ed
+  crawl_http_status: 200
 notes: Shanghai's oldest underground live house (est. 2004); rock-led but hosts occasional
   experimental/improv/noise events. Free/avant is secondary to the main program.

@@ -19,28 +19,28 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Artist-run large improvising ensemble that presents the annual GIOfest
-      free-improvisation festival (at CCA Glasgow) plus workshops and monthly sessions.
+    evidence: Artist-run large improvising ensemble that presents the annual GIOfest free-improvisation
+      festival (at CCA Glasgow) plus workshops and monthly sessions.
     sources:
     - https://www.glasgowimprovisersorchestra.com/about/
     - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giofest-xii
   show_frequency:
     value: 3
-    evidence: Annual festival plus ongoing projects, sessions and GIObabies workshops
-      through the year.
+    evidence: Annual festival plus ongoing projects, sessions and GIObabies workshops through
+      the year.
     sources:
     - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giobabies-music-workshop
   artist_roster:
     value: 5
-    evidence: Draws on free-improvisation, jazz and experimental musicians; collaborates
-      with figures such as Barry Guy and Douglas R. Ewart.
+    evidence: Draws on free-improvisation, jazz and experimental musicians; collaborates with
+      figures such as Barry Guy and Douglas R. Ewart.
     sources:
     - https://glasgowimprovisersorchestra.bandcamp.com/track/improvisation-gio
     - https://iceorg.org/events/2024/giofest-douglas-r-ewart
   self_description:
     value: 5
-    evidence: Devoted to exploring improvised music, from free improvisation to graphic
-      scores and telematic performance.
+    evidence: Devoted to exploring improvised music, from free improvisation to graphic scores
+      and telematic performance.
     sources:
     - https://www.glasgowimprovisersorchestra.com/about/
   operating_model:
@@ -69,5 +69,12 @@ provenance:
   - https://www.glasgowimprovisersorchestra.com/about/
   - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giofest-xii
   needs_human_review: true
-notes: 'NEEDS REVIEW: an artist-run orchestra/presenter rather than a fixed venue;
-  GIOfest is hosted at CCA Glasgow. Coordinates are the CCA.'
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: b905123f46943f6d
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: an artist-run orchestra/presenter rather than a fixed venue; GIOfest
+  is hosted at CCA Glasgow. Coordinates are the CCA.'

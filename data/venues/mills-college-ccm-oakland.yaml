@@ -6,7 +6,7 @@ aliases:
 - Littlefield Concert Hall
 status: active
 location:
-  address: "5000 MacArthur Blvd"
+  address: 5000 MacArthur Blvd
   city: Oakland
   region: CA
   country: US
@@ -21,16 +21,15 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: The Mills Music Now series and the historic Center for Contemporary Music
-      celebrate the campus's experimental-music tradition, spanning electronic, contemporary
-      and improvised work.
+    evidence: The Mills Music Now series and the historic Center for Contemporary Music celebrate
+      the campus's experimental-music tradition, spanning electronic, contemporary and improvised
+      work.
     sources:
     - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
     - https://performingarts.oakland.northeastern.edu/center-for-contemporary-music/
   show_frequency:
     value: 3
-    evidence: Seasonal concert series with regular Mills Music Now events open to the
-      public.
+    evidence: Seasonal concert series with regular Mills Music Now events open to the public.
     sources:
     - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
   artist_roster:
@@ -46,14 +45,13 @@ signals:
     - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
   operating_model:
     value: 4
-    evidence: University-run center (Mills College, now Mills at Northeastern University
-      Oakland).
+    evidence: University-run center (Mills College, now Mills at Northeastern University Oakland).
     sources:
     - https://performingarts.oakland.northeastern.edu/center-for-contemporary-music/
   community_reputation:
     value: 4
-    evidence: Hailed as one of the "gems of Bay Area culture"; CCM is a historic node
-      of American experimental and electronic music.
+    evidence: Hailed as one of the "gems of Bay Area culture"; CCM is a historic node of American
+      experimental and electronic music.
     sources:
     - https://cnmat.berkeley.edu/legacy-venues/center-contemporary-music-mills-college
   listening_room:
@@ -73,5 +71,12 @@ provenance:
   - https://performingarts.oakland.northeastern.edu/programs/mills-music-now/
   - https://cnmat.berkeley.edu/legacy-venues/center-contemporary-music-mills-college
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 6d8cd9427b490e99
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: historic Mills CCM now operates under Northeastern University Oakland;
   confirm current public concert cadence and programming post-transition.'

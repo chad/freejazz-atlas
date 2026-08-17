@@ -4,7 +4,7 @@ aliases:
 - Automata Arts
 status: active
 location:
-  address: "504 Chung King Ct"
+  address: 504 Chung King Ct
   city: Los Angeles
   region: CA
   country: US
@@ -19,9 +19,9 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 2
-    evidence: Nonprofit storefront focused on experimental film and puppet theatre that
-      also presents experimental/new music and sound performances; music is secondary
-      to its film/puppetry core.
+    evidence: Nonprofit storefront focused on experimental film and puppet theatre that also
+      presents experimental/new music and sound performances; music is secondary to its film/puppetry
+      core.
     sources:
     - http://www.automata-la.org/
     - https://arts.ca.gov/grantee/automata-arts-2/
@@ -69,5 +69,12 @@ provenance:
   - https://arts.ca.gov/grantee/automata-arts-2/
   - https://wilhelmfamilyfoundation.org/grantee/automata-arts/
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: c25878f761a0a122
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: Chinatown nonprofit centered on experimental film/puppetry that also
   hosts experimental music; confirm the frequency of music/improv events.'

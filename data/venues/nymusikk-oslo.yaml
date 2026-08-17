@@ -6,9 +6,9 @@ status: active
 location:
   city: Oslo
   region: Oslo
-  country: "NO"
-  lat: 59.9110
-  lon: 10.7460
+  country: 'NO'
+  lat: 59.911
+  lon: 10.746
 type: presenter
 operating_model: nonprofit
 capacity: null
@@ -17,15 +17,15 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Norway's centre for experimental music and sound art; commissions, produces and
-      presents new music, and runs the Only Connect Festival of Sound.
+    evidence: Norway's centre for experimental music and sound art; commissions, produces
+      and presents new music, and runs the Only Connect Festival of Sound.
     sources:
     - https://nymusikk.no/en/om-nymusikk-english
     - https://monoskop.org/NyMusikk
   show_frequency:
     value: 3
-    evidence: Arranges concerts, festivals, screenings, installations and lectures across Oslo
-      and eleven regional branches.
+    evidence: Arranges concerts, festivals, screenings, installations and lectures across
+      Oslo and eleven regional branches.
     sources:
     - https://nymusikk.no/en/om-nymusikk-english
   artist_roster:
@@ -46,8 +46,8 @@ signals:
     - https://nymusikk.no/en/om-nymusikk-english
   community_reputation:
     value: 4
-    evidence: Longstanding pillar of Norwegian new/experimental music; runs Only Connect and Off
-      The Page festivals.
+    evidence: Longstanding pillar of Norwegian new/experimental music; runs Only Connect and
+      Off The Page festivals.
     sources:
     - https://monoskop.org/NyMusikk
   listening_room:
@@ -65,5 +65,12 @@ provenance:
   - https://nymusikk.no/en/om-nymusikk-english
   - https://monoskop.org/NyMusikk
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 5c92e2a576022dc8
+  crawl_http_status: 200
 notes: Presenter/organisation rather than a fixed room; produces experimental music and sound-art
   events across Oslo (and nationally). Coordinates are Oslo city-centre approximate.

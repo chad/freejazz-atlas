@@ -4,7 +4,7 @@ aliases:
 - Division Avenue Arts Collective
 status: active
 location:
-  address: "1944 S Division Ave"
+  address: 1944 S Division Ave
   city: Grand Rapids
   region: MI
   country: US
@@ -19,33 +19,35 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "All-ages, volunteer-run community space hosting concerts, improv sessions, listening parties and workshops in Grand Rapids' Avenue for the Arts district."
+    evidence: All-ages, volunteer-run community space hosting concerts, improv sessions, listening
+      parties and workshops in Grand Rapids' Avenue for the Arts district.
     sources:
     - https://www.thedaac.org/about
     - https://localspins.com/the-daac-in-grand-rapids-returns-to-its-s-division-avenue-roots-in-larger-inclusive-space/
   show_frequency:
     value: 3
-    evidence: "Regular concerts and improv sessions among its ongoing programming."
+    evidence: Regular concerts and improv sessions among its ongoing programming.
     sources:
     - https://www.thedaac.org/
   artist_roster:
     value: 3
-    evidence: "DIY/underground and experimental acts across a wide range of styles."
+    evidence: DIY/underground and experimental acts across a wide range of styles.
     sources:
     - https://www.indieonthemove.com/venues/the-daac-grand-rapids-michigan
   self_description:
     value: 3
-    evidence: "Committed to being non-commercial and independent, fostering a 'do-it-together' participatory culture."
+    evidence: Committed to being non-commercial and independent, fostering a 'do-it-together'
+      participatory culture.
     sources:
     - https://www.thedaac.org/about
   operating_model:
     value: 5
-    evidence: "Not-for-profit, all-ages, volunteer-run collective (founded 2003)."
+    evidence: Not-for-profit, all-ages, volunteer-run collective (founded 2003).
     sources:
     - https://localwiki.org/gr/Division_Avenue_Arts_Collective
   community_reputation:
     value: 3
-    evidence: "Long-standing anchor of the Grand Rapids DIY/all-ages scene."
+    evidence: Long-standing anchor of the Grand Rapids DIY/all-ages scene.
     sources:
     - https://localspins.com/the-daac-is-back-grand-rapids-art-collective-finally-finds-a-new-home-local-spins/
   listening_room:
@@ -63,4 +65,12 @@ provenance:
   - https://www.thedaac.org/about
   - https://localspins.com/the-daac-in-grand-rapids-returns-to-its-s-division-avenue-roots-in-larger-inclusive-space/
   needs_human_review: true
-notes: "NEEDS REVIEW: volunteer-run DIY collective that hosts improv sessions and experimental shows; confirm current cadence of improv-specific programming at the new S. Division location."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 2c72c503b599a8c6
+  crawl_http_status: 200
+notes: 'NEEDS REVIEW: volunteer-run DIY collective that hosts improv sessions and experimental
+  shows; confirm current cadence of improv-specific programming at the new S. Division location.'

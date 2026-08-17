@@ -57,4 +57,11 @@ provenance:
   source_urls:
   - https://en.wikipedia.org/wiki/Roulette_Intermedium
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 646fae155669f2fd
+  crawl_http_status: 200
 notes: Larger flagship experimental-music presenter.

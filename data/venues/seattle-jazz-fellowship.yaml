@@ -70,5 +70,12 @@ provenance:
   - https://seattlejazzfellowship.org/jazz-night
   - https://www.knkx.org/jazz/2024-01-26/seattle-jazz-fellowship-pioneer-square-pop-up-new-venue-globe-building
   needs_human_review: false
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8f7bf8bb96409a5a
+  crawl_http_status: 200
 notes: Nonprofit jazz room in Pioneer Square's Globe Building since early 2024. Leans jazz-forward
   but hosts regular free-improvisation sets.

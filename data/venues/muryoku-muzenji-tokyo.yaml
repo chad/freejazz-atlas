@@ -4,7 +4,7 @@ aliases:
 - 無力無善寺
 status: active
 location:
-  address: "Under the Chuo Line tracks, Koenji, Suginami-ku"
+  address: Under the Chuo Line tracks, Koenji, Suginami-ku
   city: Tokyo
   region: Tokyo
   country: JP
@@ -19,8 +19,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 4
-    evidence: Small live house under the railway tracks known as a specialized venue
-      for experimental and noise music (live venue since 2002).
+    evidence: Small live house under the railway tracks known as a specialized venue for experimental
+      and noise music (live venue since 2002).
     sources:
     - https://www.timeout.com/tokyo/music/muryoku-muzenji
   show_frequency:
@@ -31,8 +31,7 @@ signals:
     - https://www.setlist.fm/venue/muryoku-muzenji-tokyo-japan-63d22e2f.html
   artist_roster:
     value: 3
-    evidence: Underground noise and free-improv acts; a stop for Koenji's stranger
-      gigs.
+    evidence: Underground noise and free-improv acts; a stop for Koenji's stranger gigs.
     sources:
     - https://www.timeout.com/tokyo/music/best-gig-spots-in-koenji
   self_description:
@@ -47,14 +46,13 @@ signals:
     - https://www.timeout.com/tokyo/music/muryoku-muzenji
   community_reputation:
     value: 3
-    evidence: A fixture of Koenji's experimental/noise scene, cited in Tokyo venue
-      guides.
+    evidence: A fixture of Koenji's experimental/noise scene, cited in Tokyo venue guides.
     sources:
     - https://www.timeout.com/tokyo/music/best-gig-spots-in-koenji
   listening_room:
     value: 2
-    evidence: Cramped, casual space with sofas and pillows rather than an attentive
-      seated listening room.
+    evidence: Cramped, casual space with sofas and pillows rather than an attentive seated
+      listening room.
     sources:
     - https://www.timeout.com/tokyo/music/muryoku-muzenji
 score: 72
@@ -69,5 +67,12 @@ provenance:
   - https://www.tokyogigguide.com/en/gigs/venue/101
   - https://www.timeout.com/tokyo/music/best-gig-spots-in-koenji
   needs_human_review: false
-notes: Tiny experimental/noise live house under the Chuo Line tracks in Koenji (live
-  venue since 2002).
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: a7d3bca5d4e6b536
+  crawl_http_status: 200
+notes: Tiny experimental/noise live house under the Chuo Line tracks in Koenji (live venue
+  since 2002).

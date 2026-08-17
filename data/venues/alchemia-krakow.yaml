@@ -3,13 +3,13 @@ name: Alchemia
 aliases: []
 status: active
 location:
-  address: "Estery 5"
+  address: Estery 5
   city: Kraków
   region: Lesser Poland
   country: PL
   neighborhood: Kazimierz
   lat: 50.0517
-  lon: 19.9440
+  lon: 19.944
 type: bar_club
 operating_model: artist_run
 capacity: 100
@@ -18,8 +18,8 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: Beating heart of experimental jazz in Kazimierz since 1999; birthplace and home of
-      the Krakow Jazz Autumn festival focused exclusively on contemporary improvised music.
+    evidence: Beating heart of experimental jazz in Kazimierz since 1999; birthplace and home
+      of the Krakow Jazz Autumn festival focused exclusively on contemporary improvised music.
     sources:
     - https://en.alchemia.com.pl/
     - https://en.kjj-festiwal.pl/o-festiwalu/
@@ -31,8 +31,8 @@ signals:
     - https://en.kjj-festiwal.pl/o-festiwalu/
   artist_roster:
     value: 5
-    evidence: Welcomes the greatest artists of contemporary improvised music, in cooperation with
-      Not Two Records.
+    evidence: Welcomes the greatest artists of contemporary improvised music, in cooperation
+      with Not Two Records.
     sources:
     - https://www.europejazz.net/festival/krakow-jazz-autumn
     - https://en.alchemia.com.pl/
@@ -68,4 +68,12 @@ provenance:
   - https://en.kjj-festiwal.pl/o-festiwalu/
   - https://www.europejazz.net/festival/krakow-jazz-autumn
   needs_human_review: false
-notes: Kazimierz club at the center of Krakow's improvised-music scene; home of Krakow Jazz Autumn.
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4174ff25563a2448
+  crawl_http_status: 200
+notes: Kazimierz club at the center of Krakow's improvised-music scene; home of Krakow Jazz
+  Autumn.

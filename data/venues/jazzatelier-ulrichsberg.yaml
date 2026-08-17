@@ -5,7 +5,7 @@ aliases:
 - Kaleidophon
 status: active
 location:
-  address: "Badergasse 2"
+  address: Badergasse 2
   city: Ulrichsberg
   region: Upper Austria
   country: AT
@@ -19,25 +19,25 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: "Organizes the annual Ulrichsberger Kaleidophon festival for jazz, improvised\
-      \ and contemporary music (since 1986), plus a year-round concert program."
+    evidence: Organizes the annual Ulrichsberger Kaleidophon festival for jazz, improvised
+      and contemporary music (since 1986), plus a year-round concert program.
     sources:
     - https://www.jazzatelier.at/kaleidophon/
     - https://www.festivalfinder.eu/festivals/ulrichsberger-kaleidophon
   show_frequency:
     value: 3
-    evidence: "Annual festival plus regular concerts through the season at the Jazzatelier."
+    evidence: Annual festival plus regular concerts through the season at the Jazzatelier.
     sources:
     - https://www.jazzatelier.at/
   artist_roster:
     value: 5
-    evidence: "Free-improvised jazz and contemporary music, with bands drawn from\
-      \ Vienna, Berlin and Amsterdam among others."
+    evidence: Free-improvised jazz and contemporary music, with bands drawn from Vienna, Berlin
+      and Amsterdam among others.
     sources:
     - https://ukjazznews.com/kaleidophon-festival-2024-in-austria/
   self_description:
     value: 5
-    evidence: "Association devoted to jazz, improvised and contemporary music."
+    evidence: Association devoted to jazz, improvised and contemporary music.
     sources:
     - https://www.jazzatelier.at/
   operating_model:
@@ -66,4 +66,12 @@ provenance:
   - https://www.jazzatelier.at/
   - https://www.jazzatelier.at/kaleidophon/
   needs_human_review: false
-notes: "Upper Austrian association hosting the Kaleidophon festival for free/improvised and contemporary music since 1986."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: bf89cf9856cc1970
+  crawl_http_status: 200
+notes: Upper Austrian association hosting the Kaleidophon festival for free/improvised and
+  contemporary music since 1986.

@@ -55,4 +55,12 @@ provenance:
   source_urls:
   - https://www.exploreminnesota.com/profile/icehouse/4037
   needs_human_review: true
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+    final_url: https://www.icehousempls.com/
+  last_crawled: '2026-08-17'
+  last_content_hash: 4c30609451f98ab4
+  crawl_http_status: 200
 notes: 'NEEDS REVIEW: books some creative music but broad commercial booking.'

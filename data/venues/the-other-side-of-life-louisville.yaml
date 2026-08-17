@@ -3,7 +3,7 @@ name: The Other Side of Life
 aliases: []
 status: active
 location:
-  address: "presents at Louisville venues (e.g. B-Side, 1076 E Washington St)"
+  address: presents at Louisville venues (e.g. B-Side, 1076 E Washington St)
   city: Louisville
   region: KY
   country: US
@@ -36,12 +36,13 @@ signals:
     - https://the-other-side-of-life.com/
   self_description:
     value: 5
-    evidence: "Self-describes as \"independent experimental music and esoterica in Louisville.\""
+    evidence: Self-describes as "independent experimental music and esoterica in Louisville."
     sources:
     - https://the-other-side-of-life.com/
   operating_model:
     value: 3
-    evidence: Sole-proprietor DIY promoter presenting at partner venues rather than a fixed space.
+    evidence: Sole-proprietor DIY promoter presenting at partner venues rather than a fixed
+      space.
     sources:
     - https://the-other-side-of-life.com/about/
   community_reputation:
@@ -65,6 +66,13 @@ provenance:
   - https://the-other-side-of-life.com/
   - https://the-other-side-of-life.com/about/
   needs_human_review: true
-notes: 'Louisville DIY promoter of experimental music and free jazz; active 2008-2015 and relaunched
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 4f55e5b7db9841f1
+  crawl_http_status: 200
+notes: Louisville DIY promoter of experimental music and free jazz; active 2008-2015 and relaunched
   in 2025. Nomadic (presents at B-Side and other venues). Current cadence not fully verified;
-  needs human review.'
+  needs human review.

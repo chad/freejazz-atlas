@@ -3,7 +3,7 @@ name: Canterbury House
 aliases: []
 status: active
 location:
-  address: "721 E Huron St"
+  address: 721 E Huron St
   city: Ann Arbor
   region: MI
   country: US
@@ -13,43 +13,49 @@ location:
 type: presenter
 operating_model: nonprofit
 capacity: null
-website: https://www.canterburyhouse.org/concerts
+website: https://www.canterburyhouse.org/
 active_this_year: true
 signals:
   dedicated_series:
     value: 3
-    evidence: "Student-curated multi-genre concert series drawing on jazz, contemporary classical, electronic and improvised traditions, plus a weekly Tuesday 'Sound & Silence' open improv jam."
+    evidence: Student-curated multi-genre concert series drawing on jazz, contemporary classical,
+      electronic and improvised traditions, plus a weekly Tuesday 'Sound & Silence' open improv
+      jam.
     sources:
     - https://www.canterburyhouse.org/concerts
     - https://pulp.aadl.org/node/642740
   show_frequency:
     value: 3
-    evidence: "1-2 curated concerts per month (Sept-May) plus the weekly Sound & Silence jam."
+    evidence: 1-2 curated concerts per month (Sept-May) plus the weekly Sound & Silence jam.
     sources:
     - https://annarborobserver.com/venue/canterbury-house/
   artist_roster:
     value: 4
-    evidence: "Books regional and internationally known improvisers alongside student and faculty ensembles; recently hosted the Dave Sharp Worlds Quartet."
+    evidence: Books regional and internationally known improvisers alongside student and faculty
+      ensembles; recently hosted the Dave Sharp Worlds Quartet.
     sources:
     - https://pulp.aadl.org/node/642740
   self_description:
     value: 3
-    evidence: "Its concert series is described as one of the treasures of Ann Arbor's music scene, spanning jazz, folk, contemporary classical, electronic and improvised music."
+    evidence: Its concert series is described as one of the treasures of Ann Arbor's music
+      scene, spanning jazz, folk, contemporary classical, electronic and improvised music.
     sources:
     - https://pulp.aadl.org/node/642740
   operating_model:
     value: 4
-    evidence: "Nonprofit campus ministry (Episcopal) with a long-running, largely student-run concert series."
+    evidence: Nonprofit campus ministry (Episcopal) with a long-running, largely student-run
+      concert series.
     sources:
     - https://localwiki.org/ann-arbor/Canterbury_House
   community_reputation:
     value: 3
-    evidence: "Historic Ann Arbor listening space (mid-1960s-70s concert series hosted major artists)."
+    evidence: Historic Ann Arbor listening space (mid-1960s-70s concert series hosted major
+      artists).
     sources:
     - https://localwiki.org/ann-arbor/Canterbury_House
   listening_room:
     value: 4
-    evidence: "Seated concert-series setting."
+    evidence: Seated concert-series setting.
     sources:
     - https://www.canterburyhouse.org/concerts
 score: 67
@@ -60,7 +66,21 @@ provenance:
   added_on: '2026-07-17'
   last_confirmed: 2026-07
   source_urls:
-  - https://www.canterburyhouse.org/concerts
+  - https://www.canterburyhouse.org/
   - https://pulp.aadl.org/node/642740
   needs_human_review: false
-notes: "Ann Arbor campus concert series with a strong improvised/creative-music streak and a weekly open improv jam."
+  url_corrections:
+  - 'on': '2026-08-17'
+    from: https://www.canterburyhouse.org/concerts
+    to: https://www.canterburyhouse.org/
+    why: /concerts path returns 404; site root verified live
+    by: maintainer:linkcheck-sweep
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8a9fc6033e55ca67
+  crawl_http_status: 200
+notes: Ann Arbor campus concert series with a strong improvised/creative-music streak and
+  a weekly open improv jam.

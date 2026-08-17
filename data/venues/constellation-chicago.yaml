@@ -4,7 +4,7 @@ aliases:
 - Constellation Chicago
 status: active
 location:
-  address: "3111 N Western Ave"
+  address: 3111 N Western Ave
   city: Chicago
   region: IL
   country: US
@@ -19,38 +19,45 @@ active_this_year: true
 signals:
   dedicated_series:
     value: 5
-    evidence: "Performing-arts club founded 2013 by drummer Mike Reed with an emphasis on forward-thinking jazz, improvised, experimental and contemporary-classical music; built on the former Viaduct Theater site and described as replacing the Velvet Lounge as a hub of avant-garde jazz."
+    evidence: Performing-arts club founded 2013 by drummer Mike Reed with an emphasis on forward-thinking
+      jazz, improvised, experimental and contemporary-classical music; built on the former
+      Viaduct Theater site and described as replacing the Velvet Lounge as a hub of avant-garde
+      jazz.
     sources:
     - https://constellation-chicago.com/about/
     - https://en.wikipedia.org/wiki/Constellation_(nightclub)
   show_frequency:
     value: 5
-    evidence: "Near-nightly programming of jazz, improvised and new music."
+    evidence: Near-nightly programming of jazz, improvised and new music.
     sources:
     - https://constellation-chicago.com/
   artist_roster:
     value: 5
-    evidence: "Core presenter for Chicago's improvised and experimental music community and touring avant artists."
+    evidence: Core presenter for Chicago's improvised and experimental music community and
+      touring avant artists.
     sources:
     - https://constellation-chicago.com/about/
   self_description:
     value: 5
-    evidence: "Describes itself as devoted to forward-thinking practices in jazz, improvised, experimental and contemporary classical music."
+    evidence: Describes itself as devoted to forward-thinking practices in jazz, improvised,
+      experimental and contemporary classical music.
     sources:
     - https://constellation-chicago.com/about/
   operating_model:
     value: 3
-    evidence: "For-profit performing-arts club, but artist-owned and mission-driven (owner Mike Reed)."
+    evidence: For-profit performing-arts club, but artist-owned and mission-driven (owner
+      Mike Reed).
     sources:
     - https://mikereed-music.com/about
   community_reputation:
     value: 5
-    evidence: "Called 'one of the most important rooms in the city' by the Chicago Tribune; named Best New Music Venue by the Chicago Reader in its first year."
+    evidence: Called 'one of the most important rooms in the city' by the Chicago Tribune;
+      named Best New Music Venue by the Chicago Reader in its first year.
     sources:
     - https://downbeat.com/news/detail/reed-expands-reach-with-constellation
   listening_room:
     value: 5
-    evidence: "Dedicated seated listening room for attentive concerts."
+    evidence: Dedicated seated listening room for attentive concerts.
     sources:
     - https://constellation-chicago.com/
 score: 96
@@ -65,4 +72,12 @@ provenance:
   - https://en.wikipedia.org/wiki/Constellation_(nightclub)
   - https://downbeat.com/news/detail/reed-expands-reach-with-constellation
   needs_human_review: false
-notes: "Cornerstone Chicago venue for jazz, improvised and experimental music; owned/programmed by Mike Reed, who also owns the Hungry Brain."
+  link_check:
+    checked: '2026-08-17'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-17'
+  last_content_hash: 8cef46a1a92d27b4
+  crawl_http_status: 200
+notes: Cornerstone Chicago venue for jazz, improvised and experimental music; owned/programmed
+  by Mike Reed, who also owns the Hungry Brain.
