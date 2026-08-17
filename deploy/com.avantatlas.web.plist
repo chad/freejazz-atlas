@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Avant Atlas web service, running on this machine.
+
+  Serves the full site + API on http://127.0.0.1:8420. This is the local
+  instance: the copy you develop against, the copy that keeps working when the
+  network does not, and the copy whose data is the source of truth for the
+  public deployment.
+
+  Install:
+    cp deploy/com.avantatlas.web.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.avantatlas.web.plist
+  Status / logs:
+    launchctl print gui/$(id -u)/com.avantatlas.web | head -20
+    tail -f /tmp/avant-atlas-web.log
+  Remove:
+    launchctl bootout gui/$(id -u)/com.avantatlas.web
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.avantatlas.web</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/chad/src/freejazz-atlas/.venv/bin/uvicorn</string>
+    <string>web.server:app</string>
+    <string>--host</string>
+    <string>127.0.0.1</string>
+    <string>--port</string>
+    <string>8420</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/chad/src/freejazz-atlas</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>ATLAS_BASE_URL</key>
+    <string>http://127.0.0.1:8420</string>
+    <key>PYTHONUNBUFFERED</key>
+    <string>1</string>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>10</integer>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/avant-atlas-web.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/avant-atlas-web.log</string>
+</dict>
+</plist>

@@ -6,21 +6,36 @@ name = "avant-atlas"
 [build]
 onbuild = ["python -m atlas.cli build"]
 
+# Canonical origin. Every page's <link rel=canonical>, Open Graph URL and
+# sitemap entry is built from this, so it must be a hostname that actually
+# resolves — a canonical pointing at a dead name gets the whole site dropped
+# from search results.
+#
+# atlas.run.garden is the intended home and is already fully wired: the miren
+# route exists, and the nginx server block on the cluster host lists it. The
+# only missing piece is a public A record, and run.garden is Miren, Inc's zone,
+# not ours. When that record exists:
+#   1. set this value to https://atlas.run.garden
+#   2. ssh root@<cluster> 'certbot --nginx -d atlas.run.garden'
+#   3. miren deploy
 [[env]]
 key = "ATLAS_BASE_URL"
-value = "https://atlas.run.garden"
-description = "Public origin, used for canonical URLs, Open Graph and the sitemap."
+value = "https://atlas.freeq.at"
+description = "Public origin for canonical URLs, Open Graph tags and the sitemap."
 
 [[env]]
 key = "ATLAS_GITHUB_REPO"
-value = "chadwhitacre/freejazz-atlas"
+value = "chad/freejazz-atlas"
 description = "Repo that venue submissions are filed against as issues."
 
+# Without a token, submissions only reach the container's local queue file,
+# where a redeploy silently eats them. The service logs a warning at startup
+# when this is unset rather than pretending the queue is durable.
 [[env]]
 key = "ATLAS_GITHUB_TOKEN"
 required = false
 sensitive = true
-description = "Fine-grained token with issues:write. Without it, submissions only reach the local queue file, which does not survive a redeploy."
+description = "Fine-grained token with issues:write, for filing submissions."
 
 [services.web]
 command = "uvicorn web.server:app --host 0.0.0.0 --port ${PORT}"

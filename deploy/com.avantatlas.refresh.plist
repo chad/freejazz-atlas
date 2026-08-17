@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The freshness sweep: link health, source re-crawl, rebuild, commit, redeploy.
+
+  This is the job that makes the Atlas a living thing rather than a snapshot.
+  It runs on this machine — the corpus lives here, git history accumulates here,
+  and the public deployment is refreshed from here — every Monday at 06:15.
+
+  Weekly, not daily, on purpose: the sweep touches ~260 third-party websites,
+  and a directory built on other people's servers should be a considerate guest.
+
+  Install:
+    cp deploy/com.avantatlas.refresh.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.avantatlas.refresh.plist
+  Run it right now, without waiting for Monday:
+    launchctl kickstart -p gui/$(id -u)/com.avantatlas.refresh
+  Logs:
+    tail -f /tmp/avant-atlas-refresh.log
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.avantatlas.refresh</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/chad/src/freejazz-atlas/scripts/refresh.sh</string>
+    <string>--deploy</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/chad/src/freejazz-atlas</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>PYTHONUNBUFFERED</key>
+    <string>1</string>
+  </dict>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>1</integer>
+    <key>Hour</key><integer>6</integer>
+    <key>Minute</key><integer>15</integer>
+  </dict>
+
+  <!-- If the machine was asleep at 06:15, run the sweep when it wakes. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/avant-atlas-refresh.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/avant-atlas-refresh.log</string>
+</dict>
+</plist>

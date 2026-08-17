@@ -1,14 +1,26 @@
+# systemd unit for serving Avant Atlas on a Linux host directly (no miren).
+# The public deployment uses miren instead — see docs/DEPLOYMENT.md — but this
+# keeps a plain-Linux path open, because a CC0 directory should be trivially
+# self-hostable by anyone who wants their own copy.
+
 [Unit]
-Description=The Free Jazz Atlas web app
-After=network.target
+Description=Avant Atlas web service
+After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/boxd/freejazz-atlas
-ExecStart=/home/boxd/freejazz-atlas/.venv/bin/uvicorn web.server:app --host 0.0.0.0 --port 8000
+WorkingDirectory=/opt/freejazz-atlas
+Environment=ATLAS_BASE_URL=https://atlas.example.org
+Environment=PYTHONUNBUFFERED=1
+ExecStartPre=/opt/freejazz-atlas/.venv/bin/python -m atlas.cli build
+ExecStart=/opt/freejazz-atlas/.venv/bin/uvicorn web.server:app --host 127.0.0.1 --port 8000
 Restart=always
 RestartSec=2
-User=boxd
+User=atlas
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
 
 [Install]
 WantedBy=multi-user.target

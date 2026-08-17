@@ -9,12 +9,13 @@
 #   2. re-crawl every source page            -> did the page change since we read it?
 #   3. rebuild the site                      -> publish whatever changed
 #   4. commit the data changes               -> the corpus keeps its own history
+#   5. optionally redeploy                   -> the public site matches the data
 #
 # It never edits a score. A changed page or a dead link raises
 # needs_human_review, which surfaces the venue in `atlas verify` and prints a
 # warning box on its public page. Machines do the legwork; people do the judging.
 #
-# Usage: scripts/refresh.sh [--no-commit] [--no-push]
+# Usage: scripts/refresh.sh [--no-commit] [--no-push] [--deploy]
 
 set -euo pipefail
 
@@ -25,13 +26,17 @@ PY="${ROOT}/.venv/bin/python"
 
 COMMIT=1
 PUSH=1
+DEPLOY=0
 for arg in "$@"; do
   case "$arg" in
     --no-commit) COMMIT=0 ;;
     --no-push)   PUSH=0 ;;
+    --deploy)    DEPLOY=1 ;;
     *) echo "unknown flag: $arg" >&2; exit 2 ;;
   esac
 done
+
+CHANGED=0
 
 log() { printf '\n=== %s — %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$1"; }
 
@@ -50,7 +55,9 @@ log "rebuild site"
 log "verification queue (top of the list is where a human should look next)"
 "$PY" -m atlas.cli verify --limit 10
 
-if [ "$COMMIT" = 1 ] && [ -n "$(git status --porcelain data DIRECTORY.md)" ]; then
+if [ -n "$(git status --porcelain data DIRECTORY.md)" ]; then CHANGED=1; fi
+
+if [ "$COMMIT" = 1 ] && [ "$CHANGED" = 1 ]; then
   log "commit"
   git add data DIRECTORY.md
   # Summarise what actually moved, so the log is readable a year from now.
@@ -66,6 +73,16 @@ source page moved or disappeared are flagged needs_human_review."
   fi
 else
   log "nothing changed"
+fi
+
+# Redeploying is what keeps the public site from drifting away from the data on
+# this machine. It only happens when something actually moved, so an unchanged
+# week costs nothing.
+if [ "$DEPLOY" = 1 ] && [ "$CHANGED" = 1 ] && command -v miren >/dev/null 2>&1; then
+  log "redeploy to miren"
+  miren deploy -f && echo "deployed"
+elif [ "$DEPLOY" = 1 ]; then
+  log "no data changes — skipping redeploy"
 fi
 
 log "done"

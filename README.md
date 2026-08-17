@@ -36,7 +36,9 @@ argue with — *why* a place is rated the way it is.
   provenance. Artists send small PRs; venues can self-list. See
   [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-**Live at [atlas.run.garden](https://atlas.run.garden).**
+**Live at [atlas.freeq.at](https://atlas.freeq.at).** (The intended home,
+, is routed and waiting on a DNS record in Miren's zone — see
+[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).)
 
 ## Quick start
 
@@ -165,7 +167,8 @@ docs/RUBRIC.md    the weighting rubric, with worked anchor examples
 docs/DATA_MODEL.md the schema
 scripts/seed.py   how the seed corpus was generated (calibration record)
 scripts/refresh.sh unattended freshness sweep (link health, re-crawl, rebuild)
-deploy/           launchd + systemd units
+deploy/           launchd agents + a systemd unit
+docs/DEPLOYMENT.md how it is deployed, and how to move it
 .miren/app.toml   deployment config
 site/             generated site (gitignored — rebuild with `atlas build`)
 tests/            rubric calibration, validation, link health, site integrity
