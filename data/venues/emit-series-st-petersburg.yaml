@@ -80,5 +80,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 2651e55b88a70c61
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: St. Petersburg nonprofit presenter (director David Manson) of adventurous music including
   improvisation and free jazz; nomadic across Tampa Bay venues.

@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 281acd05b7047706
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: WFMU's Jersey City performance room; experimental/improv is a meaningful strand of
   a broader freeform program.

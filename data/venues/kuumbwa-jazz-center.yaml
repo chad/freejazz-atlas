@@ -73,5 +73,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ba7f071f5d95ce0e
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Respected nonprofit Santa Cruz jazz room; mostly mainstream/national jazz with occasional
   adventurous booking, so supportive rather than a dedicated improv home.

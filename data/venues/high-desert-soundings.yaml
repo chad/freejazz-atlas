@@ -79,5 +79,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1dea3fd3f743e7ed
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Annual experimental/free-jazz/improv festival at The Palms in Wonder Valley (high desert
   near Joshua Tree). Coordinates are the Wonder Valley festival site.

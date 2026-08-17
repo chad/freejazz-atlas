@@ -75,6 +75,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: dcffd61d699b9004
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: St. Petersburg Warehouse Arts District DIY experimental/noise venue (since 2011). One
   listing flags it as possibly closed, so current operating status is unconfirmed and needs
   human review.

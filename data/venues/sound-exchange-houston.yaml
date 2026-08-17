@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 8a68000b49fce90c
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: East End record store whose An Exchange of Noiz series is a standing home for Houston
   noise and experimental performers.

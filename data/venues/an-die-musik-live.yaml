@@ -48,4 +48,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 594a4d8b04f56a71
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: confirm share of free/avant vs. mainstream jazz.'

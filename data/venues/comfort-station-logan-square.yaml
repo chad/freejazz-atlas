@@ -73,5 +73,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e2dd99746e286ca2
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Nonprofit Logan Square arts space; the Comfort Music series is a dependable outlet
   for Chicago experimental/improv performers.

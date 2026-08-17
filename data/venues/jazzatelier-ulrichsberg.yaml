@@ -73,5 +73,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: bf89cf9856cc1970
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Upper Austrian association hosting the Kaleidophon festival for free/improvised and
   contemporary music since 1986.

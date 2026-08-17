@@ -75,6 +75,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 7055821fe27df561
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: CLOSED since 2022; owners were still negotiating with the landlord as of 2024, and
   a portion of its events moved to All Day Records in Carrboro. Scored on its historical profile.
   Needs human review for reopening/current status.

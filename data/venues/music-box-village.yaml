@@ -74,4 +74,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 2f515c1d3ec649bf
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Unique experimental sound-sculpture venue; programming is periodic/curated.

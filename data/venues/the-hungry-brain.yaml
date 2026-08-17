@@ -55,4 +55,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: a6dd98314b71fdea
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: confirm the current status/cadence of the Sunday improvised series.'

@@ -76,5 +76,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: db738bc2806e3e48
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Municipal creative-arts complex in the Mullae ironworks district supporting experimental
   music and sound art; broader arts remit than a dedicated improv room.

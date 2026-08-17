@@ -73,5 +73,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: bb4a098bb5200cc3
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Rochester record store with a decades-long jazz/experimental/improvised concert series;
   coordinates approximate to Monroe Ave.

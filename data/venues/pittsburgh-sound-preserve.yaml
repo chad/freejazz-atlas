@@ -77,6 +77,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: d3fe012d74834b50
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Nomadic Pittsburgh improvised-music organization; Open Improvisation Lab regularly
   at Bantha Tea Bar (coordinates), with the Foundation series and touring bookings across
   the city.

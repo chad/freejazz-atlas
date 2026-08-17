@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 50b6ca2928106686
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: NE Portland nonprofit community center that serves as a recurring host venue for Creative
   Music Guild / Extradition experimental-music concerts.

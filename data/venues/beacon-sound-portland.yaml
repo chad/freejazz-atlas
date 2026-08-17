@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 567b5b46e4c10d9e
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Experimental record shop/label (est. 2011) that doubles as an event space. Has relocated
   more than once; current address per shop bio is NE MLK Jr Blvd. Coordinates approximate.

@@ -68,8 +68,8 @@ provenance:
     status: unreachable
     detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
   last_crawled: '2026-08-17'
-  last_crawl_error: 'HTTPSConnectionPool(host=''www.passosmanuel.com'', port=443): Max retries
-    exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''www.passosmanuel.com'',
-    port=443): Failed to resolve '''
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Porto former-cinema club with a broad program; experimental/jazz content is occasional,
   so free-improv weight is uncertain.

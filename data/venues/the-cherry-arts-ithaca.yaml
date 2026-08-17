@@ -76,5 +76,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 16a153cff95e5f48
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: experimentation-focused multi-arts venue, but confirm how central free/improvised
   music is versus theater/dance programming.'

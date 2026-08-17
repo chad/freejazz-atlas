@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1554df3ef5d146bd
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Neukölln free-jazz/improv institution since 2008, now run by musician collective WieMusik
   e.V.

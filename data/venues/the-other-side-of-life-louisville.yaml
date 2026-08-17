@@ -73,6 +73,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4f55e5b7db9841f1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Louisville DIY promoter of experimental music and free jazz; active 2008-2015 and relaunched
   in 2025. Nomadic (presents at B-Side and other venues). Current cadence not fully verified;
   needs human review.

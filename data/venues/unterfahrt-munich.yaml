@@ -76,5 +76,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: b520b9ae9c1ecbc1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Munich's flagship jazz club with free-jazz roots; adventurous programming is a strand
   within a broad jazz program.

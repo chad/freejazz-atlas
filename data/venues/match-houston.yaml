@@ -77,5 +77,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4f1965f3e5934dd1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Nonprofit multidisciplinary arts center; hosts new-music/experimental events as part
   of a wide program. Frequency of specifically improv/free programming not fully verified.

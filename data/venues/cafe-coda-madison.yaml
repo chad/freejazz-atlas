@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 33f5d2b6955db2ed
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Owner Hanah Jon Taylor's AACM roots give the club a creative-music lean; programming
   spans straight-ahead and improvised jazz.

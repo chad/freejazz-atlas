@@ -81,5 +81,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ca1b120e7bd3dcc1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Birmingham nonprofit arts co-op in the historic East Lake Theater; hosts the annual
   Sun Ra Festival (Sun Ra was born in Birmingham) and an avant-garde jazz program.

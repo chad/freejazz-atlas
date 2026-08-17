@@ -77,6 +77,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ef0437bd3e997b14
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Veteran New Orleans-area nonprofit arts center (now in Arabi). Primarily an art-house
   cinema; the share and regularity of experimental/improvised music programming was not fully
   verified.

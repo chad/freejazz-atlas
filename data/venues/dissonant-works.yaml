@@ -77,4 +77,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: bbe2e3f91b053099
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'ANCHOR: calibrated as a VERY HIGH cornerstone venue.'

@@ -77,5 +77,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 8f7bf8bb96409a5a
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Nonprofit jazz room in Pioneer Square's Globe Building since early 2024. Leans jazz-forward
   but hosts regular free-improvisation sets.

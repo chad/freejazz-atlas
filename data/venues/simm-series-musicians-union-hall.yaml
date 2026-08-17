@@ -77,5 +77,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ddaabd0565d8e419
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Outsound-run SIMM Series at the SF Musicians Union Hall; one of the anchors of the
   Bay Area experimental/improv scene.

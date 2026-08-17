@@ -73,4 +73,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1a6addf4cf39b19d
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Tiny Raval bar with a weekly free-leaning jazz jam among a broad live-music program.

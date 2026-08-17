@@ -77,5 +77,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: bb7fc260a35b732b
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Artist-run gallery/studio in Charlottesville that has become a regular home for improvised
   and experimental music.

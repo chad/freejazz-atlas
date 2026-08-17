@@ -76,5 +76,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 45870699cc939257
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Major university contemporary arts center; experimental/improvised music is a recurring
   but partial slice of its wider program.

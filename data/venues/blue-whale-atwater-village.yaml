@@ -77,6 +77,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 38a7d50618348146
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: historic LA jazz/improv hub, closed 2020 in Little Tokyo, reopened in
   Atwater Village Nov 2024; confirm current cadence and how much creative/improvised jazz
   the new room books.'

@@ -71,5 +71,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: b86ad99ae57410b2
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Historic Madrid jazz club, relocated to the Ateneo de Madrid in 2026; mostly mainstream
   jazz - supportive rather than a free/improv venue.

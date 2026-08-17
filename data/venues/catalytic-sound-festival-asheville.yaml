@@ -73,6 +73,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 814d6fa8e6292dde
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Asheville edition of the Catalytic Sound Festival (curated by Tashi Dorji). Only the
   2022 edition is confirmed via web search; recurrence and current-year status need human
   review.

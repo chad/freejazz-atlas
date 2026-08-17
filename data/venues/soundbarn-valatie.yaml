@@ -74,6 +74,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: a711180c30f16a1e
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: real artist-run improv listening space near Valatie/Kinderhook, but
   much documentation is older; confirm current activity and a precise location. Coordinates
   approximate to Valatie.'

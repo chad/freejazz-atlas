@@ -77,5 +77,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1ed3c443027187b6
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Flagship Swedish experimental/intermedia venue; artist-run since 1933. Coordinates
   are for Münchenbryggeriet on Södermalm.

@@ -74,4 +74,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 94f7eea50b788e13
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: National jazz stage; mostly modern jazz with programming that reaches to free improvisation.

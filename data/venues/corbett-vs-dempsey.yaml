@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: df6ae3cbe06dd9c0
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: gallery/label deeply tied to free jazz, but confirm current cadence
   of live concerts vs. exhibitions/releases.'

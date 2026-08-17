@@ -76,5 +76,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e1857c63a68d1cb1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: North Side record store and DIY venue that anchors recurring experimental/improvised
   series (Tough Pill, Experimental Guitar Night).

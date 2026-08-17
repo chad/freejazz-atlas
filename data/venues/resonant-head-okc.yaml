@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 884c1abe01d2365c
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Independent Capitol Hill venue known for left-of-center booking; experimental music
   is one part of a broad calendar. Share of true free/improv programming not fully verified.

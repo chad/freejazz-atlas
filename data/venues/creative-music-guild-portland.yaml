@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 2bbbd6d048f312ef
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Portland's cornerstone experimental/improvised-music presenter (no single fixed room;
   uses Turn! Turn! Turn!, Leaven and others). Coordinates are Portland city-center.

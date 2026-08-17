@@ -75,6 +75,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 98c8e5ab671051ac
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'CLOSED: after ~20 years, private funding ended and all activity stopped by April 2026
   (final concert 17 April 2026). Included as a recently-closed cornerstone of the Brussels
   improv scene.'

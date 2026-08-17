@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 99711ee1af861385
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: New Haven contemporary-art gallery hosting Weird Music Night and the New Haven Improvisers
   Collective; coordinates approximate to Trumbull St.

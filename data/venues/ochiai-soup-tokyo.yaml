@@ -77,5 +77,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4c732258f77c9b3d
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Basement experimental venue in Ochiai run by musician Nobuki Nishiyama; drone, noise
   and improvised music.

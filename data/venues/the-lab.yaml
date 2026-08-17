@@ -63,4 +63,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: fe5e2d692ced2689
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: confirm current experimental-music cadence and 2026 programming.'

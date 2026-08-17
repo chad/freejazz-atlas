@@ -72,5 +72,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 0c8e109050fcab99
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Kansas City nonprofit; its EMAS Presents series is the anchor for the city's improvised/experimental
   music community.

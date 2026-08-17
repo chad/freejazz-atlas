@@ -71,5 +71,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: cafd2ba147f138e7
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Downtown Durham gallery used as an intimate concert venue by new-music/improv presenters.
   Frequency and current improv-specific programming not fully verified; needs human review.

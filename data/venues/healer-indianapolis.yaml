@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: dac38bcd4ec73989
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: DIY Indianapolis art/music venue that hosts experimental and adventurous
   music; confirm how much of the calendar is improv/experimental vs. broader indie/DIY.'

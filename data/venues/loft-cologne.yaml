@@ -75,4 +75,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4e0663a3920369bd
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Award-winning Ehrenfeld space for improvised and contemporary music since 1989.

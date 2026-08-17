@@ -73,5 +73,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: f222228abf78edcc
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Tacoma all-ages nonprofit DIY space; hosts experimental-jazz and improvised acts within
   a mostly punk/underground calendar.

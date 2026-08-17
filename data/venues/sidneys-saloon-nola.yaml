@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 17079538556bae15
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Treme/7th Ward neighborhood bar in the New Orleans grassroots-music orbit. Extent of
   dedicated improvised/experimental programming not fully verified.

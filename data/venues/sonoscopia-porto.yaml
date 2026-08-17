@@ -74,4 +74,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 7ea23e66404ab06a
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Artist-run Porto platform for experimental, improvised and electroacoustic music.

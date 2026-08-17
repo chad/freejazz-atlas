@@ -82,5 +82,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 8a9fc6033e55ca67
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Ann Arbor campus concert series with a strong improvised/creative-music streak and
   a weekly open improv jam.

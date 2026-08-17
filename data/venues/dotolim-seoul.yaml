@@ -77,5 +77,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4838b7cd0eecffba
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Korea's first dedicated improvised/experimental concert venue (est. 2008, founder Jin
   Sangtae). Exact current address/coordinates approximate - verify.

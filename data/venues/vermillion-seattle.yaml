@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 72410b8e9030d391
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Capitol Hill gallery/bar, established 2008. Formerly the weekly home of the Seattle
   Jazz Fellowship; still hosts improvised/avant music a few times a month.

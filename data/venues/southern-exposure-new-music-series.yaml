@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: b31664d676e3b904
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: University new-music series in Columbia SC. Strong on contemporary/experimental composition;
   free improvisation is present but not the primary focus (which caps the roster signal).

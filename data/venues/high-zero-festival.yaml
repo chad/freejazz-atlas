@@ -65,5 +65,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4b39654b25230783
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Festival (annual). Frequency is intentionally low as a single event; commitment is
   very high.

@@ -79,5 +79,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 46ff35f2438bfe83
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: A Creative Music Guild program curated by Matt Hannafin. Quarterly experimental/structured-improvisation
   concerts. Coordinates are Portland city-center (uses partner venues).

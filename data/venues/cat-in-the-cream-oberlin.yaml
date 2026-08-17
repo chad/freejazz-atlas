@@ -73,6 +73,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 47514a1b99dc9843
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: Oberlin coffeehouse tied to the Jazz Forum, TIMARA and Oberlin Improv
   Fest; academic-calendar-driven, largely student programming. Coordinates approximate to
   the College Street campus block.'

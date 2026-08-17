@@ -72,5 +72,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: a8d692e053940ec9
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Switzerland's first experimental-music centre, in Basel's Badischer Bahnhof; new/experimental
   music focus (more composed than free-improv).

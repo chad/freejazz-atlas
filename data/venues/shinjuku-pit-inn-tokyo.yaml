@@ -86,6 +86,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: dbbb30b3662fed9c
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Original opened 1965, closed to demolition 1992 and reopened in Shinjuku the same year.
   Cornerstone of Japanese free-jazz history; today books broad jazz with regular avant/free
   nights.

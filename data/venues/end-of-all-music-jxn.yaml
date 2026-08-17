@@ -74,6 +74,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 56d829c1ad0dc16d
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Fondren-district independent record store with recurring in-store performances; included
   as Mississippi's most plausible improv-adjacent host, but experimental programming is incidental
   and unverified.

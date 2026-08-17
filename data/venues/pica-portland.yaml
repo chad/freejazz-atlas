@@ -80,5 +80,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: b703660300db35c3
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Nonprofit contemporary-arts org; its TBA Festival is a significant platform for experimental
   music within a multidisciplinary program.

@@ -79,5 +79,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: af95bdb3de833ae8
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Nashville experimental/avant-garde music nonprofit and presenter (directed by Chris
   Davis); nomadic across Middle Tennessee venues. Co-presents the NoiseMatter festival.

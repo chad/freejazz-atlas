@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: d81cb5ffdfe1d1a1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: mainly a dance/theatre house; experimental/improv music comes via the
   Rewire x Korzo series (and the ended Konceptions series).'

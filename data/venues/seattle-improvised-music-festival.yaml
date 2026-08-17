@@ -73,5 +73,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: b14f5a0dcff21d9d
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Annual free-improvisation festival, founded 1986 by Paul Hoskin. Coordinates are Seattle
   city-center; the festival moves between partner venues.

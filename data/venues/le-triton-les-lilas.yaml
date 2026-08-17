@@ -72,5 +72,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 8edd20e0401e1cf1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Jazz-and-contemporary-music creation venue in Les Lilas; books adventurous/improvised
   work within a broader jazz program.

@@ -80,8 +80,8 @@ provenance:
     detail: TLS negotiation failed — this checker's TLS stack is older than the server requires;
       not evidence of closure
   last_crawled: '2026-08-17'
-  last_crawl_error: 'HTTPSConnectionPool(host=''www.walkerart.org'', port=443): Max retries
-    exceeded with url: / (Caused by SSLError(SSLError(1, ''[SSL: TLSV1_ALERT_PROTOCOL_VERSION]
-    tlsv1 alert protocol version (_ssl.c:1129'
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Major nonprofit presenter; regularly programs AACM/creative-music artists within a
   wider contemporary performing-arts season.

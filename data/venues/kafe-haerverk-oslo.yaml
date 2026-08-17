@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e4b5446d2b169da1
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Experimental/independent music bar in central Oslo; hosts the Blow Out improv series
   and a biweekly improvised music night.

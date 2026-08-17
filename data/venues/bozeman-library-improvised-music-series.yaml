@@ -73,6 +73,9 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1c873cfe3be41445
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: A dedicated free improvised-music series at the Bozeman Public Library, directed by
   Craig Hall. Verified via a single Explore Big Sky article; current-season status should
   be reconfirmed.

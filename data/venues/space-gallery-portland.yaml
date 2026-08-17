@@ -72,5 +72,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4928f9e12b0120da
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Portland ME nonprofit arts center; experimental sound is one part of a wide adventurous
   program.

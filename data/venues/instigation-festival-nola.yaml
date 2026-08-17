@@ -75,5 +75,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 90e7cab1b14a11b2
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Roaming Chicago-New Orleans improvised-music-and-dance festival (coordinates anchored
   to its Marigny/NOLA base); a dedicated free-improv gathering rather than a fixed venue.

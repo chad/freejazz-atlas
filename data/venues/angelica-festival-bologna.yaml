@@ -77,4 +77,7 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 3211d91fece7e584
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Long-running Bologna experimental/research music festival, based at Teatro San Leonardo.

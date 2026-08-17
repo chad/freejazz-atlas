@@ -74,5 +74,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 58014384cc6a9b22
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: DTLA artist-run nonprofit dedicated to experimental sound/video/performance; a core
   node of the LA underground.

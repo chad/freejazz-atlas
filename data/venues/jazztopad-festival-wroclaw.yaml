@@ -72,5 +72,8 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: a66342a4cdb57bdc
   crawl_http_status: 200
+  last_crawl_error: |-
+    The crawler needs the 'crawl' extra. Install with:
+      pip install -e '.[crawl]'
 notes: Wrocław's improvised-music festival built on commissioned premieres, hosted by the
   National Forum of Music.
