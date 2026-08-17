@@ -73,8 +73,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: affdfa31ff319504
   crawl_http_status: 500
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Occupied DIY cultural collective; experimentation is part of the identity but the music
   program leans electronic/pop, so free-jazz/improv weight is uncertain. Address/coords approximate.

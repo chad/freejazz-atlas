@@ -76,9 +76,6 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 37c625d34dc71672
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Monthly experimental sound-performance series (a presenter, not a fixed venue); host
   location has moved over time and is currently associated with C-LAB. Coordinates point to
   the current host site.

@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1902fee853430a53
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Instantiations monthly improv series curated by Joe Morris inside a broader contemporary-art
   center.

@@ -72,8 +72,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 5c92e2a576022dc8
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Presenter/organisation rather than a fixed room; produces experimental music and sound-art
   events across Oslo (and nationally). Coordinates are Oslo city-centre approximate.

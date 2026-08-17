@@ -71,8 +71,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e47e2eef0c2453ac
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Historic Lisbon jazz club; mostly straight-ahead jazz with occasional adventurous programming
   - supportive rather than a free/improv cornerstone.

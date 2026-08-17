@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 97fe2976255cf257
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Frogtown cafe/concert venue continuing the Brooklyn Zebulon legacy; books jazz and
   experimental music among wide-ranging indie programming.

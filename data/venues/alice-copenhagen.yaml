@@ -73,8 +73,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 752b975af0a200af
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Nørrebro venue for adventurous music; jazz/improv within a broad program. Address/coords
   approximate.

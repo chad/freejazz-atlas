@@ -49,8 +49,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 6d61805a55e1252f
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: included for Rocky Mountain coverage; leans mainstream jazz — low free/avant
   commitment.'

@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: da411674ab5aaf91
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Intimate Sendagi/Bunkyo basement bar dedicated to free jazz and improvised music since
   2008.

@@ -78,8 +78,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 3883ce06afc0ef32
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Downtown artist-run bar/'social sculpture'; a longtime open door for Houston experimental
   music and performance.

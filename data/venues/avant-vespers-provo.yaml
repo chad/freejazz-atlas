@@ -76,11 +76,8 @@ provenance:
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: a1f6a6395945ffa0
+  last_content_hash: c044567f5fccb0a7
   crawl_http_status: 403
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Monthly experimental/outsider-jazz series (est. 2018) in the Salt Lake/Provo area,
   curated by composer Christian Asplund at St. Mary's Episcopal Church. Verified via a single
   City Weekly feature; current-season status should be reconfirmed.

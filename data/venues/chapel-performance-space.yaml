@@ -77,7 +77,4 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: dd52585da3ce3dbb
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Wayward Music Series presented by Nonsequitur and partner organizations.

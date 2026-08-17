@@ -81,9 +81,6 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1f5812b1a73be552
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Orlando nonprofit house-concert listening room (Timucua Arts Foundation). Strong dedicated
   listening space and jazz program; experimental/free improv is present but secondary to jazz,
   chamber, and world music.

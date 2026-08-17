@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 560cc3fcc6246259
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Volunteer-run all-ages DIY venue in East Nashville; experimental/noise/electronic is
   a core welcome but the booking is broad (also punk, indie).

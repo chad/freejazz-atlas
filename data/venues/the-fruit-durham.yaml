@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: b6705cec866cab43
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Broad artist-run arts warehouse in Durham that supports experimental artists across
   disciplines; improvised music is present but secondary to the wider program.

@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 3ca9a2764f4dfc23
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: real, active jazz venue but leans straight-ahead jazz/jam sessions;
   confirm how much genuine free/creative improv it programs.'

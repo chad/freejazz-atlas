@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 767d79fa4fa0cd6b
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Mainstream Berlin jazz club that programs free/experimental jazz occasionally; supportive
   rather than dedicated.

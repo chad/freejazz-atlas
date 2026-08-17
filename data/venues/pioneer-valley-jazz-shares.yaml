@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: b63495d72d156ca6
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Itinerant CSA-model presenter of creative/improvised music across the Pioneer Valley;
   coordinates set near Amherst.

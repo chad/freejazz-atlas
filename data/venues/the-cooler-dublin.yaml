@@ -78,8 +78,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 0ccc6009bc4cecb3
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: relatively new IMC space at The Complex in Smithfield; confirm exact
   address, coordinates and 2026 programming cadence.'

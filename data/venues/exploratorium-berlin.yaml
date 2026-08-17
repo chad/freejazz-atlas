@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: fe145ae27f7d89c7
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Kreuzberg centre for improvised music and creative music education; moved to Zossener
   Str. in 2023.

@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: cccba9bd2d68a5b3
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: A concert series/presenter (not a fixed independent venue) based at the Hong Kong Arts
   Centre; the leading platform for experimental/sound-art music in Hong Kong since 2012.

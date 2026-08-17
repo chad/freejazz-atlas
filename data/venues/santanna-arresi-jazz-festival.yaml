@@ -70,7 +70,7 @@ provenance:
     status: unreachable
     detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
   last_crawled: '2026-08-17'
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
+  last_crawl_error: 'HTTPSConnectionPool(host=''aiconfinitrasardegnaejazz.it'', port=443):
+    Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''aiconfinitrasardegnaejazz.it'',
+    port=443): Fai'
 notes: Historic Sardinian free-jazz festival at Sant'Anna Arresi. Coordinates are the town.

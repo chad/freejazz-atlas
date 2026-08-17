@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 8fe2f9f38c8972c4
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: NE Portland community venue/bar and mini record store; regular host of the Creative
   Music Guild's Outset Series.

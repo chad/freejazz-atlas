@@ -72,8 +72,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 2c72c503b599a8c6
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: volunteer-run DIY collective that hosts improv sessions and experimental
   shows; confirm current cadence of improv-specific programming at the new S. Division location.'

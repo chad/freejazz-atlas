@@ -79,8 +79,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 621e0d3b09c271b4
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Flagship experimental/onkyo space and record shop in Suidobashi; successor to the Improvised
   Music From Japan project run by Yasuhiro Suzuki.

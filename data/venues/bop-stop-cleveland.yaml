@@ -66,16 +66,13 @@ provenance:
   source_urls:
   - https://www.themusicsettlement.org/bop-stop
   - https://www.thisiscleveland.com/locations/bop-stop-@-the-music-settlement
-  needs_human_review: false
+  needs_human_review: true
   link_check:
     checked: '2026-08-17'
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: b438af05abc231ef
+  last_content_hash: a86b7af4b7a4c478
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Nonprofit Cleveland listening room; strong jazz program with a meaningful creative-music
   share (score reflects mainstream-leaning calendar).

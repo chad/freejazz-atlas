@@ -75,7 +75,4 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 6c219de21119a61b
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Volunteer-run Neukölln space for new/experimental concert music, founded 2018.

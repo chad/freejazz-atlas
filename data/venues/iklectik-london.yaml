@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 1a81839b92b46809
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: evicted from Old Paradise Yard (Waterloo) in Jan 2024; reopened in a
   13-month residency at Peckham Levels from Oct 2025. Confirm current 2026 address and cadence.'

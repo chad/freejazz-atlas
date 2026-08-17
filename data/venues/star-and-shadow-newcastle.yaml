@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 75550b7aa16cd78e
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: DIY volunteer co-op with broad programming; experimental/improv music
   is one strand. Confirm current cadence.'

@@ -79,8 +79,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e3b0c44298fc1c14
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: the weekly LSG New Music Series was retired Dec 2024; a twice-monthly
   Creative Music Series is reported to continue. Confirm current cadence.'

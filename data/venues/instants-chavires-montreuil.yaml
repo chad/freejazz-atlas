@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: fe41164e13ee79e3
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Flagship French laboratory for experimental and improvised music, in Montreuil just
   east of Paris.

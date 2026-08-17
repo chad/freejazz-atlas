@@ -57,7 +57,11 @@ log "verification queue (top of the list is where a human should look next)"
 
 if [ -n "$(git status --porcelain data DIRECTORY.md)" ]; then CHANGED=1; fi
 
-if [ "$COMMIT" = 1 ] && [ "$CHANGED" = 1 ]; then
+if [ "$CHANGED" = 0 ]; then
+  log "nothing changed"
+elif [ "$COMMIT" = 0 ]; then
+  log "$(git status --porcelain data | wc -l | tr -d ' ') record(s) changed, left uncommitted (--no-commit)"
+else
   log "commit"
   git add data DIRECTORY.md
   # Summarise what actually moved, so the log is readable a year from now.
@@ -71,8 +75,6 @@ source page moved or disappeared are flagged needs_human_review."
     log "push"
     git push -q origin HEAD && echo "pushed"
   fi
-else
-  log "nothing changed"
 fi
 
 # Redeploying is what keeps the public site from drifting away from the data on

@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 5d0678749837f6f2
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Geneva's musician-run association for jazz and improvised music since 1973, running
   the Sud des Alpes club (200+ evenings/year).

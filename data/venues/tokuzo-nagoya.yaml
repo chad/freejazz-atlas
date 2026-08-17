@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ca79de09b0f4f9b1
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Nagoya live house in Imaike; broad program that regularly includes free/avant jazz
   (Sakata, Moriyama, Satoko Fujii).

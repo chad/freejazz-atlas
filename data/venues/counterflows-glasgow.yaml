@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 34dfef0084d975d4
   crawl_http_status: 403
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: annual festival, not a fixed venue; coordinates are Glasgow city-centre.
   Uses multiple venues each spring.'

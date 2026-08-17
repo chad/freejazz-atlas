@@ -67,16 +67,13 @@ provenance:
   - https://www.brooklynvegan.com/wfmus-performan/
   - https://brooklynrail.org/2015/12/music/the-ex-at-monty-hall/
   - https://wfmu.org/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
     checked: '2026-08-17'
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: 281acd05b7047706
+  last_content_hash: 38070a9b9506fcd9
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: WFMU's Jersey City performance room; experimental/improv is a meaningful strand of
   a broader freeform program.

@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ed217bb170bf8f9d
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Mission bookstore whose Backroom Gallery runs a monthly free-improv night; experimental
   music is secondary to books/visual art.

@@ -73,9 +73,6 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 23896345a0ebce36
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Long-running artist-run improv series (Table & Chairs). Original home Cafe Racer closed
   in 2020 and the series has moved between venues; current fixed location needs confirmation,
   so coordinates are Seattle city-center.

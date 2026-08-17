@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 4ee62f6c73dc5033
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Iowa City artist-led nonprofit; experimental/improvised music via its own events and
   co-presentations with Feed Me Weird Things and Witching Hour.

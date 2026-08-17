@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 267c1fde1670f14c
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: general Dalston live-music/cocktail venue; free-jazz/improv is incidental.
   Included as an honest occasional-tier entry.'

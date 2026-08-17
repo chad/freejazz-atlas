@@ -52,9 +52,6 @@ provenance:
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: 8870340a6d44e200
+  last_content_hash: a1e6b401b17585af
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: not re-verified this session.'

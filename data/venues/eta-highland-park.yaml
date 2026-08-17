@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: f9fa14f0e36c33f7
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: CLOSED Dec 2023. Highland Park bar whose Jeff Parker Monday residency anchored a major
   LA experimental-improv community; score reflects its active-era programming. Legacy entry.

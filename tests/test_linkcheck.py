@@ -83,3 +83,48 @@ def test_empty_url_is_skipped_not_failed():
     r = lc.check_url("")
     assert r.status == lc.SKIPPED
     assert not r.needs_attention
+
+
+def test_missing_crawler_dependency_never_becomes_venue_evidence():
+    """A library missing on our machine must not be recorded as a dead venue.
+
+    The first automated sweep wrote 'The crawler needs the crawl extra' into all
+    263 records' provenance as if it were a finding about those venues. Local
+    incapacity and remote absence are different facts and must stay different.
+    """
+    from atlas import crawl
+
+    venue = {"id": "x", "website": "https://example.org/",
+             "provenance": {"last_content_hash": "abc123"}}
+
+    def boom(*a, **kw):
+        raise crawl.CrawlerUnavailable("no requests installed")
+
+    original = crawl.fetch
+    crawl.fetch = boom
+    try:
+        raised = False
+        try:
+            crawl.recrawl(venue)
+        except crawl.CrawlerUnavailable:
+            raised = True
+        assert raised, "recrawl must propagate CrawlerUnavailable, not swallow it"
+        assert "last_crawl_error" not in venue["provenance"]
+        assert venue["provenance"]["last_content_hash"] == "abc123"
+    finally:
+        crawl.fetch = original
+
+
+def test_network_failure_is_still_recorded():
+    """A genuine fetch failure *is* evidence, and must be kept."""
+    from atlas import crawl
+
+    venue = {"id": "y", "website": "https://example.org/", "provenance": {}}
+    original = crawl.fetch
+    crawl.fetch = lambda *a, **kw: (_ for _ in ()).throw(OSError("dns went away"))
+    try:
+        res = crawl.recrawl(venue)
+        assert res.outcome == "gone"
+        assert "dns went away" in venue["provenance"]["last_crawl_error"]
+    finally:
+        crawl.fetch = original

@@ -310,11 +310,23 @@ def cmd_recrawl(args) -> int:
         print(f"No venue matched id={args.id}")
         return 1
 
+    # Fail fast if the crawler cannot run at all, rather than recording 263
+    # false "gone" verdicts caused by a missing library on this machine.
+    try:
+        crawl.fetch("https://example.com", timeout=10)
+    except crawl.CrawlerUnavailable as exc:
+        print(_c(f"cannot re-crawl: {exc}", "31"))
+        return 2
+    except Exception:
+        pass  # example.com being unreachable is not our problem here
+
     # Re-crawling 250+ sites one at a time takes long enough that nobody does
     # it, which defeats the purpose. Fetches are I/O bound and independent.
     def one(v):
         try:
             return v, crawl.recrawl(v)
+        except crawl.CrawlerUnavailable:
+            raise
         except Exception as exc:  # never let one bad host kill the sweep
             return v, crawl.RecrawlResult(url=v.get("website") or "", outcome="gone",
                                           notes=f"{type(exc).__name__}: {str(exc)[:120]}")

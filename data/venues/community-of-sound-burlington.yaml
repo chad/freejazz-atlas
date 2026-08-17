@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: f9af9276aa7823e1
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Burlington nonprofit incubator centered on free improvisation and sound art; coordinates
   approximate to 1 Main St.

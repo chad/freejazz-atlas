@@ -72,8 +72,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 9a399cb0afb53496
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'ANCHOR: calibrated as VERY LOW — commercial venue with occasional/traditional jazz,
   not an avant-garde home.'

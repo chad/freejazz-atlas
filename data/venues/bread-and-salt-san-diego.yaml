@@ -81,8 +81,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 248cef36a779f4ae
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: San Diego's core experimental-music venue, hosting the Fresh Sound new-music series
   and Project [BLANK]'s monthly Salty Series of improvisation and sound art.

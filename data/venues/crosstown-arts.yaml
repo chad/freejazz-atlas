@@ -76,7 +76,4 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 2927c78cf886b2c0
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'ANCHOR: calibrated as MODERATE — on the list, but a broad arts center, not free-jazz-dedicated.'

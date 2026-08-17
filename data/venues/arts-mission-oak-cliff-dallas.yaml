@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 71f6d555c3ba6c95
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Nonprofit Oak Cliff arts center in a converted church; hosts experimental/improvised
   interdisciplinary work. Regularity of dedicated improv programming not fully verified.

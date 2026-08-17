@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: f5ed393acdfe955e
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Santa Fe not-for-profit experimental-arts collective, venue and label (est. 2001).
   Coordinates approximate to the Siler Ln studio.

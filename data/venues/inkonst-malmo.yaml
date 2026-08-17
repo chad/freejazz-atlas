@@ -71,10 +71,7 @@ provenance:
     http: 429
     detail: HTTP 429
   last_crawled: '2026-08-17'
-  last_content_hash: 579075ee3ae93aea
+  last_content_hash: a58a956ff1068fbc
   crawl_http_status: 429
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Independent Malmö arts venue in a former chocolate factory; experimental music including
   jazz, and home of the Intonal festival.

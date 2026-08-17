@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e3b0c44298fc1c14
   crawl_http_status: 403
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: East Austin bar whose weekly Me Mer Mo Monday is one of the city's steadiest experimental-music
   series.

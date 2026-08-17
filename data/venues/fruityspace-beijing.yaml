@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: cdde006ba45fd00a
   crawl_http_status: 403
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: DIY experimental basement in central Beijing's hutongs (est. 2016), founded by Zhai
   Ruixin; home base of the city's underground scene.

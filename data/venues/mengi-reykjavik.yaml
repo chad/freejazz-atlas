@@ -72,7 +72,4 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 5f608412503d90c9
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Artist-run experimental venue, gallery and label in downtown Reykjavik.

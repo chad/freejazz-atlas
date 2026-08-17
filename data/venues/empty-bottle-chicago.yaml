@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 3bca3ecc7b72ef55
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: historically central to Chicago improv via its 1996-2005 jazz series;
   today mostly indie/rock. Confirm current cadence of any improvised bookings.'

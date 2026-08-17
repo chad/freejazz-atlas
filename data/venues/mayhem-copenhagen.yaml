@@ -71,8 +71,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: f9281fd2fb3af305
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Volunteer-run extreme/experimental music venue on Copenhagen's outskirts; free jazz
   plus annual Jazzfest and Noisefest. Address/coords approximate.

@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 8fc5c089698ead41
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Montrose meditative art chapel; a recurring site for Nameless Sound's site-specific
   experimental/improvised programming.

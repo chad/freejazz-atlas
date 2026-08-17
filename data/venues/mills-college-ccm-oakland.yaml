@@ -78,8 +78,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 6d8cd9427b490e99
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: historic Mills CCM now operates under Northeastern University Oakland;
   confirm current public concert cadence and programming post-transition.'

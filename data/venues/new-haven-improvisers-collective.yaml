@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 278f003df0c26e51
   crawl_http_status: 403
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Member-run improvisers' collective (presenter/workshop series); no fixed venue, currently
   hosted at the Ely Center. Coordinates set to New Haven center.

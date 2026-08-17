@@ -78,8 +78,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: a96704a2bf65b262
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Albuquerque's cornerstone nonprofit listening room; 100+ shows/year spanning jazz to
   experimental, with a dedicated alcohol-free attentive-listening ethos.

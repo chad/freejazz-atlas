@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: a37a194fe0da0ba2
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Charity-run Manchester venue; adventurous/experimental jazz is a real strand within
   a broad world-music program.

@@ -73,8 +73,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 5b062495f85d6762
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Kreuzberg studio/stage hybrid run by Morphine Records for experimental and improvised
   music since 2020.

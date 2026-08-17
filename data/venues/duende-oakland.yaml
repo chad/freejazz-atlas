@@ -67,15 +67,12 @@ provenance:
   - https://themonthly.com/upfront1312/
   - https://oaklandside.org/2022/01/27/new-concert-series-brings-cutting-edge-jazz-to-west-oakland/
   - https://www.bayimproviser.com/venue/143/duende
-  needs_human_review: false
+  needs_human_review: true
   link_check:
     checked: '2026-08-17'
     status: skipped
   last_crawled: '2026-08-17'
-  last_content_hash: 353e1b2f916f291c
+  last_content_hash: 3e9145e9e516d622
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: CLOSED June 2024. Uptown Oakland restaurant that hosted a notable creative/improvised-music
   series and touring improvisers for over a decade.

@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 3ca9c32c8a1d9002
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Long-running DC free-jazz presenting cooperative (since 1997). Currently hosts at Rhizome
   DC (already in atlas as a venue); Transparent is the distinct presenter/curator.

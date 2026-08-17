@@ -72,8 +72,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 7e6b346b09bdb216
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: University art museum whose SoundSpace series brings experimental/improvised music
   into the galleries; also a No Idea Festival host.

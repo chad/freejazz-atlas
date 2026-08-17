@@ -79,9 +79,6 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 391a7884a55923cf
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Nomadic Philadelphia presenter of experimental/improvised/international music since
   2001; most often hosts at the Rotunda on Penn's campus and other non-traditional spaces.
   Coordinates point to the Rotunda, its most frequent host site.

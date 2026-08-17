@@ -79,8 +79,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 8cef46a1a92d27b4
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Cornerstone Chicago venue for jazz, improvised and experimental music; owned/programmed
   by Mike Reed, who also owns the Hungry Brain.

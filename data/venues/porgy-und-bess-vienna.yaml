@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 528992a05658df93
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Vienna's flagship jazz club; pluralistic program with a strong experimental/improvised
   strand and dedicated experimental room.

@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 20c920fede44409b
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Taipei bar/live venue (est. 2010); primarily punk/rock but a recurring host for experimental
   and noise nights. Free/avant is occasional, not the core.

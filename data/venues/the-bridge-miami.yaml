@@ -79,8 +79,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: d7f0f056a9fe00c3
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Miami nonprofit arts incubator/venue that hosts experimental and avant-garde music
   happenings. Frequency of dedicated improv programming not fully verified; needs human review.

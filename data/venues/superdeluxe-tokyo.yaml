@@ -68,18 +68,15 @@ provenance:
   - https://www.japantimes.co.jp/culture/2018/11/01/music/superdeluxe-provided-safe-space-experimentation-tokyo-will-miss/
   - https://www.timeout.com/tokyo/bars-and-pubs/superdeluxe
   - https://en.japantravel.com/tokyo/super-deluxe-in-roppongi/1585
-  needs_human_review: false
+  needs_human_review: true
   link_check:
     checked: '2026-08-17'
     status: ok
     http: 200
     final_url: https://super-deluxe.com/
   last_crawled: '2026-08-17'
-  last_content_hash: 1db614e3693f6d64
+  last_content_hash: 36c62eb9f895c175
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: CLOSED 2019 after 17 years (building demolition). Included as a historically important
   cornerstone of Tokyo's experimental scene; a successor project, SupernaturalDeluxe, opened
   in Chiba in 2022.

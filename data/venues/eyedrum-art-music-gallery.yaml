@@ -48,7 +48,4 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 83d3387031fdb3b9
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: confirm current venue location and programming.'

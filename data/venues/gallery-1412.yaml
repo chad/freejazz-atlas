@@ -56,15 +56,12 @@ provenance:
   last_confirmed: 2026-07
   source_urls:
   - https://gallery1412dotorg.wordpress.com/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
     checked: '2026-08-17'
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: 5fa51a86275d41c9
+  last_content_hash: 3b27c41578152bdf
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: DIY improvised/experimental storefront.

@@ -65,7 +65,4 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 301dc171e5fa8c5f
   crawl_http_status: 403
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Broad multidisciplinary warehouse; strong experimental strand (No Idea Festival).

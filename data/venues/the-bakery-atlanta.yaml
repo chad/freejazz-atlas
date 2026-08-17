@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 28403708bfd817b1
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Atlanta DIY arts collective and venue supporting experimental and genre-defying music;
   cited among the supportive spaces for the city's creative-music scene.

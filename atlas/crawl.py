@@ -80,7 +80,7 @@ def fetch(url: str, timeout: int = 20) -> Fetched:
         import requests
         from bs4 import BeautifulSoup
     except ImportError as e:  # pragma: no cover - depends on environment
-        raise RuntimeError(
+        raise CrawlerUnavailable(
             "The crawler needs the 'crawl' extra. Install with:\n"
             "  pip install -e '.[crawl]'"
         ) from e
@@ -244,6 +244,16 @@ def candidate_from_fetch(f: Fetched, city: str = "", region: str = "",
 
 
 # --- Re-crawl / update -------------------------------------------------------
+class CrawlerUnavailable(RuntimeError):
+    """The crawler cannot run here (missing optional dependency, etc.).
+
+    This is a fact about *our* environment, never about a venue, so it must
+    never be written into a record's provenance. It aborts the sweep loudly
+    instead: a sweep that silently marks 263 venues "gone" because a library is
+    missing is worse than no sweep at all.
+    """
+
+
 @dataclass
 class RecrawlResult:
     url: str
@@ -271,6 +281,9 @@ def recrawl(existing: dict) -> RecrawlResult:
     old_hash = prov.get("last_content_hash", "")
     try:
         f = fetch(url)
+    except CrawlerUnavailable:
+        # Our problem, not the venue's. Say nothing about the record.
+        raise
     except Exception as e:  # network error, DNS gone, etc.
         prov["last_crawled"] = _dt.date.today().isoformat()
         prov["last_crawl_error"] = str(e)[:200]

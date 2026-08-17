@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 7c9a1905e8ef5ff0
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: West Town artist loft; programming spans creative and mainstream jazz. Also the base
   of the Jazz Record Art Collective.

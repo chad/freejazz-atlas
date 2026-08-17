@@ -73,8 +73,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 6800534f353ecaf7
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Moabit artist-run venue/residency focused on improvised music and free jazz, founded
   2017.

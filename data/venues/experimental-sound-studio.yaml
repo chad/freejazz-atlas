@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: a93cb1a0dec8655f
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Artist-run nonprofit; the OPTION salon is one of Chicago's core weekly improvised/experimental
   music series.

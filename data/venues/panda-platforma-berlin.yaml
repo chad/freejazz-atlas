@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 40ed84a00e11a5d5
   crawl_http_status: 403
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Interdisciplinary Kulturbrauerei venue and an important contact point for the international
   improvised-music scene since 2009.

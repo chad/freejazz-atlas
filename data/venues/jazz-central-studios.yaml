@@ -72,8 +72,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 23b98e0a2ec04aca
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Nonprofit Minneapolis jazz room; dedicated to jazz and improvised music though much
   of the calendar is straight-ahead.

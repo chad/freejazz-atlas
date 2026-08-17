@@ -73,8 +73,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ed4dcd9377489a76
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Interdisciplinary Wuppertal sociocultural space; free-improv/experimental music is
   part of a broad program. Share of improvised programming not fully verified.

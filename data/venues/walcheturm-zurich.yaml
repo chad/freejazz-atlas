@@ -69,16 +69,13 @@ provenance:
   source_urls:
   - https://www.sonicmatter.ch/en/festival/venues/kunstraum-walcheturm
   - https://neoblog.mx3.ch/index.php/2023/09/02/deutsch-kunstraum-walcheturm-der-unmoegliche-raum-mitten-in-zuerich/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
     checked: '2026-08-17'
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: bef2d0aa250760e7
+  last_content_hash: 6240baf5af52f9f2
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Zurich's central artist-run venue for free improvisation, new music, noise and sound
   art; hosts Taktlos Zürich.

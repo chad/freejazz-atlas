@@ -80,8 +80,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: ae3a4ef34d89577b
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Collective/festival/label rather than a fixed room; runs the We Jazz Festival and year-round
   club nights across Helsinki. Coordinates are Kallio (label base) approximate.

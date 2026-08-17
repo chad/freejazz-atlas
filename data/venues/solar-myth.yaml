@@ -76,7 +76,4 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 543055c2df58b01c
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Reopened 2022 in the former Boot & Saddle; presents Ars Nova Workshop programming.

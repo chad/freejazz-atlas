@@ -69,10 +69,7 @@ provenance:
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: 64049e9c025a943d
+  last_content_hash: c979228345b79ec2
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: artist-run former-squat with broad experimental programming; free/improv
   jazz share uncertain.'

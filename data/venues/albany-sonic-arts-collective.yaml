@@ -72,9 +72,6 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: edd7c87d4961648b
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: mission and roster clearly free-improv, but much online documentation
   is older (blog archives); confirm current activity level and a working primary URL. Coordinates
   set to Albany center.'

@@ -68,11 +68,8 @@ provenance:
     status: ok
     http: 200
   last_crawled: '2026-08-17'
-  last_content_hash: 301d066fffa20658
+  last_content_hash: fb3fde91c8bb7f54
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: Cincinnati''s flagship contemporary art museum presents performance/new
   media and occasional experimental sound, but improvised music is incidental. Cincinnati''s
   stronger experimental thread runs through the pop-up Talk Low festival (Whited Sepulchre

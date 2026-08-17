@@ -76,8 +76,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e6b52a90b73b7556
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: DIY co-op cinema/venue; experimental and improvised music is one strand of a wider
   program. Home of Orchestra Cube.

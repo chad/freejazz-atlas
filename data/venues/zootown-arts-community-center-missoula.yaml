@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 2f8027c133ffd51b
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Missoula's nonprofit community arts center; its Show Room hosts experimental/improvised
   acts and the Jazzoula series within broad nightly programming.

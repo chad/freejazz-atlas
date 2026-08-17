@@ -77,8 +77,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: e3b0c44298fc1c14
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: 'NEEDS REVIEW: GRIM (founded 1978) programs improvised/experimental music at Montevideo
   in Marseille; merged with GMEM since 2016 - confirm current cadence and venue address.'

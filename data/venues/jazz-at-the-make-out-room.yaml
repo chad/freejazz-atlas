@@ -74,8 +74,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: dfdbc74630911a4d
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Commercial Mission bar hosting a strong weekly free-jazz/improv series; the series
   carries the improv weight, not the room itself.

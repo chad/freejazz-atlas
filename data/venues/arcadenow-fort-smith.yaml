@@ -75,8 +75,5 @@ provenance:
   last_crawled: '2026-08-17'
   last_content_hash: 061e19dc5291dc10
   crawl_http_status: 200
-  last_crawl_error: |-
-    The crawler needs the 'crawl' extra. Install with:
-      pip install -e '.[crawl]'
 notes: Amos Cochran-curated experimental series (Fort Smith Bakery District); only Volume
   1 (2022) is documented and future editions were unconfirmed - status/activity needs verification.
