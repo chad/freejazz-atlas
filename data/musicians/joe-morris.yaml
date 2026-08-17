@@ -3,6 +3,7 @@ name: Joe Morris
 instruments:
 - guitar
 - double bass
+- bass
 roles:
 - performer
 - educator
@@ -20,7 +21,25 @@ confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
   added_on: '2026-07-18'
-  source_urls: []
+  source_urls:
+  - https://mahakalamusic.com
+  - https://ivoperelman.bandcamp.com/album/messa-di-voce
+  - https://ivoperelman.bandcamp.com/album/shamanism
+  - https://ivoperelman.bandcamp.com/album/trifecta
+  - https://mahakalamusic.bandcamp.com/album/elliptic-time
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  label_credits:
+  - label: Mahakala Music
+    releases: 4
+    release_titles:
+    - Elliptic Time
+    - Messa Di Voce
+    - Shamanism
+    - Trifecta
+    years: 2020–2026
+    verified_on: '2026-08-17'
+  review_note: Label credits added by catalogue import; existing curation left untouched.
+labels:
+- Mahakala Music

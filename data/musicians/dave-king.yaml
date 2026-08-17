@@ -1,0 +1,34 @@
+id: dave-king
+name: Dave King
+instruments:
+- drums
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives: []
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://mahakalamusic.bandcamp.com/album/stick-insect
+  label_credits:
+  - label: Mahakala Music
+    releases: 1
+    release_titles:
+    - Stick Insect
+    years: '2021'
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

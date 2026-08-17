@@ -815,16 +815,29 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
     place = city_label(hb) if hb.get("city") else ""
     instr = ", ".join(m.get("instruments") or [])
     title = f"{m.get('name', '')} — where they play | Avant Atlas"
+    labels = m.get("labels") or []
+    n_rel = sum((c.get("releases") or 0)
+                for c in ((m.get("provenance") or {}).get("label_credits") or []))
     desc = (f"{m.get('name', '')}"
             + (f" ({instr})" if instr else "")
             + (f", based in {place}" if place else "")
-            + f". {len(linked)} venue{'s' if len(linked) != 1 else ''} in the Avant Atlas "
-              f"associated with this artist.")
+            + ". "
+            + (f"{n_rel} release{'s' if n_rel != 1 else ''} on "
+               f"{', '.join(labels)}. " if n_rel and labels else "")
+            + (f"{len(linked)} venue{'s' if len(linked) != 1 else ''} in the Avant Atlas "
+               f"associated with this artist."))
     prov = m.get("provenance") or {}
-    warn = ('<div class="warn"><strong>Unverified.</strong> This artist entry came from public '
-            'scene knowledge and has not been confirmed. Venue links especially may be '
-            'incomplete or wrong. <a href="/submit">Corrections welcome.</a></div>'
-            if prov.get("needs_human_review") else "")
+    # Say what is actually unverified about *this* record rather than printing a
+    # generic disclaimer: a label-sourced entry has solid instruments and
+    # credits and no location, which is a very different gap from a
+    # scene-knowledge entry with guessed venue links.
+    warn = ""
+    if prov.get("needs_human_review"):
+        detail = prov.get("review_note") or prov.get("note") or (
+            "This entry has not been confirmed by a human. Venue links especially "
+            "may be incomplete or wrong.")
+        warn = (f'<div class="warn"><strong>Partly unverified.</strong> {e(detail)} '
+                f'<a href="/submit">Corrections welcome.</a></div>')
     facts = []
     if instr:
         facts.append(("Instruments", e(instr)))
@@ -832,9 +845,15 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
         facts.append(("Roles", e(", ".join(m["roles"]))))
     if place:
         facts.append(("Based in", e(place)))
+    else:
+        facts.append(("Based in", '<span class="muted">not recorded yet</span>'))
     if m.get("collectives"):
         facts.append(("Groups", e(", ".join(m["collectives"]))))
-    facts.append(("Active this year", "yes" if m.get("active_this_year") else "unconfirmed"))
+    if m.get("labels"):
+        facts.append(("Labels", e(", ".join(m["labels"]))))
+    facts.append(("Active this year",
+                  "yes" if m.get("active_this_year") else
+                  '<span class="muted">unconfirmed</span>'))
     if m.get("website"):
         facts.append(("Website", f'<a href="{e(m["website"])}" rel="noopener nofollow" '
                                  f'target="_blank">{e(m["website"])}</a>'))
@@ -844,6 +863,31 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
                 '<p class="muted">No venues linked yet. If you have seen this artist play, '
                 '<a href="/submit">tell us where</a> — the artist-to-room map is the part of the '
                 'Atlas most in need of help.</p>')
+
+    # Recorded evidence. An artist page with no venue links still has something
+    # real to show if we know what they have released and with whom — and it is
+    # the discography that makes the roster signal computable later.
+    discohtml = ""
+    credits = ((m.get("provenance") or {}).get("label_credits") or [])
+    if credits:
+        rows = []
+        for c in credits:
+            n = c.get("releases") or 0
+            yrs = c.get("years")
+            titles = c.get("release_titles") or []
+            shown = ", ".join(titles[:6])
+            rows.append(
+                f'<tr><td><b>{e(c.get("label"))}</b></td>'
+                f'<td class="n">{n}</td><td>{e(yrs or "")}</td></tr>'
+                + (f'<tr><td colspan="3" class="muted" style="font-size:.8rem">'
+                   f'{e(shown)}{", …" if n > len(titles[:6]) else ""}</td></tr>'
+                   if shown else ""))
+        discohtml = ("<h3>Recorded evidence</h3>"
+                     '<table class="t"><thead><tr><th>Label</th>'
+                     '<th class="n">Releases</th><th>Years</th></tr></thead>'
+                     f'<tbody>{"".join(rows)}</tbody></table>')
+    discopanel = (f'<div class="panel" style="margin-top:1rem">{discohtml}</div>'
+                  if discohtml else "")
 
     body = f"""{crumbs([("/", "Atlas"), ("/artists/", "Artists"),
                         (f"/artists/{m['id']}/", m.get("name", ""))])}
@@ -859,7 +903,9 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
     {listhtml}
   </section>
   <aside><div class="panel"><h3>The facts</h3><dl class="facts">{factshtml}</dl>
-  <p style="margin:1rem 0 0"><a class="cta" href="/submit">Add a venue link</a></p></div></aside>
+  <p style="margin:1rem 0 0"><a class="cta" href="/submit">Add a venue link</a></p></div>
+  {discopanel}
+  </aside>
 </div>
 </div></main>"""
     ld = {
@@ -874,6 +920,9 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
         ld["knowsAbout"] = m.get("instruments")
     if m.get("website"):
         ld["sameAs"] = m["website"]
+    if m.get("labels"):
+        ld["memberOf"] = [{"@type": "Organization", "name": lb}
+                          for lb in m["labels"]]
     if linked:
         ld["performerIn"] = [{"@type": "MusicVenue", "name": v.get("name"),
                               "url": f"{base}/venues/{v['id']}/"} for v in linked]
@@ -884,26 +933,45 @@ def build_artist_page(m: dict, venues_by_id: dict, *, base: str) -> str:
 
 
 def build_artists_index(musicians: list, venues_by_id: dict, *, base: str) -> str:
+    def surname(m):
+        parts = (m.get("name") or "").split()
+        return (parts[-1] if parts else "").lower()
+
     rows = []
-    for m in sorted(musicians, key=lambda m: (m.get("name") or "").split()[-1]):
+    for m in sorted(musicians, key=surname):
         n = len([i for i in (m.get("associated_venues") or []) if i in venues_by_id])
         hb = m.get("home_base") or {}
+        bits = [e(", ".join(m.get("instruments") or [])[:64])]
+        if hb.get("city"):
+            bits.append(e(city_label(hb)))
+        if n:
+            bits.append(f'{n} venue{"s" if n != 1 else ""}')
+        elif m.get("labels"):
+            bits.append(e(m["labels"][0]))
         rows.append(
             f'<a href="/artists/{e(m["id"])}/"><b>{e(m.get("name", ""))}</b>'
-            f'<small>{e(", ".join(m.get("instruments") or []))}'
-            f'{" · " + e(city_label(hb)) if hb.get("city") else ""}'
-            f' · {n} venue{"s" if n != 1 else ""}</small></a>')
+            f'<small>{" · ".join(b for b in bits if b)}</small></a>')
+
+    with_venues = sum(1 for m in musicians
+                      if [i for i in (m.get("associated_venues") or []) if i in venues_by_id])
+    labels = sorted({lb for m in musicians for lb in (m.get("labels") or [])})
+    labelnote = (f" Rosters imported so far: {e(', '.join(labels))}." if labels else "")
+
     body = f"""{crumbs([("/", "Atlas"), ("/artists/", "Artists")])}
 <header class="hero"><div class="wrap">
   <h1>Artists</h1>
-  <p class="sub">The musicians keeping these rooms alive — and which rooms they play.
-  {len(musicians)} entries so far. This is the thinnest part of the Atlas and the most
-  valuable to grow: <a href="/submit">add an artist or a venue link</a>.</p>
+  <p class="sub">The musicians keeping these rooms alive — and, where we know it, which rooms
+  they play. {len(musicians)} entries; {with_venues} have venue links so far.{labelnote}</p>
+  <p class="sub">Label rosters are how this list grows quickly and honestly: a label that
+  releases this music has already curated a list of the people who play it, with instruments,
+  groups and dates attached. Connecting those people to rooms is the slow part, and the part
+  that needs you — <a href="/submit">tell us where you have seen someone play</a>.</p>
 </div></header>
 <main><div class="wrap"><div class="cards">{''.join(rows)}</div></div></main>"""
     return page(base=base, path="/artists/", title="Artists — improvisers and where they play | Avant Atlas",
-                description=(f"{len(musicians)} improvisers and experimental musicians, and the "
-                             f"venues in the Avant Atlas where each of them plays."),
+                description=(f"{len(musicians)} improvisers and experimental musicians, their "
+                             f"instruments and groups, and the venues in the Avant Atlas where "
+                             f"each of them plays."),
                 body=body, nav_here="Artists",
                 jsonld=[breadcrumbs_jsonld([("/", "Avant Atlas"), ("/artists/", "Artists")], base)])
 
@@ -1214,11 +1282,13 @@ def build_site(outdir: Path, venues: list, musicians: list, *, base: str,
               build_tier_page(t, by_tier.get(t.key, []), base=base))
         sitemap_paths.append((f"/tiers/{t.key}/", "0.6"))
 
-    # Artist pages
+    # Artist pages. An artist connected to rooms is more useful to a reader than
+    # one we only know from a discography, and the sitemap should say so.
     for m in musicians:
         write(f"/artists/{m['id']}/index.html",
               build_artist_page(m, venues_by_id, base=base))
-        sitemap_paths.append((f"/artists/{m['id']}/", "0.6"))
+        linked = any(i in venues_by_id for i in (m.get("associated_venues") or []))
+        sitemap_paths.append((f"/artists/{m['id']}/", "0.6" if linked else "0.4"))
 
     # Hubs
     write("/index.html", build_index(venues, musicians, base=base, generated=today))

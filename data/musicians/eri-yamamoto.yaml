@@ -1,0 +1,46 @@
+id: eri-yamamoto
+name: Eri Yamamoto
+instruments:
+- piano
+- voice
+- melodica
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives:
+- Eri Yamamoto Quadraphonic
+- Sparks Quartet
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://eriyamamoto.bandcamp.com/album/colors-of-the-night
+  - https://eriyamamoto.bandcamp.com/album/fly-with-the-wings
+  - https://eriyamamoto.bandcamp.com/album/horizon
+  - https://mahakalamusic.bandcamp.com/album/sparks
+  label_credits:
+  - label: Mahakala Music
+    releases: 6
+    release_titles:
+    - Colors Of The Night
+    - Fly With The Wings
+    - Horizon
+    - Root Causes (featuring Eri Yamamoto and William Parker)
+    - Sparks
+    - Sparks Quartet Live At Vision Festival XXVI
+    years: 2022–2025
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

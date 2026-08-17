@@ -154,9 +154,25 @@ def validate_musician(m: dict) -> ValidationResult:
     loc = m.get("home_base") or {}
     if not loc.get("city"):
         r.warnings.append("no home_base.city")
+    if not m.get("associated_venues"):
+        r.warnings.append("no associated_venues — artist is not yet linked to any room")
+
+    for field in ("instruments", "roles", "collectives", "labels", "associated_venues"):
+        val = m.get(field)
+        if val is not None and not isinstance(val, list):
+            r.errors.append(f"{field} must be a list")
+        elif isinstance(val, list) and any(not isinstance(x, str) for x in val):
+            r.errors.append(f"{field} must contain only strings")
+
     prov = m.get("provenance") or {}
     if not prov.get("added_by"):
         r.warnings.append("provenance.added_by missing")
+    for credit in (prov.get("label_credits") or []):
+        if not credit.get("label"):
+            r.errors.append("provenance.label_credits entry has no label")
+        if not credit.get("releases"):
+            r.warnings.append(
+                f"label_credits for '{credit.get('label')}' records no release count")
     return r
 
 

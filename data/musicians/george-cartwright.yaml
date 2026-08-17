@@ -1,0 +1,47 @@
+id: george-cartwright
+name: George Cartwright
+instruments:
+- saxophone
+- alto saxophone
+- guitar
+- tenor saxophone
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives:
+- George Cartwright's GloryLand PonyCat
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://georgecartwright.bandcamp.com/album/a-tenacious-slew-2
+  - https://georgecartwright.bandcamp.com/album/black-ants-crawling-2
+  - https://georgecartwright.bandcamp.com/album/send-help-2
+  - https://mahakalamusic.bandcamp.com/album/miserere
+  label_credits:
+  - label: Mahakala Music
+    releases: 7
+    release_titles:
+    - A Tenacious Slew
+    - Black Ants Crawling
+    - Miserere
+    - Murmuration
+    - Notice That There
+    - Send Help
+    - Stick Insect
+    years: 2021–2025
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

@@ -1,0 +1,44 @@
+id: dave-sewelson
+name: Dave Sewelson
+instruments:
+- baritone saxophone
+- voice
+- bass
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives: []
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://avamendozamusic.bandcamp.com/album/of-it-but-not-is-it
+  - https://mahakalamusic.bandcamp.com/album/murmuration
+  - https://mahakalamusic.bandcamp.com/album/the-gate
+  - https://sewelson.bandcamp.com/album/more-music-for-a-free-world
+  label_credits:
+  - label: Mahakala Music
+    releases: 7
+    release_titles:
+    - More Music for a Free World
+    - Murmuration
+    - Muscle Memory
+    - Of It But Not Is It
+    - Smooth FreeJazz
+    - The Gate
+    years: 2020–2025
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

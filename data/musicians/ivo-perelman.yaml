@@ -2,6 +2,7 @@ id: ivo-perelman
 name: Ivo Perelman
 instruments:
 - tenor saxophone
+- saxophone
 roles:
 - performer
 - bandleader
@@ -13,13 +14,41 @@ active_this_year: true
 associated_venues:
 - ibeam-brooklyn
 - the-stone
-collectives: []
+collectives:
+- (D)IVO Saxophone Quartet
+- Ivo Perelman Quartet
 website: null
 confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
   added_on: '2026-07-18'
-  source_urls: []
+  source_urls:
+  - https://mahakalamusic.com
+  - https://divo-quartet.bandcamp.com/album/d-ivo
+  - https://ivoperelman.bandcamp.com/album/amalgam
+  - https://ivoperelman.bandcamp.com/album/artificial-intelligence
+  - https://ivoperelman.bandcamp.com/album/embracing-the-unknown
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  label_credits:
+  - label: Mahakala Music
+    releases: 15
+    release_titles:
+    - (D)IVO
+    - Alien Skin
+    - Amalgam
+    - Artificial Intelligence
+    - Elliptic Time
+    - Embracing the Unknown
+    - Magic Dust
+    - Messa Di Voce
+    - Oxygen
+    - Prophecy
+    - Shamanism
+    - The Whisperers
+    years: 2020–2026
+    verified_on: '2026-08-17'
+  review_note: Label credits added by catalogue import; existing curation left untouched.
+labels:
+- Mahakala Music

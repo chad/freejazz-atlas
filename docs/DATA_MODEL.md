@@ -83,7 +83,8 @@ roles: [performer]            # performer | bandleader | curator | educator | �
 home_base: { city: New York, region: NY, country: US }
 active_this_year: true       # still performing this year?
 associated_venues: [dissonant-works]   # venue ids
-collectives: []              # bands / collectives / labels
+collectives: []              # bands / groups the artist is part of
+labels: [Mahakala Music]     # record labels that have released their work
 website: null
 confidence: 0.8
 provenance:
@@ -92,7 +93,45 @@ provenance:
   source_urls: [ … ]
   needs_human_review: false
   note: "Performed at Dissonant Works, Sept 2025."
+  label_credits:            # discography evidence, one entry per label
+    - label: Mahakala Music
+      releases: 16
+      release_titles: [Alien Skin, Ebb & Flow, …]
+      years: "2021–2026"
+      verified_on: 2026-08-17
 ```
+
+### `labels` and `provenance.label_credits`
+
+A label that releases free jazz has, by definition, already curated a list of
+free jazz musicians — with instruments, groups and dates attached. That makes
+label catalogues the cheapest high-quality way to grow the artist corpus, which
+is what the rubric's `artist_roster` signal will eventually be measured against.
+
+`labels` is the simple list; `provenance.label_credits` is the evidence behind
+it, so a claim like "Steve Hirsh is a working improviser" can be checked rather
+than taken on trust. Import with:
+
+```bash
+python scripts/import_label_catalog.py \
+  --catalog ~/src/mahakala/data/catalog \
+  --label "Mahakala Music" --url https://mahakalamusic.com --write
+```
+
+The importer's contract matters as much as its output:
+
+- **It never invents.** Instruments and groups come from the release credits;
+  release URLs become source URLs. What a catalogue cannot know — home base,
+  website, which rooms someone plays — is left `null`, not guessed.
+- **It enriches, never overwrites.** On an artist who already exists, curated
+  fields (`associated_venues`, `home_base`, `website`, `confidence`, `roles`) are
+  preserved untouched; only labels, groups and credits are added.
+- **It distinguishes players from personnel.** Engineers, designers and
+  liner-notes writers appear in the same credit block as musicians and are
+  excluded; a billing like "Chad Fowler, Ivo Perelman, Matthew Shipp" is a
+  session line-up rather than a group, so it does not become a `collective`.
+- **Exclusions are printed with reasons**, so the judgement calls are arguable
+  instead of invisible.
 
 ## Provenance & "active this year"
 

@@ -4,6 +4,9 @@ instruments:
 - saxophone
 - trumpet
 - pocket trumpet
+- winds
+- tenor saxophone
+- percussion
 roles:
 - performer
 - bandleader
@@ -15,7 +18,8 @@ active_this_year: true
 associated_venues:
 - epistrophy-arts
 - nameless-sound
-collectives: []
+collectives:
+- Blue Reality Quartet
 website: null
 confidence: 0.6
 provenance:
@@ -23,5 +27,23 @@ provenance:
   added_on: '2026-07-17'
   source_urls:
   - https://www.furious.com/perfect/epistrophyarts.html
+  - https://mahakalamusic.com
+  - https://bluerealityquartet.bandcamp.com/album/blue-reality-quartet
+  - https://ivoperelman.bandcamp.com/album/reed-rapture-in-brooklyn
+  - https://mahakalamusic.bandcamp.com/album/ellas-island
+  - https://mahakalamusic.bandcamp.com/album/oxygen
   needs_human_review: true
   note: Free-jazz elder presented by Epistrophy Arts and Nameless Sound.
+  label_credits:
+  - label: Mahakala Music
+    releases: 4
+    release_titles:
+    - Blue Reality Quartet!
+    - Ella's Island
+    - Oxygen
+    - Reed Rapture in Brooklyn
+    years: 2021–2025
+    verified_on: '2026-08-17'
+  review_note: Label credits added by catalogue import; existing curation left untouched.
+labels:
+- Mahakala Music

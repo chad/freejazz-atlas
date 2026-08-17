@@ -1,6 +1,6 @@
 # Avant Atlas — Directory
 
-_Generated 2026-08-17 · 263 venues · 44 musicians_
+_Generated 2026-08-17 · 263 venues · 185 musicians_
 
 Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-garde music. See [docs/RUBRIC.md](docs/RUBRIC.md).
 
@@ -791,47 +791,188 @@ Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-
 
 ## Musicians (active this year)
 
+- **Adam Linz** — bass — None — unconfirmed
 - **Akira Sakata** — alto saxophone, clarinet — Tokyo — active
+- **Alden Ikeda** — drums — None — unconfirmed
+- **Alex Greene** — piano, keyboards — None — unconfirmed
 - **Alexander von Schlippenbach** — piano — Berlin — active
+- **Alvin Fielder** — drums — None — unconfirmed
+- **Anders Griffen** — drums, trumpet — None — unconfirmed
+- **Andrew Broder** — guitar, voice — None — unconfirmed
+- **Andrew Cyrille** — drums — None — unconfirmed
+- **Anthony Cox** — bass, cello — None — unconfirmed
+- **Art Baron** — trombone, didgeridoo — None — unconfirmed
+- **Art Edmaiston** — tenor saxophone, soprano saxophone — None — unconfirmed
+- **Aruan Ortiz** — piano — None — unconfirmed
+- **Ava Mendoza** — guitar, voice — None — unconfirmed
 - **Axel Dörner** — trumpet — Berlin — active
+- **Ayumi Ishito** — tenor saxophone — None — unconfirmed
+- **Barry Stephenson** — bass — None — unconfirmed
+- **Ben Stapp** — tuba — None — unconfirmed
 - **Ben Zucker** — trumpet, percussion, composition — Chicago — active
+- **Bernard Santacruz** — bass — None — unconfirmed
+- **Bernice “Boom Boom” Brooks** — drums — None — unconfirmed
+- **Bill Huntington** — bass — None — unconfirmed
+- **Bobby Kapp** — drums — None — unconfirmed
+- **Bobby LaVell** — tenor saxophone — None — unconfirmed
+- **Bobby Zankel** — alto saxophone — None — unconfirmed
+- **Booker T. Williams** — alto saxophone, tenor saxophone — None — unconfirmed
+- **Brad Holden** — saxophone — None — unconfirmed
+- **Brandon Lopez** — bass — None — unconfirmed
+- **Bruce Golden** — drums — None — unconfirmed
+- **Caylie Davis** — trumpet — None — unconfirmed
+- **Chad Anderson** — drums — None — unconfirmed
+- **Chad Fowler** — stritch, saxello, saxophone, alto flute, alto saxophone, flute, bass flute, baritone saxophone — None — unconfirmed
+- **Charles Waters** — alto saxophone, clarinet, flute — None — unconfirmed
+- **Cheryl Pyle** — flute, alto flute — None — unconfirmed
+- **Chris Ferrari** — winds — None — unconfirmed
+- **Chris Hemmingway** — tenor saxophone — None — unconfirmed
+- **Christina Baldwin** — voice, pre-recorded voice — None — unconfirmed
+- **Christopher Forbes** — piano — None — unconfirmed
+- **Christopher Parker** — piano, keyboards, voice — None — unconfirmed
+- **Claire Daly** — baritone saxophone, flute — None — unconfirmed
+- **Claire De Brunner** — bassoon — None — unconfirmed
+- **Clifford "Pee Wee" Jackson** — drums — None — unconfirmed
+- **Colin Stetson** — contrabass saxophone, tubax — None — unconfirmed
+- **Curt Cloninger** — synthesizer — None — unconfirmed
+- **Damon Smith** — bass — None — unconfirmed
+- **Daniel Carter** — saxophone, trumpet, winds, flute, piano, clarinet, drums — None — unconfirmed
+- **Daniel Levin** — cello — None — unconfirmed
+- **Dave Burrell** — piano — None — unconfirmed
+- **Dave Hofstra** — bass — None — unconfirmed
+- **Dave King** — drums — None — unconfirmed
+- **Dave Liebman** — soprano saxophone — None — unconfirmed
 - **Dave Rempis** — alto saxophone, tenor saxophone, baritone saxophone — Chicago — active
+- **Dave Sewelson** — baritone saxophone, voice, bass — None — unconfirmed
+- **Dave Soldier** — violin, mandolin, 5-string banjo — None — unconfirmed
 - **David Dove** — trombone — Houston — active
+- **David Murray** — bass clarinet — None — unconfirmed
+- **Diane Monroe** — violin — None — unconfirmed
+- **Dick Studer** — bass — None — unconfirmed
+- **Douglas Ewart** — sopranino saxophone, english horn, piccolo, home-made digeridoo — None — unconfirmed
 - **Eddie Prévost** — drums, percussion — London — active
+- **Edward "Kidd" Jordan** — tenor saxophone — None — unconfirmed
+- **Elliott Sharp** — electronics, guitar — None — unconfirmed
+- **Elson Nascimento** — percussion — None — unconfirmed
+- **Eri Yamamoto** — piano, voice, melodica — None — unconfirmed
 - **Evan Parker** — soprano saxophone, tenor saxophone — London — active
+- **Fay Victor** — voice — None — unconfirmed
+- **Frank Trompeter** — tenor saxophone, alto saxophone, soprano saxophone — None — unconfirmed
 - **Fred Frith** — guitar — Oakland — active
+- **Gary Hammon** — tenor saxophone — None — unconfirmed
+- **George Cartwright** — saxophone, alto saxophone, guitar, tenor saxophone — None — unconfirmed
+- **Gerald Cleaver** — drums — None — unconfirmed
+- **Hamid Drake** — drums, percussion — None — unconfirmed
+- **Hans Tammen** — guitar, electronics — None — unconfirmed
+- **Hilliard Greene** — bass — None — unconfirmed
+- **Ikuo Takeuchi** — drums — None — unconfirmed
 - **Immanuel Wilkins** — alto saxophone — New York — active
 - **Ingebrigt Håker Flaten** — double bass — Austin — active
 - **Ingrid Laubrock** — saxophone — Brooklyn — active
 - **Ishmael Ali** — cello, guitar, electronics — Chicago — active
-- **Ivo Perelman** — tenor saxophone — New York — active
-- **Joe McPhee** — saxophone, trumpet, pocket trumpet — Poughkeepsie — active
-- **Joe Morris** — guitar, double bass — New Haven — active
+- **Iva Bittová** — voice, violin — None — unconfirmed
+- **Ivo Perelman** — tenor saxophone, saxophone — New York — active
+- **JJ Mazza** — drums — None — unconfirmed
+- **JT Bates** — drums — None — unconfirmed
+- **Jack DeSalvo** — guitar, banjo, oud — None — unconfirmed
+- **Jaimie Branch** — trumpet — None — unconfirmed
+- **Jaleel Shaw** — alto saxophone — None — unconfirmed
+- **James Carter** — baritone saxophone — None — unconfirmed
+- **James Emory** — guitar — None — unconfirmed
+- **Jay Rosen** — percussion, drums — None — unconfirmed
+- **Jeff Arnal** — percussion, electronics — None — unconfirmed
+- **Jeremy Carlstedt** — drums — None — unconfirmed
+- **Jim Clouse** — saxophone, piano, clarinet, drums — None — unconfirmed
+- **Jimmy Lyons** — saxophone — None — unconfirmed
+- **Joe Lovano** — c melody sax, f soprano sax — None — unconfirmed
+- **Joe McPhee** — saxophone, trumpet, pocket trumpet, winds, tenor saxophone, percussion — Poughkeepsie — active
+- **Joe Morris** — guitar, double bass, bass — New Haven — active
+- **Joel Futterman** — piano — None — unconfirmed
 - **Joel Peterson** — bass, guitar — Detroit — active
 - **John Butcher** — saxophone — London — active
+- **John Dierker** — bass clarinet, tenor saxophone — None — unconfirmed
+- **Jon Irabagon** — slide soprano sax, sopranino saxophone — None — unconfirmed
+- **Jose Luis Abreu** — percussion — None — unconfirmed
 - **Josh Berman** — cornet — Chicago — active
+- **Josh Granowski** — bass — None — unconfirmed
 - **Joëlle Léandre** — double bass — Paris — active
-- **Ken Vandermark** — reeds, clarinet, saxophone — Chicago — active
+- **Juan P Carletti** — drums — None — unconfirmed
+- **Kelley Hurt** — voice — None — unconfirmed
+- **Ken Filiano** — bass — None — unconfirmed
+- **Ken Vandermark** — reeds, clarinet, saxophone, winds — Chicago — active
+- **Kevin Thomas** — bass — None — unconfirmed
+- **Khari Wynn** — bass — None — unconfirmed
+- **Kurt Knuffke** — cornet — None — unconfirmed
 - **Larry Ochs** — saxophone — Oakland — active
-- **Luke Stewart** — double bass — Washington — active
-- **Marshall Allen** — alto saxophone, EVI — Philadelphia — active
+- **Lee Odom** — soprano saxophone, flute — None — unconfirmed
+- **Lee Smith** — bass — None — unconfirmed
+- **Lester St. Louis** — cello — None — unconfirmed
+- **Lotte Anker** — soprano saxophone, alto saxophone — None — unconfirmed
+- **Luke Stewart** — double bass, bass, electric bass — Washington — active
+- **Marc Franklin** — trumpet — None — unconfirmed
+- **Marc Ribot** — guitar — None — unconfirmed
+- **Marianne Osiel** — english horn — None — unconfirmed
+- **Marshall Allen** — alto saxophone, EVI, saxophone, evi — Philadelphia — active
+- **Marvin "Bugalu" Smith** — drums — None — unconfirmed
+- **Mary Cherney** — flute, bass flute — None — unconfirmed
 - **Mary Halvorson** — guitar — Brooklyn — active
+- **Mat Maneri** — viola — None — unconfirmed
 - **Mats Gustafsson** — saxophone — Nickelsdorf — active
+- **Matt Hollenberg** — guitar — None — unconfirmed
+- **Matt Lambiase** — trumpet, flute — None — unconfirmed
+- **Matt Lavelle** — alto clarinet, pocket trumpet, bass, e-flat piccolo clarinet — None — unconfirmed
 - **Matthew Shipp** — piano — New York — active
+- **Melanie Dyer** — viola — None — unconfirmed
+- **Micah Thomas** — piano — None — unconfirmed
+- **Michael Bisio** — bass — None — unconfirmed
+- **Michael Marcus** — winds, reeds — None — unconfirmed
+- **Mike Neer** — lap steel guitar — None — unconfirmed
 - **Mike Reed** — drums — Chicago — active
 - **Molly Jones** — saxophone, flute — Chicago — active
 - **Nate Wooley** — trumpet — Brooklyn — active
 - **Nduduzo Makhathini** — piano — New York — active
+- **Nicole Davis** — trumpet — None — unconfirmed
 - **Nicole Mitchell** — flute — Chicago — active
+- **Nicoletta Manzini** — alto saxophone — None — unconfirmed
 - **Otomo Yoshihide** — guitar, turntables — Tokyo — active
 - **Paal Nilssen-Love** — drums, percussion — Oslo — active
+- **Pheeroan akLaff** — drums, percussion — None — unconfirmed
+- **Ra Kalam Bob Moses** — drums, percussion, gongs — None — unconfirmed
+- **Ramon Lopez** — drums — None — unconfirmed
+- **Ras Moshe** — tenor saxophone, flute, gong — None — unconfirmed
+- **Rebecca Cherry** — violin — None — unconfirmed
+- **Reggie Workman** — bass, percussion — None — unconfirmed
 - **Rent Romus** — saxophone — Oakland — active
+- **Richard Davis** — bass — None — unconfirmed
+- **Richard Gilman-Opalsky** — drums, percussion, wood flutes — None — unconfirmed
+- **Rob Brown** — alto saxophone — None — unconfirmed
 - **Rob Mazurek** — cornet, electronics — Chicago — active
+- **Robert Adkins** — drums — None — unconfirmed
+- **Robin Eubanks** — trombone — None — unconfirmed
+- **Roscoe Mitchell** — bass sax — None — unconfirmed
+- **Ruth Naomi Floyd** — voice — None — unconfirmed
+- **Sally Gates** — guitar — None — unconfirmed
+- **Sana Nagano** — violin — None — unconfirmed
+- **Shanyse Strickland** — french horn, flute, voice — None — unconfirmed
+- **Shogo Yamagishi** — bass — None — unconfirmed
+- **Stephanie Griffin** — viola — None — unconfirmed
 - **Steve Beresford** — piano, electronics — London — active
+- **Steve Hirsh** — drums — None — unconfirmed
+- **Steve Swell** — trombone — None — unconfirmed
+- **Sumi Tonooka** — piano — None — unconfirmed
 - **Susie Ibarra** — drums, percussion — New York — active
 - **Tetuzi Akiyama** — guitar — Tokyo — active
+- **Tim Berne** — alto saxophone — None — unconfirmed
 - **Tom Rainey** — drums — Brooklyn — active
 - **Tomeka Reid** — cello — Chicago — active
+- **Tony Malaby** — soprano saxophone — None — unconfirmed
 - **Toshimaru Nakamura** — no-input mixing board — Tokyo — active
-- **Vinny Golia** — reeds, woodwinds — Los Angeles — active
-- **William Parker** — double bass — New York — active
+- **Tyler Mitchell** — bass — None — unconfirmed
+- **Tyshawn Sorey** — drums — None — unconfirmed
+- **Vinny Golia** — reeds, woodwinds, clarinet, basset horn, alto clarinet — Los Angeles — active
+- **WC Anderson** — percussion — None — unconfirmed
+- **Warren Smith** — percussion, vibraphone — None — unconfirmed
+- **Wayne Smith** — drums — None — unconfirmed
+- **William Hooker** — drums — None — unconfirmed
+- **William Parker** — double bass, bass, shakuhachi, fujara — New York — active
+- **gabby fluke-mogul** — violin — None — unconfirmed

@@ -3,6 +3,8 @@ name: Marshall Allen
 instruments:
 - alto saxophone
 - EVI
+- saxophone
+- evi
 roles:
 - performer
 - bandleader
@@ -23,5 +25,17 @@ provenance:
   added_on: '2026-07-17'
   source_urls:
   - https://www.arsnovaworkshop.org/
-  needs_human_review: false
+  - https://mahakalamusic.com
+  - https://mahakalamusic.bandcamp.com/album/dancing-shadows
+  needs_human_review: true
   note: Ghost Horizons at Solar Myth, Feb 2026; centenarian free-jazz elder still active.
+  label_credits:
+  - label: Mahakala Music
+    releases: 1
+    release_titles:
+    - Dancing Shadows
+    years: '2022'
+    verified_on: '2026-08-17'
+  review_note: Label credits added by catalogue import; existing curation left untouched.
+labels:
+- Mahakala Music

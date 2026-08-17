@@ -22,5 +22,25 @@ provenance:
   added_on: '2026-07-17'
   source_urls:
   - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
-  needs_human_review: false
+  - https://mahakalamusic.com
+  - https://eriyamamoto.bandcamp.com/album/horizon
+  - https://ivoperelman.bandcamp.com/album/amalgam
+  - https://ivoperelman.bandcamp.com/album/shamanism
+  - https://mahakalamusic.bandcamp.com/album/alien-skin
+  needs_human_review: true
   note: Performed at Dissonant Works, Sept 2025.
+  label_credits:
+  - label: Mahakala Music
+    releases: 6
+    release_titles:
+    - Alien Skin
+    - Amalgam
+    - Horizon
+    - Muscle Memory
+    - Old Stories
+    - Shamanism
+    years: 2020–2025
+    verified_on: '2026-08-17'
+  review_note: Label credits added by catalogue import; existing curation left untouched.
+labels:
+- Mahakala Music

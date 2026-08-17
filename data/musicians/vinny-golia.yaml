@@ -3,6 +3,9 @@ name: Vinny Golia
 instruments:
 - reeds
 - woodwinds
+- clarinet
+- basset horn
+- alto clarinet
 roles:
 - performer
 - bandleader
@@ -21,7 +24,19 @@ confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
   added_on: '2026-07-18'
-  source_urls: []
+  source_urls:
+  - https://mahakalamusic.com
+  - https://ivoperelman.bandcamp.com/album/reed-rapture-in-brooklyn
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  label_credits:
+  - label: Mahakala Music
+    releases: 1
+    release_titles:
+    - Reed Rapture in Brooklyn
+    years: '2022'
+    verified_on: '2026-08-17'
+  review_note: Label credits added by catalogue import; existing curation left untouched.
+labels:
+- Mahakala Music

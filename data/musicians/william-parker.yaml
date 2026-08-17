@@ -2,6 +2,9 @@ id: william-parker
 name: William Parker
 instruments:
 - double bass
+- bass
+- shakuhachi
+- fujara
 roles:
 - performer
 - bandleader
@@ -17,12 +20,42 @@ associated_venues:
 - ibeam-brooklyn
 collectives:
 - Arts for Art / Vision Festival
+- Dopolarians
+- Christopher Parker & the Band of Guardian Angels
+- Ivo Perelman Quartet
+- Sparks Quartet
 website: null
 confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
   added_on: '2026-07-18'
-  source_urls: []
+  source_urls:
+  - https://mahakalamusic.com
+  - https://alvinfieldertribute.bandcamp.com/album/a-tribute-to-alvin-fielder-live-at-vision-festival-xxiv
+  - https://christopherparker.bandcamp.com/album/yeah-yeah
+  - https://dopolarians.bandcamp.com/album/the-bond
+  - https://eriyamamoto.bandcamp.com/album/colors-of-the-night
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  label_credits:
+  - label: Mahakala Music
+    releases: 17
+    release_titles:
+    - A Tribute to Alvin Fielder, Live at Vision Festival XXIV
+    - Alien Skin
+    - Blues For Alvin Fielder
+    - Broken Unbroken
+    - Colors Of The Night
+    - Magic Dust
+    - More Music for a Free World
+    - Muscle Memory
+    - Soul Food
+    - Sparks
+    - Sparks Quartet Live At Vision Festival XXVI
+    - Sunday Morning Sermon
+    years: 2020–2025
+    verified_on: '2026-08-17'
+  review_note: Label credits added by catalogue import; existing curation left untouched.
+labels:
+- Mahakala Music

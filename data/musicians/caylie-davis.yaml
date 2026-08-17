@@ -1,0 +1,35 @@
+id: caylie-davis
+name: Caylie Davis
+instruments:
+- trumpet
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives:
+- Things Of This Nature
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://mahakalamusic.bandcamp.com/album/things-of-this-nature
+  label_credits:
+  - label: Mahakala Music
+    releases: 1
+    release_titles:
+    - Things Of This Nature
+    years: '2025'
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

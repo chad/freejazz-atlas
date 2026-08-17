@@ -1,0 +1,49 @@
+id: kelley-hurt
+name: Kelley Hurt
+instruments:
+- voice
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives:
+- Dopolarians
+- Christopher Parker & the Band of Guardian Angels
+- Booker T & The Plasmic Bleeds
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://christopherparker.bandcamp.com/album/yeah-yeah
+  - https://christopherparkerkellyhurt.bandcamp.com/album/no-tears-suite
+  - https://dopolarians.bandcamp.com/album/the-bond
+  - https://mahakalamusic.bandcamp.com/album/blues-for-alvin-fielder
+  label_credits:
+  - label: Mahakala Music
+    releases: 10
+    release_titles:
+    - Blues For Alvin Fielder
+    - Miserere
+    - No Tears Suite
+    - Nothing But Love
+    - Notice That There
+    - Ode To BC/LY... And Eye Know BO.... da Prez
+    - Soul Food
+    - Sunday Morning Sermon
+    - The Bond
+    - Yeah, Yeah!
+    years: 2020–2025
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

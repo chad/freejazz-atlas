@@ -1,0 +1,43 @@
+id: chad-anderson
+name: Chad Anderson
+instruments:
+- drums
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives:
+- Dopolarians
+- Ivo Perelman Quartet
+- Booker T & The Plasmic Bleeds
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://mahakalamusic.bandcamp.com/album/blues-for-alvin-fielder
+  - https://mahakalamusic.bandcamp.com/album/magic-dust
+  - https://mahakalamusic.bandcamp.com/album/mellifluous-excursions-vol-1-where-you-been
+  - https://mahakalamusic.bandcamp.com/album/ode-to-bc-ly-and-eye-know-bo-da-prez
+  label_credits:
+  - label: Mahakala Music
+    releases: 4
+    release_titles:
+    - Blues For Alvin Fielder
+    - Magic Dust
+    - Mellifluous Excursions Vol. 1 - Where You Been
+    - Ode To BC/LY... And Eye Know BO.... da Prez
+    years: 2022–2025
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

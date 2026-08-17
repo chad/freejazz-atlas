@@ -1,0 +1,60 @@
+id: chad-fowler
+name: Chad Fowler
+instruments:
+- stritch
+- saxello
+- saxophone
+- alto flute
+- alto saxophone
+- flute
+- bass flute
+- baritone saxophone
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives:
+- Dopolarians
+- Eri Yamamoto Quadraphonic
+- Booker T & The Plasmic Bleeds
+- Sparks Quartet
+- Echo Party
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://christopherparkerkellyhurt.bandcamp.com/album/no-tears-suite
+  - https://dopolarians.bandcamp.com/album/the-bond
+  - https://eriyamamoto.bandcamp.com/album/fly-with-the-wings
+  - https://fowleranderson.bandcamp.com/album/lacrimosa
+  label_credits:
+  - label: Mahakala Music
+    releases: 25
+    release_titles:
+    - Alien Skin
+    - Birdsong
+    - Blues For Alvin Fielder
+    - Broken Unbroken
+    - Ebb & Flow
+    - Embracing the Unknown
+    - Fly With The Wings
+    - Lacrimosa
+    - Memphis Mandala
+    - Miserere
+    - No Tears Suite
+    - Nothing But Love
+    years: 2020–2026
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

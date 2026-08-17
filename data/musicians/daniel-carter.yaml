@@ -1,0 +1,48 @@
+id: daniel-carter
+name: Daniel Carter
+instruments:
+- saxophone
+- trumpet
+- winds
+- flute
+- piano
+- clarinet
+- drums
+roles:
+- performer
+home_base:
+  city: null
+  region: null
+  country: null
+active_this_year: null
+associated_venues: []
+website: null
+confidence: 0.6
+collectives:
+- Christopher Parker & the Band of Guardian Angels
+labels:
+- Mahakala Music
+provenance:
+  added_by: label-catalog:mahakala-music
+  added_on: '2026-08-17'
+  source_urls:
+  - https://mahakalamusic.com
+  - https://christopherparker.bandcamp.com/album/yeah-yeah
+  - https://mahakalamusic.bandcamp.com/album/phosphene
+  - https://mahakalamusic.bandcamp.com/album/playing-retention
+  - https://mahakalamusic.bandcamp.com/album/soul-food
+  label_credits:
+  - label: Mahakala Music
+    releases: 5
+    release_titles:
+    - Convocation
+    - Phosphene
+    - Playing Retention
+    - Soul Food
+    - Yeah, Yeah!
+    years: 2021–2026
+    verified_on: '2026-08-17'
+  needs_human_review: true
+  review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
+    are sourced. Home base, website and venue links are still unknown — those are what a human
+    should add.'

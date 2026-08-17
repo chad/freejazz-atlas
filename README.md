@@ -50,7 +50,7 @@ atlas stats                 # corpus size + geographic spread
 atlas list --min 85         # every Cornerstone venue
 atlas list --state IL       # browse by state
 atlas show ibeam-brooklyn   # explainable score breakdown
-atlas build                 # generate the 514-page static site + DIRECTORY.md
+atlas build                 # generate the 655-page static site + DIRECTORY.md
 atlas linkcheck             # is every cited website still reachable?
 atlas verify                # ranked queue: what a human should check next
 open site/index.html
@@ -78,7 +78,7 @@ searching for "free jazz in Lisbon":
 /cities/<slug>/       every venue in a city          (134 pages)
 /regions/<state>/     every venue in a US state       (38 pages)
 /countries/<cc>/      every venue in a country        (24 pages)
-/artists/<id>/        where an artist plays           (44 pages)
+/artists/<id>/        where an artist plays          (185 pages)
 /tiers/<key>/         the rubric's tiers as lists
 /rubric/              how scoring works, incl. what it can't do yet
 /directory.json       the whole corpus in one fetch
@@ -179,13 +179,16 @@ tests/            rubric calibration, validation, link health, site integrity
 **Real and working now:**
 - The rubric, calibrated to four anchors and enforced by tests.
 - Data model + validation (`atlas validate`), scoring (`atlas score`).
-- A corpus of **263 venues in 134 cities across 24 countries** and **44
+- A corpus of **263 venues in 134 cities across 24 countries** and **185
   musicians**, with per-signal evidence, source URLs and honest confidence.
-- A 514-page static site with full crawler metadata, plus `DIRECTORY.md`,
+- A 655-page static site with full crawler metadata, plus `DIRECTORY.md`,
   `directory.json` and a JSON API.
+- A label-catalogue importer (`scripts/import_label_catalog.py`) that grows the
+  artist corpus from a label's own discography without inventing anything.
 - Link health, content-hash change detection, and a ranked verification queue.
-- 32 tests covering rubric calibration, validation, link classification, and
-  site integrity (including HTML escaping of community-supplied text).
+- 76 tests covering rubric calibration, validation, link classification, site
+  integrity (including HTML escaping of community-supplied text) and the
+  credit-parsing rules of the label importer.
 
 **Known limitations — stated plainly:**
 
@@ -219,10 +222,14 @@ Corrections are welcome and expected.
    schema.org — are the way in. Once shows are ingested, `show_frequency` and
    `artist_roster` become *measurements*, and a room that stops programming
    drifts down on its own.
-2. **Artist graph, 44 → thousands.** Label rosters and festival lineups
-   (MusicBrainz, Bandcamp, Clean Feed, Intakt, Astral Spirits, Catalytic Sound,
-   Trost…) give the roster signal something to match against, and artist↔venue
-   edges then fall out of event data for free.
+2. **Artist graph — started, keep going.** The first label roster (Mahakala
+   Music, 89 releases) took the corpus from 44 to 185 musicians with sourced
+   instruments, groups and discographies. The importer is label-agnostic, so
+   Clean Feed, Intakt, Astral Spirits, Catalytic Sound, Relative Pitch, Trost
+   and Not Two are the same command again. **The hard part is the other half:**
+   141 of those artists have no venue links yet, and artist↔venue edges are what
+   make the `artist_roster` signal computable — they fall out of event data for
+   free once events land.
 3. **Contact + booking fields.** `contact`, `booker`, `pay_model`, PA/piano,
    accessibility, capacity (only 99/263 have it). This is what makes touring
    musicians want to maintain the data.
