@@ -37,8 +37,11 @@ from .model import enrich_venue
 SITE = storage.ROOT / "site"
 
 # Public origin, used for canonical URLs and sitemaps. Override with the
-# ATLAS_BASE_URL env var at build time.
-DEFAULT_BASE_URL = "https://atlas.run.garden"
+# ATLAS_BASE_URL env var at build time. This must always be a hostname that
+# actually resolves: a canonical URL pointing at a dead name gets the whole site
+# dropped from search results, which is the exact problem the multi-page site
+# was built to solve.
+DEFAULT_BASE_URL = "https://atlas.mahakalamusic.com"
 
 TIER_COLORS = {
     "cornerstone": "#e0654a",

@@ -20,7 +20,7 @@ onbuild = ["python -m atlas.cli build"]
 #   3. miren deploy
 [[env]]
 key = "ATLAS_BASE_URL"
-value = "https://atlas.freeq.at"
+value = "https://atlas.mahakalamusic.com"
 description = "Public origin for canonical URLs, Open Graph tags and the sitemap."
 
 [[env]]

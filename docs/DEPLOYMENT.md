@@ -5,7 +5,7 @@ Avant Atlas runs in two places, on purpose.
 | | Where | What it does |
 |---|---|---|
 | **Data plane** | this Mac, under `launchd` | Owns the corpus. Runs the weekly freshness sweep (link health → source re-crawl → rebuild → commit → redeploy). Serves a local copy on `127.0.0.1:8420`. |
-| **Web plane** | miren app `avant-atlas` | Serves the public site at **<https://atlas.freeq.at>**. Stateless: it is a container that builds the site from `data/*.yaml` and serves it. |
+| **Web plane** | miren app `avant-atlas` | Serves the public site at **<https://atlas.mahakalamusic.com>**. Stateless: it is a container that builds the site from `data/*.yaml` and serves it. |
 
 The split matters. The corpus is a git repository of human-editable YAML that
 accumulates history, so it wants to live on a machine with a shell and a
@@ -34,12 +34,20 @@ client → nginx :443 (TLS, on the cluster host)
        → avant-atlas web sandbox :8000 (uvicorn)
 ```
 
-The nginx server block lives at `/etc/nginx/sites-available/atlas.freeq.at` on
-the cluster host and lists all hostnames the app answers to. TLS is Certbot:
+The nginx server block lives at
+`/etc/nginx/sites-available/atlas.mahakalamusic.com` on the cluster host and
+lists every hostname the app answers to. TLS is Certbot:
 
 ```bash
-certbot --nginx -d atlas.freeq.at --redirect
+certbot --nginx -d atlas.mahakalamusic.com --redirect
 ```
+
+### Hostname history
+
+`atlas.freeq.at` was the canonical host briefly, before settling on
+`atlas.mahakalamusic.com`. It is kept as a permanent 301 rather than removed —
+link rot is the problem this project exists to document, so it should not create
+any of its own.
 
 ### About `atlas.run.garden`
 
@@ -59,7 +67,7 @@ To finish the switch once that record points at the cluster:
 
 ```bash
 # 1. canonical origin
-sed -i '' 's|https://atlas.freeq.at|https://atlas.run.garden|' .miren/app.toml
+sed -i '' 's|https://atlas.mahakalamusic.com|https://atlas.run.garden|' .miren/app.toml
 # 2. certificate
 ssh root@<cluster-host> 'certbot --nginx -d atlas.run.garden --redirect'
 # 3. ship

@@ -42,7 +42,7 @@ jobs:
         run: python -m pytest -q
 
       - name: Build the site
-        run: python -m atlas.cli build --base-url https://atlas.run.garden
+        run: python -m atlas.cli build --base-url https://atlas.mahakalamusic.com
 
       - name: Report corpus shape
         run: python -m atlas.cli stats

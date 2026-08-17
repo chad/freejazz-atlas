@@ -36,7 +36,7 @@ argue with — *why* a place is rated the way it is.
   provenance. Artists send small PRs; venues can self-list. See
   [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-**Live at [atlas.freeq.at](https://atlas.freeq.at).** (The intended home,
+**Live at [atlas.mahakalamusic.com](https://atlas.mahakalamusic.com).** (The intended home,
 , is routed and waiting on a DNS record in Miren's zone — see
 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).)
 
