@@ -73,13 +73,13 @@ provenance:
   - https://www.breadandsaltsandiego.com/concerts
   - https://www.projectblanksd.org/salty-series-2026
   - https://sdnews.com/bread-and-salt/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 248cef36a779f4ae
+  last_crawled: '2026-08-24'
+  last_content_hash: 9d93920a08efca0b
   crawl_http_status: 200
 notes: San Diego's core experimental-music venue, hosting the Fresh Sound new-music series
   and Project [BLANK]'s monthly Salty Series of improvisation and sound art.

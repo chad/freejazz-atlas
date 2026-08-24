@@ -71,7 +71,7 @@ provenance:
   - https://www.pghsoundpreserve.org/calendar
   needs_human_review: false
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

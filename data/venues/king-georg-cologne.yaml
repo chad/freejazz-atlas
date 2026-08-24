@@ -66,13 +66,13 @@ provenance:
   source_urls:
   - https://miz.org/en/institutions/king-georg-i36060
   - https://www.cologne-tourism.com/arts-culture/sights/detail/king-georg
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 7398d746da434275
+  last_crawled: '2026-08-24'
+  last_content_hash: d1bf9d2591b4b1e4
   crawl_http_status: 200
 notes: Nonprofit Cologne jazz club/bar with a mostly mainstream jazz program; adventurous
   music is secondary.

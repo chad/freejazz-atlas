@@ -68,12 +68,12 @@ provenance:
   source_urls:
   - https://crosstownarts.org/
   - https://wearememphis.com/play/music/venue-profile-the-green-room-at-crosstown-concourse/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 2927c78cf886b2c0
+  last_crawled: '2026-08-24'
+  last_content_hash: d4b923a9d40ee4d2
   crawl_http_status: 200
 notes: 'ANCHOR: calibrated as MODERATE — on the list, but a broad arts center, not free-jazz-dedicated.'

@@ -1,0 +1,9 @@
+artist_id: fay-victor
+artist_name: Fay Victor
+source_url: https://www.fayvictor.com/shows/
+scraped_on: '2026-08-24'
+method: none
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events: []

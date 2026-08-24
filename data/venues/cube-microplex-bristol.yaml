@@ -68,13 +68,13 @@ provenance:
   source_urls:
   - https://cubecinema.com/
   - https://en.wikipedia.org/wiki/Cube_Microplex
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: e6b52a90b73b7556
+  last_crawled: '2026-08-24'
+  last_content_hash: c72d227566fb23d7
   crawl_http_status: 200
 notes: DIY co-op cinema/venue; experimental and improvised music is one strand of a wider
   program. Home of Orchestra Cube.

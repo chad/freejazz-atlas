@@ -49,10 +49,10 @@ provenance:
     why: record had no website; official site verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: a6dd98314b71fdea
+  last_crawled: '2026-08-24'
+  last_content_hash: 9c291443335f1e02
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: confirm the current status/cadence of the Sunday improvised series.'

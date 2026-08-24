@@ -62,13 +62,13 @@ provenance:
   last_confirmed: 2026-07
   source_urls:
   - https://www.fasching.se/en/about-fasching/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 3a144a415091d2de
+  last_crawled: '2026-08-24'
+  last_content_hash: 85382419c884d6c6
   crawl_http_status: 200
 notes: Large musician-owned Stockholm jazz club; adventurous music is part of a broad, partly
   mainstream program.

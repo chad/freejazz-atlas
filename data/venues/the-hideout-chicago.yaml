@@ -65,12 +65,12 @@ provenance:
   source_urls:
   - https://www.hideoutchicago.com/tag/immediate-sound-series/
   - https://en.wikipedia.org/wiki/The_Hideout_Inn
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 4508f8e530112034
+  last_crawled: '2026-08-24'
+  last_content_hash: 1a71fedf0c4df2a7
   crawl_http_status: 200
 notes: Independent bar/venue whose weekly Immediate Sound series anchors its free-jazz programming.

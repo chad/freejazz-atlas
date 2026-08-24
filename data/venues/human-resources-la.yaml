@@ -67,13 +67,13 @@ provenance:
   source_urls:
   - https://en.wikipedia.org/wiki/Human_Resources_Los_Angeles
   - https://www.h-r.la/events/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 2407baed2c1b9b71
+  last_crawled: '2026-08-24'
+  last_content_hash: 1aa4cb07374f723d
   crawl_http_status: 200
 notes: Chinatown nonprofit for experimental/interdisciplinary art; experimental music and
   performance are a strong recurring part of the program.

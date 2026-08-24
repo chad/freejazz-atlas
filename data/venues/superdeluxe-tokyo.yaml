@@ -70,12 +70,12 @@ provenance:
   - https://en.japantravel.com/tokyo/super-deluxe-in-roppongi/1585
   needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
     final_url: https://super-deluxe.com/
-  last_crawled: '2026-08-17'
-  last_content_hash: 36c62eb9f895c175
+  last_crawled: '2026-08-24'
+  last_content_hash: aa6e6acec6d6b810
   crawl_http_status: 200
 notes: CLOSED 2019 after 17 years (building demolition). Included as a historically important
   cornerstone of Tokyo's experimental scene; a successor project, SupernaturalDeluxe, opened

@@ -66,13 +66,13 @@ provenance:
   source_urls:
   - https://sc.edu/study/colleges_schools/music/concerts_and_events/southern_exposure/index.php
   - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: b31664d676e3b904
+  last_crawled: '2026-08-24'
+  last_content_hash: 567957eaec354497
   crawl_http_status: 200
 notes: University new-music series in Columbia SC. Strong on contemporary/experimental composition;
   free improvisation is present but not the primary focus (which caps the roster signal).

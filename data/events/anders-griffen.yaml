@@ -1,0 +1,41 @@
+artist_id: anders-griffen
+artist_name: Anders Griffen
+source_url: http://www.andersgriffen.com
+scraped_on: '2026-08-24'
+method: text
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events:
+- date: '2026-07-24'
+  raw: July 24 - The Loading Dock , Littleton, NH
+  venue_name: The Loading Dock
+  city: Littleton
+  region: NH
+  country: ''
+  lineup: ''
+  source_url: http://www.andersgriffen.com
+  artist_id: anders-griffen
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.286
+  match_note: 'no confident match (best: The Apohadion Theater, name similarity 0.48; city
+    differs (Littleton vs Portland))'
+  id: 0d5f46e28c67
+- date: '2026-07-26'
+  raw: July 26 - Easthampton Media, Easthampton, MA
+  venue_name: Easthampton Media
+  city: Easthampton
+  region: MA
+  country: ''
+  lineup: ''
+  source_url: http://www.andersgriffen.com
+  artist_id: anders-griffen
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.407
+  match_note: 'no confident match (best: Pioneer Valley Jazz Shares, name similarity 0.36;
+    region matches (MA))'
+  id: 431b767a12d3

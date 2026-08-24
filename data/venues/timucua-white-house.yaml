@@ -73,13 +73,13 @@ provenance:
   - https://timucua.com/venue/timucua/
   - https://artsinorlando.com/event/moj-tuesday-again/
   - https://newsroom.ocfl.net/2025/05/timucua-arts-foundation-celebrates-25-years-of-bringing-art-to-life/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 1f5812b1a73be552
+  last_crawled: '2026-08-24'
+  last_content_hash: e8761ef1558f1e20
   crawl_http_status: 200
 notes: Orlando nonprofit house-concert listening room (Timucua Arts Foundation). Strong dedicated
   listening space and jazz program; experimental/free improv is present but secondary to jazz,

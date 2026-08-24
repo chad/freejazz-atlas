@@ -1,0 +1,9 @@
+artist_id: barry-stephenson
+artist_name: Barry Stephenson
+source_url: http://barrystephensonmusic.com#shows
+scraped_on: '2026-08-24'
+method: none
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events: []

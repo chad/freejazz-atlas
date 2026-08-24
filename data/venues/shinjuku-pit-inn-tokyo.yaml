@@ -72,7 +72,7 @@ provenance:
   - https://en.wikipedia.org/wiki/Pit_Inn_(jazz_club)
   - https://tokyojazzsite.com/directory/listing/pit-inn
   - https://en.japantravel.com/tokyo/shinjuku-pit-inn/37908
-  needs_human_review: false
+  needs_human_review: true
   url_corrections:
   - 'on': '2026-08-17'
     from: https://pit-inn.com/
@@ -80,11 +80,11 @@ provenance:
     why: the site does not serve a usable TLS endpoint; plain HTTP verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: dbbb30b3662fed9c
+  last_crawled: '2026-08-24'
+  last_content_hash: 1aca04b08efa4adf
   crawl_http_status: 200
 notes: Original opened 1965, closed to demolition 1992 and reopened in Shinjuku the same year.
   Cornerstone of Japanese free-jazz history; today books broad jazz with regular avant/free

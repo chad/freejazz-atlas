@@ -69,11 +69,11 @@ provenance:
   - https://www.wien.info/en/dine-drink/bars-clubs/live-locations/rhiz-356670
   needs_human_review: false
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: blocked
     http: 403
     detail: HTTP 403
-  last_crawled: '2026-08-17'
+  last_crawled: '2026-08-24'
   last_content_hash: 301dc171e5fa8c5f
   crawl_http_status: 403
 notes: Gürtel-arch venue for experimental electronic and avant music; more electronic-leaning

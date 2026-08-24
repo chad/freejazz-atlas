@@ -64,13 +64,13 @@ provenance:
   source_urls:
   - https://blantonmuseum.org/
   - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 7e6b346b09bdb216
+  last_crawled: '2026-08-24'
+  last_content_hash: afcd358ff8c49799
   crawl_http_status: 200
 notes: University art museum whose SoundSpace series brings experimental/improvised music
   into the galleries; also a No Idea Festival host.

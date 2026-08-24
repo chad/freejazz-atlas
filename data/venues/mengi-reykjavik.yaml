@@ -64,12 +64,12 @@ provenance:
   source_urls:
   - https://mengi.net/
   - https://guidetoiceland.is/music-of-iceland/the-best-live-music-venues-in-iceland
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 5f608412503d90c9
+  last_crawled: '2026-08-24'
+  last_content_hash: 2a771b79276bbac8
   crawl_http_status: 200
 notes: Artist-run experimental venue, gallery and label in downtown Reykjavik.

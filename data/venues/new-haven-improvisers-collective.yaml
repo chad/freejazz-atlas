@@ -69,11 +69,11 @@ provenance:
   - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
   needs_human_review: false
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: blocked
     http: 403
     detail: HTTP 403
-  last_crawled: '2026-08-17'
+  last_crawled: '2026-08-24'
   last_content_hash: 278f003df0c26e51
   crawl_http_status: 403
 notes: Member-run improvisers' collective (presenter/workshop series); no fixed venue, currently

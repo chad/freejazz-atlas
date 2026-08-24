@@ -71,11 +71,11 @@ provenance:
   - https://archive.org/details/noishanghai_vi
   needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 1fcc41af1f4fa2ed
+  last_crawled: '2026-08-24'
+  last_content_hash: 6de6c3eb6f9bcc45
   crawl_http_status: 200
 notes: Shanghai's oldest underground live house (est. 2004); rock-led but hosts occasional
   experimental/improv/noise events. Free/avant is secondary to the main program.

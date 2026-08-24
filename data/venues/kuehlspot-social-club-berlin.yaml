@@ -65,13 +65,13 @@ provenance:
   source_urls:
   - https://miz.org/de/institutionen/kuehlspot-social-club-i38754
   - https://www.europejazz.net/club/k%C3%BChlspot-social-club
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 4104f19bb35e211a
+  last_crawled: '2026-08-24'
+  last_content_hash: ab363e965dac2008
   crawl_http_status: 200
 notes: Weißensee nonprofit presenting ~200 improvised-music/free-jazz concerts a year, opened
   2013.

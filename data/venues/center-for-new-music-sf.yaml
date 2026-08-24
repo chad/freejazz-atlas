@@ -71,13 +71,13 @@ provenance:
   - https://centerfornewmusic.com/
   - https://www.bayimproviser.com/venue/139/center-for-new-music
   - https://www.sfcv.org/venues/center-new-music
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 9d1b9c52efd1697c
+  last_crawled: '2026-08-24'
+  last_content_hash: 6d4c9422824d94aa
   crawl_http_status: 200
 notes: Downtown SF nonprofit new-music center; balances curated experimental/improv concerts
   with rehearsal and community use.

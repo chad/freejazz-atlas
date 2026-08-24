@@ -73,7 +73,7 @@ provenance:
     why: extradition-series.com lapsed; the series now lives on the Creative Music Guild site
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

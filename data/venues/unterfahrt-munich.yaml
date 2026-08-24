@@ -68,13 +68,13 @@ provenance:
   source_urls:
   - https://www.unterfahrt.de/
   - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: b520b9ae9c1ecbc1
+  last_crawled: '2026-08-24'
+  last_content_hash: b454785ed8c6902a
   crawl_http_status: 200
 notes: Munich's flagship jazz club with free-jazz roots; adventurous programming is a strand
   within a broad jazz program.

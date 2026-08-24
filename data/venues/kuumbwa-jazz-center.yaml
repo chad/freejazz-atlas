@@ -65,13 +65,13 @@ provenance:
   source_urls:
   - https://www.kuumbwajazz.org/
   - https://downtownsantacruz.com/go/kuumbwa-jazz-center
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: ba7f071f5d95ce0e
+  last_crawled: '2026-08-24'
+  last_content_hash: b5899a0ef55ff8b9
   crawl_http_status: 200
 notes: Respected nonprofit Santa Cruz jazz room; mostly mainstream/national jazz with occasional
   adventurous booking, so supportive rather than a dedicated improv home.

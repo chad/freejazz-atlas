@@ -68,13 +68,13 @@ provenance:
   - https://www.cotfg.org/
   - https://nowplayingaustin.com/organization/church-of-the-friendly-ghost/
   - https://newmusicusa.org/nmbx/austin-summer-festivals-business-as-unusual/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: e679a20afc72f8ee
+  last_crawled: '2026-08-24'
+  last_content_hash: 385fbbd08baad848
   crawl_http_status: 200
 notes: Roaming volunteer-run presenter (coordinates approximate to its original East Austin
   base); organizer of the New Media Art and Sound Summit.

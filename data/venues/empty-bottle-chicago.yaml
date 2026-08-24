@@ -67,7 +67,7 @@ provenance:
   - https://www.wbez.org/music/2025/10/31/empty-bottle-33-1-3-birthday-chicago-live-music
   needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
     final_url: https://www.emptybottle.com/

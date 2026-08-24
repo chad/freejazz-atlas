@@ -67,13 +67,13 @@ provenance:
   source_urls:
   - https://www.kowald-ort.com/
   - https://www.kowald-ort.com/about-kowald-ort/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 421a79d99a884609
+  last_crawled: '2026-08-24'
+  last_content_hash: 26268fc05d18ee95
   crawl_http_status: 200
 notes: Peter Kowald's Wuppertal improvised-music space, continued since 2002 by the ort e.V.
   association.

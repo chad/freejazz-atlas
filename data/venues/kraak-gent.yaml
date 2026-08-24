@@ -68,11 +68,11 @@ provenance:
   - https://dutchculture.nl/en/organisation/kraak-festival-brussels
   needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 13f69d3bbe948862
+  last_crawled: '2026-08-24'
+  last_content_hash: 6b9f0c6fea4c5ae1
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: nomadic Belgian DIY organisation/label/festival with no fixed venue;
   coordinates are Ghent. Confirm current base and festival host venues.'

@@ -69,12 +69,12 @@ provenance:
   source_urls:
   - https://www.waywardmusic.org/
   - https://www.nseq.org/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: dd52585da3ce3dbb
+  last_crawled: '2026-08-24'
+  last_content_hash: e98c089390dd94fc
   crawl_http_status: 200
 notes: Wayward Music Series presented by Nonsequitur and partner organizations.

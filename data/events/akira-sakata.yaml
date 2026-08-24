@@ -1,0 +1,9 @@
+artist_id: akira-sakata
+artist_name: Akira Sakata
+source_url: http://akira-sakata.com/schedule/?param=thismonth
+scraped_on: '2026-08-24'
+method: none
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events: []

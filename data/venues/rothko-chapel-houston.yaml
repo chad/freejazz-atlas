@@ -66,13 +66,13 @@ provenance:
   source_urls:
   - https://rothkochapel.org/
   - https://www.namelesssound.org/programs/concerts
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 8fc5c089698ead41
+  last_crawled: '2026-08-24'
+  last_content_hash: 700bd39e31a7f040
   crawl_http_status: 200
 notes: Montrose meditative art chapel; a recurring site for Nameless Sound's site-specific
   experimental/improvised programming.

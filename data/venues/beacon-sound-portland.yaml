@@ -68,7 +68,7 @@ provenance:
   - https://everout.com/portland/locations/beacon-sound/l29924/
   needs_human_review: false
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

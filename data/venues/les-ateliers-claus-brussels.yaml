@@ -66,14 +66,14 @@ provenance:
   source_urls:
   - https://www.lesateliersclaus.com/program
   - https://ra.co/news/84296
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
     final_url: https://www.lesateliersclaus.com/program
-  last_crawled: '2026-08-17'
-  last_content_hash: 98c8e5ab671051ac
+  last_crawled: '2026-08-24'
+  last_content_hash: 822671285131c91e
   crawl_http_status: 200
 notes: 'CLOSED: after ~20 years, private funding ended and all activity stopped by April 2026
   (final concert 17 April 2026). Included as a recently-closed cornerstone of the Brussels

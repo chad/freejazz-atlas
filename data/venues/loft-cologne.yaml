@@ -67,12 +67,12 @@ provenance:
   source_urls:
   - https://www.loftkoeln.de/en/the-room/
   - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 4e0663a3920369bd
+  last_crawled: '2026-08-24'
+  last_content_hash: a7bd841aa5b1bb64
   crawl_http_status: 200
 notes: Award-winning Ehrenfeld space for improvised and contemporary music since 1989.

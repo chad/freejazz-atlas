@@ -66,13 +66,13 @@ provenance:
   source_urls:
   - https://www.bayimproviser.com/venue/140/make-out-room
   - https://www.facebook.com/mondaymakeout/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: dfdbc74630911a4d
+  last_crawled: '2026-08-24'
+  last_content_hash: f64203b0b2a6196a
   crawl_http_status: 200
 notes: Commercial Mission bar hosting a strong weekly free-jazz/improv series; the series
   carries the improv weight, not the room itself.

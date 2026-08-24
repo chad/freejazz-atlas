@@ -1,0 +1,104 @@
+artist_id: eri-yamamoto
+artist_name: Eri Yamamoto
+source_url: https://www.eriyamamoto.com/schedule
+scraped_on: '2026-08-24'
+method: text
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events:
+- date: '2026-07-06'
+  raw: July 6- Rodi Jazz Festival in Foggia, Italy
+  venue_name: Rodi Jazz Festival in Foggia
+  city: Italy
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://www.eriyamamoto.com/schedule
+  artist_id: eri-yamamoto
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.392
+  match_note: 'no confident match (best: Earshot Jazz, name similarity 0.65; city differs
+    (Italy vs Seattle))'
+  id: a1e93e1ae49c
+- date: '2026-07-11'
+  raw: July 11-Torrente de Cinca Festival, Spain
+  venue_name: Torrente de Cinca Festival
+  city: Spain
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://www.eriyamamoto.com/schedule
+  artist_id: eri-yamamoto
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.347
+  match_note: 'no confident match (best: Portland Institute for Contemporary Art, name similarity
+    0.58; city differs (Spain vs Portland))'
+  id: 96f2719cc57f
+- date: '2026-07-12'
+  raw: July 12-Pobla de Cervoles, Spain
+  venue_name: Pobla de Cervoles
+  city: Spain
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://www.eriyamamoto.com/schedule
+  artist_id: eri-yamamoto
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.31
+  match_note: 'no confident match (best: Cube Microplex, name similarity 0.52; city differs
+    (Spain vs Bristol))'
+  id: 6f6bf6b2094e
+- date: '2026-07-13'
+  raw: July 13- San Fermin Festival in Pamplona, Spain
+  venue_name: San Fermin Festival in Pamplona
+  city: Spain
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://www.eriyamamoto.com/schedule
+  artist_id: eri-yamamoto
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.329
+  match_note: 'no confident match (best: AngelicA - Festival Internazionale di Musica, name
+    similarity 0.55; city differs (Spain vs Bologna))'
+  id: a89ce0e81490
+- date: '2026-07-16'
+  raw: July 16-Jazz bajo las estrellas-Palasiet
+  venue_name: Jazz bajo las estrellas-Palasiet
+  city: ''
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://www.eriyamamoto.com/schedule
+  artist_id: eri-yamamoto
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.455
+  match_note: 'no confident match (best: Jazz Central Studios, name similarity 0.45)'
+  id: fa49a4f1b149
+- date: '2026-11-09'
+  raw: November 9-14, 2023
+  venue_name: '14'
+  city: '2023'
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://www.eriyamamoto.com/schedule
+  artist_id: eri-yamamoto
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.4
+  match_note: 'no confident match (best: Gallery 1412, name similarity 0.67; city differs
+    (2023 vs Seattle))'
+  id: 70ddbb76806e

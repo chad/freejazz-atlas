@@ -66,11 +66,11 @@ provenance:
   - https://www.spottedbylocals.com/rome/angelo-mai/
   needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: error
     http: 500
     detail: HTTP 500
-  last_crawled: '2026-08-17'
+  last_crawled: '2026-08-24'
   last_content_hash: affdfa31ff319504
   crawl_http_status: 500
 notes: Occupied DIY cultural collective; experimentation is part of the identity but the music

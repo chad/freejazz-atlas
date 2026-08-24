@@ -71,13 +71,13 @@ provenance:
   - https://constellation-chicago.com/about/
   - https://en.wikipedia.org/wiki/Constellation_(nightclub)
   - https://downbeat.com/news/detail/reed-expands-reach-with-constellation
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 8cef46a1a92d27b4
+  last_crawled: '2026-08-24'
+  last_content_hash: 3e86f2a08a05d88d
   crawl_http_status: 200
 notes: Cornerstone Chicago venue for jazz, improvised and experimental music; owned/programmed
   by Mike Reed, who also owns the Hungry Brain.

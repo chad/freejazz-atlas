@@ -66,12 +66,12 @@ provenance:
   - https://inkonst.com/en/event/intonal-festival-2/
   needs_human_review: false
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: blocked
     http: 429
     detail: HTTP 429
-  last_crawled: '2026-08-17'
-  last_content_hash: a58a956ff1068fbc
+  last_crawled: '2026-08-24'
+  last_content_hash: cbda39ca6f42d2ec
   crawl_http_status: 429
 notes: Independent Malmö arts venue in a former chocolate factory; experimental music including
   jazz, and home of the Intonal festival.

@@ -69,13 +69,13 @@ provenance:
   - https://www.realartways.org/
   - https://ctexaminer.com/events/instantiations-improvisational-jazz-series-at-real-art-ways-in-hartford/2025-12-14/
   - https://patch.com/connecticut/hartford/improvisations-now-real-art-ways-0
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 1902fee853430a53
+  last_crawled: '2026-08-24'
+  last_content_hash: 7944b4ff6875b0ec
   crawl_http_status: 200
 notes: Instantiations monthly improv series curated by Joe Morris inside a broader contemporary-art
   center.

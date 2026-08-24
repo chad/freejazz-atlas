@@ -67,7 +67,7 @@ provenance:
   - https://timara.oberlin.edu/recap-oberlin-improv-fest-2023-1657/
   needs_human_review: true
   link_check:
-    checked: '2026-08-17'
+    checked: '2026-08-24'
     status: ok
     http: 200
   last_crawled: '2026-08-17'
