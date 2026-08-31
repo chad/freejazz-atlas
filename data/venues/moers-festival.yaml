@@ -68,7 +68,7 @@ provenance:
   - https://www.moers-festival.de/en/program/
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
   last_crawled: '2026-08-24'

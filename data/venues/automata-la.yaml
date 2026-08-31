@@ -70,11 +70,12 @@ provenance:
   - https://wilhelmfamilyfoundation.org/grantee/automata-arts/
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
-    status: ok
-    http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: c25878f761a0a122
-  crawl_http_status: 200
+    checked: '2026-08-31'
+    status: dead
+    http: 404
+    detail: HTTP 404
+  last_crawled: '2026-08-31'
+  last_content_hash: c76feef76d9b7894
+  crawl_http_status: 404
 notes: 'NEEDS REVIEW: Chinatown nonprofit centered on experimental film/puppetry that also
   hosts experimental music; confirm the frequency of music/improv events.'

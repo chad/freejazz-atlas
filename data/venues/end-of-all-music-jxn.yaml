@@ -68,11 +68,11 @@ provenance:
   - https://www.visitjackson.com/directory/the-end-of-all-music-jxn/
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 7184fe7ee4403443
+  last_crawled: '2026-08-31'
+  last_content_hash: 4520a6b4ee8ca607
   crawl_http_status: 200
 notes: Fondren-district independent record store with recurring in-store performances; included
   as Mississippi's most plausible improv-adjacent host, but experimental programming is incidental

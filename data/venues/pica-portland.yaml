@@ -74,7 +74,7 @@ provenance:
   - https://www.travelportland.com/events/tba/
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
   last_crawled: '2026-08-24'

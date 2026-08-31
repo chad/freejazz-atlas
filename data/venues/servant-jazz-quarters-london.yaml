@@ -68,7 +68,7 @@ provenance:
   - https://www.timeout.com/london/music/sjq
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
     final_url: https://www.sjqdalston.com/

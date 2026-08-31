@@ -71,11 +71,11 @@ provenance:
   - https://patch.com/connecticut/hartford/improvisations-now-real-art-ways-0
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 7944b4ff6875b0ec
+  last_crawled: '2026-08-31'
+  last_content_hash: 367815353f18551d
   crawl_http_status: 200
 notes: Instantiations monthly improv series curated by Joe Morris inside a broader contemporary-art
   center.

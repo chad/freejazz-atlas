@@ -68,11 +68,11 @@ provenance:
   - https://www.rewirefestival.nl/news/the-rewire-x-korzo-concert-series-returns-this-autumn
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 49ec215274926773
+  last_crawled: '2026-08-31'
+  last_content_hash: 26ffc7f054134e30
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: mainly a dance/theatre house; experimental/improv music comes via the
   Rewire x Korzo series (and the ended Konceptions series).'

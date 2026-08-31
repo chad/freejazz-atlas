@@ -1,7 +1,7 @@
 artist_id: damon-smith
 artist_name: Damon Smith
 source_url: http://damonmarcsmith.com
-scraped_on: '2026-08-24'
+scraped_on: '2026-08-31'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -281,7 +281,7 @@ events:
   match_note: 'no confident match (best: SuperDeluxe, name similarity 0.55; city differs (Thornbury
     VIC vs Tokyo))'
   id: 8a9faa8d0e85
-- date: '2026-06-01'
+- date: '2027-06-01'
   raw: June 1 - Merri Creek Tavern , Northcote VIC
   venue_name: Merri Creek Tavern
   city: Northcote VIC
@@ -296,7 +296,7 @@ events:
   match_score: 0.364
   match_note: 'no confident match (best: Arthur''s Tavern, name similarity 0.61; city differs
     (Northcote VIC vs New York))'
-  id: 260875525f41
+  id: cd15072c8478
 - date: '2026-06-07'
   raw: June 7 - Moon Dog Wild West , Footscray VIC
   venue_name: Moon Dog Wild West
@@ -504,7 +504,7 @@ events:
   match_note: 'no confident match (best: SuperDeluxe, name similarity 0.55; city differs (Thornbury
     VIC vs Tokyo))'
   id: 8a9faa8d0e85
-- date: '2026-06-01'
+- date: '2027-06-01'
   raw: June 1 - Merri Creek Tavern , Northcote VIC
   venue_name: Merri Creek Tavern
   city: Northcote VIC
@@ -519,7 +519,7 @@ events:
   match_score: 0.364
   match_note: 'no confident match (best: Arthur''s Tavern, name similarity 0.61; city differs
     (Northcote VIC vs New York))'
-  id: 260875525f41
+  id: cd15072c8478
 - date: '2026-06-07'
   raw: June 7 - Moon Dog Wild West , Footscray VIC
   venue_name: Moon Dog Wild West

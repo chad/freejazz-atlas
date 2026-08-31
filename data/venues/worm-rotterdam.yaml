@@ -68,11 +68,11 @@ provenance:
   - https://en.wikipedia.org/wiki/WORM_(Rotterdam)
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
-    status: unreachable
-    detail: 'URLError: <urlopen error timed out>'
-  last_crawled: '2026-08-24'
-  last_content_hash: 081bd8ac15c24fc0
+    checked: '2026-08-31'
+    status: ok
+    http: 200
+  last_crawled: '2026-08-31'
+  last_content_hash: d918d25d2cfecc99
   crawl_http_status: 200
   last_crawl_error: 'HTTPSConnectionPool(host=''worm.org'', port=443): Max retries exceeded
     with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host=''worm.org'', port=443)

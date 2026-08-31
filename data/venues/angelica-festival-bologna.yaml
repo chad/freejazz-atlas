@@ -70,7 +70,7 @@ provenance:
   - https://aaa-angelica.com/
   needs_human_review: false
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
     final_url: https://aaa-angelica.com/aaa/

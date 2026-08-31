@@ -66,13 +66,13 @@ provenance:
   source_urls:
   - https://www.periscope-lyon.com/en/
   - https://www.visiterlyon.com/sortir/culture-et-loisirs/culture-et-musees/lieux-de-spectacle/le-periscope
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 39a5e26323309dee
+  last_crawled: '2026-08-31'
+  last_content_hash: becfd51d47f4fd79
   crawl_http_status: 200
 notes: Lyon venue explicitly dedicated to free music (musiques libres), with jazz/improv at
   its core.

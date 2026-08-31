@@ -65,12 +65,12 @@ provenance:
   source_urls:
   - https://www.europejazz.net/club/zaal-100
   - https://annelaberge.com/zaal-100-improv-in-amsterdam/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 67f4188c2ec1164c
+  last_crawled: '2026-08-31'
+  last_content_hash: 326d3b0e5e2f8ace
   crawl_http_status: 200
 notes: Volunteer-run Amsterdam institution with a weekly Tuesday free-improv night.

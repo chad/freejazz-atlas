@@ -68,7 +68,7 @@ provenance:
   - https://ra.co/news/84296
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
     final_url: https://www.lesateliersclaus.com/program

@@ -56,14 +56,14 @@ provenance:
   last_confirmed: 2026-07
   source_urls:
   - https://en.wikipedia.org/wiki/High_Zero
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
     final_url: https://highzero.org/
-  last_crawled: '2026-08-17'
-  last_content_hash: 4b39654b25230783
+  last_crawled: '2026-08-31'
+  last_content_hash: 25a4b2671ec525b4
   crawl_http_status: 200
 notes: Festival (annual). Frequency is intentionally low as a single event; commitment is
   very high.

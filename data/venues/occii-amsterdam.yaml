@@ -70,11 +70,11 @@ provenance:
   - https://en.wikipedia.org/wiki/OCCII
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: ba9fefa3d21a8572
+  last_crawled: '2026-08-31'
+  last_content_hash: 657ed23438a498b9
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: DIY squat venue with broad underground programming; free/improv jazz
   is occasional. Confirm improv share.'

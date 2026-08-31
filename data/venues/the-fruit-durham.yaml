@@ -68,13 +68,13 @@ provenance:
   source_urls:
   - https://www.durhamfruit.com/about.html
   - https://arts.duke.edu/places/the-fruit/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: b6705cec866cab43
+  last_crawled: '2026-08-31'
+  last_content_hash: a604f72f69d44d54
   crawl_http_status: 200
 notes: Broad artist-run arts warehouse in Durham that supports experimental artists across
   disciplines; improvised music is present but secondary to the wider program.

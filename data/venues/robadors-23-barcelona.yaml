@@ -67,10 +67,10 @@ provenance:
   - https://www.barcelona-metropolitan.com/locations/23-robadors-barcelona-music-venue/
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 6149a29229f5268e
+  last_crawled: '2026-08-31'
+  last_content_hash: 7db8921de7faf0bc
   crawl_http_status: 200
 notes: Tiny Raval bar with a weekly free-leaning jazz jam among a broad live-music program.

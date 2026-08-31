@@ -71,7 +71,7 @@ provenance:
   - https://www.washingtonpost.com/archive/lifestyle/2005/09/16/transparent-productions-unconventional-ways/33e5bb3d-4f4f-4fea-8b58-49abb4164685/
   needs_human_review: false
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

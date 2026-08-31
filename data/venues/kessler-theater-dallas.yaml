@@ -70,10 +70,10 @@ provenance:
   - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
   needs_human_review: false
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
+  last_crawled: '2026-08-31'
   last_content_hash: 40ed84a00e11a5d5
   crawl_http_status: 403
 notes: Oak Cliff's premier listening room; a broad-genre concert theater that hosts adventurous

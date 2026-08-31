@@ -73,11 +73,11 @@ provenance:
   - https://www.causeiq.com/organizations/fire-museum-presents,923525897/
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 31ede5de591929b3
+  last_crawled: '2026-08-31'
+  last_content_hash: 73026d928b588818
   crawl_http_status: 200
 notes: Nomadic Philadelphia presenter of experimental/improvised/international music since
   2001; most often hosts at the Rotunda on Penn's campus and other non-traditional spaces.

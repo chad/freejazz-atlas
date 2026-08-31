@@ -68,11 +68,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Jack_London_Revue
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: ad68e657ca4b7ff4
+  last_crawled: '2026-08-31'
+  last_content_hash: 49461d9019f7e7dd
   crawl_http_status: 200
 notes: Downtown Portland jazz club; mostly straight-ahead/jazz-soul-funk with occasional adventurous
   bookings. Included as an honest occasional-tier venue.

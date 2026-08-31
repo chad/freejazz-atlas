@@ -75,7 +75,7 @@ provenance:
   - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
   needs_human_review: false
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

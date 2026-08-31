@@ -73,7 +73,7 @@ provenance:
   - https://z1077fm.com/wonder-valley-experimental-music-festival-returns-to-the-palms-this-saturday/
   needs_human_review: false
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

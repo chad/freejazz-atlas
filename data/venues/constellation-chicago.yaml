@@ -73,11 +73,11 @@ provenance:
   - https://downbeat.com/news/detail/reed-expands-reach-with-constellation
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 3e86f2a08a05d88d
+  last_crawled: '2026-08-31'
+  last_content_hash: 44b0d02f7957fb19
   crawl_http_status: 200
 notes: Cornerstone Chicago venue for jazz, improvised and experimental music; owned/programmed
   by Mike Reed, who also owns the Hungry Brain.

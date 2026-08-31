@@ -69,13 +69,13 @@ provenance:
   - https://www.indexical.org/about
   - https://lookout.co/experimental-music-and-avant-garde-art-finds-a-home-at-indexical/story
   - https://arts.ca.gov/grantee/indexical-2/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: e1e802276a191e1c
+  last_crawled: '2026-08-31'
+  last_content_hash: 43a5cf44b1758825
   crawl_http_status: 200
 notes: Santa Cruz nonprofit purpose-built as a home for experimental and improvised music;
   ~60 events a year at the Tannery Arts Center.

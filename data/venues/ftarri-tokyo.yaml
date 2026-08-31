@@ -71,13 +71,13 @@ provenance:
   - https://www.ftarri.com/suidobashi/index-e.html
   - https://daily.redbullmusicacademy.com/2014/10/off-site-improvised-music-from-japan/
   - https://www.tokyoartbeat.com/en/venues/-/75F14492
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 621e0d3b09c271b4
+  last_crawled: '2026-08-31'
+  last_content_hash: b4c6b52756941261
   crawl_http_status: 200
 notes: Flagship experimental/onkyo space and record shop in Suidobashi; successor to the Improvised
   Music From Japan project run by Yasuhiro Suzuki.

@@ -41,10 +41,10 @@ provenance:
   source_urls: []
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: e7c1b8d148371d77
+  last_crawled: '2026-08-31'
+  last_content_hash: 538abd630edf370e
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: confirm current music programming cadence.'

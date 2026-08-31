@@ -68,11 +68,11 @@ provenance:
   - https://www.namelesssound.org/programs/concerts
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 700bd39e31a7f040
+  last_crawled: '2026-08-31'
+  last_content_hash: 89563aa211b0dac7
   crawl_http_status: 200
 notes: Montrose meditative art chapel; a recurring site for Nameless Sound's site-specific
   experimental/improvised programming.

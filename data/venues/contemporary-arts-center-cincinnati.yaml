@@ -64,11 +64,11 @@ provenance:
   - https://www.e-flux.com/directory/1485/contemporary-arts-center
   needs_human_review: true
   link_check:
-    checked: '2026-08-24'
+    checked: '2026-08-31'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 902ab129d6f8f637
+  last_crawled: '2026-08-31'
+  last_content_hash: 2c119c72a8a16939
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: Cincinnati''s flagship contemporary art museum presents performance/new
   media and occasional experimental sound, but improvised music is incidental. Cincinnati''s
