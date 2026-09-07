@@ -66,11 +66,11 @@ provenance:
   - https://artsandculturetx.com/sonic-expansions-austins-experimental-music-scene/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: db37877703b25350
+  last_crawled: '2026-09-07'
+  last_content_hash: de27cb77680350d5
   crawl_http_status: 200
 notes: University art museum whose SoundSpace series brings experimental/improvised music
   into the galleries; also a No Idea Festival host.

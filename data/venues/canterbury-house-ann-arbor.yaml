@@ -76,11 +76,11 @@ provenance:
     why: /concerts path returns 404; site root verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 5f77d6d0a947f14c
+  last_crawled: '2026-09-07'
+  last_content_hash: 1145b7932d5de91e
   crawl_http_status: 200
 notes: Ann Arbor campus concert series with a strong improvised/creative-music streak and
   a weekly open improv jam.

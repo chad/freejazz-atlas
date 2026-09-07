@@ -1,7 +1,7 @@
 artist_id: ayumi-ishito
 artist_name: Ayumi Ishito
 source_url: http://www.ayumiishito.com/shows
-scraped_on: '2026-08-31'
+scraped_on: '2026-09-07'
 method: none
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note

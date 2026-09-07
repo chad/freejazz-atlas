@@ -71,7 +71,7 @@ provenance:
   - https://www.wbgo.org/music/2020-12-31/the-blue-whale-beloved-hub-of-the-jazz-scene-in-los-angeles-announces-permanent-closure
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

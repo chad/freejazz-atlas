@@ -72,11 +72,11 @@ provenance:
   - https://www.newmexico.org/listing/outpost/258/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 65431cd59eccc5ce
+  last_crawled: '2026-09-07'
+  last_content_hash: 774dde0c345a7cf1
   crawl_http_status: 200
 notes: Albuquerque's cornerstone nonprofit listening room; 100+ shows/year spanning jazz to
   experimental, with a dedicated alcohol-free attentive-listening ethos.

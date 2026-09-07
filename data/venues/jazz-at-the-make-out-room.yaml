@@ -68,11 +68,12 @@ provenance:
   - https://www.facebook.com/mondaymakeout/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: e72af6614872b952
+    final_url: https://www.makeoutroom.com/
+  last_crawled: '2026-09-07'
+  last_content_hash: 97f8973c775b0265
   crawl_http_status: 200
 notes: Commercial Mission bar hosting a strong weekly free-jazz/improv series; the series
   carries the improv weight, not the room itself.

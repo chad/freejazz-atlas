@@ -69,10 +69,10 @@ provenance:
   - https://kutx.org/austin-music-minute/me-mer-mo/
   needs_human_review: false
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
+  last_crawled: '2026-09-07'
   last_content_hash: e3b0c44298fc1c14
   crawl_http_status: 403
 notes: East Austin bar whose weekly Me Mer Mo Monday is one of the city's steadiest experimental-music

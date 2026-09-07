@@ -71,10 +71,10 @@ provenance:
   - https://www.stlmag.com/events/pianist-matthew-shipp-to-perform-at-dissonant-works-gallery/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: ff4cf089acfd9ea9
+  last_crawled: '2026-09-07'
+  last_content_hash: fec354132ef3fe4c
   crawl_http_status: 200
 notes: 'ANCHOR: calibrated as a VERY HIGH cornerstone venue.'

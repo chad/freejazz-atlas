@@ -69,11 +69,11 @@ provenance:
   - https://linktr.ee/denvermusicvenue
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 5355d1a8c37bf238
+  last_crawled: '2026-09-07'
+  last_content_hash: 618c7278ba2e7118
   crawl_http_status: 200
 notes: New (2025) queer-run DIY warehouse for experimental/noise music in Elyria-Swansea;
   host of the revived Denver Noise Fest. Exact street address not published, so coordinates

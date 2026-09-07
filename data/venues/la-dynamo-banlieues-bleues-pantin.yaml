@@ -67,12 +67,12 @@ provenance:
   source_urls:
   - https://www.banlieuesbleues.org/dynamo/la-dynamo/
   - https://www.europejazz.net/profile/banlieues-bleues-la-dynamo
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 605cb897f914767b
+  last_crawled: '2026-09-07'
+  last_content_hash: 08fc8547381fbe5f
   crawl_http_status: 200
 notes: Purpose-built jazz/improv hall in Pantin, home base of the Banlieues Bleues festival.

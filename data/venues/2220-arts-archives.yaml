@@ -67,10 +67,10 @@ provenance:
   - https://culture.lacity.gov/venue/2220-arts-archives
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 0ff97eb3eed48fa5
+  last_crawled: '2026-09-07'
+  last_content_hash: 878cf5018c1c113d
   crawl_http_status: 200
 notes: Cooperatively programmed; music is one strong strand of a broad experimental program.

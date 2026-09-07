@@ -70,7 +70,7 @@ provenance:
   - https://arcane.city/events/8132
   needs_human_review: false
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

@@ -69,11 +69,11 @@ provenance:
   - https://corbettvsdempsey.com/events/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: fdc18d4733815ff6
+  last_crawled: '2026-09-07'
+  last_content_hash: 64d8733c35ff8a08
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: gallery/label deeply tied to free jazz, but confirm current cadence
   of live concerts vs. exhibitions/releases.'

@@ -70,10 +70,10 @@ provenance:
   - https://www.jazztimes.com/festivals-events/scenes/phillys-ars-nova-workshop-finds-a-new-home/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 76499a4cb398b5c4
+  last_crawled: '2026-09-07'
+  last_content_hash: f7ca3ac2252fa4a9
   crawl_http_status: 200
 notes: Reopened 2022 in the former Boot & Saddle; presents Ars Nova Workshop programming.

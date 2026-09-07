@@ -67,11 +67,11 @@ provenance:
   - https://ra.co/news/84278
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: blocked
     http: 403
     detail: HTTP 403
-  last_crawled: '2026-08-31'
+  last_crawled: '2026-09-07'
   last_content_hash: 34dfef0084d975d4
   crawl_http_status: 403
 notes: 'NEEDS REVIEW: annual festival, not a fixed venue; coordinates are Glasgow city-centre.

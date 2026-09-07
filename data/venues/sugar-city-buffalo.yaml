@@ -65,7 +65,7 @@ provenance:
   - https://buffalonews.com/entertainment/arts-and-theatre/article_a2352299-329b-5ea0-a9f0-b3d4b37e1062.html
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: blocked
     http: 400
     detail: HTTP 400

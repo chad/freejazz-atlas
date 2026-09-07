@@ -1,7 +1,7 @@
 artist_id: damon-smith
 artist_name: Damon Smith
 source_url: http://damonmarcsmith.com
-scraped_on: '2026-08-31'
+scraped_on: '2026-09-07'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -219,7 +219,7 @@ events:
   match_note: 'no confident match (best: Chapel Performance Space, name similarity 0.70; city
     differs (Cranbourne Bowls vs Seattle))'
   id: 6dc5716b7057
-- date: '2026-06-06'
+- date: '2027-06-06'
   raw: June 6th - Memo Music Hall, St Kilda - Tripple Threat Piano Show!
   venue_name: Memo Music Hall
   city: St Kilda - Tripple Threat Piano Show!
@@ -234,7 +234,7 @@ events:
   match_score: 0.36
   match_note: 'no confident match (best: Mayhem, name similarity 0.60; city differs (St Kilda
     - Tripple Threat Piano Show! vs Copenhagen))'
-  id: 4aef821830f0
+  id: be8c2b0e9c24
 - date: '2026-06-22'
   raw: June 22nd - Way Out West Blues Club - Feature Show.
   venue_name: Way Out West Blues Club - Feature Show
@@ -297,7 +297,7 @@ events:
   match_note: 'no confident match (best: Arthur''s Tavern, name similarity 0.61; city differs
     (Northcote VIC vs New York))'
   id: cd15072c8478
-- date: '2026-06-07'
+- date: '2027-06-07'
   raw: June 7 - Moon Dog Wild West , Footscray VIC
   venue_name: Moon Dog Wild West
   city: Footscray VIC
@@ -312,7 +312,7 @@ events:
   match_score: 0.267
   match_note: 'no confident match (best: Lacking Sound Fest, name similarity 0.44; city differs
     (Footscray VIC vs Taipei))'
-  id: 23918cdf23bb
+  id: f8a3d57f9ba4
 - date: '2026-06-19'
   raw: June 19 - Queen Vic, Night market VIC
   venue_name: Queen Vic
@@ -520,7 +520,7 @@ events:
   match_note: 'no confident match (best: Arthur''s Tavern, name similarity 0.61; city differs
     (Northcote VIC vs New York))'
   id: cd15072c8478
-- date: '2026-06-07'
+- date: '2027-06-07'
   raw: June 7 - Moon Dog Wild West , Footscray VIC
   venue_name: Moon Dog Wild West
   city: Footscray VIC
@@ -535,7 +535,7 @@ events:
   match_score: 0.267
   match_note: 'no confident match (best: Lacking Sound Fest, name similarity 0.44; city differs
     (Footscray VIC vs Taipei))'
-  id: 23918cdf23bb
+  id: f8a3d57f9ba4
 - date: '2026-06-19'
   raw: June 19 - Queen Vic, Night market VIC
   venue_name: Queen Vic

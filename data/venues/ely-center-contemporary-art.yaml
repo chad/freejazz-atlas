@@ -68,12 +68,12 @@ provenance:
   - https://www.newhavenindependent.org/2025/10/29/new-haven-improvisers-collective-keeps-moving/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
     final_url: https://www.elycenter.org/
-  last_crawled: '2026-08-31'
-  last_content_hash: edc7a3073752696f
+  last_crawled: '2026-09-07'
+  last_content_hash: a7c354bb414c1c60
   crawl_http_status: 200
 notes: New Haven contemporary-art gallery hosting Weird Music Night and the New Haven Improvisers
   Collective; coordinates approximate to Trumbull St.

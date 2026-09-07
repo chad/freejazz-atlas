@@ -63,11 +63,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Hairpin_Arts_Center
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: f67eb83f27cea48e
+  last_crawled: '2026-09-07'
+  last_content_hash: fb166853cbcfe4ac
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: nonprofit Avondale arts center that hosts experimental performances;
   confirm frequency/share of improv-specific programming.'

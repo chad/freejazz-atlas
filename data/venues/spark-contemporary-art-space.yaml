@@ -66,7 +66,7 @@ provenance:
   - https://www.songkick.com/venues/49377-spark-contemporary-art-space
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: blocked
     http: 400
     detail: HTTP 400

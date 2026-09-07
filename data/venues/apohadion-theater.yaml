@@ -67,13 +67,13 @@ provenance:
   - https://apohadiontheater.org/
   - https://expcinema.org/site/en/venues/apohadion-theater
   - https://space538.org/artist/kindling-fund/the-apohadion-theater/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 7e81329d064e30d8
+  last_crawled: '2026-09-07'
+  last_content_hash: 2019818553ab4161
   crawl_http_status: 200
 notes: Portland ME DIY artist-run space with experimental programming; coordinates approximate
   to Hanover St.

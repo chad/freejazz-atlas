@@ -70,12 +70,12 @@ provenance:
   - https://mixmag.net/read/experimental-music-arts-venue-iklectik-reopen-peckham-london-news/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
     final_url: https://www.iklectik.org/
-  last_crawled: '2026-08-31'
-  last_content_hash: 8fbc2125a18e891d
+  last_crawled: '2026-09-07'
+  last_content_hash: 60f259e08d2a4ae2
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: evicted from Old Paradise Yard (Waterloo) in Jan 2024; reopened in a
   13-month residency at Peckham Levels from Oct 2025. Confirm current 2026 address and cadence.'

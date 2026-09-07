@@ -68,11 +68,11 @@ provenance:
   - https://en.wikipedia.org/wiki/B-flat_(jazz_club)
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 2b65f82aa2cd6dae
+  last_crawled: '2026-09-07'
+  last_content_hash: 0aa24317dd15598a
   crawl_http_status: 200
 notes: Mainstream Berlin jazz club that programs free/experimental jazz occasionally; supportive
   rather than dedicated.

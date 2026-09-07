@@ -66,13 +66,13 @@ provenance:
   source_urls:
   - https://en.wikipedia.org/wiki/Bl%C3%A5
   - https://www.blaaoslo.no/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 660caa74d7d8de84
+  last_crawled: '2026-09-07'
+  last_content_hash: 362c1d95e48e435b
   crawl_http_status: 200
 notes: Grünerløkka jazz/club by the Akerselva; adventurous booking within a broad program,
   weekly free jazz Sundays.

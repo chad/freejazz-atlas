@@ -66,11 +66,11 @@ provenance:
   - https://www.garedunord.ch/en/about-us/what-is-gare-du-nord
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 005f05897fb8f05c
+  last_crawled: '2026-09-07'
+  last_content_hash: 957ddd287d08f180
   crawl_http_status: 200
 notes: Switzerland's first experimental-music centre, in Basel's Badischer Bahnhof; new/experimental
   music focus (more composed than free-improv).

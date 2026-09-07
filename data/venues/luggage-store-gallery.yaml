@@ -73,7 +73,7 @@ provenance:
     why: old domain luggagestoregallerysf.org no longer resolves; current site verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

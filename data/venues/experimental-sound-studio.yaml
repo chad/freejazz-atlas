@@ -71,11 +71,11 @@ provenance:
   - https://ess.org/about/
   needs_human_review: true
   link_check:
-    checked: '2026-08-31'
+    checked: '2026-09-07'
     status: ok
     http: 200
-  last_crawled: '2026-08-31'
-  last_content_hash: 88812087fdc1dd12
+  last_crawled: '2026-09-07'
+  last_content_hash: 0e326bf6e0ab9ad6
   crawl_http_status: 200
 notes: Artist-run nonprofit; the OPTION salon is one of Chicago's core weekly improvised/experimental
   music series.
