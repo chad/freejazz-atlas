@@ -1,0 +1,9 @@
+artist_id: rent-romus
+artist_name: Rent Romus
+source_url: https://lordsofoutland.wordpress.com/2013/04/12/131/
+scraped_on: '2026-09-14'
+method: none
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events: []

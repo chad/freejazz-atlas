@@ -73,11 +73,11 @@ provenance:
   - https://www.sfcv.org/venues/center-new-music
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-08-24'
-  last_content_hash: 6d4c9422824d94aa
+  last_crawled: '2026-09-14'
+  last_content_hash: 17ebde249b820c3e
   crawl_http_status: 200
 notes: Downtown SF nonprofit new-music center; balances curated experimental/improv concerts
   with rehearsal and community use.

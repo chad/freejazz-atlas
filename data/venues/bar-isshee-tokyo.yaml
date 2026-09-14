@@ -70,7 +70,7 @@ provenance:
   - https://geoffleigh.bandcamp.com/album/live-bar-ishee-tokyo
   needs_human_review: false
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: blocked
     http: 400
     detail: HTTP 400

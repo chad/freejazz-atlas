@@ -67,10 +67,10 @@ provenance:
   - https://annelaberge.com/zaal-100-improv-in-amsterdam/
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: a27257f760081864
+  last_crawled: '2026-09-14'
+  last_content_hash: 6322d80a40f5625d
   crawl_http_status: 200
 notes: Volunteer-run Amsterdam institution with a weekly Tuesday free-improv night.

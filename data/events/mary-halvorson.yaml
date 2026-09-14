@@ -1,0 +1,63 @@
+artist_id: mary-halvorson
+artist_name: Mary Halvorson
+source_url: https://vestbotrio.com/album/live-mirrors
+scraped_on: '2026-09-14'
+method: jsonld
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events:
+- date: 24 Oct 202
+  raw: '{"@type": "MusicEvent", "name": "Slagelse Musikhus, Badeanstalten, Slagelse, Denmark",
+    "startDate": "24 Oct 2026 00:00:00 GMT", "location": {"@type": "MusicVenue", "name": "Slagelse
+    Musikhus, Badeanstalten", "address": "Slagelse, Denmark"}, "url": "https://www.songkick.com/concerts/43395210-vestbo-t'
+  venue_name: Slagelse Musikhus, Badeanstalten
+  city: Slagelse, Denmark
+  region: ''
+  country: ''
+  lineup: Slagelse Musikhus, Badeanstalten, Slagelse, Denmark
+  source_url: https://vestbotrio.com/album/live-mirrors
+  artist_id: mary-halvorson
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.279
+  match_note: 'no confident match (best: Le Periscope, name similarity 0.46; city differs
+    (Slagelse, Denmark vs Lyon))'
+  id: 36ee267e8bb0
+- date: 23 Oct 202
+  raw: '{"@type": "MusicEvent", "name": "Musikkens Hus, Aalborg, Denmark", "startDate": "23
+    Oct 2026 00:00:00 GMT", "location": {"@type": "MusicVenue", "name": "Musikkens Hus", "address":
+    "Aalborg, Denmark"}, "url": "https://www.songkick.com/concerts/43395206-vestbo-trio-at-musikkens-hus?utm_source=1471&utm'
+  venue_name: Musikkens Hus
+  city: Aalborg, Denmark
+  region: ''
+  country: ''
+  lineup: Musikkens Hus, Aalborg, Denmark
+  source_url: https://vestbotrio.com/album/live-mirrors
+  artist_id: mary-halvorson
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: nyMusikk, name similarity 0.57; city differs (Aalborg,
+    Denmark vs Oslo))'
+  id: b10c2eb8d887
+- date: 22 Oct 202
+  raw: '{"@type": "MusicEvent", "name": "Musikhuset Dexter, Odense, Denmark", "startDate":
+    "22 Oct 2026 00:00:00 GMT", "location": {"@type": "MusicVenue", "name": "Musikhuset Dexter",
+    "address": "Odense, Denmark"}, "url": "https://www.songkick.com/concerts/43395205-vestbo-trio-at-musikhuset-dexter?utm_sourc'
+  venue_name: Musikhuset Dexter
+  city: Odense, Denmark
+  region: ''
+  country: ''
+  lineup: Musikhuset Dexter, Odense, Denmark
+  source_url: https://vestbotrio.com/album/live-mirrors
+  artist_id: mary-halvorson
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.337
+  match_note: 'no confident match (best: Dokkhuset Scene, name similarity 0.56; city differs
+    (Odense, Denmark vs Trondheim))'
+  id: b2fd79f5895a

@@ -1,0 +1,9 @@
+artist_id: tony-malaby
+artist_name: Tony Malaby
+source_url: https://screwgunrecords.com/album/live-in-someplace-nice
+scraped_on: '2026-09-14'
+method: none
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events: []

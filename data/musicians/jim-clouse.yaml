@@ -13,7 +13,7 @@ home_base:
   country: null
 active_this_year: null
 associated_venues: []
-website: null
+website: https://jonathanmoritz.com/
 confidence: 0.6
 collectives: []
 labels:
@@ -35,3 +35,9 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  dates_url_note: link labelled "live at barbes the up (ben gerstein, jonathan moritz, eivind
+    opsvik &amp; john mclellan"
+  bandcamp_probe: page is titled "Jim Clouse" (match 1.00)
+socials:
+  bandcamp: https://parkwestrecords.bandcamp.com?from=btl
+dates_url: https://jonathanmoritz.com/album/live-at-barbes

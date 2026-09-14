@@ -1,0 +1,382 @@
+artist_id: steve-swell
+artist_name: Steve Swell
+source_url: http://www.steveswell.com/UpcomingPerformances.htm
+scraped_on: '2026-09-14'
+method: text
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events:
+- date: '2026-10-19'
+  raw: October 19--Cafe Oto, London, England
+  venue_name: -Cafe Oto
+  city: England
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.6
+  match_note: 'no confident match (best: Cafe OTO, name similarity 1.00; city differs (England
+    vs London))'
+  id: 8ed0759b0a9c
+- date: '2026-10-20'
+  raw: October 20--Cafe Oto, London, England
+  venue_name: -Cafe Oto
+  city: England
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.6
+  match_note: 'no confident match (best: Cafe OTO, name similarity 1.00; city differs (England
+    vs London))'
+  id: e0627ad93245
+- date: '2026-10-24'
+  raw: October 24--Festival Jazz Jantar, Gdansk, Poland
+  venue_name: -Festival Jazz Jantar
+  city: Poland
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.322
+  match_note: 'no confident match (best: Servant Jazz Quarters, name similarity 0.54; city
+    differs (Poland vs London))'
+  id: c5517dbf1d47
+- date: '2026-10-25'
+  raw: October 25--Neue Sachische
+  venue_name: -Neue Sachische
+  city: ''
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.483
+  match_note: 'no confident match (best: The Hideout, name similarity 0.48)'
+  id: 4ea9b922de15
+- date: '2026-10-26'
+  raw: October 26--Porgy and Bess, Vienna, AT
+  venue_name: -Porgy and Bess
+  city: Vienna
+  region: AT
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: porgy-und-bess-vienna
+  match_score: 0.983
+  match_note: name similarity 0.83; city matches (Vienna)
+  id: 405cd9c3d281
+- date: '2026-10-28'
+  raw: October 28--Opus Club, Budapest, Hungary
+  venue_name: -Opus Club
+  city: Hungary
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: Petersburg Art Space, name similarity 0.57; city
+    differs (Hungary vs Berlin))'
+  id: d79603bf2cc9
+- date: '2026-10-29'
+  raw: October 29--Mocvara, Zagreb, Croatia
+  venue_name: -Mocvara
+  city: Croatia
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.327
+  match_note: 'no confident match (best: Arts Mission Oak Cliff, name similarity 0.55; city
+    differs (Croatia vs Dallas))'
+  id: 30d2b8577606
+- date: '2026-11-02'
+  raw: November 2-- Cafe Wagner, Jena, DE
+  venue_name: '- Cafe Wagner'
+  city: Jena
+  region: DE
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.4
+  match_note: 'no confident match (best: Walker Art Center, name similarity 0.67; city differs
+    (Jena vs Minneapolis))'
+  id: 46c1666cd4cd
+- date: '2026-11-03'
+  raw: November 3-- Pardon Tu Tu, Warsaw, Poland
+  venue_name: '- Pardon Tu Tu'
+  city: Poland
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.55
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.92; city differs
+    (Poland vs Warsaw))'
+  id: bb91fc7e9a7f
+- date: '2026-11-17'
+  raw: November 17--Munster, DE
+  venue_name: ''
+  city: -Munster
+  region: DE
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.0
+  match_note: no venue named in the listing
+  id: 005c3a07d9c4
+- date: '2026-11-18'
+  raw: November 18--Hamburg, DE
+  venue_name: ''
+  city: -Hamburg
+  region: DE
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.0
+  match_note: no venue named in the listing
+  id: 7baa95abef3c
+- date: '2026-11-19'
+  raw: November 19--Westerstede, DE
+  venue_name: ''
+  city: -Westerstede
+  region: DE
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.0
+  match_note: no venue named in the listing
+  id: 1a330d6276ab
+- date: '2026-11-21'
+  raw: November 21--Stuttgart, DE
+  venue_name: ''
+  city: -Stuttgart
+  region: DE
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.0
+  match_note: no venue named in the listing
+  id: 0d42049a5949
+- date: '2026-11-22'
+  raw: November 22--Dortmund, DE
+  venue_name: ''
+  city: -Dortmund
+  region: DE
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.0
+  match_note: no venue named in the listing
+  id: e16ffa3862d2
+- date: '2027-03-09'
+  raw: March 9-13, 2020
+  venue_name: '13'
+  city: '2020'
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.24
+  match_note: 'no confident match (best: Public Space One, name similarity 0.40; city differs
+    (2020 vs Iowa City))'
+  id: b575dca104fa
+- date: '2027-03-09'
+  raw: March 9--Rhizome, Washington, DC
+  venue_name: -Rhizome
+  city: Washington
+  region: DC
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: rhizome-dc
+  match_score: 0.974
+  match_note: name similarity 0.82; city matches (Washington)
+  id: a5ff31e9ff68
+- date: '2027-03-10'
+  raw: March 10--Keystone Korner, Baltimore, MD
+  venue_name: -Keystone Korner
+  city: Baltimore
+  region: MD
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.426
+  match_note: 'no confident match (best: An Die Musik Live, name similarity 0.28; city matches
+    (Baltimore))'
+  id: 6ede2e41423d
+- date: '2027-03-12'
+  raw: March 12--BopShop, Rochester, NY
+  venue_name: -BopShop
+  city: Rochester
+  region: NY
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: bop-shop-records
+  match_score: 1.0
+  match_note: name similarity 0.93; city matches (Rochester)
+  id: 30b92299318a
+- date: '2027-03-13'
+  raw: March 13--Jazz Shares, Northampton, MA
+  venue_name: -Jazz Shares
+  city: Northampton
+  region: MA
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: pioneer-valley-jazz-shares
+  match_score: 1.0
+  match_note: name similarity 1.00; region matches (MA)
+  id: dc4832c4d0c1
+- date: '2027-05-19'
+  raw: May 19-25, 2020
+  venue_name: '25'
+  city: '2020'
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.2
+  match_note: 'no confident match (best: Gallery 1412, name similarity 0.33; city differs
+    (2020 vs Seattle))'
+  id: e8d2ff6d6191
+- date: '2027-05-29'
+  raw: May 29-31, 2020
+  venue_name: '31'
+  city: '2020'
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: OT301, name similarity 0.57; city differs (2020 vs
+    Amsterdam))'
+  id: 96ee500dcfcf
+- date: '2026-08-26'
+  raw: August 26-September 6
+  venue_name: September 6
+  city: ''
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.6
+  match_note: 'no confident match (best: FMRL, name similarity 0.60)'
+  id: 19ba134e72b4
+- date: '2026-09-17'
+  raw: September 17-20, 2020
+  venue_name: '20'
+  city: '2020'
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: AS220, name similarity 0.57; city differs (2020 vs
+    Providence))'
+  id: b2ad606edc07
+- date: '2026-10-14'
+  raw: October 14-17, 2020
+  venue_name: '17'
+  city: '2020'
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.24
+  match_note: 'no confident match (best: Public Space One, name similarity 0.40; city differs
+    (2020 vs Iowa City))'
+  id: 925ef491592b

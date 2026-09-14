@@ -70,7 +70,7 @@ provenance:
   - https://daily.bandcamp.com/features/atlanta-jazz-feature
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
     final_url: https://www.thebakeryatlanta.com/

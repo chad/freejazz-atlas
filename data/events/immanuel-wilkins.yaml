@@ -1,0 +1,9 @@
+artist_id: immanuel-wilkins
+artist_name: Immanuel Wilkins
+source_url: http://www.ImmanuelWilkins.com/calendar
+scraped_on: '2026-09-14'
+method: none
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events: []

@@ -1,0 +1,149 @@
+artist_id: micah-thomas
+artist_name: Micah Thomas
+source_url: http://micah.io/events
+scraped_on: '2026-09-14'
+method: text
+note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
+  year_inferred: true. venue_id is set only where the match evidence is strong; match_note
+  records why.'
+events:
+- date: '2027-03-12'
+  raw: 'March 12: Singletary Center, Lexington/KY'
+  venue_name: Singletary Center
+  city: Lexington/KY
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.333
+  match_note: 'no confident match (best: The Luminary, name similarity 0.56; city differs
+    (Lexington/KY vs St. Louis))'
+  id: d752f1fcafe2
+- date: '2027-03-13'
+  raw: 'March 13: Jazz Vivace, Cincinnati/OH'
+  venue_name: Jazz Vivace
+  city: Cincinnati/OH
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.382
+  match_note: 'no confident match (best: Pioneer Valley Jazz Shares, name similarity 0.64;
+    city differs (Cincinnati/OH vs Amherst))'
+  id: 3088e7b0845b
+- date: '2027-03-19'
+  raw: 'March 19: Pioneer Works, Brooklyn/NY'
+  venue_name: Pioneer Works
+  city: Brooklyn/NY
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.436
+  match_note: 'no confident match (best: Roulette Intermedium, name similarity 0.29; city
+    matches (Brooklyn))'
+  id: 1f21bc8e8fe5
+- date: '2027-03-20'
+  raw: 'March 20-22: Blue Note LA/CA'
+  venue_name: '22'
+  city: ''
+  region: ''
+  country: ''
+  lineup: Blue Note LA/CA
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.571
+  match_note: 'no confident match (best: AS220, name similarity 0.57)'
+  id: 17833d6cc941
+- date: '2027-03-23'
+  raw: 'March 23: Anthenaem, La Jolla / CA'
+  venue_name: Anthenaem
+  city: La Jolla / CA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.327
+  match_note: 'no confident match (best: Resonant Head, name similarity 0.55; city differs
+    (La Jolla / CA vs Oklahoma City))'
+  id: e771436d6217
+- date: '2027-03-24'
+  raw: 'March 24: Kuumbwa, Santa Cruz / CA'
+  venue_name: Kuumbwa
+  city: Santa Cruz / CA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: kuumbwa-jazz-center
+  match_score: 0.887
+  match_note: name similarity 0.74; city matches (Santa Cruz)
+  id: 994c9f06c03b
+- date: '2027-03-25'
+  raw: 'March 25-28: SFJAZZ Residency, San Francisco / CA'
+  venue_name: '28'
+  city: ''
+  region: ''
+  country: ''
+  lineup: SFJAZZ Residency, San Francisco / CA
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.667
+  match_note: 'no confident match (best: KM28, name similarity 0.67)'
+  id: f9db6eb22da8
+- date: '2027-03-29'
+  raw: 'March 29: Bach Dancing and Dynamite Society, Half Moon Bay / CA'
+  venue_name: Bach Dancing and Dynamite Society
+  city: Half Moon Bay / CA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.255
+  match_note: 'no confident match (best: Contemporary Arts Center, name similarity 0.43; city
+    differs (Half Moon Bay / CA vs Cincinnati))'
+  id: 770bee20233c
+- date: '2027-03-31'
+  raw: 'March 31: Dazzle, Denver/CO'
+  venue_name: Dazzle
+  city: Denver/CO
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://micah.io/events
+  artist_id: micah-thomas
+  method: text
+  year_inferred: true
+  venue_id: dazzle
+  match_score: 1.0
+  match_note: name similarity 1.00; city matches (Denver)
+  id: fcd125a5fc4a

@@ -80,12 +80,12 @@ provenance:
     why: the site does not serve a usable TLS endpoint; plain HTTP verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
     final_url: https://pit-inn.com/
-  last_crawled: '2026-09-07'
-  last_content_hash: 9e1c4be54c1cc081
+  last_crawled: '2026-09-14'
+  last_content_hash: 3087b5ce8f515266
   crawl_http_status: 200
 notes: Original opened 1965, closed to demolition 1992 and reopened in Shinjuku the same year.
   Cornerstone of Japanese free-jazz history; today books broad jazz with regular avant/free

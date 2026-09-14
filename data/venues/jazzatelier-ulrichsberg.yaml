@@ -67,11 +67,11 @@ provenance:
   - https://www.jazzatelier.at/kaleidophon/
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 732599c1b28b3bac
+  last_crawled: '2026-09-14'
+  last_content_hash: a4a4bd9231ee23e5
   crawl_http_status: 200
 notes: Upper Austrian association hosting the Kaleidophon festival for free/improvised and
   contemporary music since 1986.

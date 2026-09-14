@@ -66,11 +66,11 @@ provenance:
   - https://www.kcur.org/arts-life/2024-04-12/in-kansas-city-musicians-are-building-an-experimental-scene-that-is-underground-by-design
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 80d559bc117b1ed2
+  last_crawled: '2026-09-14'
+  last_content_hash: 20a4c85350485b30
   crawl_http_status: 200
 notes: Kansas City nonprofit; its EMAS Presents series is the anchor for the city's improvised/experimental
   music community.

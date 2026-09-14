@@ -34,3 +34,7 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  bandcamp_probe: page is titled "Matt Lambiase" (match 1.00)
+socials:
+  bandcamp: https://unseenrainrecords.bandcamp.com?from=btl
+  youtube: https://youtu.be/nHZ5OV9s0ps

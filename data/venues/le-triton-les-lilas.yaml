@@ -66,12 +66,12 @@ provenance:
   - https://uk.tourisme93.com/le-triton.html
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
     final_url: https://letriton.com/
-  last_crawled: '2026-09-07'
-  last_content_hash: bf402ad7aa8a8c08
+  last_crawled: '2026-09-14'
+  last_content_hash: c8e6871a816a0002
   crawl_http_status: 200
 notes: Jazz-and-contemporary-music creation venue in Les Lilas; books adventurous/improvised
   work within a broader jazz program.

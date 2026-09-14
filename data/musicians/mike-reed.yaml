@@ -14,12 +14,16 @@ associated_venues:
 - constellation-chicago
 - the-hungry-brain
 collectives: []
-website: null
+website: https://songsbymikereed.com
 confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
   added_on: '2026-07-18'
   source_urls: []
   needs_human_review: true
-  note: Added from established scene knowledge during a spend-limit outage; verify
-    venue links, home base, and website via the web.
+  note: Added from established scene knowledge during a spend-limit outage; verify venue links,
+    home base, and website via the web.
+  bandcamp_probe: page is titled "Mike Reed" (match 1.00)
+socials:
+  bandcamp: https://bandcamp.com/?from=menubar_logo_logged_out
+  instagram: https://www.instagram.com/mike.reed

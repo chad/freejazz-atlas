@@ -72,11 +72,11 @@ provenance:
   - https://imro.ie/industry-news/a-new-venue-for-jazz-improvised-music-in-dublin-opening-this-month/
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 7b9f8439bf64e205
+  last_crawled: '2026-09-14'
+  last_content_hash: 02f3f50bd18cc9b6
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: relatively new IMC space at The Complex in Smithfield; confirm exact
   address, coordinates and 2026 programming cadence.'

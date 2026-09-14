@@ -1,7 +1,7 @@
 artist_id: anders-griffen
 artist_name: Anders Griffen
 source_url: http://www.andersgriffen.com
-scraped_on: '2026-09-07'
+scraped_on: '2026-09-14'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note

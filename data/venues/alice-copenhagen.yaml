@@ -67,11 +67,11 @@ provenance:
   - https://www.europejazz.net/club/alice-cph
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 66c5ebf91606cdef
+  last_crawled: '2026-09-14'
+  last_content_hash: 918958658a6dfa70
   crawl_http_status: 200
 notes: Nørrebro venue for adventurous music; jazz/improv within a broad program. Address/coords
   approximate.

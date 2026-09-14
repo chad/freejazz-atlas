@@ -76,7 +76,7 @@ provenance:
     why: /concerts path returns 404; site root verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
   last_crawled: '2026-09-07'

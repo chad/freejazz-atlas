@@ -70,11 +70,11 @@ provenance:
   - https://future.london/organisation/vortex-jazz-club/
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: d955d9d1bdafb35d
+  last_crawled: '2026-09-14'
+  last_content_hash: 1653088dc384a7f3
   crawl_http_status: 200
 notes: Home of the Mopomoso monthly improv series; balances avant-garde with more accessible
   jazz.

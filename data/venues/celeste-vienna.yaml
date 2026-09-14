@@ -67,11 +67,11 @@ provenance:
   - https://base.uni-ak.ac.at/showroom/KcsfaforEMPhobTD9WwHQq/
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: d0d8ef88a99aada7
+  last_crawled: '2026-09-14'
+  last_content_hash: bc3ba640e14969e7
   crawl_http_status: 200
 notes: Vienna jazzkeller with a long-running weekly free-improv session; broad multi-genre
   venue.

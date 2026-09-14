@@ -10,7 +10,7 @@ home_base:
   country: null
 active_this_year: null
 associated_venues: []
-website: null
+website: http://huffart.com
 confidence: 0.6
 collectives:
 - (D)IVO Saxophone Quartet
@@ -35,3 +35,6 @@ provenance:
   review_note: 'Imported from the label catalogue: name, instruments, groups and release credits
     are sourced. Home base, website and venue links are still unknown — those are what a human
     should add.'
+  bandcamp_probe: page is titled "Tim Berne" (match 1.00)
+socials:
+  bandcamp: https://outofyourheadrecords.bandcamp.com?from=btl

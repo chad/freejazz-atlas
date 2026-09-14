@@ -66,10 +66,10 @@ provenance:
   - https://www.europejazz.net/festival/ai-confini-tra-sardegna-e-jazz
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: unreachable
     detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
-  last_crawled: '2026-09-07'
+  last_crawled: '2026-09-14'
   last_crawl_error: 'HTTPSConnectionPool(host=''aiconfinitrasardegnaejazz.it'', port=443):
     Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''aiconfinitrasardegnaejazz.it'',
     port=443): Fai'

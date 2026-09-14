@@ -68,7 +68,7 @@ provenance:
   - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
   last_crawled: '2026-08-31'

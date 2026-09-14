@@ -24,7 +24,7 @@ collectives:
 - Christopher Parker & the Band of Guardian Angels
 - Ivo Perelman Quartet
 - Sparks Quartet
-website: null
+website: https://aumfidelity.com/collections/william-parker
 confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
@@ -57,5 +57,11 @@ provenance:
     years: 2020–2025
     verified_on: '2026-08-17'
   review_note: Label credits added by catalogue import; existing curation left untouched.
+  dates_url_note: link labelled "live/shapeshifter"
+  bandcamp_probe: page is titled "William Parker" (match 1.00)
 labels:
 - Mahakala Music
+socials:
+  bandcamp: https://aumfidelity.bandcamp.com?from=btl
+  facebook: https://www.facebook.com/william.parker.9469
+dates_url: https://aumfidelity.com/products/william-parker-in-order-to-survive-live-shapeshifter

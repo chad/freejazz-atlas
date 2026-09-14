@@ -73,7 +73,7 @@ provenance:
   - https://www.nashvillescene.com/bon/2018/arts-music-and-culture/writers-choice/best-avant-garde-music-series/article_ff8f9a29-5f1d-5a10-88f4-02484a520833.html
   needs_human_review: false
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
   last_crawled: '2026-08-17'

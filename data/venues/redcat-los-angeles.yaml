@@ -70,11 +70,11 @@ provenance:
   - https://calarts.edu/redcat
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 5db0fde6d092ebe3
+  last_crawled: '2026-09-14'
+  last_content_hash: b6c8a285a1c5900d
   crawl_http_status: 200
 notes: CalArts' downtown avant-garde arts center; presents experimental/new music as part
   of a broad multidisciplinary program.

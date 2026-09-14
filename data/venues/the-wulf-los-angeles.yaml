@@ -65,13 +65,16 @@ provenance:
   - https://www.thewulf.org/
   - https://www.pbssocal.org/shows/artbound/notes-from-the-underground-the-wulf
   - https://experimentalmusicyearbook.com/filter/the-wulf.
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-09-07'
-    status: ok
-    http: 200
-  last_crawled: '2026-08-17'
+    checked: '2026-09-14'
+    status: unreachable
+    detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
+  last_crawled: '2026-09-14'
   last_content_hash: e3b0c44298fc1c14
   crawl_http_status: 200
+  last_crawl_error: 'HTTPSConnectionPool(host=''www.thewulf.org'', port=443): Max retries
+    exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''www.thewulf.org'',
+    port=443): Failed to resolve ''www.thewul'
 notes: CLOSED (~2016, lost its physical space). Legendary volunteer-run LA experimental-music
   space; score reflects its programming while active. Legacy entry.

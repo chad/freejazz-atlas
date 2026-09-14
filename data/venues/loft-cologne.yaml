@@ -69,10 +69,10 @@ provenance:
   - https://de.wikipedia.org/wiki/Loft_(K%C3%B6ln)
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 093cd782478f3d61
+  last_crawled: '2026-09-14'
+  last_content_hash: cb833c9edd8704c1
   crawl_http_status: 200
 notes: Award-winning Ehrenfeld space for improvised and contemporary music since 1989.

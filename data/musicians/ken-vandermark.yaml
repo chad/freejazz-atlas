@@ -21,7 +21,7 @@ associated_venues:
 - corbett-vs-dempsey
 collectives:
 - Catalytic Sound
-website: null
+website: http://found.ee/OctoberFlowers
 confidence: 0.6
 provenance:
   added_by: assistant:scene-knowledge-2026-07-18
@@ -42,5 +42,8 @@ provenance:
     years: 2022–2025
     verified_on: '2026-08-17'
   review_note: Label credits added by catalogue import; existing curation left untouched.
+  bandcamp_probe: page is titled "Ken Vandermark" (match 1.00)
 labels:
 - Mahakala Music
+socials:
+  bandcamp: https://corbettvsdempsey.bandcamp.com?from=btl

@@ -70,11 +70,11 @@ provenance:
   - https://wilhelmfamilyfoundation.org/grantee/automata-arts/
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: dead
     http: 404
     detail: HTTP 404
-  last_crawled: '2026-09-07'
+  last_crawled: '2026-09-14'
   last_content_hash: c76feef76d9b7894
   crawl_http_status: 404
 notes: 'NEEDS REVIEW: Chinatown nonprofit centered on experimental film/puppetry that also

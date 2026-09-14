@@ -67,7 +67,7 @@ provenance:
   - https://culture.lacity.gov/venue/2220-arts-archives
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
   last_crawled: '2026-09-07'

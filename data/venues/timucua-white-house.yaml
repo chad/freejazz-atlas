@@ -75,11 +75,11 @@ provenance:
   - https://newsroom.ocfl.net/2025/05/timucua-arts-foundation-celebrates-25-years-of-bringing-art-to-life/
   needs_human_review: true
   link_check:
-    checked: '2026-09-07'
+    checked: '2026-09-14'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 7ef64f41875fbf9d
+  last_crawled: '2026-09-14'
+  last_content_hash: d04ad4d1fb42e4d5
   crawl_http_status: 200
 notes: Orlando nonprofit house-concert listening room (Timucua Arts Foundation). Strong dedicated
   listening space and jazz program; experimental/free improv is present but secondary to jazz,
