@@ -1,7 +1,7 @@
 artist_id: micah-thomas
 artist_name: Micah Thomas
 source_url: http://micah.io/events
-scraped_on: '2026-09-14'
+scraped_on: '2026-09-21'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note

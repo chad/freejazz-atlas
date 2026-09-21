@@ -67,11 +67,11 @@ provenance:
   - https://the-other-side-of-life.com/about/
   needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 300a0bd55d5c5ef0
+  last_crawled: '2026-09-21'
+  last_content_hash: 460d82d3d0c015a8
   crawl_http_status: 200
 notes: Louisville DIY promoter of experimental music and free jazz; active 2008-2015 and relaunched
   in 2025. Nomadic (presents at B-Side and other venues). Current cadence not fully verified;

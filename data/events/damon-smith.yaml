@@ -1,7 +1,7 @@
 artist_id: damon-smith
 artist_name: Damon Smith
 source_url: http://damonmarcsmith.com
-scraped_on: '2026-09-14'
+scraped_on: '2026-09-21'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -235,7 +235,7 @@ events:
   match_note: 'no confident match (best: Mayhem, name similarity 0.60; city differs (St Kilda
     - Tripple Threat Piano Show! vs Copenhagen))'
   id: be8c2b0e9c24
-- date: '2026-06-22'
+- date: '2027-06-22'
   raw: June 22nd - Way Out West Blues Club - Feature Show.
   venue_name: Way Out West Blues Club - Feature Show
   city: ''
@@ -249,7 +249,7 @@ events:
   venue_id: null
   match_score: 0.5
   match_note: 'no confident match (best: La Dynamo de Banlieues Bleues, name similarity 0.50)'
-  id: 3e4f99c59d92
+  id: a2af3a32f409
 - date: '2026-07-25'
   raw: July 25th - Moondog Wild West World ​ ​
   venue_name: Moondog Wild West World ​ ​
@@ -313,7 +313,7 @@ events:
   match_note: 'no confident match (best: Lacking Sound Fest, name similarity 0.44; city differs
     (Footscray VIC vs Taipei))'
   id: f8a3d57f9ba4
-- date: '2026-06-19'
+- date: '2027-06-19'
   raw: June 19 - Queen Vic, Night market VIC
   venue_name: Queen Vic
   city: Night market VIC
@@ -328,8 +328,8 @@ events:
   match_score: 0.277
   match_note: 'no confident match (best: New Haven Improvisers Collective, name similarity
     0.46; city differs (Night market VIC vs New Haven))'
-  id: b6f9e59fb6b4
-- date: '2026-06-21'
+  id: b683b27fdef9
+- date: '2027-06-21'
   raw: June 21st - Birds Basement, Melbourne VIC (Supporting Tarryn Stokes)
   venue_name: Birds Basement
   city: Melbourne VIC
@@ -344,7 +344,7 @@ events:
   match_score: 0.4
   match_note: 'no confident match (best: The Bird''s Eye Jazz Club, name similarity 0.67;
     city differs (Melbourne VIC vs Basel))'
-  id: cc0735a4bd68
+  id: f7773ca3cca4
 - date: '2026-06-23'
   raw: June 23rd - 2-5 pm The Wesley Anne , Northcote VIC
   venue_name: 2-5 pm The Wesley Anne
@@ -536,7 +536,7 @@ events:
   match_note: 'no confident match (best: Lacking Sound Fest, name similarity 0.44; city differs
     (Footscray VIC vs Taipei))'
   id: f8a3d57f9ba4
-- date: '2026-06-19'
+- date: '2027-06-19'
   raw: June 19 - Queen Vic, Night market VIC
   venue_name: Queen Vic
   city: Night market VIC
@@ -551,8 +551,8 @@ events:
   match_score: 0.277
   match_note: 'no confident match (best: New Haven Improvisers Collective, name similarity
     0.46; city differs (Night market VIC vs New Haven))'
-  id: b6f9e59fb6b4
-- date: '2026-06-21'
+  id: b683b27fdef9
+- date: '2027-06-21'
   raw: June 21st - Birds Basement, Melbourne VIC (Supporting Tarryn Stokes)
   venue_name: Birds Basement
   city: Melbourne VIC
@@ -567,7 +567,7 @@ events:
   match_score: 0.4
   match_note: 'no confident match (best: The Bird''s Eye Jazz Club, name similarity 0.67;
     city differs (Melbourne VIC vs Basel))'
-  id: cc0735a4bd68
+  id: f7773ca3cca4
 - date: '2026-06-23'
   raw: June 23rd - 2-5 pm The Wesley Anne , Northcote VIC
   venue_name: 2-5 pm The Wesley Anne

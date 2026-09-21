@@ -41,10 +41,10 @@ provenance:
   source_urls: []
   needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-09-14'
-  last_content_hash: d763a044c628cc7c
+  last_crawled: '2026-09-21'
+  last_content_hash: 3a1ffc310290c86f
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: not re-verified this session; confirm current programming and address.'

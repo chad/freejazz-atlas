@@ -71,11 +71,11 @@ provenance:
   - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-09-14'
-  last_content_hash: cbfc1de23e1ceaeb
+  last_crawled: '2026-09-21'
+  last_content_hash: 114f3e68a2913682
   crawl_http_status: 200
 notes: Nonprofit multidisciplinary arts center; hosts new-music/experimental events as part
   of a wide program. Frequency of specifically improv/free programming not fully verified.

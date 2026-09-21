@@ -64,12 +64,12 @@ provenance:
   source_urls:
   - https://www.brotznow.se/
   - https://www.jazznearyou.com/gothenburg/venue/brotz
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: acf1b9b082b9dba4
+  last_crawled: '2026-09-21'
+  last_content_hash: 6c25e7f688c7ff0e
   crawl_http_status: 200
 notes: Gothenburg club dedicated to free jazz and improvised music, named after Peter Brötzmann.

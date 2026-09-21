@@ -1,7 +1,7 @@
 artist_id: jim-clouse
 artist_name: Jim Clouse
 source_url: https://jonathanmoritz.com/album/live-at-barbes
-scraped_on: '2026-09-14'
+scraped_on: '2026-09-21'
 method: jsonld
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -115,21 +115,3 @@ events:
   match_note: 'no confident match (best: AMR - Sud des Alpes, name similarity 0.50; city differs
     (Asbury Park, NJ vs Geneva))'
   id: 1feda709c408
-- date: 17 Sep 202
-  raw: '{"@type": "MusicEvent", "name": "R Bar, Asbury Park, NJ", "startDate": "17 Sep 2026
-    00:00:00 GMT", "location": {"@type": "MusicVenue", "name": "R Bar", "address": "Asbury
-    Park, NJ"}, "url": "https://www.songkick.com/concerts/43390433-high-standards-trio-at-r-bar?utm_source=1471&utm_medium=partner"}'
-  venue_name: R Bar
-  city: Asbury Park, NJ
-  region: ''
-  country: ''
-  lineup: R Bar, Asbury Park, NJ
-  source_url: https://jonathanmoritz.com/album/live-at-barbes
-  artist_id: jim-clouse
-  method: jsonld
-  year_inferred: false
-  venue_id: null
-  match_score: 0.3
-  match_note: 'no confident match (best: AMR - Sud des Alpes, name similarity 0.50; city differs
-    (Asbury Park, NJ vs Geneva))'
-  id: d84df437683c

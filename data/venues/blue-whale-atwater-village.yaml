@@ -71,11 +71,11 @@ provenance:
   - https://www.wbgo.org/music/2020-12-31/the-blue-whale-beloved-hub-of-the-jazz-scene-in-los-angeles-announces-permanent-closure
   needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 38a7d50618348146
+  last_crawled: '2026-09-21'
+  last_content_hash: 9eb728405a912604
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: historic LA jazz/improv hub, closed 2020 in Little Tokyo, reopened in
   Atwater Village Nov 2024; confirm current cadence and how much creative/improvised jazz

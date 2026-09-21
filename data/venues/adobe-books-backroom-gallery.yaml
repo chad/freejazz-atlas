@@ -67,13 +67,13 @@ provenance:
   source_urls:
   - http://www.adobebooks.com/about-adobe-books
   - http://www.adobebooks.com/events/2024/4/25/improv-nite-
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: ed217bb170bf8f9d
+  last_crawled: '2026-09-21'
+  last_content_hash: 8cb8a5b779a99c9d
   crawl_http_status: 200
 notes: Mission bookstore whose Backroom Gallery runs a monthly free-improv night; experimental
   music is secondary to books/visual art.

@@ -1,7 +1,7 @@
 artist_id: marc-ribot
 artist_name: Marc Ribot
 source_url: http://www.marcribot.com/tour-dates
-scraped_on: '2026-09-14'
+scraped_on: '2026-09-21'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -258,7 +258,7 @@ events:
   match_note: 'no confident match (best: IBeam Brooklyn, name similarity 0.73; city differs
     (NY Roulette vs Brooklyn))'
   id: 3ef26ce8d83e
-- date: '2026-06-22'
+- date: '2027-06-22'
   raw: June 22 - Ottawa/CA Ottawa Jazz Festival
   venue_name: Ottawa/CA Ottawa Jazz Festival
   city: ''
@@ -272,7 +272,7 @@ events:
   venue_id: null
   match_score: 0.652
   match_note: 'no confident match (best: We Jazz, name similarity 0.65)'
-  id: 9cea6ae07c78
+  id: 683879b6e891
 - date: '2026-06-23'
   raw: June 23 - Toronto/CA Hugh’s Room Live
   venue_name: Toronto/CA Hugh’s Room Live

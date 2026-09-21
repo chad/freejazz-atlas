@@ -58,10 +58,12 @@ provenance:
   - https://en.wikipedia.org/wiki/Roulette_Intermedium
   needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-09-14'
+  last_crawled: '2026-09-21'
   last_content_hash: 3103ae54b0963514
   crawl_http_status: 200
+  last_crawl_error: 'HTTPSConnectionPool(host=''roulette.org'', port=443): Read timed out.
+    (read timeout=20)'
 notes: Larger flagship experimental-music presenter.

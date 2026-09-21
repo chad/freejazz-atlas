@@ -68,11 +68,15 @@ provenance:
   - https://hyperallergic.com/a-los-angeles-residency-envisions-a-radical-future-for-experimental-art/
   needs_human_review: false
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
+    detail: reachable only with TLS verification disabled
+  last_crawled: '2026-09-21'
   last_content_hash: 58014384cc6a9b22
   crawl_http_status: 200
+  last_crawl_error: 'HTTPSConnectionPool(host=''coaxialarts.org'', port=443): Max retries
+    exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, ''[SSL: CERTIFICATE_VERIFY_FAILED]
+    certificate verify failed: cer'
 notes: DTLA artist-run nonprofit dedicated to experimental sound/video/performance; a core
   node of the LA underground.

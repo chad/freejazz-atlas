@@ -72,13 +72,13 @@ provenance:
   - https://emitseries.org/about-us
   - https://davidmanson.net/emit
   - https://emitseries.org/events-upcoming-past
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-09-14'
+    checked: '2026-09-21'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 2651e55b88a70c61
+  last_crawled: '2026-09-21'
+  last_content_hash: 6af9641dc43dbd30
   crawl_http_status: 200
 notes: St. Petersburg nonprofit presenter (director David Manson) of adventurous music including
   improvisation and free jazz; nomadic across Tampa Bay venues.
