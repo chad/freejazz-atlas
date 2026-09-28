@@ -67,10 +67,10 @@ provenance:
   - https://ra.co/clubs/73158
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
-  last_crawled: '2026-09-21'
-  last_content_hash: 4c56fd176b011f16
+  last_crawled: '2026-09-28'
+  last_content_hash: 0b9f51c574e25267
   crawl_http_status: 200
 notes: Geneva's dedicated venue for experimental and improvised music since 1989.

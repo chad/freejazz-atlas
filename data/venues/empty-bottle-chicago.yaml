@@ -67,12 +67,12 @@ provenance:
   - https://www.wbez.org/music/2025/10/31/empty-bottle-33-1-3-birthday-chicago-live-music
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
     final_url: https://www.emptybottle.com/
-  last_crawled: '2026-08-17'
-  last_content_hash: 3bca3ecc7b72ef55
+  last_crawled: '2026-09-28'
+  last_content_hash: 260371ffd0b2f267
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: historically central to Chicago improv via its 1996-2005 jazz series;
   today mostly indie/rock. Confirm current cadence of any improvised bookings.'

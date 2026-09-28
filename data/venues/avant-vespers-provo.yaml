@@ -72,11 +72,11 @@ provenance:
     why: source article moved; followed the publisher's 308 redirect to the canonical URL
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
-  last_crawled: '2026-09-21'
-  last_content_hash: 4b9bb93cd4c6032e
+  last_crawled: '2026-09-28'
+  last_content_hash: 4eea3411a50d9756
   crawl_http_status: 403
 notes: Monthly experimental/outsider-jazz series (est. 2018) in the Salt Lake/Provo area,
   curated by composer Christian Asplund at St. Mary's Episcopal Church. Verified via a single

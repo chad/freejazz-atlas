@@ -67,11 +67,11 @@ provenance:
   - https://www.theskinny.co.uk/whats-on/glasgow/restaurants/the-glad-cafe/glasgow-experimental-music-series
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 939ee097e91fc307
+  last_crawled: '2026-09-28'
+  last_content_hash: dc7be5227019cee6
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: confirm 2026 cadence of the Glasgow Experimental Music Series and overall
   experimental share.'

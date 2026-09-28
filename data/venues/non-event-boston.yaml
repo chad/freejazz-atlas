@@ -68,7 +68,7 @@ provenance:
   - https://www.wbur.org/news/2026/04/20/non-event-25-years-experimental-music-boston
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
   last_crawled: '2026-09-21'

@@ -71,10 +71,10 @@ provenance:
   - https://intlanthem.bandcamp.com/album/the-way-out-of-easy
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: skipped
-  last_crawled: '2026-09-21'
-  last_content_hash: d0e1389877ba82e7
+  last_crawled: '2026-09-28'
+  last_content_hash: 95a36f495219dadd
   crawl_http_status: 200
 notes: CLOSED Dec 2023. Highland Park bar whose Jeff Parker Monday residency anchored a major
   LA experimental-improv community; score reflects its active-era programming. Legacy entry.

@@ -69,13 +69,13 @@ provenance:
   - https://www.visible-records.com/
   - https://arts.virginia.edu/node/1068
   - https://allevents.in/charlottesville/a-night-of-improvisational-percussion/200028369894651
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: bb7fc260a35b732b
+  last_crawled: '2026-09-28'
+  last_content_hash: 7a542c8b61076511
   crawl_http_status: 200
 notes: Artist-run gallery/studio in Charlottesville that has become a regular home for improvised
   and experimental music.

@@ -1,7 +1,7 @@
 artist_id: damon-smith
 artist_name: Damon Smith
 source_url: http://damonmarcsmith.com
-scraped_on: '2026-09-21'
+scraped_on: '2026-09-28'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -345,7 +345,7 @@ events:
   match_note: 'no confident match (best: The Bird''s Eye Jazz Club, name similarity 0.67;
     city differs (Melbourne VIC vs Basel))'
   id: f7773ca3cca4
-- date: '2026-06-23'
+- date: '2027-06-23'
   raw: June 23rd - 2-5 pm The Wesley Anne , Northcote VIC
   venue_name: 2-5 pm The Wesley Anne
   city: Northcote VIC
@@ -360,7 +360,7 @@ events:
   match_score: 0.24
   match_note: 'no confident match (best: AMR - Sud des Alpes, name similarity 0.40; city differs
     (Northcote VIC vs Geneva))'
-  id: e1b2b8148fa8
+  id: 4644ff0586cc
 - date: '2026-06-30'
   raw: June 30 - 2-5 pm Moon Dog Wild West ​ , Footscray VIC
   venue_name: 2-5 pm Moon Dog Wild West ​
@@ -568,7 +568,7 @@ events:
   match_note: 'no confident match (best: The Bird''s Eye Jazz Club, name similarity 0.67;
     city differs (Melbourne VIC vs Basel))'
   id: f7773ca3cca4
-- date: '2026-06-23'
+- date: '2027-06-23'
   raw: June 23rd - 2-5 pm The Wesley Anne , Northcote VIC
   venue_name: 2-5 pm The Wesley Anne
   city: Northcote VIC
@@ -583,7 +583,7 @@ events:
   match_score: 0.24
   match_note: 'no confident match (best: AMR - Sud des Alpes, name similarity 0.40; city differs
     (Northcote VIC vs Geneva))'
-  id: e1b2b8148fa8
+  id: 4644ff0586cc
 - date: '2026-06-30'
   raw: June 30 - 2-5 pm Moon Dog Wild West ​ , Footscray VIC
   venue_name: 2-5 pm Moon Dog Wild West ​

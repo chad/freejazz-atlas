@@ -67,10 +67,10 @@ provenance:
   - https://avantmusicnews.com/2024/10/19/coming-to-detroits-trinosophes-38/
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
-  last_crawled: '2026-09-21'
-  last_content_hash: 070c178acb90ee78
+  last_crawled: '2026-09-28'
+  last_content_hash: 6c662fd2073ba9b5
   crawl_http_status: 200
 notes: Also houses Peoples Records.

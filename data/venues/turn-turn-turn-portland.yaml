@@ -71,11 +71,11 @@ provenance:
   - https://creativemusicguild.org/outset-series/
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
-  last_crawled: '2026-09-21'
-  last_content_hash: b9bd3bc92e497887
+  last_crawled: '2026-09-28'
+  last_content_hash: c36e3549396d7197
   crawl_http_status: 200
 notes: NE Portland community venue/bar and mini record store; regular host of the Creative
   Music Guild's Outset Series.

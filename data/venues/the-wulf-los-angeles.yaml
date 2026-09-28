@@ -67,10 +67,10 @@ provenance:
   - https://experimentalmusicyearbook.com/filter/the-wulf.
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: unreachable
     detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
-  last_crawled: '2026-09-21'
+  last_crawled: '2026-09-28'
   last_content_hash: e3b0c44298fc1c14
   crawl_http_status: 200
   last_crawl_error: 'HTTPSConnectionPool(host=''www.thewulf.org'', port=443): Max retries

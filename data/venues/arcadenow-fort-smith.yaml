@@ -69,11 +69,11 @@ provenance:
   - https://arktimes.com/entertainment/2022/11/07/experimental-music-series-this-weekend-in-fort-smith
   needs_human_review: true
   link_check:
-    checked: '2026-09-21'
+    checked: '2026-09-28'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 061e19dc5291dc10
+  last_crawled: '2026-09-28'
+  last_content_hash: 76f66ea211dbbe4f
   crawl_http_status: 200
 notes: Amos Cochran-curated experimental series (Fort Smith Bakery District); only Volume
   1 (2022) is documented and future editions were unconfirmed - status/activity needs verification.
