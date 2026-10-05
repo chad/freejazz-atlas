@@ -1,13 +1,13 @@
 artist_id: eri-yamamoto
 artist_name: Eri Yamamoto
 source_url: https://www.eriyamamoto.com/schedule
-scraped_on: '2026-09-28'
+scraped_on: '2026-10-05'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
   records why.'
 events:
-- date: '2026-07-06'
+- date: '2027-07-06'
   raw: July 6- Rodi Jazz Festival in Foggia, Italy
   venue_name: Rodi Jazz Festival in Foggia
   city: Italy
@@ -22,7 +22,7 @@ events:
   match_score: 0.392
   match_note: 'no confident match (best: Earshot Jazz, name similarity 0.65; city differs
     (Italy vs Seattle))'
-  id: a1e93e1ae49c
+  id: 240c92367033
 - date: '2026-07-11'
   raw: July 11-Torrente de Cinca Festival, Spain
   venue_name: Torrente de Cinca Festival

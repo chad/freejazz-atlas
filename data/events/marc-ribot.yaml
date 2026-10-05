@@ -1,7 +1,7 @@
 artist_id: marc-ribot
 artist_name: Marc Ribot
 source_url: http://www.marcribot.com/tour-dates
-scraped_on: '2026-09-21'
+scraped_on: '2026-10-05'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -273,7 +273,7 @@ events:
   match_score: 0.652
   match_note: 'no confident match (best: We Jazz, name similarity 0.65)'
   id: 683879b6e891
-- date: '2026-06-23'
+- date: '2027-06-23'
   raw: June 23 - Toronto/CA Hugh’s Room Live
   venue_name: Toronto/CA Hugh’s Room Live
   city: ''
@@ -287,8 +287,8 @@ events:
   venue_id: null
   match_score: 0.457
   match_note: 'no confident match (best: Rothko Chapel, name similarity 0.46)'
-  id: f32c9861ab48
-- date: '2026-06-25'
+  id: 9329ab680090
+- date: '2027-06-25'
   raw: June 25 - Albany, NY The Egg + Map of a Blue City (opening set)
   venue_name: Albany
   city: NY The Egg + Map of a Blue City
@@ -303,8 +303,8 @@ events:
   match_score: 0.369
   match_note: 'no confident match (best: ausland, name similarity 0.62; city differs (NY The
     Egg + Map of a Blue City vs Berlin))'
-  id: d2ac9eeb6884
-- date: '2026-06-26'
+  id: e751c6c9317a
+- date: '2027-06-26'
   raw: June 26 - Montreal/CA Montreal Jazz Festival (Low Tix Alert!)
   venue_name: Montreal/CA Montreal Jazz Festival
   city: Low Tix Alert!
@@ -319,8 +319,8 @@ events:
   match_score: 0.393
   match_note: 'no confident match (best: Earshot Jazz, name similarity 0.65; city differs
     (Low Tix Alert! vs Seattle))'
-  id: 71f3e09f9436
-- date: '2026-06-27'
+  id: 770dba96af42
+- date: '2027-06-27'
   raw: June 27 - NYC Ki Smith Gallery
   venue_name: NYC Ki Smith Gallery
   city: ''
@@ -334,7 +334,7 @@ events:
   venue_id: null
   match_score: 0.444
   match_note: 'no confident match (best: Make-Out Room, name similarity 0.44)'
-  id: 43568a8db4ee
+  id: 7004a2d5a6fa
 - date: '2026-07-17'
   raw: July 17 - London/UK Jazz Cafe (LOW TIX ALERT!)
   venue_name: London/UK Jazz Cafe
@@ -1285,7 +1285,7 @@ events:
   match_score: 0.714
   match_note: 'no confident match (best: The Stone, name similarity 0.71)'
   id: bfb0b21f5f4c
-- date: '2026-06-24'
+- date: '2027-06-24'
   raw: 'June 24: Monheim Festival _ Germany'
   venue_name: Monheim Festival _ Germany
   city: ''
@@ -1299,8 +1299,8 @@ events:
   venue_id: null
   match_score: 0.632
   match_note: 'no confident match (best: Moers Festival, name similarity 0.63)'
-  id: 4ce75a542949
-- date: '2026-07-02'
+  id: 112f78f052f0
+- date: '2027-07-02'
   raw: 'July 2: X Festival - Adro da Igreja da Aldeia das Dez - Coimbra, Portugal'
   venue_name: X Festival - Adro da Igreja da Aldeia das Dez - Coimbra
   city: Portugal
@@ -1315,7 +1315,7 @@ events:
   match_score: 0.217
   match_note: 'no confident match (best: The Fruit, name similarity 0.36; city differs (Portugal
     vs Durham))'
-  id: 995a0160c4ca
+  id: 2e590b64199c
 - date: '2026-07-20'
   raw: 'July 20: Molde Jazz Festival - Norway'
   venue_name: Molde Jazz Festival - Norway

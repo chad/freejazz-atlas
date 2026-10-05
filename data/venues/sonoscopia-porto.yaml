@@ -67,11 +67,11 @@ provenance:
   - https://sonoscopia.pt/en/sonoscopia/
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
     final_url: https://sonoscopia.pt/en/
-  last_crawled: '2026-09-21'
-  last_content_hash: ccf8bde323aa8f83
+  last_crawled: '2026-10-05'
+  last_content_hash: e04e6cf7aa27f2be
   crawl_http_status: 200
 notes: Artist-run Porto platform for experimental, improvised and electroacoustic music.

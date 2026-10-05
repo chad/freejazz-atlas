@@ -71,11 +71,11 @@ provenance:
   - https://highmayhem.org/events/
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: cf5508aaebe30ece
+  last_crawled: '2026-10-05'
+  last_content_hash: f5ed393acdfe955e
   crawl_http_status: 200
 notes: Santa Fe not-for-profit experimental-arts collective, venue and label (est. 2001).
   Coordinates approximate to the Siler Ln studio.

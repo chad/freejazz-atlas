@@ -1,9 +1,176 @@
 artist_id: fay-victor
 artist_name: Fay Victor
 source_url: https://www.fayvictor.com/shows/
-scraped_on: '2026-09-28'
-method: none
+scraped_on: '2026-10-05'
+method: jsonld
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
   records why.'
-events: []
+events:
+- date: '2026-12-13'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "411 Residency: Fay
+    Victor''s Black Sonic Space - BLACK POEMS", "startDate": "2026-12-13T16:00:00+00:00",
+    "description": "https://www.bklynlibrary.org/calendar/classical-interludes-fay-central-library-dweck-20261213-0400pm\r\n\r\nDrawin'
+  venue_name: Brooklyn Public Library - Grand Army Plaza
+  city: Brooklyn
+  region: ''
+  country: ''
+  lineup: '411 Residency: Fay Victor''s Black Sonic Space - BLACK POEMS'
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.446
+  match_note: 'no confident match (best: IBeam Brooklyn, name similarity 0.30; city matches
+    (Brooklyn))'
+  id: 5ea26d95212f
+- date: '2026-12-11'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "International Contemporary
+    Ensemble x Tri-Centric plays Anthony Braxton\u2019s Thunder Music - Darmstadt at 80",
+    "startDate": "2026-12-11T20:00:00+00:00", "description": "https://iceorg.org/events/darmstadt-at-80",
+    "url": "https://www'
+  venue_name: Roulette
+  city: Brooklyn
+  region: NY
+  country: ''
+  lineup: International Contemporary Ensemble x Tri-Centric plays Anthony Braxton’s Thunder
+    Music - Darmstadt at 80
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: roulette-intermedium
+  match_score: 1.0
+  match_note: name similarity 1.00; city matches (Brooklyn)
+  id: 2351413ef524
+- date: '2026-11-25'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "American Academy
+    in Rome/On Improvisation: Sound, Space, Thought w the International Contemporary Ensemble",
+    "startDate": "2026-11-25T20:00:00+00:00", "description": "https://iceorg.org/events/aar",
+    "url": "https://www.fayvictor.com/s'
+  venue_name: America Academy of Rome
+  city: Rome
+  region: ''
+  country: Italy
+  lineup: 'American Academy in Rome/On Improvisation: Sound, Space, Thought w the International
+    Contemporary Ensemble'
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.51
+  match_note: 'no confident match (best: Angelo Mai, name similarity 0.36; city matches (Rome))'
+  id: 456d49d8c78b
+- date: '2026-11-06'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "411 Residency: Fay
+    Victor''s Black Sonic Space - Tree Trini Collective (Transatlantik Festival)", "startDate":
+    "2026-11-06T20:00:00+00:00", "description": "First performance of my residency with 411.
+    The Tree Trini Collective is having'
+  venue_name: Public Records
+  city: Brooklyn
+  region: NY
+  country: USA
+  lineup: '411 Residency: Fay Victor''s Black Sonic Space - Tree Trini Collective (Transatlantik
+    Festival)'
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.45
+  match_note: 'no confident match (best: Public Space One, name similarity 0.75; city differs
+    (Brooklyn vs Iowa City))'
+  id: 06473a184a65
+- date: '2026-10-25'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "Almost, Already
+    There: Black Art Notes", "startDate": "2026-10-25T17:00:00+00:00", "description": "https://www.barbican.org.uk/whats-on/2026/event/always-already-there-black-art-notes\r\n\r\nLeading
+    improvisers and composer-performers'
+  venue_name: Barbican Centre
+  city: London
+  region: ''
+  country: United Kingdom
+  lineup: 'Almost, Already There: Black Art Notes'
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.4
+  match_note: 'no confident match (best: IKLECTIK, name similarity 0.25; city matches (London))'
+  id: dae07a4e4b73
+- date: '2026-10-20'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "Cortona Jazz Festival/teaching
+    and performing", "startDate": "2026-10-20T19:00:00+00:00", "description": "Heading to
+    Cortona, Italy from October 19 - 25 to work and perform at the Cortona Jazz Festival.  I
+    am excited to work with stud'
+  venue_name: Cortona Jazz Festival
+  city: Cortona
+  region: ''
+  country: Italy
+  lineup: Cortona Jazz Festival/teaching and performing
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.457
+  match_note: 'no confident match (best: Earshot Jazz, name similarity 0.76; city differs
+    (Cortona vs Seattle))'
+  id: 5d8254facff3
+- date: '2026-10-11'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "Jazz Refractions
+    (formerly Angel City Jazz): Herbie Nichols SUNG", "startDate": "2026-10-11T20:00:00+00:00",
+    "description": "Appearing for the first time in LA with Herbie Nichols SUNG courtesy if
+    the Jazz Refractions Festival.  Quart'
+  venue_name: Motivo
+  city: Los Angeles
+  region: CA
+  country: ''
+  lineup: 'Jazz Refractions (formerly Angel City Jazz): Herbie Nichols SUNG'
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.483
+  match_note: 'no confident match (best: Coaxial Arts Foundation, name similarity 0.33; city
+    matches (Los Angeles))'
+  id: c264929d0a4b
+- date: '2026-10-09'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "EdgeFest: Herbie
+    Nichols SUNG", "startDate": "2026-10-09T22:00:00+00:00", "description": "Excited to return
+    to EdgeFest in Ann Arbor Michigan with Herbie Nichols SUNG.  Quartet run this time with
+    Anthony Coleman (piano), Devon Gates ('
+  venue_name: Kerrytown Concert House
+  city: Ann Arbor
+  region: Michigan
+  country: ''
+  lineup: 'EdgeFest: Herbie Nichols SUNG'
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: kerrytown-concert-house
+  match_score: 1.0
+  match_note: name similarity 1.00; city matches (Ann Arbor)
+  id: 9fa7c0de599c
+- date: '2026-10-07'
+  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "Sonic Introductions  -
+    Music Grad Students perform", "startDate": "2026-10-07T19:30:00+00:00", "description":
+    "Get a glimpse into Wesleyan University\u2019s expansive approach to music education,
+    featuring compositions and improvisati'
+  venue_name: Wesleyan University
+  city: ''
+  region: CT
+  country: ''
+  lineup: Sonic Introductions  - Music Grad Students perform
+  source_url: https://www.fayvictor.com/shows/
+  artist_id: fay-victor
+  method: jsonld
+  year_inferred: false
+  venue_id: null
+  match_score: 0.571
+  match_note: 'no confident match (best: Leaven Community Center, name similarity 0.57)'
+  id: db02b94aa527

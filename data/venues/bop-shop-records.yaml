@@ -67,11 +67,11 @@ provenance:
   - https://bopshop.com/jazz901
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-28'
-  last_content_hash: 1f2e57fd68aee3ae
+  last_crawled: '2026-10-05'
+  last_content_hash: 9f00f9e08d0737c4
   crawl_http_status: 200
 notes: Rochester record store with a decades-long jazz/experimental/improvised concert series;
   coordinates approximate to Monroe Ave.

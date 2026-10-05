@@ -67,11 +67,11 @@ provenance:
   - https://www.stlmag.com/culture/visual-arts/wholly-bright:-the-rebirth-of-the-luminary/
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-21'
-  last_content_hash: 209b66472505bf3f
+  last_crawled: '2026-10-05'
+  last_content_hash: 3eb847898009bab1
   crawl_http_status: 200
 notes: St. Louis nonprofit arts space presenting experimental music/sound as part of a broad
   interdisciplinary program (distinct from Dissonant Works).

@@ -69,11 +69,11 @@ provenance:
   - https://wfmu.org/
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-28'
-  last_content_hash: 83b689672157feb6
+  last_crawled: '2026-10-05'
+  last_content_hash: d2a324f455e5d4b4
   crawl_http_status: 200
 notes: WFMU's Jersey City performance room; experimental/improv is a meaningful strand of
   a broader freeform program.

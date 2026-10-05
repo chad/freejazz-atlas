@@ -68,11 +68,11 @@ provenance:
   - https://de.wikipedia.org/wiki/Exploratorium_Berlin
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-28'
-  last_content_hash: 84d74daa60e7f829
+  last_crawled: '2026-10-05'
+  last_content_hash: db6ab3eea6e48f16
   crawl_http_status: 200
 notes: Kreuzberg centre for improvised music and creative music education; moved to Zossener
   Str. in 2023.

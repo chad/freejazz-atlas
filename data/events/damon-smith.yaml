@@ -1,7 +1,7 @@
 artist_id: damon-smith
 artist_name: Damon Smith
 source_url: http://damonmarcsmith.com
-scraped_on: '2026-09-28'
+scraped_on: '2026-10-05'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -361,7 +361,7 @@ events:
   match_note: 'no confident match (best: AMR - Sud des Alpes, name similarity 0.40; city differs
     (Northcote VIC vs Geneva))'
   id: 4644ff0586cc
-- date: '2026-06-30'
+- date: '2027-06-30'
   raw: June 30 - 2-5 pm Moon Dog Wild West ​ , Footscray VIC
   venue_name: 2-5 pm Moon Dog Wild West ​
   city: Footscray VIC
@@ -376,7 +376,7 @@ events:
   match_score: 0.234
   match_note: 'no confident match (best: The Volstead Lounge, name similarity 0.39; city differs
     (Footscray VIC vs Austin))'
-  id: 9c6c130087cf
+  id: 5a367217333f
 - date: '2026-07-07'
   raw: July 7th - 2-5 pm Moon Dog Wild West ​ , Footscray VIC
   venue_name: 2-5 pm Moon Dog Wild West ​
@@ -584,7 +584,7 @@ events:
   match_note: 'no confident match (best: AMR - Sud des Alpes, name similarity 0.40; city differs
     (Northcote VIC vs Geneva))'
   id: 4644ff0586cc
-- date: '2026-06-30'
+- date: '2027-06-30'
   raw: June 30 - 2-5 pm Moon Dog Wild West ​ , Footscray VIC
   venue_name: 2-5 pm Moon Dog Wild West ​
   city: Footscray VIC
@@ -599,7 +599,7 @@ events:
   match_score: 0.234
   match_note: 'no confident match (best: The Volstead Lounge, name similarity 0.39; city differs
     (Footscray VIC vs Austin))'
-  id: 9c6c130087cf
+  id: 5a367217333f
 - date: '2026-07-07'
   raw: July 7th - 2-5 pm Moon Dog Wild West ​ , Footscray VIC
   venue_name: 2-5 pm Moon Dog Wild West ​

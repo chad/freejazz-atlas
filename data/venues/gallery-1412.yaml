@@ -58,10 +58,10 @@ provenance:
   - https://gallery1412dotorg.wordpress.com/
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-28'
-  last_content_hash: 2578a5568be7fae0
+  last_crawled: '2026-10-05'
+  last_content_hash: c4425b34e4e5489f
   crawl_http_status: 200
 notes: DIY improvised/experimental storefront.

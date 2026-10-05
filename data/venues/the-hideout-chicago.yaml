@@ -67,10 +67,10 @@ provenance:
   - https://en.wikipedia.org/wiki/The_Hideout_Inn
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-28'
-  last_content_hash: 3ba302de6bd04a23
+  last_crawled: '2026-10-05'
+  last_content_hash: c9d7a75d2cb037f2
   crawl_http_status: 200
 notes: Independent bar/venue whose weekly Immediate Sound series anchors its free-jazz programming.

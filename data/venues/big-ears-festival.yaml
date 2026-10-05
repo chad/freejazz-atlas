@@ -71,11 +71,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Big_Ears_Festival
   needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-09-21'
-  last_content_hash: 339840571c838337
+  last_crawled: '2026-10-05'
+  last_content_hash: b3f328da29e146e2
   crawl_http_status: 200
 notes: Knoxville's internationally renowned experimental/avant-garde festival (founded 2009).
   Annual, which caps the frequency signal, but a cornerstone by reputation and roster.

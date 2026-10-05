@@ -73,13 +73,13 @@ provenance:
   - https://www.evabham.org/about
   - https://www.birmingham365.org/event/sun-ra-returns-home/
   - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-09-28'
+    checked: '2026-10-05'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: ca1b120e7bd3dcc1
+  last_crawled: '2026-10-05'
+  last_content_hash: a7bb41e026652194
   crawl_http_status: 200
 notes: Birmingham nonprofit arts co-op in the historic East Lake Theater; hosts the annual
   Sun Ra Festival (Sun Ra was born in Birmingham) and an avant-garde jazz program.
