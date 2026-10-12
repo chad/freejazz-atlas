@@ -70,11 +70,11 @@ provenance:
   - https://www.downtownithaca.com/venue/the-cherry-arts/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 00927091c33beb35
+  last_crawled: '2026-10-12'
+  last_content_hash: 53a27bb4da7edd64
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: experimentation-focused multi-arts venue, but confirm how central free/improvised
   music is versus theater/dance programming.'

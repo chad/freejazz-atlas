@@ -1,28 +1,12 @@
 artist_id: jon-irabagon
 artist_name: Jon Irabagon
 source_url: http://jonirabagon.com/tour
-scraped_on: '2026-10-05'
+scraped_on: '2026-10-12'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
   records why.'
 events:
-- date: '2026-10-11'
-  raw: 'October 11, 2026: Peter Brendler Quartet, Smalls, New York, NY'
-  venue_name: Peter Brendler Quartet
-  city: New York
-  region: NY
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.428
-  match_note: 'no confident match (best: The Cherry Arts, name similarity 0.38; region matches
-    (NY))'
-  id: 1155878ffcab
 - date: '2026-10-13'
   raw: 'October 13, 2026: Peter Brendler Quartet, Ornithology, Brooklyn, NY'
   venue_name: Peter Brendler Quartet
@@ -398,6 +382,22 @@ events:
   match_note: 'no confident match (best: Mills College Center for Contemporary Music, name
     similarity 0.28; city differs (TBA vs Oakland))'
   id: 19420ff06a6e
+- date: '2026-10-11'
+  raw: 'October 11, 2026: Peter Brendler Quartet, Smalls, New York, NY'
+  venue_name: Peter Brendler Quartet
+  city: New York
+  region: NY
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.428
+  match_note: 'no confident match (best: The Cherry Arts, name similarity 0.38; region matches
+    (NY))'
+  id: 1155878ffcab
 - date: '2026-09-26'
   raw: 'September 26, 2026: Jon Irabagon''s PlainsPeak, Hyde Park Jazz Festival, Chicago,
     IL'

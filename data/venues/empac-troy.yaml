@@ -68,11 +68,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Experimental_Media_and_Performing_Arts_Center
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: f9f4564ed004bf3f
+  last_crawled: '2026-10-12'
+  last_content_hash: e8bff2a3f71cbc53
   crawl_http_status: 200
 notes: RPI's experimental-arts center in Troy; improv/experimental music is part of a broad
   curated new-media program, not a dedicated recurring series.

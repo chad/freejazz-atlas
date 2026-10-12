@@ -67,11 +67,11 @@ provenance:
   - https://www.jordanmartins.com/curatorialprogramming
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-09-28'
-  last_content_hash: 48f76278676fe28a
+  last_crawled: '2026-10-12'
+  last_content_hash: 08292496bc0b7307
   crawl_http_status: 200
 notes: Nonprofit Logan Square arts space; the Comfort Music series is a dependable outlet
   for Chicago experimental/improv performers.

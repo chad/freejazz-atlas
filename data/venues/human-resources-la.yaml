@@ -69,11 +69,11 @@ provenance:
   - https://www.h-r.la/events/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 8eadc6e85e453578
+  last_crawled: '2026-10-12'
+  last_content_hash: 1e28ef273b78022a
   crawl_http_status: 200
 notes: Chinatown nonprofit for experimental/interdisciplinary art; experimental music and
   performance are a strong recurring part of the program.

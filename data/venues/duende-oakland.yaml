@@ -69,10 +69,10 @@ provenance:
   - https://www.bayimproviser.com/venue/143/duende
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: skipped
-  last_crawled: '2026-10-05'
-  last_content_hash: 8c039f5f6009ec75
+  last_crawled: '2026-10-12'
+  last_content_hash: a297644e7923144d
   crawl_http_status: 200
 notes: CLOSED June 2024. Uptown Oakland restaurant that hosted a notable creative/improvised-music
   series and touring improvisers for over a decade.

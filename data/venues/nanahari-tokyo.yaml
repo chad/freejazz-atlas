@@ -70,11 +70,11 @@ provenance:
   - https://www.tokyogigguide.com/en/gigs/venue/102
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-09-14'
-  last_content_hash: b7ac04ec51c26cd9
+  last_crawled: '2026-10-12'
+  last_content_hash: 507c2c2e9db4249f
   crawl_http_status: 200
 notes: Avant-garde basement (est. 2006) near Higashi-Nihonbashi/Bakurocho; regular stop for
   local and touring improvisers.

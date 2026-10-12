@@ -69,10 +69,10 @@ provenance:
   - https://ra.co/events/2015230
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: unreachable
     detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
-  last_crawled: '2026-10-05'
+  last_crawled: '2026-10-12'
   last_content_hash: 20c920fede44409b
   crawl_http_status: 200
   last_crawl_error: 'HTTPSConnectionPool(host=''www.revolver.tw'', port=443): Max retries

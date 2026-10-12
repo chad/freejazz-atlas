@@ -69,11 +69,11 @@ provenance:
   - https://independentvenueweek.com/us/venues-us/vermillion/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 67de0fefe0128d0b
+  last_crawled: '2026-10-12'
+  last_content_hash: e7ac7b70b539cf65
   crawl_http_status: 200
 notes: Capitol Hill gallery/bar, established 2008. Formerly the weekly home of the Seattle
   Jazz Fellowship; still hosts improvised/avant music a few times a month.

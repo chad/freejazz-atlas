@@ -65,11 +65,11 @@ provenance:
   - https://cvnc.org/article.cfm?articleId=10426
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: cafd2ba147f138e7
+  last_crawled: '2026-10-12'
+  last_content_hash: 532324b5b1c30319
   crawl_http_status: 200
 notes: Downtown Durham gallery used as an intimate concert venue by new-music/improv presenters.
   Frequency and current improv-specific programming not fully verified; needs human review.

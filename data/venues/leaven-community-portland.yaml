@@ -69,11 +69,11 @@ provenance:
   - https://everout.com/portland/events/extradition-series-2020-winter-concert/e98685/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 4abc199f5ba07576
+  last_crawled: '2026-10-12'
+  last_content_hash: 033b726e87ec36ee
   crawl_http_status: 200
 notes: NE Portland nonprofit community center that serves as a recurring host venue for Creative
   Music Guild / Extradition experimental-music concerts.

@@ -69,11 +69,11 @@ provenance:
   - https://www.timeout.com/lisbon/art/zdb-galeria-ze-dos-bois
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 1050071a9ba919bd
+  last_crawled: '2026-10-12'
+  last_content_hash: 3cc6a401f95783ce
   crawl_http_status: 200
 notes: Bairro Alto nonprofit art centre; ZDBmüzique presents experimental music, free jazz
   and noise.

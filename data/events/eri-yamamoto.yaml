@@ -1,7 +1,7 @@
 artist_id: eri-yamamoto
 artist_name: Eri Yamamoto
 source_url: https://www.eriyamamoto.com/schedule
-scraped_on: '2026-10-05'
+scraped_on: '2026-10-12'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -23,7 +23,7 @@ events:
   match_note: 'no confident match (best: Earshot Jazz, name similarity 0.65; city differs
     (Italy vs Seattle))'
   id: 240c92367033
-- date: '2026-07-11'
+- date: '2027-07-11'
   raw: July 11-Torrente de Cinca Festival, Spain
   venue_name: Torrente de Cinca Festival
   city: Spain
@@ -38,8 +38,8 @@ events:
   match_score: 0.347
   match_note: 'no confident match (best: Portland Institute for Contemporary Art, name similarity
     0.58; city differs (Spain vs Portland))'
-  id: 96f2719cc57f
-- date: '2026-07-12'
+  id: 15b415328c30
+- date: '2027-07-12'
   raw: July 12-Pobla de Cervoles, Spain
   venue_name: Pobla de Cervoles
   city: Spain
@@ -54,8 +54,8 @@ events:
   match_score: 0.31
   match_note: 'no confident match (best: Cube Microplex, name similarity 0.52; city differs
     (Spain vs Bristol))'
-  id: 6f6bf6b2094e
-- date: '2026-07-13'
+  id: 8cafc423a95b
+- date: '2027-07-13'
   raw: July 13- San Fermin Festival in Pamplona, Spain
   venue_name: San Fermin Festival in Pamplona
   city: Spain
@@ -70,7 +70,7 @@ events:
   match_score: 0.329
   match_note: 'no confident match (best: AngelicA - Festival Internazionale di Musica, name
     similarity 0.55; city differs (Spain vs Bologna))'
-  id: a89ce0e81490
+  id: f513609b37c2
 - date: '2026-07-16'
   raw: July 16-Jazz bajo las estrellas-Palasiet
   venue_name: Jazz bajo las estrellas-Palasiet

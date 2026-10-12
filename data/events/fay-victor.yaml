@@ -1,7 +1,7 @@
 artist_id: fay-victor
 artist_name: Fay Victor
 source_url: https://www.fayvictor.com/shows/
-scraped_on: '2026-10-05'
+scraped_on: '2026-10-12'
 method: jsonld
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -138,39 +138,3 @@ events:
   match_note: 'no confident match (best: Coaxial Arts Foundation, name similarity 0.33; city
     matches (Los Angeles))'
   id: c264929d0a4b
-- date: '2026-10-09'
-  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "EdgeFest: Herbie
-    Nichols SUNG", "startDate": "2026-10-09T22:00:00+00:00", "description": "Excited to return
-    to EdgeFest in Ann Arbor Michigan with Herbie Nichols SUNG.  Quartet run this time with
-    Anthony Coleman (piano), Devon Gates ('
-  venue_name: Kerrytown Concert House
-  city: Ann Arbor
-  region: Michigan
-  country: ''
-  lineup: 'EdgeFest: Herbie Nichols SUNG'
-  source_url: https://www.fayvictor.com/shows/
-  artist_id: fay-victor
-  method: jsonld
-  year_inferred: false
-  venue_id: kerrytown-concert-house
-  match_score: 1.0
-  match_note: name similarity 1.00; city matches (Ann Arbor)
-  id: 9fa7c0de599c
-- date: '2026-10-07'
-  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "Sonic Introductions  -
-    Music Grad Students perform", "startDate": "2026-10-07T19:30:00+00:00", "description":
-    "Get a glimpse into Wesleyan University\u2019s expansive approach to music education,
-    featuring compositions and improvisati'
-  venue_name: Wesleyan University
-  city: ''
-  region: CT
-  country: ''
-  lineup: Sonic Introductions  - Music Grad Students perform
-  source_url: https://www.fayvictor.com/shows/
-  artist_id: fay-victor
-  method: jsonld
-  year_inferred: false
-  venue_id: null
-  match_score: 0.571
-  match_note: 'no confident match (best: Leaven Community Center, name similarity 0.57)'
-  id: db02b94aa527

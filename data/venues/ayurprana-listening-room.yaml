@@ -67,11 +67,11 @@ provenance:
   - https://www.blackmountaincollege.org/catalytic-sound-festival-asheville-2022/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: d11a86ad7b101fde
+  last_crawled: '2026-10-12'
+  last_content_hash: d5d4046e218aba3c
   crawl_http_status: 200
 notes: West Asheville listening room that hosts experimental/improvised shows (including Catalytic
   Sound events). Share of improv within its overall calendar not fully verified; needs human

@@ -1,7 +1,7 @@
 artist_id: marc-ribot
 artist_name: Marc Ribot
 source_url: http://www.marcribot.com/tour-dates
-scraped_on: '2026-10-05'
+scraped_on: '2026-10-12'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -2016,7 +2016,7 @@ events:
   match_note: 'no confident match (best: Duende, name similarity 0.46; city differs (2020
     CANCELED DUE TO COVID-19 vs Oakland))'
   id: 0d1ebaff58f1
-- date: '2026-07-07'
+- date: '2027-07-07'
   raw: July 7 - July 25 CANCELED DUE TO COVID-19
   venue_name: July 25 CANCELED DUE TO COVID-19
   city: ''
@@ -2030,7 +2030,7 @@ events:
   venue_id: null
   match_score: 0.373
   match_note: 'no confident match (best: Nasjonal Jazzscene Victoria, name similarity 0.37)'
-  id: 004898e1a612
+  id: 721af5bba576
 - date: '2026-10-23'
   raw: October 23-25, 2020
   venue_name: '25'

@@ -65,7 +65,7 @@ provenance:
   - https://hcp.pt/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
   last_crawled: '2026-10-05'

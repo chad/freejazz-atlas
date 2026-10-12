@@ -73,11 +73,11 @@ provenance:
   - https://www.capitalbop.com/d-c-jazz-loft-series/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 77ce07d6f14c82b2
+  last_crawled: '2026-10-12'
+  last_content_hash: 6380510e2e877797
   crawl_http_status: 200
 notes: DC nonprofit presenter and jazz-journalism org; the DC Jazz Loft series (revived at
   Rhizome) favors creative/avant jazz. Nomadic historically (Red Door, Union Arts, Hole in

@@ -68,11 +68,11 @@ provenance:
   - https://tonemadison.com/articles/cosmic-guitars-and-experimental-percussion-bring-music-back-to-arts-literature-laboratory/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 9308dc85fe41944a
+  last_crawled: '2026-10-12'
+  last_content_hash: 80ee937b976b0998
   crawl_http_status: 200
 notes: Madison nonprofit arts center; its Auricle series is the city's main outlet for experimental/improvised
   new music.

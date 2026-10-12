@@ -69,10 +69,10 @@ provenance:
   - https://www.urbanite.net/berlin/locations/km28/
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 9b181214f6218236
+  last_crawled: '2026-10-12'
+  last_content_hash: 263ab87b3af9d76c
   crawl_http_status: 200
 notes: Volunteer-run Neukölln space for new/experimental concert music, founded 2018.

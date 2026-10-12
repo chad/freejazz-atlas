@@ -58,11 +58,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Roulette_Intermedium
   needs_human_review: true
   link_check:
-    checked: '2026-10-05'
+    checked: '2026-10-12'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 69d7899c8ea52b85
+  last_crawled: '2026-10-12'
+  last_content_hash: c0ae84d10a328a49
   crawl_http_status: 200
   last_crawl_error: 'HTTPSConnectionPool(host=''roulette.org'', port=443): Read timed out.
     (read timeout=20)'
