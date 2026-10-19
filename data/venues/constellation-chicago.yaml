@@ -73,11 +73,11 @@ provenance:
   - https://downbeat.com/news/detail/reed-expands-reach-with-constellation
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: blocked
     http: 403
     detail: HTTP 403
-  last_crawled: '2026-10-12'
+  last_crawled: '2026-10-19'
   last_content_hash: 6fb2e71c99458012
   crawl_http_status: 403
 notes: Cornerstone Chicago venue for jazz, improvised and experimental music; owned/programmed

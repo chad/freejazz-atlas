@@ -68,13 +68,12 @@ provenance:
   source_urls:
   - https://thekessler.org/
   - https://www.dallasobserver.com/location/the-kessler-theater-6445181/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-10-12'
-    status: blocked
-    http: 403
-    detail: HTTP 403
-  last_crawled: '2026-10-12'
+    checked: '2026-10-19'
+    status: unreachable
+    detail: 'RemoteDisconnected: Remote end closed connection without response'
+  last_crawled: '2026-10-19'
   last_content_hash: 40ed84a00e11a5d5
   crawl_http_status: 403
 notes: Oak Cliff's premier listening room; a broad-genre concert theater that hosts adventurous

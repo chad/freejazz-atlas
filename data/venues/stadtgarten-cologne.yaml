@@ -69,11 +69,11 @@ provenance:
   - https://www.europejazz.net/members/stadtgarten-koln
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: 1a115dba68b0194c
+  last_crawled: '2026-10-19'
+  last_content_hash: 016f861d1d2d90aa
   crawl_http_status: 200
 notes: Large European centre for jazz and contemporary/improvised music; broad program, 400+
   events a year.

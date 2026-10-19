@@ -1,7 +1,7 @@
 artist_id: fay-victor
 artist_name: Fay Victor
 source_url: https://www.fayvictor.com/shows/
-scraped_on: '2026-10-12'
+scraped_on: '2026-10-19'
 method: jsonld
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -119,22 +119,3 @@ events:
   match_note: 'no confident match (best: Earshot Jazz, name similarity 0.76; city differs
     (Cortona vs Seattle))'
   id: 5d8254facff3
-- date: '2026-10-11'
-  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "Jazz Refractions
-    (formerly Angel City Jazz): Herbie Nichols SUNG", "startDate": "2026-10-11T20:00:00+00:00",
-    "description": "Appearing for the first time in LA with Herbie Nichols SUNG courtesy if
-    the Jazz Refractions Festival.  Quart'
-  venue_name: Motivo
-  city: Los Angeles
-  region: CA
-  country: ''
-  lineup: 'Jazz Refractions (formerly Angel City Jazz): Herbie Nichols SUNG'
-  source_url: https://www.fayvictor.com/shows/
-  artist_id: fay-victor
-  method: jsonld
-  year_inferred: false
-  venue_id: null
-  match_score: 0.483
-  match_note: 'no confident match (best: Coaxial Arts Foundation, name similarity 0.33; city
-    matches (Los Angeles))'
-  id: c264929d0a4b

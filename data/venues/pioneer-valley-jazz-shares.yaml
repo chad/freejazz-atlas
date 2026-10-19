@@ -69,11 +69,11 @@ provenance:
   - https://www.artshubwma.org/profile/pioneer-valley-jazz-shares
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: d111fdbb706efa6d
+  last_crawled: '2026-10-19'
+  last_content_hash: 15e2ebf0480726cc
   crawl_http_status: 200
 notes: Itinerant CSA-model presenter of creative/improvised music across the Pioneer Valley;
   coordinates set near Amherst.

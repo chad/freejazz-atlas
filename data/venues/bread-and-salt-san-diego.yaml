@@ -75,11 +75,11 @@ provenance:
   - https://sdnews.com/bread-and-salt/
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-09-21'
-  last_content_hash: fe5b2b1a583b24cb
+  last_crawled: '2026-10-19'
+  last_content_hash: 4058ef96c4482500
   crawl_http_status: 200
 notes: San Diego's core experimental-music venue, hosting the Fresh Sound new-music series
   and Project [BLANK]'s monthly Salty Series of improvisation and sound art.

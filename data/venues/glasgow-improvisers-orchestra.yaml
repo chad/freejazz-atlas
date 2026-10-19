@@ -70,11 +70,11 @@ provenance:
   - https://www.cca-glasgow.com/programme/glasgow-improvisers-orchestra-giofest-xii
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: b905123f46943f6d
+  last_crawled: '2026-10-19'
+  last_content_hash: a08068204d4a256f
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: an artist-run orchestra/presenter rather than a fixed venue; GIOfest
   is hosted at CCA Glasgow. Coordinates are the CCA.'

@@ -68,11 +68,11 @@ provenance:
   - https://www.europejazz.net/club/jazzclub-domicil-dortmund
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: 75227045b8d40fbf
+  last_crawled: '2026-10-19'
+  last_content_hash: c06e69a572049655
   crawl_http_status: 200
 notes: Long-running Dortmund forum for jazz and creative music; strong improv/avant strand
   within a broad program.

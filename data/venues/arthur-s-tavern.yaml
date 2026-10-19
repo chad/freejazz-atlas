@@ -66,11 +66,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Arthur's_Tavern
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: 8406521a5b9a71a0
+  last_crawled: '2026-10-19'
+  last_content_hash: eba58d0cef3c604b
   crawl_http_status: 200
 notes: 'ANCHOR: calibrated as VERY LOW — commercial venue with occasional/traditional jazz,
   not an avant-garde home.'

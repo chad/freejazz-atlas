@@ -71,11 +71,11 @@ provenance:
   - https://monoskop.org/Fylkingen
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: 1ae40b99e9321f53
+  last_crawled: '2026-10-19'
+  last_content_hash: 41c88deda2361f91
   crawl_http_status: 200
 notes: Flagship Swedish experimental/intermedia venue; artist-run since 1933. Coordinates
   are for Münchenbryggeriet on Södermalm.

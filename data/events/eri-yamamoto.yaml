@@ -1,12 +1,28 @@
 artist_id: eri-yamamoto
 artist_name: Eri Yamamoto
 source_url: https://www.eriyamamoto.com/schedule
-scraped_on: '2026-10-12'
+scraped_on: '2026-10-19'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
   records why.'
 events:
+- date: '2026-11-27'
+  raw: November 27-30, 2026
+  venue_name: '30'
+  city: '2026'
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: https://www.eriyamamoto.com/schedule
+  artist_id: eri-yamamoto
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.343
+  match_note: 'no confident match (best: OT301, name similarity 0.57; city differs (2026 vs
+    Amsterdam))'
+  id: ce14ea33528a
 - date: '2027-07-06'
   raw: July 6- Rodi Jazz Festival in Foggia, Italy
   venue_name: Rodi Jazz Festival in Foggia
@@ -71,7 +87,7 @@ events:
   match_note: 'no confident match (best: AngelicA - Festival Internazionale di Musica, name
     similarity 0.55; city differs (Spain vs Bologna))'
   id: f513609b37c2
-- date: '2026-07-16'
+- date: '2027-07-16'
   raw: July 16-Jazz bajo las estrellas-Palasiet
   venue_name: Jazz bajo las estrellas-Palasiet
   city: ''
@@ -85,7 +101,7 @@ events:
   venue_id: null
   match_score: 0.455
   match_note: 'no confident match (best: Jazz Central Studios, name similarity 0.45)'
-  id: fa49a4f1b149
+  id: 4e24195ccc9d
 - date: '2026-11-09'
   raw: November 9-14, 2023
   venue_name: '14'

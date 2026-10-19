@@ -74,11 +74,11 @@ provenance:
   - https://www.travelportland.com/events/tba/
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: e70752e76c24ff98
+  last_crawled: '2026-10-19'
+  last_content_hash: 63179be8bd0aab7b
   crawl_http_status: 200
 notes: Nonprofit contemporary-arts org; its TBA Festival is a significant platform for experimental
   music within a multidisciplinary program.

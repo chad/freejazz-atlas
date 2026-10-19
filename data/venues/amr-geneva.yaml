@@ -70,11 +70,11 @@ provenance:
   - https://www.amr-geneve.ch/lamr-en-bref
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: f9a2bb73834f9fcb
+  last_crawled: '2026-10-19'
+  last_content_hash: 76b93d53c0a0f527
   crawl_http_status: 200
 notes: Geneva's musician-run association for jazz and improvised music since 1973, running
   the Sud des Alpes club (200+ evenings/year).

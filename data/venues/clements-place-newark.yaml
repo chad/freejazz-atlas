@@ -68,11 +68,11 @@ provenance:
   - https://www.newark.rutgers.edu/event/jazz-jam-sessions-clements-place-presented-institute-jazz-studies-and-njpac-0
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-09-14'
-  last_content_hash: 4e6323e2ec517ef6
+  last_crawled: '2026-10-19'
+  last_content_hash: e6f9808b7aeead0c
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: real, active jazz venue but leans straight-ahead jazz/jam sessions;
   confirm how much genuine free/creative improv it programs.'

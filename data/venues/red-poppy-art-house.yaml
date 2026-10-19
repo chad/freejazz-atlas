@@ -69,12 +69,12 @@ provenance:
   - https://missionlocal.org/venue/red-poppy-art-house/
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
     final_url: https://redpoppyarthouse.org/
-  last_crawled: '2026-10-12'
-  last_content_hash: 2a455a3cc91796eb
+  last_crawled: '2026-10-19'
+  last_content_hash: d3a58badd8ef664b
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: intimate Mission arts house with broad multidisciplinary program; confirm
   current cadence of improvised/experimental music specifically.'

@@ -75,11 +75,11 @@ provenance:
   - https://www.birminghamtimes.com/2025/11/inside-a-few-of-birmingham-areas-most-acclaimed-jazz-venues/
   needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: a7bb41e026652194
+  last_crawled: '2026-10-19'
+  last_content_hash: e3bd95d6472b18c9
   crawl_http_status: 200
 notes: Birmingham nonprofit arts co-op in the historic East Lake Theater; hosts the annual
   Sun Ra Festival (Sun Ra was born in Birmingham) and an avant-garde jazz program.

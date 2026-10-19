@@ -64,13 +64,13 @@ provenance:
   source_urls:
   - https://elephantroom.com/
   - https://thedailytexan.com/2023/11/15/austins-jazz-map/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-10-12'
+    checked: '2026-10-19'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: fd6ae42075a64cd6
+  last_crawled: '2026-10-19'
+  last_content_hash: 6614920237a4b890
   crawl_http_status: 200
 notes: Downtown basement jazz club; strong listening room but predominantly straight-ahead
   jazz, so an occasional home for adventurous playing at best.
