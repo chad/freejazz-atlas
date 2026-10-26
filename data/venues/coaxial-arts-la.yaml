@@ -68,10 +68,9 @@ provenance:
   - https://hyperallergic.com/a-los-angeles-residency-envisions-a-radical-future-for-experimental-art/
   needs_human_review: false
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-    detail: reachable only with TLS verification disabled
   last_crawled: '2026-10-19'
   last_content_hash: 58014384cc6a9b22
   crawl_http_status: 200

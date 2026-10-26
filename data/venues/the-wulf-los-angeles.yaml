@@ -67,12 +67,11 @@ provenance:
   - https://experimentalmusicyearbook.com/filter/the-wulf.
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-    final_url: https://www.DropCatch.com/domain/thewulf.org
-  last_crawled: '2026-10-19'
-  last_content_hash: f0dc3ce0634662f7
+  last_crawled: '2026-10-26'
+  last_content_hash: 62219a73ff7f8ae0
   crawl_http_status: 200
   last_crawl_error: 'HTTPSConnectionPool(host=''www.thewulf.org'', port=443): Max retries
     exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''www.thewulf.org'',

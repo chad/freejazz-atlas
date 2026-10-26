@@ -68,11 +68,11 @@ provenance:
   - https://www.thisiscleveland.com/locations/bop-stop-@-the-music-settlement
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: 4b76cbd968ff2f6a
+  last_crawled: '2026-10-26'
+  last_content_hash: 5f7f851e3dfcd1d2
   crawl_http_status: 200
 notes: Nonprofit Cleveland listening room; strong jazz program with a meaningful creative-music
   share (score reflects mainstream-leaning calendar).

@@ -66,11 +66,11 @@ provenance:
   - https://www.oldtownmpls.com/business-directory-blog/jazzcentralstudios
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: 0fbac389e93ec035
+  last_crawled: '2026-10-26'
+  last_content_hash: 05a6acba920237be
   crawl_http_status: 200
 notes: Nonprofit Minneapolis jazz room; dedicated to jazz and improvised music though much
   of the calendar is straight-ahead.

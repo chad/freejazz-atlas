@@ -48,10 +48,10 @@ provenance:
     why: record had no website; official site verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: e2861de0c648bf29
+  last_crawled: '2026-10-26'
+  last_content_hash: 4d63be8f9bbf2f7c
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: not re-verified this session.'

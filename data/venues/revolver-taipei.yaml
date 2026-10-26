@@ -69,14 +69,13 @@ provenance:
   - https://ra.co/events/2015230
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
-    status: unreachable
-    detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
-  last_crawled: '2026-10-19'
+    checked: '2026-10-26'
+    status: ok
+    http: 200
+  last_crawled: '2026-10-26'
   last_content_hash: 20c920fede44409b
   crawl_http_status: 200
-  last_crawl_error: 'HTTPSConnectionPool(host=''www.revolver.tw'', port=443): Max retries
-    exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host=''www.revolver.tw'',
-    port=443): Failed to resolve ''www.revolv'
+  last_crawl_error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection
+    without response'))
 notes: Taipei bar/live venue (est. 2010); primarily punk/rock but a recurring host for experimental
   and noise nights. Free/avant is occasional, not the core.

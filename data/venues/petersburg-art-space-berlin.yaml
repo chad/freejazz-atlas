@@ -67,11 +67,11 @@ provenance:
   - https://field-notes.berlin/en/node/11544
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: 702fcdb936e878d1
+  last_crawled: '2026-10-26'
+  last_content_hash: a39de0038c1719f0
   crawl_http_status: 200
 notes: Moabit artist-run venue/residency focused on improvised music and free jazz, founded
   2017.

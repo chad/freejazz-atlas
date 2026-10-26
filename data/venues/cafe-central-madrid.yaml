@@ -65,11 +65,11 @@ provenance:
   - https://www.esmadrid.com/en/nightlife/cafe-central
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: 027ece93a395411a
+  last_crawled: '2026-10-26'
+  last_content_hash: 758882e6711296ed
   crawl_http_status: 200
 notes: Historic Madrid jazz club, relocated to the Ateneo de Madrid in 2026; mostly mainstream
   jazz - supportive rather than a free/improv venue.

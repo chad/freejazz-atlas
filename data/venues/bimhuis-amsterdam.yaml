@@ -70,11 +70,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Bimhuis
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: b5df71116b11c360
+  last_crawled: '2026-10-26'
+  last_content_hash: a9e1f29952f94f97
   crawl_http_status: 200
 notes: Flagship Dutch home of jazz and improvised music since 1974; programs some straighter
   jazz alongside deep improv.

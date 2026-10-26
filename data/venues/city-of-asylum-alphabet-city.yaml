@@ -71,11 +71,11 @@ provenance:
   - https://www.wzum.org/wzum-in-the-community/2025/5/jazz-poetry-month-at-city-of-asylum-alphabet-city-north-side-p5hbd
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: 17fbd9a45c1129fd
+  last_crawled: '2026-10-26'
+  last_content_hash: 06767a566414b61f
   crawl_http_status: 200
 notes: Nonprofit literary + jazz venue on Pittsburgh's North Side; improvised music appears
   mainly through Jazz Poetry and Thursday jazz, within a broader literary program.

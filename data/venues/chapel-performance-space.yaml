@@ -71,10 +71,10 @@ provenance:
   - https://www.nseq.org/
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: f2aa571be8900b00
+  last_crawled: '2026-10-26'
+  last_content_hash: f8130313485f60e4
   crawl_http_status: 200
 notes: Wayward Music Series presented by Nonsequitur and partner organizations.

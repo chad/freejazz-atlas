@@ -70,11 +70,11 @@ provenance:
   - https://wexarts.org/explore/performing-arts
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: ef12a27bb9949bb5
+  last_crawled: '2026-10-26'
+  last_content_hash: 9daafd67a6966e4a
   crawl_http_status: 200
 notes: Major university contemporary arts center; experimental/improvised music is a recurring
   but partial slice of its wider program.

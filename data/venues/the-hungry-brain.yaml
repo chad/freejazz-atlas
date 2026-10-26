@@ -49,11 +49,11 @@ provenance:
     why: record had no website; official site verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: blocked
     http: 403
     detail: HTTP 403
-  last_crawled: '2026-10-19'
+  last_crawled: '2026-10-26'
   last_content_hash: 6fb2e71c99458012
   crawl_http_status: 403
 notes: 'NEEDS REVIEW: confirm the current status/cadence of the Sunday improvised series.'

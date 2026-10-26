@@ -1,7 +1,7 @@
 artist_id: damon-smith
 artist_name: Damon Smith
 source_url: http://damonmarcsmith.com
-scraped_on: '2026-10-19'
+scraped_on: '2026-10-26'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -250,7 +250,7 @@ events:
   match_score: 0.5
   match_note: 'no confident match (best: La Dynamo de Banlieues Bleues, name similarity 0.50)'
   id: a2af3a32f409
-- date: '2026-07-25'
+- date: '2027-07-25'
   raw: July 25th - Moondog Wild West World ​ ​
   venue_name: Moondog Wild West World ​ ​
   city: ''
@@ -264,7 +264,7 @@ events:
   venue_id: null
   match_score: 0.4
   match_note: 'no confident match (best: AMR - Sud des Alpes, name similarity 0.40)'
-  id: c33753861b02
+  id: ad2c03ffe8c5
 - date: '2027-04-04'
   raw: April 4 - Hume Blues Club , Thornbury VIC
   venue_name: Hume Blues Club
@@ -393,7 +393,7 @@ events:
   match_note: 'no confident match (best: The Volstead Lounge, name similarity 0.39; city differs
     (Footscray VIC vs Austin))'
   id: b5f7dde69a51
-- date: '2026-07-21'
+- date: '2027-07-21'
   raw: July 21rd - 1-3 pm Brunswick Ballroom , Brunswick VIC
   venue_name: 1-3 pm Brunswick Ballroom
   city: Brunswick VIC
@@ -408,7 +408,7 @@ events:
   match_score: 0.267
   match_note: 'no confident match (best: Adobe Books Backroom Gallery, name similarity 0.44;
     city differs (Brunswick VIC vs San Francisco))'
-  id: d37912007450
+  id: 3343440a4739
 - date: '2026-08-31'
   raw: August 31st - Moon Dog Wild West ​ , Footscray VIC
   venue_name: Moon Dog Wild West ​
@@ -616,7 +616,7 @@ events:
   match_note: 'no confident match (best: The Volstead Lounge, name similarity 0.39; city differs
     (Footscray VIC vs Austin))'
   id: b5f7dde69a51
-- date: '2026-07-21'
+- date: '2027-07-21'
   raw: July 21rd - 1-3 pm Brunswick Ballroom , Brunswick VIC
   venue_name: 1-3 pm Brunswick Ballroom
   city: Brunswick VIC
@@ -631,7 +631,7 @@ events:
   match_score: 0.267
   match_note: 'no confident match (best: Adobe Books Backroom Gallery, name similarity 0.44;
     city differs (Brunswick VIC vs San Francisco))'
-  id: d37912007450
+  id: 3343440a4739
 - date: '2026-08-31'
   raw: August 31st - Moon Dog Wild West ​ , Footscray VIC
   venue_name: Moon Dog Wild West ​

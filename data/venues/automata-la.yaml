@@ -70,10 +70,10 @@ provenance:
   - https://wilhelmfamilyfoundation.org/grantee/automata-arts/
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: unreachable
     detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
-  last_crawled: '2026-10-19'
+  last_crawled: '2026-10-26'
   last_content_hash: c76feef76d9b7894
   crawl_http_status: 404
   last_crawl_error: 'HTTPConnectionPool(host=''www.automata-la.org'', port=80): Max retries

@@ -73,11 +73,11 @@ provenance:
   - https://www.tokyoartbeat.com/en/venues/-/75F14492
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: 23176d0a2120b29d
+  last_crawled: '2026-10-26'
+  last_content_hash: f4d48200e44bd772
   crawl_http_status: 200
 notes: Flagship experimental/onkyo space and record shop in Suidobashi; successor to the Improvised
   Music From Japan project run by Yasuhiro Suzuki.

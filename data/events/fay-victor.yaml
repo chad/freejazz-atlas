@@ -1,7 +1,7 @@
 artist_id: fay-victor
 artist_name: Fay Victor
 source_url: https://www.fayvictor.com/shows/
-scraped_on: '2026-10-19'
+scraped_on: '2026-10-26'
 method: jsonld
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -100,22 +100,3 @@ events:
   match_score: 0.4
   match_note: 'no confident match (best: IKLECTIK, name similarity 0.25; city matches (London))'
   id: dae07a4e4b73
-- date: '2026-10-20'
-  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "Cortona Jazz Festival/teaching
-    and performing", "startDate": "2026-10-20T19:00:00+00:00", "description": "Heading to
-    Cortona, Italy from October 19 - 25 to work and perform at the Cortona Jazz Festival.  I
-    am excited to work with stud'
-  venue_name: Cortona Jazz Festival
-  city: Cortona
-  region: ''
-  country: Italy
-  lineup: Cortona Jazz Festival/teaching and performing
-  source_url: https://www.fayvictor.com/shows/
-  artist_id: fay-victor
-  method: jsonld
-  year_inferred: false
-  venue_id: null
-  match_score: 0.457
-  match_note: 'no confident match (best: Earshot Jazz, name similarity 0.76; city differs
-    (Cortona vs Seattle))'
-  id: 5d8254facff3

@@ -68,11 +68,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Experimental_Media_and_Performing_Arts_Center
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
-    status: unreachable
-    detail: 'URLError: <urlopen error timed out>'
-  last_crawled: '2026-10-19'
-  last_content_hash: e8bff2a3f71cbc53
+    checked: '2026-10-26'
+    status: ok
+    http: 200
+  last_crawled: '2026-10-26'
+  last_content_hash: c9ee9696aa631350
   crawl_http_status: 200
   last_crawl_error: 'HTTPSConnectionPool(host=''empac.rpi.edu'', port=443): Max retries exceeded
     with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host=''empac.rpi.edu'', port=443)

@@ -68,10 +68,10 @@ provenance:
   - https://www.timeout.com/london/music/sjq
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: unreachable
     detail: 'URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>'
-  last_crawled: '2026-10-19'
+  last_crawled: '2026-10-26'
   last_content_hash: 267c1fde1670f14c
   crawl_http_status: 200
   last_crawl_error: 'HTTPConnectionPool(host=''servantjazzquarters.com'', port=80): Max retries

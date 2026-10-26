@@ -67,11 +67,11 @@ provenance:
   - https://www.nseq.org/concerts/33rd-seattle-improvised-music-festival/
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 741303eb0918d3d1
+  last_crawled: '2026-10-26'
+  last_content_hash: 3510346469dd9ceb
   crawl_http_status: 200
 notes: Annual free-improvisation festival, founded 1986 by Paul Hoskin. Coordinates are Seattle
   city-center; the festival moves between partner venues.

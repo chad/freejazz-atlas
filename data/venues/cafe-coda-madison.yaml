@@ -68,11 +68,11 @@ provenance:
   - https://madison365.com/hanah-john-taylor-brings-jazz-back-downtown-new-cafe-coda/
   needs_human_review: true
   link_check:
-    checked: '2026-10-19'
+    checked: '2026-10-26'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: d0729d905e37eb38
+  last_crawled: '2026-10-26'
+  last_content_hash: 1a765728c2116532
   crawl_http_status: 200
 notes: Owner Hanah Jon Taylor's AACM roots give the club a creative-music lean; programming
   spans straight-ahead and improvised jazz.
