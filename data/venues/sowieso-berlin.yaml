@@ -68,11 +68,11 @@ provenance:
   - https://field-notes.berlin/en/resources/scene/sowieso
   needs_human_review: true
   link_check:
-    checked: '2026-10-26'
+    checked: '2026-11-02'
     status: ok
     http: 200
-  last_crawled: '2026-10-26'
-  last_content_hash: 34adf7e872249917
+  last_crawled: '2026-11-02'
+  last_content_hash: 23872cee0b3cdf2c
   crawl_http_status: 200
 notes: Neukölln free-jazz/improv institution since 2008, now run by musician collective WieMusik
   e.V.

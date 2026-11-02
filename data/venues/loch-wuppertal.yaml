@@ -67,11 +67,11 @@ provenance:
   - https://avanzert.com/venue/loch-wuppertal/
   needs_human_review: true
   link_check:
-    checked: '2026-10-26'
+    checked: '2026-11-02'
     status: ok
     http: 200
-  last_crawled: '2026-10-26'
-  last_content_hash: 515ef0a576293d27
+  last_crawled: '2026-11-02'
+  last_content_hash: 1dcb00d8a7d26752
   crawl_http_status: 200
 notes: Interdisciplinary Wuppertal sociocultural space; free-improv/experimental music is
   part of a broad program. Share of improvised programming not fully verified.

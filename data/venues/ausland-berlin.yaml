@@ -68,10 +68,10 @@ provenance:
   - https://berlinsessions.org/spaces-for-experimental-music/
   needs_human_review: true
   link_check:
-    checked: '2026-10-26'
+    checked: '2026-11-02'
     status: ok
     http: 200
-  last_crawled: '2026-10-26'
-  last_content_hash: 58f7d817a9b6815c
+  last_crawled: '2026-11-02'
+  last_content_hash: 5773ffc783c25f83
   crawl_http_status: 200
 notes: Volunteer-run basement laboratory for experimental sound in Prenzlauer Berg since 2002.

@@ -71,11 +71,11 @@ provenance:
   - https://www.publicspaceone.com/visit
   needs_human_review: true
   link_check:
-    checked: '2026-10-26'
+    checked: '2026-11-02'
     status: ok
     http: 200
-  last_crawled: '2026-10-26'
-  last_content_hash: 283477d4e7c6ebda
+  last_crawled: '2026-11-02'
+  last_content_hash: a05dc9a8e6e2661c
   crawl_http_status: 200
   alias_sources:
   - 'on': '2026-08-17'

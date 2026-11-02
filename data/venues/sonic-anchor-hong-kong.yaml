@@ -70,11 +70,11 @@ provenance:
   - https://www.cambridge.org/core/journals/organised-sound/article/abs/charting-the-scenes-of-sonic-arts-in-hong-kong/D8B3FC2416F29AAB9F165DB85912896F
   needs_human_review: true
   link_check:
-    checked: '2026-10-26'
+    checked: '2026-11-02'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: cccba9bd2d68a5b3
+  last_crawled: '2026-11-02'
+  last_content_hash: 5f6fcf4a1a840ae4
   crawl_http_status: 200
 notes: A concert series/presenter (not a fixed independent venue) based at the Hong Kong Arts
   Centre; the leading platform for experimental/sound-art music in Hong Kong since 2012.

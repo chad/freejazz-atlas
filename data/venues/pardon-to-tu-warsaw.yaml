@@ -68,10 +68,10 @@ provenance:
   - https://www.jazznearyou.com/warsaw/venue/pardon-to-tu
   needs_human_review: true
   link_check:
-    checked: '2026-10-26'
+    checked: '2026-11-02'
     status: ok
     http: 200
-  last_crawled: '2026-10-26'
-  last_content_hash: a28cc43b2e5c2989
+  last_crawled: '2026-11-02'
+  last_content_hash: 5eb704e2813ef7c6
   crawl_http_status: 200
 notes: Warsaw's leading avant-garde jazz and improvised music venue.
