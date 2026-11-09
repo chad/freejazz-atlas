@@ -66,11 +66,11 @@ provenance:
   - https://thedailytexan.com/2023/11/15/austins-jazz-map/
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-10-19'
-  last_content_hash: 6614920237a4b890
+  last_crawled: '2026-11-09'
+  last_content_hash: f47584626d4810da
   crawl_http_status: 200
 notes: Downtown basement jazz club; strong listening room but predominantly straight-ahead
   jazz, so an occasional home for adventurous playing at best.

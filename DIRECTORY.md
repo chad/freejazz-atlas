@@ -1,6 +1,6 @@
 # Avant Atlas — Directory
 
-_Generated 2026-11-02 · 263 venues · 185 musicians_
+_Generated 2026-11-09 · 263 venues · 185 musicians_
 
 Scores (0-100) measure **commitment** to free jazz / free improvisation / avant-garde music. See [docs/RUBRIC.md](docs/RUBRIC.md).
 

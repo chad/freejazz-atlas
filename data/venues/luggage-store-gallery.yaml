@@ -73,11 +73,11 @@ provenance:
     why: old domain luggagestoregallerysf.org no longer resolves; current site verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 73308b728f556ddd
+  last_crawled: '2026-11-09'
+  last_content_hash: dff573abfa6fc7e2
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: the weekly LSG New Music Series was retired Dec 2024; a twice-monthly
   Creative Music Series is reported to continue. Confirm current cadence.'

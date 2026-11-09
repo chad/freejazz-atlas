@@ -68,11 +68,11 @@ provenance:
   - https://sc.edu/uofsc/announcements/2015/experimental_music_concerts.php
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-10-05'
-  last_content_hash: 1be71f33ea0934c2
+  last_crawled: '2026-11-09'
+  last_content_hash: efa266ef744272ae
   crawl_http_status: 200
 notes: University new-music series in Columbia SC. Strong on contemporary/experimental composition;
   free improvisation is present but not the primary focus (which caps the roster signal).

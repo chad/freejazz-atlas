@@ -65,11 +65,11 @@ provenance:
   - https://www.thewire.co.uk/audio/tracks/listen_performances-at-the-mayhem-venue
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 8e6a7c21217092b5
+  last_crawled: '2026-11-09'
+  last_content_hash: ad615cf66b8c0c45
   crawl_http_status: 200
 notes: Volunteer-run extreme/experimental music venue on Copenhagen's outskirts; free jazz
   plus annual Jazzfest and Noisefest. Address/coords approximate.

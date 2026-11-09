@@ -69,11 +69,11 @@ provenance:
   - https://do303.com/venues/understudy
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 34fcb2904e10c17a
+  last_crawled: '2026-11-09'
+  last_content_hash: 6e2f0c0814613eae
   crawl_http_status: 200
 notes: Experimental art space in the Colorado Convention Center. Music is one part of a multidisciplinary
   program; frequency/current music focus needs confirmation.

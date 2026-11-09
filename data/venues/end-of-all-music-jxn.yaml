@@ -68,10 +68,9 @@ provenance:
   - https://www.visitjackson.com/directory/the-end-of-all-music-jxn/
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
-    status: blocked
-    http: 429
-    detail: HTTP 429
+    checked: '2026-11-09'
+    status: ok
+    http: 200
   last_crawled: '2026-11-02'
   last_content_hash: dd15130d03b2d95e
   crawl_http_status: 200

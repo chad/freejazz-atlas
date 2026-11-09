@@ -68,11 +68,11 @@ provenance:
   - https://www.europejazz.net/club/jazz-musicclub-porgy-bess
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 29dbba8508904383
+  last_crawled: '2026-11-09'
+  last_content_hash: 7c45322b18c848da
   crawl_http_status: 200
 notes: Vienna's flagship jazz club; pluralistic program with a strong experimental/improvised
   strand and dedicated experimental room.

@@ -69,11 +69,11 @@ provenance:
   - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 4ebae1e1642303e0
+  last_crawled: '2026-11-09'
+  last_content_hash: 6f3f30eb65aedd6e
   crawl_http_status: 200
 notes: Nonprofit Oak Cliff arts center in a converted church; hosts experimental/improvised
   interdisciplinary work. Regularity of dedicated improv programming not fully verified.

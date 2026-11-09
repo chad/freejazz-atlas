@@ -74,11 +74,11 @@ provenance:
     why: wejazzrecords.com no longer resolves; wejazz.fi verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: bb5965e816678361
+  last_crawled: '2026-11-09'
+  last_content_hash: f1601e03bf5e1898
   crawl_http_status: 200
 notes: Collective/festival/label rather than a fixed room; runs the We Jazz Festival and year-round
   club nights across Helsinki. Coordinates are Kallio (label base) approximate.

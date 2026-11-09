@@ -69,11 +69,11 @@ provenance:
   - https://www.starandshadow.org.uk/about/sas/
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 4187feb0163dda8f
+  last_crawled: '2026-11-09'
+  last_content_hash: 9c722aea1e5a1ad3
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: DIY volunteer co-op with broad programming; experimental/improv music
   is one strand. Confirm current cadence.'

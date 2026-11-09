@@ -1,7 +1,7 @@
 artist_id: fay-victor
 artist_name: Fay Victor
 source_url: https://www.fayvictor.com/shows/
-scraped_on: '2026-11-02'
+scraped_on: '2026-11-09'
 method: jsonld
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -63,23 +63,3 @@ events:
   match_score: 0.51
   match_note: 'no confident match (best: Angelo Mai, name similarity 0.36; city matches (Rome))'
   id: 456d49d8c78b
-- date: '2026-11-06'
-  raw: '{"@context": "http://schema.org", "@type": "MusicEvent", "name": "411 Residency: Fay
-    Victor''s Black Sonic Space - Tree Trini Collective (Transatlantik Festival)", "startDate":
-    "2026-11-06T20:00:00+00:00", "description": "First performance of my residency with 411.
-    The Tree Trini Collective is having'
-  venue_name: Public Records
-  city: Brooklyn
-  region: NY
-  country: USA
-  lineup: '411 Residency: Fay Victor''s Black Sonic Space - Tree Trini Collective (Transatlantik
-    Festival)'
-  source_url: https://www.fayvictor.com/shows/
-  artist_id: fay-victor
-  method: jsonld
-  year_inferred: false
-  venue_id: null
-  match_score: 0.45
-  match_note: 'no confident match (best: Public Space One, name similarity 0.75; city differs
-    (Brooklyn vs Iowa City))'
-  id: 06473a184a65

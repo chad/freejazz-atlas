@@ -70,11 +70,11 @@ provenance:
   - https://www.europejazz.net/venues/birds-eye-jazz-club
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: f6ff2b2c2de0ed28
+  last_crawled: '2026-11-09'
+  last_content_hash: 6e81cc62e5e5b836
   crawl_http_status: 200
 notes: Acclaimed Basel jazz club with excellent acoustics; free/experimental music is a recurring
   but secondary strand.

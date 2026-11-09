@@ -69,11 +69,11 @@ provenance:
   - https://www.europejazz.net/festival/krakow-jazz-autumn
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: e43ccdc4c7a112a9
+  last_crawled: '2026-11-09'
+  last_content_hash: 827c7f30dafd69ea
   crawl_http_status: 200
 notes: Kazimierz club at the center of Krakow's improvised-music scene; home of Krakow Jazz
   Autumn.

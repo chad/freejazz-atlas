@@ -71,11 +71,11 @@ provenance:
   - https://neoblog.mx3.ch/index.php/2023/09/02/deutsch-kunstraum-walcheturm-der-unmoegliche-raum-mitten-in-zuerich/
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: cc09ed123431a87c
+  last_crawled: '2026-11-09'
+  last_content_hash: 7dbcfd0f867e67f3
   crawl_http_status: 200
 notes: Zurich's central artist-run venue for free improvisation, new music, noise and sound
   art; hosts Taktlos Zürich.

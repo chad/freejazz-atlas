@@ -71,10 +71,10 @@ provenance:
   - https://en.wikipedia.org/wiki/Cafe_Oto
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 0abdb8eead47fcb3
+  last_crawled: '2026-11-09'
+  last_content_hash: 8e63b82014b81a22
   crawl_http_status: 200
 notes: 'Flagship UK experimental/improv venue in Dalston. ANCHOR: calibrated as a high cornerstone.'

@@ -68,11 +68,11 @@ provenance:
   - https://www.moers-festival.de/en/program/
   needs_human_review: true
   link_check:
-    checked: '2026-11-02'
+    checked: '2026-11-09'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: d2411770d6f58db8
+  last_crawled: '2026-11-09'
+  last_content_hash: ecd6326ea2b82e5a
   crawl_http_status: 200
 notes: Historic annual Whitsun festival for free and improvised music, running since 1972;
   55th edition in 2026.
