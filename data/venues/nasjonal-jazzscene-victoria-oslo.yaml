@@ -68,10 +68,10 @@ provenance:
   - https://www.visitoslo.com/en/product/?tlp=2981393&name=Nasjonal-jazzscene--Victoria
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: ad5593b5f1858600
+  last_crawled: '2026-11-16'
+  last_content_hash: 9bc6edc23ea71f70
   crawl_http_status: 200
 notes: National jazz stage; mostly modern jazz with programming that reaches to free improvisation.

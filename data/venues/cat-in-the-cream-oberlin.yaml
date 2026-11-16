@@ -67,11 +67,11 @@ provenance:
   - https://timara.oberlin.edu/recap-oberlin-improv-fest-2023-1657/
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 02b910c0fee2b462
+  last_crawled: '2026-11-16'
+  last_content_hash: 6b64313468c0dfc7
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: Oberlin coffeehouse tied to the Jazz Forum, TIMARA and Oberlin Improv
   Fest; academic-calendar-driven, largely student programming. Coordinates approximate to

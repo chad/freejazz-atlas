@@ -68,10 +68,10 @@ provenance:
   - https://www.wbur.org/news/2026/04/20/non-event-25-years-experimental-music-boston
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 115919b3a301f7af
+  last_crawled: '2026-11-16'
+  last_content_hash: cf903727ee75939e
   crawl_http_status: 200
 notes: Itinerant nonprofit presenter (no fixed venue); coordinates set to Boston city center.

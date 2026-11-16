@@ -67,10 +67,10 @@ provenance:
   - https://en.wikipedia.org/wiki/High_Zero
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: d92dc3be6ae7201c
+  last_crawled: '2026-11-16'
+  last_content_hash: 3eff6323f0d3fd6c
   crawl_http_status: 200
 notes: Runs inside Normals Books & Records; sibling to the High Zero festival.

@@ -68,11 +68,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Band_on_the_Wall
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: db4f11a7bd79ac09
+  last_crawled: '2026-11-16'
+  last_content_hash: a209cb1a5a3aa556
   crawl_http_status: 200
 notes: Charity-run Manchester venue; adventurous/experimental jazz is a real strand within
   a broad world-music program.

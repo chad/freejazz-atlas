@@ -65,11 +65,11 @@ provenance:
   - https://hcp.pt/
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-02'
-  last_content_hash: 58e9bdcd878a50ab
+  last_crawled: '2026-11-16'
+  last_content_hash: 7198c317f48300ac
   crawl_http_status: 200
 notes: Historic Lisbon jazz club; mostly straight-ahead jazz with occasional adventurous programming
   - supportive rather than a free/improv cornerstone.

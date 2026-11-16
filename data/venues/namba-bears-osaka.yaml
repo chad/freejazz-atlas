@@ -70,13 +70,13 @@ provenance:
   - https://www.timeout.com/osaka/music/namba-bears
   - https://www.fredperry.com/us/subculture/articles/namba-bears-osaka
   - https://www.osaka.com/culture/osakas-best-live-music-venues-underground-scene-guide/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: e7a481190043876a
+  last_crawled: '2026-11-16'
+  last_content_hash: aa278ddf84437059
   crawl_http_status: 200
 notes: DIY experimental/noise/free-form live house in Namba (est. 1986), founded by Seiichi
   Yamamoto of Boredoms.

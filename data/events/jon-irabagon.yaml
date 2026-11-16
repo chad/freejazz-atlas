@@ -1,252 +1,12 @@
 artist_id: jon-irabagon
 artist_name: Jon Irabagon
 source_url: http://jonirabagon.com/tour
-scraped_on: '2026-10-12'
+scraped_on: '2026-11-16'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
   records why.'
 events:
-- date: '2026-10-13'
-  raw: 'October 13, 2026: Peter Brendler Quartet, Ornithology, Brooklyn, NY'
-  venue_name: Peter Brendler Quartet
-  city: Brooklyn
-  region: NY
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.483
-  match_note: 'no confident match (best: Roulette Intermedium, name similarity 0.33; city
-    matches (Brooklyn))'
-  id: 7493b1bca376
-- date: '2026-11-01'
-  raw: 'November 1, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: a93eb9ef6d62
-- date: '2026-11-02'
-  raw: 'November 2, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 7c97f4b288f5
-- date: '2026-11-03'
-  raw: 'November 3, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 0acf52dd9a59
-- date: '2026-11-04'
-  raw: 'November 4, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 851f1ad855f2
-- date: '2026-11-05'
-  raw: 'November 5, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: cecf0f23b85c
-- date: '2026-11-06'
-  raw: 'November 6, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: ecea06f095f7
-- date: '2026-11-07'
-  raw: 'November 7, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 4846d29ea237
-- date: '2026-11-08'
-  raw: 'November 8, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: aa8a39c98ca0
-- date: '2026-11-09'
-  raw: 'November 9, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 05f6a5d37ec9
-- date: '2026-11-10'
-  raw: 'November 10, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 71b69a4c9887
-- date: '2026-11-11'
-  raw: 'November 11, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 66594130ad89
-- date: '2026-11-12'
-  raw: 'November 12, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: ba6ab33dd7b9
-- date: '2026-11-13'
-  raw: 'November 13, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: 7f71e9db45d6
-- date: '2026-11-14'
-  raw: 'November 14, 2026: Patricia Brennan Septet European Tour, TBA'
-  venue_name: Patricia Brennan Septet European Tour
-  city: TBA
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.22
-  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
-    (TBA vs Warsaw))'
-  id: a3122c84f2a0
 - date: '2026-11-29'
   raw: 'November 29, 2026: Mai Sugimoto Saxophone Quartet, May Chapel, Chicago, IL'
   venue_name: Mai Sugimoto Saxophone Quartet
@@ -382,6 +142,246 @@ events:
   match_note: 'no confident match (best: Mills College Center for Contemporary Music, name
     similarity 0.28; city differs (TBA vs Oakland))'
   id: 19420ff06a6e
+- date: '2026-11-14'
+  raw: 'November 14, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: a3122c84f2a0
+- date: '2026-11-13'
+  raw: 'November 13, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 7f71e9db45d6
+- date: '2026-11-12'
+  raw: 'November 12, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: ba6ab33dd7b9
+- date: '2026-11-11'
+  raw: 'November 11, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 66594130ad89
+- date: '2026-11-10'
+  raw: 'November 10, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 71b69a4c9887
+- date: '2026-11-09'
+  raw: 'November 9, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 05f6a5d37ec9
+- date: '2026-11-08'
+  raw: 'November 8, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: aa8a39c98ca0
+- date: '2026-11-07'
+  raw: 'November 7, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 4846d29ea237
+- date: '2026-11-06'
+  raw: 'November 6, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: ecea06f095f7
+- date: '2026-11-05'
+  raw: 'November 5, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: cecf0f23b85c
+- date: '2026-11-04'
+  raw: 'November 4, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 851f1ad855f2
+- date: '2026-11-03'
+  raw: 'November 3, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 0acf52dd9a59
+- date: '2026-11-02'
+  raw: 'November 2, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: 7c97f4b288f5
+- date: '2026-11-01'
+  raw: 'November 1, 2026: Patricia Brennan Septet European Tour, TBA'
+  venue_name: Patricia Brennan Septet European Tour
+  city: TBA
+  region: ''
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.22
+  match_note: 'no confident match (best: Pardon, To Tu, name similarity 0.37; city differs
+    (TBA vs Warsaw))'
+  id: a93eb9ef6d62
+- date: '2026-10-13'
+  raw: 'October 13, 2026: Peter Brendler Quartet, Ornithology, Brooklyn, NY'
+  venue_name: Peter Brendler Quartet
+  city: Brooklyn
+  region: NY
+  country: ''
+  lineup: ''
+  source_url: http://jonirabagon.com/tour
+  artist_id: jon-irabagon
+  method: text
+  year_inferred: false
+  venue_id: null
+  match_score: 0.483
+  match_note: 'no confident match (best: Roulette Intermedium, name similarity 0.33; city
+    matches (Brooklyn))'
+  id: 7493b1bca376
 - date: '2026-10-11'
   raw: 'October 11, 2026: Peter Brendler Quartet, Smalls, New York, NY'
   venue_name: Peter Brendler Quartet
@@ -628,96 +628,3 @@ events:
   match_note: 'no confident match (best: Corbett vs. Dempsey, name similarity 0.27; region
     matches (IL))'
   id: 2aa6f1c7f6de
-- date: '2027-01-24'
-  raw: January 24 - Tim Hagans Quintet, Chile
-  venue_name: Tim Hagans Quintet
-  city: Chile
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: true
-  venue_id: null
-  match_score: 0.267
-  match_note: 'no confident match (best: SIMM Series at the Musicians Union Hall, name similarity
-    0.44; city differs (Chile vs San Francisco))'
-  id: e959b199e997
-- date: '2026-01-08'
-  raw: January 8, 2026 - Patricia Brennan Septet, Pyroclastic Festival, New York, NY
-  venue_name: Patricia Brennan Septet
-  city: New York
-  region: NY
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: false
-  venue_id: null
-  match_score: 0.466
-  match_note: 'no confident match (best: Arthur''s Tavern, name similarity 0.32; city matches
-    (New York))'
-  id: 4815b913bf99
-- date: '2026-12-18'
-  raw: December 18 - Jon Irabagon Residency - Hungry Brain - Chicago, IL
-  venue_name: ''
-  city: Jon Irabagon Residency - Hungry Brain - Chicago
-  region: IL
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: true
-  venue_id: null
-  match_score: 0.0
-  match_note: no venue named in the listing
-  id: d9fd3b630e04
-- date: '2026-12-12'
-  raw: December 12 - Jon Irabagon Solo Bass Saxophone, Giant Jones Brewery, Madison, WI
-  venue_name: Jon Irabagon Solo Bass Saxophone
-  city: Madison
-  region: WI
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: true
-  venue_id: null
-  match_score: 0.376
-  match_note: 'no confident match (best: Arts + Literature Laboratory, name similarity 0.23;
-    city matches (Madison))'
-  id: e44d9a04e4e4
-- date: '2026-12-11'
-  raw: December 11 - Jon Irabagon Residency - Hungry Brain - Chicago, IL
-  venue_name: ''
-  city: Jon Irabagon Residency - Hungry Brain - Chicago
-  region: IL
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: true
-  venue_id: null
-  match_score: 0.0
-  match_note: no venue named in the listing
-  id: 0714ecb233ce
-- date: '2026-12-04'
-  raw: December 4 - Jon Irabagon Residency - Hungry Brain - Chicago, IL
-  venue_name: ''
-  city: Jon Irabagon Residency - Hungry Brain - Chicago
-  region: IL
-  country: ''
-  lineup: ''
-  source_url: http://jonirabagon.com/tour
-  artist_id: jon-irabagon
-  method: text
-  year_inferred: true
-  venue_id: null
-  match_score: 0.0
-  match_note: no venue named in the listing
-  id: c4581eb10af5

@@ -68,11 +68,11 @@ provenance:
   - https://www.vrtxmag.com/articles/creative-music-guild-expert-improvisation-on-display/
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: eacb7534f48eed6a
+  last_crawled: '2026-11-16'
+  last_content_hash: 75db4de5aa0fc2b0
   crawl_http_status: 200
 notes: Portland's cornerstone experimental/improvised-music presenter (no single fixed room;
   uses Turn! Turn! Turn!, Leaven and others). Coordinates are Portland city-center.

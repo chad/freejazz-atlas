@@ -71,7 +71,7 @@ provenance:
   - https://intlanthem.bandcamp.com/album/the-way-out-of-easy
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: skipped
   last_crawled: '2026-11-02'
   last_content_hash: ebacf810388679c7

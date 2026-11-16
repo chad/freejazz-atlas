@@ -65,11 +65,11 @@ provenance:
   - https://en.wikipedia.org/wiki/OT301
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 70e102bae93be53e
+  last_crawled: '2026-11-16'
+  last_content_hash: e1b1de150c3ac4ad
   crawl_http_status: 200
 notes: 'NEEDS REVIEW: artist-run former-squat with broad experimental programming; free/improv
   jazz share uncertain.'

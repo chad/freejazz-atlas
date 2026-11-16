@@ -1,17 +1,32 @@
 artist_id: steve-swell
 artist_name: Steve Swell
 source_url: http://www.steveswell.com/UpcomingPerformances.htm
-scraped_on: '2026-09-21'
+scraped_on: '2026-11-16'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
   records why.'
 events:
 - date: '2026-10-19'
-  raw: October 19--Cafe Oto, London, England
+  raw: October 19--Cafe Oto, London, UK
   venue_name: -Cafe Oto
-  city: England
-  region: ''
+  city: London
+  region: UK
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: cafe-oto-london
+  match_score: 1.0
+  match_note: name similarity 1.00; city matches (London)
+  id: 87718b56fc34
+- date: '2026-10-21'
+  raw: October 21--Central Bar, Newcastle, UK
+  venue_name: -Central Bar
+  city: Newcastle
+  region: UK
   country: ''
   lineup: ''
   source_url: http://www.steveswell.com/UpcomingPerformances.htm
@@ -20,25 +35,9 @@ events:
   year_inferred: true
   venue_id: null
   match_score: 0.6
-  match_note: 'no confident match (best: Cafe OTO, name similarity 1.00; city differs (England
-    vs London))'
-  id: 8ed0759b0a9c
-- date: '2026-10-20'
-  raw: October 20--Cafe Oto, London, England
-  venue_name: -Cafe Oto
-  city: England
-  region: ''
-  country: ''
-  lineup: ''
-  source_url: http://www.steveswell.com/UpcomingPerformances.htm
-  artist_id: steve-swell
-  method: text
-  year_inferred: true
-  venue_id: null
-  match_score: 0.6
-  match_note: 'no confident match (best: Cafe OTO, name similarity 1.00; city differs (England
-    vs London))'
-  id: e0627ad93245
+  match_note: 'no confident match (best: Café Central, name similarity 1.00; city differs
+    (Newcastle vs Madrid))'
+  id: 6337e4138f47
 - date: '2026-10-24'
   raw: October 24--Festival Jazz Jantar, Gdansk, Poland
   venue_name: -Festival Jazz Jantar
@@ -86,10 +85,10 @@ events:
   match_note: name similarity 0.83; city matches (Vienna)
   id: 405cd9c3d281
 - date: '2026-10-28'
-  raw: October 28--Opus Club, Budapest, Hungary
+  raw: October 28--Opus Club, Budapest, HU
   venue_name: -Opus Club
-  city: Hungary
-  region: ''
+  city: Budapest
+  region: HU
   country: ''
   lineup: ''
   source_url: http://www.steveswell.com/UpcomingPerformances.htm
@@ -99,8 +98,8 @@ events:
   venue_id: null
   match_score: 0.343
   match_note: 'no confident match (best: Petersburg Art Space, name similarity 0.57; city
-    differs (Hungary vs Berlin))'
-  id: d79603bf2cc9
+    differs (Budapest vs Berlin))'
+  id: 9dc7de332a51
 - date: '2026-10-29'
   raw: October 29--Mocvara, Zagreb, Croatia
   venue_name: -Mocvara
@@ -117,6 +116,22 @@ events:
   match_note: 'no confident match (best: Arts Mission Oak Cliff, name similarity 0.55; city
     differs (Croatia vs Dallas))'
   id: 30d2b8577606
+- date: '2026-10-30'
+  raw: October 30--Timovo 1912, Ljubljana, SI
+  venue_name: -Timovo 1912
+  city: Ljubljana
+  region: SI
+  country: ''
+  lineup: ''
+  source_url: http://www.steveswell.com/UpcomingPerformances.htm
+  artist_id: steve-swell
+  method: text
+  year_inferred: true
+  venue_id: null
+  match_score: 0.267
+  match_note: 'no confident match (best: cave12, name similarity 0.44; city differs (Ljubljana
+    vs Geneva))'
+  id: e333558a4cb4
 - date: '2026-11-02'
   raw: November 2-- Cafe Wagner, Jena, DE
   venue_name: '- Cafe Wagner'
@@ -150,9 +165,9 @@ events:
     (Poland vs Warsaw))'
   id: bb91fc7e9a7f
 - date: '2026-11-17'
-  raw: November 17--Munster, DE
-  venue_name: ''
-  city: -Munster
+  raw: November 17--Black Box, Munster, DE
+  venue_name: -Black Box
+  city: Munster
   region: DE
   country: ''
   lineup: ''
@@ -161,13 +176,14 @@ events:
   method: text
   year_inferred: true
   venue_id: null
-  match_score: 0.0
-  match_note: no venue named in the listing
-  id: 005c3a07d9c4
+  match_score: 0.316
+  match_note: 'no confident match (best: Public Space One, name similarity 0.53; city differs
+    (Munster vs Iowa City))'
+  id: 0c03843d3681
 - date: '2026-11-18'
-  raw: November 18--Hamburg, DE
-  venue_name: ''
-  city: -Hamburg
+  raw: November 18--fat jazz, Hamburg, DE
+  venue_name: -fat jazz
+  city: Hamburg
   region: DE
   country: ''
   lineup: ''
@@ -176,9 +192,10 @@ events:
   method: text
   year_inferred: true
   venue_id: null
-  match_score: 0.0
-  match_note: no venue named in the listing
-  id: 7baa95abef3c
+  match_score: 0.42
+  match_note: 'no confident match (best: Earshot Jazz, name similarity 0.70; city differs
+    (Hamburg vs Seattle))'
+  id: 9ce570f943c5
 - date: '2026-11-19'
   raw: November 19--Westerstede, DE
   venue_name: ''
@@ -195,9 +212,9 @@ events:
   match_note: no venue named in the listing
   id: 1a330d6276ab
 - date: '2026-11-21'
-  raw: November 21--Stuttgart, DE
-  venue_name: ''
-  city: -Stuttgart
+  raw: November 21--Stromraum, Stuttgart, DE
+  venue_name: -Stromraum
+  city: Stuttgart
   region: DE
   country: ''
   lineup: ''
@@ -206,13 +223,14 @@ events:
   method: text
   year_inferred: true
   venue_id: null
-  match_score: 0.0
-  match_note: no venue named in the listing
-  id: 0d42049a5949
+  match_score: 0.282
+  match_note: 'no confident match (best: Automata, name similarity 0.47; city differs (Stuttgart
+    vs Los Angeles))'
+  id: 2e367194fdcc
 - date: '2026-11-22'
-  raw: November 22--Dortmund, DE
-  venue_name: ''
-  city: -Dortmund
+  raw: November 22--Parzelle, Dortmund, DE
+  venue_name: -Parzelle
+  city: Dortmund
   region: DE
   country: ''
   lineup: ''
@@ -221,9 +239,9 @@ events:
   method: text
   year_inferred: true
   venue_id: null
-  match_score: 0.0
-  match_note: no venue named in the listing
-  id: e16ffa3862d2
+  match_score: 0.379
+  match_note: 'no confident match (best: domicil, name similarity 0.23; city matches (Dortmund))'
+  id: 520702db1c94
 - date: '2027-03-09'
   raw: March 9-13, 2020
   venue_name: '13'

@@ -65,12 +65,12 @@ provenance:
   - https://cvnc.org/article.cfm?articleId=10426
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
     final_url: https://www.mallarmemusic.org/
-  last_crawled: '2026-11-09'
-  last_content_hash: f2f0df1388724089
+  last_crawled: '2026-11-16'
+  last_content_hash: f9a08b63af3adf80
   crawl_http_status: 200
 notes: Downtown Durham gallery used as an intimate concert venue by new-music/improv presenters.
   Frequency and current improv-specific programming not fully verified; needs human review.

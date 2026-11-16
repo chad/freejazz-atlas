@@ -67,11 +67,11 @@ provenance:
   - https://roadbook.com/tokyo/city-guide/best-listening-bars-live-music-venues-clubs-nightlife-tokyo/
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-10-12'
-  last_content_hash: 24488d782c0fdb67
+  last_crawled: '2026-11-16'
+  last_content_hash: 0cc2043853802e49
   crawl_http_status: 200
 notes: Hatagaya DIY cafe/studio (est. 2010); experimental and ambient/electronic-leaning more
   than free-jazz, but a genuine adventurous listening space.

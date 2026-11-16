@@ -1,7 +1,7 @@
 artist_id: marc-ribot
 artist_name: Marc Ribot
 source_url: http://www.marcribot.com/tour-dates
-scraped_on: '2026-10-12'
+scraped_on: '2026-11-16'
 method: text
 note: 'Scraped from the artist''s own dates page. Dates without a year in the source have
   year_inferred: true. venue_id is set only where the match evidence is strong; match_note
@@ -22,7 +22,7 @@ events:
   match_score: 0.0
   match_note: no venue named in the listing
   id: 3847b897bf40
-- date: '2026-07-15'
+- date: '2027-07-15'
   raw: July 15 - July 29 | w/ Diana Krall - European Tour
   venue_name: July 29 | w/ Diana Krall - European Tour
   city: ''
@@ -36,7 +36,7 @@ events:
   venue_id: null
   match_score: 0.393
   match_note: 'no confident match (best: Arts + Literature Laboratory, name similarity 0.39)'
-  id: f5cbf29bebdc
+  id: dcf764170de4
 - date: '2027-05-09'
   raw: May 9 - La Bisbal/ES Teatre Mundial
   venue_name: La Bisbal/ES Teatre Mundial
@@ -335,7 +335,7 @@ events:
   match_score: 0.444
   match_note: 'no confident match (best: Make-Out Room, name similarity 0.44)'
   id: 7004a2d5a6fa
-- date: '2026-07-17'
+- date: '2027-07-17'
   raw: July 17 - London/UK Jazz Cafe (LOW TIX ALERT!)
   venue_name: London/UK Jazz Cafe
   city: LOW TIX ALERT!
@@ -350,8 +350,8 @@ events:
   match_score: 0.31
   match_note: 'no confident match (best: Jack London Revue, name similarity 0.52; city differs
     (LOW TIX ALERT! vs Portland))'
-  id: fbe7216e8587
-- date: '2026-07-18'
+  id: 561ff4beb2a8
+- date: '2027-07-18'
   raw: July 18 - Rotterdam/NL LantarenVenster (SOLD OUT!)
   venue_name: Rotterdam/NL LantarenVenster
   city: SOLD OUT!
@@ -366,8 +366,8 @@ events:
   match_score: 0.263
   match_note: 'no confident match (best: Avant Vespers, name similarity 0.44; city differs
     (SOLD OUT! vs Provo))'
-  id: 6bb61ce94278
-- date: '2026-07-19'
+  id: b9372ecc5d19
+- date: '2027-07-19'
   raw: July 19 - Hamburg/DE Nica Jazz Club
   venue_name: Hamburg/DE Nica Jazz Club
   city: ''
@@ -381,8 +381,8 @@ events:
   venue_id: null
   match_score: 0.514
   match_note: 'no confident match (best: The Bird''s Eye Jazz Club, name similarity 0.51)'
-  id: d5c3b0557fac
-- date: '2026-07-20'
+  id: 6fe8ed8274f3
+- date: '2027-07-20'
   raw: July 20 - Lublin/PL Lublin Jazz Festival
   venue_name: Lublin/PL Lublin Jazz Festival
   city: ''
@@ -396,8 +396,8 @@ events:
   venue_id: null
   match_score: 0.609
   match_note: 'no confident match (best: We Jazz, name similarity 0.61)'
-  id: 839b4e6ed2b4
-- date: '2026-07-22'
+  id: db20285e07f9
+- date: '2027-07-22'
   raw: July 22 - Montone/IT Rocca di Braccio (SOLD OUT!)
   venue_name: Montone/IT Rocca di Braccio
   city: SOLD OUT!
@@ -412,8 +412,8 @@ events:
   match_score: 0.25
   match_note: 'no confident match (best: Constellation, name similarity 0.42; city differs
     (SOLD OUT! vs Chicago))'
-  id: acb66d2e1bf3
-- date: '2026-07-25'
+  id: a6ffa787dbc5
+- date: '2027-07-25'
   raw: July 25 - San Sebastian/ES Jazzaldia 60 Festival (LOW TIX ALERT!)
   venue_name: San Sebastian/ES Jazzaldia 60 Festival
   city: LOW TIX ALERT!
@@ -428,8 +428,8 @@ events:
   match_score: 0.333
   match_note: 'no confident match (best: We Jazz, name similarity 0.56; city differs (LOW
     TIX ALERT! vs Helsinki))'
-  id: eb2858b3b04f
-- date: '2026-07-25'
+  id: 71a1eba5fc89
+- date: '2027-07-25'
   raw: 'July 25 - Marc Ribot Quartet: Hurry Red Telephone'
   venue_name: Marc Ribot Quartet
   city: ''
@@ -443,8 +443,8 @@ events:
   venue_id: null
   match_score: 0.513
   match_note: 'no confident match (best: Machines with Magnets, name similarity 0.51)'
-  id: edcdf8b8d2b8
-- date: '2026-07-26'
+  id: 275c8c9cda54
+- date: '2027-07-26'
   raw: July 26 - Solo
   venue_name: Solo
   city: ''
@@ -458,8 +458,8 @@ events:
   venue_id: null
   match_score: 0.571
   match_note: 'no confident match (best: Cafe OTO, name similarity 0.57)'
-  id: db2ffc10a963
-- date: '2026-07-27'
+  id: e698eef79eb8
+- date: '2027-07-27'
   raw: July 27 - Ceramic Dog
   venue_name: Ceramic Dog
   city: ''
@@ -473,7 +473,7 @@ events:
   venue_id: null
   match_score: 0.483
   match_note: 'no confident match (best: Elastic Arts, name similarity 0.48)'
-  id: 4c7d126122bc
+  id: 68755974b9dc
 - date: '2026-08-25'
   raw: Aug 25 - Split/Croatia Sustipan Vibrez Festival
   venue_name: Split/Croatia Sustipan Vibrez Festival
@@ -1316,7 +1316,7 @@ events:
   match_note: 'no confident match (best: The Fruit, name similarity 0.36; city differs (Portugal
     vs Durham))'
   id: 2e590b64199c
-- date: '2026-07-20'
+- date: '2027-07-20'
   raw: 'July 20: Molde Jazz Festival - Norway'
   venue_name: Molde Jazz Festival - Norway
   city: ''
@@ -1330,8 +1330,8 @@ events:
   venue_id: null
   match_score: 0.714
   match_note: 'no confident match (best: We Jazz, name similarity 0.71)'
-  id: e67aad3c5f3e
-- date: '2026-07-27'
+  id: 565f445cee9c
+- date: '2027-07-27'
   raw: 'July 27: Empoli Jazz Festival (RESCHEDULED TO AUG 3)'
   venue_name: Empoli Jazz Festival
   city: RESCHEDULED TO AUG 3
@@ -1346,8 +1346,8 @@ events:
   match_score: 0.5
   match_note: 'no confident match (best: We Jazz, name similarity 0.83; city differs (RESCHEDULED
     TO AUG 3 vs Helsinki))'
-  id: e3d2b8406e49
-- date: '2026-08-04'
+  id: 096a2b8dbcf3
+- date: '2027-08-04'
   raw: 'Aug 4: Cortile della Cittadella dei Giovani di Aosta - Aosta, Italy'
   venue_name: Cortile della Cittadella dei Giovani di Aosta - Aosta
   city: Italy
@@ -1362,7 +1362,7 @@ events:
   match_score: 0.217
   match_note: 'no confident match (best: Constellation, name similarity 0.36; city differs
     (Italy vs Chicago))'
-  id: b0951d9937b5
+  id: 37939cede90f
 - date: '2026-09-05'
   raw: 'Sept 5: Los Angeles, CA - Zebulon'
   venue_name: Los Angeles

@@ -71,10 +71,10 @@ provenance:
   - https://www.jazznearyou.com/nyc/venue/ibeam-brooklyn
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 2b3589ba54ddbb07
+  last_crawled: '2026-11-16'
+  last_content_hash: 6efb00db8cb494e0
   crawl_http_status: 200
 notes: 'ANCHOR: calibrated as a VERY HIGH cornerstone venue.'

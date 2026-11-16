@@ -71,11 +71,11 @@ provenance:
   - https://artsandculturetx.com/a-brief-survey-of-experimental-music-in-houston/
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 079c11e43a7eb92a
+  last_crawled: '2026-11-16'
+  last_content_hash: a1b417dfdb297fa2
   crawl_http_status: 200
 notes: Museum District art center that hosts Nameless Sound's weekly They, Who Sound - Houston's
   most regular improvised/experimental music night.

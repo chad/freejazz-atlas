@@ -71,11 +71,11 @@ provenance:
   - https://www.theadvocate.com/gambit/new_orleans/news/zeitgeist-theatre-lounge-moves-to-arabi-with-opening-week-festivities/article_a803c848-3b9a-11e9-af1d-f7f644afcdcf.html
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: ac12f72603decb08
+  last_crawled: '2026-11-16'
+  last_content_hash: 73d2db347abc6fe3
   crawl_http_status: 200
 notes: Veteran New Orleans-area nonprofit arts center (now in Arabi). Primarily an art-house
   cinema; the share and regularity of experimental/improvised music programming was not fully

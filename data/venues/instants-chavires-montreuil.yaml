@@ -68,11 +68,11 @@ provenance:
   - https://uk.tourisme93.com/instants-chavires-montreuil.html
   needs_human_review: true
   link_check:
-    checked: '2026-11-09'
+    checked: '2026-11-16'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 9a170f62886910f8
+  last_crawled: '2026-11-16'
+  last_content_hash: 2b73140ea14d05ea
   crawl_http_status: 200
 notes: Flagship French laboratory for experimental and improvised music, in Montreuil just
   east of Paris.
