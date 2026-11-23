@@ -69,11 +69,11 @@ provenance:
   - https://destinationmissoula.org/partner/zootown-arts-community-center
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 0c83d4d2a6999ebc
+  last_crawled: '2026-11-23'
+  last_content_hash: 5edfdd7b4b12c94c
   crawl_http_status: 200
 notes: Missoula's nonprofit community arts center; its Show Room hosts experimental/improvised
   acts and the Jazzoula series within broad nightly programming.

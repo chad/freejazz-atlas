@@ -66,12 +66,12 @@ provenance:
   - https://www.explorebigsky.com/bozeman-public-library-announces-lineup-for-improvised-music-series/52040
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: blocked
     http: 403
     detail: HTTP 403
-  last_crawled: '2026-11-16'
-  last_content_hash: 74a45f0d3ff8b318
+  last_crawled: '2026-11-23'
+  last_content_hash: 4dd93e08365d5a7a
   crawl_http_status: 200
 notes: A dedicated free improvised-music series at the Bozeman Public Library, directed by
   Craig Hall. Verified via a single Explore Big Sky article; current-season status should

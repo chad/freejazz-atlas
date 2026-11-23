@@ -71,11 +71,11 @@ provenance:
   - https://arts.ca.gov/grantee/indexical-2/
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-11-16'
-  last_content_hash: 93632033afac7a1b
+  last_crawled: '2026-11-23'
+  last_content_hash: e2dbccdd5c6a4ff2
   crawl_http_status: 200
 notes: Santa Cruz nonprofit purpose-built as a home for experimental and improvised music;
   ~60 events a year at the Tannery Arts Center.

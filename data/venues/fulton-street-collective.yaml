@@ -69,11 +69,11 @@ provenance:
   - https://www.jazzrecordartcollective.com/about.html
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-11-16'
-  last_content_hash: a0c238acdf504eb4
+  last_crawled: '2026-11-23'
+  last_content_hash: dfc8948a1cf3a191
   crawl_http_status: 200
 notes: West Town artist loft; programming spans creative and mainstream jazz. Also the base
   of the Jazz Record Art Collective.

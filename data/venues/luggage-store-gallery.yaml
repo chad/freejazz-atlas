@@ -73,11 +73,11 @@ provenance:
     why: old domain luggagestoregallerysf.org no longer resolves; current site verified live
     by: maintainer:linkcheck-sweep
   link_check:
-    checked: '2026-11-16'
-    status: unreachable
-    detail: 'timeout: The read operation timed out'
-  last_crawled: '2026-11-16'
-  last_content_hash: dff573abfa6fc7e2
+    checked: '2026-11-23'
+    status: ok
+    http: 200
+  last_crawled: '2026-11-23'
+  last_content_hash: 6d6fd39436ac9363
   crawl_http_status: 200
   last_crawl_error: 'HTTPSConnectionPool(host=''luggagestoregallery.org'', port=443): Read
     timed out. (read timeout=20)'

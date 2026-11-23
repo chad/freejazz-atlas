@@ -67,10 +67,10 @@ provenance:
   - https://austin.culturemap.com/news/entertainment/02-06-14-bringing-adventurous-avant-garde-music-to-town-with-pedro-moreno-and-epistrophy-arts/
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
-    status: ok
-    http: 202
-  last_crawled: '2026-11-16'
-  last_content_hash: e3b0c44298fc1c14
-  crawl_http_status: 202
+    checked: '2026-11-23'
+    status: unreachable
+    detail: 'RemoteDisconnected: Remote end closed connection without response'
+  last_crawled: '2026-11-23'
+  last_content_hash: 40ed84a00e11a5d5
+  crawl_http_status: 403
 notes: Presenter; books into Austin rooms such as the Museum of Human Achievement.

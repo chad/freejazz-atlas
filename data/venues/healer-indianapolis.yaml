@@ -67,7 +67,7 @@ provenance:
   - https://do317.com/venues/healer
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: blocked
     http: 400
     detail: HTTP 400

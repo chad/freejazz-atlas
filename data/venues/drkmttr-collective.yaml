@@ -69,11 +69,11 @@ provenance:
   - https://daily.bandcamp.com/scene-report/nashville-diy-experimental-electronic-list
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-11-16'
-  last_content_hash: 7b9da275cdfef103
+  last_crawled: '2026-11-23'
+  last_content_hash: 0f1304e7101f004c
   crawl_http_status: 200
 notes: Volunteer-run all-ages DIY venue in East Nashville; experimental/noise/electronic is
   a core welcome but the booking is broad (also punk, indie).

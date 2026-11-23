@@ -69,13 +69,13 @@ provenance:
   - https://www.capitalbop.com/bobby-hill-transparent-productions/
   - https://www.transparentproductionsdc.org/
   - https://www.washingtonpost.com/archive/lifestyle/2005/09/16/transparent-productions-unconventional-ways/33e5bb3d-4f4f-4fea-8b58-49abb4164685/
-  needs_human_review: false
+  needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-08-17'
-  last_content_hash: 3ca9c32c8a1d9002
+  last_crawled: '2026-11-23'
+  last_content_hash: f140a25aa2d32dc5
   crawl_http_status: 200
 notes: Long-running DC free-jazz presenting cooperative (since 1997). Currently hosts at Rhizome
   DC (already in atlas as a venue); Transparent is the distinct presenter/curator.

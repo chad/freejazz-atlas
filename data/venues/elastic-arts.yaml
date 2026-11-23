@@ -68,10 +68,10 @@ provenance:
   - https://elasticarts.org/
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-11-16'
-  last_content_hash: e34812063b037a43
+  last_crawled: '2026-11-23'
+  last_content_hash: 2b91964a11810517
   crawl_http_status: 200
 notes: Cornerstone of the Chicago improvised-music scene.

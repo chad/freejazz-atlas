@@ -71,11 +71,11 @@ provenance:
   - https://www.travelportland.com/meetings/hotel-venue-finder/the-old-church-concert-hall/
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-11-09'
-  last_content_hash: 647667b251304ac2
+  last_crawled: '2026-11-23'
+  last_content_hash: 55ec8f2fd7026d42
   crawl_http_status: 200
 notes: Historic 1882 nonprofit concert hall; a strong listening room that programs adventurous/new
   music occasionally within a broad calendar.

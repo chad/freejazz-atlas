@@ -68,11 +68,12 @@ provenance:
   - https://www.cologne-tourism.com/arts-culture/sights/detail/king-georg
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
-    status: ok
-    http: 200
-  last_crawled: '2026-09-07'
-  last_content_hash: 96a0c0f5f1dd9dd4
-  crawl_http_status: 200
+    checked: '2026-11-23'
+    status: dead
+    http: 404
+    detail: HTTP 404
+  last_crawled: '2026-11-23'
+  last_content_hash: 3dfee0e97b6da2e1
+  crawl_http_status: 404
 notes: Nonprofit Cologne jazz club/bar with a mostly mainstream jazz program; adventurous
   music is secondary.

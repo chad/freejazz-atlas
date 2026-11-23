@@ -70,11 +70,11 @@ provenance:
   - https://en.wikipedia.org/wiki/Jazzclub_Unterfahrt
   needs_human_review: true
   link_check:
-    checked: '2026-11-16'
+    checked: '2026-11-23'
     status: ok
     http: 200
-  last_crawled: '2026-11-16'
-  last_content_hash: 07214dd8bf59f0cc
+  last_crawled: '2026-11-23'
+  last_content_hash: c1f9dbe9260a9106
   crawl_http_status: 200
 notes: Munich's flagship jazz club with free-jazz roots; adventurous programming is a strand
   within a broad jazz program.
